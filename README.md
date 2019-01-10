@@ -6,6 +6,7 @@ A place for me to organize information about SEO optimization
 * [backlinko-SEO this Year](https://backlinko.com/seo-this-year)
 * [10 Fundamentals to Understanding SEO](https://www.entrepreneur.com/article/299053)
 * [SEO Success Factors](https://www.searchenginejournal.com/seo-guide/seo-success-factors/)
+* https://www.searchenginejournal.com/seo-101/
 
 ### Evergreen Content
 * https://graywolfseo.com/seo/evergreen-content/
