@@ -1,7 +1,8 @@
 # Learn-SEO
 A place for me to organize information about SEO optimization
 
-
+### 101
+* [Ten SEO Fundamentals](https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals)
 
 ### Evergreen Content
 * https://graywolfseo.com/seo/evergreen-content/
