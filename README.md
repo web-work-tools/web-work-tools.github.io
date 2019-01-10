@@ -7,6 +7,7 @@ A place for me to organize information about SEO optimization
 * [Evergreen Content](#evergreen-content)
 * [Cornerstone Content](#cornerstone-content)
 * [Keyword Research](#keyword-research)
+  * [Tools](#tools)
 * [Backlinks](#backlinks)
 * [Competitive Analysis](#competitive-analysis)
 * [Domain Authority](#domain-authority)
@@ -51,6 +52,17 @@ A place for me to organize information about SEO optimization
 * [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
 * https://keywordtool.io/amazon
 
+
+#### For Bloggers
+* [Best Keyword Research for Bloggers](https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/)
+* [Stop keyword research for blogging](https://neilpatel.com/blog/stop-keyword-research-for-blogging/)
+
+#### LSI Keywords
+* [lsigraph.com](https://lsigraph.com/)
+* [LSI Keywords and Keywords Density](https://seopressor.com/learn-seopressor/lsi-keywords-and-keyword-density/)
+* [LSIKeywords.com](https://lsikeywords.com/)
+* https://beginnersbook.com/2012/11/lsi-keywords-for-better-ranking/
+* https://thecontentwrangler.com/2016/08/15/complete-guide-lis-keywords/#
 ### Backlinks
 
 * [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
@@ -58,10 +70,6 @@ A place for me to organize information about SEO optimization
 * [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
 * [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
 * [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
-
-#### For Bloggers
-* https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/
-* https://neilpatel.com/blog/stop-keyword-research-for-blogging/
 
 
 ### Competitive Analysis
