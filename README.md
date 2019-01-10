@@ -4,6 +4,8 @@ A place for me to organize information about SEO optimization
 ### 101
 * [Ten SEO Fundamentals](https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals)
 * [backlinko-SEO this Year](https://backlinko.com/seo-this-year)
+* [10 Fundamentals to Understanding SEO](https://www.entrepreneur.com/article/299053)
+
 ### Evergreen Content
 * https://graywolfseo.com/seo/evergreen-content/
 * https://backlinko.com/skyscraper-technique
