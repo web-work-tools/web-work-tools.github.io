@@ -1,6 +1,22 @@
 # Learn-SEO
 A place for me to organize information about SEO optimization
 
+### Contents
+
+* [101](#101)
+* [Evergreen Content](#evergreen-content)
+* [Cornerstone Content](#cornerstone-content)
+* [Keyword Research](#keyword-research)
+* [Backlinks](#backlinks)
+* [Competitive Analysis](#competitive-analysis)
+* [Domain Authority](#domain-authority)
+* [Adwords](#adwords)
+* [Ghost](#ghost)
+* [Squarespace](#squarespace)
+* [Wordpress](#wordpress)
+* [Mobile](#mobile)
+* [Resources](#resources)
+
 ### 101
 * [Ten SEO Fundamentals](https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals)
 * [backlinko-SEO this Year](https://backlinko.com/seo-this-year)
@@ -71,6 +87,8 @@ A place for me to organize information about SEO optimization
 
 ### Wordpress
 * [Wordpress Local-SEO](https://onlinemediamasters.com/wordpress-local-seo/)
+
+### Mobile
 
 ### Resources
 
