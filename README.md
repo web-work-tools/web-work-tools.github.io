@@ -52,6 +52,8 @@ A place for me to organize information about SEO optimization
 * https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/
 * https://techtage.com/how-to-increase-domain-authority/
 
+### Adwords
+
 ### Ghost
 * [Optimize Ghost for SEO-Page Title](https://blog.mornati.net/optimize-ghost-for-seo-page-title/)
 
