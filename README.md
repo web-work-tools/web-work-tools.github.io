@@ -32,6 +32,7 @@ A place for me to organize information about SEO optimization
 * [ahrefs.com - free keyword research tools](https://ahrefs.com/blog/free-keyword-research-tools/)
 * [How to use Google Trends for Keyword Research](https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/)
 * [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
+* https://keywordtool.io/amazon
 
 #### For Bloggers
 * https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/
