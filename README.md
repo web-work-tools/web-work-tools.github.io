@@ -37,9 +37,11 @@ A place for me to organize information about SEO optimization
 
 ### Backlinks
 
-* https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/
-
-* https://backlinko.com/backlinks-guide
+* [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
+* [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
+* [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
+* [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
+* [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
 
 #### For Bloggers
 * https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/
