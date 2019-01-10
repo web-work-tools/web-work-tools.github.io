@@ -35,6 +35,11 @@ A place for me to organize information about SEO optimization
 * [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
 * https://keywordtool.io/amazon
 
+### Backlinks
+
+* https://monitorbacklinks.com
+* https://backlinko.com/backlinks-guide
+
 #### For Bloggers
 * https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/
 * https://neilpatel.com/blog/stop-keyword-research-for-blogging/
