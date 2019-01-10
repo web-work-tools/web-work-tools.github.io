@@ -69,6 +69,7 @@ A place for me to organize information about SEO optimization
 * https://searchenginewatch.com/sew/how-to/2406842/5-steps-for-seo-competitive-analysis-research
 * https://moz.com/blog/category/competitive-research
 * http://beamusup.com/research-competition-seo-crawler/
+* https://curatedseotools.com/site-audit/
 
 
 ### Domain Authority
