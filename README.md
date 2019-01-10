@@ -14,20 +14,24 @@ A place for me to organize information about SEO optimization
 ### Cornerstone Content
 
 ### Keyword Research
-
 * [Keyword Research Fundamentals](https://www.csbtechemporium.com/keyword-research-fundamentals/) -@infominer
-* https://ahrefs.com/blog/free-keyword-research-tools/
-* https://searchengineland.com/build-customer-centric-keyword-strategy-220472
-* https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/
-* https://backlinko.com/google-keyword-planner
-* https://mangools.com/blog/what-is-keyword-seo-difficulty/
-* https://www.wordstream.com/blog/ws/2017/01/23/keyword-search-volume
-* https://www.brafton.com/blog/strategy/how-to-use-keyword-difficulty-in-your-keyword-research-process/
+* [Moz - Keyword Research](https://moz.com/beginners-guide-to-seo/keyword-research)
+* [Building a Customer Centric Keyword Strategy](https://searchengineland.com/build-customer-centric-keyword-strategy-220472)
+* [Keyword Search Volume](https://www.wordstream.com/blog/ws/2017/01/23/keyword-search-volume)
+* [Long-Tail Keywords](https://backlinko.com/long-tail-keywords)
+* [What is Keyword SEO Difficulty?](https://mangools.com/blog/what-is-keyword-seo-difficulty/)
+* [How to use Difficulty in you Keyword Research Process](https://www.brafton.com/blog/strategy/how-to-use-keyword-difficulty-in-your-keyword-research-process/)
 * https://www.quora.com/Which-is-the-best-keywords-for-website-development-company
 
 #### Tools
 
 * [Check your raking for a given keyword](https://www.seocentro.com/tools/search-engines/keyword-position.html)
+* [KWFinder](https://authoritywebsiteincome.com/best-kw-research-tool-keyword-competitiveness/)
+* [SEMRush](https://semrush.com)
+* [Google Keyword Planner](https://backlinko.com/google-keyword-planner)
+* [ahrefs.com - free keyword research tools](https://ahrefs.com/blog/free-keyword-research-tools/)
+* [How to use Google Trends for Keyword Research](https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/)
+* [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
 
 #### For Bloggers
 * https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/
@@ -46,6 +50,7 @@ A place for me to organize information about SEO optimization
 * https://seopressor.com/blog/how-to-increase-domain-authority/
 * https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458
 * https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/
+* https://techtage.com/how-to-increase-domain-authority/
 
 ### Ghost
 * [Optimize Ghost for SEO-Page Title](https://blog.mornati.net/optimize-ghost-for-seo-page-title/)
