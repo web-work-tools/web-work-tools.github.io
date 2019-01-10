@@ -3,7 +3,7 @@ A place for me to organize information about SEO optimization
 
 ### 101
 * [Ten SEO Fundamentals](https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals)
-
+* [backlinko-SEO this Year](https://backlinko.com/seo-this-year)
 ### Evergreen Content
 * https://graywolfseo.com/seo/evergreen-content/
 * https://backlinko.com/skyscraper-technique
