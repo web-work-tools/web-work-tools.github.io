@@ -22,6 +22,10 @@ A place for me to organize information about SEO optimization
 * https://www.brafton.com/blog/strategy/how-to-use-keyword-difficulty-in-your-keyword-research-process/
 * https://www.quora.com/Which-is-the-best-keywords-for-website-development-company
 
+#### Tools
+
+* [Check your raking for a given keyword](https://www.seocentro.com/tools/search-engines/keyword-position.html)
+
 #### For Bloggers
 * https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/
 * https://neilpatel.com/blog/stop-keyword-research-for-blogging/
