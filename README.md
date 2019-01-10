@@ -37,7 +37,8 @@ A place for me to organize information about SEO optimization
 
 ### Backlinks
 
-* https://monitorbacklinks.com
+* https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/
+
 * https://backlinko.com/backlinks-guide
 
 #### For Bloggers
