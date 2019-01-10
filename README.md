@@ -25,21 +25,35 @@ A place for me to organize information about SEO optimization
 * [SEO Success Factors](https://www.searchenginejournal.com/seo-guide/seo-success-factors/)
 * https://www.searchenginejournal.com/seo-101/
 
+### Know Your Customer
+
+* [Know Your Audience](https://www.searchenginejournal.com/seo-guide/know-your-audience/)
+* [Know Your Customer](https://yoast.com/know-your-customer/)
+
 ### Evergreen Content
 * https://graywolfseo.com/seo/evergreen-content/
 * https://backlinko.com/skyscraper-technique
 
 ### Cornerstone Content
+* [What is Cornerstone Content?](https://yoast.com/what-is-cornerstone-content/)
+* [Cornerstone Content](https://makeawebsitehub.com/cornerstone-content/)
+* https://yoast.com/cornerstone-content-rank/
+* https://loriballen.com/cornerstone-content-key-pages-website/
+* https://www.copyblogger.com/how-to-create-cornerstone-content-that-google-loves/
 
 ### Keyword Research
 * [Keyword Research Fundamentals](https://www.csbtechemporium.com/keyword-research-fundamentals/) -@infominer
 * [Moz - Keyword Research](https://moz.com/beginners-guide-to-seo/keyword-research)
 * [Building a Customer Centric Keyword Strategy](https://searchengineland.com/build-customer-centric-keyword-strategy-220472)
 * [Keyword Search Volume](https://www.wordstream.com/blog/ws/2017/01/23/keyword-search-volume)
-* [Long-Tail Keywords](https://backlinko.com/long-tail-keywords)
 * [What is Keyword SEO Difficulty?](https://mangools.com/blog/what-is-keyword-seo-difficulty/)
 * [How to use Difficulty in you Keyword Research Process](https://www.brafton.com/blog/strategy/how-to-use-keyword-difficulty-in-your-keyword-research-process/)
-* https://www.quora.com/Which-is-the-best-keywords-for-website-development-company
+* [Long-Tail Keywords](https://backlinko.com/long-tail-keywords)
+* [Focus on Long-Tail Keywords](https://yoast.com/focus-on-long-tail-keywords/)
+
+
+
+
 
 #### Tools
 
@@ -63,6 +77,7 @@ A place for me to organize information about SEO optimization
 * [LSIKeywords.com](https://lsikeywords.com/)
 * https://beginnersbook.com/2012/11/lsi-keywords-for-better-ranking/
 * https://thecontentwrangler.com/2016/08/15/complete-guide-lis-keywords/#
+
 ### Backlinks
 
 * [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
@@ -70,7 +85,7 @@ A place for me to organize information about SEO optimization
 * [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
 * [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
 * [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
-
+* https://www.crazyegg.com/blog/smart-ways-get-quality-backlinks/
 
 ### Competitive Analysis
 
@@ -110,3 +125,4 @@ A place for me to organize information about SEO optimization
 
 
 
+* https://www.quora.com/Which-is-the-best-keywords-for-website-development-company
