@@ -145,16 +145,14 @@ A place for me to organize information about SEO optimization
 
 * [Title Tag](https://moz.com/learn/seo/title-tag)
 * [Meta Descriptions](https://www.searchenginejournal.com/seo-best-practices-meta-descriptions/262747/)
-* Use readable user and search friendly URLs.
+* Images
 * video content
 * header tags (H1, H2, H3, etc.).
 * Anchor Text
 * https
 * page speed
-* Schema
-  * https://www.searchenginejournal.com/schema-101-improve-seo-results/204858/
-* Search Engine Friendly URL
-  * https://www.searchenginejournal.com/seo-friendly-url-structure-2/202790/
+* [Schema](https://www.searchenginejournal.com/schema-101-improve-seo-results/204858/)
+* [Search Engine Friendly URL](https://www.searchenginejournal.com/seo-friendly-url-structure-2/202790/)
 
 #### Apply SEO to Different Platforms
 
@@ -182,11 +180,6 @@ A place for me to organize information about SEO optimization
 
 ### Mobile
 
-### History
-
-* [SEO History](https://www.searchenginejournal.com/seo-101/seo-history/)
-* http://infolab.stanford.edu/~backrub/google.html
-* [Google Algorithm History](https://www.searchenginejournal.com/google-algorithm-history/)
 
 ### Google Algorithm
 
@@ -211,6 +204,17 @@ You’re far better off understanding your audience and creating content that bu
 ### Studies
 * [Google Study](https://www.thinkwithgoogle.com/consumer-insights/shopper-research/)
 * https://backlinko.com/search-engine-ranking
+
+### ETC
+
+* [SEO Changing Article Dates](https://www.searchenginejournal.com/seo-changing-article-dates/225789/)
+
+### History
+
+* [SEO History](https://www.searchenginejournal.com/seo-101/seo-history/)
+* http://infolab.stanford.edu/~backrub/google.html
+* [Google Algorithm History](https://www.searchenginejournal.com/google-algorithm-history/)
+
 
 ### Resources
 
