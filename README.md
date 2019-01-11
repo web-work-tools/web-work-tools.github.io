@@ -4,21 +4,37 @@ A place for me to organize information about SEO optimization
 ### Contents
 
 * [101](#101)
+* [Know yourself](#Know-yourself)
+  * [Competitive Analysis](#Competitive-Analysis) 
+* [Know Your Customer](#Know-Your-Customer)
+  * [Ways to gather customer insight](#Ways-to-gather-customer-insight) 
+  * [Personas](#personas)
+  * [Identify Infuencers of Target Audience](#identify-influencers-of-target-audience)
 * [Evergreen Content](#evergreen-content)
 * [Cornerstone Content](#cornerstone-content)
 * [Keyword Research](#keyword-research)
+  * [Long Tail Keywords](#Long-Tail-Keywords)
   * [Tools](#tools)
   * [For Bloggers](#for-bloggers)
-* [Backlinks](#backlinks)
-* [Competitive Analysis](#competitive-analysis)
 * [Domain Authority](#domain-authority)
-* [Adwords](#adwords)
-* [Ghost](#ghost)
-* [Squarespace](#squarespace)
-* [Wordpress](#wordpress)
-* [Mobile](#mobile)
+  * [Internal Linking](#internal-linking)
+  * [Mobile First](#mobile-first)
+  * [Backlinks](#backlinks)
+    * [Get links by](#Get-links-by)
+    * [Backlink Research](#Backlink-Research)
+* [Optimizations](#Optimizations)
+  * [Adwords](#adwords)
+  * [Ghost](#ghost)
+  * [Squarespace](#squarespace)
+  * [Wordpress](#wordpress)
+  * [Mobile](#mobile)
+  * [Apply SEO to Different Platforms](#apply-seo-to-different-platforms)
 * [Google Algorithm](#google-algorithm)
+* [Machine Learning](#machine-learning)
+* [Studies](#Studies)
 * [Resources](#resources)
+
+
 
 ### 101
 * [Ten SEO Fundamentals](https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals)
@@ -27,6 +43,10 @@ A place for me to organize information about SEO optimization
 * [SEO Success Factors](https://www.searchenginejournal.com/seo-guide/seo-success-factors/)
 * https://www.searchenginejournal.com/
 * [13 SEO KPI](https://www.searchenginejournal.com/content-marketing-kpis/seo/)
+
+### Know Yourself
+
+
 
 ### Know Your Customer
 
@@ -56,9 +76,42 @@ A place for me to organize information about SEO optimization
 
 
 
+### Domain Authority
+* http://precisebench.com/how-to-increase-domain-authority/
+* https://seopressor.com/blog/how-to-increase-domain-authority/
+* https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458
+* https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/
+* https://techtage.com/how-to-increase-domain-authority/
+
+#### Internal Linking
+
+#### Mobile First
+
+#### Backlinks
+
+##### Get links by
+* Creating 10x Content:
+  * https://www.searchenginejournal.com/guide-10x-content-new-successful-content-beyond/139731/
+  * https://backlinko.com/skyscraper-technique
+* Guest Blogging
+* "opinion-forming journalism from recognized experts, and data-driven research studies showed a strong correlation between shares and links."
+* Client case studies: These are shared by the client and can include exciting information about how they achieved their results, which can help others.
+* Infographics: These still get shared heavily online and are a great way to provide an instant view of data on a specific topic. It can be fun and informative, and usually, are republished on other blogs and shared on social media.
+* Other content that highlights influencers: This could include podcasts or video interviews.
+* Industry surveys: Many publishers do annual industry surveys, which have become well-known (and well-cited) each time they are released. 
+* Free content or tools: This could include long-form content such as ebooks, or useful tools like quizzes and personalized reports that give users the helpful information they didn’t know before. 
+
+##### Backlink Research
+* [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
+* [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
+* [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
+* [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
+* [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
+* https://www.crazyegg.com/blog/smart-ways-get-quality-backlinks/
 
 
-#### Tools
+
+##### Tools
 
 * [Check your raking for a given keyword](https://www.seocentro.com/tools/search-engines/keyword-position.html)
 * [KWFinder](https://authoritywebsiteincome.com/best-kw-research-tool-keyword-competitiveness/)
@@ -81,15 +134,6 @@ A place for me to organize information about SEO optimization
 * https://beginnersbook.com/2012/11/lsi-keywords-for-better-ranking/
 * https://thecontentwrangler.com/2016/08/15/complete-guide-lis-keywords/#
 
-### Backlinks
-
-* [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
-* [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
-* [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
-* [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
-* [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
-* https://www.crazyegg.com/blog/smart-ways-get-quality-backlinks/
-
 ### Competitive Analysis
 
 * https://searchenginewatch.com/sew/how-to/2406842/5-steps-for-seo-competitive-analysis-research
@@ -97,23 +141,44 @@ A place for me to organize information about SEO optimization
 * http://beamusup.com/research-competition-seo-crawler/
 * https://curatedseotools.com/site-audit/
 
+### Optimizations
 
-### Domain Authority
-* http://precisebench.com/how-to-increase-domain-authority/
-* https://seopressor.com/blog/how-to-increase-domain-authority/
-* https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458
-* https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/
-* https://techtage.com/how-to-increase-domain-authority/
+* titles and meta descriptions.
+  * https://moz.com/learn/seo/title-tag 
+* Use readable user and search friendly URLs.
+* video content
+* header tags (H1, H2, H3, etc.).
+* Anchor Text
+* https
+* page speed
+* Schema
+  * https://www.searchenginejournal.com/schema-101-improve-seo-results/204858/
+* Search Engine Friendly URL
+  * https://www.searchenginejournal.com/seo-friendly-url-structure-2/202790/
 
-### Adwords
+#### Apply SEO to Different Platforms
 
-### Ghost
+* App store
+* YouTube channel and video 
+* Google My Business
+* Social media
+* Amazon
+* Yelp
+
+
+#### Adwords
+
+#### Ghost
 * [Optimize Ghost for SEO-Page Title](https://blog.mornati.net/optimize-ghost-for-seo-page-title/)
 
-### SquareSpace
+#### SquareSpace
 
-### Wordpress
+#### Wordpress
 * [Wordpress Local-SEO](https://onlinemediamasters.com/wordpress-local-seo/)
+
+
+### Small Business SEO
+
 
 ### Mobile
 
@@ -143,6 +208,10 @@ You’re far better off understanding your audience and creating content that bu
 * https://www.searchenginejournal.com/seo-guide/machine-learning/
 * [Machine Learning in SEO](https://www.searchenginejournal.com/how-machine-learning-in-search-works/257837/)
 
+### Studies
+* [Google Study](https://www.thinkwithgoogle.com/consumer-insights/shopper-research/)
+* https://backlinko.com/search-engine-ranking
+
 ### Resources
 
 * https://github.com/teles/awesome-seo
@@ -150,7 +219,6 @@ You’re far better off understanding your audience and creating content that bu
 * https://github.com/marcobiedermann/search-engine-optimization
 
 * [Best SEO BLogs](https://blog.hubspot.com/marketing/best-seo-blogs)
-* [Google Study](https://www.thinkwithgoogle.com/consumer-insights/shopper-research/)
 
 ### Extra
 
