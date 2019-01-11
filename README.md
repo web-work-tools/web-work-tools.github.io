@@ -8,6 +8,7 @@ A place for me to organize information about SEO optimization
 * [Cornerstone Content](#cornerstone-content)
 * [Keyword Research](#keyword-research)
   * [Tools](#tools)
+  * [For Bloggers](#for-bloggers)
 * [Backlinks](#backlinks)
 * [Competitive Analysis](#competitive-analysis)
 * [Domain Authority](#domain-authority)
@@ -16,6 +17,7 @@ A place for me to organize information about SEO optimization
 * [Squarespace](#squarespace)
 * [Wordpress](#wordpress)
 * [Mobile](#mobile)
+* [Google Algorithm](#google-algorithm)
 * [Resources](#resources)
 
 ### 101
@@ -23,7 +25,8 @@ A place for me to organize information about SEO optimization
 * [backlinko-SEO this Year](https://backlinko.com/seo-this-year)
 * [10 Fundamentals to Understanding SEO](https://www.entrepreneur.com/article/299053)
 * [SEO Success Factors](https://www.searchenginejournal.com/seo-guide/seo-success-factors/)
-* https://www.searchenginejournal.com/seo-101/
+* https://www.searchenginejournal.com/
+* [13 SEO KPI](https://www.searchenginejournal.com/content-marketing-kpis/seo/)
 
 ### Know Your Customer
 
@@ -114,15 +117,41 @@ A place for me to organize information about SEO optimization
 
 ### Mobile
 
+### History
+
+* [SEO History](https://www.searchenginejournal.com/seo-101/seo-history/)
+* http://infolab.stanford.edu/~backrub/google.html
+* [Google Algorithm History](https://www.searchenginejournal.com/google-algorithm-history/)
+
+### Google Algorithm
+
+* [Track Google Algorithm Updates](https://www.searchenginejournal.com/seo-guide/track-google-algorithm-updates/)
+  * https://moz.com/mozcast/
+  * https://www.semrush.com/sensor
+  * https://www.rankranger.com/rank-risk-index
+  * https://www.accuranker.com/grump/
+  * https://algoroo.com/
+  * https://www.advancedwebranking.com/google-algorithm-changes/
+  * https://barracuda.digital/panguin-seo-tool/
+  * https://cognitiveseo.com/signals/
+ 
+You can minimize your chances of avoiding a huge impact by always focusing on the SEO fundamentals. Avoid any shortcuts or spammy tactics that may have short-term gains but could create disaster in the long term.
+
+You’re far better off understanding your audience and creating content that builds your authority, relevance, and trust.
+
+### Machine Learning
+* https://www.searchenginejournal.com/seo-guide/machine-learning/
+* [Machine Learning in SEO](https://www.searchenginejournal.com/how-machine-learning-in-search-works/257837/)
+
 ### Resources
 
 * https://github.com/teles/awesome-seo
 
 * https://github.com/marcobiedermann/search-engine-optimization
 
-* https://blog.hubspot.com/marketing/best-seo-blogs
+* [Best SEO BLogs](https://blog.hubspot.com/marketing/best-seo-blogs)
+* [Google Study](https://www.thinkwithgoogle.com/consumer-insights/shopper-research/)
 
-
-
+### Extra
 
 * https://www.quora.com/Which-is-the-best-keywords-for-website-development-company
