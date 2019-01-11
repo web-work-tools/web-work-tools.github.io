@@ -175,7 +175,7 @@ A place for me to organize information about SEO optimization
 
 #### Wordpress
 * [Wordpress Local-SEO](https://onlinemediamasters.com/wordpress-local-seo/)
-
+* [Show Date Last Modified](https://www.shoutmeloud.com/show-last-modified-date-wordpress.html)
 
 ### Small Business SEO
 
