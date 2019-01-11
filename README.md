@@ -153,6 +153,9 @@ A place for me to organize information about SEO optimization
 * page speed
 * [Schema](https://www.searchenginejournal.com/schema-101-improve-seo-results/204858/)
 * [Search Engine Friendly URL](https://www.searchenginejournal.com/seo-friendly-url-structure-2/202790/)
+* Social Sharing Button
+
+![](https://www.searchenginejournal.com/wp-content/uploads/2018/08/how-to-create-perfectly-optimized-content-infographic.png)
 
 #### Apply SEO to Different Platforms
 
