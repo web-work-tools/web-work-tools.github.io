@@ -143,8 +143,8 @@ A place for me to organize information about SEO optimization
 
 ### Optimizations
 
-* titles and meta descriptions.
-  * https://moz.com/learn/seo/title-tag 
+* [Title Tag](https://moz.com/learn/seo/title-tag)
+* [Meta Descriptions](https://www.searchenginejournal.com/seo-best-practices-meta-descriptions/262747/)
 * Use readable user and search friendly URLs.
 * video content
 * header tags (H1, H2, H3, etc.).
