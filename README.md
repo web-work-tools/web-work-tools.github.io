@@ -73,8 +73,8 @@ A place for me to organize information about SEO optimization
 * [How to use Difficulty in you Keyword Research Process](https://www.brafton.com/blog/strategy/how-to-use-keyword-difficulty-in-your-keyword-research-process/)
 * [Long-Tail Keywords](https://backlinko.com/long-tail-keywords)
 * [Focus on Long-Tail Keywords](https://yoast.com/focus-on-long-tail-keywords/)
-
-
+* Searcher Intent
+* [Breadcrumbs](https://www.searchenginejournal.com/breadcrumbs-seo/255007/)
 
 ### Domain Authority
 * http://precisebench.com/how-to-increase-domain-authority/
@@ -150,10 +150,11 @@ A place for me to organize information about SEO optimization
 * header tags (H1, H2, H3, etc.).
 * Anchor Text
 * https
-* page speed
+* [Page Speed Podcast](https://www.searchenginejournal.com/ready-google-mobile-first-index-podcast/242807/)
 * [Schema](https://www.searchenginejournal.com/schema-101-improve-seo-results/204858/)
 * [Search Engine Friendly URL](https://www.searchenginejournal.com/seo-friendly-url-structure-2/202790/)
-* Social Sharing Button
+* Social Sharing Buttons
+* [User Experience](https://www.searchenginejournal.com/seo-guide/where-seo-and-user-experience-ux-collide/)
 
 ![](https://www.searchenginejournal.com/wp-content/uploads/2018/08/how-to-create-perfectly-optimized-content-infographic.png)
 
@@ -182,6 +183,33 @@ A place for me to organize information about SEO optimization
 
 
 ### Mobile
+Responsive Design
+Adaptive Website
+Separate Mobile Site
+
+* https://www.searchenginejournal.com/seo-guide/introduction-to-mobile-seo/
+* https://www.searchenginejournal.com/convert-blog-posts-amp/161661/
+
+
+#### Tools
+* https://search.google.com/test/mobile-friendly
+* https://testmysite.thinkwithgoogle.com/
+* https://support.google.com/webmasters/answer/6066468?hl=en&rd=2
+* https://developers.google.com/speed/pagespeed/insights/
+* https://www.browserstack.com/responsive
+
+### KPI
+
+* [Top SEO KPI](https://www.searchenginejournal.com/seo-guide/top-seo-kpis/)
+1. Organic Sessions
+2. Keyword Ranking Increases
+3. Leads/Conversions
+4. Bounce Rate
+5. Pages/Session
+6. Average Session Duration
+7. Page Load Time
+8. Top Exit Pages
+9. Crawl Errors
 
 
 ### Google Algorithm
