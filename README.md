@@ -7,18 +7,20 @@ There are other SEO repositories, including:
 * [/marcobiedermann/search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization) - A helpful checklist / collection of Search Engine Optimization (SEO) tips and techniques. 
 
 
-### Contents
+## Contents
 
 * [101](#101-)
 * [Tools](#Tools-)
-  * [Keywords](#keywords-)
-  * [Audit and Analytics](#Audit-and-Analytics-)
   * [Google and Company](#Google-and-Company-)
   * [Limited Trial-Power Tools](#Limited-Trial-Power-Tools-)
+  * [Audit and Analytics](#Audit-and-Analytics-)
+  * [Speed and Responsiveness](#Speed-and-Responsiveness-)
+  * [Keywords](#keywords-)
+  * [Social](#Social-)
   * [Content Creation](#Content-Creation-)
   * [Link Building](#Link-Building-)
-  * [Mobile Tools](#Mobile-Tools-)
   * [API](#API-)
+  * [Track Google Algorithm](#Track-Google-Algorithm-)
 * [Know Your Self-Customer-Competition](#Know-Your-Self-Customer-Competition-)
 * [Keyword Research](#Keyword-Research-)
   * [For Bloggers](#For-Bloggers-)
@@ -55,6 +57,54 @@ There are other SEO repositories, including:
 
 ### Tools [**^**](#Contents)
 
+#### Google and Company [**^**](#Contents)
+* [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
+* [Google Webmaster](http://www.google.com/webmasters/) - Tools Suite, Diagnostic
+* [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
+* [Google's Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
+* [Google Sitemap Generators](http://code.google.com/p/sitemap-generators/wiki/SitemapGenerators)
+* [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster) - Similar to Google's Webmaster Tools.
+
+
+
+
+#### Limited Trial-Power Tools [**^**](#Contents)
+* [SEMRush](https://www.semrush.com) - offers a limited amount of free searches, but packs a lot of value into that search. 
+* [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
+* [moz.com/explorer](https://moz.com/explorer) a useful tool for keyword research and competitive analysis. Trial limited to 10 searches.
+
+#### Audit and Analytics [**^**](#Contents)
+
+* [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize, Seomator will likely highlight a number of issues you can begin to fix right away. 
+* [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit. 
+  >"More raw data than any other SEO toolbar out there." -[moz](https://moz.com/blog/100-free-seo-tools)
+* [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
+* [Bitly.com](https://bitly.com/) - Analytics
+* [Builtwith.com](http://builtwith.com/) - find out what websites are made of.
+* [Robots.txt tool](https://technicalseo.com/seo-tools/robots-txt/)
+* [Check Listing](https://moz.com/local/search) - checks name-address-phone number across local listings 
+* https://matomo.org - light alternative to google analytics
+* [Search Engine Rank Checker](http://tools.seobook.com/firefox/rank-checker/)
+* [Chrome Webscraping Extension](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
+* [SEER's SEO Toolbox](https://www.seerinteractive.com/labs/seo-toolbox/)
+* [SEO Toolbar](http://tools.seobook.com/seo-toolbar/) -  information including backlinks and competitive research.
+* [SEO Tools for Excel](http://nielsbosma.se/projects/seotools/)
+* [SEOgadget Tools](http://seogadget.com/tools/) includes Excel plugins, content strategy generator....
+* [Use Fetch as Google for websites](https://support.google.com/webmasters/answer/6066468?hl=en&rd=2) - Test if Google can crawl your web page
+* [Similar Page Checker](http://www.webconfs.com/similar-page-checker.php) - will give a score of how closely the HTML of two pages matches.
+* [URI Valet](http://urivalet.com/) - check server headers, canonical information, analyzing redirect problems and more.
+* [Virante SEO Tools](http://www.virante.org/seo-tools)
+* [Xenu's Link Sleuth](http://home.snafu.de/tilman/xenulink.html) - Site Crawler, find broken links, create sitemaps, etc.
+
+#### Speed Responsiveness [**^**](#Contents)
+
+* [Test your mobile speed](https://testmysite.thinkwithgoogle.com/)
+* [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Make your web pages fast on all devices
+* [Responsive Design Testing across Devices](https://www.browserstack.com/responsive)
+* [Pingdom](http://tools.pingdom.com/fpt/) - Speed tools
+* [webpagetest.org](http://www.webpagetest.org/) - speed - performance
+
+
 #### Keywords [**^**](#Contents)
 
 * [Google Keyword Planner](https://ads.google.com/home/tools/keyword-planner/) [[Article](https://backlinko.com/google-keyword-planner)]
@@ -70,47 +120,15 @@ There are other SEO repositories, including:
 * https://my.jaaxy.com
 * [Keyword Shitter](http://keywordshitter.com)
 * [AdWord & SEO Keyword Permutation Generator](http://seo.danzambonini.com)
+* [Wordstream Free Keyword Tools](http://www.wordstream.com/free-keyword-tools)
+
+
+#### Social [**^**](#Contents)
+* [Social Crawlytics](https://socialcrawlytics.com/) - see your competitors' most-shared content, and many other features.
+* [SharedCount](http://www.sharedcount.com/) - discover how content is shared socially.
+* [Circle Count](http://www.circlecount.com/) - Social Analytics
 * [Social Mention](http://www.socialmention.com/) - Enter a search term and see who's sharing what (live)
 
-#### Audit and Analytics [**^**](#Contents)
-
-* [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize, Seomator will likely highlight a number of issues you can begin to fix right away. 
-* [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit. 
-  >"More raw data than any other SEO toolbar out there." -[moz](https://moz.com/blog/100-free-seo-tools)
-* [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
-* [Bitly.com](https://bitly.com/) - Analytics
-* [Builtwith.com](http://builtwith.com/) - find out what websites are made of.
-* [Circle Count](http://www.circlecount.com/) - Social Analytics
-* [Robots.txt tool](https://technicalseo.com/seo-tools/robots-txt/)
-* [Check Listing](https://moz.com/local/search) - checks name-address-phone number across local listings 
-* [Pingdom](http://tools.pingdom.com/fpt/) - Speed tools
-* https://matomo.org - light alternative to google analytics
-* [Search Engine Rank Checker](http://tools.seobook.com/firefox/rank-checker/)
-* [Chrome Webscraping Extension](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
-* [SEER's SEO Toolbox](https://www.seerinteractive.com/labs/seo-toolbox/)
-* [SEO Toolbar](http://tools.seobook.com/seo-toolbar/) -  information including backlinks and competitive research.
-* [SEO Tools for Excel](http://nielsbosma.se/projects/seotools/)
-* [SEOgadget Tools](http://seogadget.com/tools/) includes Excel plugins, content strategy generator....
-* [SharedCount](http://www.sharedcount.com/) - discover how content is shared socially.
-* [Use Fetch as Google for websites](https://support.google.com/webmasters/answer/6066468?hl=en&rd=2) - Test if Google can crawl your web page
-* [Similar Page Checker](http://www.webconfs.com/similar-page-checker.php) - will give a score of how closely the HTML of two pages matches.
-* [Social Crawlytics](https://socialcrawlytics.com/) - see your competitors' most-shared content, and many other features.
-
-#### Google and Company [**^**](#Contents)
-* [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
-* [Google Webmaster](http://www.google.com/webmasters/) - Tools Suite, Diagnostic
-* [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* [Google's Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
-* [Google Sitemap Generators](http://code.google.com/p/sitemap-generators/wiki/SitemapGenerators)
-* [Mozcast](https://moz.com/mozcast/) - tracks changes in the SERPs.
-* [Panguin Tool](http://www.barracuda-digital.co.uk/panguin-tool/) - connects with Google Analytics account to track Google Algorithm updates.
-* [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster) - Similar to Google's Webmaster Tools.
-
-
-#### Limited Trial-Power Tools [**^**](#Contents)
-* [SEMRush](https://www.semrush.com) - offers a limited amount of free searches, but packs a lot of value into that search. 
-* [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
-* [moz.com/explorer](https://moz.com/explorer) a useful tool for keyword research and competitive analysis. Trial limited to 10 searches.
 
 #### Content Creation [**^**](#Contents)
 
@@ -124,6 +142,8 @@ There are other SEO repositories, including:
 * [infogr.am](http://infogr.am/) - create infographics and data visualizations
 * [Schema-Creator](http://schema-creator.org/)
 * [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
+* [wordle](http://www.wordle.net/) - word cloud generator
+
 
 #### Link Building [**^**](#Contents)
 
@@ -137,19 +157,29 @@ There are other SEO repositories, including:
 * [mailtester.com](http://mailtester.com/) - check an e-mail address without sending it a spam test message
 * [MyBlogGuest](http://myblogguest.com/) - Find Guest Posting opportunities
 
-
-#### Mobile Tools [**^**](#Contents)
-
-* [Test your mobile speed](https://testmysite.thinkwithgoogle.com/)
-* [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Make your web pages fast on all devices
-* [Responsive Design Testing across Devices](https://www.browserstack.com/responsive)
-
 #### API [**^**](#Contents)
 * [SharedCount API](http://www.sharedcount.com/documentation.php) - combined statistics of Google+, Twitter, Facebook, and more.
 * [Google Analytics API](https://support.google.com/analytics/answer/1008004?hl=en&ref_topic=1008008) -for building custom reports and tools, and also for pulling data straight into Excel or Google Docs.
 * [SEOgadget Links API](http://seogadget.com/api/) - lets you gather backlink data and contact information.
 * [Social Authority API](https://followerwonk.com/social-authority)
 How much reach and social authority do your followers and the people you want to connect with have?
+
+
+#### Track Google Algorithm [**^**](#Contents)
+
+* [Track Google Algorithm Updates](https://www.searchenginejournal.com/seo-guide/track-google-algorithm-updates/)
+* [Mozcast](https://moz.com/mozcast/) - tracks changes in the SERPs.
+* [Panguin Tool](http://www.barracuda-digital.co.uk/panguin-tool/) - connects with Google Analytics to track Google Algorithm.
+* [SEMRush Sensor](https://www.semrush.com/sensor)
+* [Rank Risk Index](https://www.rankranger.com/rank-risk-index)
+* https://www.accuranker.com/grump/
+* https://algoroo.com/
+* https://www.advancedwebranking.com/google-algorithm-changes/
+* [Cognitiveseo.com - Signals](https://cognitiveseo.com/signals/)
+ 
+You can minimize your chances of avoiding a huge impact by always focusing on the SEO fundamentals. Avoid any shortcuts or spammy tactics that may have short-term gains but could create disaster in the long term.
+
+You’re far better off understanding your audience and creating content that builds your authority, relevance, and trust.
 
 
 ### Know Your Self-Customer-Competition [**^**](#Contents)
@@ -298,21 +328,6 @@ How much reach and social authority do your followers and the people you want to
 
 
 
-### Google Algorithm [**^**](#Contents)
-
-* [Track Google Algorithm Updates](https://www.searchenginejournal.com/seo-guide/track-google-algorithm-updates/)
-  * https://moz.com/mozcast/
-  * https://www.semrush.com/sensor
-  * https://www.rankranger.com/rank-risk-index
-  * https://www.accuranker.com/grump/
-  * https://algoroo.com/
-  * https://www.advancedwebranking.com/google-algorithm-changes/
-  * https://barracuda.digital/panguin-seo-tool/
-  * https://cognitiveseo.com/signals/
- 
-You can minimize your chances of avoiding a huge impact by always focusing on the SEO fundamentals. Avoid any shortcuts or spammy tactics that may have short-term gains but could create disaster in the long term.
-
-You’re far better off understanding your audience and creating content that builds your authority, relevance, and trust.
 
 ### Machine Learning [**^**](#Contents)
 * https://www.searchenginejournal.com/seo-guide/machine-learning/
