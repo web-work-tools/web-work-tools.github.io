@@ -1,4 +1,4 @@
-# Learn-SEO
+# /infominer33/Learn-SEO
 <a href="https://infominer.id"><img src="https://raw.githubusercontent.com/infominer33/infominer33.github.io/master/infominer.png" align="right" width="150" height="140"></a>
 
 There are other SEO repositories, including:
