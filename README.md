@@ -25,7 +25,7 @@ However, this repository is specifically designed for people just learning SEO. 
   * [LSI Keywords](#LSI-Keywords)
 * [Domain Authority](#domain-authority)
   * [Mobile](#Mobile)
-  * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content)r
+  * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content)
   * [Backlink Research](#Backlink-Research)
 * [Evergreen-Skyscraper Content](#Evergreen-Skyscraper-Content)
 * [Optimizations](#Optimizations)
@@ -72,7 +72,8 @@ However, this repository is specifically designed for people just learning SEO. 
 #### Audit and Analytics
 
 * [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize for search, Seomator will likely highlight a number of issues you can begin to fix right away. 
-* [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit.
+* [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit. 
+  >"More raw data than any other SEO toolbar out there." -[moz](https://moz.com/blog/100-free-seo-tools)
 * [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
 * [Bitly.com](https://bitly.com/) - Analytics
 * [Builtwith.com](http://builtwith.com/) - discover what tech almost any website was built with.
@@ -86,6 +87,8 @@ However, this repository is specifically designed for people just learning SEO. 
 * [SEER's SEO Toolbox](https://www.seerinteractive.com/labs/seo-toolbox/)
 * [SEO Toolbar](http://tools.seobook.com/seo-toolbar/) -  information including backlinks and competitive research.
 * [SEO Tools for Excel](http://nielsbosma.se/projects/seotools/)
+* [SEOgadget Tools](http://seogadget.com/tools/) includes several Excel plugins, content strategy generator....
+* [SharedCount](http://www.sharedcount.com/) - find out how content is shared socially across major services.
 
 #### Google and Company
 * [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
@@ -126,7 +129,7 @@ However, this repository is specifically designed for people just learning SEO. 
 * [Linksy.me Email Guesser](http://linksy.me/find-email)
 * [mailtester.com](http://mailtester.com/) - check an e-mail address without sending it a spam test message
 * [MyBlogGuest](http://myblogguest.com/) - Find Guest Posting opportunities
-
+* [SEOgadget Links API](http://seogadget.com/api/) - lets you gather backlink data and contact information.
 
 
 #### Mobile Tools
