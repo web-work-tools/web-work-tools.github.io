@@ -1,5 +1,5 @@
 # Learn-SEO
-A place for me to organize information about SEO optimization
+An organized repository of information related to SEO.
 
 ### Contents
 
