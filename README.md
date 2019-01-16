@@ -47,6 +47,8 @@ However, this repository is specifically designed for people just learning SEO. 
 * https://www.searchenginejournal.com/
 * [13 SEO KPI](https://www.searchenginejournal.com/content-marketing-kpis/seo/)
 
+... coming soon ...
+
 ### Tools
 
 #### Keywords
@@ -63,20 +65,52 @@ However, this repository is specifically designed for people just learning SEO. 
 * [Serps Keyword Rank Checker](https://serps.com/tools/rank-checker/)
 * https://my.jaaxy.com
 * [Keyword Shitter](http://keywordshitter.com)
+* [](http://seo.danzambonini.com)
 
-#### Audit and Analysis
+#### Audit and Analytics
 
 * [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize for search, Seomator will likely highlight a number of issues you can begin to fix right away. 
 * [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit.
+* [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
+* [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
+* [Google Analytics API](https://support.google.com/analytics/answer/1008004?hl=en&ref_topic=1008008) -for building custom reports and tools, and also for pulling data straight into Excel or Google Docs.
+* [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster) - Similar in function to Google Webmaster Tools, Bing offers a suite of interesting research tools and resources for webmasters.
+* [Bitly.com](https://bitly.com/) - Analytics
+* [Builtwith.com](http://builtwith.com/) - discover what tech almost any website was built with.
+* [Circle Count](http://www.circlecount.com/) - Social Analytics
+* [Robots.txt tool](https://technicalseo.com/seo-tools/robots-txt/)
+* [Check Listing](https://moz.com/local/search) - checks your NAP (name-address-phone number) accuracy across local listings 
+* [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
+* []()
+* []()
+* []()
 
+
+
+Speed
+
+Tools, data, and insights to improve your page speed. Page speed is correlated with better rankings and user engagement, so this matters.
 #### Limited Trial 
 * [SEMRush](https://www.semrush.com) - offers a limited amount of free searches, but packs a lot of value into that search. 
 * [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
 * [moz.com/explorer](https://moz.com/explorer) a useful tool for keyword research and competitive analysis. Trial limited to 10 searches.
 
-#### Infographic Creation
+#### Content Creation
 
 * [Canva Infographic Creator](https://www.canva.com/create/infographics/)
+* [easel.ly](http://www.easel.ly/) - free create infographics
+* [Amara](http://amara.org/en/) - create captions for YouTube videos.
+* [Content Strategy Tool](https://builtvisible.com/content-strategy-helper/) - Find inspiration for your content marketing topics 
+* [Copyscape](http://www.copyscape.com/) - can help you track if your content has been plagiarized.
+* [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
+
+#### Link Building
+
+* [Boomerang](http://www.boomeranggmail.com/) - follow-up email reminders.
+* [Buzzstream Tools Suite](http://tools.buzzstream.com/link-building) - 
+* [Domain Hunter Plus](https://netvantagemarketing.com/about/domain-hunter-plus) - Chrome extension to check for broken links.
+* http://email-format.com/ - find the email address formats in use at thousands of companies
+* [Google Mapmaker](http://www.google.com/mapmaker) - allows you to contribute to public map information, which may be shared and incorporated into Google Maps.
 
 
 #### Tools
