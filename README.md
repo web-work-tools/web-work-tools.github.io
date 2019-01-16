@@ -72,11 +72,14 @@ There are other SEO repositories, including:
 
 #### Limited Trial-Power Tools [**^**](#Contents)
 * [SEMRush](https://www.semrush.com) - offers a limited amount of free searches, but packs a lot of value into that search. 
-* [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
+* [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer) - Powerful keyword research, a lot more than any free tool. (See bottom of [linked article](https://ahrefs.com/blog/free-keyword-research-tools/) for how much more powerful)
 * [moz.com/explorer](https://moz.com/explorer) a useful tool for keyword research and competitive analysis. Trial limited to 10 searches.
 * [Yoast WordPress SEO Plugin](http://yoast.com/wordpress/seo/) - #1 Wordpress SEO Plugin
-
-
+* [Moz Pro](https://moz.com/products/pro/features) - Tools Suite: Diagnostic, Tracking, Social - all your marketing data in one place, with analytics.
+* [Optimizely](https://www.optimizely.com/) - A/B testing and analytics
+* [Raven](http://raventools.com/) - suite of SEO, content, and research tools 
+* [Visual Website Optimizer](https://visualwebsiteoptimizer.com/)
+* [Wordtracker](http://www.wordtracker.com/) -  keyword research suite
 
 #### Audit and Analytics [**^**](#Contents)
 
@@ -109,7 +112,8 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [Searchmetrics Visibility Charts](http://suite.searchmetrics.com/en/research) - Track search visibility of any website
 * [SERPmetrics](http://serpmetrics.com/flux/) - SERP Tracking, Competitive Intelligence
 * [Similarweb](http://www.similarweb.com/) - Competitive analysis "Competitor website stats are hard to come by, but Similar Web does a good job." -moz
-
+* [Statcounter](http://statcounter.com/) - Free-Lightweight analytics - alternative to Google Analytics for privacy.
+* [Whois Lookup](http://whois.domaintools.com/) registration, contact, and administrative information for any domain.
 
 #### Speed-Responsiveness [**^**](#Contents)
 
@@ -173,6 +177,7 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
 combines feeds "into content and other magical creations". 
 * [Piktochart](http://piktochart.com/) - visualization generator.
+* [Wistia](http://wistia.com/) - SEO-friendly video hosting. 
 
 #### Link Building [**^**](#Contents)
 
@@ -186,7 +191,7 @@ combines feeds "into content and other magical creations".
 * [mailtester.com](http://mailtester.com/) - check an e-mail address without sending it a spam test message
 * [MyBlogGuest](http://myblogguest.com/) - Find Guest Posting opportunities
 * [Majestic SEO](http://www.majesticseo.com/) - Link Research\Building, Competitive Analysis - free options great for link research.
-
+* [Whitespark Local Citation Finder](https://www.whitespark.ca/local-citation-finder/)
 
 #### API [**^**](#Contents)
 * [SharedCount API](http://www.sharedcount.com/documentation.php) - combined statistics of Google+, Twitter, Facebook, and more.
