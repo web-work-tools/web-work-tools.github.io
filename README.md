@@ -4,31 +4,27 @@ A place for me to organize information about SEO optimization
 ### Contents
 
 * [101](#101)
-* [Know yourself](#Know-yourself)
-  * [Competitive Analysis](#Competitive-Analysis) 
-* [Know Your Customer](#Know-Your-Customer)
-  * [Ways to gather customer insight](#Ways-to-gather-customer-insight) 
-  * [Personas](#personas)
-  * [Identify Infuencers of Target Audience](#identify-influencers-of-target-audience)
-* [Evergreen Content](#evergreen-content)
-* [Cornerstone Content](#cornerstone-content)
+* [Tools](#Tools)
+  * [Keywords](#keywords)
+  * [Audit and Analysis](#Audit-and-Analysis)
+  * [Limited Trial](#Limited-Trial)
+  * [Infographic Creation](#Infographic-Creation)
+  * [Tools](#Tools)
+* [Know Your Self-Customer-Competition](#Know-Your-Self-Customer-Competition)
 * [Keyword Research](#keyword-research)
-  * [Long Tail Keywords](#Long-Tail-Keywords)
-  * [Tools](#tools)
-  * [For Bloggers](#for-bloggers)
+  * [For Bloggers](#For-Bloggers)
+  * [LSI Keywords](#LSI-Keywords)
 * [Domain Authority](#domain-authority)
-  * [Internal Linking](#internal-linking)
-  * [Mobile First](#mobile-first)
-  * [Backlinks](#backlinks)
-    * [Get links by](#Get-links-by)
-    * [Backlink Research](#Backlink-Research)
+  * [Mobile](#Mobile)
+  * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content)
+  * [Backlink Research](#Backlink-Research)
+* [Evergreen-Skyscraper Content](#Evergreen-Skyscraper-Content)
 * [Optimizations](#Optimizations)
+* [Apply SEO to Different Platforms](#apply-seo-to-different-platforms)
   * [Adwords](#adwords)
   * [Ghost](#ghost)
   * [Squarespace](#squarespace)
   * [Wordpress](#wordpress)
-  * [Mobile](#mobile)
-  * [Apply SEO to Different Platforms](#apply-seo-to-different-platforms)
 * [Google Algorithm](#google-algorithm)
 * [Machine Learning](#machine-learning)
 * [Studies](#Studies)
@@ -44,25 +40,58 @@ A place for me to organize information about SEO optimization
 * https://www.searchenginejournal.com/
 * [13 SEO KPI](https://www.searchenginejournal.com/content-marketing-kpis/seo/)
 
-### Know Yourself
+### Tools
+
+#### Keywords
+
+* [Google Keyword Planner](https://ads.google.com/home/tools/keyword-planner/) [[Article](https://backlinko.com/google-keyword-planner)]
+* [KWFinder](https://authoritywebsiteincome.com/best-kw-research-tool-keyword-competitiveness/)
+* [Amazon's Kewordtool.io](https://keywordtool.io/amazon)
+* [Check your raking for a given keyword](https://www.seocentro.com/tools/search-engines/keyword-position.html)
+* [ahrefs.com - free keyword research tools](https://ahrefs.com/blog/free-keyword-research-tools/)
+* [How to use Google Trends for Keyword Research](https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/)
+* [Google Trends](https://trends.google.com)
+* https://www.nocode.tech/category/seo-tools
+* [5 free domain authority checkers](http://www.3nions.com/5-excellent-free-domain-authority-checker-tools/)
+* [Serps Keyword Rank Checker](https://serps.com/tools/rank-checker/)
+* https://my.jaaxy.com
+* [Keyword Shitter](http://keywordshitter.com)
+
+#### Audit and Analysis
+
+* [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize for search, Seomator will likely highlight a number of issues you can begin to fix right away. 
+* [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit.
+
+#### Limited Trial 
+* [SEMRush](https://www.semrush.com) - offers a limited amount of free searches, but packs a lot of value into that search. 
+* [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
+* [moz.com/explorer](https://moz.com/explorer) a useful tool for keyword research and competitive analysis. Trial limited to 10 searches.
+
+#### Infographic Creation
+
+* [Canva Infographic Creator](https://www.canva.com/create/infographics/)
 
 
+#### Tools
+* https://search.google.com/test/mobile-friendly
+* https://testmysite.thinkwithgoogle.com/
+* https://support.google.com/webmasters/answer/6066468?hl=en&rd=2
+* https://developers.google.com/speed/pagespeed/insights/
+* https://www.browserstack.com/responsive
 
-### Know Your Customer
+### Know Your Self-Customer-Competition
 
+* [The Simple but Effective Guide to Keyword Competition Analysis](https://neilpatel.com/blog/the-simple-but-effective-guide-to-keyword-competition-analysis/)
 * [Know Your Audience](https://www.searchenginejournal.com/seo-guide/know-your-audience/)
 * [Know Your Customer](https://yoast.com/know-your-customer/)
+* https://searchenginewatch.com/sew/how-to/2406842/5-steps-for-seo-competitive-analysis-research
+* https://moz.com/blog/category/competitive-research
+* http://beamusup.com/research-competition-seo-crawler/
+* https://curatedseotools.com/site-audit/
 
-### Evergreen Content
-* https://graywolfseo.com/seo/evergreen-content/
-* https://backlinko.com/skyscraper-technique
+ * [Ways to gather customer insight](#Ways-to-gather-customer-insight) 
+  * [Personas](#personas)
 
-### Cornerstone Content
-* [What is Cornerstone Content?](https://yoast.com/what-is-cornerstone-content/)
-* [Cornerstone Content](https://makeawebsitehub.com/cornerstone-content/)
-* https://yoast.com/cornerstone-content-rank/
-* https://loriballen.com/cornerstone-content-key-pages-website/
-* https://www.copyblogger.com/how-to-create-cornerstone-content-that-google-loves/
 
 ### Keyword Research
 * [Keyword Research Fundamentals](https://www.csbtechemporium.com/keyword-research-fundamentals/) -@infominer
@@ -76,53 +105,6 @@ A place for me to organize information about SEO optimization
 * Searcher Intent
 * [Breadcrumbs](https://www.searchenginejournal.com/breadcrumbs-seo/255007/)
 
-### Domain Authority
-* http://precisebench.com/how-to-increase-domain-authority/
-* https://seopressor.com/blog/how-to-increase-domain-authority/
-* https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458
-* https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/
-* https://techtage.com/how-to-increase-domain-authority/
-
-#### Internal Linking
-
-#### Mobile First
-
-#### Backlinks
-
-##### Get links by
-* Creating 10x Content:
-  * https://www.searchenginejournal.com/guide-10x-content-new-successful-content-beyond/139731/
-  * https://backlinko.com/skyscraper-technique
-* Guest Blogging
-* "opinion-forming journalism from recognized experts, and data-driven research studies showed a strong correlation between shares and links."
-* Client case studies: These are shared by the client and can include exciting information about how they achieved their results, which can help others.
-* Infographics: These still get shared heavily online and are a great way to provide an instant view of data on a specific topic. It can be fun and informative, and usually, are republished on other blogs and shared on social media.
-* Other content that highlights influencers: This could include podcasts or video interviews.
-* Industry surveys: Many publishers do annual industry surveys, which have become well-known (and well-cited) each time they are released. 
-* Free content or tools: This could include long-form content such as ebooks, or useful tools like quizzes and personalized reports that give users the helpful information they didn’t know before. 
-
-##### Backlink Research
-* [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
-* [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
-* [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
-* [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
-* [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
-* https://www.crazyegg.com/blog/smart-ways-get-quality-backlinks/
-
-
-
-##### Tools
-
-* [Check your raking for a given keyword](https://www.seocentro.com/tools/search-engines/keyword-position.html)
-* [KWFinder](https://authoritywebsiteincome.com/best-kw-research-tool-keyword-competitiveness/)
-* [SEMRush](https://semrush.com)
-* [Google Keyword Planner](https://backlinko.com/google-keyword-planner)
-* [ahrefs.com - free keyword research tools](https://ahrefs.com/blog/free-keyword-research-tools/)
-* [How to use Google Trends for Keyword Research](https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/)
-* [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
-* https://keywordtool.io/amazon
-
-
 #### For Bloggers
 * [Best Keyword Research for Bloggers](https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/)
 * [Stop keyword research for blogging](https://neilpatel.com/blog/stop-keyword-research-for-blogging/)
@@ -134,12 +116,61 @@ A place for me to organize information about SEO optimization
 * https://beginnersbook.com/2012/11/lsi-keywords-for-better-ranking/
 * https://thecontentwrangler.com/2016/08/15/complete-guide-lis-keywords/#
 
-### Competitive Analysis
 
-* https://searchenginewatch.com/sew/how-to/2406842/5-steps-for-seo-competitive-analysis-research
-* https://moz.com/blog/category/competitive-research
-* http://beamusup.com/research-competition-seo-crawler/
-* https://curatedseotools.com/site-audit/
+### Domain Authority
+* http://precisebench.com/how-to-increase-domain-authority/
+* https://seopressor.com/blog/how-to-increase-domain-authority/
+* https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458
+* https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/
+* https://techtage.com/how-to-increase-domain-authority/
+
+SPEED
+
+#### Mobile
+Responsive Design
+Adaptive Website
+Separate Mobile Site
+
+* https://www.searchenginejournal.com/seo-guide/introduction-to-mobile-seo/
+* https://www.searchenginejournal.com/convert-blog-posts-amp/161661/
+
+ 
+#### Internal Linking-Cornerstone Content
+* [What is Cornerstone Content?](https://yoast.com/what-is-cornerstone-content/)
+* [Cornerstone Content](https://makeawebsitehub.com/cornerstone-content/)
+* https://yoast.com/cornerstone-content-rank/
+* https://loriballen.com/cornerstone-content-key-pages-website/
+* https://www.copyblogger.com/how-to-create-cornerstone-content-that-google-loves/
+
+
+#### Backlink Research
+* [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
+* [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
+* [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
+* [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
+* [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
+* [Smart ways to get Backlinks "At Scale"](https://www.crazyegg.com/blog/smart-ways-get-quality-backlinks/)
+* [youtube - ahrefs - Copy My Link Building System: How to Get Backlinks “At Scale"](https://www.youtube.com/watch?v=Ovu2ZYWgOJQ)
+
+
+
+### Evergreen-Skyscraper Content
+* https://graywolfseo.com/seo/evergreen-content/
+* https://backlinko.com/skyscraper-technique
+
+**Creating 10x Content:**
+  * https://www.searchenginejournal.com/guide-10x-content-new-successful-content-beyond/139731/
+  * https://backlinko.com/skyscraper-technique
+* Guest Blogging
+* "opinion-forming journalism from recognized experts, and data-driven research studies showed a strong correlation between shares and links."
+* Client case studies: These are shared by the client and can include exciting information about how they achieved their results, which can help others.
+* Infographics: These still get shared heavily online and are a great way to provide an instant view of data on a specific topic. It can be fun and informative, and usually, are republished on other blogs and shared on social media.
+* Other content that highlights influencers: This could include podcasts or video interviews.
+* Industry surveys: Many publishers do annual industry surveys, which have become well-known (and well-cited) each time they are released. 
+* Free content or tools: This could include long-form content such as ebooks, or useful tools like quizzes and personalized reports that give users the helpful information they didn’t know before. 
+  * [Identify Infuencers of Target Audience](#identify-influencers-of-target-audience)
+
+
 
 ### Optimizations
 
@@ -158,7 +189,7 @@ A place for me to organize information about SEO optimization
 
 ![](https://www.searchenginejournal.com/wp-content/uploads/2018/08/how-to-create-perfectly-optimized-content-infographic.png)
 
-#### Apply SEO to Different Platforms
+### Apply SEO to Different Platforms
 
 * App store
 * YouTube channel and video 
@@ -166,7 +197,6 @@ A place for me to organize information about SEO optimization
 * Social media
 * Amazon
 * Yelp
-
 
 #### Adwords
 
@@ -176,27 +206,14 @@ A place for me to organize information about SEO optimization
 #### SquareSpace
 
 #### Wordpress
+* [Wordpress SEO Secret: Switching Post H1-H2 Tags](http://www.fathomdelivers.com/blog/cro-an-ux/wordpress-seo-secret-switching-post-h1-h2-tags/) - Essential Optimization for Wordpress users to ensure
 * [Wordpress Local-SEO](https://onlinemediamasters.com/wordpress-local-seo/)
 * [Show Date Last Modified](https://www.shoutmeloud.com/show-last-modified-date-wordpress.html)
 
 ### Small Business SEO
 
 
-### Mobile
-Responsive Design
-Adaptive Website
-Separate Mobile Site
 
-* https://www.searchenginejournal.com/seo-guide/introduction-to-mobile-seo/
-* https://www.searchenginejournal.com/convert-blog-posts-amp/161661/
-
-
-#### Tools
-* https://search.google.com/test/mobile-friendly
-* https://testmysite.thinkwithgoogle.com/
-* https://support.google.com/webmasters/answer/6066468?hl=en&rd=2
-* https://developers.google.com/speed/pagespeed/insights/
-* https://www.browserstack.com/responsive
 
 ### KPI
 
