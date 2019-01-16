@@ -60,6 +60,7 @@ There are other SEO repositories, including:
 #### Google and Company [**^**](#Contents)
 * [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
 * [Google Webmaster](http://www.google.com/webmasters/) - Tools Suite, Diagnostic
+* [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en) - what you're already ranking for, straight from google.
 * [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
 * [Google's Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
 * [Google Sitemap Generators](http://code.google.com/p/sitemap-generators/wiki/SitemapGenerators)
@@ -82,6 +83,8 @@ There are other SEO repositories, including:
 * [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize, Seomator will likely highlight a number of issues you can begin to fix right away. 
 * [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit. 
   >"More raw data than any other SEO toolbar out there." -[moz](https://moz.com/blog/100-free-seo-tools)
+* [screamingfrog.co.uk](http://www.screamingfrog.co.uk/)
+  > "must-have for most serious SEOs." -[moz](https://moz.com/blog/100-free-seo-tools)
 * [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
 * [Bitly.com](https://bitly.com/) - Analytics
 * [Builtwith.com](http://builtwith.com/) - find out what websites are made of.
@@ -103,9 +106,12 @@ There are other SEO repositories, including:
 * [Nibbler](http://nibbler.silktide.com/)
 Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [XML-Sitemaps.com](http://www.xml-sitemaps.com/)
+* [Searchmetrics Visibility Charts](http://suite.searchmetrics.com/en/research) - Track search visibility of any website
+* [SERPmetrics](http://serpmetrics.com/flux/) - SERP Tracking, Competitive Intelligence
+* [Similarweb](http://www.similarweb.com/) - Competitive analysis "Competitor website stats are hard to come by, but Similar Web does a good job." -moz
 
 
-#### Speed Responsiveness [**^**](#Contents)
+#### Speed-Responsiveness [**^**](#Contents)
 
 * [Test your mobile speed](https://testmysite.thinkwithgoogle.com/)
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Make your web pages fast on all devices
@@ -121,7 +127,8 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [KWFinder](https://authoritywebsiteincome.com/best-kw-research-tool-keyword-competitiveness/)
 * [Amazon's Kewordtool.io](https://keywordtool.io/amazon)
 * [Check your raking for a given keyword](https://www.seocentro.com/tools/search-engines/keyword-position.html)
-* [ahrefs.com - free keyword research tools](https://ahrefs.com/blog/free-keyword-research-tools/)
+* [answerthepublic.com/](https://answerthepublic.com/) - finds questions, prepositions, comparisons, alphabeticals, and related searches.
+* [Google Correlate](https://www.google.com/trends/correlate) - finds search patterns corresponding with real‐world trends
 * [How to use Google Trends for Keyword Research](https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/)
 * [Google Trends](https://trends.google.com)
 * [Serps Keyword Rank Checker](https://serps.com/tools/rank-checker/)
@@ -131,6 +138,9 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [Wordstream Free Keyword Tools](http://www.wordstream.com/free-keyword-tools)
 * [Topvisor](https://topvisor.com/) - keyword tools - monitors the position of web pages for different keywords on Search Engine Result Pages. 
 * [Keywordeye](http://www.keywordeye.com/) -  keyword reserach with visualizations
+* [nTopic](http://www.ntopic.org/) - gives your content a "relevancy score" and offers keyword suggestions to improve it.
+* [Keywordseverywhere.com](https://keywordseverywhere.com/) - browser addon providing search volume, CPC & competitive data.
+* [Wordtracker Scout](https://www.wordtracker.com/scout) - extension that grabs the most relevant keywords from a web-page.
 
 #### Domain Authority
 * [Website Authority Checker](http://www.seoreviewtools.com/website-authority-checker/)
@@ -145,7 +155,7 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [Social Mention](http://www.socialmention.com/) - Enter a search term and see who's sharing what (live)
 * https://followerwonk.com/
 * http://knowem.com/ - brainstorm new social media names
-
+* [RowFeeder](https://rowfeeder.com/) - track social usernames, hashtags and keywords - export to Excel.
 
 #### Content Creation [**^**](#Contents)
 
@@ -162,7 +172,7 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [wordle](http://www.wordle.net/) - word cloud generator
 * [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
 combines feeds "into content and other magical creations". 
-* [nTopic](http://www.ntopic.org/) - gives your content a "relevancy score" and offers keyword suggestions to improve it.
+* [Piktochart](http://piktochart.com/) - visualization generator.
 
 #### Link Building [**^**](#Contents)
 
