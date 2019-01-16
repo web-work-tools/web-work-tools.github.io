@@ -14,16 +14,18 @@ However, this repository is specifically designed for people just learning SEO. 
 * [Tools](#Tools)
   * [Keywords](#keywords)
   * [Audit and Analysis](#Audit-and-Analysis)
+  * [Google and Company](#Google-and-Company)
   * [Limited Trial](#Limited-Trial)
-  * [Infographic Creation](#Infographic-Creation)
-  * [Tools](#Tools)
+  * [Content Creation](#Content-Creation)
+  * [Link Building](#Link-Building)
+  * [Mobile Tools](#Mobile-Tools)
 * [Know Your Self-Customer-Competition](#Know-Your-Self-Customer-Competition)
 * [Keyword Research](#keyword-research)
   * [For Bloggers](#For-Bloggers)
   * [LSI Keywords](#LSI-Keywords)
 * [Domain Authority](#domain-authority)
   * [Mobile](#Mobile)
-  * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content)
+  * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content)r
   * [Backlink Research](#Backlink-Research)
 * [Evergreen-Skyscraper Content](#Evergreen-Skyscraper-Content)
 * [Optimizations](#Optimizations)
@@ -65,31 +67,37 @@ However, this repository is specifically designed for people just learning SEO. 
 * [Serps Keyword Rank Checker](https://serps.com/tools/rank-checker/)
 * https://my.jaaxy.com
 * [Keyword Shitter](http://keywordshitter.com)
-* [](http://seo.danzambonini.com)
+* [AdWord & SEO Keyword Permutation Generator](http://seo.danzambonini.com)
 
 #### Audit and Analytics
 
 * [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize for search, Seomator will likely highlight a number of issues you can begin to fix right away. 
 * [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit.
 * [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
-* [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
-* [Google Analytics API](https://support.google.com/analytics/answer/1008004?hl=en&ref_topic=1008008) -for building custom reports and tools, and also for pulling data straight into Excel or Google Docs.
-* [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster) - Similar in function to Google Webmaster Tools, Bing offers a suite of interesting research tools and resources for webmasters.
 * [Bitly.com](https://bitly.com/) - Analytics
 * [Builtwith.com](http://builtwith.com/) - discover what tech almost any website was built with.
 * [Circle Count](http://www.circlecount.com/) - Social Analytics
 * [Robots.txt tool](https://technicalseo.com/seo-tools/robots-txt/)
 * [Check Listing](https://moz.com/local/search) - checks your NAP (name-address-phone number) accuracy across local listings 
+* [Pingdom](http://tools.pingdom.com/fpt/) - Speed tools
+* https://matomo.org - light alternative to google analytics
+* [Search Engine Rank Checker](http://tools.seobook.com/firefox/rank-checker/)
+* [Chrome Webscraping App](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
+* [SEER's SEO Toolbox](https://www.seerinteractive.com/labs/seo-toolbox/)
+* [SEO Toolbar](http://tools.seobook.com/seo-toolbar/) -  information including backlinks and competitive research.
+* [SEO Tools for Excel](http://nielsbosma.se/projects/seotools/)
+
+#### Google and Company
+* [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
+* [Google Analytics API](https://support.google.com/analytics/answer/1008004?hl=en&ref_topic=1008008) -for building custom reports and tools, and also for pulling data straight into Excel or Google Docs.
+* [Google Webmaster](http://www.google.com/webmasters/) - Tools Suite, Diagnostic
 * [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* []()
-* []()
-* []()
+* [Google's Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
+* [Mozcast](https://moz.com/mozcast/) - tracks changes in the SERPs.
+* [Panguin Tool](http://www.barracuda-digital.co.uk/panguin-tool/) - connects with Google Analytics account to track Google Algorithm updates.
+* [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster) - Similar in function to Google Webmaster Tools, Bing offers a suite of interesting research tools and resources for webmasters.
 
 
-
-Speed
-
-Tools, data, and insights to improve your page speed. Page speed is correlated with better rankings and user engagement, so this matters.
 #### Limited Trial 
 * [SEMRush](https://www.semrush.com) - offers a limited amount of free searches, but packs a lot of value into that search. 
 * [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
@@ -103,19 +111,27 @@ Tools, data, and insights to improve your page speed. Page speed is correlated w
 * [Content Strategy Tool](https://builtvisible.com/content-strategy-helper/) - Find inspiration for your content marketing topics 
 * [Copyscape](http://www.copyscape.com/) - can help you track if your content has been plagiarized.
 * [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
+* [Google SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html) - see how your snippet may appear in search results. 
+* [infogr.am](http://infogr.am/) - create infographics and data visualizations
+* [Schema-Creator](http://schema-creator.org/)
 
 #### Link Building
 
 * [Boomerang](http://www.boomeranggmail.com/) - follow-up email reminders.
 * [Buzzstream Tools Suite](http://tools.buzzstream.com/link-building) - 
 * [Domain Hunter Plus](https://netvantagemarketing.com/about/domain-hunter-plus) - Chrome extension to check for broken links.
-* http://email-format.com/ - find the email address formats in use at thousands of companies
+* [email-format.com](http://email-format.com/) - find the email address formats in use at thousands of companies
 * [Google Mapmaker](http://www.google.com/mapmaker) - allows you to contribute to public map information, which may be shared and incorporated into Google Maps.
+* [linkstant.com](http://www.linkstant.com/) - alerts you when you recieve a link
+* [Linksy.me Email Guesser](http://linksy.me/find-email)
+* [mailtester.com](http://mailtester.com/) - check an e-mail address without sending it a spam test message
+* [MyBlogGuest](http://myblogguest.com/) - Find Guest Posting opportunities
 
 
-#### Tools
-* https://search.google.com/test/mobile-friendly
-* https://testmysite.thinkwithgoogle.com/
+
+#### Mobile Tools
+
+* [Test your mobile speed](https://testmysite.thinkwithgoogle.com/)
 * https://support.google.com/webmasters/answer/6066468?hl=en&rd=2
 * https://developers.google.com/speed/pagespeed/insights/
 * https://www.browserstack.com/responsive
@@ -308,7 +324,9 @@ You’re far better off understanding your audience and creating content that bu
 
 * https://github.com/teles/awesome-seo
 
-* https://github.com/marcobiedermann/search-engine-optimization
+* [/marcobiedermann/search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization)
+* [100 Free SEO Tools - Moz](https://moz.com/blog/100-free-seo-tools)
+* [SEO & Webmaster Tools packed with Ninja efficiency](https://www.internetmarketingninjas.com/tools/)
 
 * [Best SEO BLogs](https://blog.hubspot.com/marketing/best-seo-blogs)
 
