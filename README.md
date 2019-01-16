@@ -1,5 +1,10 @@
 # Learn-SEO
-An organized repository of information related to SEO.
+There are other SEO repositories, including:
+
+* [/teles/awesome-seo](https://github.com/teles/awesome-seo)
+* [/marcobiedermann/search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization)
+
+However, this repository is specifically designed for people just learning SEO. Actually, this is part of my own process in learning SEO. The repository is just beginning to find some organization, and I think I'm getting an idea for the big picture. Over the next few weeks I will put this to order and it will be worthy. For now it's just a working directory.
 
 ### Contents
 
