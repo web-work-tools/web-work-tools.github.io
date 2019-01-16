@@ -64,6 +64,7 @@ There are other SEO repositories, including:
 * [Google's Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
 * [Google Sitemap Generators](http://code.google.com/p/sitemap-generators/wiki/SitemapGenerators)
 * [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster) - Similar to Google's Webmaster Tools.
+* [YouTube Analytics](https://www.youtube.com/analytics) - must-have for YouTube video publishers.
 
 
 
@@ -72,6 +73,9 @@ There are other SEO repositories, including:
 * [SEMRush](https://www.semrush.com) - offers a limited amount of free searches, but packs a lot of value into that search. 
 * [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
 * [moz.com/explorer](https://moz.com/explorer) a useful tool for keyword research and competitive analysis. Trial limited to 10 searches.
+* [Yoast WordPress SEO Plugin](http://yoast.com/wordpress/seo/) - #1 Wordpress SEO Plugin
+
+
 
 #### Audit and Analytics [**^**](#Contents)
 
@@ -95,6 +99,11 @@ There are other SEO repositories, including:
 * [URI Valet](http://urivalet.com/) - check server headers, canonical information, analyzing redirect problems and more.
 * [Virante SEO Tools](http://www.virante.org/seo-tools)
 * [Xenu's Link Sleuth](http://home.snafu.de/tilman/xenulink.html) - Site Crawler, find broken links, create sitemaps, etc.
+* [Raven Tools](https://raventools.com/site-auditor/) Site Audit
+* [Nibbler](http://nibbler.silktide.com/)
+Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
+* [XML-Sitemaps.com](http://www.xml-sitemaps.com/)
+
 
 #### Speed Responsiveness [**^**](#Contents)
 
@@ -103,6 +112,7 @@ There are other SEO repositories, including:
 * [Responsive Design Testing across Devices](https://www.browserstack.com/responsive)
 * [Pingdom](http://tools.pingdom.com/fpt/) - Speed tools
 * [webpagetest.org](http://www.webpagetest.org/) - speed - performance
+* [Cloudflare](https://www.cloudflare.com/)
 
 
 #### Keywords [**^**](#Contents)
@@ -114,20 +124,27 @@ There are other SEO repositories, including:
 * [ahrefs.com - free keyword research tools](https://ahrefs.com/blog/free-keyword-research-tools/)
 * [How to use Google Trends for Keyword Research](https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/)
 * [Google Trends](https://trends.google.com)
-* https://www.nocode.tech/category/seo-tools
-* [5 free domain authority checkers](http://www.3nions.com/5-excellent-free-domain-authority-checker-tools/)
 * [Serps Keyword Rank Checker](https://serps.com/tools/rank-checker/)
 * https://my.jaaxy.com
 * [Keyword Shitter](http://keywordshitter.com)
 * [AdWord & SEO Keyword Permutation Generator](http://seo.danzambonini.com)
 * [Wordstream Free Keyword Tools](http://www.wordstream.com/free-keyword-tools)
+* [Topvisor](https://topvisor.com/) - keyword tools - monitors the position of web pages for different keywords on Search Engine Result Pages. 
+* [Keywordeye](http://www.keywordeye.com/) -  keyword reserach with visualizations
 
+#### Domain Authority
+* [Website Authority Checker](http://www.seoreviewtools.com/website-authority-checker/)
+* [Bulk Domain Authority Checker](http://www.bulkdachecker.com/)
+* [Bulk DA, PA & IP Checker – SEOWEATHER](http://www.seoweather.com/bulk-metrics-checker/)
+* [Domain Authority Checker](http://smallseotools.com/domain-authority-checker/)
 
 #### Social [**^**](#Contents)
 * [Social Crawlytics](https://socialcrawlytics.com/) - see your competitors' most-shared content, and many other features.
 * [SharedCount](http://www.sharedcount.com/) - discover how content is shared socially.
 * [Circle Count](http://www.circlecount.com/) - Social Analytics
 * [Social Mention](http://www.socialmention.com/) - Enter a search term and see who's sharing what (live)
+* https://followerwonk.com/
+* http://knowem.com/ - brainstorm new social media names
 
 
 #### Content Creation [**^**](#Contents)
@@ -143,7 +160,9 @@ There are other SEO repositories, including:
 * [Schema-Creator](http://schema-creator.org/)
 * [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
 * [wordle](http://www.wordle.net/) - word cloud generator
-
+* [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
+combines feeds "into content and other magical creations". 
+* [nTopic](http://www.ntopic.org/) - gives your content a "relevancy score" and offers keyword suggestions to improve it.
 
 #### Link Building [**^**](#Contents)
 
@@ -156,6 +175,8 @@ There are other SEO repositories, including:
 * [Linksy.me Email Guesser](http://linksy.me/find-email)
 * [mailtester.com](http://mailtester.com/) - check an e-mail address without sending it a spam test message
 * [MyBlogGuest](http://myblogguest.com/) - Find Guest Posting opportunities
+* [Majestic SEO](http://www.majesticseo.com/) - Link Research\Building, Competitive Analysis - free options great for link research.
+
 
 #### API [**^**](#Contents)
 * [SharedCount API](http://www.sharedcount.com/documentation.php) - combined statistics of Google+, Twitter, Facebook, and more.
@@ -163,7 +184,8 @@ There are other SEO repositories, including:
 * [SEOgadget Links API](http://seogadget.com/api/) - lets you gather backlink data and contact information.
 * [Social Authority API](https://followerwonk.com/social-authority)
 How much reach and social authority do your followers and the people you want to connect with have?
-
+* [Majestic SEO API](http://blog.majesticseo.com/general/majestic-seo-api-now-explained/)
+* [Mozscape API](https://moz.com/products/api)
 
 #### Track Google Algorithm [**^**](#Contents)
 
