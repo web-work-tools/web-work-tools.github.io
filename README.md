@@ -9,38 +9,41 @@ There are other SEO repositories, including:
 
 ### Contents
 
-* [101](#101)
-* [Tools](#Tools)
-  * [Keywords](#keywords)
-  * [Audit and Analysis](#Audit-and-Analysis)
-  * [Google and Company](#Google-and-Company)
-  * [Limited Trial](#Limited-Trial)
-  * [Content Creation](#Content-Creation)
-  * [Link Building](#Link-Building)
-  * [Mobile Tools](#Mobile-Tools)
-* [Know Your Self-Customer-Competition](#Know-Your-Self-Customer-Competition)
-* [Keyword Research](#keyword-research)
-  * [For Bloggers](#For-Bloggers)
-  * [LSI Keywords](#LSI-Keywords)
-* [Domain Authority](#domain-authority)
-  * [Mobile](#Mobile)
-  * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content)
-  * [Backlink Research](#Backlink-Research)
-* [Evergreen-Skyscraper Content](#Evergreen-Skyscraper-Content)
-* [Optimizations](#Optimizations)
-* [Apply SEO to Different Platforms](#apply-seo-to-different-platforms)
-  * [Adwords](#adwords)
-  * [Ghost](#ghost)
-  * [Squarespace](#squarespace)
-  * [Wordpress](#wordpress)
-* [Google Algorithm](#google-algorithm)
-* [Machine Learning](#machine-learning)
-* [Studies](#Studies)
-* [Resources](#resources)
+* [101](#101-)
+* [Tools](#Tools-)
+  * [Keywords](#keywords-)
+  * [Audit and Analytics](#Audit-and-Analytics-)
+  * [Google and Company](#Google-and-Company-)
+  * [Limited Trial-Power Tools](#Limited-Trial-Power-Tools-)
+  * [Content Creation](#Content-Creation-)
+  * [Link Building](#Link-Building-)
+  * [Mobile Tools](#Mobile-Tools-)
+  * [API](#API-)
+* [Know Your Self-Customer-Competition](#Know-Your-Self-Customer-Competition-)
+* [Keyword Research](#Keyword-Research-)
+  * [For Bloggers](#For-Bloggers-)
+  * [LSI Keywords](#LSI-Keywords-)
+* [Domain Authority](#domain-authority-)
+  * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content-)
+  * [Backlink Research](#Backlink-Research-)
+* [Evergreen-Skyscraper Content](#Evergreen-Skyscraper-Content-)
+* [Optimizations](#Optimizations-)
+  * [KPI](#KPI-)
+* [Apply SEO to Different Platforms](#apply-seo-to-different-platforms-)
+  * [Adwords](#adwords-)
+  * [Ghost](#ghost-)
+  * [Squarespace](#squarespace-)
+  * [Wordpress](#wordpress-)
+* [Google Algorithm](#google-algorithm-)
+* [Machine Learning](#machine-learning-)
+* [Studies](#Studies-)
+* [Assorted](#Assorted-)
+* [History](#History-)
+* [Resources](#resources-)
 
 
 
-### 101
+### 101 [**^**](#Contents)
 * [Ten SEO Fundamentals](https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals)
 * [backlinko-SEO this Year](https://backlinko.com/seo-this-year)
 * [10 Fundamentals to Understanding SEO](https://www.entrepreneur.com/article/299053)
@@ -50,9 +53,9 @@ There are other SEO repositories, including:
 
 ... coming soon ...
 
-### Tools
+### Tools [**^**](#Contents)
 
-#### Keywords
+#### Keywords [**^**](#Contents)
 
 * [Google Keyword Planner](https://ads.google.com/home/tools/keyword-planner/) [[Article](https://backlinko.com/google-keyword-planner)]
 * [KWFinder](https://authoritywebsiteincome.com/best-kw-research-tool-keyword-competitiveness/)
@@ -67,57 +70,62 @@ There are other SEO repositories, including:
 * https://my.jaaxy.com
 * [Keyword Shitter](http://keywordshitter.com)
 * [AdWord & SEO Keyword Permutation Generator](http://seo.danzambonini.com)
+* [Social Mention](http://www.socialmention.com/) - Enter a search term and see who's sharing what (live)
 
-#### Audit and Analytics
+#### Audit and Analytics [**^**](#Contents)
 
-* [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize for search, Seomator will likely highlight a number of issues you can begin to fix right away. 
+* [Seomator](https://seomator.com) free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize, Seomator will likely highlight a number of issues you can begin to fix right away. 
 * [SEO Quake Chrome Extension](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) provides on-the-fly analysis of any webpage you visit. 
   >"More raw data than any other SEO toolbar out there." -[moz](https://moz.com/blog/100-free-seo-tools)
 * [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
 * [Bitly.com](https://bitly.com/) - Analytics
-* [Builtwith.com](http://builtwith.com/) - discover what tech almost any website was built with.
+* [Builtwith.com](http://builtwith.com/) - find out what websites are made of.
 * [Circle Count](http://www.circlecount.com/) - Social Analytics
 * [Robots.txt tool](https://technicalseo.com/seo-tools/robots-txt/)
-* [Check Listing](https://moz.com/local/search) - checks your NAP (name-address-phone number) accuracy across local listings 
+* [Check Listing](https://moz.com/local/search) - checks name-address-phone number across local listings 
 * [Pingdom](http://tools.pingdom.com/fpt/) - Speed tools
 * https://matomo.org - light alternative to google analytics
 * [Search Engine Rank Checker](http://tools.seobook.com/firefox/rank-checker/)
-* [Chrome Webscraping App](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
+* [Chrome Webscraping Extension](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
 * [SEER's SEO Toolbox](https://www.seerinteractive.com/labs/seo-toolbox/)
 * [SEO Toolbar](http://tools.seobook.com/seo-toolbar/) -  information including backlinks and competitive research.
 * [SEO Tools for Excel](http://nielsbosma.se/projects/seotools/)
-* [SEOgadget Tools](http://seogadget.com/tools/) includes several Excel plugins, content strategy generator....
-* [SharedCount](http://www.sharedcount.com/) - find out how content is shared socially across major services.
+* [SEOgadget Tools](http://seogadget.com/tools/) includes Excel plugins, content strategy generator....
+* [SharedCount](http://www.sharedcount.com/) - discover how content is shared socially.
+* [Use Fetch as Google for websites](https://support.google.com/webmasters/answer/6066468?hl=en&rd=2) - Test if Google can crawl your web page
+* [Similar Page Checker](http://www.webconfs.com/similar-page-checker.php) - will give a score of how closely the HTML of two pages matches.
+* [Social Crawlytics](https://socialcrawlytics.com/) - see your competitors' most-shared content, and many other features.
 
-#### Google and Company
+#### Google and Company [**^**](#Contents)
 * [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
-* [Google Analytics API](https://support.google.com/analytics/answer/1008004?hl=en&ref_topic=1008008) -for building custom reports and tools, and also for pulling data straight into Excel or Google Docs.
 * [Google Webmaster](http://www.google.com/webmasters/) - Tools Suite, Diagnostic
 * [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
 * [Google's Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
+* [Google Sitemap Generators](http://code.google.com/p/sitemap-generators/wiki/SitemapGenerators)
 * [Mozcast](https://moz.com/mozcast/) - tracks changes in the SERPs.
 * [Panguin Tool](http://www.barracuda-digital.co.uk/panguin-tool/) - connects with Google Analytics account to track Google Algorithm updates.
-* [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster) - Similar in function to Google Webmaster Tools, Bing offers a suite of interesting research tools and resources for webmasters.
+* [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster) - Similar to Google's Webmaster Tools.
 
 
-#### Limited Trial 
+#### Limited Trial-Power Tools [**^**](#Contents)
 * [SEMRush](https://www.semrush.com) - offers a limited amount of free searches, but packs a lot of value into that search. 
 * [ahrefs.com/site-explorer](https://ahrefs.com/site-explorer)
 * [moz.com/explorer](https://moz.com/explorer) a useful tool for keyword research and competitive analysis. Trial limited to 10 searches.
 
-#### Content Creation
+#### Content Creation [**^**](#Contents)
 
 * [Canva Infographic Creator](https://www.canva.com/create/infographics/)
 * [easel.ly](http://www.easel.ly/) - free create infographics
 * [Amara](http://amara.org/en/) - create captions for YouTube videos.
 * [Content Strategy Tool](https://builtvisible.com/content-strategy-helper/) - Find inspiration for your content marketing topics 
-* [Copyscape](http://www.copyscape.com/) - can help you track if your content has been plagiarized.
+* [Copyscape](http://www.copyscape.com/) - track if your content is being plagiarized.
 * [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
 * [Google SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html) - see how your snippet may appear in search results. 
 * [infogr.am](http://infogr.am/) - create infographics and data visualizations
 * [Schema-Creator](http://schema-creator.org/)
+* [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
 
-#### Link Building
+#### Link Building [**^**](#Contents)
 
 * [Boomerang](http://www.boomeranggmail.com/) - follow-up email reminders.
 * [Buzzstream Tools Suite](http://tools.buzzstream.com/link-building) - 
@@ -128,17 +136,23 @@ There are other SEO repositories, including:
 * [Linksy.me Email Guesser](http://linksy.me/find-email)
 * [mailtester.com](http://mailtester.com/) - check an e-mail address without sending it a spam test message
 * [MyBlogGuest](http://myblogguest.com/) - Find Guest Posting opportunities
-* [SEOgadget Links API](http://seogadget.com/api/) - lets you gather backlink data and contact information.
 
 
-#### Mobile Tools
+#### Mobile Tools [**^**](#Contents)
 
 * [Test your mobile speed](https://testmysite.thinkwithgoogle.com/)
-* https://support.google.com/webmasters/answer/6066468?hl=en&rd=2
-* https://developers.google.com/speed/pagespeed/insights/
-* https://www.browserstack.com/responsive
+* [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Make your web pages fast on all devices
+* [Responsive Design Testing across Devices](https://www.browserstack.com/responsive)
 
-### Know Your Self-Customer-Competition
+#### API [**^**](#Contents)
+* [SharedCount API](http://www.sharedcount.com/documentation.php) - combined statistics of Google+, Twitter, Facebook, and more.
+* [Google Analytics API](https://support.google.com/analytics/answer/1008004?hl=en&ref_topic=1008008) -for building custom reports and tools, and also for pulling data straight into Excel or Google Docs.
+* [SEOgadget Links API](http://seogadget.com/api/) - lets you gather backlink data and contact information.
+* [Social Authority API](https://followerwonk.com/social-authority)
+How much reach and social authority do your followers and the people you want to connect with have?
+
+
+### Know Your Self-Customer-Competition [**^**](#Contents)
 
 * [The Simple but Effective Guide to Keyword Competition Analysis](https://neilpatel.com/blog/the-simple-but-effective-guide-to-keyword-competition-analysis/)
 * [Know Your Audience](https://www.searchenginejournal.com/seo-guide/know-your-audience/)
@@ -151,7 +165,7 @@ There are other SEO repositories, including:
   * [Personas](#personas)
 
 
-### Keyword Research
+### Keyword Research [**^**](#Contents)
 * [Keyword Research Fundamentals](https://www.csbtechemporium.com/keyword-research-fundamentals/) -@infominer
 * [Moz - Keyword Research](https://moz.com/beginners-guide-to-seo/keyword-research)
 * [Building a Customer Centric Keyword Strategy](https://searchengineland.com/build-customer-centric-keyword-strategy-220472)
@@ -163,11 +177,11 @@ There are other SEO repositories, including:
 * Searcher Intent
 * [Breadcrumbs](https://www.searchenginejournal.com/breadcrumbs-seo/255007/)
 
-#### For Bloggers
+#### For Bloggers [**^**](#Contents)
 * [Best Keyword Research for Bloggers](https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/)
 * [Stop keyword research for blogging](https://neilpatel.com/blog/stop-keyword-research-for-blogging/)
 
-#### LSI Keywords
+#### LSI Keywords [**^**](#Contents)
 * [lsigraph.com](https://lsigraph.com/)
 * [LSI Keywords and Keywords Density](https://seopressor.com/learn-seopressor/lsi-keywords-and-keyword-density/)
 * [LSIKeywords.com](https://lsikeywords.com/)
@@ -175,25 +189,22 @@ There are other SEO repositories, including:
 * https://thecontentwrangler.com/2016/08/15/complete-guide-lis-keywords/#
 
 
-### Domain Authority
+### Domain Authority [**^**](#Contents)
 * http://precisebench.com/how-to-increase-domain-authority/
 * https://seopressor.com/blog/how-to-increase-domain-authority/
 * https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458
 * https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/
 * https://techtage.com/how-to-increase-domain-authority/
 
-SPEED
+**SPEED**
 
-#### Mobile
-Responsive Design
-Adaptive Website
-Separate Mobile Site
+**Mobile**
 
 * https://www.searchenginejournal.com/seo-guide/introduction-to-mobile-seo/
 * https://www.searchenginejournal.com/convert-blog-posts-amp/161661/
 
  
-#### Internal Linking-Cornerstone Content
+#### Internal Linking-Cornerstone Content [**^**](#Contents)
 * [What is Cornerstone Content?](https://yoast.com/what-is-cornerstone-content/)
 * [Cornerstone Content](https://makeawebsitehub.com/cornerstone-content/)
 * https://yoast.com/cornerstone-content-rank/
@@ -201,7 +212,7 @@ Separate Mobile Site
 * https://www.copyblogger.com/how-to-create-cornerstone-content-that-google-loves/
 
 
-#### Backlink Research
+#### Backlink Research [**^**](#Contents)
 * [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
 * [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
 * [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
@@ -212,7 +223,7 @@ Separate Mobile Site
 
 
 
-### Evergreen-Skyscraper Content
+### Evergreen-Skyscraper Content [**^**](#Contents)
 * https://graywolfseo.com/seo/evergreen-content/
 * https://backlinko.com/skyscraper-technique
 
@@ -230,7 +241,7 @@ Separate Mobile Site
 
 
 
-### Optimizations
+### Optimizations [**^**](#Contents)
 
 * [Title Tag](https://moz.com/learn/seo/title-tag)
 * [Meta Descriptions](https://www.searchenginejournal.com/seo-best-practices-meta-descriptions/262747/)
@@ -247,33 +258,7 @@ Separate Mobile Site
 
 ![](https://www.searchenginejournal.com/wp-content/uploads/2018/08/how-to-create-perfectly-optimized-content-infographic.png)
 
-### Apply SEO to Different Platforms
-
-* App store
-* YouTube channel and video 
-* Google My Business
-* Social media
-* Amazon
-* Yelp
-
-#### Adwords
-
-#### Ghost
-* [Optimize Ghost for SEO-Page Title](https://blog.mornati.net/optimize-ghost-for-seo-page-title/)
-
-#### SquareSpace
-
-#### Wordpress
-* [Wordpress SEO Secret: Switching Post H1-H2 Tags](http://www.fathomdelivers.com/blog/cro-an-ux/wordpress-seo-secret-switching-post-h1-h2-tags/) - Essential Optimization for Wordpress users to ensure
-* [Wordpress Local-SEO](https://onlinemediamasters.com/wordpress-local-seo/)
-* [Show Date Last Modified](https://www.shoutmeloud.com/show-last-modified-date-wordpress.html)
-
-### Small Business SEO
-
-
-
-
-### KPI
+### KPI [**^**](#Contents)
 
 * [Top SEO KPI](https://www.searchenginejournal.com/seo-guide/top-seo-kpis/)
 1. Organic Sessions
@@ -287,7 +272,33 @@ Separate Mobile Site
 9. Crawl Errors
 
 
-### Google Algorithm
+### Apply SEO to Different Platforms [**^**](#Contents)
+
+* App store
+* YouTube channel and video 
+* Google My Business
+* Social media
+* Amazon
+* Yelp
+
+#### Adwords [**^**](#Contents)
+
+#### Ghost [**^**](#Contents)
+* [Optimize Ghost for SEO-Page Title](https://blog.mornati.net/optimize-ghost-for-seo-page-title/)
+
+#### SquareSpace [**^**](#Contents)
+
+#### Wordpress [**^**](#Contents)
+* [Wordpress SEO Secret: Switching Post H1-H2 Tags](http://www.fathomdelivers.com/blog/cro-an-ux/wordpress-seo-secret-switching-post-h1-h2-tags/) - Essential Optimization for Wordpress users to ensure
+* [Wordpress Local-SEO](https://onlinemediamasters.com/wordpress-local-seo/)
+* [Show Date Last Modified](https://www.shoutmeloud.com/show-last-modified-date-wordpress.html)
+
+### Small Business SEO [**^**](#Contents)
+
+
+
+
+### Google Algorithm [**^**](#Contents)
 
 * [Track Google Algorithm Updates](https://www.searchenginejournal.com/seo-guide/track-google-algorithm-updates/)
   * https://moz.com/mozcast/
@@ -303,35 +314,31 @@ You can minimize your chances of avoiding a huge impact by always focusing on th
 
 You’re far better off understanding your audience and creating content that builds your authority, relevance, and trust.
 
-### Machine Learning
+### Machine Learning [**^**](#Contents)
 * https://www.searchenginejournal.com/seo-guide/machine-learning/
 * [Machine Learning in SEO](https://www.searchenginejournal.com/how-machine-learning-in-search-works/257837/)
 
-### Studies
+### Studies [**^**](#Contents)
 * [Google Study](https://www.thinkwithgoogle.com/consumer-insights/shopper-research/)
 * https://backlinko.com/search-engine-ranking
 
-### ETC
+### Assorted [**^**](#Contents)
 
 * [SEO Changing Article Dates](https://www.searchenginejournal.com/seo-changing-article-dates/225789/)
+* https://www.quora.com/Which-is-the-best-keywords-for-website-development-company
 
-### History
+### History [**^**](#Contents)
 
 * [SEO History](https://www.searchenginejournal.com/seo-101/seo-history/)
 * http://infolab.stanford.edu/~backrub/google.html
 * [Google Algorithm History](https://www.searchenginejournal.com/google-algorithm-history/)
 
 
-### Resources
+### Resources [**^**](#Contents)
 
-* https://github.com/teles/awesome-seo
-
+* [/teles/awesome-seo](https://github.com/teles/awesome-seo)
 * [/marcobiedermann/search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization)
 * [100 Free SEO Tools - Moz](https://moz.com/blog/100-free-seo-tools)
 * [SEO & Webmaster Tools packed with Ninja efficiency](https://www.internetmarketingninjas.com/tools/)
-
 * [Best SEO BLogs](https://blog.hubspot.com/marketing/best-seo-blogs)
 
-### Extra
-
-* https://www.quora.com/Which-is-the-best-keywords-for-website-development-company
