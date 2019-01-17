@@ -1,16 +1,17 @@
 # 100's of Mostly Free SEO Tools
 
 ## Contents
-* [Google and Company](#Google-and-Company-)
-* [Limited Trial-Power Tools](#Limited-Trial-Power-Tools-)
-* [Audit and Analytics](#Audit-and-Analytics-)
-* [Speed and Responsiveness](#Speed-and-Responsiveness-)
-* [Keywords](#keywords-)
-* [Social](#Social-)
-* [Content Creation](#Content-Creation-)
-* [Link Building](#Link-Building-)
-* [API](#API-)
-* [Track Google Algorithm](#Track-Google-Algorithm-)
+* tools.md
+  * [Google and Company](#Google-and-Company-)
+  * [Limited Trial-Power Tools](#Limited-Trial-Power-Tools-)
+  * [Audit and Analytics](#Audit-and-Analytics-)
+  * [Speed and Responsiveness](#Speed-and-Responsiveness-)
+  * [Keywords](#keywords-)
+  * [Social](#Social-)
+  * [Content Creation](#Content-Creation-)
+  * [Link Building](#Link-Building-)
+  * [API](#API-)
+  * [Track Google Algorithm](#Track-Google-Algorithm-)
 * [**/README.md**](/README.md)
 
 ### Google and Company [**^**](#Contents)
@@ -47,7 +48,6 @@
 * [Bitly.com](https://bitly.com/) - Analytics
 * [Builtwith.com](http://builtwith.com/) - find out what websites are made of.
 * [Robots.txt tool](https://technicalseo.com/seo-tools/robots-txt/)
-* [Check Listing](https://moz.com/local/search) - checks name-address-phone number across local listings 
 * https://matomo.org - light alternative to google analytics
 * [Search Engine Rank Checker](http://tools.seobook.com/firefox/rank-checker/)
 * [Chrome Webscraping Extension](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
@@ -69,6 +69,8 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [Similarweb](http://www.similarweb.com/) - Competitive analysis "Competitor website stats are hard to come by, but Similar Web does a good job." -moz
 * [Statcounter](http://statcounter.com/) - Free-Lightweight analytics - alternative to Google Analytics for privacy.
 * [Whois Lookup](http://whois.domaintools.com/) registration, contact, and administrative information for any domain.
+* http://www.quicksprout.com/ - Website Analysis
+* [Browseo](http://www.browseo.net/) - See your website the way the search engine sees it.
 
 ### Speed-Responsiveness [**^**](#Contents)
 * [Test your mobile speed](https://testmysite.thinkwithgoogle.com/)
@@ -77,7 +79,7 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [Pingdom](http://tools.pingdom.com/fpt/) - Speed tools
 * [webpagetest.org](http://www.webpagetest.org/) - speed - performance
 * [Cloudflare](https://www.cloudflare.com/)
-
+* [GTMetrics](http://gtmetrix.com/)
 
 ### Keywords [**^**](#Contents)
 * [Google Keyword Planner](https://ads.google.com/home/tools/keyword-planner/) [[Article](https://backlinko.com/google-keyword-planner)]
@@ -99,6 +101,8 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [Keywordseverywhere.com](https://keywordseverywhere.com/) - browser addon providing search volume, CPC & competitive data.
 * [Wordtracker Scout](https://www.wordtracker.com/scout) - extension that grabs the most relevant keywords from a web-page.
 * [Soovle](https://soovle.com/) - suggested keywords from Google, YouTube, Bing, Amazon and more.
+* [SERPS - Rank Checker](https://serps.com/tools/rank_checker)
+
 
 
 ### Domain Authority
@@ -116,6 +120,15 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * http://knowem.com/ - brainstorm new social media names
 * [RowFeeder](https://rowfeeder.com/) - track social usernames, hashtags and keywords - export to Excel.
 
+### Market Research [**^**](#Contents)
+* [Yougov](https://today.yougov.com/profileslite#/) - measures the popularity and fame of anything and everything, based on millions of responses from the American public.
+* [Demographics Pro](http://www.demographicspro.com/) - analyze Twitter and Instagram profiles to give you insight into the followers. 
+* [Think With Google - Marketer's Almanac](https://www.thinkwithgoogle.com/marketers-almanac/)
+* [factfinder.census.gov](http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml) - search U.S. census data. 
+* [Make My Perona](https://www.hubspot.com/make-my-persona) 
+* [Pew Research](http://www.pewresearch.org/data/) - economic conditions, political attitudes, social media usage—interactive charts
+* [Hubspot Research](https://research.hubspot.com/)
+
 ### Content Creation [**^**](#Contents)
 * [Canva Infographic Creator](https://www.canva.com/create/infographics/)
 * [easel.ly](http://www.easel.ly/) - free create infographics
@@ -125,7 +138,6 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
 * [Google SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html) - see how your snippet may appear in search results. 
 * [infogr.am](http://infogr.am/) - create infographics and data visualizations
-* [Schema-Creator](http://schema-creator.org/)
 * [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
 * [wordle](http://www.wordle.net/) - word cloud generator
 * [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
@@ -144,7 +156,18 @@ combines feeds "into content and other magical creations".
 * [mailtester.com](http://mailtester.com/) - check an e-mail address without sending it a spam test message
 * [MyBlogGuest](http://myblogguest.com/) - Find Guest Posting opportunities
 * [Majestic SEO](http://www.majesticseo.com/) - Link Research\Building, Competitive Analysis - free options great for link research.
+
+### Local SEO
+
+* [Check Listing](https://moz.com/local/search) - checks name-address-phone number across local listings 
 * [Whitespark Local Citation Finder](https://www.whitespark.ca/local-citation-finder/)
+* [localprmedia.com](http://www.localprmedia.com/local-business-listings/)
+* [Yext](http://www.yext.com/)
+* [UBL](https://www.ubl.org/)
+
+### Schema
+
+* [Schema-Creator](http://schema-creator.org/)
 
 ### API [**^**](#Contents)
 * [SharedCount API](http://www.sharedcount.com/documentation.php) - combined statistics of Google+, Twitter, Facebook, and more.
