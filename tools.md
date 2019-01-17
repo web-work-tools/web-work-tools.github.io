@@ -88,7 +88,7 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [How to use Google Trends for Keyword Research](https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/)
 * [Google Trends](https://trends.google.com)
 * [Serps Keyword Rank Checker](https://serps.com/tools/rank-checker/)
-* https://my.jaaxy.com
+* [Jaaxy](https://my.jaaxy.com) - has "quoted search result" feature, good for determining keyword competition
 * [Keyword Shitter](http://keywordshitter.com)
 * [AdWord & SEO Keyword Permutation Generator](http://seo.danzambonini.com)
 * [Wordstream Free Keyword Tools](http://www.wordstream.com/free-keyword-tools)
@@ -97,6 +97,8 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [nTopic](http://www.ntopic.org/) - gives your content a "relevancy score" and offers keyword suggestions to improve it.
 * [Keywordseverywhere.com](https://keywordseverywhere.com/) - browser addon providing search volume, CPC & competitive data.
 * [Wordtracker Scout](https://www.wordtracker.com/scout) - extension that grabs the most relevant keywords from a web-page.
+* [Soovle](https://soovle.com/) - suggested keywords from Google, YouTube, Bing, Amazon and more.
+
 
 ### Domain Authority
 * [Website Authority Checker](http://www.seoreviewtools.com/website-authority-checker/)
@@ -171,3 +173,4 @@ You’re far better off understanding your audience and creating content that bu
 * [100 Free SEO Tools - Moz](https://moz.com/blog/100-free-seo-tools)
 * [500 Free SEO Tools](http://seeromega.com/500-most-effective-free-seo-tools-online-for-blogger-and-business/)
 * [1000 Top SEO Internet Marketing Tools](http://seoexpertservices-ro.blogspot.com/2016/08/new-get-over-1000-top-seo-internet.html#) (Just a list, no links)
+* https://backlinko.com/keyword-research-tools

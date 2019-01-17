@@ -1,37 +1,50 @@
 # /infominer33/Learn-SEO
-<a href="https://infominer.id"><img src="https://raw.githubusercontent.com/infominer33/infominer33.github.io/master/infominer.png" align="right" width="150" height="140"></a><br><a href="https://infominer.id" align="right">infominer.id</a>
+<a href="https://infominer.id"><img src="https://raw.githubusercontent.com/infominer33/infominer33.github.io/master/infominer.png" align="right" width="150" height="140"></a>
 
 There are other SEO repositories, including:
 
 * [/teles/awesome-seo](https://github.com/teles/awesome-seo) - A curated list of SEO (Search Engine Optimization) links. 
 * [/marcobiedermann/search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization) - A helpful checklist / collection of Search Engine Optimization (SEO) tips and techniques. 
 
-and I've moved the [**tools section**](/tools.md) to its own page.
+ 
 
 ## Contents
 
-* [101](#101-)
-* [Know Your Self-Customer-Competition](#Know-Your-Self-Customer-Competition-)
-* [Keyword Research](#Keyword-Research-)
-  * [For Bloggers](#For-Bloggers-)
-  * [LSI Keywords](#LSI-Keywords-)
-* [Domain Authority](#domain-authority-)
-  * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content-)
-  * [Backlink Research](#Backlink-Research-)
-* [Evergreen-Skyscraper Content](#Evergreen-Skyscraper-Content-)
-* [Optimizations](#Optimizations-)
-  * [KPI](#KPI-)
-* [Apply SEO to Different Platforms](#apply-seo-to-different-platforms-)
-  * [Adwords](#adwords-)
-  * [Ghost](#ghost-)
-  * [Squarespace](#squarespace-)
-  * [Wordpress](#wordpress-)
-* [Google Algorithm](#google-algorithm-)
-* [Machine Learning](#machine-learning-)
-* [Studies](#Studies-)
-* [Assorted](#Assorted-)
-* [History](#History-)
-* [Resources](#resources-)
+* [**Learn-SEO**](#Learn-SEO)
+  * [101](#101-)
+  * [Know Your Self-Customer-Competition](#Know-Your-Self-Customer-Competition-)
+  * [Keyword Research](#Keyword-Research-)
+    * [For Bloggers](#For-Bloggers-)
+    * [LSI Keywords](#LSI-Keywords-)
+  * [Domain Authority](#domain-authority-)
+    * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content-)
+    * [Backlink Research](#Backlink-Research-)
+  * [Evergreen-Skyscraper Content](#Evergreen-Skyscraper-Content-)
+  * [Optimizations](#Optimizations-)
+    * [KPI](#KPI-)
+  * [Apply SEO to Different Platforms](#apply-seo-to-different-platforms-)
+    * [Adwords](#adwords-)
+    * [Ghost](#ghost-)
+    * [Squarespace](#squarespace-)
+    * [Wordpress](#wordpress-)
+  * [Google Algorithm](#google-algorithm-)
+  * [Machine Learning](#machine-learning-)
+  * [Studies](#Studies-)
+  * [Assorted](#Assorted-)
+  * [History](#History-)
+  * [Resources](#resources-)
+* [**/tools.md**](/tools.md)
+  * [Google and Company](/tools.md#Google-and-Company-)
+  * [Limited Trial-Power Tools](/tools.md#Limited-Trial-Power-Tools-)
+  * [Audit and Analytics](/tools.md#Audit-and-Analytics-)
+  * [Speed and Responsiveness](/tools.md#Speed-and-Responsiveness-)
+  * [Keywords](/tools.md#keywords-)
+  * [Social](/tools.md#Social-)
+  * [Content Creation](/tools.md#Content-Creation-)
+  * [Link Building](/tools.md#Link-Building-)
+  * [API](/tools.md#API-)
+  * [Track Google Algorithm](/tools.md#Track-Google-Algorithm-)
+
 
 ## /Learn-SEO
 
@@ -88,6 +101,7 @@ and I've moved the [**tools section**](/tools.md) to its own page.
 * https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458
 * https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/
 * https://techtage.com/how-to-increase-domain-authority/
+* https://neilpatel.com/blog/boost-your-domain-authority/
 
 **SPEED**
 
@@ -99,22 +113,12 @@ and I've moved the [**tools section**](/tools.md) to its own page.
  
 #### Internal Linking-Cornerstone Content [**^**](#Contents)
 * [What is Cornerstone Content?](https://yoast.com/what-is-cornerstone-content/)
+* [Cornerstone Content - Yoast](https://yoast.com/cornerstone-content-rank/)
 * [Cornerstone Content](https://makeawebsitehub.com/cornerstone-content/)
-* https://yoast.com/cornerstone-content-rank/
 * https://loriballen.com/cornerstone-content-key-pages-website/
-* https://www.copyblogger.com/how-to-create-cornerstone-content-that-google-loves/
-
-
-#### Backlink Research [**^**](#Contents)
-* [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
-* [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
-* [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
-* [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
-* [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
-* [Smart ways to get Backlinks "At Scale"](https://www.crazyegg.com/blog/smart-ways-get-quality-backlinks/)
-* [youtube - ahrefs - Copy My Link Building System: How to Get Backlinks “At Scale"](https://www.youtube.com/watch?v=Ovu2ZYWgOJQ)
-
-
+* [How to Create Cornerstone Content that Google Loves](https://www.copyblogger.com/how-to-create-cornerstone-content-that-google-loves/)
+* [Cornerstone Content Guide](https://www.wordstream.com/blog/ws/2017/10/23/cornerstone-content-guide)
+* https://maketraffichappen.com/cornerstone-content/
 
 ### Evergreen-Skyscraper Content [**^**](#Contents)
 * https://graywolfseo.com/seo/evergreen-content/
@@ -131,6 +135,18 @@ and I've moved the [**tools section**](/tools.md) to its own page.
 * Industry surveys: Many publishers do annual industry surveys, which have become well-known (and well-cited) each time they are released. 
 * Free content or tools: This could include long-form content such as ebooks, or useful tools like quizzes and personalized reports that give users the helpful information they didn’t know before. 
   * [Identify Infuencers of Target Audience](#identify-influencers-of-target-audience)
+* [1000 word articles vs 2000 word articles](https://www.searchenginejournal.com/1000-word-post-vs-2000-word-post-better-roi/112156/)
+* [Historical Blog SEO Optimization](https://blog.hubspot.com/marketing/historical-blog-seo-conversion-optimization)
+
+
+#### Backlink Research [**^**](#Contents)
+* [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
+* [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
+* [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
+* [12 Ways to get Free Backlinks](https://blog.monitorbacklinks.com/seo/free-backlinks/)
+* [ahrefs.com/blog/how-to-get-backlinks](https://ahrefs.com/blog/how-to-get-backlinks/)
+* [Smart ways to get Backlinks "At Scale"](https://www.crazyegg.com/blog/smart-ways-get-quality-backlinks/)
+* [youtube - ahrefs - Copy My Link Building System: How to Get Backlinks “At Scale"](https://www.youtube.com/watch?v=Ovu2ZYWgOJQ)
 
 
 
@@ -151,7 +167,7 @@ and I've moved the [**tools section**](/tools.md) to its own page.
 
 ![](https://www.searchenginejournal.com/wp-content/uploads/2018/08/how-to-create-perfectly-optimized-content-infographic.png)
 
-### KPI [**^**](#Contents)
+#### KPI [**^**](#Contents)
 
 * [Top SEO KPI](https://www.searchenginejournal.com/seo-guide/top-seo-kpis/)
 1. Organic Sessions
