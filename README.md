@@ -49,6 +49,7 @@ There are other SEO repositories, including:
 ## /Learn-SEO
 
 ### 101 [**^**](#Contents)
+* [Webmaster Guidelines - Google Search Console](https://support.google.com/webmasters/answer/35769?hl=en#3)
 * [Ten SEO Fundamentals](https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals)
 * [backlinko-SEO this Year](https://backlinko.com/seo-this-year)
 * [10 Fundamentals to Understanding SEO](https://www.entrepreneur.com/article/299053)
