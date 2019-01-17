@@ -11,6 +11,7 @@
 * [Link Building](#Link-Building-)
 * [API](#API-)
 * [Track Google Algorithm](#Track-Google-Algorithm-)
+* [**/README.md**](/README.md)
 
 ### Google and Company [**^**](#Contents)
 * [Google Analytics](http://www.google.com/analytics/) - duh -  free tools to track and analyze website data.
