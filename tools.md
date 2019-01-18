@@ -44,33 +44,41 @@
   >"More raw data than any other SEO toolbar out there." -[moz](https://moz.com/blog/100-free-seo-tools)
 * [screamingfrog.co.uk](http://www.screamingfrog.co.uk/)
   > "must-have for most serious SEOs." -[moz](https://moz.com/blog/100-free-seo-tools)
-* [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
 * [Bitly.com](https://bitly.com/) - Analytics
 * [Builtwith.com](http://builtwith.com/) - find out what websites are made of.
-* [Robots.txt tool](https://technicalseo.com/seo-tools/robots-txt/)
-* https://matomo.org - light alternative to google analytics
-* [Search Engine Rank Checker](http://tools.seobook.com/firefox/rank-checker/)
 * [Chrome Webscraping Extension](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
+* [Similarweb](http://www.similarweb.com/) - Competitive analysis "Competitor website stats are hard to come by, but Similar Web does a good job." -moz
+* [Browseo](http://www.browseo.net/) - See your website the way the search engine sees it.
 * [SEER's SEO Toolbox](https://www.seerinteractive.com/labs/seo-toolbox/)
 * [SEO Toolbar](http://tools.seobook.com/seo-toolbar/) -  information including backlinks and competitive research.
 * [SEO Tools for Excel](http://nielsbosma.se/projects/seotools/)
 * [SEOgadget Tools](http://seogadget.com/tools/) includes Excel plugins, content strategy generator....
-* [Use Fetch as Google for websites](https://support.google.com/webmasters/answer/6066468?hl=en&rd=2) - Test if Google can crawl your web page
-* [Similar Page Checker](http://www.webconfs.com/similar-page-checker.php) - will give a score of how closely the HTML of two pages matches.
 * [URI Valet](http://urivalet.com/) - check server headers, canonical information, analyzing redirect problems and more.
 * [Virante SEO Tools](http://www.virante.org/seo-tools)
 * [Xenu's Link Sleuth](http://home.snafu.de/tilman/xenulink.html) - Site Crawler, find broken links, create sitemaps, etc.
 * [Raven Tools](https://raventools.com/site-auditor/) Site Audit
 * [Nibbler](http://nibbler.silktide.com/)
 Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
-* [XML-Sitemaps.com](http://www.xml-sitemaps.com/)
-* [Searchmetrics Visibility Charts](http://suite.searchmetrics.com/en/research) - Track search visibility of any website
-* [SERPmetrics](http://serpmetrics.com/flux/) - SERP Tracking, Competitive Intelligence
-* [Similarweb](http://www.similarweb.com/) - Competitive analysis "Competitor website stats are hard to come by, but Similar Web does a good job." -moz
 * [Statcounter](http://statcounter.com/) - Free-Lightweight analytics - alternative to Google Analytics for privacy.
 * [Whois Lookup](http://whois.domaintools.com/) registration, contact, and administrative information for any domain.
 * http://www.quicksprout.com/ - Website Analysis
-* [Browseo](http://www.browseo.net/) - See your website the way the search engine sees it.
+
+### Rank and Visibility
+
+* [Search Engine Rank Checker](http://tools.seobook.com/firefox/rank-checker/)
+* [Searchmetrics Visibility Charts](http://suite.searchmetrics.com/en/research) - Track search visibility of any website
+* [SERPmetrics](http://serpmetrics.com/flux/) - SERP Tracking, Competitive Intelligence
+* [Use Fetch as Google for websites](https://support.google.com/webmasters/answer/6066468?hl=en&rd=2) - Test if Google can crawl your web page
+
+
+### Optimizations
+
+* [Anchor Text Over Optimization Tool](http://www.removeem.com/ratios.php)
+* [XML-Sitemaps.com](http://www.xml-sitemaps.com/)
+* [Similar Page Checker](http://www.webconfs.com/similar-page-checker.php) - will give a score of how closely the HTML of two pages matches.
+* [Robots.txt tool](https://technicalseo.com/seo-tools/robots-txt/)
+* https://matomo.org - light alternative to google analytics
+
 
 ### Speed-Responsiveness [**^**](#Contents)
 * [Test your mobile speed](https://testmysite.thinkwithgoogle.com/)
@@ -86,11 +94,10 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 * [KWFinder](https://authoritywebsiteincome.com/best-kw-research-tool-keyword-competitiveness/)
 * [Amazon's Kewordtool.io](https://keywordtool.io/amazon)
 * [Check your raking for a given keyword](https://www.seocentro.com/tools/search-engines/keyword-position.html)
-* [answerthepublic.com/](https://answerthepublic.com/) - finds questions, prepositions, comparisons, alphabeticals, and related searches.
+* [answerthepublic.com](https://answerthepublic.com/) - finds questions, prepositions, comparisons, alphabeticals, and related searches.
 * [Google Correlate](https://www.google.com/trends/correlate) - finds search patterns corresponding with real‐world trends
 * [How to use Google Trends for Keyword Research](https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/)
 * [Google Trends](https://trends.google.com)
-* [Serps Keyword Rank Checker](https://serps.com/tools/rank-checker/)
 * [Jaaxy](https://my.jaaxy.com) - has "quoted search result" feature, good for determining keyword competition
 * [Keyword Shitter](http://keywordshitter.com)
 * [AdWord & SEO Keyword Permutation Generator](http://seo.danzambonini.com)
@@ -198,3 +205,4 @@ You’re far better off understanding your audience and creating content that bu
 * [500 Free SEO Tools](http://seeromega.com/500-most-effective-free-seo-tools-online-for-blogger-and-business/)
 * [1000 Top SEO Internet Marketing Tools](http://seoexpertservices-ro.blogspot.com/2016/08/new-get-over-1000-top-seo-internet.html#) (Just a list, no links)
 * https://backlinko.com/keyword-research-tools
+* https://www.robbierichards.com/seo/best-keyword-research-tool/

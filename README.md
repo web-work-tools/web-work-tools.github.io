@@ -57,6 +57,7 @@ There are other SEO repositories, including:
 * https://www.searchenginejournal.com/
 * [13 SEO KPI](https://www.searchenginejournal.com/content-marketing-kpis/seo/)
 
+https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb
 ... coming soon ...
 
 
@@ -128,14 +129,15 @@ There are other SEO repositories, including:
 **Creating 10x Content:**
   * https://www.searchenginejournal.com/guide-10x-content-new-successful-content-beyond/139731/
   * https://backlinko.com/skyscraper-technique
-* Guest Blogging
-* "opinion-forming journalism from recognized experts, and data-driven research studies showed a strong correlation between shares and links."
-* Client case studies: These are shared by the client and can include exciting information about how they achieved their results, which can help others.
-* Infographics: These still get shared heavily online and are a great way to provide an instant view of data on a specific topic. It can be fun and informative, and usually, are republished on other blogs and shared on social media.
-* Other content that highlights influencers: This could include podcasts or video interviews.
-* Industry surveys: Many publishers do annual industry surveys, which have become well-known (and well-cited) each time they are released. 
-* Free content or tools: This could include long-form content such as ebooks, or useful tools like quizzes and personalized reports that give users the helpful information they didn’t know before. 
-  * [Identify Infuencers of Target Audience](#identify-influencers-of-target-audience)
+* Examples of trending quality content: 
+  >* Guest Blogging
+  >* "opinion-forming journalism from recognized experts, and data-driven research studies showed a strong correlation between shares and links."
+  > * Client case studies: These are shared by the client and can include exciting information about how they achieved their results, which can help others.
+  > * Infographics: These still get shared heavily online and are a great way to provide an instant view of data on a specific topic. It can be fun and informative, and usually, are republished on other blogs and shared on social media.
+  > * Other content that highlights influencers: This could include podcasts or video interviews.
+  > * Industry surveys: Many publishers do annual industry surveys, which have become well-known (and well-cited) each time they are released. 
+  > * Free content or tools: This could include long-form content such as ebooks, or useful tools like quizzes and personalized reports that give users the helpful information they didn’t know before. -[What to do when things go wrong](https://www.searchenginejournal.com/seo-guide/what-to-do-when-things-go-wrong/)
+  
 * [1000 word articles vs 2000 word articles](https://www.searchenginejournal.com/1000-word-post-vs-2000-word-post-better-roi/112156/)
 * [Historical Blog SEO Optimization](https://blog.hubspot.com/marketing/historical-blog-seo-conversion-optimization)
 
@@ -216,6 +218,7 @@ There are other SEO repositories, including:
 ### Studies [**^**](#Contents)
 * [Google Study](https://www.thinkwithgoogle.com/consumer-insights/shopper-research/)
 * https://backlinko.com/search-engine-ranking
+* [Moz analyses 1 million Articles](https://moz.com/blog/content-shares-and-links-insights-from-analyzing-1-million-articles)
 
 ### Assorted [**^**](#Contents)
 
