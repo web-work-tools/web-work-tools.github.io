@@ -1,5 +1,5 @@
 # /infominer33/Learn-SEO
-<a href="https://infominer.id"><img src="https://raw.githubusercontent.com/infominer33/infominer33.github.io/master/infominer.png" align="right" width="150" height="140"></a>
+<a href="https://infominer.id"><img src="https://infominer.id/images/infominer.png" align="right" width="175" height="150"></a>
 
 There are other SEO repositories, including:
 
@@ -10,18 +10,19 @@ There are other SEO repositories, including:
 
 ## Contents
 
-* [**Learn-SEO**](#Learn-SEO)
+* [**Learn-SEO**](#learn-seo)
   * [101](#101-)
-  * [Know Your Self-Customer-Competition](#Know-Your-Self-Customer-Competition-)
-  * [Keyword Research](#Keyword-Research-)
-    * [For Bloggers](#For-Bloggers-)
-    * [LSI Keywords](#LSI-Keywords-)
+  * [Know Your Self-Customer-Competition](#know-your-self-customer-competition-)
+  * [Keyword Research](#keyword-research-)
+    * [Seed Keywords](#seed-keywords-)
+    * [For Bloggers](#for-bloggers-)
+    * [LSI Keywords](#lsi-keywords-)
   * [Domain Authority](#domain-authority-)
-    * [Internal linking-Cornerstone Content](#Internal-Linking-Cornerstone-Content-)
-    * [Backlink Research](#Backlink-Research-)
-  * [Evergreen-Skyscraper Content](#Evergreen-Skyscraper-Content-)
-  * [Optimizations](#Optimizations-)
-    * [KPI](#KPI-)
+    * [Internal linking-Cornerstone Content](#internal-linking-cornerstone-content-)
+    * [Backlink Research](#backlink-research-)
+  * [Evergreen-Skyscraper Content](#evergreen-skyscraper-content-)
+  * [Optimizations](#optimizations-)
+    * [KPI](#kpi-)
   * [Apply SEO to Different Platforms](#apply-seo-to-different-platforms-)
     * [Adwords](#adwords-)
     * [Ghost](#ghost-)
@@ -29,9 +30,9 @@ There are other SEO repositories, including:
     * [Wordpress](#wordpress-)
   * [Google Algorithm](#google-algorithm-)
   * [Machine Learning](#machine-learning-)
-  * [Studies](#Studies-)
-  * [Assorted](#Assorted-)
-  * [History](#History-)
+  * [Studies](#studies-)
+  * [Assorted](#assorted-)
+  * [History](#history-)
   * [Resources](#resources-)
 * [**/tools.md**](/tools.md)
   * [Google and Company](/tools.md#Google-and-Company-)
@@ -48,7 +49,7 @@ There are other SEO repositories, including:
 
 ## /Learn-SEO
 
-### 101 [**^**](#Contents)
+### 101 [**^**](#contents)
 * [Webmaster Guidelines - Google Search Console](https://support.google.com/webmasters/answer/35769?hl=en#3)
 * [Ten SEO Fundamentals](https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals)
 * [backlinko-SEO this Year](https://backlinko.com/seo-this-year)
@@ -61,7 +62,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 ... coming soon ...
 
 
-### Know Your Self-Customer-Competition [**^**](#Contents)
+### Know Your Self-Customer-Competition [**^**](#contents)
 
 * [The Simple but Effective Guide to Keyword Competition Analysis](https://neilpatel.com/blog/the-simple-but-effective-guide-to-keyword-competition-analysis/)
 * [Know Your Audience](https://www.searchenginejournal.com/seo-guide/know-your-audience/)
@@ -74,7 +75,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
   * [Personas](#personas)
 * Searcher Intent
 
-### Keyword Research [**^**](#Contents)
+### Keyword Research [**^**](#contents)
 * [Keyword Research Fundamentals](https://www.csbtechemporium.com/keyword-research-fundamentals/) -@infominer
 * [Moz - Keyword Research](https://moz.com/beginners-guide-to-seo/keyword-research)
 * [Building a Customer Centric Keyword Strategy](https://searchengineland.com/build-customer-centric-keyword-strategy-220472)
@@ -85,11 +86,16 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 * [Focus on Long-Tail Keywords](https://yoast.com/focus-on-long-tail-keywords/)
 * [Breadcrumbs](https://www.searchenginejournal.com/breadcrumbs-seo/255007/)
 
-#### For Bloggers [**^**](#Contents)
+#### Seed Keywords [**^**](#contents)
+
+
+
+
+#### For Bloggers [**^**](#contents)
 * [Best Keyword Research for Bloggers](https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/)
 * [Stop keyword research for blogging](https://neilpatel.com/blog/stop-keyword-research-for-blogging/)
 
-#### LSI Keywords [**^**](#Contents)
+#### LSI Keywords [**^**](#contents)
 * [lsigraph.com](https://lsigraph.com/)
 * [LSI Keywords and Keywords Density](https://seopressor.com/learn-seopressor/lsi-keywords-and-keyword-density/)
 * [LSIKeywords.com](https://lsikeywords.com/)
@@ -97,7 +103,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 * https://thecontentwrangler.com/2016/08/15/complete-guide-lis-keywords/#
 
 
-### Domain Authority [**^**](#Contents)
+### Domain Authority [**^**](#contents)
 * http://precisebench.com/how-to-increase-domain-authority/
 * https://seopressor.com/blog/how-to-increase-domain-authority/
 * https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458
@@ -113,7 +119,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 * https://www.searchenginejournal.com/convert-blog-posts-amp/161661/
 
  
-#### Internal Linking-Cornerstone Content [**^**](#Contents)
+#### Internal Linking-Cornerstone Content [**^**](#contents)
 * [What is Cornerstone Content?](https://yoast.com/what-is-cornerstone-content/)
 * [Cornerstone Content - Yoast](https://yoast.com/cornerstone-content-rank/)
 * [Cornerstone Content](https://makeawebsitehub.com/cornerstone-content/)
@@ -122,7 +128,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 * [Cornerstone Content Guide](https://www.wordstream.com/blog/ws/2017/10/23/cornerstone-content-guide)
 * https://maketraffichappen.com/cornerstone-content/
 
-### Evergreen-Skyscraper Content [**^**](#Contents)
+### Evergreen-Skyscraper Content [**^**](#contents)
 * https://graywolfseo.com/seo/evergreen-content/
 * https://backlinko.com/skyscraper-technique
 
@@ -142,7 +148,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 * [Historical Blog SEO Optimization](https://blog.hubspot.com/marketing/historical-blog-seo-conversion-optimization)
 
 
-#### Backlink Research [**^**](#Contents)
+#### Backlink Research [**^**](#contents)
 * [How to get Quality Backlinks](https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/)
 * [backlinko.com/backlinks-guide](https://backlinko.com/backlinks-guide)
 * [60 Niche Social Networks Marketers Should Know About](https://www.convertwithcontent.com/60-niche-social-networks-marketers/)
@@ -153,7 +159,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 
 
 
-### Optimizations [**^**](#Contents)
+### Optimizations [**^**](#contents)
 
 * [Title Tag](https://moz.com/learn/seo/title-tag)
 * [Meta Descriptions](https://www.searchenginejournal.com/seo-best-practices-meta-descriptions/262747/)
@@ -170,7 +176,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 
 ![](https://www.searchenginejournal.com/wp-content/uploads/2018/08/how-to-create-perfectly-optimized-content-infographic.png)
 
-#### KPI [**^**](#Contents)
+#### KPI [**^**](#contents)
 
 * [Top SEO KPI](https://www.searchenginejournal.com/seo-guide/top-seo-kpis/)
 1. Organic Sessions
@@ -184,7 +190,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 9. Crawl Errors
 
 
-### Apply SEO to Different Platforms [**^**](#Contents)
+### Apply SEO to Different Platforms [**^**](#contents)
 
 * App store
 * YouTube channel and video 
@@ -193,46 +199,46 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 * Amazon
 * Yelp
 
-#### Adwords [**^**](#Contents)
+#### Adwords [**^**](#contents)
 
-#### Ghost [**^**](#Contents)
+#### Ghost [**^**](#contents)
 * [Optimize Ghost for SEO-Page Title](https://blog.mornati.net/optimize-ghost-for-seo-page-title/)
 
-#### SquareSpace [**^**](#Contents)
+#### SquareSpace [**^**](#contents)
 
-#### Wordpress [**^**](#Contents)
+#### Wordpress [**^**](#contents)
 * [Wordpress SEO Secret: Switching Post H1-H2 Tags](http://www.fathomdelivers.com/blog/cro-an-ux/wordpress-seo-secret-switching-post-h1-h2-tags/) - Essential Optimization for Wordpress users to ensure
 * [Wordpress Local-SEO](https://onlinemediamasters.com/wordpress-local-seo/)
 * [Show Date Last Modified](https://www.shoutmeloud.com/show-last-modified-date-wordpress.html)
 
-### Small Business SEO [**^**](#Contents)
+### Small Business SEO [**^**](#contents)
 
 
 
 
 
-### Machine Learning [**^**](#Contents)
+### Machine Learning [**^**](#contents)
 * https://www.searchenginejournal.com/seo-guide/machine-learning/
 * [Machine Learning in SEO](https://www.searchenginejournal.com/how-machine-learning-in-search-works/257837/)
 
-### Studies [**^**](#Contents)
+### Studies [**^**](#contents)
 * [Google Study](https://www.thinkwithgoogle.com/consumer-insights/shopper-research/)
 * https://backlinko.com/search-engine-ranking
 * [Moz analyses 1 million Articles](https://moz.com/blog/content-shares-and-links-insights-from-analyzing-1-million-articles)
 
-### Assorted [**^**](#Contents)
+### Assorted [**^**](#contents)
 
 * [SEO Changing Article Dates](https://www.searchenginejournal.com/seo-changing-article-dates/225789/)
 * https://www.quora.com/Which-is-the-best-keywords-for-website-development-company
 
-### History [**^**](#Contents)
+### History [**^**](#contents)
 
 * [SEO History](https://www.searchenginejournal.com/seo-101/seo-history/)
 * http://infolab.stanford.edu/~backrub/google.html
 * [Google Algorithm History](https://www.searchenginejournal.com/google-algorithm-history/)
 
 
-### Resources [**^**](#Contents)
+### Resources [**^**](#contents)
 
 * [/teles/awesome-seo](https://github.com/teles/awesome-seo)
 * [/marcobiedermann/search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization)
