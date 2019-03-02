@@ -1,17 +1,29 @@
+---
+title: 100's of Mostly Free SEO Tools
+description: An Open-Source Repository of SEO Tools
+image: "https://infominer.id/images/tools.png"
+---
+
 # 100's of Mostly Free SEO Tools
+
+
+Originally this lived in [infominer33/Learn-SEO](https://github.com/infominer33/Learn-SEO)
+
+
+—[infominer.id](https://infominer.id)
 
 ## Contents
 * tools.md
-  * [Google and Company](#Google-and-Company-)
-  * [Limited Trial-Power Tools](#Limited-Trial-Power-Tools-)
-  * [Audit and Analytics](#Audit-and-Analytics-)
-  * [Speed and Responsiveness](#Speed-and-Responsiveness-)
+  * [Google and Company](#google-and-company-)
+  * [Limited Trial-Power Tools](#limited-trial-power-tools-)
+  * [Audit and Analytics](#audit-and-analytics-)
+  * [Speed and Responsiveness](#speed-and-responsiveness-)
   * [Keywords](#keywords-)
-  * [Social](#Social-)
-  * [Content Creation](#Content-Creation-)
-  * [Link Building](#Link-Building-)
-  * [API](#API-)
-  * [Track Google Algorithm](#Track-Google-Algorithm-)
+  * [Social](#social-)
+  * [Content Creation](#content-creation-)
+  * [Link Building](#link-building-)
+  * [API](#api-)
+  * [Track Google Algorithm](#track-google-algorithm-)
 * [**/README.md**](/README.md)
 
 ### Google and Company [**^**](#Contents)
@@ -206,3 +218,24 @@ You’re far better off understanding your audience and creating content that bu
 * [1000 Top SEO Internet Marketing Tools](http://seoexpertservices-ro.blogspot.com/2016/08/new-get-over-1000-top-seo-internet.html#) (Just a list, no links)
 * https://backlinko.com/keyword-research-tools
 * https://www.robbierichards.com/seo/best-keyword-research-tool/
+
+---
+
+### [infominer.id](https://infominer.id/)
+
+<img src="https://infominer.id/images/infominer.png" align="right" width="175" height="150">
+
+
+**Tips Welcome**:
+
+[https://tippin.me/@infominer33](https://tippin.me/@infominer33)
+
+BTC— 1A1DZfw4VgpHCgnMjnmfDnMjddKf8xdYbd
+
+![](https://imgur.com/yXLLm9Bl.png) 
+
+DOGE— DEFqLsXX2o5QqsYsRn5g9d2Aba5L5xAVLM
+
+![](https://i.imgur.com/0zBLoUP.png) 
+
+
