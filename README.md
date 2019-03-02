@@ -6,6 +6,11 @@ There are other SEO repositories, including:
 * [/teles/awesome-seo](https://github.com/teles/awesome-seo) - A curated list of SEO (Search Engine Optimization) links. 
 * [/marcobiedermann/search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization) - A helpful checklist / collection of Search Engine Optimization (SEO) tips and techniques. 
 
+Basically I gathered all this info here in prep for writing this article:
+
+* **[SEO Simplified! Increase your Search Rankings in 2019!!](https://www.csbtechemporium.com/seo-simplified-2019/)**
+
+When I get time I'll clean things up in here a bit.
  
 
 ## Contents
