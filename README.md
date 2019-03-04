@@ -90,6 +90,7 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 * [Long-Tail Keywords](https://backlinko.com/long-tail-keywords)
 * [Focus on Long-Tail Keywords](https://yoast.com/focus-on-long-tail-keywords/)
 * [Breadcrumbs](https://www.searchenginejournal.com/breadcrumbs-seo/255007/)
+* [https://www.semrush.com/blog/the-ultimate-keyword-research-checklist/](https://www.semrush.com/blog/the-ultimate-keyword-research-checklist/)
 
 #### Seed Keywords [**^**](#contents)
 
