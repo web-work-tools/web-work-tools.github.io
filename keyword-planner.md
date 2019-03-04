@@ -46,7 +46,7 @@ In the top right corner, click the little wrench for tools, and then select "Key
 
 Click Find New Keywords and then you're good to go!
 
-We're going to enter 10 Seed Keywords, those are different ways someone might search for your business, or a business like it.
+We're going to enter 10 Seed Keywords, those are different ways someone might search for your business, or a business like it. If you don't get enough keyword ideas then leave the web-site blank.
 
 ![](https://i.imgur.com/gYfaH1e.png)
 
