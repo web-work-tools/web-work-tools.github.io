@@ -163,7 +163,8 @@ Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)
 combines feeds "into content and other magical creations". 
 * [Piktochart](http://piktochart.com/) - visualization generator.
 * [Wistia](http://wistia.com/) - SEO-friendly video hosting. 
-
+* [https://www.pcjs.org](https://www.pcjs.org)
+* [https://www341.lunapic.com/editor/](https://www341.lunapic.com/editor/)
 ### Link Building [**^**](#Contents)
 * [Boomerang](http://www.boomeranggmail.com/) - follow-up email reminders.
 * [Buzzstream Tools Suite](http://tools.buzzstream.com/link-building) - 
