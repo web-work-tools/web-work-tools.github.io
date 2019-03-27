@@ -47,6 +47,7 @@ If you don’t want to think about web-development, and simply want your markdow
   * [SSH](#ssh-)
 * [Extra](#extra)
   * [Content Creation](#content-creation)
+  * [WebDev Beyond Jekyll](#webdev-beyond-jekyll-)
 
 ## Introduction
 
@@ -267,6 +268,7 @@ It can be a pain trying to figure out themes, especially if you don't clean out 
 * [rtable](https://dbushell.com/2016/03/04/css-only-responsive-tables/)
 * <a href="https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs" target="_blank">unicode-table.com/#miscellaneous-symbols-and-pictographs</a> 
 * [katex](https://khan.github.io/KaTeX/)
+* [Viewport and Media Queries](https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0)
 
 ### Kramdown [**^**](#contents)
 
@@ -298,15 +300,6 @@ It can be a pain trying to figure out themes, especially if you don't clean out 
 * <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a>
 * <a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a>
 
-## Extra [**^**](#contents)
-
-* [hql287/awesome-free-services](https://github.com/hql287/awesome-free-services)
-* [awesomelists.top](https://awesomelists.top)
-* [Pestov/best-of-awesomeness-and-usefulness-for-webdev](https://github.com/Pestov/best-of-awesomeness-and-usefulness-for-webdev)
-* [mrmartineau/awesome-web-dev-resources](https://github.com/mrmartineau/awesome-web-dev-resources)
-* [Bookmarklets](http://marklets.com/FAQ.aspx)
-* [joshbuchea/awesome-app-landing-page](https://github.com/joshbuchea/awesome-app-landing-page)
-
 ### Content Creation [**^**](#contents)
 
 Here's some tools to make content creation a little easier.
@@ -330,4 +323,3 @@ combines feeds "into content and other magical creations".
 * [https://www.pcjs.org](https://www.pcjs.org)
 * [https://www341.lunapic.com/editor/](https://www341.lunapic.com/editor/)
 * [What You Can Do With Gists on Github?](https://www.labnol.org/internet/github-gist-tutorial/28499/)
-
