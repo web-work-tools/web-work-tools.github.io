@@ -38,8 +38,9 @@ If you don’t want to think about web-development, and simply want your markdow
   * [Front Matter](#front-matter-)
   * [Jekyll-SEO-Tag](#jekyll-seo-tag-)
   * [Open Graph - Favicons and More](#open-graph---favicons-and-more-)
-  * [Twitter](#twitter)
-  * [Other Customizations](#other-customizations)
+  * [Twitter](#twitter-)
+  * [Comments](#comments-)
+  * [Other Customizations](#other-customizations-)
 * [Advance](#advance-)
   * [HTML - CSS](#html---css-)
   * [Liquid](#liquid-)
@@ -230,11 +231,12 @@ It can be a pain trying to figure out themes, especially if you don't clean out 
 * <a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards" target="_blank">About Cards - developer.twitter.com</a>
 * [https://github.com/jekyll/jekyll-mentions/](https://github.com/jekyll/jekyll-mentions/)
 
-### Comments
+### Comments [**^**](#contents)
 * [Github Issues for Blog Comments](http://artsy.github.io/blog/2017/07/15/Comments-are-on/)
 * [A repo you can use to work-around GH issue comment request limmits.](https://github.com/orta/gh-commentify)
 * [Various ways you can add comments to your static site](https://darekkay.com/blog/static-site-comments/)
 * [Add comments to your jekyll powered blog](https://github.com/damieng/jekyll-blog-comments)
+* [Setting up Staticman Server](https://www.flyinggrizzly.net/2017/12/setting-up-staticman-server/)
 
 ### Other Customizations [**^**](#contents)
 
@@ -299,16 +301,6 @@ It can be a pain trying to figure out themes, especially if you don't clean out 
 * <a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">Generating a new SSH key and adding it to the SSH agent</a>
 * <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a>
 * <a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a>
-
-## Extra [**^**](#contents)
-
-* [hql287/awesome-free-services](https://github.com/hql287/awesome-free-services)
-* [Bookmarklets](http://marklets.com/FAQ.aspx)
-* [joshbuchea/awesome-app-landing-page](https://github.com/joshbuchea/awesome-app-landing-page)
-* [fffaraz/awesome-github](https://github.com/fffaraz/awesome-github)
-* [lwakefield/webdevresourcecuration](https://github.com/lwakefield/webdevresourcecuration)
-* [Kikobeats/awesome-github](https://github.com/Kikobeats/awesome-github)
-
 
 ### Content Creation [**^**](#contents)
 
