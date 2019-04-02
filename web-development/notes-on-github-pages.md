@@ -41,14 +41,14 @@ If you don’t want to think about web-development, and simply want your markdow
   * [Twitter](#twitter-)
   * [Comments](#comments-)
   * [Other Customizations](#other-customizations-)
+  * [Content Creation](#content-creation)
 * [Advance](#advance-)
   * [HTML - CSS](#html---css-)
   * [Liquid](#liquid-)
   * [Git](#git-)
   * [SSH](#ssh-)
-* [Extra](#extra)
-  * [Content Creation](#content-creation)
-  * [WebDev Beyond Jekyll](#webdev-beyond-jekyll-)
+  * [Data](#data)
+
 
 ## Introduction
 
@@ -108,6 +108,7 @@ I'm still a bit confused about that part, but gems do help you build pages local
 >Thus, to conclude do NOT read too much into the official themes docs e.g. as the only or "right" way to design a theme. Just (continue to) use "classic" themes - there are hundreds to learn from and once you have mastered "classic" themes you can "graduate" to the master class, that is, using gem-packaged themes.
 -[github.com/planetjekyll/awesome-jekyll-themes](https://github.com/planetjekyll/awesome-jekyll-themes)
 
+I understand what they're saying, but I feel kind of the opposite. I got used to pages, first with the theme chooser, then with gem-based (offering more configurability, but keeping configuration files I don't need or understand out of sight untill needed.) Then again, I didn't really understand my options when I started.
 
 These classic themes are just files and folders, everything where you can see it. I don't know if that's what I would have chosen when I first started.. but it's definitely what I need now. 
 
@@ -253,6 +254,36 @@ It can be a pain trying to figure out themes, especially if you don't clean out 
 * [Embed files from a github repository onto your page.](http://gist-it.appspot.com/)
 * [idleberg/Creative-Commons-Markdown](https://github.com/idleberg/Creative-Commons-Markdown)
 * [Redirecting GitHub Pages after a repository move](https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7)
+* [gjtorikian/html-proofer](https://github.com/gjtorikian/html-proofer) - you got broken links bruh
+* [Elasticsearch for Jekyll](https://blog.omc.io/elasticsearch-for-jekyll-part-1-ab456ac7c093)
+* [hacking-routing-component-jekyll/](https://www.sitepoint.com/hacking-routing-component-jekyll/)
+
+
+### Content Creation [**^**](#contents)
+
+Here's some tools to make content creation a little easier.
+
+* [nacyot/awesome-opensource-documents](https://github.com/nacyot/awesome-opensource-documents)
+* [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources)
+* [shime/creative-commons-media](https://github.com/shime/creative-commons-media)
+* [Canva Infographic Creator](https://www.canva.com/create/infographics/)
+* [easel.ly](http://www.easel.ly/) - free create infographics
+* [Amara](http://amara.org/en/) - create captions for YouTube videos.
+* [Content Strategy Tool](https://builtvisible.com/content-strategy-helper/) - Find inspiration for your content marketing topics 
+* [Copyscape](http://www.copyscape.com/) - track if your content is being plagiarized.
+* [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
+* [Google SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html) - see how your snippet may appear in search results. 
+* [infogr.am](https://infogr.am/) - create infographics and data visualizations
+* [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
+* [wordle](http://www.wordle.net/) - word cloud generator
+* [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
+combines feeds "into content and other magical creations". 
+* [Piktochart](http://piktochart.com/) - visualization generator.
+* [Wistia](http://wistia.com/) - SEO-friendly video hosting. 
+* [https://www.pcjs.org](https://www.pcjs.org)
+* [https://www341.lunapic.com/editor/](https://www341.lunapic.com/editor/)
+* [What You Can Do With Gists on Github?](https://www.labnol.org/internet/github-gist-tutorial/28499/)
+* [https://polyglot.untra.io/](https://polyglot.untra.io/)
 
 
 ## Advance [**^**](#contents)
@@ -294,6 +325,9 @@ It can be a pain trying to figure out themes, especially if you don't clean out 
 * <a href="https://chris.beams.io/posts/git-commit/" target="_blank">Writing Effective Commits</a>
 * [www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 * [Git CheetSheet](https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md)
+* [Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+* [managing-commit-signature-verification](https://help.github.com/en/articles/managing-commit-signature-verification)
+* [mnyrop/swc-materials/blob/master/git.md](https://github.com/mnyrop/swc-materials/blob/master/git.md)
 
 ### SSH [**^**](#contents)
 
@@ -302,33 +336,33 @@ It can be a pain trying to figure out themes, especially if you don't clean out 
 * <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a>
 * <a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a>
 
-### Content Creation [**^**](#contents)
+## Data [**^**](#contents)
 
-Here's some tools to make content creation a little easier.
-
-* [nacyot/awesome-opensource-documents](https://github.com/nacyot/awesome-opensource-documents)
-* [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources)
-* [shime/creative-commons-media](https://github.com/shime/creative-commons-media)
-* [Canva Infographic Creator](https://www.canva.com/create/infographics/)
-* [easel.ly](http://www.easel.ly/) - free create infographics
-* [Amara](http://amara.org/en/) - create captions for YouTube videos.
-* [Content Strategy Tool](https://builtvisible.com/content-strategy-helper/) - Find inspiration for your content marketing topics 
-* [Copyscape](http://www.copyscape.com/) - track if your content is being plagiarized.
-* [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
-* [Google SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html) - see how your snippet may appear in search results. 
-* [infogr.am](http://infogr.am/) - create infographics and data visualizations
-* [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
-* [wordle](http://www.wordle.net/) - word cloud generator
-* [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
-combines feeds "into content and other magical creations". 
-* [Piktochart](http://piktochart.com/) - visualization generator.
-* [Wistia](http://wistia.com/) - SEO-friendly video hosting. 
-* [https://www.pcjs.org](https://www.pcjs.org)
-* [https://www341.lunapic.com/editor/](https://www341.lunapic.com/editor/)
-* [What You Can Do With Gists on Github?](https://www.labnol.org/internet/github-gist-tutorial/28499/)
+* [jekyllrb.com/docs/datafiles/](https://jekyllrb.com/docs/datafiles/)
+* [providing-yaml-driven-xml-json-and-atom-using-jekyll-and-github](https://apievangelist.com/2016/09/19/providing-yaml-driven-xml-json-and-atom-using-jekyll-and-github/)
+* [google-spreadsheet-to-yaml-on-jekyll/](http://kinlane.com/2016/10/11/google-spreadsheet-to-yaml-on-jekyll/)
+* [using-github-repos-and-jekyll-as-a-data-store/](http://kinlane.com/2016/08/15/using-github-repos-and-jekyll-as-a-data-store/)
+* [https://github.com/ashmaroli/jekyll-data](https://github.com/ashmaroli/jekyll-data)
+* [how-to-easily-use-airtable-data-in-jekyll](https://community.airtable.com/t/how-to-easily-use-airtable-data-in-jekyll/3925)
+* [mnyrop/pagemaster](https://github.com/mnyrop/pagemaster)
+* [https://minicomp.github.io/wax/reuse/](https://minicomp.github.io/wax/reuse/)
+* [http://marii.info/wax_docs/](http://marii.info/wax_docs/)
+* [http://marii.info/annotate/](http://marii.info/annotate/)
+* [/dr-jekyll-and-mr-hyde/chart-board-visualization](https://www.litcharts.com/lit/dr-jekyll-and-mr-hyde/chart-board-visualization)
+* [d3js-visualizations-using-yaml-and-jekyll/](https://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/)
+* [project-management/jupyter-notebook-on-jekyll/](https://www.linode.com/docs/applications/project-management/jupyter-notebook-on-jekyll/)
+* [managing-data-with-jekyll/](https://www.chenhuijing.com/blog/managing-data-with-jekyll/)
+* [simple-apis-with-jekyll-and-github-with-data-manag](https://dzone.com/articles/simple-apis-with-jekyll-and-github-with-data-manag)
+* [18F/jekyll-get](https://github.com/18F/jekyll-get)
+* [how-i-created-a-simple-dbms-using-github-jekyll-prose-and-heroku/](http://fabian-kostadinov.github.io/2015/02/04/how-i-created-a-simple-dbms-using-github-jekyll-prose-and-heroku/)
+* [contrafabulists-lessons.github.io/google-sheet-to-github-website/](https://contrafabulists-lessons.github.io/google-sheet-to-github-website/)
+* [integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll](https://www.enigma.com/blog/integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll)
+* [execute-millions-of-sql-statements-in-milliseconds-in-the-browser-with-webassembly-and-web-workers](https://hackernoon.com/execute-millions-of-sql-statements-in-milliseconds-in-the-browser-with-webassembly-and-web-workers-3e0b25c3f1a6)
+* [alternativeto.net/software/heroku/?license=free](https://alternativeto.net/software/heroku/?license=free)
 
 ---
 
 see:
 
 * [Web Work Resources](https://infominer.id/web-work)
+
