@@ -1,25 +1,25 @@
-title:            Site Title
-description:      Describe your website here.
+title:            "Web-Work: Skyscraper Content, Publishing, Freelance, Development."
+description:      "An instructional blog to document the independent web-workers journey."
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: https://infominer.id/WebWork
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  name:           "⧉ Infominer"
+  avatar:         "https://infominer.id/indieweb/info.png"
+  bio:            "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
+  email:          "infominer@protonmail.com"
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        "infominer33"
   facebook:       
-  github:         
-  stackexchange:  
+  github:         "infominer33"
+  stackexchange:  "infominer33"
   linkedin:       
-  instagram:      
+  instagram:      "infominer33"
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
@@ -29,14 +29,14 @@ owner:
 background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:  "UA-132558656-1"
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
-future:      false  # publish future dated posts --  true, false (default) 
+future:      true  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
 plugins:
