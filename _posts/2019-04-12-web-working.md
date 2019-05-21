@@ -6,11 +6,12 @@ modified: 2019-04-12T19:23:45-04:00
 tags: [freelance, independent, web-work, welcome]
 ---
 
-<!--#image:
-#  path: /images/abstract-10.jpg
-#  feature: abstract-10.jpg
-#  credit: dargadgetz
-#  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+<!-- Frontmatter settings--
+image:
+  path: /images/abstract-10.jpg
+  feature: abstract-10.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 -->
 
 This blog is where I document my journey through web-publishing, along with contributions from other independent workers of the web.
