@@ -6,7 +6,8 @@ modified: 2019-04-12T19:23:45-04:00
 tags: [freelance, independent, web-work, welcome]
 ---
 
-<!-- Frontmatter settings--
+<!-- Frontmatter variables-->
+<!--
 image:
   path: /images/abstract-10.jpg
   feature: abstract-10.jpg
