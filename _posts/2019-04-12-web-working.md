@@ -2,7 +2,7 @@
 layout: post
 title: "Independent Web-Working."
 description: "Demo post displaying the various ways of highlighting code in Markdown."
-modified: 2019-04-12T19:23:45-04:00
+modified: 2019-05-21
 tags: [freelance, independent, web-work, welcome]
 ---
 
