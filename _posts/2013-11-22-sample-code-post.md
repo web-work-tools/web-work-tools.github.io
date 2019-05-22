@@ -113,12 +113,12 @@ Another way to achieve the same result is to include `gallery` Liquid template. 
 don't have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
 and fill the block with any number of links to images. You can mix relative and external links.
 
-Here is the block you might want to use:
+Here is the block you might want to use: ( can't make local captures to work.)
 
 ```liquid
 {% raw %}{% capture images %}
-	/web-work/images/abstract-10.jpg
-	/web-work/abstract-11.jpg
+	https://infominer.id/web-work/images/abstract-10.jpg
+	https://infominer.id/web-work/abstract-11.jpg
 	http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=3 %}{% endraw %}
@@ -133,8 +133,8 @@ Available values: [1..3].
 It will look something like this:
 
 {% capture images %}
-	images/abstract-10.jpg
-	images/abstract-11.jpg
+	https://infominer.id/images/abstract-10.jpg
+	https://infominer.id/images/abstract-11.jpg
 	https://upload.wikimedia.org/wikipedia/commons/6/6c/Lenna_0.1_SP_Noise_3x3_VecMed_L1.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=3 %}
