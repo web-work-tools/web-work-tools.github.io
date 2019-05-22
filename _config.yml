@@ -7,8 +7,6 @@ words_per_minute: 200
 # When testing locally leave blank or use http://localhost:4000
 url: https://infominer.id/Web-Work
 
-#https://infominer.id/Web-Work
-
 # Owner/author information
 owner:
   name:           "⧉ Infominer"
