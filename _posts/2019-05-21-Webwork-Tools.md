@@ -6,7 +6,7 @@ modified: 2019-05-21
 tags: [freelance, independent, web-work, welcome]
 permalink: Indie-Webwork-Tools/
 image:
-  feature: organic-seo-ctr-infographic.png
+  feature: power-words.png
   thumb: images/organic-seo-ctr-infographic.png
   credit: webwork.tools coming soon!!!
   creditlink: http://infominer.id/web-work/
