@@ -7,10 +7,7 @@ modified: 2019-05-21
 permalink: github-pages-starter-pack/
 link: http://mademistakes.com  
 image:
-  thumb: github-pages-jekyll-starter-pack.png
   feature: github-pages-jekyll-starter-pack.png
-  credit: die-cut github stickers
-  creditlink: http://github.myshopify.com/products/die-cut-github-stickers
 ---
 
 <!--
