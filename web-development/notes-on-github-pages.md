@@ -1,7 +1,7 @@
 ---
 title: GitHub Pages—Starter Pack
 description: Publishing a Website via GitHub pages is free, and easy. Here's everything you need to get going, in one place.
-image: "https://infominer.id/assets/img/gh-pages-starter-pack.png"
+image: "https://infominer.id/images/gh-pages-starter-pack.png"
 redirect_from:
   - notes.html
   - notes-on-github-pages.html
@@ -21,7 +21,7 @@ Each feature you want to enable requires a little more learning, and GitHub Page
 If you don’t want to think about web-development, and simply want your markdown files to look beautiful once published, github pages can help you do that too.
 
 
-![](/assets/img/gh-pages-starter-pack.png)
+![](/images/gh-pages-starter-pack.png)
 
 ## Contents
 
@@ -52,7 +52,7 @@ If you don’t want to think about web-development, and simply want your markdow
 
 ## Introduction
 
-![](../assets/img/gh-jekyll.png)
+![](../images/gh-jekyll.png)
 
 I'm just a newb that created this resource to help myself. 
 
