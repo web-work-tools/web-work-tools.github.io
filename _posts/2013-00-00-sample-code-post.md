@@ -1,9 +1,53 @@
 ---
 layout: post
-title: "A Post with Images"
-description: "Examples and code for displaying images in posts."
-tags: [sample post, images, test]
+title: "Sample Code Post"
+description: "Examples and code for various HPSTR functions."
+tags: [samples, code, snippets]
+comments: true
+link: http://mademistakes.com  
+image:
+  background: triangular.png
+modified: 2019-05-21
 ---
+
+This is just a copy paste of useful code from the posts that come w the theme.
+
+## Link Posts
+
+This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
+
+## Background Image
+
+> "Sample post with a background image CSS override."
+
+Here be a sample post with a custom background image. To utilize this "feature" just add the following YAML to a post's front matter.
+
+```yaml
+image:
+  background: filename.png
+```
+
+This little bit of YAML makes the assumption that your background image asset is in the `/images` folder. If you place it somewhere else or are hotlinking from the web, just include the full http(s):// URL. Either way you should have a background image that is tiled.
+
+If you want to set a background image for the entire site just add `background: filename.png` to your `_config.yml` and BOOM --- background images on every page!
+
+<div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://subtlepatterns.com" class="notice">Background images from <span property="dct:title">Subtle Patterns</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://subtlepatterns.com">Subtle Patterns</a>) / <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></div>
+
+## GitHub Gist Embed
+
+An example of a Gist embed below.
+
+{% gist mmistakes/6589546 %}
+
+## Video Embeds
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"></iframe>
+
+Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
+
+```html
+<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"></iframe>
+```
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
 
