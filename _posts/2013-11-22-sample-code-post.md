@@ -133,8 +133,8 @@ Available values: [1..3].
 It will look something like this:
 
 {% capture images %}
-	/web-work/images/abstract-10.jpg
-	/web-work/images/abstract-11.jpg
-	https://upload.wikimedia.org/wikipedia/commons/a/a8/Nipkow_lenna.png
+	images/abstract-10.jpg
+	images/abstract-11.jpg
+	https://upload.wikimedia.org/wikipedia/commons/6/6c/Lenna_0.1_SP_Noise_3x3_VecMed_L1.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=3 %}
