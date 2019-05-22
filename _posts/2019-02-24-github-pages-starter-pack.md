@@ -4,6 +4,7 @@ title: "GitHub Pages-Starter Pack"
 description: "Publishing a Website via GitHub pages is free, and easy. Everything you need to get going in one place + extended resources."
 tags: [jekyll, github-pages, resources, web-publishing]
 modified: 2019-05-21
+permalink: github-pages-starter-pack/
 ---
 
 <!--#comments: true
