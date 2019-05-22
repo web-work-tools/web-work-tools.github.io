@@ -7,8 +7,8 @@ modified: 2019-05-21
 permalink: github-pages-starter-pack/
 link: http://mademistakes.com  
 image:
-  thumb: "https://infominer.id/assets/img/github-pages-jekyll-starter-pack.png"
-  feature: "https://infominer.id/assets/img/github-pages-jekyll-starter-pack.png"
+  thumb: github-pages-jekyll-starter-pack.png
+  feature: github-pages-jekyll-starter-pack.png
   credit: die-cut github stickers
   creditlink: https://github.myshopify.com/products/die-cut-github-stickers
 ---
