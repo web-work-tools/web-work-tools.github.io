@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Independent Web-Working."
+title: "Indie WebWork.tools."
 description: "Demo post displaying the various ways of highlighting code in Markdown."
 modified: 2019-05-21
 tags: [freelance, independent, web-work, welcome]
-permalink: learn-seo/
+permalink: Indie-Webwork-Tools/
 ---
 
 This blog is where I document my journey through web-publishing, along with contributions from other independent workers of the web.
