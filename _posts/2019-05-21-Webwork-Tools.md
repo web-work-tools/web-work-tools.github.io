@@ -5,6 +5,11 @@ description: "Demo post displaying the various ways of highlighting code in Mark
 modified: 2019-05-21
 tags: [freelance, independent, web-work, welcome]
 permalink: Indie-Webwork-Tools/
+image:
+  feature: tools.png
+  credit: webwork.tools coming soon!!!
+  creditlink: http://infominer.id/web-work/
+
 ---
 
 This blog is where I document my journey through web-publishing, along with contributions from other independent workers of the web.
