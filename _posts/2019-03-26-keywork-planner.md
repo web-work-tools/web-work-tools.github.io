@@ -1,8 +1,20 @@
-# How to sign up for and use Google Adwords Keyword Planner
+---
+layout: post
+title: "How to sign up for and use Google Adwords Keyword Planner"
+description: "Demo post displaying the various ways of highlighting code in Markdown."
+modified: 2019-05-21
+tags: [keyword-research, seo, walkthrough]
+image:
+  path: /images/abstract-10.jpg
+  feature: abstract-10.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
-I made this, because it was a little confusing for me when I first tried to use it. This step-by-step guide will ensure that anyone can try out keyword planner.
+I made this, because it was a little confusing for me when I first tried to use it, and I wanted to be sure that eveyone in my organization had a fundamental understanding of keyword research, so they could assist in coming up with seed-keywords, and keyword-research. 
 
-It's a valuable tool to have in your arsenal, but takes some manual effort to get the most out of.
+This step-by-step guide will ensure that anyone can try out keyword planner and begin learning a keyword research\SEO fundamental. It's a valuable tool to have in your arsenal, but takes some manual effort to get the most out of.
+
 
 ## Contents
 
