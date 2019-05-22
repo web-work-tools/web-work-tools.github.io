@@ -4,11 +4,19 @@ title: "Independent Web-Working."
 description: "Demo post displaying the various ways of highlighting code in Markdown."
 modified: 2019-05-21
 tags: [freelance, independent, web-work, welcome]
+permalink: '/'
 ---
 
 This blog is where I document my journey through web-publishing, along with contributions from other independent workers of the web.
 
 ## Featured
+
+
+* [Github Pages Starter Pack](github-pages-starter-pack/)
+[![](/assets/img/gh-pages-starter-pack.png)](https://infominer.id/gh-pages-starter-pack.html)
+* [SEO Tools](https://infominer.id/seo-tools.html)
+[![](/assets/img/100s-SEO-tools.png)](https://infominer.id/seo-tools.html)
+
 
 ## Web Development
 
