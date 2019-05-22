@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Indie WebWork.tools."
+title: "Indie Webwork.tools."
 description: "Demo post displaying the various ways of highlighting code in Markdown."
 modified: 2019-05-21
 tags: [freelance, independent, web-work, welcome]
