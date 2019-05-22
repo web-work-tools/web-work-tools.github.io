@@ -44,6 +44,7 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
 sass:
   sass_dir: _sass
   style: compressed
