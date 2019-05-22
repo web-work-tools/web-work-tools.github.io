@@ -5,22 +5,15 @@ description: "Publishing a Website via GitHub pages is free, and easy. Everythin
 tags: [jekyll, github-pages, resources, web-publishing]
 modified: 2019-05-21
 permalink: github-pages-starter-pack/
+link: http://mademistakes.com  
+image:
+  thumb: "https://infominer.id/assets/img/github-pages-jekyll-starter-pack.png"
+  feature: "https://infominer.id/assets/img/github-pages-jekyll-starter-pack.png"
+  credit: die-cut github stickers
+  creditlink: https://github.myshopify.com/products/die-cut-github-stickers
 ---
 
-<!--#comments: true
-#link: http://mademistakes.com  
-
-#image:
-#  path: /images/abstract-10.jpg
-#  feature: abstract-10.jpg
-#  credit: dargadgetz
-#  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-
----
-header: 
-  image: "https://infominer.id/assets/img/github-pages-jekyll-starter-pack.png"
-  caption: "[die-cut github stickers](https://github.myshopify.com/products/die-cut-github-stickers)"
-  thumbnail: "https://infominer.id/assets/img/gh-pages-starter-pack.png"
+<!--
 redirect_from:
   - notes.html
   - notes-on-github-pages.html
@@ -28,9 +21,6 @@ redirect_from:
   - web-work/gh-pages-starter-pack.html
   - gh-pages-starter-pack.html
   - web-work/gh-pages-starter-pack/
-permalink: web-work/github-pages-starter-pack/
-author_profile: true
-toc_sticky: false
 --->
 
 Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).
