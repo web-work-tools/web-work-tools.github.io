@@ -10,7 +10,7 @@ image:
   thumb: github-pages-jekyll-starter-pack.png
   feature: github-pages-jekyll-starter-pack.png
   credit: die-cut github stickers
-  creditlink: https://github.myshopify.com/products/die-cut-github-stickers
+  creditlink: http://github.myshopify.com/products/die-cut-github-stickers
 ---
 
 <!--
