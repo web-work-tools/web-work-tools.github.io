@@ -19,9 +19,9 @@ This blog is where I document my journey through web-publishing, along with cont
 
 
 * [Github Pages Starter Pack](github-pages-starter-pack/)
-[![](/images/gh-pages-starter-pack.png)](https://infominer.id/gh-pages-starter-pack.html)
-* [SEO Tools](https://infominer.id/seo-tools.html)
-[![](/images/100s-SEO-tools.png)](https://infominer.id/seo-tools.html)
+[![](https://infominer.id/web-work/images/gh-pages-starter-pack.png)](https://infominer.id/web-work/github-pages-starter-pack/)
+* [SEO Tools](https://infominer.id/seo-tools/)
+[![](https://infominer.id/web-work/images/100s-SEO-tools.png)](https://infominer.id/seo-tools/)
 
 
 ## Web Development
