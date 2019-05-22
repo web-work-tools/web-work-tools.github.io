@@ -52,7 +52,7 @@ If you don’t want to think about web-development, and simply want your markdow
 
 ## Introduction
 
-![](../images/gh-jekyll.png)
+![](/images/gh-jekyll.png)
 
 I'm just a newb that created this resource to help myself. 
 
