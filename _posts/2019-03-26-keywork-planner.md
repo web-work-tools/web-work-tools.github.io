@@ -48,7 +48,7 @@ OK! Now you have an account w google ads.
 
 You have to click "explore your account" to proceed.
 
-## Start Using Keyword Planner [**^**](#contents)
+## Start Using Keyword Planner
 
 
 ![](https://i.imgur.com/BPGKUAu.png)
@@ -64,7 +64,7 @@ We're going to enter 10 Seed Keywords, those are different ways someone might se
 
 ![](https://i.imgur.com/gYfaH1e.png)
 
-### Download and Explore Data [**^**](#contents)
+### Download and Explore Data
 
 ![](https://i.imgur.com/VC9Mc7x.png)
 
