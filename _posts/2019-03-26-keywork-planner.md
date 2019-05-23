@@ -8,6 +8,7 @@ image:
   thumb: /images/getting-started-adwords-keyword-planner.png
   feature: getting-started-adwords-keyword-planner.png
 permalink: getting-started-adwords-keyword-planner/
+
 ---
 
 I made this, because it was a little confusing for me when I first tried to use it, and I wanted to be sure that eveyone in my organization had a fundamental understanding of keyword research, so they could assist in coming up with seed-keywords, and understand the building blocks of keyword-research. 
