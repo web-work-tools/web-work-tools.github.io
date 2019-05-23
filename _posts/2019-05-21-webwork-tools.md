@@ -4,7 +4,7 @@ title: "Webwork.Tools"
 description: "All your webwork.tools are belong to us!"
 modified: 2019-05-21
 tags: [freelance, independent, web-work, welcome]
-permalink: webwork-tools/
+permalink: webwork.tools/
 redirect_from: Indie-Webwork-Tools/
 image:
   feature: power-words.png
