@@ -9,13 +9,12 @@ image:
   feature: getting-started-adwords-keyword-planner.png
 ---
 
-
-
 I made this, because it was a little confusing for me when I first tried to use it, and I wanted to be sure that eveyone in my organization had a fundamental understanding of keyword research, so they could assist in coming up with seed-keywords, and understand the building blocks of keyword-research. 
 
 Everything builds from this. In my opinion, it will be valuable to get input from everyone in the organization for at least the first round of keyword research, since this is all about the identity of your website and your organization.
 
 This step-by-step guide will ensure that anyone can try out keyword planner and begin learning a keyword research\SEO fundamental. It's a valuable tool to have in your arsenal, but takes some manual effort to get the most out of.
+
 
 
 ## Contents
