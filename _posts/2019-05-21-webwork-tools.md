@@ -8,7 +8,7 @@ permalink: webwork.tools/
 redirect_from: Indie-Webwork-Tools/
 image:
   feature: power-words.png
-  thumb: images/organic-seo-ctr-infographic.png
+  thumb: /images/organic-seo-ctr-infographic.png
   credit: webwork.tools coming soon!!!
   creditlink: http://infominer.id/web-work/
 
