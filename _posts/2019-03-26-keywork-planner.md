@@ -5,10 +5,8 @@ description: "Demo post displaying the various ways of highlighting code in Mark
 modified: 2019-05-21
 tags: [keyword-research, seo, walkthrough]
 image:
-  thumb: /images/abstract-10.jpg
-  feature: abstract-10.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  thumb: /images/getting-started-adwords-keyword-planner.png
+  feature: getting-started-adwords-keyword-planner.png
 ---
 
 
