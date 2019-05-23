@@ -16,8 +16,6 @@ image:
 
 This blog is where I document my journey through web-publishing, along with contributions from other independent workers of the web.
 
-## Web Development
-
 ![](https://i.imgur.com/iySrC4c.png)
 
 [WebWork Portfolio](#web-development){: .btn .btn--info}
