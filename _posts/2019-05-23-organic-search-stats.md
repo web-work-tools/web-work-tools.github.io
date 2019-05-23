@@ -15,7 +15,7 @@ Shows what can be done in a short period of time.  I didn't start building any o
 
 ![](https://infominer.id/web-work/images/5-23-19-organic-search-infominer.png)
 
-<table>
+<table class="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Page</th>
 <th title="Field #2">Clicks</th>
 <th title="Field #3">Impressions</th>
