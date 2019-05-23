@@ -19,30 +19,11 @@ From there, jekyll throws it all up into `site.data.performance1` so I can call 
 
 So once I learn to do that, or enough CSS to make this look nice on mobile......
 
+(wow, yeah.. every attempt to make it better does not... so I will leave it like this for now, it's usable for sure.)
+
 *pull requests welcome* ;)
 
 ![](https://infominer.id/web-work/images/5-23-19-organic-search-infominer.png)
-
-
-{% assign mydata=site.data.performance1 %}
-
-<table>
-    <caption>Table caption</caption>
-    <thead>
-    {% for column in mydata[0] %}
-        <th>{{ column[0] }}</th>
-    {% endfor %}
-    </thead>
-    <tbody>
-    {% for row in mydata %}
-        <tr>
-        {% for cell in row %}
-            <td>{{ cell[1] }}</td>
-        {% endfor %}
-        </tr>
-    {% endfor %}
-    </tbody>
-</table>
 
 
 
