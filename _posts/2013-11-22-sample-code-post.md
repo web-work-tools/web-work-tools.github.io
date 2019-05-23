@@ -7,7 +7,7 @@ comments: true
 link: http://mademistakes.com  
 image:
   background: triangular.png
-modified: 2019-05-21
+modified: 2019-05-21T11:12:13-15:59
 ---
 
 This is just a copy paste of useful code from the posts that come w the theme.
