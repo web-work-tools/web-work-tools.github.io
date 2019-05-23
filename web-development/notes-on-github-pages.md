@@ -3,6 +3,8 @@ title: GitHub Pages—Starter Pack
 description: Publishing a Website via GitHub pages is free, and easy. Here's everything you need to get going, in one place.
 image: "https://infominer.id/images/gh-pages-starter-pack.png"
 redirect_from:
+  - notes
+  - notes/
   - notes.html
   - notes-on-github-pages.html
   - research/notes-on-github-pages.html
