@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "How to sign up for and use Google Adwords Keyword Planner"
-description: "Demo post displaying the various ways of highlighting code in Markdown."
-modified: 2019-05-21
+title: "How to Sign Up and Get Started using Google Adwords Keyword Planner"
+description: "This step-by-step guide will ensure that anyone can try out keyword planner and begin learning a keyword research\SEO fundamental."
+modified: 2019-05-23
 tags: [keyword-research, seo, walkthrough]
 image:
   thumb: /images/getting-started-adwords-keyword-planner.png

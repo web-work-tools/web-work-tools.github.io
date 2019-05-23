@@ -2,7 +2,7 @@
 layout: post
 title: "Infominer.id - Organic Search Staticstics"
 description: "Open Source Web Publishing."
-modified: 2019-05-22
+modified: 2019-05-22T11:12:13-15:59
 tags: [google, organic search, stats]
 permalink: 2019-05-22-organic-search-stats/
 image:
