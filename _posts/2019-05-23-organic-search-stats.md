@@ -13,9 +13,9 @@ image:
 
 Shows what can be done in a short period of time.  I didn't start building any of this till the beginning of this year.
 
-Sorry, this is not perfectly responsive atm, but I put [Performance1.csv](https://infominer.id/web-work/_data/Performance1.csv) into the _data directory.
+Sorry, this is not perfectly responsive atm, but I put [performance1.csv](https://infominer.id/web-work/_data/performance1.csv) into the _data directory.
 
-From there, jekyll throws it all up into `site.performance` so I can call it with a bit of code and generate pages with it. 
+From there, jekyll throws it all up into `site.performance1` so I can call it with a bit of code and generate pages with it. 
 
 So once I learn to do that, or enough CSS to make this look nice on mobile......
 
