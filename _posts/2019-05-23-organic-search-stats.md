@@ -11,7 +11,11 @@ image:
   
 ---
 
-Shows what can be done in a short period of time.  I didn't start building any of this till the beginning of this year.
+Shows what can be done in a short period of time.  I didn't start building any of this till the beginning of this year. 
+
+It's true that it's a ton of work to do what *I* do, but you could use this concept for just one topic instead of 100 and build a valuable resource in a few days!
+
+![](https://imgur.com/6Y8OoJq.png)
 
 Sorry, this is not perfectly responsive atm, but I put [performance1.csv](https://infominer.id/web-work/_data/performance1.csv) into the _data directory.
 
