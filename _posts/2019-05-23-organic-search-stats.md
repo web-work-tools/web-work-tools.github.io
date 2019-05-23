@@ -7,7 +7,7 @@ tags: [google, organic search, stats]
 permalink: 2019-05-22-organic-search-stats/
 image:
   feature: 5-23-19-organic-search-infominer.png
-  thumb: images/5-23-19-organic-search-infominer.png
+  thumb: /images/5-23-19-organic-search-infominer.png
   
 ---
 
