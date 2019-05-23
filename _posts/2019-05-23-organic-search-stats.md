@@ -15,13 +15,36 @@ Shows what can be done in a short period of time.  I didn't start building any o
 
 Sorry, this is not perfectly responsive atm, but I put [performance1.csv](https://infominer.id/web-work/_data/performance1.csv) into the _data directory.
 
-From there, jekyll throws it all up into `site.performance1` so I can call it with a bit of code and generate pages with it. 
+From there, jekyll throws it all up into `site.data.performance1` so I can call it with a bit of code and generate pages with it. 
 
 So once I learn to do that, or enough CSS to make this look nice on mobile......
 
 *pull requests welcome* ;)
 
 ![](https://infominer.id/web-work/images/5-23-19-organic-search-infominer.png)
+
+
+{% assign mydata=site.data.performance1 %}
+
+<table>
+    <caption>Table caption</caption>
+    <thead>
+    {% for column in mydata[0] %}
+        <th>{{ column[0] }}</th>
+    {% endfor %}
+    </thead>
+    <tbody>
+    {% for row in mydata %}
+        <tr>
+        {% for cell in row %}
+            <td>{{ cell[1] }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+
 
 <table class="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Page</th>
