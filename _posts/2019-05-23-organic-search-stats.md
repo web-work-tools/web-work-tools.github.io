@@ -11,6 +11,9 @@ image:
 toc: false
 ---
 
+![](Analytics-infominer-id-Pages-20190417-20190524.pdf)
+
+
 Shows what can be done in a short period of time.  I didn't start building any of this till the beginning of this year. 
 
 It's true that it's a ton of work to do what *I* do, but you could use this concept for just one topic instead of 100 and build a valuable resource in a few days!
