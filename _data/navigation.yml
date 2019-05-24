@@ -2,16 +2,23 @@
 
 - title: Theme Setup
   url: /theme-setup/
-
-- title: InfoMine
-  url: https://infominer.id
-
 - title: GitHub Pages Starter Pack
   url: /github-pages-starter-pack/
-
 - title: Mostly Free SEO Tools.
   url: /seo-tools/
-
-- title: Theme Setup
-  url: /theme-setup/
-
+- title: InfoMine
+  url: https://infominer.id
+- title: "IndieWeb"
+  url: "https://infominer.id/indieweb/"
+- title: "Transcripts"
+  url: "https://infominer.id/transcripts"
+- title: "Source⧉Crypto"
+  url: "https://infominer.id/SourceCrypto"
+- title: "Learn Crypto Trading"
+  url: "https://infominer.id/learn-crypto-trading"
+- title: "DIDecentralized"
+  url: "https://infominer.id/DIDecentralized"
+- title: "Bitcoin Historical Index"
+  url: "https://infominer.id/bitcoin-history"
+- title: "⧉InfoMine⧉"
+  url: "https://infominer.id/"
