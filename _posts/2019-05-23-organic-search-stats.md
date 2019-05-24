@@ -11,7 +11,7 @@ image:
 toc: false
 ---
 
-![](Analytics-infominer-id-Pages-20190417-20190524.pdf)
+![](/images/infolytics/infominer-id-all-pages-20190417-20190524.png)
 
 
 Shows what can be done in a short period of time.  I didn't start building any of this till the beginning of this year. 
