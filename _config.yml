@@ -64,6 +64,7 @@ kramdown:
 
 include: 
   - .htaccess
+  - _data
 exclude: 
   - "*.less"
   - "*.sublime-project"
