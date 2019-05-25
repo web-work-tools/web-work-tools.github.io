@@ -1,12 +1,13 @@
 # Menu navigation links
-
-- title: Theme Setup
-  url: /theme-setup/
+- title: "Webwork.tools"
+  url: "https://infominer.id/web-work/webwork.tools/"
+- title: "IndieWeb"
+  url: "https://infominer.id/indieweb/"
 - title: GitHub Pages Starter Pack
   url: /github-pages-starter-pack/
 - title: Mostly Free SEO Tools.
   url: /seo-tools/
-- title: "IndieWeb"
-  url: "https://infominer.id/indieweb/"
 - title: "⧉InfoMine⧉"
   url: "https://infominer.id/"
+- title: Theme Setup
+  url: /theme-setup/
