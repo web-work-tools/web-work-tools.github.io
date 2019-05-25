@@ -11,6 +11,8 @@ permalink: getting-started-adwords-keyword-planner/
 
 ---
 
+**Note:** This is just a "stub", and doesn't go fully into the details of keyword research. I have written an [article on the subject](https://www.csbtechemporium.com/keyword-research-fundamentals/), and begun some study of Keyword Research and SEO, although I'm not by any means an expert. 
+
 I made this, because it was a little confusing for me when I first tried to use it, and I wanted to be sure that eveyone in my organization had a fundamental understanding of keyword research, so they could assist in coming up with seed-keywords, and understand the building blocks of keyword-research. 
 
 Everything builds from this. In my opinion, it will be valuable to get input from everyone in the organization for at least the first round of keyword research, since this is all about the identity of your website and your organization.
