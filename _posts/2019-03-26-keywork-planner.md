@@ -5,8 +5,8 @@ description: This step-by-step guide will ensure that anyone can try out keyword
 modified: 2019-05-23T11:12:13-15:59
 tags: [keyword-research, seo, walkthrough, stub]
 image:
-  thumb: /images/getting-started-adwords-keyword-planner.png
-  feature: getting-started-adwords-keyword-planner.png
+  thumb: /images/getting-started-adwords-keyword-planner.jpg
+  feature: getting-started-adwords-keyword-planner.jpg
 permalink: getting-started-adwords-keyword-planner/
 
 ---
