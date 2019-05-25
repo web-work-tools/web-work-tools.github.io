@@ -27,7 +27,7 @@ For now, I think the best way to use PDF on the web is to turn it to images. To 
 From there, jekyll throws it all up into `site.data.performance1` and `site.data.performance2` so I can call it with a bit of code and generate pages with it.  (eventually)
 
 *pull requests welcome* ;)
-
+  
 ![](https://infominer.id/web-work/images/infolytics/5-23-19-organic-search-infominer.png)
 
 
