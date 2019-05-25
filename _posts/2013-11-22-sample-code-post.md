@@ -7,7 +7,7 @@ comments: true
 link: http://mademistakes.com  
 image:
   background: triangular.png
-modified: 2019-05-25T11:12:13-15:59
+modified: 2019-05-25T13:15:59-23:00
 permalink: /sample-code/
 ---
 
