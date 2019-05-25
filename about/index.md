@@ -42,5 +42,6 @@ I already have purchased DIDecentral.com, but for now, the SEO value is better t
 ## Learn Crypto Trading
 * [Learn Crypto Trading](https://infominer.id/learn-crypto-trading)
 
+## On GitHub
 [![](https://imgur.com/NgEKu1x.png)](https://github.com/infominer33)
 
