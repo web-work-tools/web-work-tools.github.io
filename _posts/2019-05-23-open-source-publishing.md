@@ -12,6 +12,8 @@ image:
 toc: false
 ---
 
+**Pro-tip: [Go Home](https://infominer.id/web-work) for a full view of featured image.
+
 <div class="pull-left"><img src="https://infominer.id/web-work/images/infolytics/record-monthly.png"/></div>
 
 Shows what can be done in a short period of time.  I didn't start building any of this till the beginning of this year. 
