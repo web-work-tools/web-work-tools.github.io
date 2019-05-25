@@ -16,17 +16,13 @@ This blog is where I document my journey through web-publishing, along with cont
 
 ![](https://i.imgur.com/iySrC4c.png)
 
-[WebWork Portfolio](#web-development){: .btn .btn--info}
+## Articles by Infominer
 
 * <a href="https://www.csbtechemporium.com/web-design-history/" target="_blank">Brief History of Web Design</a>
 * <a href="https://www.csbtechemporium.com/keyword-research-fundamentals/" target="_blank">Keyword Research Fundamentals</a>
 * <a href="https://csbtechemporium.com/seo-simplified-2019" target="_blank">SEO Simplified! Increase your Rankings 2019!</a>
-* [Github Pages Starter Pack](github-pages-starter-pack/)
-[![](https://infominer.id/web-work/images/gh-pages-starter-pack.png)](https://infominer.id/web-work/github-pages-starter-pack/)
-* [SEO Tools](https://infominer.id/seo-tools/)
-[![](https://infominer.id/web-work/images/webwork-tools.jpg)](https://infominer.id/seo-tools/)
-
-
+* <a href="https://www.csbtechemporium.com/types-of-computer-programming/" target="_blank">How Many Types of Software Development are there?</a>
+* <a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a>
 
 ## Resources
 
