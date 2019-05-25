@@ -19,7 +19,7 @@ Everything builds from this. In my opinion, it will be valuable to get input fro
 
 This step-by-step guide will ensure that anyone can try out keyword planner and begin learning a keyword research\SEO fundamental. It's a valuable tool to have in your arsenal, but takes some manual effort to get the most out of.
 
-
+You don't need to worry about it immediately, however, you'll find that many guides have adwords keyword planner as one of the tools to use. This is the really basic instructions for getting started, so anyone should be able to!
 
 ## Contents
 
