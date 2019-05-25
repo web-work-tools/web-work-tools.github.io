@@ -6,7 +6,7 @@ modified: 2019-05-22T11:12:13-15:59
 tags: [google, organic search, stats]
 permalink: 2019-05-22-organic-search-stats/
 image:
-  feature: /images/infolytics/infominer-id-all-pages-20190417-20190524.png
+  feature: infolytics/infominer-id-all-pages-20190417-20190524.png
   thumb: /images/infolytics/5-23-19-organic-search-infominer.png
 toc: false
 ---
