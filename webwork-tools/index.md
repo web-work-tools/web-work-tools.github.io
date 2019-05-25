@@ -25,10 +25,6 @@ This blog is where I document my journey through web-publishing, along with cont
 * <a href="https://www.csbtechemporium.com/types-of-computer-programming/" target="_blank">How Many Types of Software Development are there?</a>
 * <a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a>
 
-## TOC
-
-{% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" %}
-
 ## Resources
 
 
