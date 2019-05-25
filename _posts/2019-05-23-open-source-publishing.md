@@ -4,7 +4,7 @@ title: "Open Source Publishing."
 description: "Infominer.id - All Page Rankings and Organic Search Staticstics"
 modified: 2019-05-24T11:12:13-15:59
 tags: [google, organic search, stats]
-permalink: 2019-05-23-organic-search-stats/
+permalink: open-source-publishing/
 image:
   feature: infolytics/infominer-id-all-pages-20190417-20190524.png
   thumb: /images/infolytics/5-23-19-organic-search-infominer.png
