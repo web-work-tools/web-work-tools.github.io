@@ -55,7 +55,7 @@ For now I'll just share a few links here.
 
 *pull requests welcome* ;)
   
-![](https://infominer.id/web-work/images/infolytics/5-23-19-organic-search-infominer.png)
+![](https://infominer.id/web-work/images/infolytics/5-25-19-organic-search-infominer.png)
 
 
 [![](https://infominer.id/web-work/images/infolytics/5-24-19-organic-search-infominer.png)](https://infominer.id/web-work/images/infolytics/infominer-id-Performance-2019-05-24.csv)
