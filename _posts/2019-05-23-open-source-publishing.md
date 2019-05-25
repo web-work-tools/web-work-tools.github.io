@@ -10,7 +10,7 @@ image:
   thumb: /images/infolytics/5-23-19-organic-search-infominer.png
   og_image: /images/infolytics/5-23-19-organic-search-infominer.png
   credit: See on Github
-  creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/infominer-id-Performance-2019-05-24.csv
+  creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
 toc: false
 ---
 
