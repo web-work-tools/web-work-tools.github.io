@@ -22,7 +22,15 @@ Shows what can be done in a short period of time.  I didn't start building any o
 
 It's true that it's a ton of work to do what *I* do, but you could use this concept for just one topic instead of 100 and build a valuable resource in a few days!
 
-For now, I think the best way to use PDF on the web is to turn it to images. To get a high-quality image, I used [convert-my-image.com](http://convert-my-image.com/).
+I will publish monthly stats, though it won't always be the same, and if you have any requests, pop up in the issues.
+
+Soon, I'll have comments enabled, and that will be great. 
+
+## How to present CSV?
+
+Because of multiple columns and long urls, it's difficult to display this informaiton in text form. It's easier for me to transform the pdf\csv into png. Then it's easily displayed on any screen. 
+
+To get a high-quality image, I used [convert-my-image.com](http://convert-my-image.com/).
 
 ## Generating Pages from Data using Liquid
 
