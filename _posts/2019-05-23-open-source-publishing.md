@@ -29,3 +29,4 @@ From there, jekyll throws it all up into `site.data.performance1` and `site.data
 ![](https://infominer.id/web-work/images/infolytics/5-23-19-organic-search-infominer.png)
 
 
+![](https://infominer.id/web-work/images/infolytics/5-24-19-organic-search-infominer.png)
