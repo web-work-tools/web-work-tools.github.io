@@ -8,6 +8,7 @@ permalink: open-source-publishing/
 image:
   feature: infolytics/infominer-id-all-pages-20190417-20190524.png
   thumb: /images/infolytics/5-23-19-organic-search-infominer.png
+  og_image: /images/infolytics/5-23-19-organic-search-infominer.png
 toc: false
 ---
 
