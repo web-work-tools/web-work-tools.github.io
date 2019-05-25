@@ -4,6 +4,7 @@ title: "Webwork.tools"
 description: "All your webwork.tools are belong to us!"
 modified: 2019-05-24T11:12:13-15:59
 permalink: webwork.tools/
+share: true
 image:
   feature: power-words.png
   thumb: /images/organic-seo-ctr-infographic.png
@@ -23,6 +24,10 @@ This blog is where I document my journey through web-publishing, along with cont
 * <a href="https://csbtechemporium.com/seo-simplified-2019" target="_blank">SEO Simplified! Increase your Rankings 2019!</a>
 * <a href="https://www.csbtechemporium.com/types-of-computer-programming/" target="_blank">How Many Types of Software Development are there?</a>
 * <a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a>
+
+## TOC
+
+{% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" %}
 
 ## Resources
 
