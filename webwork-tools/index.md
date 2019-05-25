@@ -36,6 +36,11 @@ This page has some examples of content that I've created for others, as well as 
 * [100s of free SEO Tools](/seo-tools/)
 * [GitHub Pages Starter Pack: Extended Resources](/github-pages-starter-pack/)
 
+### IndieWeb
+
+Eventually this will live along in the same site with web-work.. though I'm not sure of the specifics rn.
+
+* [Infominer does IndieWeb](https://infominer.id/indieweb/)
 
 ## Resources
 
