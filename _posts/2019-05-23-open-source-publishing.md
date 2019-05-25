@@ -28,7 +28,7 @@ Soon, I'll have comments enabled, and that will be great.
 
 ## How to present CSV?
 
-Because of multiple columns and long urls, it's difficult to display this informaiton in text form. It's easier for me to transform the pdf\csv into png. Then it's easily displayed on any screen. 
+Because of multiple columns and long urls, it's difficult to display this informaiton in text form. It's easier for me to transform the pdf\csv into png. Then it can be displayed just fine on any screen. 
 
 To get a high-quality image, I used [convert-my-image.com](http://convert-my-image.com/).
 
@@ -38,7 +38,7 @@ I put [performance1.csv](https://infominer.id/web-work/images/infolytics/perform
 
 From there, jekyll throws it all up into `site.data.performance1` and `site.data.performance2` so I can call it with a bit of code and generate pages with it. 
 
-Sometime I'll create a post, or [stub](https://infominer.id/webwork/tags/#stub), to begin documentation of that feature of Jekyll and gain familiarity using it.
+Sometime I'll create a post, or [stub](https://infominer.id/webwork/tags/#stub), to begin documentation of that feature of Jekyll and grow in familiarity with it.
 
 For now I'll just share a few links here.
 
