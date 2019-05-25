@@ -12,7 +12,7 @@ image:
 toc: false
 ---
 
-**Pro-tip: [Go Home](https://infominer.id/web-work) for a full view of featured image.
+**Pro-tip: [Go Home](https://infominer.id/web-work) for a full view of featured image.**
 
 <div class="pull-left"><img src="https://infominer.id/web-work/images/infolytics/record-monthly.png"/></div>
 
