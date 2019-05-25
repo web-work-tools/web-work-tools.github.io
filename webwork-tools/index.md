@@ -16,6 +16,8 @@ image:
 
 This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
 
+This page has some examples of content that I've created for others, as well as general resources for web-work.
+
 ![](https://i.imgur.com/iySrC4c.png)
 
 ## Articles by Infominer
@@ -26,7 +28,18 @@ This blog is where I document my journey as an independent web-worker, and will 
 * <a href="https://www.csbtechemporium.com/types-of-computer-programming/" target="_blank">How Many Types of Software Development are there?</a>
 * <a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a>
 
+## Site Index
+
+* [Open Source Publishing](/open-source-publishing/)
+* [Learn-SEO](/learn-seo/)
+  * [Getting Started with Adwords Keyword Planner](/getting-started-adwords-keyword-planner/)
+* [100s of free SEO Tools](/seo-tools/)
+* [GitHub Pages Starter Pack: Extended Resources](/github-pages-starter-pack/)
+
+
 ## Resources
+
+The following are "Top Level" web-work resources that do not yet have their own page on this site.
 
 
 * [hql287/awesome-free-services](https://github.com/hql287/awesome-free-services)
