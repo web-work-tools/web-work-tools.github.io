@@ -13,7 +13,7 @@ image:
 ---
 
 
-This blog is where I document my journey through web-publishing, along with contributions from other independent workers of the web.
+This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
 
 ![](https://i.imgur.com/iySrC4c.png)
 
@@ -36,7 +36,7 @@ This blog is where I document my journey through web-publishing, along with cont
 * [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
 
 
-## Web Development
+### Web Development
 * [Ibrahim-Islam/dev-resource](https://github.com/Ibrahim-Islam/dev-resource)
 * [Pestov/best-of-awesomeness-and-usefulness-for-webdev](https://github.com/Pestov/best-of-awesomeness-and-usefulness-for-webdev)
 * [mrmartineau/awesome-web-dev-resources](https://github.com/mrmartineau/awesome-web-dev-resources)
@@ -44,17 +44,17 @@ This blog is where I document my journey through web-publishing, along with cont
 * [starandtina/Essential-JavaScript-Links](https://github.com/starandtina/Essential-JavaScript-Links)
 * [joshbuchea/awesome-app-landing-page](https://github.com/joshbuchea/awesome-app-landing-page)
 
-## Flat File CMS
+### Flat File CMS
 
 * [ahadb/flat-file-cms](https://github.com/ahadb/flat-file-cms)
 
 
-## Static Site Generators
+### Static Site Generators
 
 * [pinceladasdaweb/Static-Site-Generators](https://github.com/pinceladasdaweb/Static-Site-Generators)
 * [staticsitegenerators.net](https://staticsitegenerators.net)
 
 
-## Devops
+### Devops
 
 * [Leo-G/DevopsWiki](https://github.com/Leo-G/DevopsWiki)
