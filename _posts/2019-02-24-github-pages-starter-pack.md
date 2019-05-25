@@ -42,7 +42,7 @@ I'm just a newb that created this resource to help myself. It does take a lot of
 Corrections, suggestions, tips, and links would be all appreciated.
 
 
-![](/images/gh-pages-starter-pack.png)
+![](https://infominer.id/web-work/images/gh-pages-starter-pack.png)
 
 
 Github pages runs Jekyll, which runs [Kramdown](https://kramdown.gettalong.org/quickref.html), which can transform yaml, markdown, and a number of related languages into proper html.
