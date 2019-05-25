@@ -22,9 +22,28 @@ Shows what can be done in a short period of time.  I didn't start building any o
 
 It's true that it's a ton of work to do what *I* do, but you could use this concept for just one topic instead of 100 and build a valuable resource in a few days!
 
-For now, I think the best way to use PDF on the web is to turn it to images. To get a high-quality image, I used [convert-my-image.com](http://convert-my-image.com/), but I put [performance1.csv](https://infominer.id/web-work/images/infolytics/performance1.csv) and [performance2.csv](https://infominer.id/web-work/images/infolytics/performance1.csv) into the /images directory (you can [check out on github](https://github.com/infominer33/web-work/tree/master/images/infolytics))
+For now, I think the best way to use PDF on the web is to turn it to images. To get a high-quality image, I used [convert-my-image.com](http://convert-my-image.com/).
 
-From there, jekyll throws it all up into `site.data.performance1` and `site.data.performance2` so I can call it with a bit of code and generate pages with it.  (eventually)
+## Generating Pages from Data using Liquid
+
+I put [performance1.csv](https://infominer.id/web-work/images/infolytics/performance1.csv) and [performance2.csv](https://infominer.id/web-work/images/infolytics/performance1.csv) into the /images directory (you can [check out on github](https://github.com/infominer33/web-work/tree/master/images/infolytics))
+
+From there, jekyll throws it all up into `site.data.performance1` and `site.data.performance2` so I can call it with a bit of code and generate pages with it. 
+
+Sometime I'll create a post, or [stub](https://infominer.id/webwork/tags/#stub), to begin documentation of that feature of Jekyll and gain familiarity using it.
+
+For now I'll just share a few links here.
+
+><img src="https://i.imgur.com/jMtd9WR.png"/>
+>
+>from: [*GitHub Pages Starter Pack - Extended Resources*](/github-pages-starter-pack/)
+>
+>* [shopify.github.io/liquid/tags/control-flow/](http://shopify.github.io/liquid/tags/control-flow/)
+>* <a href="https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/" target="_blank">Jekyll Variables and Liquid Template Tags-Cheatsheet</a>
+>* <a href="https://learn.cloudcannon.com/jekyll/introduction-to-liquid/" target="_blank">Introduction to Liquid for Jekyll</a>
+>* <a href="https://blog.webjeda.com/jekyll-liquid/" target="_blank">https://blog.webjeda.com/jekyll-liquid/</a>
+
+
 
 *pull requests welcome* ;)
   
