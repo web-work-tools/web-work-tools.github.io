@@ -33,8 +33,8 @@ body {
    Colors
    ========================================================================== */
 
-$base-color                      : rgba(#222,0.8);
-$body-color                      : #e8e8e8;
+$base-color                      : rgba(rgb(34, 34, 34),0.8);
+$body-color                      : #c8d7f8;
 $text-color                      : rgba(#222,0.8);
 $comp-color                      : complement(#222);
 $border-color                    : lighten($base-color,60);
