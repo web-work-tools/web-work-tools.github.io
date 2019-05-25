@@ -9,6 +9,8 @@ image:
   feature: infolytics/infominer-id-all-pages-20190417-20190524.png
   thumb: /images/infolytics/5-23-19-organic-search-infominer.png
   og_image: /images/infolytics/5-23-19-organic-search-infominer.png
+  credit: See on Github
+  creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/infominer-id-Performance-2019-05-24.csv
 toc: false
 ---
 
