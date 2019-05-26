@@ -18,6 +18,8 @@ This blog is where I document my journey as an independent web-worker, and will 
 
 This page has some examples of content that I've created for others, as well as general resources for web-work.
 
+Originally it wasn't in blog form... but I just looked on github, to see when I started, and chose the date that way, for each.
+
 ![](https://i.imgur.com/iySrC4c.png)
 
 ## Articles by Infominer
@@ -35,6 +37,7 @@ This page has some examples of content that I've created for others, as well as 
   * [Getting Started with Adwords Keyword Planner](/getting-started-adwords-keyword-planner/)
 * [100s of free SEO Tools](/seo-tools/)
 * [GitHub Pages Starter Pack: Extended Resources](/github-pages-starter-pack/)
+* [Practical PGP](/practical-pgp/)
 
 ### IndieWeb
 
