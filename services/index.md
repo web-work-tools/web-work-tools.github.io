@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Services
+title: "Information: Retrieval and Redistribution"
 description: "Research Driven Customer Service"
 image:
   feature: web-work-tools.png
