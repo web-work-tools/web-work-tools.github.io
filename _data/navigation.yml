@@ -3,7 +3,10 @@
 - title: "Webwork.tools"
   url: "/webwork.tools/"
 
-- title: GitHub Pages Starter Pack
+- title: Services
+  url: /services/
+
+  - title: GitHub Pages Starter Pack
   url: /github-pages-starter-pack/
 
 - title: Learn SEO
@@ -18,9 +21,6 @@
 - title: "IndieWeb"
   url: "https://infominer.id/indieweb/"
 
-- title: "⧉InfoMine⧉"
-  url: "https://infominer.id/"
-  
-- title: Theme Setup
-  url: /theme-setup/
+- title: ⧉InfoMine⧉
+  url: https://infominer.id/
 
