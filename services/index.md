@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Info-Logistics"
-description: "Research Driven Customer Service"
+description: "Research Driven Customer Service, Content Creation, and Web Publishing."
 image:
   feature: web-work-tools.png
 share: true
