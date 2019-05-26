@@ -45,3 +45,15 @@ I already have purchased DIDecentral.com, but for now, the SEO value is better t
 ## On GitHub
 [![](https://imgur.com/NgEKu1x.png)](https://github.com/infominer33)
 
+## Information Dense Content
+
+I'm not a fast writer, or even particularly good at it. However, I love to learn. I value reliable sources and am a patient editor. 
+
+When working with a client, especially new clients, I ask plenty of questions, and show my progress, to ensure that I'm headed in the right direction.
+
+I'm primarily interested in Webwork, Bitcoin, *decentralized identity*, cryptocurrencies, development, and tech trends. 
+
+I'm also quite interested in [data science](https://www.csbtechemporium.com/deep-learning-revolution/), although not nearly as much as I am crypto.
+
+**I aim to create content of the highest quality - relating complex subjects in a clear and concise fashion - supplying essential details, with quality sources for further study.**
+{: .notice--warning}
