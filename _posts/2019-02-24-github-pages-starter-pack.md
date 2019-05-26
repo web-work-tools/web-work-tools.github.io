@@ -167,9 +167,13 @@ Serve builds and "serves" a local browsable copy
 
      bundle exec jekyll serve
 
+Trace gives details on errors (but won't always show your problem)
+
+     bundle exec jekyll build --trace
+
 Verbose... you get the idea.
 
-     jekyll build --verbose
+     bundle exec jekyll build --verbose
 
 #### Proofers
 
@@ -181,7 +185,7 @@ coming soon....
 
 ### Jekyll
 
-![](/images/gh-jekyll.png)
+![](https://infominer.id/web-work/images/gh-jekyll.png)
 
 
 * <a href="https://github.com/planetjekyll" target="_blank">planetjekyll</a>
