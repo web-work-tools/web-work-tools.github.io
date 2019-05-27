@@ -2,7 +2,7 @@
 layout: page
 title: "⧉Info⧉"
 image:
-  feature: info-id.jpg
+  feature: info-id.png
 comments: false
 modified: 2019-05-22T13:15:59-23:00
 ---

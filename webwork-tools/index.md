@@ -12,7 +12,7 @@ image:
   creditlink: http://infominer.id/web-work/
 ---
 
-![](https://infominer.id/web-work/images/webwork-tools.jpg)
+![](https://infominer.id/web-work/images/webwork-tools.png)
 
 This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
 
