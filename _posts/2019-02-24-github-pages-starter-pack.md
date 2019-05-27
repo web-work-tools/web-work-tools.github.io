@@ -10,15 +10,6 @@ image:
   feature: github-pages-jekyll-starter-pack.png
 ---
 
-<!--
-redirect_from:
-  - notes.html
-  - notes-on-github-pages.html
-  - research/notes-on-github-pages.html
-  - web-work/gh-pages-starter-pack.html
-  - gh-pages-starter-pack.html
-  - web-work/gh-pages-starter-pack/
---->
 
 Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).
 
