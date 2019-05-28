@@ -113,6 +113,6 @@ If you want to learn more about GitHub Pages, check out:
 
 <figure class="full">
 	<img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-	<figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/">GitHub Pages - Starter Pack:Extended Resources</a></figcaption>
+	<figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
 </figure>
 
