@@ -106,3 +106,13 @@ Cool beans, right?
 There are also blog features, although I'm not sure I'll blog there... who knows!?!?
 
 I haven't looked through the [issues](https://github.com/github/personal-website/issues), or [pull-requests](https://github.com/github/personal-website/pulls) yet to see what folk are working on, or tried to tweak any of the quirks I've noticed..
+
+If you want to learn more about GitHub Pages, check out:
+
+
+
+<figure class="full">
+	<img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
+	<figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/">GitHub Pages - Starter Pack:Extended Resources</a></figcaption>
+</figure>
+
