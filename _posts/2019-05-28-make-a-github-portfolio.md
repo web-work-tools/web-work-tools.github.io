@@ -36,7 +36,7 @@ Go to settings and select publish from master branch:
 
 ## Step 3
 
-If you already have a web-page, then maybe you aren't reading this.. If you don't, then you must name the repository the same as your name on github. So my first website's repository name is `infominer33.github.io` since my github username is infominer33. Now it publishes to `infominer.id` (but also `infominer33.github.io`) because I have a custom domain, and every other repository I publish is a branch of that first domain.
+If you already have a web-page, then maybe you aren't reading this.. If you don't, then you must name the repository the same as your name on github. So my first website's repository name is [infominer33.github.io](https://github.com/infominer33/infominer33.github.io) since my github username is infominer33. Now it publishes to `infominer.id` (but also `infominer33.github.io`) because I have a custom domain, and every other repository I publish is a branch of that first domain.
 
 Since I already have a primary webpage, I change my repository name to `repo-portfolio`. That way, it lives at:
 
