@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
-gem 'octopress'
-gem 'jekyll-paginate'
-gem 'jekyll-redirect-from'
+gem "tzinfo-data"
+gem "jekyll", "~> 3.7"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-paginate"
+gem "jekyll-gist"
+gem "jekyll-redirect-from"

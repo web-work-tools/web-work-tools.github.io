@@ -42,56 +42,8 @@ $(document).ready(function() {
       tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
     },
     removalDelay: 300, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open.
+    // Class that is added to body when popup is open. 
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
 });
-
-// header
-$(document).ready(function(e) {
-  $(window).scroll(function(){
-    var header = $('.header-menu');
-    var scroll = $(window).scrollTop();
-    if(scroll > 300){
-      header.attr('class', 'header-menu header-menu-overflow');
-    } else {
-      header.attr('class', 'header-menu header-menu-top');
-    }
-  });
-});
-
-//mobile menu
-$(document).ready(function(){
-  $("#menu").attr('style', '');
-  $("#menu").mmenu({
-    "extensions": [
-      "border-full",
-      "effect-zoom-menu",
-      "effect-zoom-panels",
-      "pageshadow",
-      "theme-dark"
-    ],
-    "counters": true,
-    "navbars": [
-      {
-        "position": "bottom",
-        "content": [
-          "<a class='fa fa-search' href='/search'></a>",
-          "<a class='fa fa-envelope' href='#/'></a>",
-          "<a class='fa fa-twitter' href='#/'></a>",
-          "<a class='fa fa-facebook' href='#/'></a>"
-        ]
-      }
-    ]
-  });
-});
-
-var sharing = function(){
-    $(document).ready(function(){
-      $("body").floatingSocialShare({
-        buttons: ["facebook","twitter","google-plus", "linkedin", "pinterest"],
-        text: "Share with "
-      });
-    });
-};//sharing
