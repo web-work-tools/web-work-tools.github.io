@@ -248,13 +248,13 @@ I'll say now, if you are new to web-development, best to start off trying out a 
   ![](https://imgur.com/7UjPtdAl.png)
 * [github/personal-website](https://github.com/github/personal-website)
   > Code that'll help you kickstart a personal website that showcases your work as a software developer. https://github.dev
-
+* [https://ndrewtl.github.io/airspace-jekyll/](https://ndrewtl.github.io/airspace-jekyll/)
 
 ### Hydejack
 
 ![](https://i.imgur.com/3ZY5FI7.png)
 
-* <a href="https://infominer.id/hydejack/hyde/" target="_blank">/qwtel/hydejack/</a>
+* <a href="https://infominer.id/qwtel/hydejack/" target="_blank">/qwtel/hydejack/</a>
 * [/qwtel/hydejack-starter-kit](https://github.com/qwtel/hydejack-starter-kit)
 * <a href="https://hydejack.com/docs/print/" target="_blank">Hydejack Print Documentation</a>
 * <a href="http://nickengmann.com/Documentation.pdf" target="_blank">Hydejack Documentation.pdf</a>
