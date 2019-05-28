@@ -12,15 +12,12 @@
 {% include browser-upgrade.html %}
 {% include header.html %}
 
+
 <div id="main" role="main">
   <article class="hentry">
     <div class="entry-content">
-        {% if page.image.feature %}
-            <div class="entry-image-index">
-              <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
-              {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-            </div>
-        {% endif %}
+      <h2>TOC:</h2>
+      {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" %}
       <h1 class="post-title entry-title">{{ page.title }}</h1>
       {{ content }}
       <footer class="entry-meta">
