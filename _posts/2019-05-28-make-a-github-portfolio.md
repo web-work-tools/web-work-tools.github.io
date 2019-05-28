@@ -4,7 +4,7 @@ title: "@infominer33's GitHub Portfolio and HowTo"
 description: "An organized list of Repositories."
 modified: 2019-05-28T13:15:59-23:00
 tags: [github, repositories, open source, portfolio, github-pages]
-permalink: infominer33-github-stars/
+permalink: make-a-github-portfolio/
 image:
   feature: infominer33-github-portfolio.jpeg
   thumb: /images/infominer33-github-portfolio.jpeg
