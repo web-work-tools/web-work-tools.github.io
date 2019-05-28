@@ -2,10 +2,9 @@
 layout: page
 title: "⧉Info⧉"
 image:
-  thumb: info-id.png
+  feature: info-id.png
 comments: false
 modified: 2019-05-22T13:15:59-23:00
-permalink: about/
 ---
 
 As you can see, I've been busy. That's 8 different websites, all published to the same domain.
