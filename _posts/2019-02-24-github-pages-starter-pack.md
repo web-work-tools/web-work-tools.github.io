@@ -254,7 +254,7 @@ I'll say now, if you are new to web-development, best to start off trying out a 
 
 ![](https://i.imgur.com/3ZY5FI7.png)
 
-* <a href="https://github.com/qwtel/hydejack/" target="_blank">/qwtel/hydejack/</a>
+* <a href="https://infominer.id/hydejack/hyde/" target="_blank">/qwtel/hydejack/</a>
 * [/qwtel/hydejack-starter-kit](https://github.com/qwtel/hydejack-starter-kit)
 * <a href="https://hydejack.com/docs/print/" target="_blank">Hydejack Print Documentation</a>
 * <a href="http://nickengmann.com/Documentation.pdf" target="_blank">Hydejack Documentation.pdf</a>
