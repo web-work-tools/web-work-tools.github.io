@@ -1,21 +1,29 @@
 ---
 layout: post
-title: "@infominer33's GitHub Stars"
-description: "An organized list of Starred Repositories."
+title: "@infominer33's Starred GitHub Repositories"
+description: "An organized list of Repositories."
 modified: 2019-05-27T13:15:59-23:00
 tags: [github, stars, repositories, open source]
 permalink: infominer33-github-stars/
 image:
   feature: infominer-starred-repositories-head.png
-  thumb: infominer-starred-repositories.jpeg
-  og_image: infominer-starred-repositories.jpeg
+  thumb: /images/infominer-starred-repositories.jpeg
+  og_image: /images/infominer-starred-repositories.jpeg
   credit: See on Github
   creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
 ---
 
 Here's all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.
 
-## General
+I used this: 
+
+* [kirtan403.github.io/bookmark-github-stars/](https://kirtan403.github.io/bookmark-github-stars/)
+
+and then found this app that makes them even prettier and has an option to push the data to json. (I'll try this next time)
+
+* [export-github-stars.netlify.com/](https://export-github-stars.netlify.com/)
+
+## Infominer33's Starred GitHub Repositories
 
 * [avidLearnerInProgress/python-automation-scripts](https://github.com/avidLearnerInProgress/python-automation-scripts)
 * [chaconnewu/awesome-augmented](https://github.com/chaconnewu/awesome-augmented)
