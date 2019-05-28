@@ -1,13 +1,9 @@
-/* ==========================================================================
-   CodeRay Syntax Highlighting
-   ========================================================================== */
-
 .CodeRay {
   font-family: $code-font;
   @include font(12);
   color: #d0d0d0;
   margin-bottom: 1.5em;
-  border-radius: 3px;
+  @include rounded(3px);
 }
 
 .CodeRay .code pre {

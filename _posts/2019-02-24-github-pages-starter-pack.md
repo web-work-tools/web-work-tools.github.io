@@ -213,6 +213,7 @@ Layouts are preconfigured page templates. When I started, it was too much to thi
 
 * [https://jekyllrb.com/docs/step-by-step/04-layouts/](https://jekyllrb.com/docs/step-by-step/04-layouts/)
 * [documentation-theme-jekyll/tag_special_layouts.html](https://idratherbewriting.com/documentation-theme-jekyll/tag_special_layouts.html)
+* [creating-dynamic-layouts-with-jekyll](https://medium.com/tmw-interactive/creating-dynamic-layouts-with-jekyll-3bbb7fc57d1f)
 
 I'm wondering if I can move these documentation theme layouts, or even this post index from hpstr over to minimal-mistakes... probably so... except maybe there is custom css.. and I really haven't taken the time to figure that out, yet.
 
