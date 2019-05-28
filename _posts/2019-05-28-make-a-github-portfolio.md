@@ -13,7 +13,13 @@ image:
   creditlink: https://infominer.id/github-portfolio
 ---
 
-I learned of this cool project from [@bmann](https://twitter.com/bmann)
+I learned of this cool project from [@bmann](https://twitter.com/bmann). I've been wanting a simple way to make a page like this for a while!
+
+It's really nice to have a place to keep track, because I'm always forgetting how many I even manage!
+
+It might seem intimidating to hear, "Just Fork It!" 
+
+However, you'll see that it's not much more complex than that.
 
 ## Step 1
 
