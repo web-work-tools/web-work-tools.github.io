@@ -10,7 +10,7 @@ modified: 2019-05-26T13:15:59-23:00
 
 I've gradually eliminated all of my clients from the time where I was primarily creating content for hire. As I learn more publishing skills, I can see that there is more value in that type of work. 
 
-I'd be more interested to write for you if you also want me help build your web-site.
+I'd be more interested to write for you if you want me to set up your website. Regardless, I'll be happy to consider any offers.
 
 
 ### Research Consulting
