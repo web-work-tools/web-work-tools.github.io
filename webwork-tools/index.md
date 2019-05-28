@@ -20,7 +20,7 @@ This page has some examples of content that I've created for others, as well as 
 
 Originally it wasn't in blog form... but I just looked on github, to see when I started, and chose the date that way, for each.
 
-![](https://i.imgur.com/iySrC4c.png)
+![](https://imgur.com/j1TZ1Zf.png)
 
 ## Articles by Infominer
 
