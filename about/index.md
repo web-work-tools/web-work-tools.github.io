@@ -23,6 +23,13 @@ WebWork will be a mix of traditional web-technologies, and practical application
 
 Ok, thanks for having this chat with me!
 
+## GitHub Repository Portfolio
+
+* [@infominer33's Github Repository Portfolio](https://infominer.id/github-portfolio)
+
+[![](https://imgur.com/NgEKu1x.png)](https://github.com/infominer33)
+
+
 ## Web Work
 * [Indieweb](https://infominer.id/indieweb)
 * [Web Work](https://infomienr.id/web-work)
@@ -41,9 +48,6 @@ I already have purchased DIDecentral.com, but for now, the SEO value is better t
 
 ## Learn Crypto Trading
 * [Learn Crypto Trading](https://infominer.id/learn-crypto-trading)
-
-## On GitHub
-[![](https://imgur.com/NgEKu1x.png)](https://github.com/infominer33)
 
 ## Information Dense Content
 
