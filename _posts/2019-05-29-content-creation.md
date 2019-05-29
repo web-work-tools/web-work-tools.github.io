@@ -7,7 +7,7 @@ tags:
   - content creation
   - tools
   - resources
-permalink: static-site-generators/
+permalink: content-creation/
 image:
   feature: content-creation.png
   thumb: /images/content-creation.png
