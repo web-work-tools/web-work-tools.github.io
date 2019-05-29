@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Static Site Generators"
-description: "For resources on static site generators other than jekyll."
+description: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
 modified: 2019-05-29T15:59:13-23:00
 tags: 
   - static site generators
@@ -50,11 +50,12 @@ There are some indieweb integrated themes w hugo, and some themes no longer supp
 * [Hugo Static Site Tutorials](https://kodify.net/hugo-static-site-tutorials/)
 * [comprehensive-hugo-tutorial-for-beginners](https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4)
 * [Migrating from Jekyll to Hugo](https://news.ycombinator.com/item?id=17387103) <--good thread
-
+* [kevinmarks/stopbrexit](https://github.com/kevinmarks/stopbrexit) -  example of a "complete and operational" hugo site.
+  * [stopbrexit.party](http://stopbrexit.party/)
 
 ## MkDocs
 
-MkDocs is not a jekyll theme. Meaning you have to install the software and build your pages locally (or set up a 3rd pary integration) before github pages can publish it. MkDocs has built in search, and in some ways simpler than publishing w jekyll.
+MkDocs has built in search, and in some ways simpler than publishing w jekyll.
 
 For example, you don't need to put frontmatter into every single document.. it will just create a website from markdown files and autogenerate toc based on directory structure.
 
