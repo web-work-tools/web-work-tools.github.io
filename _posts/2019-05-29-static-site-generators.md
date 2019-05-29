@@ -11,8 +11,8 @@ tags:
 permalink: static-site-generators/
 image:
   feature: devopedia-static-site-generators.jpg
-  thumb: /images/devopedia-static-site-generators.jpg
-  og_image: /images/devopedia-static-site-generators.jpg
+  thumb:  devopedia-static-site-generators.jpg
+  og_image: devopedia-static-site-generators.jpg
   credit: Devopedia.org
   creditlink: https://devopedia.org/static-site-generators
 ---
