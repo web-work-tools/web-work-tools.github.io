@@ -66,6 +66,17 @@ This thing has extensions for all your coding needs... It is cross-platform, has
 * [https://www341.lunapic.com/editor/](https://www341.lunapic.com/editor/)
 * [Piktochart](http://piktochart.com/) - visualization generator.
 
+### Optimization
+
+The web *loooves* big old beautiful high quality images... However, my visitors probably notice the load time of huge images more than I do (though I do notice them).
+
+* [https://trimage.org/](https://trimage.org/)
+  >A cross-platform tool for losslessly optimizing PNG and JPG files for web.
+* [pngquant](https://pngquant.org/)
+  > is a command-line utility and a library for lossy compression of PNG images.
+  >
+  >The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems.
+* [https://ezgif.com/optimize](https://ezgif.com/optimize)
 
 ## Text 
 * [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
