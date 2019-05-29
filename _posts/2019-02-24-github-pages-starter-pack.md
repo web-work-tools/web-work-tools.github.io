@@ -33,6 +33,7 @@ I'm just a newb that created this resource to help myself. It does take a lot of
 
 Corrections, suggestions, tips, and links would be all appreciated.
 
+**Note:** this page is just for Jekyll\GHPages. I'm making new pages for the other stuff like [static site generators besides jekyll](https://infominer.id/web-work/static-site-generators/), and [content creation](https://infominer.id/web-work/content-creation/).
 
 ![](https://infominer.id/web-work/images/gh-pages-starter-pack.png)
 
@@ -81,30 +82,60 @@ layout: default
 There is a plugin that builds index files from all the readme.md files of your repository.. but it has trouble creating an index.html from your repositories primary README.md.
 
 
+
 ## Besides the Theme Chooser
 
-There are other ways that pages can work too. You should be able to run any theme that is set up to support remote themes. However, you have to pay attention to the themes and find ones that are in active development.
 
-You can also run any Gem based theme from your page too. Basically Gem files are packages that contain all of the files necessary for building your site, and keep your repository directory un-cluttered. Then, if you want to change a file that's in the gem, you just create the directory and pur the file where it goes, and configure as you wish. 
+1. Remote Themes.
 
-I'm still a bit confused about that part, but gems do help you build pages locally to test features before deploying them....
+   This is supposed to be the easy route, and makes it simpler to keep your source files up to date. 
+  
+   * [github.blog/2017-11-29-use-any-theme-with-github-pages/](https://github.blog/2017-11-29-use-any-theme-with-github-pages/)
+   * [Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme)
+    
+   ```
+   plugins:
+     - jekyll-remote-theme
 
->Q: How can I get started with gem-packaged themes? / Do I need to package my theme into a gem?
->
->Gem-packaged themes are just an advanced option and in addition they are in development for (real world) experiments (e.g. think v0.1 as stated by the Ben Balter - the lead designer / manager / dev at GitHub).
->
->Thus, to conclude do NOT read too much into the official themes docs e.g. as the only or "right" way to design a theme. Just (continue to) use "classic" themes - there are hundreds to learn from and once you have mastered "classic" themes you can "graduate" to the master class, that is, using gem-packaged themes.
--[github.com/planetjekyll/awesome-jekyll-themes](https://github.com/planetjekyll/awesome-jekyll-themes)
+   remote_theme: benbalter/retlab
+   ```
 
-I understand what they're saying, but I feel kind of the opposite. I used the theme chooser and remote\gem themes to begin learning. Then again, I didn't really understand my options when I started.
+   Essentially, if you're just editing files on github, you should just add those lines to your _config.yml along w an index file and Jekyll should build your site.
 
-These classic themes are just files and folders, everything where you can see it (and should be forkable to create working websites)
 
-According to planetjekyll, these are all "classic" themes: [https://drjekyllthemes.github.io](https://drjekyllthemes.github.io)
 
+2. You can also run any Gem based theme from your page. Gem files are packages that contain all of the files necessary for building your site, and keep your repository directory un-cluttered. Then, if you want to change a file that's in the gem, you just create the directory and pur the file where it goes, and configure as you wish. 
+
+   * [planetjekyll/awesome-jekyll-themes](https://github.com/planetjekyll/awesome-jekyll-themes)
+     >Q: How can I get started with gem-packaged themes? / Do I need to package my theme into a gem?
+     >
+     >Gem-packaged themes are just an advanced option and in addition they are in development for (real world) experiments (e.g. think v0.1 as stated by the Ben Balter - the lead designer / manager / dev at GitHub).
+     >
+     >Thus, to conclude do NOT read too much into the official themes docs e.g. as the only or "right" way to design a theme. Just (continue to) use "classic" themes - there are hundreds to learn from and once you have mastered "classic" themes you can "graduate" to the master class, that is, using gem-packaged themes.  
+     >
+     >I understand what they're saying, but I feel kind of the opposite. I used the theme chooser and remote\gem themes to begin learning. Then again, I didn't really understand my options when I started.
+
+3. These classic themes are just files and folders, everything where you can see it (and should be forkable to create working websites)
+
+   According to planetjekyll, these are all "classic" themes: [drjekyllthemes.github.io](https://drjekyllthemes.github.io)
+
+
+
+## Moved
+
+Running out of space on this page ;) 
+
+**NOTE:** The following resources are specifically for github-pages\jekyll *compatible* themes. Anything requiring a local build will now live on another page:
+
+### Static Site Generators Other Than Jekyll
 
 * [Using A Static Site Generator other than Jekyll](https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll)
 
+<a href="https://infominer.id/web-work/static-site-generators/" class="btn btn-success">Static Site Generators</a>
+
+### Content Creation
+
+**[Content Creation](https://infominer.id/web-work/content-creation/)**
 
 
 ## Fundamentals
@@ -127,67 +158,25 @@ According to planetjekyll, these are all "classic" themes: [https://drjekyllthem
 * <a href="https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll" target="_blank">Setting up You GitHub Pages Site Locally with Jekyll</a>
   * <a href="https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-3-Local-development-with/ba-p/2292" target="_blank">-- Local development with GitHub Pages</a>
 * <a href="https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-4-Customizing-your-Pages/ba-p/4058" target="_blank">Getting started with GitHub Pages: Part 4 -- Customizing your Pages site</a>
-* <a href="https://help.github.com/en/articles/adding-jekyll-plugins-to-a-github-pages-site" target="_blank">Adding Jekyll Plugins to a GitHub Pages Site - help.github.com</a>
-* <a href="https://help.github.com/en/articles/creating-a-custom-404-page-for-your-github-pages-site" target="_blank">Creating Custom 404 page</a>
 * [Clearing Up Confusion around Baseurl](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
-* [automate-github-pages-ifttt-glitch.html](https://webrender.net/2017/11/23/automate-github-pages-ifttt-glitch.html)
-* [Implemented the "Edit this page" feature. jekyll#3495](https://github.com/delftswa2014/jekyll/commit/e109555aa0533148c53200e63d1e60a3acf67e74)
-* <a href="https://help.github.com/en/articles/redirects-on-github-pages" target="_blank">Jekyll Redirect Plugin</a>
 
-Use `redirect_from: internal/url` to change the location you are publishing, but keep old links.
-Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps you want it to live on another site, but not lose your valuable links :)
-{: .notice--info}
+### Classic
 
-### Bug Testing
+* [indieweb/blank-gh-site](https://github.com/indieweb/blank-gh-site)
+* [drjekyllthemes.github.io](https://drjekyllthemes.github.io) (classic 'files and folders')
+* [ChristopherA/simplest-github-page](https://github.com/ChristopherA/simplest-github-page)
+* [prose/starter](https://github.com/prose/starter)
 
-Buidling your site locally is the best way to figure out why it's not publishing correctly via GitHub.
-
-You must set up your gemfile specifically for each theme.
-
-* [Install bundler](https://bundler.io/)
-
-then prepare bundler for your project:
-
-     bundle update
-
-     bundle install
-
-Build gives an error message if the build fails
-
-     bundle exec jekyll build
-
-Serve builds and "serves" a local browsable copy
-
-     bundle exec jekyll serve
-
-Trace gives details on errors (but won't always show your problem)
-
-     bundle exec jekyll build --trace
-
-Verbose... you get the idea.
-
-     bundle exec jekyll build --verbose
-
-#### Proofers
-
-* [gjtorikian/html-proofer](https://github.com/gjtorikian/html-proofer) - you got broken links bruh
-
-#### Linters
-
-coming soon....
 
 ### Jekyll
 
 ![](https://infominer.id/web-work/images/gh-jekyll.png)
 
-
+* <a href="https://github.com/jekyll/jekyll/blob/master/README.markdown" target="_blank">Jekyll README</a>
 * <a href="https://github.com/planetjekyll" target="_blank">planetjekyll</a>
   * <a href="https://github.com/planetjekyll/awesome-jekyll" target="_blank">planetjekyll/awesome-jekyll</a>
-  * <a href="https://github.com/planetjekyll/awesome-jekyll-plugins" target="_blank">planetjekyll/awesome-jekyll-plugins</a>
 * <a href="https://devhints.io/jekyll" target="_blank">Jekyll - Cheat Sheet</a>
 * [Jekyll Community Forum](http://talk.jekyllrb.com/)
-* <a href="https://github.com/jekyll/jekyll/blob/master/README.markdown" target="_blank">/jekyll/jekyll/blob/master/README.markdown</a>
-* <a href="https://jekyllrb.com/docs/plugins/installation/" target="_blank">jekyllrb.com/docs/plugins/installation/</a>
 * <a href="https://jekyllrb.com/docs/pagination/" target="_blank">Jekyll - Pagination Docs</a>
 * <a href="https://jekyllrb.com/tutorials/navigation/" target="_blank">Jekyll - Navigation Tutorial</a>
 * [https://wiredcraft.com/blog/make-jekyll-fast](https://wiredcraft.com/blog/make-jekyll-fast)
@@ -198,48 +187,17 @@ coming soon....
   * Older themes will work if you use the right verion of bundler (found in gemfile.lock).
 * [benbalter/jekyll-style-guide](https://github.com/benbalter/jekyll-style-guide)
 
-### Front Matter
 
-* <a href="https://jekyllrb.com/docs/front-matter/" target="_blank">Front Matter</a>
-* <a href="http://simpleprimate.com/blog/front-matter" target="_blank">YAML front matter in Jekyll</a>
-* <a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial" target="_blank">YAML tutorial in the context of Jekyll</a>
-
-
-### Layouts
-
-Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use "single" and "page". Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I'm also using the Home layout:
-
-![](https://imgur.com/ikX9wF6l.png)
-
-* [https://jekyllrb.com/docs/step-by-step/04-layouts/](https://jekyllrb.com/docs/step-by-step/04-layouts/)
-* [documentation-theme-jekyll/tag_special_layouts.html](https://idratherbewriting.com/documentation-theme-jekyll/tag_special_layouts.html)
-
-I'm wondering if I can move these documentation theme layouts, or even this post index from hpstr over to minimal-mistakes... probably so... except maybe there is custom css.. and I really haven't taken the time to figure that out, yet.
-
-### Collections 
-* [https://jekyllrb.com/docs/collections/](https://jekyllrb.com/docs/collections/)
-* [http://stories.upthebuzzard.com/jekyll_notes/](http://stories.upthebuzzard.com/jekyll_notes/)
-  * [using-jekyll-collections.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-15-using-jekyll-collections.html)
-  * [prev-and-next-within-a-jekyll-collection.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-prev-and-next-within-a-jekyll-collection.html)
-  * [sort-order-of-jekyll-collections.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-sort-order-of-jekyll-collections.html)
-  * [accessing-jekyll-collection-details-from-a-post.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-accessing-jekyll-collection-details-from-a-post.html)
-
-
-## Themes
+### Themes
 
 I'll say now, if you are new to web-development, best to start off trying out a few of the Github Pages official themes. Once installed, I cloned those repos locally so its easier to see how everything works. Then, if I want to configure a file that's not in my repository, I have a copy nearby. You can grab the `_layouts/default.html`, put it in your repo, and get a feel for how configuring that template shapes your entire site. But then you configure individual pages, and categories, perhaphs, to display differently. 
 
-* [indieweb/blank-gh-site](https://github.com/indieweb/blank-gh-site)
+* [**forked.yannick.io**](http://forked.yannick.io) - **Find maintained forks of your favorite GitHub repos.**
 * <a href="https://pages.github.com/themes/" target="_blank">pages.github.com/themes/</a> - official 
-* [drjekyllthemes.github.io](https://drjekyllthemes.github.io) (classic 'files and folders')
 * <a href="https://github.com/planetjekyll/awesome-jekyll-themes" target="_blank">planetjekyll/awesome-jekyll-themes</a> (gem-based)
-* <a href="https://github.blog/2017-11-29-use-any-theme-with-github-pages/" target="_blank">github.blog/2017-11-29-use-any-theme-with-github-pages/</a> -Howto Remote themes.
 * [http://themes.jekyllrc.org/](http://themes.jekyllrc.org/)
-* [ChristopherA/simplest-github-page](https://github.com/ChristopherA/simplest-github-page)
 * [projectpages.github.io/project-pages/](https://projectpages.github.io/project-pages/)
   * [project-pages/wiki](https://github.com/projectpages/project-pages/wiki)
-* [prose/starter](https://github.com/prose/starter)
-* [forked.yannick.io](http://forked.yannick.io) - Find maintained forks of your favorite GitHub repos.
 * [https://github.com/kinlane/beforeeighteen](https://github.com/kinlane/beforeeighteen) (template for presentation style pages.)
 * [bradleytaunt/lightspeed](https://github.com/bradleytaunt/lightspeed)
 * [Just the Docs](https://pmarsceill.github.io/just-the-docs/)
@@ -313,36 +271,83 @@ I've just listed what repositories most fit my use cases, you might want to brow
   * [mmistakes/hpstr-jekyll-theme](https://github.com/mmistakes/hpstr-jekyll-theme)
   ![](https://imgur.com/G9eWy3ol.png)
 
+## Setup
+
+### Front Matter
+
+* <a href="https://jekyllrb.com/docs/front-matter/" target="_blank">Front Matter</a>
+* <a href="http://simpleprimate.com/blog/front-matter" target="_blank">YAML front matter in Jekyll</a>
+* <a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial" target="_blank">YAML tutorial in the context of Jekyll</a>
 
 
-### MkDocs
+### Layouts
 
-MkDocs is not a jekyll theme. Meaning you have to install the software and build your pages locally (or set up a 3rd pary integration) before github pages can publish it. MkDocs has built in search, and in some ways simpler than publishing w jekyll.
+Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use "single" and "page". Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I'm also using the Home layout:
+
+![](https://imgur.com/ikX9wF6l.png)
+
+* [https://jekyllrb.com/docs/step-by-step/04-layouts/](https://jekyllrb.com/docs/step-by-step/04-layouts/)
+* [documentation-theme-jekyll/tag_special_layouts.html](https://idratherbewriting.com/documentation-theme-jekyll/tag_special_layouts.html)
+
+I'm wondering if I can move these documentation theme layouts, or even this post index from hpstr over to minimal-mistakes... probably so... except maybe there is custom css.. and I really haven't taken the time to figure that out, yet.
+
+### Collections 
+* [https://jekyllrb.com/docs/collections/](https://jekyllrb.com/docs/collections/)
+* [http://stories.upthebuzzard.com/jekyll_notes/](http://stories.upthebuzzard.com/jekyll_notes/)
+  * [using-jekyll-collections.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-15-using-jekyll-collections.html)
+  * [prev-and-next-within-a-jekyll-collection.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-prev-and-next-within-a-jekyll-collection.html)
+  * [sort-order-of-jekyll-collections.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-sort-order-of-jekyll-collections.html)
+  * [accessing-jekyll-collection-details-from-a-post.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-accessing-jekyll-collection-details-from-a-post.html)
+
+### Plugins
+* <a href="https://jekyllrb.com/docs/plugins/installation/" target="_blank">jekyllrb.com/docs/plugins/installation/</a>
+* <a href="https://github.com/planetjekyll/awesome-jekyll-plugins" target="_blank">planetjekyll/awesome-jekyll-plugins</a>
+* [Jekyll-Target-Blank](https://keith-mifsud.me/projects/jekyll-target-blank)
+* [https://github.com/jekyll/jekyll-mentions/](https://github.com/jekyll/jekyll-mentions/)
+* [Github Flavored Emoji for Jekyll](https://github.com/jekyll/jemoji)
+* <a href="https://help.github.com/en/articles/adding-jekyll-plugins-to-a-github-pages-site" target="_blank">Adding Jekyll Plugins to a GitHub Pages Site - help.github.com</a>
+* <a href="https://help.github.com/en/articles/creating-a-custom-404-page-for-your-github-pages-site" target="_blank">Creating Custom 404 page</a>
+* [Implemented the "Edit this page" feature. jekyll#3495](https://github.com/delftswa2014/jekyll/commit/e109555aa0533148c53200e63d1e60a3acf67e74)
+* <a href="https://help.github.com/en/articles/redirects-on-github-pages" target="_blank">Jekyll Redirect Plugin</a>
+
+Use `redirect_from: internal/url` to change the location you are publishing, but keep old links.
+Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps you want it to live on another site, but not lose your valuable links :)
+{: .notice--info}
 
 
-MkDocs really caught my eye when I saw it running at [EthHub](https://docs.ethhub.io/)
 
-![](https://i.imgur.com/c7Ik39r.png)
+## Other Customizations
+* [digitaldrummerj.me/categories/jekyll](https://digitaldrummerj.me/categories/jekyll/)
+* [Social Media Share Bar](https://mycyberuniverse.com/social-media-share-bar-jekyll-blog-website.html)
+* [Validating Links and Images](https://digitaldrummerj.me/jekyll-validating-links-and-images/)
+* [longqian.me/](http://longqian.me/) -Metamask Donation Button.
+* <a href="https://superdevresources.com/share-buttons-jekyll/" target="_blank">https://superdevresources.com/share-buttons-jekyll/</a>
+* [Embed files from a github repository onto your page.](http://gist-it.appspot.com/)
+* [Redirecting GitHub Pages after a repository move](https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7)
+* [hacking-routing-component-jekyll/](https://www.sitepoint.com/hacking-routing-component-jekyll/)
+* [How-to-build-a-lowtech-website](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)
 
-* [https://www.mkdocs.org/](https://www.mkdocs.org/)
-* [/mkdocs/mkdocs/wiki/MkDocs-Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
-* [MkDocs Material Components - Cheat Sheet](https://yakworks.github.io/mkdocs-material-components/cheat-sheet/)
-* [mkdocs.readthedocs.io](https://mkdocs.readthedocs.io)
-* [mkdocs/mkdocs/wiki/MkDocs-Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
-* [mkdocs-awesome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
-* [mkdocs.plugins/](https://www.wheelodex.org/entry-points/mkdocs.plugins/)
-* [metadata-for-markdown-mkdocs/](https://blogs.pjjk.net/phil/metadata-for-markdown-mkdocs/)
-* [https://gristlabs.github.io/mkdocs-windmill/](https://gristlabs.github.io/mkdocs-windmill/#)
-  * [gristlabs/mkdocs-windmill](https://github.com/gristlabs/mkdocs-windmill)
-* [https://python-markdown.github.io/extensions/](https://python-markdown.github.io/extensions/)
-  * [Python-Markdown/markdown/wiki/Third-Party-Extensions](https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions)
-* [https://python-markdown.github.io/extensions/smarty/](https://python-markdown.github.io/extensions/smarty/)
+### Comments
+* [Github Issues for Blog Comments](http://artsy.github.io/blog/2017/07/15/Comments-are-on/)
+* [A repo you can use to work-around GH issue comment request limmits.](https://github.com/orta/gh-commentify)
+* [Various ways you can add comments to your static site](https://darekkay.com/blog/static-site-comments/)
+* [Add comments to your jekyll powered blog](https://github.com/damieng/jekyll-blog-comments)
+* [Setting up Staticman Server](https://www.flyinggrizzly.net/2017/12/setting-up-staticman-server/)
+  * [new feature! added comments to this *static* website](https://www.edwinwenink.xyz/posts/18-comments/)
+* [https://mademistakes.com/articles/jekyll-static-comments/](https://mademistakes.com/articles/jekyll-static-comments/)
+  * [https://mademistakes.com/articles/improving-jekyll-static-comments/](https://mademistakes.com/articles/improving-jekyll-static-comments/)
 
-Because MkDocs builds with python, that opens up a whole universe of tools at your disposal. The python markdown extensions are a prime example.
+### Search
 
-However, basically none of the regular jekyll plugins work with mkdocs, it's a whole universe to its own w Python.
+* [Elasticsearch for Jekyll](https://blog.omc.io/elasticsearch-for-jekyll-part-1-ab456ac7c093)
+* [Adding Custom Google Search](https://digitaldrummerj.me/blogging-on-github-part-7-adding-a-custom-google-search/)
+* [github.com/algolia/jekyll-algolia](https://github.com/algolia/jekyll-algolia)
+* [community.algolia.com/jekyll-algolia/blog.html](https://community.algolia.com/jekyll-algolia/blog.html)
+* [https://www.algolia.com/doc/](https://www.algolia.com/doc/)
 
-## Resources
+
+
+## SEO
 
 
 ### Jekyll-SEO-Tag
@@ -368,103 +373,55 @@ However, basically none of the regular jekyll plugins work with mkdocs, it's a w
   ![](https://i.imgur.com/TWbbVhn.png)
 * [Googles guide to enhancing your site's metadata](https://developers.google.com/search/docs/guides/enhance-site)
 
+
+
 ### Twitter
 
 * <a href="https://cards-dev.twitter.com/validator" target="_blank">Twitter Card Validator</a>
 * <a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards" target="_blank">About Cards - developer.twitter.com</a>
 * [https://github.com/jekyll/jekyll-mentions/](https://github.com/jekyll/jekyll-mentions/)
 
-### Comments
-* [Github Issues for Blog Comments](http://artsy.github.io/blog/2017/07/15/Comments-are-on/)
-* [A repo you can use to work-around GH issue comment request limmits.](https://github.com/orta/gh-commentify)
-* [Various ways you can add comments to your static site](https://darekkay.com/blog/static-site-comments/)
-* [Add comments to your jekyll powered blog](https://github.com/damieng/jekyll-blog-comments)
-* [Setting up Staticman Server](https://www.flyinggrizzly.net/2017/12/setting-up-staticman-server/)
-  * [new feature! added comments to this *static* website](https://www.edwinwenink.xyz/posts/18-comments/)
-* [https://mademistakes.com/articles/jekyll-static-comments/](https://mademistakes.com/articles/jekyll-static-comments/)
-  * [https://mademistakes.com/articles/improving-jekyll-static-comments/](https://mademistakes.com/articles/improving-jekyll-static-comments/)
 
-### Search
+## Bug Testing
 
-* [Elasticsearch for Jekyll](https://blog.omc.io/elasticsearch-for-jekyll-part-1-ab456ac7c093)
-* [Adding Custom Google Search](https://digitaldrummerj.me/blogging-on-github-part-7-adding-a-custom-google-search/)
-* [github.com/algolia/jekyll-algolia](https://github.com/algolia/jekyll-algolia)
-* [community.algolia.com/jekyll-algolia/blog.html](https://community.algolia.com/jekyll-algolia/blog.html)
-* [https://www.algolia.com/doc/](https://www.algolia.com/doc/)
+Buidling your site locally is the best way to figure out why it's not publishing correctly via GitHub.
 
-### Other Customizations
-* [digitaldrummerj.me/categories/jekyll](https://digitaldrummerj.me/categories/jekyll/)
-* [Social Media Share Bar](https://mycyberuniverse.com/social-media-share-bar-jekyll-blog-website.html)
-* [Validating Links and Images](https://digitaldrummerj.me/jekyll-validating-links-and-images/)
-* [Jekyll-Target-Blank](https://keith-mifsud.me/projects/jekyll-target-blank)
-* [https://github.com/jekyll/jekyll-mentions/](https://github.com/jekyll/jekyll-mentions/)
-* [Github Flavored Emoji for Jekyll](https://github.com/jekyll/jemoji)
-* [longqian.me/](http://longqian.me/) -Metamask Donation Button.
-* <a href="https://superdevresources.com/share-buttons-jekyll/" target="_blank">https://superdevresources.com/share-buttons-jekyll/</a>
-* [How to Create an Open-Source Directory on GitHub Pages](https://webdesign.tutsplus.com/tutorials/how-to-create-an-open-source-directory-on-github-pages--cms-26225)
-* [Embed files from a github repository onto your page.](http://gist-it.appspot.com/)
-* [idleberg/Creative-Commons-Markdown](https://github.com/idleberg/Creative-Commons-Markdown)
-* [Redirecting GitHub Pages after a repository move](https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7)
-* [hacking-routing-component-jekyll/](https://www.sitepoint.com/hacking-routing-component-jekyll/)
-* [How-to-build-a-lowtech-website](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)
+You must set up your gemfile specifically for each theme.
 
-Make a cool portfolio page like this:
+* [Install bundler](https://bundler.io/)
 
----
+then prepare bundler for your project:
 
-* [levalicious.github.io/work/](https://levalicious.github.io/work/)
-  ![](https://i.imgur.com/0oXmD6C.png)
+     bundle update
 
-I [made a gist](https://gist.github.com/infominer33/d26ea1c4ed01114b844d0802c576593f) about how to do that based upon his code.
+     bundle install
+
+Build gives an error message if the build fails
+
+     bundle exec jekyll build
+
+Serve builds and "serves" a local browsable copy
+
+     bundle exec jekyll serve
+
+Trace gives details on errors (but won't always show your problem)
+
+     bundle exec jekyll build --trace
+
+Verbose... you get the idea.
+
+     bundle exec jekyll build --verbose
 
 
-### Content Creation
+### Proofers
 
-Here's some tools to make content creation a little easier.
+* [gjtorikian/html-proofer](https://github.com/gjtorikian/html-proofer) - you got broken links bruh
 
-* [Twitter-Image Sizes](https://louisem.com/217438/twitter-image-size)
-* [nacyot/awesome-opensource-documents](https://github.com/nacyot/awesome-opensource-documents)
-* [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources)
-* [shime/creative-commons-media](https://github.com/shime/creative-commons-media)
-* [Canva Infographic Creator](https://www.canva.com/create/infographics/)
-* [easel.ly](http://www.easel.ly/) - free create infographics
-* [Amara](http://amara.org/en/) - create captions for YouTube videos.
-* [Content Strategy Tool](https://builtvisible.com/content-strategy-helper/) - Find inspiration for your content marketing topics 
-* [Copyscape](http://www.copyscape.com/) - track if your content is being plagiarized.
-* [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
-* [Google SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html) - see how your snippet may appear in search results. 
-* [infogr.am](https://infogr.am/) - create infographics and data visualizations
-* [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
-* [wordle](http://www.wordle.net/) - word cloud generator
-* [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
-combines feeds "into content and other magical creations". 
-* [Piktochart](http://piktochart.com/) - visualization generator.
-* [Wistia](http://wistia.com/) - SEO-friendly video hosting. 
-* [https://www.pcjs.org](https://www.pcjs.org)
-* [https://www341.lunapic.com/editor/](https://www341.lunapic.com/editor/)
-* [What You Can Do With Gists on Github?](https://www.labnol.org/internet/github-gist-tutorial/28499/)
-* [https://polyglot.untra.io/](https://polyglot.untra.io/) - multi-lingual publishing.
-* [https://konpa.github.io/devicon/](https://konpa.github.io/devicon/)
-* [Color Tool](https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=455A64)
+### Linters
 
-### Editors
+coming soon....
 
-* [Visual Studio Code](https://code.visualstudio.com/)
-Where I build webpages.
-
-[![https://imgur.com/eqWiJ8I.png](https://imgur.com/eqWiJ8Il.png)](https://imgur.com/eqWiJ8Il.png)
-
-This thing has extensions for all your coding needs... It has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).
-
-**HackMD - Collaborative Markdown Editor**
-* [https://hackmd.io](https://hackmd.io) - Collaborative markdown editor (where I write everything else).
-  * [Getting started](https://hackmd.io/getting-started)  
-  * [Tutorial](https://hackmd.io/c/tutorials/%2Fs%2Ftutorials)
-  * [How to Create a Book](https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book)
-  * [YAML Metadata](https://hackmd.io/c/tutorials-tw/%2Fs%2Fyaml-metadata)
-* See also [demo.codimd.org/](https://demo.codimd.org/)
-
-## Advance
+## Technical Deets
 
 ### HTML - CSS
 
@@ -548,13 +505,7 @@ This thing has extensions for all your coding needs... It has seamless git integ
 * [alternativeto.net/software/heroku/?license=free](https://alternativeto.net/software/heroku/?license=free)
 * [integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll](https://www.enigma.com/blog/integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll)
 * [benbalter/jekyllbot](https://github.com/benbalter/jekyllbot) - Listens for GitHub post-recieve service hooks messages, runs jekyll, and pushes the results back to GitHub. 
-
-### Archive
-
-* [Web Archive for WayBack Machine](https://chrome.google.com/webstore/detail/web-archive-for-wayback-m/ppokigfjbmhncgkabghdgpiafjdpllke)
-* [iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)
-* [webapps.stackexchange.com - how-to-archive-the-whole-website](https://webapps.stackexchange.com/questions/115369/how-to-archive-the-whole-website)
-* [httrack.com](http://www.httrack.com)
+* [automate-github-pages-ifttt-glitch.html](https://webrender.net/2017/11/23/automate-github-pages-ifttt-glitch.html)
 
 ### API Evangelist 
 
@@ -570,14 +521,6 @@ Not sure how much of this is useful, but I'll save for further examination.
 * [d3js-visualizations-using-yaml-and-jekyll/](https://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/)
 * [https://github.com/kinlane/OpenAPI-Specification](https://github.com/kinlane/OpenAPI-Specification)
 
-### Data Visualization
-
-* [rendering-data-as-graphs](https://developer.github.com/v3/guides/rendering-data-as-graphs/)
-* [Creating a dynamic d3 visualization from the GitHub API](https://www.benlcollins.com/javascript/creating-a-dynamic-d3-visualization-from-the-github-api/)
-* [Visualize GitHub Code Contribution using APP Link](https://www.targetprocess.com/blog/visualize-github-code-contribution-using-app-link/)
-* [Data Visualization for All - Modify and Host Code with GitHub](https://datavizforall.org/github.html) by Jack Dougherty & Ilya Ilyankou
-  > In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control.
-* [tools-visualize-github-profile/](https://livablesoftware.com/tools-visualize-github-profile/)
 
 ### Indieweb
 
@@ -609,8 +552,3 @@ Just sayin'... keybase has 250 gigs of free storage you can use to host a websit
 you could build gem based sites locally, and keybase will automatically sync the data.
 
 
----
-
-see:
-
-* [Web Work Resources](https://infominer.id/web-work)
