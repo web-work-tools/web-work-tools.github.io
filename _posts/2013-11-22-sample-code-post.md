@@ -9,6 +9,7 @@ image:
   background: triangular.png
 modified: 2019-05-25T13:15:59-23:00
 permalink: /sample-code/
+published: false
 ---
 
 This is just a copy paste of useful code from the posts that come w the theme.
