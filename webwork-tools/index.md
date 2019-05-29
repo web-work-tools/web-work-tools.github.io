@@ -32,12 +32,14 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 
 ## Site Index
 
-* [Open Source Publishing](/open-source-publishing/)
-* [Learn-SEO](/learn-seo/)
-  * [Getting Started with Adwords Keyword Planner](/getting-started-adwords-keyword-planner/)
-* [100s of free SEO Tools](/seo-tools/)
-* [GitHub Pages Starter Pack: Extended Resources](/github-pages-starter-pack/)
-* [Practical PGP](/practical-pgp/)
+* [Open Source Publishing](open-source-publishing/)
+* [Learn-SEO](learn-seo/)
+  * [Getting Started with Adwords Keyword Planner](getting-started-adwords-keyword-planner/)
+* [100s of free SEO Tools](seo-tools/)
+* [GitHub Pages Starter Pack: Extended Resources](github-pages-starter-pack/)
+* [Practical PGP](practical-pgp/)
+* [Open Source Publishing](open-source-publishing/)
+* [Organized list of Repositories I've Starred](infominer33-github-stars/)
 
 ### IndieWeb
 
