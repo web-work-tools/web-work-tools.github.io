@@ -7,7 +7,7 @@ tags: [github, repositories, open source, portfolio, github-pages]
 permalink: make-a-github-portfolio/
 image:
   feature: infominer33-github-portfolio.jpeg
-  thumb: infominer33-github-portfolio.jpeg
+  thumb: /images/infominer33-github-portfolio.jpeg
   og_image: infominer33-github-portfolio.jpeg
   credit: Check it Out!
   creditlink: https://infominer.id/repo-portfolio

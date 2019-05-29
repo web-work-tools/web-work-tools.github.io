@@ -7,7 +7,7 @@ tags: [google, organic search, stats, open source, github-pages]
 permalink: open-source-publishing/
 image:
   feature: infolytics/infominer-id-all-pages-20190417-20190524.jpg
-  thumb: infolytics/5-25-19-organic-search-infominer.png
+  thumb: /images/infolytics/5-25-19-organic-search-infominer.png
   og_image: infolytics/5-25-19-organic-search-infominer.png
   credit: See on Github
   creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf

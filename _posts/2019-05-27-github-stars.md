@@ -7,7 +7,7 @@ tags: [github, stars, repositories, open source]
 permalink: infominer33-github-stars/
 image:
   feature: infominer-starred-repositories-head.png
-  thumb: infominer-starred-repositories.jpeg
+  thumb: /images/infominer-starred-repositories.jpeg
   og_image: infominer-starred-repositories.jpeg
   credit: See on Github
   creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
