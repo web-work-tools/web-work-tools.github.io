@@ -10,8 +10,8 @@ tags:
 permalink: content-creation/
 image:
   feature: content-creation.png
-  thumb: /images/content-creation.png
-  og_image: /images/content-thumb.png
+  thumb: content-creation.png
+  og_image: content-thumb.png
 
 ---
 
