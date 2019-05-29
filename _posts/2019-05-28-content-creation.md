@@ -2,7 +2,7 @@
 layout: post
 title: "Resources for Content Creation"
 description: "All kinda tools for images and editing and handy stuff to assist with content creation."
-modified: 2019-05-29T15:59:13-23:00
+modified: 2019-05-29T13:33:33-23:00
 tags: 
   - content creation
   - tools
