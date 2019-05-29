@@ -8,7 +8,7 @@ permalink: github-pages-starter-pack/
 link: http://mademistakes.com  
 image:
   feature: github-pages-jekyll-starter-pack.png
-  thumb: github.png
+  thumb: /images/github.png
 ---
 
 
