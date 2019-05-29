@@ -2,7 +2,7 @@
 layout: post
 title: "Open Source Publishing."
 description: "Infominer.id - All Page Rankings and Organic Search Rankings"
-modified: 2019-05-24T13:15:59-23:00
+modified: 2019-05-29T13:15:59-23:00
 tags: [google, organic search, stats, open source, github-pages]
 permalink: open-source-publishing/
 image:
@@ -54,8 +54,10 @@ For now I'll just share a few links here.
 
 
 *pull requests welcome* ;)
-  
-![](https://infominer.id/web-work/images/infolytics/5-25-19-organic-search-infominer.png)
+
+As you can see, it's possible to begin showing up in google pretty quickly. I started building at the beginning of the year, and I hadn't begun in earnest until you see the chart starting to pop off (around the time I submitted my sitemap to google).
+
+![](https://infominer.id/web-work/images/infolytics/5-29-19-organic-search-infominer.png)
 
 
 [![](https://infominer.id/web-work/images/infolytics/5-24-19-organic-search-infominer.png)](https://infominer.id/web-work/images/infolytics/infominer-id-Performance-2019-05-24.csv)
