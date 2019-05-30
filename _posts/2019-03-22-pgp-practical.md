@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Practical Cypherpunk Essentials
+title: Practical PGP and Cryptocurrency Keysignatures
 description: "Asymmetric Encryption: Phil Zimmerman, PGP and Bitcoin Signatures, BitcoinTalk Escrow, DeepDotWeb, SSL, Various Apps and Resourses."
-modified: 2019-05-27T13:15:59-23:00
+modified: 2019-05-30T13:15:59-23:00
 tags: [pgp, deepdotweb, security, privacy, resources]
 image:
   thumb: /images/pgp-og.png
   feature: pgp-banner.png
-permalink: practical-pgp/
+permalink: practical-crypto/
 canonical_url: 'https://infominer.id/web-work/practical-pgp/'
 redirect_from: pgp-and-me/
 excerpt: >
