@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "@infominer33's GitHub Portfolio and HowTo"
+title: "Infominer's GitHub Portfolio and HowTo"
 description: "How to make a Portfolio for your GitHub repositories with `github/personal-website`"
 modified: 2019-05-28T13:15:59-23:00
 tags: [github, repositories, open source, portfolio, github-pages]

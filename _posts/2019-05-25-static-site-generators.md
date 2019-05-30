@@ -2,7 +2,7 @@
 layout: post
 title: "Static Site Generators"
 description: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
-modified: 2019-05-29T11:12:13-23:00
+modified: 2019-05-30T11:12:13-23:00
 tags: 
   - static site generators
   - tools
