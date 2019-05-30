@@ -6,7 +6,6 @@ tags: [jekyll, github-pages, resources, web-publishing]
 modified: 2019-05-29T15:59:13-23:00
 permalink: github-pages-starter-pack/
 canonical_url: 'https://infominer.id/web-work/github-pages-starter-pack/'
-link: http://mademistakes.com  
 image:
   feature: github-pages-jekyll-starter-pack.png
   thumb: /images/github.png
@@ -116,11 +115,7 @@ There is a plugin that builds index files from all the readme.md files of your r
      >
      >I understand what they're saying, but I feel kind of the opposite. I used the theme chooser and remote\gem themes to begin learning. Then again, I didn't really understand my options when I started.
 
-3. These classic themes are just files and folders, everything where you can see it (and should be forkable to create working websites)
-
-   According to planetjekyll, these are all "classic" themes: [drjekyllthemes.github.io](https://drjekyllthemes.github.io)
-
-
+3. These [classic themes](#classic) are just files and folders, everything where you can see it (and should be forkable to create working websites)
 
 ## Moved
 
@@ -130,18 +125,15 @@ Running out of space on this page ;)
 
 ### Static Site Generators Other Than Jekyll
 
-* [Using A Static Site Generator other than Jekyll](https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll)
-
 <a href="https://infominer.id/web-work/static-site-generators/" class="btn btn-success">Static Site Generators</a>
 
 ### Content Creation
 
-**[Content Creation](https://infominer.id/web-work/content-creation/)**
-
+<a href="https://infominer.id/web-work/content-creation/" class="btn btn-primary">Content Creation</a>
 
 ## Fundamentals
 
-* [GitHub Learning Lab](https://lab.github.com/)
+<a href="https://lab.github.com/" class="btn btn-info">GitHub Learning Lab</a>
 
 ### Markdown
 
@@ -160,13 +152,6 @@ Running out of space on this page ;)
   * <a href="https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-3-Local-development-with/ba-p/2292" target="_blank">-- Local development with GitHub Pages</a>
 * <a href="https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-4-Customizing-your-Pages/ba-p/4058" target="_blank">Getting started with GitHub Pages: Part 4 -- Customizing your Pages site</a>
 * [Clearing Up Confusion around Baseurl](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
-
-### Classic
-
-* [indieweb/blank-gh-site](https://github.com/indieweb/blank-gh-site)
-* [drjekyllthemes.github.io](https://drjekyllthemes.github.io) (classic 'files and folders')
-* [ChristopherA/simplest-github-page](https://github.com/ChristopherA/simplest-github-page)
-* [prose/starter](https://github.com/prose/starter)
 
 
 ### Jekyll
@@ -187,27 +172,48 @@ Running out of space on this page ;)
 * [Run a Specific Version of Bundler](https://makandracards.com/makandra/9741-run-specific-version-of-bundler)
   * Can get older themes to work if you use the right verion of bundler (found in gemfile.lock).
 * [benbalter/jekyll-style-guide](https://github.com/benbalter/jekyll-style-guide)
-* [jekyll-theme-showcase-share-your-jekyll-themes/1382](https://webcache.googleusercontent.com/search?q=cache:http://talk.jekyllrb.com/t/jekyll-theme-showcase-share-your-jekyll-themes/1382)
 
 ### Themes
 
-I'll say now, if you are new to web-development, best to start off trying out a few of the Github Pages official themes. Once installed, I cloned those repos locally so its easier to see how everything works. Then, if I want to configure a file that's not in my repository, I have a copy nearby. You can grab the `_layouts/default.html`, put it in your repo, and get a feel for how configuring that template shapes your entire site. But then you configure individual pages, and categories, perhaphs, to display differently. 
+I'll say now, if you are new to web-development, best to start off trying out a few of the [official GitHub Pages Themes](https://pages.github.com/themes/). 
 
-* [**forked.yannick.io**](http://forked.yannick.io) - **Find maintained forks of your favorite GitHub repos.**
-* <a href="https://pages.github.com/themes/" target="_blank">pages.github.com/themes/</a> - official 
+Once installed, I cloned those repos locally so its easier to see how everything works. Then, if I want to configure a file that's not in my repository, I have a copy nearby. You can grab the `_layouts/default.html`, put it in your repo, and get a feel for how configuring that template shapes your entire site. But then you configure individual pages, and categories, perhaphs, to display differently. 
+
+### Finding Themes
 * <a href="https://github.com/planetjekyll/awesome-jekyll-themes" target="_blank">planetjekyll/awesome-jekyll-themes</a> (gem-based)
 * [http://themes.jekyllrc.org/](http://themes.jekyllrc.org/)
+* [jekyll-theme-showcase-share-your-jekyll-themes/1382](https://webcache.googleusercontent.com/search?q=cache:http://talk.jekyllrb.com/t/jekyll-theme-showcase-share-your-jekyll-themes/1382)
+* [**forked.yannick.io**](http://forked.yannick.io) - **Find maintained forks of your favorite GitHub repos.**
+
+The problem is that all of these websites are not exactly up to date. Many of the themes listed above were written for older versions of Jekyll. 
+
+Choosing a theme is very personal to your needs, also.
+
+### Found Themes
+
+I'm keeping track of themes that catch my eye:
+
 * [projectpages.github.io/project-pages/](https://projectpages.github.io/project-pages/)
   * [project-pages/wiki](https://github.com/projectpages/project-pages/wiki)
-* [https://github.com/kinlane/beforeeighteen](https://github.com/kinlane/beforeeighteen) (template for presentation style pages.)
 * [bradleytaunt/lightspeed](https://github.com/bradleytaunt/lightspeed)
 * [Just the Docs](https://pmarsceill.github.io/just-the-docs/)
 * [era.yayd.in/jekyll-bulma/](https://era.yayd.in/jekyll-bulma/)
+* [https://ndrewtl.github.io/airspace-jekyll/](https://ndrewtl.github.io/airspace-jekyll/)
+  * [ndrewtl/airspace-jekyll/](https://github.com/ndrewtl/airspace-jekyll/)
+* [deanattali.com/beautiful-jekyll/](https://deanattali.com/beautiful-jekyll/)
+* [github/personal-website](https://github.com/github/personal-website)
+  > Code that'll help you kickstart a personal website that showcases your work as a software developer.
 * [Documentation Theme Jekyll](https://idratherbewriting.com/documentation-theme-jekyll)
   ![](https://imgur.com/7UjPtdAl.png)
-* [github/personal-website](https://github.com/github/personal-website)
-  > Code that'll help you kickstart a personal website that showcases your work as a software developer. https://github.dev
-* [https://ndrewtl.github.io/airspace-jekyll/](https://ndrewtl.github.io/airspace-jekyll/)
+
+### Classic
+
+* [drjekyllthemes.github.io](https://drjekyllthemes.github.io) (classic 'files and folders')
+* [indieweb/blank-gh-site](https://github.com/indieweb/blank-gh-site)
+* [ChristopherA/simplest-github-page](https://github.com/ChristopherA/simplest-github-page)
+* [prose/starter](https://github.com/prose/starter)
+* [https://github.com/kinlane/beforeeighteen](https://github.com/kinlane/beforeeighteen) (template for presentation style pages.)
+
 
 ### Hydejack
 
@@ -526,7 +532,8 @@ Not sure how much of this is useful, but I'll save for further examination.
 
 ### Indieweb
 
-* [infominer.id/indieweb](https://infominer.id/indieweb)
+<a href="https://infominer.id/indieweb" class="btn btn-success">infominer.id/indieweb</a>
+
 * [indieweb.org](https://indieweb.org)
 * [Micropub](https://indieweb.org/Micropub)
 * [IndieAuth](https://indieweb.org/IndieAuth)
@@ -535,22 +542,4 @@ Not sure how much of this is useful, but I'll save for further examination.
 * [Jekyll and the Indieweb](http://wordius.com/jekyll-and-the-indieweb/)
 * [Implementing the Indieweb on a static website](https://vincentp.me/articles/2018/11/14/20-00/) - Sending and receiving Webmentions and Micropub on a static site
 * [voxpelli/webpage-micropub-to-github/](https://github.com/voxpelli/webpage-micropub-to-github/)
-
-
-### Now Dev
-
-I don't even know... but it seems pretty dope.
-
-* [https://zeit.co/blog/now-dev](https://zeit.co/blog/now-dev)
-* [https://zeit.co/docs/v2/deployments/concepts/lambdas](https://zeit.co/docs/v2/deployments/concepts/lambdas)
-
-
-### Keybase
-
-![](https://imgur.com/PVUAaAu.png)
-
-Just sayin'... keybase has 250 gigs of free storage you can use to host a website...
-
-you could build gem based sites locally, and keybase will automatically sync the data.
-
 

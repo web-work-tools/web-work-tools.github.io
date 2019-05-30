@@ -33,6 +33,7 @@ I'll have a few general resources at the top and just add as I go, since I'm not
 
 ## General
 
+* [Using A Static Site Generator other than Jekyll](https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll)
 * [pinceladasdaweb/Static-Site-Generators](https://github.com/pinceladasdaweb/Static-Site-Generators)
 * [staticsitegenerators.net](https://staticsitegenerators.net)
 * [https://www.staticgen.com/](https://www.staticgen.com/)
@@ -81,6 +82,26 @@ MkDocs really caught my eye when I saw it running at [EthHub](https://docs.ethhu
 Because MkDocs builds with python, that opens up a whole universe of tools at your disposal. The python markdown extensions are a prime example.
 
 However, basically none of the regular jekyll plugins work with mkdocs, it's a whole universe to its own w Python.
+
+
+### Now Dev
+
+I don't even know... but it seems pretty dope.
+
+* [https://zeit.co/blog/now-dev](https://zeit.co/blog/now-dev)
+* [https://zeit.co/docs/v2/deployments/concepts/lambdas](https://zeit.co/docs/v2/deployments/concepts/lambdas)
+
+
+### Keybase
+
+![](https://imgur.com/PVUAaAu.png)
+
+Just sayin'... keybase has 250 gigs of free storage you can use to host a website...
+
+you could build gem based sites locally, and keybase will automatically sync the data.
+
+
+
 
 ## Thats all for now!
 
