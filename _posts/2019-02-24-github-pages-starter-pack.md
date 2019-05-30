@@ -185,9 +185,9 @@ Running out of space on this page ;)
   > This course covers the basics of using Jekyll - Static Site Generator. Work your way through the videos and we'll teach you everything you need to know to create a professional and scalable website or blog!
   [![](https://i.imgur.com/IoU70pW.png)](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
 * [Run a Specific Version of Bundler](https://makandracards.com/makandra/9741-run-specific-version-of-bundler)
-  * Older themes will work if you use the right verion of bundler (found in gemfile.lock).
+  * Can get older themes to work if you use the right verion of bundler (found in gemfile.lock).
 * [benbalter/jekyll-style-guide](https://github.com/benbalter/jekyll-style-guide)
-
+* [jekyll-theme-showcase-share-your-jekyll-themes/1382](https://webcache.googleusercontent.com/search?q=cache:http://talk.jekyllrb.com/t/jekyll-theme-showcase-share-your-jekyll-themes/1382)
 
 ### Themes
 
