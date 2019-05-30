@@ -5,6 +5,7 @@ description: "Publishing a Website via GitHub pages is free, and easy. Everythin
 tags: [jekyll, github-pages, resources, web-publishing]
 modified: 2019-05-29T15:59:13-23:00
 permalink: github-pages-starter-pack/
+canonical_url: 'https://infominer.id/web-work/github-pages-starter-pack/'
 link: http://mademistakes.com  
 image:
   feature: github-pages-jekyll-starter-pack.png
@@ -349,6 +350,7 @@ Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps
 
 ## SEO
 
+* [Use Jekyll like a pro: Improving SEO](https://codeburst.io/use-jekyll-like-a-pro-improving-seo-c8cfb81781b7)
 
 ### Jekyll-SEO-Tag
 

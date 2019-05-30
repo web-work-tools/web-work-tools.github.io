@@ -9,6 +9,7 @@ tags:
   - github
   - resources
 permalink: infominer33-forked-repos/
+canonical_url: 'https://infominer.id/web-work/infominer33-forked-repos/'
 image:
   feature: infominer-forked-repositories.png
   thumb: /images/infominer-forked-repositories.png
