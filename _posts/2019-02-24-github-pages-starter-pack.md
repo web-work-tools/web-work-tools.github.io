@@ -3,7 +3,7 @@ layout: post
 title: "GitHub Pages-Starter Pack"
 description: "Publishing a Website via GitHub pages is free, and easy. Everything you need to get going in one place + extended resources."
 tags: [jekyll, github-pages, resources, web-publishing]
-modified: 2019-05-29T15:59:13-23:00
+modified: 2019-05-30T15:59:13-23:00
 permalink: github-pages-starter-pack/
 canonical_url: 'https://infominer.id/web-work/github-pages-starter-pack/'
 image:
