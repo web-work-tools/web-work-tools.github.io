@@ -8,6 +8,7 @@ image:
   thumb: /images/getting-started-adwords-keyword-planner.jpg
   feature: getting-started-adwords-keyword-planner.jpg
 permalink: getting-started-adwords-keyword-planner/
+canonical_url: 'https://infominer.id/web-work/getting-started-adwords-keyword-planner/'
 
 ---
 
