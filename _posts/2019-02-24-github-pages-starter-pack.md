@@ -5,7 +5,7 @@ description: "Publishing a Website via GitHub pages is free, and easy. Everythin
 tags: [jekyll, github-pages, resources, web-publishing]
 modified: 2019-05-30T15:59:13-23:00
 permalink: github-pages-starter-pack/
-canonical_url: 'https://infominer.id/web-work/github-pages-starter-pack/'
+
 redirect_from: gh-pages-starter-pack/
 image:
   feature: github-pages-jekyll-starter-pack.png
