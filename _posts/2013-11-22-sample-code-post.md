@@ -6,10 +6,12 @@ tags: [samples, code, snippets]
 comments: true
 link: http://mademistakes.com  
 image:
+  thumb: /images/pgp-og.png
+  feature: pgp-banner.png
   background: triangular.png
-modified: 2019-05-25T13:15:59-23:00
+modified: 2019-05-30T13:15:59-23:00
 permalink: /sample-code/
-canonical_url: 'https://infominer.id/web-work//sample-code/'
+canonical_url: 'https://infominer.id/web-work/sample-code/'
 published: false
 ---
 
