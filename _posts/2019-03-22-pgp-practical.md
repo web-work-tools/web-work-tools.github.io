@@ -2,7 +2,8 @@
 layout: post
 title: Practical PGP and Cryptocurrency Keysignatures
 description: "Asymmetric Encryption: Phil Zimmerman, PGP and Bitcoin Signatures, BitcoinTalk Escrow, DeepDotWeb, SSL, Various Apps and Resourses."
-modified: 2019-05-30T13:15:59-23:00
+excerpt: >
+  This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address. 
 tags: [pgp, deepdotweb, security, privacy, resources]
 image:
   thumb: /images/pgp-og.png
@@ -12,8 +13,7 @@ canonical_url: 'https://infominer.id/web-work/practical-crypto/'
 redirect_from: 
   - pgp-and-me/
   - practical-pgp/
-excerpt: >
-  This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address. 
+modified: 2019-05-30T13:15:59-23:00
 ---
 
 I created this resource while researching the following article:
