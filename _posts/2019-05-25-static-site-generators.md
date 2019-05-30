@@ -9,7 +9,7 @@ tags:
   - resources
   - CI\CD
 permalink: static-site-generators/
-canonical_url: 'https://infominer.id/web-work/static-site-generators/'
+
 image:
   feature: devopedia-static-site-generators.jpg
   thumb: /images/devopedia-static-site-generators.jpg

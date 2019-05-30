@@ -8,7 +8,7 @@ tags:
   - tools
   - resources
 permalink: content-creation/
-canonical_url: 'https://infominer.id/web-work/content-creation/'
+
 image:
   feature: content-creation.png
   thumb: /images/content-creation.png

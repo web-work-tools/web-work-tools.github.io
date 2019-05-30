@@ -9,7 +9,7 @@ image:
   thumb: /images/pgp-og.png
   feature: pgp-banner.png
 permalink: practical-crypto/
-canonical_url: 'https://infominer.id/web-work/practical-crypto/'
+
 redirect_from: 
   - pgp-and-me/
   - practical-pgp/

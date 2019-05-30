@@ -5,7 +5,7 @@ description: "How to make a Portfolio for your GitHub repositories with `github/
 modified: 2019-05-28T13:15:59-23:00
 tags: [github, repositories, open source, portfolio, github-pages]
 permalink: make-a-github-portfolio/
-canonical_url: 'https://infominer.id/web-work/make-a-github-portfolio/'
+
 image:
   feature: infominer33-github-portfolio.jpeg
   thumb: /images/infominer33-github-portfolio.jpeg

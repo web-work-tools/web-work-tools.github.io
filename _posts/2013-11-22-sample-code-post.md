@@ -11,7 +11,7 @@ image:
   background: triangular.png
 modified: 2019-05-30T13:15:59-23:00
 permalink: /sample-code/
-canonical_url: 'https://infominer.id/web-work/sample-code/'
+
 published: false
 ---
 
