@@ -275,6 +275,10 @@ I've just listed what repositories most fit my use cases, you might want to brow
 
 #### Hpstr
 
+This site currently runs on Hpstr, but it is archived, and doesn't support modern features of jekyll such as baseurl, nor can I get jekyll-redirect-from to work with it.
+
+I will try migrating this to the Hugo port of this theme, which i believe is maintained. It's been nice trying out though, and I've got a few I'd like to look at anyway.
+
 * [Hpstr](https://mmistakes.github.io/hpstr-jekyll-theme/)
   * [mmistakes/hpstr-jekyll-theme](https://github.com/mmistakes/hpstr-jekyll-theme)
   ![](https://imgur.com/G9eWy3ol.png)
