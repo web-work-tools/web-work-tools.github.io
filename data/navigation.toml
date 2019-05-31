@@ -1,34 +1,37 @@
-# Menu navigation links
-
-- title: "Webwork.tools"
-  url: "/webwork.tools/"
-
-- title: Services
-  url: /services/
-
-- title: GitHub Pages Starter Pack
-  url: /github-pages-starter-pack/
-
-- title: Learn SEO
-  url: /learn-seo/
-
-- title: Mostly Free SEO Tools
-  url: /seo-tools/
-
-- title: Practical PGP
-  url: /practical-pgp/
-
-- title: "IndieWeb"
-  url: "https://infominer.id/indieweb/"
-
-- title: ⧉InfoMine⧉
-  url: https://infominer.id/
-
+[[links]]
+title: "Webwork.tools"
+url: "/webwork.tools/"
 
 [[links]]
-title = "Theme Setup"
-url = "/theme-setup/"
+title: "Services"
+url: "/services/"
 
 [[links]]
-title = "External Link"
-url = "http://mademistakes.com"
+title: "Learn SEO"
+url: "/learn-seo/"
+
+[[links]]
+title: "Mostly Free SEO Tools"
+url: "/seo-tools/"
+
+[[links]]
+title: "GitHub Pages Starter Pack"
+url: "/github-pages-starter-pack/"
+
+[[links]]
+title: "Open Source Publishing"
+url: "/open-source-publishing/"
+
+[[links]]
+title: "Practical Public Key Crypto"
+url: "/practical-public-key-crypto/"
+
+[[links]]
+title: "IndieWeb"
+url: "https://infominer.id/indieweb/"
+
+[[links]]
+title: "⧉InfoMine⧉"
+url: "https://infominer.id/"
+
+
