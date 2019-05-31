@@ -7,7 +7,7 @@ image:
   thumb: /images/jkyll-hpstr-hugo.png
   feature: jkyll-hpstr-hugo.png
 modified: 2019-06-01T13:15:59-23:00
-permalink: /mission-statement/
+
 published: false
 ---
 
@@ -196,20 +196,9 @@ So now, I have themes as a subdirectory in the root directory of this site `/web
 
 *In Hugo-HPSTR-Theme, it's all about your directory structure.*
 
-```
-.
-└── content
-    └── about
-    |   └── _index.md  // <- https://example.com/about/
-    ├── posts
-    |   ├── firstpost.md   // <- https://example.com/posts/firstpost/
-    |   ├── happy
-    |   |   └── ness.md  // <- https://example.com/posts/happy/ness/
-    |   └── secondpost.md  // <- https://example.com/posts/secondpost/
-    └── quote
-        ├── first.md       // <- https://example.com/quote/first/
-        └── second.md      // <- https://example.com/quote/second/
-```
+Luckily we don't have to guess, since there is an `exampleSite` in our `themes/hpstr` directory.
+
+![](https://imgur.com/R8F2D5m.png)
 
 
 ![](https://imgur.com/NJthhWz.png)
@@ -244,22 +233,32 @@ menu = "main"
 ![](https://imgur.com/83WTq5g.png)
 
 
-In the `theme` directory is a navigation.yml file that we can copy over to our root data directory and customize.
+In the `theme` directory is a navigation.yml file, and even awhole `exampleSite` that we can copy over to our root data directory and customize.
 
 ![](https://imgur.com/cTxmK7Ql.png)
 
 That's a good start.
 
+## Frontmatter
+
+![](https://imgur.com/LpxVveb.png)
+
+I can see 1 thing is different the date does not include the time, also.
+
 ## config.toml
 
-Now we are getting places! Next step is to change the _config.yaml to config.toml and we'll be good to do the frontmatter (which in this case is the same according to the docs).
+Now we are getting places! Next step is to copy the `config.toml` from the root of our example site into the root of our repository. 
 
 
+This is the final stretch, and we should be good to go 
 
+![](https://imgur.com/za5VOLr.png)
+
+phew. ok, I feel good. let me rename the config.yml to config.tmp. Not sure if that makes a difference to hugo, but it does to me.
+
+
+## Extra 
 * [bwaycer.github.io/hugo_tutorial.hugo/overview/configuration/](https://bwaycer.github.io/hugo_tutorial.hugo/overview/configuration/)
-
-## Not essential for this HowTo.
-
 * [gohugo.io/content-management/archetypes/](https://gohugo.io/content-management/archetypes/)
 
 ### Page Bundles

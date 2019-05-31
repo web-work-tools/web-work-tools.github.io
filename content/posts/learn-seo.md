@@ -7,7 +7,7 @@ image:
   thumb: /images/organic-seo-drive-traffic.jpg
   feature: organic-seo-drive-traffic.jpg
 modified: 2019-05-23T13:15:59-23:00
-permalink: learn-seo/
+
 
 ---
 

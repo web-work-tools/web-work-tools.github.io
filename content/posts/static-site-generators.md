@@ -8,7 +8,7 @@ tags:
   - tools
   - resources
   - CI\CD
-permalink: static-site-generators/
+
 
 image:
   feature: devopedia-static-site-generators.jpg

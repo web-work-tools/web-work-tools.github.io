@@ -8,7 +8,7 @@ tags:
   - repositories
   - github
   - resources
-permalink: infominer33-forked-repos/
+
 
 image:
   feature: infominer-forked-repositories.png

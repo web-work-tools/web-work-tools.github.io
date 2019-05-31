@@ -7,7 +7,7 @@ modified: 2019-05-26T13:15:59-23:00
 image:
   thumb: /images/webwork-tools.png
   feature: ww-tools-head.jpg
-permalink: seo-tools/
+
 
 ---
 
