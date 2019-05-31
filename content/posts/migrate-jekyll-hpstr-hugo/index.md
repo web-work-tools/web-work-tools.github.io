@@ -137,3 +137,6 @@ In Hugo, much like [MkDocs](https://infominer.id/web-work/static-site-generators
   ![](/1-featured-content-bundles.png)
   >The illustration shows 3 bundles. Note that the home page bundle cannot contain other content pages, but other files (images etc.) are fine.
 
+![](https://imgur.com/c2VcZkh.png)
+
+So now you can see how my content directory is structured. I'm saving that sample post 
