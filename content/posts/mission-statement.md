@@ -7,7 +7,7 @@ image:
   thumb: /images/pgp-og.png
   feature: pgp-banner.png
 modified: 2019-05-25T13:15:59-23:00
-permalink: /mission-statement/
+
 published: false
 ---
 

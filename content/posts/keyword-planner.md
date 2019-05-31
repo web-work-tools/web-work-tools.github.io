@@ -7,7 +7,7 @@ tags: [keyword-research, seo, walkthrough, stub, adwords, keyword planner]
 image:
   thumb: /images/getting-started-adwords-keyword-planner.jpg
   feature: getting-started-adwords-keyword-planner.jpg
-permalink: getting-started-adwords-keyword-planner/
+
 
 
 ---

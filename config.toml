@@ -1,0 +1,18 @@
+baseurl = "/web-work"
+languageCode = "en-gb"
+title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+theme = "hpstr"
+pluralizelisttitles = false
+PygmentsCodeFences = true
+Paginate = 5
+disqusShortname = "hpstrhugo"
+
+[params]
+	subtitle = "Digital Tools for a Digital Transformation."
+	[params.author]
+		name = "⧉ Infominer"
+		avatar = "/images/info-id.png"
+		bio = "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
+		github = "infominer33/web-work"
+	[params.image]
+	  feature = "/images/web-work-tools.png"

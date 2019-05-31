@@ -8,7 +8,7 @@ tags: [pgp, deepdotweb, security, privacy, resources]
 image:
   thumb: /images/pgp-og.png
   feature: pgp-banner.png
-permalink: practical-crypto/
+
 redirect_from: practical-pgp/
 
 
