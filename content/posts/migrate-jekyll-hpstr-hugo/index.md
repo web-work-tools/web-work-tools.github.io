@@ -15,15 +15,82 @@ I'm want to learn Hugo, and I want to use the Hugo version HPSTR theme, and it s
 
 While I'm at it, might as well record the process. Hopefully it will help a few people along the way.
 
-## Comparing Sitemaps HPSTR Jekyll vs Hugo
-* [mmistakes.github.io/hpstr-jekyll-theme/theme-setup/](https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/)
 
-### Jekyll
+## HPSTR Jekyll vs Hugo 
+
+### Releases
+
+* [mmistakes/hpstr-jekyll-theme](https://github.com/mmistakes/hpstr-jekyll-theme)
+* [dldx/hpstr-hugo-theme](https://github.com/dldx/hpstr-hugo-theme/releases)
+
+For some reason, originally, I thought that `dldx/hpstr-hugo-theme` was a more recently maintained version of `mmistakes/hpstr-jekyll-theme`.
+
+It turns out that each version was released at the same time, and that they were built together from the very beginning!
+
+[![](https://imgur.com/NT30edy.png)](https://github.com/mmistakes/hpstr-jekyll-theme/releases)
+[![](https://imgur.com/dvapj4y.png)](https://github.com/dldx/hpstr-hugo-theme/releases)
+
+### Commits
+
+![](https://imgur.com/obcGfNc.png)
+![](https://imgur.com/KZQODtU.png)
+
+## Which Version of Hugo Should I Run?
+
+Scrolling back through the time period when the HPSTR theme was in active development, I come across:
+
+### 0.16.0 June 6th 2016
+>Hugo 0.16 is our best and biggest release ever. The Hugo community has outdone itself with continued performance improvements, beautiful themes for all types of sites from project sites to documentation to blogs to portfolios, and increased stability.
+
+### .deb packages for Debian, Ubuntu, etc.
+>Hugo has become part of the official Debian and Ubuntu repositories since January 2016!
+
+That is a nice note to find among the releases of Hugo, since I'm an Ubuntu user. 
+
+## [v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.17)
+
+![](https://imgur.com/1tUE104l.png)
+
+
+There are options for different platforms, and it was released in october one month after the last release of HPSTR.
+
+I already have a newer version, and am choosing to uninstall it, so the earlier version, hopefully won't conflict.
+
+With ruby\jekyll it is trivial to install and use whichever release you like, at any time. The same could be said for any Python based SSGs.
+
+Though I will probably know a similar solution for hugo soon.
+
+Once it's installed, type I `hugo version` and read:
+
+`Hugo Static Site Generator v0.17 BuildDate: 2016-10-07T10:46:29-04:00`
+
+perfect. if that wasn't successful, I'd check to be sure Hugo was in my path. But that is platform specific, and it's installed. :)
+
+[**More specific installation instructions**](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
+  >Hugo is written in Go with support for multiple platforms.
+  >
+  >The latest release can be found at Hugo Releases. We currently provide pre-built binaries for  Windows,  Linux,  FreeBSD and  OS X (Darwin) for x64, i386 and ARM architectures.
+  >
+  >Hugo may also be compiled from source wherever the Go compiler tool chain can run, e.g. for other operating systems including DragonFly BSD, OpenBSD, Plan 9 and Solaris. See [http://golang.org/doc/install/source](http://web.archive.org/web/20161125191343/https://golang.org/doc/install/source) for the full set of supported combinations of target operating systems and compilation architectures.
+
+
+### Google Search by Date
+
+Now that I'm thinking in the right timespan, and fully realize that newer directions will get me nowhere with this theme. I will remember keep my search from 2016-2017, when having trouble with a given feature. Only expanding my search radius if I'm reallly trying. 
+
+That's all assuming this is successful :D
+
+## Directory Structure
+
+Now that we've covered some of the backgraound, lets forget about that stuff for a moment, and think about files and folders.
+
+That's what we came to SSG for, right? Ok!
+
+### [mmistakes.github.io/hpstr-jekyll-theme/theme-setup/](https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/)
 ![](https://imgur.com/EBIdUUo.png)
 
-### Hugo
+### [hpstr-hugo-theme/theme-setup](https://dldx.org/hpstr-hugo-theme/theme-setup/#setup:b8b08bb87737c3c5c8e714d4f8821e60)
 ![](https://imgur.com/nnI1lou.png)
-
 
 What we're going to do is make a test branch of our repository... so we can see about getting hugo to run over there, and if successful then we'll learn how to merge this test branch back over.
 
@@ -35,7 +102,7 @@ I will call my new branch `test-hugo` so the command will be like so:
 
 `git checkout -b test-hugo`
 
-### Some git basics for newbs like me.
+### Some git basics for newbs like me
 
 * [Git Branching and Merging](https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging)
 
@@ -43,17 +110,21 @@ Git keeps track of all your files, but not just the files, but everything in the
 
 Every commit, git remembers.
 
-It's simple enough to say "yes yes I know"
+> "yes yes I know"
 
-However, it really boggled my mind the first time I did it locally, because I didn't realize how incredible git actually is.
+However, it really boggled my mind the first time I tried it locally. 
 
 I can change to a branch or another point in the history of this repository, and git tucks away the one I'm working on... and the whole directory changes and like wait... 
 
 >where did all my files just go? 
 
-Then when you push to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today we would call it a blockchain :rofl:
+When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain :rofl:
 
-but you don't need github at all, and I'm learning that a significant portion of git repositories are never exposed to the public. 
+**Git is Magic!** 
+
+it sure felt that way the first time I experienced it, and today still I have a sense of mystery and wonder around Git, thought I know it's technical, and not mystical in nature.
+
+but you don't need github at all, and I'm learning that a significant portion, perhaps a majority, <!--findsource--> of git repositories are never exposed to the public. 
 
 `git checkout -b` is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!
 
@@ -61,12 +132,24 @@ but you don't need github at all, and I'm learning that a significant portion of
 
 ## Out with the Old
 
-Anything that I didn't personally customize is gone from the repository. I just kept my posts, pages, some data files that I will figure out if I use it here later, and the config.yml that I will grab some lines from too. 
+Anything that I didn't personally customize is gone from the test branch. 
+
+**I kept**:
+  * posts
+  * pages
+  * images
+  * data files
+  * favicon
+  * README.md
+  * _config.yml 
+  * .gitignore
 
 
 **HPSTR-Hugo Directory Structure**
 ![](https://imgur.com/nnI1lou.png)
+>This should be enough to get a working website!
 
+What I'm thinking is that those folders in the root `assets` directory would be empty unless I'm adding some custom feature.
 
 So I can see that my `_posts` directory will now be called `posts`, and live in the `content` directory. That's simple enough.
 
@@ -91,11 +174,11 @@ With some pre-requisites out of the way, lets jump in at the first step in the t
 
 Although this is clear by studying the site map, the first few times I tried Hugo, when I started with making a theme directory, I just got confused and gave up.
 
-One time, as part of the instructions it had me clone a direcotry of 100 themes, which Hugo can use from the commandline, so you dont' have to fork a theme over and over, every time you need it.
+One time, as part of the instructions it had me begin as the first step to clone a repository of 100+ themes to my home directory, which Hugo can use from the commandline, so you dont' have to fork a theme over and over, every time you need it.
 
-That's a great feature, but I was lost.
+That's a great feature, but I still didn't understand what was going on.
 
-Migrating from an existing theme to the same one on Hugo simplified a couple things for me, and I feel on the right track. I'm confident enough to be writing this before having completed it once already.
+Migrating from an existing theme to the same one on Hugo simplified a couple things for me, and I feel on the right track. I'm confident enough to begin writing as I learn.
 
 ```
 $ mkdir themes
@@ -106,14 +189,12 @@ $ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
 So now, I have themes as a subdirectory in the root directory of this site `/web-work/themes/` and I'll just plug away.
 
 
-
 ## Content
 
 >[Posts are stored in the content directory](https://dldx.org/hpstr-hugo-theme/theme-setup/#adding-new-content:b8b08bb87737c3c5c8e714d4f8821e60). By default, only content in the `content/posts` will show up in the `All Posts` section, however, you can link to other sections manually. For example, if you create a post at `gallery/photo1.md`, your post will appear both under the home page and under /gallery.
 
 
-
-In Hugo, much like [MkDocs](https://infominer.id/web-work/static-site-generators/#mkdocs), it's all about your directory structure.
+*In Hugo-HPSTR-Theme, it's all about your directory structure.*
 
 ```
 .
@@ -130,13 +211,57 @@ In Hugo, much like [MkDocs](https://infominer.id/web-work/static-site-generators
         └── second.md      // <- https://example.com/quote/second/
 ```
 
+
+![](https://imgur.com/NJthhWz.png)
+
+So now you can see how my content directory is structured. 
+
+Every directory root has an index and nothing else, currently. 
+
+You'll notice that your root directory mirrors the themes directory structure. 
+
+![](https://imgur.com/83WTq5g.png)
+
+
+
+### archetypes/
+I entered some tags and categories:
+
+`web-work/themes/hpstr/archetypes/default.md`
+```
++++
+Description = ""
+Tags = ["resources", "web-work"]
+Categories = ["howto", "tools"]
+menu = "main"
++++
+```
+
+## data/ 
+
+**From YAML to TOML**
+
+![](https://imgur.com/83WTq5g.png)
+
+
+
+
+## config.toml
+
+Now we are getting places! Next step is to change the _config.yaml to config.toml and we'll be good to do the frontmatter (which in this case is the same according to the docs).
+
+
+
+* [bwaycer.github.io/hugo_tutorial.hugo/overview/configuration/](https://bwaycer.github.io/hugo_tutorial.hugo/overview/configuration/)
+
+## Not essential for this HowTo.
+
+* [gohugo.io/content-management/archetypes/](https://gohugo.io/content-management/archetypes/)
+
+### Page Bundles
+
 * [content-management/organization/](https://gohugo.io/content-management/organization/)
   >Hugo 0.32 announced page-relative images and other resources packaged into Page Bundles.
-  >
-  >These terms are connected, and you also need to read about [Page Resources](https://gohugo.io/content-management/page-resources/) and [Image Processing](https://gohugo.io/content-management/image-processing/) to get the full picture.
-  ![](/1-featured-content-bundles.png)
-  >The illustration shows 3 bundles. Note that the home page bundle cannot contain other content pages, but other files (images etc.) are fine.
 
-![](https://imgur.com/c2VcZkh.png)
+As Hugo is just now at 0.32, and this theme port is older, we're not going to pay attn to the latest instructions. Especailly since going to the repo I see no open [issues](https://github.com/dldx/hpstr-hugo-theme/issues) or [pull-requests](https://github.com/dldx/hpstr-hugo-theme/pulls).
 
-So now you can see how my content directory is structured. I'm saving that sample post 
