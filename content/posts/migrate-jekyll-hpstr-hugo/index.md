@@ -244,7 +244,11 @@ menu = "main"
 ![](https://imgur.com/83WTq5g.png)
 
 
+In the `theme` directory is a navigation.yml file that we can copy over to our root data directory and customize.
 
+![](https://imgur.com/cTxmK7Ql.png)
+
+That's a good start.
 
 ## config.toml
 
