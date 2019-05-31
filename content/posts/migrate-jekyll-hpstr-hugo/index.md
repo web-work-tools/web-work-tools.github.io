@@ -112,13 +112,6 @@ So now, I have themes as a subdirectory in the root directory of this site `/web
 >[Posts are stored in the content directory](https://dldx.org/hpstr-hugo-theme/theme-setup/#adding-new-content:b8b08bb87737c3c5c8e714d4f8821e60). By default, only content in the `content/posts` will show up in the `All Posts` section, however, you can link to other sections manually. For example, if you create a post at `gallery/photo1.md`, your post will appear both under the home page and under /gallery.
 
 
-* [content-management/organization/](https://gohugo.io/content-management/organization/)
-  >Hugo 0.32 announced page-relative images and other resources packaged into Page Bundles.
-  >
-  >These terms are connected, and you also need to read about [Page Resources](https://gohugo.io/content-management/page-resources/) and [Image Processing](https://gohugo.io/content-management/image-processing/) to get the full picture.
-  ![](/1-featured-content-bundles.png)
-  >The illustration shows 3 bundles. Note that the home page bundle cannot contain other content pages, but other files (images etc.) are fine.
-
 
 In Hugo, much like [MkDocs](https://infominer.id/web-work/static-site-generators/#mkdocs), it's all about your directory structure.
 
@@ -137,4 +130,10 @@ In Hugo, much like [MkDocs](https://infominer.id/web-work/static-site-generators
         └── second.md      // <- https://example.com/quote/second/
 ```
 
+* [content-management/organization/](https://gohugo.io/content-management/organization/)
+  >Hugo 0.32 announced page-relative images and other resources packaged into Page Bundles.
+  >
+  >These terms are connected, and you also need to read about [Page Resources](https://gohugo.io/content-management/page-resources/) and [Image Processing](https://gohugo.io/content-management/image-processing/) to get the full picture.
+  ![](/1-featured-content-bundles.png)
+  >The illustration shows 3 bundles. Note that the home page bundle cannot contain other content pages, but other files (images etc.) are fine.
 
