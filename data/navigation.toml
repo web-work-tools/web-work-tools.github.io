@@ -24,3 +24,11 @@
 - title: ⧉InfoMine⧉
   url: https://infominer.id/
 
+
+[[links]]
+title = "Theme Setup"
+url = "/theme-setup/"
+
+[[links]]
+title = "External Link"
+url = "http://mademistakes.com"
