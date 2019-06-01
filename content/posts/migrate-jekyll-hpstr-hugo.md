@@ -26,6 +26,8 @@ I also show examples of the differences between the two, where and how I made ch
 
 ## HPSTR Jekyll vs Hugo 
 
+I'm looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won't run in the newest version. If you have a newer suggestion, feel free to shout out. I will also see what the options are.
+
 ### Releases
 
 * [mmistakes/hpstr-jekyll-theme](https://github.com/mmistakes/hpstr-jekyll-theme)
@@ -262,7 +264,9 @@ url = "http://infominer.id/"
 
 ## Frontmatter
 
+
 **The main differences**: 
+
 * using `type` rather than `layout`
 * using the frontmatter variable `date` to signify publication date, rather than hardcoding it into the title.
 
@@ -358,6 +362,8 @@ aliases:
 ## One last thing!
 
 It seems like you need to type `hugo` to publish to the docs directory, because `hugo server` doesn't do both, it only does the webserving.. I don't really understand, but that seems to be the case.
+
+## Use a linebreak before each list!
 
 ## Reach out in the Comments
 
