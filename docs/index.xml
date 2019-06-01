@@ -157,7 +157,8 @@ It&amp;rsquo;s true that it&amp;rsquo;s a ton of work to do what I do, but you c
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/practical-public-key-crypto/</guid>
-      <description>&amp;quot;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;quot;  I created this resource while researching the following article:
+      <description>&amp;ldquo;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;rdquo;
+I created this resource while researching the following article:
  freelanceforcoins.com/Business with Crypto 101—Escrow and Key Signatures -infominer &amp;gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.</description>
     </item>
     
@@ -209,7 +210,7 @@ The fundamental building blocks of SEO are:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/404/</guid>
-      <description>Sorry, we&amp;rsquo;ve misplaced that URL or it&amp;rsquo;s pointing to something that doesn&amp;rsquo;t exist. Head back home to try finding it again.
+      <description>Sorry, we&#39;ve misplaced that URL or it&#39;s pointing to something that doesn&#39;t exist. Head back home to try finding it again.
  https://infominer.id https://infominer.id/web-work/ https://infominer.id/indieweb/ https://infominer.id/DIDecentralized/ https://infominer.id/bitcoin-history/ https://infominer.id/SourceCrypto/ https://infominer.id/transcripts/ https://infominer.id/learn-crypto-trading/ 
 var GOOG_FIXURL_LANG = &#39;en&#39;; var GOOG_FIXURL_SITE = &#39;{{ site.url }}&#39;   </description>
     </item>

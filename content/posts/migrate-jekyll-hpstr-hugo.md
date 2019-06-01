@@ -31,6 +31,7 @@ I also show examples of the differences between the two, where and how I made ch
 3. It can be really hard finding working jekyll themes.
 4. There are a lot of awesome Hugo themes that generally seem to be operational.
 5. I know of some indieweb themes.
+6. `/themes/` directory allows for easy testing and switching between new themes.
 
 ## HPSTR Jekyll vs Hugo 
 
@@ -68,9 +69,9 @@ Scrolling back through the hugo releases when the HPSTR theme was in active deve
 
 That's a nice note to find, since I'm an Ubuntu user. 
 
-## [v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.17)
+## [v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.30) - October 2016
 
-There are numerous options for different platforms, and this version of Hugo was **released in October**, one month after the final release of HPSTR.
+There are numerous options for different platforms, and this version of Hugo was released in October, one month after the final release of HPSTR.
 
 >Hugo is going global with our 0.17 release. [...] Adding additional languages to your website is simple and straightforward.
 >
@@ -83,36 +84,28 @@ Apparently it's fast enough that people began using hugo's webserver in producti
 >Thanks to the contribution #2443 and guidance from @dholbach, Hugo is now available as a Snap package! (Snaps are a new kind of universal Linux packages.) Check it out at https://uappexplorer.com/app/hugo.hugo-authors
 >
 
-Now this is nice because you can get various releases of snap packages through the snap store.
+### [Download links for Hugo v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.17)
 
-* [askubuntu.com - Can I install multiple copies of a snap-package?](https://askubuntu.com/questions/1026075/can-i-install-multiple-copies-of-a-snap-package)
+Now that I have Hugo working, lets see how far I can go in Hugo versions.
 
-### Download links for Hugo v0.17
 
-* [go_0.17-64bit.deb](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17-64bit.deb)
-* [go_0.17_armhf.deb](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_armhf.deb)
-* [go_0.17_FreeBSD-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_FreeBSD-32bit.zip)
-* [go_0.17_FreeBSD-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_FreeBSD-64bit.zip)
-* [go_0.17_freebsd_arm.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_freebsd_arm.zip)
-* [go_0.17_i386.deb](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_i386.deb)
-* [go_0.17_Linux-32bit.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Linux-32bit.tar.gz)
-* [go_0.17_Linux-64bit.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz)
-* [go_0.17_linux_arm.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_linux_arm.tar.gz)
-* [go_0.17_MacOS-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_MacOS-32bit.zip)
-* [go_0.17_MacOS-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_MacOS-64bit.zip)
-* [go_0.17_NetBSD-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_NetBSD-32bit.zip)
-* [go_0.17_NetBSD-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_NetBSD-64bit.zip)
-* [go_0.17_netbsd_arm.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_netbsd_arm.zip)
-* [go_0.17_OpenBSD-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_OpenBSD-32bit.zip)
-* [go_0.17_OpenBSD-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_OpenBSD-64bit.zip)
-* [go_0.17_Windows-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Windows-32bit.zip)
-* [go_0.17_Windows-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Windows-64bit.zip)
+## [v0.30.1](https://github.com/gohugoio/hugo/releases/tag/v0.30.1) - Oct 16, 2017
+
+>Hugo 0.30 is the Race Car Edition. Hugo is already very very fast, but much wants more. So we added Fast Render Mode. It is hard to explain, so start the Hugo development server with hugo server and start editing. Live reloads just got so much faster! The "how and what" is discussed at length in other places, but the short version is that we now re-render only the parts of the site that you are working on.
+
+This is a big release, so I'm going to look ahead for the closest bug-fixes, but avoid any feature releases.
+
+## [v0.31.1](https://github.com/gohugoio/hugo/releases/tag/v0.31.1) -  Nov 27, 2017
+
+So.. there's another big release after this, at the start of 2018, but I think I'll stick with this one. It's a year after HPSTR completed its development. I think we'll be good here, and I want to get to know Hugo better before changing things up too much.
+
+The next major change introduces page bundles. I wouldn't be surprised if it has a problem with this theme.
 
 ## Test Install
 
 Once it's installed, type I `hugo version` and read:
 
-![](https://imgur.com/0kxcUkf.png)
+![](https://imgur.com/J2lnKkR.png)
 
 perfect!!
 
@@ -375,20 +368,31 @@ It seems like you need to type `hugo` to publish to the docs directory, because 
 
 ## Twitter Cards
 
-I went ahead and updated the [twitter card partial](https://gohugohq.com/partials/twitter-cards-partials-for-hugo/)
+This part, I can't figure out.
 
-I went into the themes directory and found `twitter_og_cards.html` and altered it to conform to the above link.
+I don't understand why `.Title` is not `.title`.
+
+I'm pretty sure I need to add 
+
+`<meta name="twitter:site" content="{{ .site }}">`
+
+but I didn't have success with that yet.
 
 ```
-{{ with .Params.twitter }}
-<meta name="twitter:card" content="{{- .card -}}">
-<meta name="twitter:site" content="{{- .site -}}">
-{{ if ne .card "app" -}}
-<meta name="twitter:title" content="{{- .title -}}">
-<meta name="twitter:image" content="{{- .image -}}">
-{{ with .image_alt -}}<meta name="twitter:image:alt" content="{{- . -}}">{{- end }}
-{{- end }}
-{{ with .creator -}}<meta name="twitter:creator" content="{{- . -}}">{{- end }}
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ $.Site.Params.subtitle }}{{ end }}">
+{{ with .Site.Params.owner.twitter }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
+{{ if isset ($.Scratch.Get "Params") "image" }}
+    {{ $imageparams := index ($.Scratch.Get "Params") "image" }}
+    {{ with $imageparams.thumb }}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="{{ . | absURL }}">
+    {{ else }}
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="{{ $imageparams.feature | absURL }}">
+    {{ end }}
+{{ end }}
 ```
 
 I also added these lines to my config.toml
