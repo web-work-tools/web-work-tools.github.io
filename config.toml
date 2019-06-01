@@ -18,3 +18,10 @@ enableEmoji = true
 	[params.image]
 	  feature = "/images/web-work-tools.png"
 
+[twitter]
+  card = "summary_image_large"
+  site = "@infominer33"
+  creator = "@infominer33"
+  title =  "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+  description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content."
+  image = "/images/web-work-tools.png"

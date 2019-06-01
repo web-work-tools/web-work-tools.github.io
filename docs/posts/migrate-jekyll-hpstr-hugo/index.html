@@ -17,8 +17,6 @@
 
 <meta name="twitter:title" content="Migrating from Jekyll HPSTR to Hugo.">
 <meta name="twitter:description" content="Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo.">
-<meta name="twitter:creator" content="infominer33">
-<meta name="twitter:site" content="infominer33">
 
 
     
@@ -41,7 +39,6 @@
 
 
   <meta property="og:updated_time" content="2019-06-01T00:00:00&#43;00:00"/>
-
 
 
 
@@ -529,6 +526,36 @@ enableEmoji = true
 <p>It seems like you need to type <code>hugo</code> to publish to the docs directory, because <code>hugo server</code> doesn&rsquo;t do both, it only does the webserving.. I don&rsquo;t really understand, but that seems to be the case.</p>
 
 <h2 id="use-a-linebreak-before-each-list">Use a linebreak before each list!</h2>
+
+<h2 id="twitter-cards">Twitter Cards</h2>
+
+<p>I went ahead and updated the <a href="https://gohugohq.com/partials/twitter-cards-partials-for-hugo/">twitter card partial</a></p>
+
+<p>I went into the themes directory and found <code>twitter_og_cards.html</code> and altered it to conform to the above link.</p>
+
+<pre><code>{{ with .Params.twitter }}
+&lt;meta name=&quot;twitter:card&quot; content=&quot;{{- .card -}}&quot;&gt;
+&lt;meta name=&quot;twitter:site&quot; content=&quot;{{- .site -}}&quot;&gt;
+{{ if ne .card &quot;app&quot; -}}
+&lt;meta name=&quot;twitter:title&quot; content=&quot;{{- .title -}}&quot;&gt;
+&lt;meta name=&quot;twitter:image&quot; content=&quot;{{- .image -}}&quot;&gt;
+{{ with .image_alt -}}&lt;meta name=&quot;twitter:image:alt&quot; content=&quot;{{- . -}}&quot;&gt;{{- end }}
+{{- end }}
+{{ with .creator -}}&lt;meta name=&quot;twitter:creator&quot; content=&quot;{{- . -}}&quot;&gt;{{- end }}
+</code></pre>
+
+<p>I also added these lines to my config.toml</p>
+
+<pre><code>
+[twitter]
+  card = &quot;summary_image_large&quot;
+  site = &quot;@infominer33&quot;
+  title =  &quot;Webwork.tools: Independent Web-Work and Skyscraper Publishing.&quot;
+  description = &quot;Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content.&quot;
+  image = &quot;/images/web-work-tools.png&quot;
+</code></pre>
+
+<p>I think some of those are supurfulous but it doesn&rsquo;t matter if I use extra, as long as I get all the right values in.</p>
 
 <h2 id="reach-out-in-the-comments">Reach out in the Comments</h2>
 

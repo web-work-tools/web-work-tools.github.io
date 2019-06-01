@@ -375,16 +375,35 @@ It seems like you need to type `hugo` to publish to the docs directory, because 
 
 ## Twitter Cards
 
-I went ahead and hardcoded some of my info for twitter cards:
+I went ahead and updated the [twitter card partial](https://gohugohq.com/partials/twitter-cards-partials-for-hugo/)
+
+I went into the themes directory and found `twitter_og_cards.html` and altered it to conform to the above link.
 
 ```
-<meta name="twitter:title" content="Webwork.tools">
-<meta name="twitter:description" content="Skyscraper Publishing: Resources for Independent Webworkers">
-<meta name="twitter:creator" content="infominer33">
-<meta name="twitter:site" content="infominer33">
+{{ with .Params.twitter }}
+<meta name="twitter:card" content="{{- .card -}}">
+<meta name="twitter:site" content="{{- .site -}}">
+{{ if ne .card "app" -}}
+<meta name="twitter:title" content="{{- .title -}}">
+<meta name="twitter:image" content="{{- .image -}}">
+{{ with .image_alt -}}<meta name="twitter:image:alt" content="{{- . -}}">{{- end }}
+{{- end }}
+{{ with .creator -}}<meta name="twitter:creator" content="{{- . -}}">{{- end }}
 ```
 
+I also added these lines to my config.toml
 
+```
+
+[twitter]
+  card = "summary_image_large"
+  site = "@infominer33"
+  title =  "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+  description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content."
+  image = "/images/web-work-tools.png"
+```
+
+I think some of those are supurfulous but it doesn't matter if I use extra, as long as I get all the right values in.
 
 ## Reach out in the Comments
 
