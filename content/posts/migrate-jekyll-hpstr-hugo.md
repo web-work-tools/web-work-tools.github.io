@@ -340,9 +340,9 @@ enableEmoji = true
 
 By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.
 
-Let me know if you have any questions, or if anything is unclear!!
+Let me know in the comments if the comments work, if you have any questions, or if anything is unclear!!
 
-I'll get comments and web-mentions soon!
+I'll get web-mentions and the like soon!
 
 ## Resources
 
