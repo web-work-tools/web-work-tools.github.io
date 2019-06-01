@@ -10,7 +10,8 @@ excerpt: >
   I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
 
   This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, *or* Hugo to Jekyll.
-
+aliases:
+  - /migrate-jekyll-hpstr-hugo/
 ---
 
 I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
@@ -340,8 +341,21 @@ enableEmoji = true
 
 By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.
 
+## Redirects
+
+One thing that's important to note, if you are switching from Jekyll HPSTR to HPSTR Hugo with me. HPSTR Hugo makes all your posts live in the `/posts/` directory.
+
+If you used to let your blog live at the root of the site, like me, then add aliases, which are how Hugo does redirects.
+
+* [discourse.gohugo.io - want-to-redirect-old-urls-to-new-urls](https://discourse.gohugo.io/t/want-to-redirect-old-urls-to-new-urls/14305/5)
+
+```
+aliases:
+  - /title-goes-here/
+```
 ## Reach out in the Comments
-Let me know in the comments if the comments work, if you have any questions, or if anything is unclear!!
+
+If they ever figure out. If you have any questions, or if anything is unclear!!
 
 I'll get web-mentions and the like soon!
 
@@ -349,7 +363,7 @@ I'll get web-mentions and the like soon!
 
 * [web.archive.org - Installing Hugo v0.17](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
 * [web.archive.org - Using Hugo v0.17](http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/)
-* [Creating a Test Branch and Merging changes back to Master](https://infominer.id/web-work/branches-git/)
+* [Creating a Test Branch and Merging changes back to Master](https://infominer.id/web-work/posts/branches-git/)
 
 ## Over the Rainbow
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)

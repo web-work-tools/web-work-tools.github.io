@@ -6,7 +6,8 @@ date: 2019-05-29
 tags: [forked, repositories, github,resources]
 image:
   feature: /images/infominer-forked-repositories.png
-
+aliases:
+  - /forked-repositories/
 ---
 
 

@@ -2,7 +2,8 @@
 type: post
 title: Using PGP and Cryptocurrency Keysignatures
 description: "Asymmetric Encryption: Phil Zimmerman, PGP, Bitcoin and Ethereum key-signatures, Escrow, SSL, Various Apps and Resourses."
-
+aliases:
+  - /practical-public-key-crypto/
 tags: [pgp, deepdotweb, security, privacy, resources]
 image:
   feature: /images/pgp-og.png

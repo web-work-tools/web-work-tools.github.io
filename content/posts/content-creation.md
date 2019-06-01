@@ -6,7 +6,8 @@ date: 2019-05-28
 tags: [content creation, tools, resources]
 image:
   feature: /images/content-creation.png
-
+aliases:
+  - /content-creation/
 ---
 
 Here's some tools to make content creation a little easier.
