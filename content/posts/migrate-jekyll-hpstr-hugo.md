@@ -354,6 +354,11 @@ aliases:
   - /title-goes-here/
   - /other-title-too/
 ```
+
+## One last thing!
+
+It seems like you need to type `hugo` to publish to the docs directory, because `hugo server` doesn't do both, it only does the webserving.. I don't really understand, but that seems to be the case.
+
 ## Reach out in the Comments
 
 If they ever figure out. If you have any questions, or if anything is unclear!!
