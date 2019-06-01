@@ -61,7 +61,7 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.52" />
 
 <script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
@@ -147,6 +147,92 @@
 </div>
 
 <div id="main" role="main">
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
+		  <a href="/web-work/posts/branches-git/" title="Creating a Test Branch and Merging back the Changes"><img src="/web-work/images/jekyll-hpstr-hugo.png" alt="Creating a Test Branch and Merging back the Changes"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2019-06-01 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/branches-git/">Jun 1, 2019</a></time></span>
+        
+        
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Reading time ~2 minutes
+      </span>
+      
+    </div>
+    
+	<h1 class="entry-title"><a href="/web-work/posts/branches-git/" rel="bookmark" title="Creating a Test Branch and Merging back the Changes" itemprop="url">Creating a Test Branch and Merging back the Changes</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    
+
+<p>What  we&rsquo;re going to do is make a test branch of our repository&hellip; so we can see about getting hugo to run over there, and if successful then we&rsquo;ll learn how to merge this test branch back over.</p>
+
+<h2 id="checkout-test-branch">Checkout test branch</h2>
+
+<p>Use the command <code>git checkout -b</code> will allow you to create a local branch for testing.</p>
+
+<p>I will call my new branch <code>test-hugo</code> so the command will be like so:</p>
+
+<p><code>git checkout -b test-hugo</code></p>
+
+<h2 id="some-git-basics-for-newbs-like-me">Some git basics for newbs like me</h2>
+
+<ul>
+<li><a href="https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging">Git Branching and Merging</a></li>
+</ul>
+
+<p>Git keeps track of all your files, but not just the files, but everything in the repository.</p>
+
+<p>Every commit, git remembers.</p>
+
+<blockquote>
+<p>&ldquo;yes yes I know&rdquo;</p>
+</blockquote>
+
+<p>However, it really boggled my mind the first time I tried it locally.</p>
+
+<p>I can change to a branch or another point in the history of this repository, and git tucks away the one I&rsquo;m working on&hellip; and the whole directory changes and like wait&hellip;</p>
+
+<blockquote>
+<p>where did all my files just go?</p>
+</blockquote>
+
+<p>When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain 🤣</p>
+
+<h3 id="git-is-magic">Git is Magic!</h3>
+
+<p>it sure feels that way, especially the first time I realized what it was doing. I still have a sense of wonder and mystery around Git.</p>
+
+<p>You probably knowbut you don&rsquo;t need github at all, and I&rsquo;m learning that a significant portion, of git repositories are never exposed to the public.</p>
+
+<blockquote>
+<p>Outside of GitHub and its imitators, most contributors to a project don’t have a published version of their repository online at all, skipping that step and saving some time. - <a href="https://drewdevault.com/2019/05/24/What-is-a-fork.html">What is a Fork?</a></p>
+</blockquote>
+
+<p><code>git checkout -b</code> is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!</p>
+
+<ul>
+<li><a href="https://infominer.id/web-work/github-pages-starter-pack/#git">More Git Resources</a> &gt;&gt;</li>
+</ul>
+
+<h2 id="merging-changes-back-to-the-master-branch">Merging changes back to the master branch</h2>
+
+<pre><code>git checkout master
+git pull origin master
+git merge test
+git push origin master
+</code></pre>
+
+  </div>
+</article>
 
 <article class="hentry">
   <header>
@@ -284,15 +370,15 @@
 <p>With some pre-requisites out of the way, lets jump in at the first step in the theme setup:</p>
 
 <ul>
-<li><a href="https://dldx.org/hpstr-hugo-theme/theme-setup/">Theme Setup - HPSTR Hugo</a></li>
-</ul>
+<li><p><a href="https://dldx.org/hpstr-hugo-theme/theme-setup/">Theme Setup - HPSTR Hugo</a></p>
 
 <pre><code>$ mkdir newProject
 $ cd newProject
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>and you will see <code>hpster</code> located in: <code>/web-work/themes/hpstr</code>.</p>
 
@@ -480,26 +566,21 @@ image:
 </ul>
 
 <blockquote>
-<p><code>contentdir = &quot;content&quot;</code><br />
-<code>layoutdir = &quot;layouts&quot;</code><br />
-<code>publishdir = &quot;public&quot;</code><br />
-<code>builddrafts = false</code><br />
-<code>baseurl = &quot;http://yoursite.example.com/&quot;</code><br />
-<code>canonifyurls = true</code></p>
-
-<p><code>[taxonomies]</code><br />
-<code>category = &quot;categories&quot;</code><br />
-<code>tag = &quot;tags&quot;</code></p>
-
-<p><code>[params]</code><br />
-<code>description = &quot;Tesla's Awesome Hugo Site&quot;</code><br />
-<code>author = &quot;Nikola Tesla&quot;</code></p>
+<p><code>publishdir = &quot;docs&quot;</code></p>
 </blockquote>
+
+<p>By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.</p>
 
 <h2 id="resources">Resources</h2>
 
 <ul>
 <li><a href="http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing">web.archive.org - Installing Hugo v0.17</a></li>
+<li><a href="http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/">web.archive.org - Using Hugo v0.17</a></li>
+</ul>
+
+<h2 id="extra">Extra</h2>
+
+<ul>
 <li><a href="http://masayk.github.io/tech/hugo/">Blogging with Org-Mode and Hugo</a></li>
 </ul>
 
@@ -812,139 +893,6 @@ combines feeds &ldquo;into content and other magical creations&rdquo;.</li>
   </div>
 </article>
 
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/make-a-github-portfolio/" title="Infominer&#39;s GitHub Portfolio and HowTo"><img src="/web-work/images/infominer33-github-portfolio.jpeg" alt="Infominer&#39;s GitHub Portfolio and HowTo"></a>
-      </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-05-27 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/make-a-github-portfolio/">May 27, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~2 minutes
-      </span>
-      
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/make-a-github-portfolio/" rel="bookmark" title="Infominer&#39;s GitHub Portfolio and HowTo" itemprop="url">Infominer&#39;s GitHub Portfolio and HowTo</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<p>I learned of this cool project from <a href="https://twitter.com/bmann">@bmann</a>. I&rsquo;ve been wanting a simple way to make a page like this for a while!</p>
-
-<p>It&rsquo;s really nice to have a place to keep track, because I&rsquo;m always forgetting how many I even manage!</p>
-
-<p>It might seem intimidating to hear, &ldquo;Just Fork It!&rdquo;</p>
-
-<p>However, you&rsquo;ll see that it&rsquo;s not much more complex than that.</p>
-
-<h2 id="step-1">Step 1</h2>
-
-<p>Fork this repository:</p>
-
-<ul>
-<li><a href="https://github.com/github/personal-website">github/personal-website</a></li>
-</ul>
-
-<h2 id="step-2">Step 2</h2>
-
-<p>Go to settings and select publish from master branch:</p>
-
-<p><img src="https://imgur.com/UAhVvRPl.png" alt="" /></p>
-
-<h2 id="step-3">Step 3</h2>
-
-<p>If you already have a web-page, then maybe you aren&rsquo;t reading this.. If you don&rsquo;t, then you must name the repository the same as your name on github. So my first website&rsquo;s repository name is <a href="https://github.com/infominer33/infominer33.github.io">infominer33.github.io</a> since my github username is infominer33. Now it publishes to <code>infominer.id</code> (but also <code>infominer33.github.io</code>) because I have a custom domain, and every other repository I publish is a branch of that first domain.</p>
-
-<p>Since I already have a primary webpage, I change my repository name to <code>repo-portfolio</code>. That way, it lives at:</p>
-
-<ul>
-<li><a href="https://infominer.id/repo-portfolio/">infominer.id/repo-portfolio</a></li>
-</ul>
-
-<p><img src="https://imgur.com/yL5BaNxl.png" alt="" /></p>
-
-<h2 id="step-4">Step 4</h2>
-
-<p>On github pages, <code>_config.yml</code> lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:</p>
-
-<pre><code>
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 12
-  exclude:
-    archived: false
-    forks: false
-    projects:
-      - pub-yes
-      - yest
-      - archive-crypto
-      - yest-the-docs
-      - bahamas-crypto
-
-</code></pre>
-
-<p>you can also configure social media accounts.</p>
-
-<pre><code>social_media:
-  website: https://infominer.id/
-  keybase: infominer
-  telegram: infominer33
-  twitter: infominer33
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # unsplash: your_username
-  # vk: your_username
-  # youtube: your_username
-</code></pre>
-
-<p>and topics of interest:</p>
-
-<pre><code>
-topics:
-  - name: Bitcoin
-    web_url: https://github.com/topics/bitcoin
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
-
-  - name: Decentralized Identity
-    web_url: https://github.com/topics/decentralized-identity
-    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
-
-</code></pre>
-
-<p>Cool beans, right?</p>
-
-<p>There are also blog features, although I&rsquo;m not sure I&rsquo;ll blog there&hellip; who knows!?!?</p>
-
-<p>I haven&rsquo;t looked through the <a href="https://github.com/github/personal-website/issues">issues</a>, or <a href="https://github.com/github/personal-website/pulls">pull-requests</a> yet to see what folk are working on, or tried to tweak any of the quirks I&rsquo;ve noticed..</p>
-
-<p>If you want to learn more about GitHub Pages, check out:</p>
-
-<figure class="full">
-    <img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-    <figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
-</figure>
-
-  </div>
-</article>
-
 
 
 
@@ -962,23 +910,23 @@ topics:
     
 	
     
-	<li><a href="/page/2/">2</a></li>
+	<li><a href="/web-work/page/2/">2</a></li>
     
 	
     
-	<li><a href="/page/3/">3</a></li>
+	<li><a href="/web-work/page/3/">3</a></li>
     
 	
     
-	<li><a href="/page/4/">4</a></li>
+	<li><a href="/web-work/page/4/">4</a></li>
     
-	
-
 	
 
 	
+
+	
     
-      <li><a href="/page/2/" class="btn">Next</a></li>
+      <li><a href="/web-work/page/2/" class="btn">Next</a></li>
     
   </ul>
 </div>

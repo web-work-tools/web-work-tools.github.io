@@ -309,8 +309,31 @@ Now we are getting places! Next step is to copy the `config.toml` from the root 
 
 This is the final stretch, and we should be good to go 
 
-![](https://imgur.com/za5VOLr.png)
+```
 
+baseurl = "https://infominer.id/web-work"
+languageCode = "en-gb"
+title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+theme = "hpstr"
+pluralizelisttitles = false
+PygmentsCodeFences = true
+Paginate = 5
+disqusShortname = "hpstrhugo"
+publishdir = "docs"
+enableEmoji = true
+[params]
+	subtitle = "Digital Tools for a Digital Transformation."
+	[params.author]
+		name = "⧉ Infominer"
+		avatar = "/images/info-id.png"
+		bio = "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
+		github = "infominer33/web-work"
+	[params.image]
+	  feature = "/images/web-work-tools.png"
+
+
+
+```
 * [Configuring Hugo](http://web.archive.org/web/20161110120102/http://gohugo.io/overview/configuration)
 
 >`publishdir = "docs"`
@@ -319,7 +342,11 @@ By setting this in our config.toml, we will be able to ask github pages to publi
 
 
 
+
 ## Resources
 
 * [web.archive.org - Installing Hugo v0.17](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
+* [web.archive.org - Using Hugo v0.17](http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/)
+
+## Extra
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)

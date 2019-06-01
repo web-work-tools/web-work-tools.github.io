@@ -7,7 +7,7 @@ PygmentsCodeFences = true
 Paginate = 5
 disqusShortname = "hpstrhugo"
 publishdir = "docs"
-
+enableEmoji = true
 [params]
 	subtitle = "Digital Tools for a Digital Transformation."
 	[params.author]

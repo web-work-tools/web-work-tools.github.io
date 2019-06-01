@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
-    <link>https://infominer.id/web-work/tags/repositories/index.xml</link>
-    <description>Recent content on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <title>Repositories on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <link>https://infominer.id/web-work/tags/repositories/</link>
+    <description>Recent content in Repositories on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="https://infominer.id/web-work/tags/repositories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://infominer.id/web-work/tags/repositories/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Infominer&#39;s Forked Repositores</title>
@@ -14,125 +17,9 @@
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/forked-repositories/</guid>
-      <description>
-
-&lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
-
-&lt;p&gt;Now that I have both forked &lt;a href=&#34;https://infominer.id/web-work/infominer33-starred-repos/&#34;&gt;and starred&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;webpub&#34;&gt;WebPub&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/artemsheludko/galada&#34;&gt;artemsheludko/galada&lt;/a&gt;
-&amp;gt; Galada is an easy and simple blog theme for Jekyll.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/github/personal-website&#34;&gt;github/personal-website&lt;/a&gt;
-&amp;gt; A place to track the repositories of infominer.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/contrafabulists-toolbox/google-sheet-to-github-website&#34;&gt;contrafabulists-toolbox/google-sheet-to-github-website&lt;/a&gt;
-&amp;gt; This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source.
-&amp;gt; * &lt;a href=&#34;https://github.com/minicomp/wax&#34;&gt;minicomp/wax&lt;/a&gt;
-&amp;gt; Jekyll for minimal exhibitions with IIIF bee&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/weskerfoot/KettleBlog&#34;&gt;weskerfoot/KettleBlog&lt;/a&gt;
-&amp;gt; A full featured blog in RiotJS&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/poole/lanyon&#34;&gt;poole/lanyon&lt;/a&gt;
-&amp;gt; A content-first, sliding sidebar theme for Jekyll.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gdamdam/awesome-decentralized-web&#34;&gt;gdamdam/awesome-decentralized-web&lt;/a&gt;
-&amp;gt; an awesome list of decentralized services and technologies&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Tyrrrz/DiscordChatExporter&#34;&gt;Tyrrrz/DiscordChatExporter&lt;/a&gt;
-&amp;gt; Exports Discord chat logs to a file&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/anaibol/awesome-serverless&#34;&gt;anaibol/awesome-serverless&lt;/a&gt;
-&amp;gt; cloud A curated list of awesome services, solutions and resources for serverless / nobackend applications.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/toddmotto/public-apis&#34;&gt;toddmotto/public-apis&lt;/a&gt;
-&amp;gt; A collective list of free APIs for use in software and web development.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/iipc/awesome-web-archiving&#34;&gt;iipc/awesome-web-archiving&lt;/a&gt;
-&amp;gt; An Awesome List for getting started with web archiving&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/fire1ce/3os.org&#34;&gt;fire1ce/3os.org&lt;/a&gt;
-&amp;gt; Source Code for 3os.org website. The website based on Markdown format, rendered to html and hosted on github-pages&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/minimal-mistakes&#34;&gt;mmistakes/minimal-mistakes&lt;/a&gt;
-&amp;gt; triangular_ruler A flexible two-column Jekyll theme perfect for building personal sites, blogs, and portfolios.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gristlabs/mkdocs-windmill&#34;&gt;gristlabs/mkdocs-windmill&lt;/a&gt;
-&amp;gt; Outstanding mkdocs theme with a focus on navigation and usability&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/poole/poole&#34;&gt;poole/poole&lt;/a&gt;
-&amp;gt; The Jekyll Butler.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/hpstr-jekyll-theme&#34;&gt;mmistakes/hpstr-jekyll-theme&lt;/a&gt;
-&amp;gt; A Jekyll theme with some tumble-log tendencies.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mnyrop/pagemaster&#34;&gt;mnyrop/pagemaster&lt;/a&gt;
-&amp;gt; Jekyll plugin for generating Markdown collection pages from CSV/YAML/JSON records 🧙book&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/so-simple-theme&#34;&gt;mmistakes/so-simple-theme&lt;/a&gt;
-&amp;gt; A simple Jekyll theme for words and pictures.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ChristopherA/jekyll-remote_theme-test&#34;&gt;ChristopherA/jekyll-remote_theme-test&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ChristopherA/simplest-github-page&#34;&gt;ChristopherA/simplest-github-page&lt;/a&gt;
-&amp;gt; Test of simplest GitHub page, leveraging Jekyll without Jekyll&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/minimal-mistakes-algolia-search&#34;&gt;mmistakes/minimal-mistakes-algolia-search&lt;/a&gt;
-&amp;gt; Minimal Mistakes Jekyll theme test with Algolia search&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/aioobe/dead-simple-jekyll-comments&#34;&gt;aioobe/dead-simple-jekyll-comments&lt;/a&gt;
-&amp;gt; Dead simple DIY comment system for Jekyll.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tools-n-resources&#34;&gt;Tools n Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/watson/awesome-computer-history&#34;&gt;watson/awesome-computer-history&lt;/a&gt;
-&amp;gt; An Awesome List of computer history videos, documentaries and related folklore&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/redknight99/annotated-awesome-osint&#34;&gt;redknight99/annotated-awesome-osint&lt;/a&gt;
-&amp;gt; scream A curated list of amazingly awesome OSINT&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/trimstray/the-book-of-secret-knowledge&#34;&gt;trimstray/the-book-of-secret-knowledge&lt;/a&gt;
-&amp;gt; A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/chow-petit/awesome-curated-tools&#34;&gt;chow-petit/awesome-curated-tools&lt;/a&gt;
-&amp;gt; A curated list of digital tools we use, ranging from accounting and data science to scientific research and liquid democracy. Commented, connected, by everyone and for everyone !&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line&#34;&gt;jlevy/the-art-of-command-line&lt;/a&gt;
-&amp;gt; Master the command line, in one page&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mozilla/sops&#34;&gt;mozilla/sops&lt;/a&gt;
-&amp;gt; Secrets management stinks, use some sops!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theanalyst/awesome-distributed-systems&#34;&gt;theanalyst/awesome-distributed-systems&lt;/a&gt;
-&amp;gt; A curated list to learn about distributed systems&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/chaconnewu/awesome-augmented&#34;&gt;chaconnewu/awesome-augmented&lt;/a&gt;
-&amp;gt; Centralize all awesome lists with addition info on curated GitHub repos (automated by scripts)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;indieweb&#34;&gt;Indieweb&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/projectpages/project-pages&#34;&gt;projectpages/project-pages&lt;/a&gt;
-&amp;gt; GitHub Pages for an Indieweb&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/voxpelli/webpage-webmentions&#34;&gt;voxpelli/webpage-webmentions&lt;/a&gt;
-&amp;gt; A hosted Disqus-like comment service that enables WebMention receiving on any kind of site&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;crypto&#34;&gt;Crypto&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/denisnazarov/awesome-crypto-trackers&#34;&gt;denisnazarov/awesome-crypto-trackers&lt;/a&gt;
-&amp;gt; A curated list of crypto project trackers and analytics dashboards.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ethhub-io/ethhub&#34;&gt;ethhub-io/ethhub&lt;/a&gt;
-&amp;gt; The essential Ethereum information hub.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/the-domains/gigabitcoin&#34;&gt;the-domains/gigabitcoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/cryptoparty/artwork&#34;&gt;cryptoparty/artwork&lt;/a&gt;
-&amp;gt; a collection of public domain artwork and graphics, where possible, with source files to help others remix and reuse to make slides, handouts and flyers for cryptoparties&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sunnankar/wuc-new&#34;&gt;sunnankar/wuc-new&lt;/a&gt;
-&amp;gt; We Use Coins website.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;decentralized-identity&#34;&gt;Decentralized Identity&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Identitywoman/identity-commons&#34;&gt;Identitywoman/identity-commons&lt;/a&gt;
-&amp;gt; This is a repository for commons resources that can serve the community working on identity.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot3-sf&#34;&gt;WebOfTrustInfo/rwot3-sf&lt;/a&gt;
-&amp;gt; RWOT3 in San Francisco, California (October 2016)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot2-id2020&#34;&gt;WebOfTrustInfo/rwot2-id2020&lt;/a&gt;
-&amp;gt; RWOT2 for the ID2020 UN Summit (May 2016)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot1-sf&#34;&gt;WebOfTrustInfo/rwot1-sf&lt;/a&gt;
-&amp;gt; RWOT1 in San Francisco, California (November 2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hyperledger/indy-docs&#34;&gt;hyperledger/indy-docs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/self-sovereign-identity&#34;&gt;WebOfTrustInfo/self-sovereign-identity&lt;/a&gt;
-&amp;gt; Articles and documents associated with designing and implementing identity technology using self-sovereign identity principles&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/peacekeeper/blockchain-identity&#34;&gt;peacekeeper/blockchain-identity&lt;/a&gt;
-&amp;gt; Blockchain and Identity&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tyleryasaka/identity-proposals&#34;&gt;tyleryasaka/identity-proposals&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot4-paris&#34;&gt;WebOfTrustInfo/rwot4-paris&lt;/a&gt;
-&amp;gt; RWOT4 in Paris, France (April 2017)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>An organized list of my forked repositories.
+Now that I have both forked and starred
+WebPub  artemsheludko/galada &amp;gt; Galada is an easy and simple blog theme for Jekyll. github/personal-website &amp;gt; A place to track the repositories of infominer. contrafabulists-toolbox/google-sheet-to-github-website &amp;gt; This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source. &amp;gt; * minicomp/wax &amp;gt; Jekyll for minimal exhibitions with IIIF bee weskerfoot/KettleBlog &amp;gt; A full featured blog in RiotJS poole/lanyon &amp;gt; A content-first, sliding sidebar theme for Jekyll.</description>
     </item>
     
     <item>
@@ -141,113 +28,12 @@
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/make-a-github-portfolio/</guid>
-      <description>
-
-&lt;p&gt;I learned of this cool project from &lt;a href=&#34;https://twitter.com/bmann&#34;&gt;@bmann&lt;/a&gt;. I&amp;rsquo;ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s really nice to have a place to keep track, because I&amp;rsquo;m always forgetting how many I even manage!&lt;/p&gt;
-
-&lt;p&gt;It might seem intimidating to hear, &amp;ldquo;Just Fork It!&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;However, you&amp;rsquo;ll see that it&amp;rsquo;s not much more complex than that.&lt;/p&gt;
-
-&lt;h2 id=&#34;step-1&#34;&gt;Step 1&lt;/h2&gt;
-
-&lt;p&gt;Fork this repository:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/github/personal-website&#34;&gt;github/personal-website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;step-2&#34;&gt;Step 2&lt;/h2&gt;
-
-&lt;p&gt;Go to settings and select publish from master branch:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/UAhVvRPl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;step-3&#34;&gt;Step 3&lt;/h2&gt;
-
-&lt;p&gt;If you already have a web-page, then maybe you aren&amp;rsquo;t reading this.. If you don&amp;rsquo;t, then you must name the repository the same as your name on github. So my first website&amp;rsquo;s repository name is &lt;a href=&#34;https://github.com/infominer33/infominer33.github.io&#34;&gt;infominer33.github.io&lt;/a&gt; since my github username is infominer33. Now it publishes to &lt;code&gt;infominer.id&lt;/code&gt; (but also &lt;code&gt;infominer33.github.io&lt;/code&gt;) because I have a custom domain, and every other repository I publish is a branch of that first domain.&lt;/p&gt;
-
-&lt;p&gt;Since I already have a primary webpage, I change my repository name to &lt;code&gt;repo-portfolio&lt;/code&gt;. That way, it lives at:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/repo-portfolio/&#34;&gt;infominer.id/repo-portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/yL5BaNxl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;step-4&#34;&gt;Step 4&lt;/h2&gt;
-
-&lt;p&gt;On github pages, &lt;code&gt;_config.yml&lt;/code&gt; lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 12
-  exclude:
-    archived: false
-    forks: false
-    projects:
-      - pub-yes
-      - yest
-      - archive-crypto
-      - yest-the-docs
-      - bahamas-crypto
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;you can also configure social media accounts.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;social_media:
-  website: https://infominer.id/
-  keybase: infominer
-  telegram: infominer33
-  twitter: infominer33
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # unsplash: your_username
-  # vk: your_username
-  # youtube: your_username
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and topics of interest:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-topics:
-  - name: Bitcoin
-    web_url: https://github.com/topics/bitcoin
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
-
-  - name: Decentralized Identity
-    web_url: https://github.com/topics/decentralized-identity
-    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Cool beans, right?&lt;/p&gt;
-
-&lt;p&gt;There are also blog features, although I&amp;rsquo;m not sure I&amp;rsquo;ll blog there&amp;hellip; who knows!?!?&lt;/p&gt;
-
-&lt;p&gt;I haven&amp;rsquo;t looked through the &lt;a href=&#34;https://github.com/github/personal-website/issues&#34;&gt;issues&lt;/a&gt;, or &lt;a href=&#34;https://github.com/github/personal-website/pulls&#34;&gt;pull-requests&lt;/a&gt; yet to see what folk are working on, or tried to tweak any of the quirks I&amp;rsquo;ve noticed..&lt;/p&gt;
-
-&lt;p&gt;If you want to learn more about GitHub Pages, check out:&lt;/p&gt;
-
-&lt;figure class=&#34;full&#34;&gt;
-    &lt;img src=&#34;https://infominer.id/web-work/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34;&gt;
-    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-</description>
+      <description>I learned of this cool project from @bmann. I&amp;rsquo;ve been wanting a simple way to make a page like this for a while!
+It&amp;rsquo;s really nice to have a place to keep track, because I&amp;rsquo;m always forgetting how many I even manage!
+It might seem intimidating to hear, &amp;ldquo;Just Fork It!&amp;rdquo;
+However, you&amp;rsquo;ll see that it&amp;rsquo;s not much more complex than that.
+Step 1 Fork this repository:
+ github/personal-website  Step 2 Go to settings and select publish from master branch:</description>
     </item>
     
     <item>
@@ -256,109 +42,10 @@ topics:
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/github-stars/</guid>
-      <description>
-
-&lt;p&gt;Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
-
-&lt;p&gt;I used this:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://kirtan403.github.io/bookmark-github-stars/&#34;&gt;kirtan403.github.io/bookmark-github-stars/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;and then found this app that makes them even prettier and has an option to push the data to json. (I&amp;rsquo;ll try this next time)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://export-github-stars.netlify.com/&#34;&gt;export-github-stars.netlify.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;infominer33-s-starred-github-repositories&#34;&gt;Infominer33&amp;rsquo;s Starred GitHub Repositories&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/avidLearnerInProgress/python-automation-scripts&#34;&gt;avidLearnerInProgress/python-automation-scripts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/chaconnewu/awesome-augmented&#34;&gt;chaconnewu/awesome-augmented&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mnyrop/swc-materials&#34;&gt;mnyrop/swc-materials&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mnyrop/pagemaster&#34;&gt;mnyrop/pagemaster&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mozilla/sops&#34;&gt;mozilla/sops&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jens-maus/yam&#34;&gt;jens-maus/yam&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Jugendhackt/HowToPGP&#34;&gt;Jugendhackt/HowToPGP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/vitalysim/Awesome-Hacking-Resources&#34;&gt;vitalysim/Awesome-Hacking-Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Hack-with-Github/Awesome-Hacking&#34;&gt;Hack-with-Github/Awesome-Hacking&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;gh-pages&#34;&gt;GH-Pages&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/allejo/jekyll-toc&#34;&gt;jekyll-toc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/weskerfoot/artwork&#34;&gt;weskerfoot/artwork&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/weskerfoot/Gitblog&#34;&gt;weskerfoot/Gitblog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/weskerfoot/KettleBlog&#34;&gt;weskerfoot/KettleBlog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sindresorhus/amas&#34;&gt;sindresorhus/amas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bmann/webpage-webmentions&#34;&gt;bmann/webpage-webmentions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/shichao-an/twitter-photos&#34;&gt;shichao-an/twitter-photos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/DeeJayhX/HTMLArticleElementStripper&#34;&gt;DeeJayhX/HTMLArticleElementStripper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/unlicense/unlicense.org&#34;&gt;unlicense/unlicense.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/johnjago/awesome-uncopyright&#34;&gt;johnjago/awesome-uncopyright&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Ryuno-Ki/webmention-tools&#34;&gt;Ryuno-Ki/webmention-tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/rypan/jekyll-db&#34;&gt;rypan/jekyll-db&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/iurisegtovich/AwesomeInformationSharing&#34;&gt;iurisegtovich/AwesomeInformationSharing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/qwtel/hydejack&#34;&gt;qwtel/hydejack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ChristopherA/simplest-github-page&#34;&gt;ChristopherA/simplest-github-page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/minimal-mistakes&#34;&gt;mmistakes/minimal-mistakes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mdo/wtf-html-css&#34;&gt;mdo/wtf-html-css&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ChristopherA/jekyll-remote_theme-test&#34;&gt;ChristopherA/jekyll-remote_theme-test&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jonathancross/jc-docs&#34;&gt;jonathancross/jc-docs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mdo/code-guide&#34;&gt;mdo/code-guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;crypto&#34;&gt;Crypto&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/GrayHats/btctalkint&#34;&gt;GrayHats/btctalkint&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/the-domains/gigabitcoin&#34;&gt;the-domains/gigabitcoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Blockstream/liquid&#34;&gt;Blockstream/liquid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/weskerfoot/awesome-ocap&#34;&gt;weskerfoot/awesome-ocap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/BlockchainCommons/BlockchainCommonsLLC&#34;&gt;BlockchainCommons/BlockchainCommonsLLC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/banteg/bitcointalk&#34;&gt;banteg/bitcointalk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tradingview/pine_script_docs&#34;&gt;tradingview/pine_script_docs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/JWWeatherman/bitcoin_security_threat_model&#34;&gt;JWWeatherman/bitcoin_security_threat_model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/JWWeatherman/human_threat_model&#34;&gt;JWWeatherman/human_threat_model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bssrdf/BlockchainLibrary&#34;&gt;bssrdf/BlockchainLibrary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/BlockchainBooks/blockchainbooks.github.io&#34;&gt;BlockchainBooks/blockchainbooks.github.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kiarafrobles/bitcoin-reading-list&#34;&gt;kiarafrobles/bitcoin-reading-list&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ChristopherA/Blockchain-Developer-Resources&#34;&gt;ChristopherA/Blockchain-Developer-Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mark-s/CryptoCoinWhitePapers&#34;&gt;mark-s/CryptoCoinWhitePapers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gdamdam/awesome-decentralized-web&#34;&gt;gdamdam/awesome-decentralized-web&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/monospaced-out/bit-by-bitcoin&#34;&gt;monospaced-out/bit-by-bitcoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ERC725Alliance/erc725&#34;&gt;ERC725Alliance/erc725&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/reiver/blockchain-reading-list&#34;&gt;reiver/blockchain-reading-list&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hyperledger/education&#34;&gt;hyperledger/education&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/cdecker/btcresearch&#34;&gt;cdecker/btcresearch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/decrypto-org/blockchain-papers&#34;&gt;decrypto-org/blockchain-papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ethhub-io/ethhub&#34;&gt;ethhub-io/ethhub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Bitcoin-and-Markets/resources&#34;&gt;Bitcoin-and-Markets/resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Steven-Ireland/ethmail.tech&#34;&gt;Steven-Ireland/ethmail.tech&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sunnankar/wuc-new&#34;&gt;sunnankar/wuc-new&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;decentralized-identity&#34;&gt;Decentralized Identity&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot8-barcelona&#34;&gt;WebOfTrustInfo/rwot8-barcelona&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/good-lly/gdpr-documents&#34;&gt;good-lly/gdpr-documents&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/infominer33/DIDecentralized&#34;&gt;DIDecentralized&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/w3c-ccg/did-test-suite&#34;&gt;w3c-ccg/did-test-suite&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot3-sf&#34;&gt;WebOfTrustInfo/rwot3-sf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot5-boston&#34;&gt;WebOfTrustInfo/rwot5-boston&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot6-santabarbara&#34;&gt;WebOfTrustInfo/rwot6-santabarbara&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot7-toronto&#34;&gt;WebOfTrustInfo/rwot7-toronto&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot2-id2020&#34;&gt;WebOfTrustInfo/rwot2-id2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/peacekeeper/blockchain-identity&#34;&gt;peacekeeper/blockchain-identity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/openssi/peer-did-method-spec&#34;&gt;openssi/peer-did-method-spec&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tyleryasaka/identity-proposals&#34;&gt;tyleryasaka/identity-proposals&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hyperledger/indy-docs&#34;&gt;hyperledger/indy-docs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.
+I used this:
+ kirtan403.github.io/bookmark-github-stars/  and then found this app that makes them even prettier and has an option to push the data to json. (I&amp;rsquo;ll try this next time)
+ export-github-stars.netlify.com/  Infominer33&amp;rsquo;s Starred GitHub Repositories  avidLearnerInProgress/python-automation-scripts chaconnewu/awesome-augmented mnyrop/swc-materials mnyrop/pagemaster mozilla/sops jens-maus/yam Jugendhackt/HowToPGP vitalysim/Awesome-Hacking-Resources Hack-with-Github/Awesome-Hacking  GH-Pages  jekyll-toc weskerfoot/artwork weskerfoot/Gitblog weskerfoot/KettleBlog sindresorhus/amas bmann/webpage-webmentions shichao-an/twitter-photos DeeJayhX/HTMLArticleElementStripper unlicense/unlicense.</description>
     </item>
     
   </channel>

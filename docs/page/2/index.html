@@ -37,7 +37,7 @@
     <meta property="og:image" content="https://infominer.id/images/web-work-tools.png" />
 
 
-  <meta property="og:updated_time" content="2019-05-26T00:00:00&#43;00:00"/>
+  <meta property="og:updated_time" content="2019-05-27T00:00:00&#43;00:00"/>
 
 
 
@@ -61,7 +61,7 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.52" />
 
 <script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
@@ -147,6 +147,139 @@
 </div>
 
 <div id="main" role="main">
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
+		  <a href="/web-work/posts/make-a-github-portfolio/" title="Infominer&#39;s GitHub Portfolio and HowTo"><img src="/web-work/images/infominer33-github-portfolio.jpeg" alt="Infominer&#39;s GitHub Portfolio and HowTo"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2019-05-27 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/make-a-github-portfolio/">May 27, 2019</a></time></span>
+        
+        
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Reading time ~2 minutes
+      </span>
+      
+    </div>
+    
+	<h1 class="entry-title"><a href="/web-work/posts/make-a-github-portfolio/" rel="bookmark" title="Infominer&#39;s GitHub Portfolio and HowTo" itemprop="url">Infominer&#39;s GitHub Portfolio and HowTo</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    
+
+<p>I learned of this cool project from <a href="https://twitter.com/bmann">@bmann</a>. I&rsquo;ve been wanting a simple way to make a page like this for a while!</p>
+
+<p>It&rsquo;s really nice to have a place to keep track, because I&rsquo;m always forgetting how many I even manage!</p>
+
+<p>It might seem intimidating to hear, &ldquo;Just Fork It!&rdquo;</p>
+
+<p>However, you&rsquo;ll see that it&rsquo;s not much more complex than that.</p>
+
+<h2 id="step-1">Step 1</h2>
+
+<p>Fork this repository:</p>
+
+<ul>
+<li><a href="https://github.com/github/personal-website">github/personal-website</a></li>
+</ul>
+
+<h2 id="step-2">Step 2</h2>
+
+<p>Go to settings and select publish from master branch:</p>
+
+<p><img src="https://imgur.com/UAhVvRPl.png" alt="" /></p>
+
+<h2 id="step-3">Step 3</h2>
+
+<p>If you already have a web-page, then maybe you aren&rsquo;t reading this.. If you don&rsquo;t, then you must name the repository the same as your name on github. So my first website&rsquo;s repository name is <a href="https://github.com/infominer33/infominer33.github.io">infominer33.github.io</a> since my github username is infominer33. Now it publishes to <code>infominer.id</code> (but also <code>infominer33.github.io</code>) because I have a custom domain, and every other repository I publish is a branch of that first domain.</p>
+
+<p>Since I already have a primary webpage, I change my repository name to <code>repo-portfolio</code>. That way, it lives at:</p>
+
+<ul>
+<li><a href="https://infominer.id/repo-portfolio/">infominer.id/repo-portfolio</a></li>
+</ul>
+
+<p><img src="https://imgur.com/yL5BaNxl.png" alt="" /></p>
+
+<h2 id="step-4">Step 4</h2>
+
+<p>On github pages, <code>_config.yml</code> lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:</p>
+
+<pre><code>
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 12
+  exclude:
+    archived: false
+    forks: false
+    projects:
+      - pub-yes
+      - yest
+      - archive-crypto
+      - yest-the-docs
+      - bahamas-crypto
+
+</code></pre>
+
+<p>you can also configure social media accounts.</p>
+
+<pre><code>social_media:
+  website: https://infominer.id/
+  keybase: infominer
+  telegram: infominer33
+  twitter: infominer33
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # unsplash: your_username
+  # vk: your_username
+  # youtube: your_username
+</code></pre>
+
+<p>and topics of interest:</p>
+
+<pre><code>
+topics:
+  - name: Bitcoin
+    web_url: https://github.com/topics/bitcoin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
+
+  - name: Decentralized Identity
+    web_url: https://github.com/topics/decentralized-identity
+    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
+
+</code></pre>
+
+<p>Cool beans, right?</p>
+
+<p>There are also blog features, although I&rsquo;m not sure I&rsquo;ll blog there&hellip; who knows!?!?</p>
+
+<p>I haven&rsquo;t looked through the <a href="https://github.com/github/personal-website/issues">issues</a>, or <a href="https://github.com/github/personal-website/pulls">pull-requests</a> yet to see what folk are working on, or tried to tweak any of the quirks I&rsquo;ve noticed..</p>
+
+<p>If you want to learn more about GitHub Pages, check out:</p>
+
+<figure class="full">
+    <img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
+    <figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
+</figure>
+
+  </div>
+</article>
 
 <article class="hentry">
   <header>
@@ -512,115 +645,6 @@
   </div>
 </article>
 
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/webwork/" title="Webwork.tools"><img src="/web-work/images/power-words.png" alt="Webwork.tools"></a>
-      </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-05-24 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/webwork/">May 24, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~2 minutes
-      </span>
-      
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/webwork/" rel="bookmark" title="Webwork.tools" itemprop="url">Webwork.tools</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<p><img src="https://infominer.id/web-work/images/webwork-tools.png" alt="" /></p>
-
-<p>This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.</p>
-
-<p>This page has some samples of content that I&rsquo;ve created for others, as well as general resources for web-work.</p>
-
-<p>Originally it wasn&rsquo;t in blog form&hellip; but I just looked on github, to see when I started, and chose the date that way, for each. This page wasn&rsquo;t in the blog, either.. but seems like it was hidden away in the menu, and less accessible.</p>
-
-<p><img src="https://imgur.com/j1TZ1Zf.png" alt="" /></p>
-
-<h2 id="articles-by-infominer">Articles by Infominer</h2>
-
-<ul>
-<li><a href="https://www.csbtechemporium.com/web-design-history/" target="_blank">Brief History of Web Design</a></li>
-<li><a href="https://www.csbtechemporium.com/keyword-research-fundamentals/" target="_blank">Keyword Research Fundamentals</a></li>
-<li><a href="https://csbtechemporium.com/seo-simplified-2019" target="_blank">SEO Simplified! Increase your Rankings 2019!</a></li>
-<li><a href="https://www.csbtechemporium.com/types-of-computer-programming/" target="_blank">How Many Types of Software Development are there?</a></li>
-<li><a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a></li>
-</ul>
-
-<h2 id="site-index">Site Index</h2>
-
-<ul>
-<li><a href="https://infominer.id/web-work/open-source-publishing/">Open Source Publishing</a></li>
-<li><a href="https://infominer.id/web-work/learn-seo/">Learn-SEO</a>
-
-<ul>
-<li><a href="https://infominer.id/web-work/getting-started-adwords-keyword-planner/">Getting Started with Adwords Keyword Planner</a></li>
-</ul></li>
-<li><a href="https://infominer.id/web-work/seo-tools/">100s of free SEO Tools</a></li>
-<li><a href="https://infominer.id/web-work/github-pages-starter-pack/">GitHub Pages Starter Pack: Extended Resources</a></li>
-<li><a href="https://infominer.id/web-work/practical-pgp/">Practical PGP</a></li>
-<li><a href="https://infominer.id/web-work/open-source-publishing/">Open Source Publishing</a></li>
-<li><a href="https://infominer.id/web-work/infominer33-github-stars/">Organized list of Repositories I&rsquo;ve Starred</a></li>
-<li><a href="https://infominer.id/web-work/static-site-generators">Static Site Generators</a></li>
-</ul>
-
-<h3 id="indieweb">IndieWeb</h3>
-
-<p>Eventually this will live along in the same site with web-work.. though I&rsquo;m not sure of the specifics rn.</p>
-
-<ul>
-<li><a href="https://infominer.id/indieweb/">Infominer does IndieWeb</a></li>
-</ul>
-
-<h2 id="resources">Resources</h2>
-
-<p>The following are &ldquo;Top Level&rdquo; web-work resources that do not yet have their own page on this site.</p>
-
-<ul>
-<li><a href="https://github.com/hql287/awesome-free-services">hql287/awesome-free-services</a></li>
-<li><a href="https://awesomelists.top">awesomelists.top</a></li>
-<li><a href="http://marklets.com/FAQ.aspx">Bookmarklets</a></li>
-<li><a href="https://github.com/fffaraz/awesome-github">fffaraz/awesome-github</a></li>
-<li><a href="https://github.com/jnv/lists">jnv/lists</a></li>
-<li><a href="https://github.com/ripienaar/free-for-dev">ripienaar/free-for-dev</a></li>
-</ul>
-
-<h3 id="web-development">Web Development</h3>
-
-<ul>
-<li><a href="https://github.com/Ibrahim-Islam/dev-resource">Ibrahim-Islam/dev-resource</a></li>
-<li><a href="https://github.com/Pestov/best-of-awesomeness-and-usefulness-for-webdev">Pestov/best-of-awesomeness-and-usefulness-for-webdev</a></li>
-<li><a href="https://github.com/mrmartineau/awesome-web-dev-resources">mrmartineau/awesome-web-dev-resources</a></li>
-<li><a href="https://github.com/ahadb/content-management-systems">ahadb/content-management-systems</a></li>
-<li><a href="https://github.com/starandtina/Essential-JavaScript-Links">starandtina/Essential-JavaScript-Links</a></li>
-<li><a href="https://github.com/joshbuchea/awesome-app-landing-page">joshbuchea/awesome-app-landing-page</a></li>
-</ul>
-
-<h3 id="flat-file-cms">Flat File CMS</h3>
-
-<ul>
-<li><a href="https://github.com/ahadb/flat-file-cms">ahadb/flat-file-cms</a></li>
-</ul>
-
-<h3 id="devops">Devops</h3>
-
-<ul>
-<li><a href="https://github.com/Leo-G/DevopsWiki">Leo-G/DevopsWiki</a></li>
-</ul>
-
-  </div>
-</article>
-
 
 
 
@@ -628,7 +652,7 @@
   <ul class="inline-list">
 	  
     
-        <li><a href="/" class="btn">Previous</a></li>
+        <li><a href="/web-work/" class="btn">Previous</a></li>
     
 
 	
@@ -636,7 +660,7 @@
 	
 	
     
-	<li><a href="/">1</a></li>
+	<li><a href="/web-work/">1</a></li>
     
 	
     
@@ -644,11 +668,11 @@
     
 	
     
-	<li><a href="/page/3/">3</a></li>
+	<li><a href="/web-work/page/3/">3</a></li>
     
 	
     
-	<li><a href="/page/4/">4</a></li>
+	<li><a href="/web-work/page/4/">4</a></li>
     
 	
 
@@ -656,7 +680,7 @@
 
 	
     
-      <li><a href="/page/3/" class="btn">Next</a></li>
+      <li><a href="/web-work/page/3/" class="btn">Next</a></li>
     
   </ul>
 </div>

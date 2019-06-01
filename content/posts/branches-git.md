@@ -1,5 +1,12 @@
 ---
-published: false
+type: post
+title: "Creating a Test Branch and Merging back the Changes"
+description: "Used while testing the hugo build of the HPSTR theme."
+tags: [hpstr, jekyll, hugo, theme, migration]
+image:
+  feature: /images/jekyll-hpstr-hugo.png
+date: 2019-06-01
+
 ---
 
 What  we're going to do is make a test branch of our repository... so we can see about getting hugo to run over there, and if successful then we'll learn how to merge this test branch back over.
@@ -41,3 +48,13 @@ You probably knowbut you don't need github at all, and I'm learning that a signi
 `git checkout -b` is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!
 
 * [More Git Resources](https://infominer.id/web-work/github-pages-starter-pack/#git) >>
+
+## [Merging changes back to the master branch](https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master)
+
+
+```
+git checkout master
+git pull origin master
+git merge test
+git push origin master
+```
