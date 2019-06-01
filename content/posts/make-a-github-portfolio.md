@@ -7,7 +7,7 @@ tags: [github, repositories, open source, portfolio, github-pages]
 
 
 image:
-  feature: infominer33-github-portfolio.jpeg
+  feature: /images/infominer33-github-portfolio.jpeg
   thumb: /images/infominer33-github-portfolio.jpeg
   og_image: infominer33-github-portfolio.jpeg
   credit: Check it Out!

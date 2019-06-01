@@ -8,12 +8,9 @@ excerpt: >
 tags: [pgp, deepdotweb, security, privacy, resources]
 image:
   thumb: /images/pgp-og.png
-  feature: pgp-banner.png
-
 redirect_from: practical-pgp/
-
-
-modified: 2019-05-30---
+modified: 2019-05-30
+---
 
     "Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!"
 

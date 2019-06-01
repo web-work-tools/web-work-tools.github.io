@@ -3,7 +3,7 @@ type: page
 title: "Info-Logistics"
 description: "Research Driven Customer Service, Content Creation, and Web Publishing."
 image:
-  feature: web-work-tools.png
+  feature: /images/web-work-tools.png
 share: true
 modified: 2019-05-26
 ---
@@ -13,7 +13,7 @@ type: page
 title: Theme Setup
 description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
 image:
-  feature: /images/abstract-11.jpg
+  feature: /images//images/abstract-11.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 share: true

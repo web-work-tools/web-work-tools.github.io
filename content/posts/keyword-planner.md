@@ -5,8 +5,7 @@ description: This step-by-step guide will ensure that anyone can try out keyword
 modified: 2019-05-23
 tags: [keyword-research, seo, walkthrough, stub, adwords, keyword planner]
 image:
-  thumb: /images/getting-started-adwords-keyword-planner.jpg
-  feature: getting-started-adwords-keyword-planner.jpg
+  feature: /images/getting-started-adwords-keyword-planner.jpg
 
 
 
@@ -24,9 +23,10 @@ You don't need to worry about it immediately, however, you'll find that many gui
 
 ## Contents
 
-* [Set up Free Google Ads Account](#set-up-free-google-ads-account)
-* [Start Using Keyword Planner](#start-using-keyword-planner-)
-* [Download and Explore Data](#download-and-explore-data-)
+- [Contents](#contents)
+- [Set up Free Google Ads Account](#set-up-free-google-ads-account)
+- [Start Using Keyword Planner](#start-using-keyword-planner)
+  - [Download and Explore Data](#download-and-explore-data)
 
 ## Set up Free Google Ads Account
 
