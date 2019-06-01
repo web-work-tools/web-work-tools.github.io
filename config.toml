@@ -1,7 +1,7 @@
 baseurl = "https://infominer.id/web-work"
 languageCode = "en-gb"
 title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
-theme = "hpstr"
+theme = "indigo"
 pluralizelisttitles = false
 PygmentsCodeFences = true
 Paginate = 5
