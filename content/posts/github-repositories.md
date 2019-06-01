@@ -7,7 +7,8 @@ tags: [indieweb, github-pages, resources, github, jekyll, static-sites]
 subtitle: "A Growing Collection of Indieweb GitHub Repositories."
 category: indieweb
 aliases:
-  - posts/github/
+  - /posts/github/
+  - /github/
 slug: /github/
 ---
 

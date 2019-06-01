@@ -1,12 +1,15 @@
 ---
 type: page
-title: "Info-Logistics"
+title: "Services"
 description: "Research Driven Customer Service, Content Creation, and Web Publishing."
 image:
   feature: /images/web-work-tools.png
 share: true
+menu: "main"
 date: 2019-05-26
 ---
+
+## Information Logistics
 
 I've gradually eliminated all of my clients from the time where I was primarily creating content for hire. As I learn more publishing skills, I can see that there is more value in that type of work. 
 

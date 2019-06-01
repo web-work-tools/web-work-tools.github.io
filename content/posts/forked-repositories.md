@@ -9,6 +9,7 @@ image:
 slug: /forked-repositories/
 aliases:
   - /posts/forked-repositories/
+  - /forked-repositories/
 ---
 
 

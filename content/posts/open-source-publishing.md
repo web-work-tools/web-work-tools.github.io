@@ -6,7 +6,8 @@ date: 2019-05-23
 tags: [google, organic search, stats, open source, github-pages]
 
 aliases:
-  - /pages/open-source-publishing/
+  - /posts/open-source-publishing/
+  - /open-source-publishing/
 slug: /open-source-publishing/
 image:
   feature: /images/infolytics/infominer-id-all-pages-20190417-20190524.jpg

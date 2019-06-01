@@ -8,6 +8,7 @@ image:
   feature: /images/content-creation.png
 aliases:
   - /posts/content-creation/
+  - /content-creation/
 slug: /content-creation/
 ---
 

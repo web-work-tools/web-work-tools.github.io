@@ -3,6 +3,8 @@ type: post
 title: "Infominer Mission Statement - 0 Barriar To Entry"
 description: "Show what anyone could do with some time, an internet connection, mouse, screen, and keys."
 slug: /mission-statement/
+aliases:
+  - /mission-statement/
 tags: [mission-statement, introduction]
 image:
   thumb: /images/pgp-og.png

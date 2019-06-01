@@ -10,6 +10,7 @@ image:
 date: 2019-05-31
 aliases:
   - /posts/branches-git/
+  - /branches-git/
 slugs: /branches-git/
 ---
 

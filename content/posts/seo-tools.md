@@ -10,6 +10,7 @@ image:
   feature: /images/ww-tools-head.jpg
 aliases:
   - /posts/seo-tools/
+  - /seo-tools/
 slug: /seo-tools/
 ---
 

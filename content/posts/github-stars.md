@@ -5,7 +5,8 @@ description: "An organized list of Repositories."
 date: 2019-05-26
 tags: [github, stars, repositories, open source]
 aliases:
-  - posts/githubstars/
+  - /posts/githubstars/
+  - /githubstars/
 slug: /github-stars/
 
 image:

@@ -8,6 +8,7 @@ subtitle: To Become An Extensive Collection
 slug: /resources/
 aliases:
   - /posts/resources/
+  - /resources/
 ---
 
 ![](https://imgur.com/ahnVZ9tl.png)
