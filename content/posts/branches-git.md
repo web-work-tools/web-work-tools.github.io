@@ -6,12 +6,12 @@ tags: [hpstr, jekyll, hugo, theme, migration]
 image:
   feature: /images/Git_branches_fork.png
   credit: "Bunyk - Українська"
-  creditlink: https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg
+  creditlink: "https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg"
 date: 2019-05-31
 
 ---
 
-What  we're going to do is make a test branch of our repository... so we can see about getting hugo to run over there, and if successful then we'll learn how to merge this test branch back over.
+I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
 
 ## Checkout test branch
 
