@@ -365,6 +365,14 @@ If they ever figure out. If you have any questions, or if anything is unclear!!
 
 I'll get web-mentions and the like soon!
 
+## Test Branches
+
+Even if I change this web-site to a different theme or SSG, I made a branch to save this build forever :D and anyone confused can browse them.
+
+* https://github.com/infominer33/web-work/tree/test-hugo
+* https://github.com/infominer33/web-work/tree/hpster-jekyll
+
+
 ## Resources
 
 * [web.archive.org - Installing Hugo v0.17](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
