@@ -4,7 +4,7 @@ enableEmoji = true
 
 baseurl = "https://infominer.id/web-work/"
 title = "Webwork.tools"
-copyright = "⧉ Infominer creativecommons.org/publicdomain/zero/1.0/  ⧉ Powered by themes.gohugo.io/indigo/ via: github.com/gohugoio/hugo"
+copyright = "⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo/ via: gohugoio/hugo ⧉"
 languageCode = "en-gb"
 theme = "indigo"
 paginate = 10
@@ -14,7 +14,7 @@ paginate = 10
   description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto."
   Subtitle = "Independent Web-Work and Skyscraper Publishing"
   Avatar = "images/infominer.svg"
-  Biography = "Full-Time Crypto-Curation and Histories ⧉ Bitcoin, Blockchain, DecentralizedID ⧉ Research, Publishing, WebWork, Indieweb ⧉"
+  Biography = "Full-Time Crypto-Curation and Histories ⧉ Bitcoin, Blockchain, DecentralizedID ⧉ Research, Publishing, WebWork, Indieweb ⧉ her/him"
   ShowBio = true
   PermalinkText = "🔗"
 
