@@ -4,7 +4,7 @@ title: "Migrating from Jekyll HPSTR to Hugo."
 description: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo."
 tags: [hpstr, jekyll, hugo, theme, migration]
 image:
-  feature: /images/jkyll-hpstr-hugo.png
+  feature: /images/jekyll-hpstr-hugo.png
 date: 2019-06-01
 excerpt: >
   I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
