@@ -1,8 +1,8 @@
 ---
-layout: post
+type: post
 title: "Infominer's Forked Repositores"
 description: "An organized list of repositories I've forked."
-modified: 2019-05-29T22:22:22-23:00
+modified: 2019-05-29
 tags: 
   - forked
   - repositories

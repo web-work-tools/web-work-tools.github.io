@@ -1,10 +1,10 @@
 ---
-layout: post
+type: post
 title: "100's of Mostly Free SEO Tools"
 description: "An Open-Source Repository of SEO Tools"
+
 tags: [resources, tools, seo]
-modified: 2019-05-26T13:15:59-23:00
-image:
+modified: 2019-05-26image:
   thumb: /images/webwork-tools.png
   feature: ww-tools-head.jpg
 

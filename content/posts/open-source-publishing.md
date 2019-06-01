@@ -1,8 +1,8 @@
 ---
-layout: post
+type: post
 title: "Open Source Publishing."
 description: "Infominer.id - All Page Rankings and Organic Search Rankings"
-modified: 2019-05-30T13:15:59-23:00
+modified: 2019-05-30
 tags: [google, organic search, stats, open source, github-pages]
 
 
