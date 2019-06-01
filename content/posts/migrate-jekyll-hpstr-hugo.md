@@ -24,6 +24,8 @@ That's pretty neat, if you ask me!
 
 I also show examples of the differences between the two, where and how I made changes.
 
+## Why
+
 ## HPSTR Jekyll vs Hugo 
 
 I'm looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won't run in the newest version. If you have a newer suggestion, feel free to shout out. I will also see what the options are.
@@ -384,6 +386,11 @@ Even if I change this web-site to a different theme or SSG, I made a branch to s
 * [web.archive.org - Installing Hugo v0.17](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
 * [web.archive.org - Using Hugo v0.17](http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/)
 * [Creating a Test Branch and Merging changes back to Master](https://infominer.id/web-work/posts/branches-git/)
+* [Goodbye Jekyll - Hello Hugo](https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/)
+
+## Other Hugo Themes
+
+* https://github.com/EmielH/tale-hugo
 
 ## Over the Rainbow
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)
