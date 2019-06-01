@@ -409,15 +409,16 @@ I also added these lines to my config.toml
 
 I think some of those are supurfulous but it doesn't matter if I use extra, as long as I get all the right values in.
 
+![](https://imgur.com/e6egggQ.png)
+
 ## Reach out in the Comments
 
 If they ever figure out. If you have any questions, or if anything is unclear!!
 
 I'll get web-mentions and the like soon!
 
-## Test Branches
 
-Even if I change this web-site to a different theme or SSG, I made a branch to save this build forever :D and anyone confused can browse them.
+## Test Branches
 
 * https://github.com/infominer33/web-work/tree/test-hugo
 * https://github.com/infominer33/web-work/tree/hpster-jekyll

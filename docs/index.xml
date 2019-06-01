@@ -501,6 +501,8 @@ enableEmoji = true
 
 &lt;p&gt;I think some of those are supurfulous but it doesn&amp;rsquo;t matter if I use extra, as long as I get all the right values in.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/e6egggQ.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;reach-out-in-the-comments&#34;&gt;Reach out in the Comments&lt;/h2&gt;
 
 &lt;p&gt;If they ever figure out. If you have any questions, or if anything is unclear!!&lt;/p&gt;
@@ -508,8 +510,6 @@ enableEmoji = true
 &lt;p&gt;I&amp;rsquo;ll get web-mentions and the like soon!&lt;/p&gt;
 
 &lt;h2 id=&#34;test-branches&#34;&gt;Test Branches&lt;/h2&gt;
-
-&lt;p&gt;Even if I change this web-site to a different theme or SSG, I made a branch to save this build forever :D and anyone confused can browse them.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/infominer33/web-work/tree/test-hugo&#34;&gt;https://github.com/infominer33/web-work/tree/test-hugo&lt;/a&gt;&lt;/li&gt;
