@@ -1,4 +1,4 @@
-baseurl = "/web-work"
+baseurl = "https://infominer.id/web-work"
 languageCode = "en-gb"
 title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
 theme = "hpstr"
@@ -16,3 +16,4 @@ disqusShortname = "hpstrhugo"
 		github = "infominer33/web-work"
 	[params.image]
 	  feature = "/images/web-work-tools.png"
+

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <link>https://infominer.id/web-work/tags/portfolio/index.xml</link>
+    <description>Recent content on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://infominer.id/web-work/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Infominer&#39;s GitHub Portfolio and HowTo</title>
+      <link>https://infominer.id/web-work/posts/make-a-github-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/make-a-github-portfolio/</guid>
+      <description>
+
+&lt;p&gt;I learned of this cool project from &lt;a href=&#34;https://twitter.com/bmann&#34;&gt;@bmann&lt;/a&gt;. I&amp;rsquo;ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s really nice to have a place to keep track, because I&amp;rsquo;m always forgetting how many I even manage!&lt;/p&gt;
+
+&lt;p&gt;It might seem intimidating to hear, &amp;ldquo;Just Fork It!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;However, you&amp;rsquo;ll see that it&amp;rsquo;s not much more complex than that.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-1&#34;&gt;Step 1&lt;/h2&gt;
+
+&lt;p&gt;Fork this repository:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/github/personal-website&#34;&gt;github/personal-website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;step-2&#34;&gt;Step 2&lt;/h2&gt;
+
+&lt;p&gt;Go to settings and select publish from master branch:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/UAhVvRPl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3&#34;&gt;Step 3&lt;/h2&gt;
+
+&lt;p&gt;If you already have a web-page, then maybe you aren&amp;rsquo;t reading this.. If you don&amp;rsquo;t, then you must name the repository the same as your name on github. So my first website&amp;rsquo;s repository name is &lt;a href=&#34;https://github.com/infominer33/infominer33.github.io&#34;&gt;infominer33.github.io&lt;/a&gt; since my github username is infominer33. Now it publishes to &lt;code&gt;infominer.id&lt;/code&gt; (but also &lt;code&gt;infominer33.github.io&lt;/code&gt;) because I have a custom domain, and every other repository I publish is a branch of that first domain.&lt;/p&gt;
+
+&lt;p&gt;Since I already have a primary webpage, I change my repository name to &lt;code&gt;repo-portfolio&lt;/code&gt;. That way, it lives at:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/repo-portfolio/&#34;&gt;infominer.id/repo-portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/yL5BaNxl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-4&#34;&gt;Step 4&lt;/h2&gt;
+
+&lt;p&gt;On github pages, &lt;code&gt;_config.yml&lt;/code&gt; lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 12
+  exclude:
+    archived: false
+    forks: false
+    projects:
+      - pub-yes
+      - yest
+      - archive-crypto
+      - yest-the-docs
+      - bahamas-crypto
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;you can also configure social media accounts.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;social_media:
+  website: https://infominer.id/
+  keybase: infominer
+  telegram: infominer33
+  twitter: infominer33
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # unsplash: your_username
+  # vk: your_username
+  # youtube: your_username
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and topics of interest:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+topics:
+  - name: Bitcoin
+    web_url: https://github.com/topics/bitcoin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
+
+  - name: Decentralized Identity
+    web_url: https://github.com/topics/decentralized-identity
+    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cool beans, right?&lt;/p&gt;
+
+&lt;p&gt;There are also blog features, although I&amp;rsquo;m not sure I&amp;rsquo;ll blog there&amp;hellip; who knows!?!?&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t looked through the &lt;a href=&#34;https://github.com/github/personal-website/issues&#34;&gt;issues&lt;/a&gt;, or &lt;a href=&#34;https://github.com/github/personal-website/pulls&#34;&gt;pull-requests&lt;/a&gt; yet to see what folk are working on, or tried to tweak any of the quirks I&amp;rsquo;ve noticed..&lt;/p&gt;
+
+&lt;p&gt;If you want to learn more about GitHub Pages, check out:&lt;/p&gt;
+
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/web-work/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
