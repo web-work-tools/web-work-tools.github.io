@@ -373,6 +373,19 @@ It seems like you need to type `hugo` to publish to the docs directory, because 
 
 ## Use a linebreak before each list!
 
+## Twitter Cards
+
+I went ahead and hardcoded some of my info for twitter cards:
+
+```
+<meta name="twitter:title" content="Webwork.tools">
+<meta name="twitter:description" content="Skyscraper Publishing: Resources for Independent Webworkers">
+<meta name="twitter:creator" content="infominer33">
+<meta name="twitter:site" content="infominer33">
+```
+
+
+
 ## Reach out in the Comments
 
 If they ever figure out. If you have any questions, or if anything is unclear!!
