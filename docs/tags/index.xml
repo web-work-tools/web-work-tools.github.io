@@ -105,7 +105,7 @@
     <item>
       <title>Indieweb</title>
       <link>https://infominer.id/web-work/tags/indieweb/</link>
-      <pubDate>Mon, 01 Oct 2018 09:00:00 -0400</pubDate>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/tags/indieweb/</guid>
       <description></description>
@@ -117,6 +117,15 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jekyll Static Sites</title>
+      <link>https://infominer.id/web-work/tags/jekyll-static-sites/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/jekyll-static-sites/</guid>
       <description></description>
     </item>
     
@@ -256,6 +265,15 @@
     </item>
     
     <item>
+      <title>Static Sites</title>
+      <link>https://infominer.id/web-work/tags/static-sites/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/static-sites/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Stats</title>
       <link>https://infominer.id/web-work/tags/stats/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
@@ -312,7 +330,7 @@
     <item>
       <title>Web Publishing</title>
       <link>https://infominer.id/web-work/tags/web-publishing/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/tags/web-publishing/</guid>
       <description></description>

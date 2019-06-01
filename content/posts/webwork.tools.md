@@ -4,7 +4,8 @@ title: "Webwork.tools"
 description: "All your Webwork.tools are Belong to Us!"
 date: 2019-05-24
 aliases:
-  - /webwork.tools/
+  - /posts/webwork.tools/
+slug: /webwork.tools/
 share: true
 image:
   feature: /images/power-words.png

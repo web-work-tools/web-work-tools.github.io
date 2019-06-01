@@ -76,10 +76,10 @@ Step 1 Fork this repository:
     
     <item>
       <title>How to Sign Up and Get Started using Google Adwords Keyword Planner</title>
-      <link>https://infominer.id/web-work/posts/keyword-planner/</link>
+      <link>https://infominer.id/web-work/posts/keyword-planning/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/keyword-planner/</guid>
+      <guid>https://infominer.id/web-work/posts/keyword-planning/</guid>
       <description>Note: This is just a &amp;ldquo;stub&amp;rdquo;, and doesn&amp;rsquo;t go fully into the details of keyword research. I have written an article on the subject, and begun some study of Keyword Research and SEO, although I&amp;rsquo;m not by any means an expert.
 I made this, because it was a little confusing for me when I first tried to use it, and I wanted to be sure that eveyone in my organization had a fundamental understanding of keyword research, so they could assist in coming up with seed-keywords, and understand the building blocks of keyword-research.</description>
     </item>
@@ -131,6 +131,29 @@ It&amp;rsquo;s true that it&amp;rsquo;s a ton of work to do what I do, but you c
     </item>
     
     <item>
+      <title>Indieweb Github Repositories</title>
+      <link>https://infominer.id/web-work/posts/github-repositories/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-repositories/</guid>
+      <description>github.com/miklb  miklb/webpage-micropub-to-github -forked from voxpelli/webpage-micropub-to-github miklb/jekyll-indieweb  forked.yannick.io/miklb/jekyll-indieweb  miklb/node-micropub-express- forked from voxpelli/node-micropub-express - Provides a Micropub route for Express 4.x miklb/mf2_s- Microformats 2 Version of Underscores Starter Theme with Indieweb Support miklb/hubot-github-issue-lookup -forked from SimplyBuilt/hubot-github-issue-lookup  miklb - WordPress  miklb/wordpress-indieweb-press-this- from indieweb/wordpress-indieweb-press-this.  some IndieWeb magic for WordPress&amp;rsquo; &amp;ldquo;press this&amp;rdquo; bookmarklet.  miklb/wordpress-indieweb- Microformats 2 Version of Underscores Starter Theme with Indieweb Support  github.com/indieweb 101  indieweb/indieweb.</description>
+    </item>
+    
+    <item>
+      <title>Indieweb Resources</title>
+      <link>https://infominer.id/web-work/posts/resources/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/resources/</guid>
+      <description>micro.blog/infominer
+I was using miklb/jekyll-indieweb, but ran into some bugs and found that a new release is coming soon:
+
+In the meantime, I figured I&amp;rsquo;d test out this awesome projects-pages theme.
+I&amp;rsquo;m only guessing that some indieweb folk might appreciate:
+ Project-Pages also includes advanced layouts for the coding scientist. MATLAB and Jupyter layouts provide a framework for direct to post functionality. Surface and Projector layouts provide 3D visualization methods.</description>
+    </item>
+    
+    <item>
       <title>Using PGP and Cryptocurrency Keysignatures</title>
       <link>https://infominer.id/web-work/posts/practical-public-key-crypto/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
@@ -147,15 +170,6 @@ It&amp;rsquo;s true that it&amp;rsquo;s a ton of work to do what I do, but you c
       
       <guid>https://infominer.id/web-work/posts/seo-tools/</guid>
       <description>Google and Company  Google Analytics - duh - free tools to track and analyze website data. Google Webmaster - Tools Suite, Diagnostic Google Search Console - what you&amp;rsquo;re already ranking for, straight from google. Google PageSpeed Insights Google&amp;rsquo;s Mobile Friendly Test Google Sitemap Generators Bing Webmaster Tools - Similar to Google&amp;rsquo;s Webmaster Tools. YouTube Analytics - must-have for YouTube video publishers. A Must-Have Guide for Decoding the Google Rankings  For adding ^^^ this link to my page (It seems like a decent guide.</description>
-    </item>
-    
-    <item>
-      <title>GitHub Pages-Extended Resources</title>
-      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
-      <description></description>
     </item>
     
     <item>

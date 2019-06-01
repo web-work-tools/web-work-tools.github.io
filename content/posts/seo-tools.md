@@ -9,7 +9,8 @@ image:
   thumb: /images/webwork-tools.png
   feature: /images/ww-tools-head.jpg
 aliases:
-  - /seo-tools/
+  - /posts/seo-tools/
+slug: /seo-tools/
 ---
 
 <!-- fix link on infominer.id:

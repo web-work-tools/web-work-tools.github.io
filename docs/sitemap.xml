@@ -33,7 +33,7 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/posts/keyword-planner/</loc>
+    <loc>https://infominer.id/web-work/posts/keyword-planning/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,6 +63,16 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/posts/github-repositories/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/resources/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/posts/practical-public-key-crypto/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
   </url>
@@ -70,11 +80,6 @@
   <url>
     <loc>https://infominer.id/web-work/posts/seo-tools/</loc>
     <lastmod>2019-03-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/github-pages-extended-resources/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,17 +93,17 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/introducing-indigo/</loc>
+    <loc>https://infominer.id/web-work/indigo-intro/</loc>
     <lastmod>2018-10-01T09:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/featured-typefaces/</loc>
+    <loc>https://infominer.id/web-work/typefaces/</loc>
     <lastmod>2018-10-01T08:30:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/author-bios/</loc>
+    <loc>https://infominer.id/web-work/authors/</loc>
     <lastmod>2018-10-01T08:00:00-04:00</lastmod>
   </url>
   
@@ -173,13 +178,19 @@
   
   <url>
     <loc>https://infominer.id/web-work/tags/indieweb/</loc>
-    <lastmod>2018-10-01T09:00:00-04:00</lastmod>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://infominer.id/web-work/tags/jekyll/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/jekyll-static-sites/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -290,6 +301,12 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/tags/static-sites/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/tags/stats/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -333,7 +350,7 @@
   
   <url>
     <loc>https://infominer.id/web-work/tags/web-publishing/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

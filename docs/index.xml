@@ -956,10 +956,10 @@ topics:
     
     <item>
       <title>How to Sign Up and Get Started using Google Adwords Keyword Planner</title>
-      <link>https://infominer.id/web-work/posts/keyword-planner/</link>
+      <link>https://infominer.id/web-work/posts/keyword-planning/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/keyword-planner/</guid>
+      <guid>https://infominer.id/web-work/posts/keyword-planning/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This is just a &amp;ldquo;stub&amp;rdquo;, and doesn&amp;rsquo;t go fully into the details of keyword research. I have written an &lt;a href=&#34;https://www.csbtechemporium.com/keyword-research-fundamentals/&#34;&gt;article on the subject&lt;/a&gt;, and begun some study of Keyword Research and SEO, although I&amp;rsquo;m not by any means an expert.&lt;/p&gt;
@@ -1488,6 +1488,333 @@ topics:
     </item>
     
     <item>
+      <title>Indieweb Github Repositories</title>
+      <link>https://infominer.id/web-work/posts/github-repositories/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-repositories/</guid>
+      <description>
+
+&lt;h2 id=&#34;github-com-miklb-https-github-com-miklb&#34;&gt;&lt;a href=&#34;https://github.com/miklb&#34;&gt;github.com/miklb&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/webpage-micropub-to-github&#34;&gt;miklb/webpage-micropub-to-github&lt;/a&gt; -forked from &lt;a href=&#34;https://github.com/voxpelli/webpage-micropub-to-github&#34;&gt;voxpelli/webpage-micropub-to-github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://forked.yannick.io/miklb/jekyll-indieweb&#34;&gt;forked.yannick.io/miklb/jekyll-indieweb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/node-micropub-express&#34;&gt;miklb/node-micropub-express&lt;/a&gt;- forked from &lt;a href=&#34;https://github.com/voxpelli/node-micropub-express&#34;&gt;voxpelli/node-micropub-express&lt;/a&gt; - Provides a Micropub route for Express 4.x&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/mf2_s&#34;&gt;miklb/mf2_s&lt;/a&gt;- Microformats 2 Version of Underscores Starter Theme with Indieweb Support&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/hubot-github-issue-lookup&#34;&gt;miklb/hubot-github-issue-lookup&lt;/a&gt;
+-forked from &lt;a href=&#34;https://github.com/Simplybuilt/hubot-github-issue-lookup&#34;&gt;SimplyBuilt/hubot-github-issue-lookup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;miklb-https-github-com-miklb-wordpress&#34;&gt;&lt;a href=&#34;https://github.com/miklb&#34;&gt;miklb&lt;/a&gt; - WordPress&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/wordpress-indieweb-press-this&#34;&gt;miklb/wordpress-indieweb-press-this&lt;/a&gt;- from &lt;a href=&#34;https://github.com/miklb/wordpress-indieweb-press-this&#34;&gt;indieweb/wordpress-indieweb-press-this&lt;/a&gt;.
+
+&lt;ul&gt;
+&lt;li&gt;some IndieWeb &lt;a href=&#34;https://snarfed.org/indieweb-press-this-bookmarklets-for-wordpress&#34;&gt;magic for WordPress&amp;rsquo; &amp;ldquo;press this&amp;rdquo; bookmarklet&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/wordpress-indieweb&#34;&gt;miklb/wordpress-indieweb&lt;/a&gt;- Microformats 2 Version of Underscores Starter Theme with Indieweb Support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;github-com-indieweb-https-github-com-indieweb&#34;&gt;&lt;a href=&#34;https://github.com/indieweb&#34;&gt;github.com/indieweb&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h3 id=&#34;101&#34;&gt;101&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.comindieweb/indieweb.github.io&#34;&gt;indieweb/indieweb.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/wiki&#34;&gt;indieweb/wiki&lt;/a&gt; - Wiki backup and issue tracking for indieweb.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/blank-gh-site&#34;&gt;indieweb/blank-gh-site&lt;/a&gt; - Setup a simple new indieweb site on a domain name in mere minutes with this project.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/indiewebify-me&#34;&gt;indieweb/indiewebify-me&lt;/a&gt; - Tools to help you get the best out of your indieweb site
+indieweb&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;indieweb-assorted&#34;&gt;IndieWeb Assorted&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/indieweb-chat-archive&#34;&gt;indieweb/indieweb-chat-archive&lt;/a&gt; -  Full archive of IndieWeb chat log data files&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/branding&#34;&gt;indieweb/branding&lt;/a&gt; - Source files for the IndieWebCamp logo and branding materials&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/this-week&#34;&gt;indieweb/this-week&lt;/a&gt; - Weekly digest of IndieWebCamp activity&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/indieauth-client-php&#34;&gt;indieweb/indieauth-client-php&lt;/a&gt; - Sample implementation and helper methods for an IndieAuth client.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/indieweb-endpoints-ruby&#34;&gt;indieweb/indieweb-endpoints-ruby&lt;/a&gt; - A Ruby gem for discovering a URL&amp;rsquo;s IndieAuth, Micropub, and Webmention endpoints.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/indiewebweek&#34;&gt;indieweb/indiewebweek&lt;/a&gt; - Website for IndieWeb Week&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/newBase60py&#34;&gt;indieweb/newBase60py&lt;/a&gt; - Python implementation of &lt;a href=&#34;http://tantek.pbworks.com/w/page/19402946/NewBase60&#34;&gt;http://tantek.pbworks.com/w/page/19402946/NewBase60&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/jf2-validator&#34;&gt;indieweb/jf2-validator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;rel-me-verify-me&#34;&gt;rel-me \ verify-me&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/link-rel-parser-php&#34;&gt;indieweb/link-rel-parser-php&lt;/a&gt; - Parse HTTP &lt;code&gt;Link&lt;/code&gt; rel headers into a structured format&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/rel-me&#34;&gt;indieweb/rel-me&lt;/a&gt; - A set of PHP functions for discovering, consuming and verifying the rel-me microformat.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/verify-me&#34;&gt;indieweb/verify-me&lt;/a&gt; - A plugin that checks all rel=&amp;ldquo;me&amp;rdquo; links are reciprocal, doing distributed verification&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/link_rel_parser-ruby&#34;&gt;indieweb/link_rel_parser-ruby&lt;/a&gt; - Parse HTTP &lt;code&gt;Link&lt;/code&gt; headers into a structured format
+Ruby&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;webmention-clients&#34;&gt;Webmention - Clients&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/webmention-client-ruby&#34;&gt;indieweb/webmention-client-ruby&lt;/a&gt; - A Ruby gem for sending Webmention and Pingback notifications.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/mention-client-php&#34;&gt;indieweb/mention-client-php&lt;/a&gt; - Client library for sending webmention and pingback notifications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;extensions&#34;&gt;Extensions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/mediawiki-extensions&#34;&gt;indieweb/mediawiki-extensions&lt;/a&gt; - A collection of small MediaWiki extensions in use on our wiki&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/micropub-extensions&#34;&gt;indieweb/micropub-extensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;php&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/php-comments&#34;&gt;indieweb/php-comments&lt;/a&gt; - Helper for parsing and presenting comments from external sites&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/php-mf2-shim&#34;&gt;indieweb/php-mf2-shim&lt;/a&gt; - A parsing library for parsing pages from a few common non-mf2 sites into the mf2 structure&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/representative-h-card-php&#34;&gt;indieweb/representative-h-card-php&lt;/a&gt; - Given a parsed mf2 document, return the representative h-card for the page&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/date-formatter-php&#34;&gt;indieweb/date-formatter-php&lt;/a&gt; - Render dates and date ranges in a human-readable format, including proper microformats-2 markup&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/php-original-post-discovery&#34;&gt;indieweb/php-original-post-discovery&lt;/a&gt; - A set of PHP functions for determining the canonical URL for a post, given a POSSEd copy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;wordpress&#34;&gt;Wordpress&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wordpress-feature-requests&#34;&gt;indieweb/wordpress-feature-requests&lt;/a&gt; - An issue tracker for general requests for the WordPress IndieWeb plugin ecosystem.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/wordpress-indieweb&#34;&gt;indieweb/wordpress-indieweb&lt;/a&gt; - Helps you establish your IndieWeb identity by extending the user profile to provide rel-me and h-card fields. It also includes a bundled installer for a core set of&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/wordpress-indieauth&#34;&gt;indieweb/wordpress-indieauth&lt;/a&gt; - IndieAuth for WordPress&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/wordpress-micropub&#34;&gt;indieweb/wordpress-micropub&lt;/a&gt; - A Micropub Endpoint plugin for WordPress&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/wordpress-mf2-feed&#34;&gt;indieweb/wordpress-mf2-feed&lt;/a&gt; - Microformats2 Feed for WordPress URLs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/wordpress-uf2&#34;&gt;indieweb/wordpress-uf2&lt;/a&gt; - add &amp;ldquo;Microformats 2&amp;rdquo; classes to your WordPress theme&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/wordpress-indieweb-press-this&#34;&gt;indieweb/wordpress-indieweb-press-this&lt;/a&gt; - some IndieWeb magic for WordPress&amp;rsquo; &amp;ldquo;press this&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsub&#34;&gt;indieweb/microsub&lt;/a&gt; - For tracking issues on the Microsub specification
+indieweb&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/spec.indieweb.org&#34;&gt;indieweb/spec.indieweb.org&lt;/a&gt; - indieauth
+IndieAuth Specification&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/salmention&#34;&gt;indieweb/salmention&lt;/a&gt; - Salmention specification - &lt;a href=&#34;https://indieweb.org/Salmention&#34;&gt;https://indieweb.org/Salmention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/vouch&#34;&gt;indieweb/vouch&lt;/a&gt; - Vouch Specification - &lt;a href=&#34;https://indieweb.org/Vouch&#34;&gt;https://indieweb.org/Vouch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Indieweb Resources</title>
+      <link>https://infominer.id/web-work/posts/resources/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/resources/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/ahnVZ9tl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://micro.blog/infominer&#34; rel=&#34;me&#34;&gt;micro.blog/infominer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I was using &lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;, but ran into some bugs and found that a new release is coming soon:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723&#34;&gt;&lt;img src=&#34;https://imgur.com/LrC8gO8.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the meantime, I figured I&amp;rsquo;d test out this awesome &lt;a href=&#34;https://github.com/projectpages/project-pages/wiki&#34;&gt;projects-pages&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m only guessing that some indieweb folk might appreciate:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Project-Pages also includes advanced layouts for the coding scientist. MATLAB and Jupyter layouts provide a framework for direct to post functionality. Surface and Projector layouts provide 3D visualization methods.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I cover most anything you&amp;rsquo;d need to get started with GitHub Pages in:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack&#34;&gt;infominer.id/web-work/github-pages-starter-pack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;taking-back-your-content&#34;&gt;Taking Back Your Content&lt;/h2&gt;
+
+&lt;div class=&#34;h-card&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/indieweb/info.png&#34; class=&#34;u-photo&#34; width=&#34;40&#34;&gt;
+  &lt;a href=&#34;https://infominer.id&#34; class=&#34;u-url p-name&#34;&gt;InfoMine ⧉&lt;/a&gt;
+&lt;/div&gt;  
+
+&lt;div class=&#34;h-entry&#34;&gt;
+  &lt;ul&gt;&lt;li&gt;&lt;a class=&#34;u-in-reply-to&#34; href=&#34;https://aaronparecki.com/2018/12/15/14/indieweb&#34;&gt;https://aaronparecki.com/2018/12/15/14/indieweb&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+  &lt;p class=&#34;e-content&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/y9FSPcmybT8&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;At the end of that video, we are directed to &lt;a href=&#34;https://aaronparecki.com/2018/06/30/11/your-first-webmention&#34;&gt;Your First Webmention&lt;/a&gt;. &lt;/p&gt;
+
+  &lt;a href=&#34;https://infominer.id/indieweb/resources/&#34; class=&#34;u-url&#34;&gt;
+  &lt;time class=&#34;dt-published&#34; datetime=&#34;2019-05-19&#34;&gt;May 05, 2019&lt;/time&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://noti.st/srushe/7D5URN&#34;&gt;A presentation at Northern Ireland Developer Conference&lt;/a&gt; in June 2018 in Belfast, UK by Stephen Rushe.&lt;/p&gt;
+
+&lt;p&gt;^^^ There is a great set of indieweb resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;p data-notist=&#34;srushe/7D5URN&#34;&gt;View &lt;a href=&#34;https://noti.st/srushe/7D5URN&#34;&gt;Playing with the Indieweb&lt;/a&gt; on Notist.&lt;/p&gt;&lt;script async src=&#34;https://on.notist.cloud/embed/002.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/indieweb/github/&#34;&gt;Indieweb Github Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org&#34;&gt;indieweb.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brid.gy&#34;&gt;https://brid.gy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb&#34;&gt;github.com/indieweb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indiewebify.me/&#34;&gt;https://indiewebify.me/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/calumryan/indieweb-guides&#34;&gt;calumryan/indieweb-guides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.plutopia.io/2018/12/02/tom-brown-and-manton-reece-an-introduction-to-indieweb/&#34;&gt;Tom Brown and Manton Reece An Introduction to Indieweb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;herestomwiththeweather-com-https-herestomwiththeweather-com&#34;&gt;&lt;a href=&#34;https://herestomwiththeweather.com&#34;&gt;herestomwiththeweather.com&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;I got the Indieweb Jekyll Theme (^^^ this site uses), here:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://herestomwiththeweather.com/2017/11/27/jekyll-indieweb-and-micropub/&#34;&gt;Jekyll-Indieweb and Micropub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://herestomwiththeweather.com/2016/09/26/you-can-favorite-an-indieweb-post-with-twitter/&#34;&gt;favorite an indieweb post with twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://herestomwiththeweather.com/2016/09/25/blog-moved-to-github-pages/&#34;&gt;Blog Moved to GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://herestomwiththeweather.com/2018/06/28/indieweb-summit-2018-thoughts/&#34;&gt;Indieweb Summit 2018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;m excited too because Tom was at the &lt;a href=&#34;https://herestomwiththeweather.com/2015/10/28/iiw21/&#34;&gt;IIW where RWoT was first presented&lt;/a&gt;, and many others.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re been on this site for very long, you&amp;rsquo;ll notice that I&amp;rsquo;m quite passionate about &lt;a href=&#34;https://infominer.id/DIDecentralized&#34;&gt;Decentralized Identity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;web-apps&#34;&gt;Web Apps&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://micropublish.net/&#34;&gt;https://micropublish.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quill.p3k.io/&#34;&gt;https://quill.p3k.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://omnibear.com/&#34;&gt;https://omnibear.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;static-sites&#34;&gt;Static Sites&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.growdigital.org/posts/static-site-generators-the-indieweb/&#34;&gt;Static Site Generators &amp;amp; the IndieWeb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vincentp.me/articles/2018/11/14/20-00/&#34;&gt;Implementing the Indieweb on a static website&lt;/a&gt; - Sending and receiving Webmentions and Micropub on a static site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;github&#34;&gt;Github&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wordius.com/jekyll-and-the-indieweb/&#34;&gt;Jekyll and the Indieweb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/voxpelli/webpage-micropub-to-github/&#34;&gt;voxpelli/webpage-micropub-to-github/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bmann/microglue/issues/5#issuecomment-425662101&#34;&gt;https://github.com/bmann/microglue/issues/5#issuecomment-425662101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;webmentions&#34;&gt;Webmentions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aaronparecki.com/2018/06/30/11/your-first-webmention&#34;&gt;Your First Webmention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webmention.herokuapp.com/&#34;&gt;https://webmention.herokuapp.com/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bmann/webpage-webmentions&#34;&gt;bmann/webpage-webmentions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://herestomwiththeweather.com/2017/06/19/sending-webmentions-from-travis-ci-using-jekyll-indieweb-on-netlify/&#34;&gt;Sending Webmentions from Travis CI using Jekyll Indieweb on Netlify&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vincentp.me/articles/2018/11/15/21-30/&#34;&gt;Tweaking Frontmatter for sent Webmentions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://micro.blog&#34;&gt;micro.blog&lt;/a&gt;, which has mobile apps for webmentions. Sign up on thier website and then get the app (but it costs $$ so I&amp;rsquo;ll probably try something else).
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manton.org/2018/10/09/webmention-improvements-on.html&#34;&gt;Webmention improvements on Micro.blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;indieauth&#34;&gt;IndieAuth&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aaronparecki.com/2018/12/10/28/indieauth&#34;&gt;aaronparecki.com - indieauth&lt;/a&gt;
+&amp;gt;This morning I gave a brief talk about IndieAuth at the @W3C Strong Authentication and Identity workshop. I just finished transcribing the recording and published the slides and video!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/EeCNlB7v08I&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/IndieAuth&#34;&gt;IndieAuth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieauth.com/pgp&#34;&gt;https://indieauth.com/pgp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://herestomwiththeweather.com/2017/09/24/indieauth-with-yubikey/&#34;&gt;IndieAuth with YubiKey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indielogin.com/setup&#34;&gt;https://indielogin.com/setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tokens.indieauth.com/&#34;&gt;tokens.indieauth.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieauth.spec.indieweb.org/&#34;&gt;indieauth.spec.indieweb.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/token-endpoint#Creating_a_token_endpoint&#34;&gt;https://indieweb.org/token-endpoint#Creating_a_token_endpoint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;install-indieauth-server&#34;&gt;Install IndieAuth Server&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/barryf/acquiescence&#34;&gt;barryf/acquiescence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Inklings-io/selfauth&#34;&gt;Inklings-io/selfauth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/authorization-endpoint&#34;&gt;Build Your own&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;micropub&#34;&gt;Micropub&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/Micropub&#34;&gt;Micropub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/voxpelli/webpage-micropub-to-github/&#34;&gt;voxpelli/webpage-micropub-to-github/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bmann/microglue/issues/5#issuecomment-425662101&#34;&gt;bmann/microglue/issues/5 - Getting micropub working&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/muan/micropub-content&#34;&gt;muan/micropub-content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gregorlove.com/2018/07/micropub-properties-for-indiebookclub/&#34;&gt;Micropub Properties for Indiebookclub/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/micropub-endpoint&#34;&gt;indieweb.org/micropub-endpoint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;chat&#34;&gt;Chat&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb:matrix.org&#34;&gt;riot.im/ #freenode_#indieweb:matrix.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discord.gg/ahTuPMY&#34;&gt;Source Crypto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gdpr&#34;&gt;GDPR&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ascraeus.org/micro/1525556293/&#34;&gt;https://ascraeus.org/micro/1525556293/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;wordpress&#34;&gt;Wordpress&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/WordPress/Themes&#34;&gt;WordPress/Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Xo29yq7d4is&#34;&gt;IndieWeb with Wordpress Tutorial: Themes and Microformats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://herestomwiththeweather.com/2018/08/25/great-success-with-twentysixteen-indieweb-wordpress-theme/&#34;&gt;Great Success With TwentySixteen Indieweb Wordpress Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://herestomwiththeweather.com/2019/03/17/indieweb-reader-access-with-wordpress-on-shared-hosting/&#34;&gt;Indieweb Reader Access with WordPress on Shared Hosting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/chrisaldrich/2016-child-theme-for-indieweb&#34;&gt;chrisaldrich/2016-child-theme-for-indieweb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dshanske/indieweb-post-kinds&#34;&gt;dshanske/indieweb-post-kinds&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;adds support for responding to and interacting with other sites using the standards developed by the Indieweb Community. &lt;a href=&#34;https://wordpress.org/plugins/indieweb-post-kinds/&#34;&gt;https://wordpress.org/plugins/indieweb-post-kinds/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;indiewebcamp&#34;&gt;IndieWebCamp&lt;/h2&gt;
+
+&lt;h3 id=&#34;p2p-websites-with-dat-indiewebcamp-austin-2019&#34;&gt;p2p websites with Dat - IndieWebCamp Austin 2019&lt;/h3&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/mpA1gWL2fok&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;web-hosting-and-migration-indiewebcamp-austin&#34;&gt;Web Hosting and Migration - IndieWebCamp Austin&lt;/h3&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VrgzvetbH7o&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Using PGP and Cryptocurrency Keysignatures</title>
       <link>https://infominer.id/web-work/posts/practical-public-key-crypto/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
@@ -1947,15 +2274,6 @@ How much reach and social authority do your followers and the people you want to
 
 &lt;p&gt;&lt;strong&gt;Source: &lt;a href=&#34;https://github.com/infominer33/WebWork&#34;&gt;infominer33/WebWork&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>GitHub Pages-Extended Resources</title>
-      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -2958,10 +3276,10 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     
     <item>
       <title>Introducing Indigo</title>
-      <link>https://infominer.id/web-work/introducing-indigo/</link>
+      <link>https://infominer.id/web-work/indigo-intro/</link>
       <pubDate>Mon, 01 Oct 2018 09:00:00 -0400</pubDate>
       
-      <guid>https://infominer.id/web-work/introducing-indigo/</guid>
+      <guid>https://infominer.id/web-work/indigo-intro/</guid>
       <description>&lt;p&gt;Indigo is a lightweight theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; features baked in. It&amp;rsquo;s great for longer-form blogging, placing its focus on distraction-free reading and beautiful typefaces.&lt;/p&gt;
 
 &lt;h2 id=&#34;indieweb-features&#34;&gt;IndieWeb features&lt;/h2&gt;
@@ -3033,10 +3351,10 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     
     <item>
       <title>Featured Typefaces</title>
-      <link>https://infominer.id/web-work/featured-typefaces/</link>
+      <link>https://infominer.id/web-work/typefaces/</link>
       <pubDate>Mon, 01 Oct 2018 08:30:00 -0400</pubDate>
       
-      <guid>https://infominer.id/web-work/featured-typefaces/</guid>
+      <guid>https://infominer.id/web-work/typefaces/</guid>
       <description>&lt;p&gt;Indigo uses a combination of three beautiful typefaces to render your words.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -3082,10 +3400,10 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     
     <item>
       <title>Author Bios</title>
-      <link>https://infominer.id/web-work/author-bios/</link>
+      <link>https://infominer.id/web-work/authors/</link>
       <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
       
-      <guid>https://infominer.id/web-work/author-bios/</guid>
+      <guid>https://infominer.id/web-work/authors/</guid>
       <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;
 
 &lt;h2 id=&#34;setting-up-the-author-bio&#34;&gt;Setting up the author bio&lt;/h2&gt;

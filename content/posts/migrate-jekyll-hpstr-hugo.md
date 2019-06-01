@@ -11,7 +11,9 @@ excerpt: >
 
   This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, *or* Hugo to Jekyll.
 aliases:
-  - /migrate-jekyll-hpstr-hugo/
+  - /posts/migrate-jekyll-hpstr-hugo/
+slug: /migrate-jekyll-hpstr-hugo/
+
 ---
 
 I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.

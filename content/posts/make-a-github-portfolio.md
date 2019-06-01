@@ -6,7 +6,8 @@ date: 2019-05-27
 tags: [github, repositories, open source, portfolio, github-pages]
 
 aliases:
-  - /make-a-github-portfolio/
+  - /posts/make-a-github-portfolio/
+slug: /make-a-github-portfolio/
 image:
   feature: /images/infominer33-github-portfolio.jpeg
   thumb: /images/infominer33-github-portfolio.jpeg

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Static Sites on Webwork.tools</title>
+    <link>https://infominer.id/web-work/tags/static-sites/</link>
+    <description>Recent content in Static Sites on Webwork.tools</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>⧉ Infominer creativecommons.org/publicdomain/zero/1.0/  ⧉ Powered by themes.gohugo.io/indigo/ via: github.com/gohugoio/hugo</copyright>
+    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://infominer.id/web-work/tags/static-sites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Indieweb Github Repositories</title>
+      <link>https://infominer.id/web-work/posts/github-repositories/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-repositories/</guid>
+      <description>github.com/miklb  miklb/webpage-micropub-to-github -forked from voxpelli/webpage-micropub-to-github miklb/jekyll-indieweb  forked.yannick.io/miklb/jekyll-indieweb  miklb/node-micropub-express- forked from voxpelli/node-micropub-express - Provides a Micropub route for Express 4.x miklb/mf2_s- Microformats 2 Version of Underscores Starter Theme with Indieweb Support miklb/hubot-github-issue-lookup -forked from SimplyBuilt/hubot-github-issue-lookup  miklb - WordPress  miklb/wordpress-indieweb-press-this- from indieweb/wordpress-indieweb-press-this.  some IndieWeb magic for WordPress&amp;rsquo; &amp;ldquo;press this&amp;rdquo; bookmarklet.  miklb/wordpress-indieweb- Microformats 2 Version of Underscores Starter Theme with Indieweb Support  github.com/indieweb 101  indieweb/indieweb.</description>
+    </item>
+    
+  </channel>
+</rss>
