@@ -1,13 +1,13 @@
 ---
-layout: post
+type: post
 title: "Migrating from Jekyll HPSTR to Hugo."
 description: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo."
+
 tags: [hpstr, jekyll, hugo, theme, migration]
 image:
   thumb: /images/jkyll-hpstr-hugo.png
   feature: jkyll-hpstr-hugo.png
-modified: 2019-06-01T13:15:59-23:00
-
+modified: 2019-06-01
 published: false
 ---
 
@@ -76,7 +76,7 @@ perfect. if that wasn't successful, I'd check to be sure Hugo was in my path. Bu
 
 ### Google Search by Date
 
-Now that I'm thinking in the right timespan, and fully realize that newer directions will get me nowhere with this theme. I will remember keep my search from 2016-2017, when having trouble with a given feature. Only expanding my search radius if I'm reallly trying. 
+Now that I'm thinking in the right timespan, and fully realize that newer directions will get me nowhere with this theme. I will try and stick with the guides from that time. 
 
 That's all assuming this is successful :D
 
@@ -188,6 +188,10 @@ $ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
 
 So now, I have themes as a subdirectory in the root directory of this site `/web-work/themes/` and I'll just plug away.
 
+## Example Site
+
+Once you have the `themes/hpstr` 
+Next, you need to configure your site and add some content. We provide a complete example site under the folder exampleSite. All you need to do is copy the contents of that folder into the main hugo site folder so that it looks something like this
 
 ## Content
 

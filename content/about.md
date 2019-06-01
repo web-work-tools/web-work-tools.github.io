@@ -1,10 +1,10 @@
 ---
-layout: page
+type: page
 title: "⧉Info⧉"
 image:
   feature: info-id.png
-comments: false
-modified: 2019-05-22T13:15:59-23:00
+weight: -1
+modified: 2019-05-22
 ---
 
 As you can see, I've been busy. That's 8 different websites, all published to the same domain.

@@ -1,11 +1,22 @@
 ---
-layout: page
+type: page
 title: "Info-Logistics"
 description: "Research Driven Customer Service, Content Creation, and Web Publishing."
 image:
   feature: web-work-tools.png
 share: true
-modified: 2019-05-26T13:15:59-23:00
+modified: 2019-05-26
+---
+
+---
+type: page
+title: Theme Setup
+description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
+image:
+  feature: /images/abstract-11.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+share: true
 ---
 
 I've gradually eliminated all of my clients from the time where I was primarily creating content for hire. As I learn more publishing skills, I can see that there is more value in that type of work. 

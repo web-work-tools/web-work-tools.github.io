@@ -1,13 +1,13 @@
 ---
-layout: post
+type: post
 title: "Learn SEO"
 description: "Building Blocks of SEO? Keywords- Content - Internal linking - Site Structure - A Multitude of Technical Optimizations."
+
 tags: [resources, seo]
 image:
   thumb: /images/organic-seo-drive-traffic.jpg
   feature: organic-seo-drive-traffic.jpg
-modified: 2019-05-23T13:15:59-23:00
-
+modified: 2019-05-23
 
 ---
 
