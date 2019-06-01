@@ -1,27 +1,46 @@
-baseurl = "https://infominer.id/web-work"
-languageCode = "en-gb"
-title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
-theme = "indigo"
-pluralizelisttitles = false
-PygmentsCodeFences = true
-Paginate = 5
-disqusShortname = "infominer"
 publishdir = "docs"
 enableEmoji = true
-[params]
-	subtitle = "Digital Tools for a Digital Transformation."
-	[params.author]
-		name = "⧉ Infominer"
-		avatar = "/images/info-id.png"
-		bio = "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
-		github = "infominer33/web-work"
-	[params.image]
-	  feature = "/images/web-work-tools.png"
 
 [twitter]
   card = "summary_image_large"
   site = "@infominer33"
   creator = "@infominer33"
-  title =  "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+  
+
+baseurl = "https://infominer.id/web-work"
+title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+copyright = "⧉ [infominer](https://infominer.id) ⧉ [Creative Commons (CC0 1.0) Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) ⧉ Powered by [Indigo](https://themes.gohugo.io/indigo/) via [Hugo]() [Github Pages](https://infominer.id/gh-pages-starter-pack.html). ⧉</span>
+"
+languageCode = "en-gb"
+theme = "indigo"
+paginate = 3
+
+[params]
+  Author = "Infominer"
   description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content."
-  image = "/images/web-work-tools.png"
+  Subtitle = "A subtitle for your site"
+  image = "images/web-work-tools.png"
+  Biography = "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
+  ShowBio = true
+  PermalinkText = "🔗"
+
+  # Contact/social-network identifiers for social icons
+  EmailAddress = "infominer@protonmail.com"
+  GitHubUser = "infominer33"
+  GitLabUser = "infominer33"
+  KeybaseUser = "infominer"
+  MicroBlogUser = "infominer"
+  RedditUser = "infominer33"
+  StackOverflowUser = "infominer33"
+  TwitterUser = "infominer33"
+
+  # These are parameters used for indieweb identity. You should set these along
+  # with the above email/social network parameters.
+  [params.indieWeb]  
+    EmailAddress = "infominer@protonmail.com"
+    FlickrUser = #"FlickrUserName"
+    GitHubUser = "infominer33"
+    TwitterUser = "infominer33"
+    MicroBlogUser = "infominer"
+    Country = "Stateless"
+    City = "Marginalized"

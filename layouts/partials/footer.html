@@ -1,0 +1,48 @@
+<!-- Footer content -->
+    {{ if .Site.Params.ShowBio }}
+    <div class="h-card">
+      <img class="u-photo" src="{{ .Site.BaseURL }}{{ .Site.Params.Avatar }}" />
+      <div class="card-content">
+        <h2 class="card-name"><a class="p-name u-url" href="{{ .Site.BaseURL }}" rel="me">{{ .Site.Params.Author }}</a></h2>
+        <p class="card-subhead">
+          <span class="p-locality">{{ .Site.Params.IndieWeb.City }}</span>,
+          <span class="p-country-name">{{ .Site.Params.IndieWeb.Country }}</span><br />
+          <a class="u-email" href="mailto:{{ .Site.Params.IndieWeb.EmailAddress }}">Email me</a>
+        </p>
+      </div>
+      <p class="p-note">{{ .Site.Params.Biography }}</p>
+    </div>
+    {{ end }}
+    <div id="footer">
+      {{ if or (.Prev) (.Next) }}
+      <nav id="article-skip">
+        <div class="prev">
+          {{ if and (.Prev) (not .Params.Menu) }}
+          <a alt="Newer article" href="{{ .Prev.Permalink }}">&larr; Newer</a>
+          {{ else }}
+          <p>&nbsp;</p>
+          {{ end }}
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="next">
+          {{ if and (.Next) (not .Params.Menu) }}
+          <a alt="Older article" href="{{ .Next.Permalink }}">Older &rarr;</a>
+          {{ else }}
+          <p>&nbsp;</p>
+          {{ end }}
+        </div>
+      </nav>
+      {{ end }}
+      {{ partial "social.html" . }}
+      {{ with .Site.Copyright }}
+      <p class="copyright">
+          {{ . }}
+      </p>
+      {{ end }}
+    </div>
+
+<!-- Close the body/html document -->
+</body>
+</html>
