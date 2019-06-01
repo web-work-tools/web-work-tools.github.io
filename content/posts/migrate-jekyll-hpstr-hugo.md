@@ -97,7 +97,7 @@ Now this is nice because you can get various releases of snap packages through t
 
 Once it's installed, type I `hugo version` and read:
 
-`Hugo Static Site Generator v0.17 BuildDate: 2016-10-07T10:46:29-04:00`
+![](https://imgur.com/0kxcUkf.png)
 
 perfect!!
 
@@ -117,14 +117,14 @@ $ cd themes
 $ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
 ```
 
-So now, I have themes as a subdirectory in the root directory of this site `/web-work/themes/` and I'll just plug away.
+and you will see `hpster` located in: `/web-work/themes/hpstr`.
 
 ## Example Site
 
 Once you have the `newProject/themes/hpstr` you'll find the folder `exampleSite` in the `hpstr` directory. 
 
 
-Just Copy the contents of `exampleSite` to the root of `newProject` over and test it to see if it will run.
+Just Copy the contents of `exampleSite` to the root of `newProject`, and test to see if it will run.
 
 `$ hugo`
 
@@ -147,17 +147,33 @@ total in 100 ms
 
 Unless you get that print-out, don't bother changing your whole sites configuration just yet.
 
-Make sure you placed the contents of `exampleSite` into the root of your project directory, and that you have your directories structured properly.
+Make sure you placed the contents of `exampleSite` into the root of your project directory, and that your directories are structured properly.
 
 If you did everything right and it still won't build, then I would shop around to different releases in that same time period to see if I could get one to work.
 
+Just to be sure! I'll test the server, also, and see that I get a website.
+
+`$ hugo server`
+
+```
+Started building sites ...
+Built site for language en:
+0 draft content
+0 future content
+0 expired content
+10 pages created
+0 non-page files copied
+15 paginator pages created
+9 tags created
+0 categories created
+total in 61 ms
+Watching for changes in /newProject/ {data,content,static,themes}
+```
+
+Yay!!!
 
 
-## Directory Structure
-
-Now that we've covered some of the backgraound, lets forget about that stuff for a moment, and think about files and folders.
-
-That's what we came to SSG for, right? Ok!
+## Directory Structure HPSTR Jekyll vs Hugo
 
 ### [mmistakes.github.io/hpstr-jekyll-theme/theme-setup/](https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/)
 ![](https://imgur.com/EBIdUUo.png)
@@ -165,76 +181,10 @@ That's what we came to SSG for, right? Ok!
 ### [hpstr-hugo-theme/theme-setup](https://dldx.org/hpstr-hugo-theme/theme-setup/#setup:b8b08bb87737c3c5c8e714d4f8821e60)
 ![](https://imgur.com/nnI1lou.png)
 
-What we're going to do is make a test branch of our repository... so we can see about getting hugo to run over there, and if successful then we'll learn how to merge this test branch back over.
 
-## Checkout test branch
+## In with the new.
 
-Use the command `git checkout -b` will allow you to create a local branch for testing.
-
-I will call my new branch `test-hugo` so the command will be like so:
-
-`git checkout -b test-hugo`
-
-### Some git basics for newbs like me
-
-* [Git Branching and Merging](https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging)
-
-Git keeps track of all your files, but not just the files, but everything in the repository. 
-
-Every commit, git remembers.
-
-> "yes yes I know"
-
-However, it really boggled my mind the first time I tried it locally. 
-
-I can change to a branch or another point in the history of this repository, and git tucks away the one I'm working on... and the whole directory changes and like wait... 
-
->where did all my files just go? 
-
-When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain :rofl:
-
-**Git is Magic!** 
-
-it sure felt that way the first time I experienced it, and today still I have a sense of mystery and wonder around Git, thought I know it's technical, and not mystical in nature.
-
-but you don't need github at all, and I'm learning that a significant portion, perhaps a majority, <!--findsource--> of git repositories are never exposed to the public. 
-
-`git checkout -b` is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!
-
-* [More Git Resources](https://infominer.id/web-work/github-pages-starter-pack/#git) >>
-
-## Out with the Old
-
-Anything that I didn't personally customize is gone from the test branch. 
-
-**I kept**:
-  * posts
-  * pages
-  * images
-  * data files
-  * favicon
-  * README.md
-  * _config.yml 
-  * .gitignore
-
-
-**HPSTR-Hugo Directory Structure**
-![](https://imgur.com/nnI1lou.png)
->This should be enough to get a working website!
-
-What I'm thinking is that those folders in the root `assets` directory would be empty unless I'm adding some custom feature.
-
-So I can see that my `_posts` directory will now be called `posts`, and live in the `content` directory. That's simple enough.
-
-### Side-by-Side
-
-![](https://imgur.com/pjmxjDT.png) ![](https://imgur.com/Y9YDq42.png)
-
-The about that  and services folder are just where I'm keeping html and will be moved later. 
-
-Now one part of my directory that looks like Hugo!!! woot! :)
-
-
+Now, it's simply moving over the content, and swapping out some frontmatter, and configuration formating.
 
 ## Content
 
@@ -307,7 +257,9 @@ url = "http://infominer.id/"
 
 ## Frontmatter
 
-The main differences are using `type` rather than `layout`, and that hugo uses the `date` frontmatter to signify publication date, rather than hardcoding it into the title.
+**The main differences**: 
+* using `type` rather than `layout`
+* using the frontmatter variable `date` to signify publication date, rather than hardcoding it into the title.
 
 ### HPSTR-Jekyll
 
@@ -354,8 +306,6 @@ Now we are getting places! Next step is to copy the `config.toml` from the root 
 This is the final stretch, and we should be good to go 
 
 ![](https://imgur.com/za5VOLr.png)
-
-phew. ok, I feel good. let me rename the config.yml to config.tmp. Not sure if that makes a difference to hugo, but it does to me.
 
 
 
