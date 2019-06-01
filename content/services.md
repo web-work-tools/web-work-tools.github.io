@@ -8,17 +8,6 @@ share: true
 date: 2019-05-26
 ---
 
----
-type: page
-title: Theme Setup
-description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
-image:
-  feature: /images//images/abstract-11.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-share: true
----
-
 I've gradually eliminated all of my clients from the time where I was primarily creating content for hire. As I learn more publishing skills, I can see that there is more value in that type of work. 
 
 I'd be more interested to write for you if you want me to set up your website. Regardless, I'll be happy to consider any offers.

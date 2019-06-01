@@ -40,7 +40,7 @@ Interestingly, but nice to see, there are currently 0 open pull request or issue
 [![](https://imgur.com/jNTAlGt.png)](https://github.com/mmistakes/hpstr-jekyll-theme/releases)
 [![](https://imgur.com/dvapj4y.png)](https://github.com/dldx/hpstr-hugo-theme/releases)
 
-### Commits
+### Root Directories
 
 ![](https://imgur.com/obcGfNc.png)
 ![](https://imgur.com/KZQODtU.png)
@@ -349,7 +349,7 @@ I'll get web-mentions and the like soon!
 
 * [web.archive.org - Installing Hugo v0.17](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
 * [web.archive.org - Using Hugo v0.17](http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/)
-* [Creating a Test Branch and Merging changes back to Master](/branches-git/)
+* [Creating a Test Branch and Merging changes back to Master](https://infominer.id/web-work/branches-git/)
 
 ## Over the Rainbow
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)
