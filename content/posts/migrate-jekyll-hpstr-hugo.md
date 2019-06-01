@@ -386,6 +386,9 @@ Even if I change this web-site to a different theme or SSG, I made a branch to s
 * https://github.com/infominer33/web-work/tree/test-hugo
 * https://github.com/infominer33/web-work/tree/hpster-jekyll
 
+## Check Back In
+
+I'll be updating this post a lot as I learn new things about Hugo, until the resources branch off into their own post.
 
 ## Resources
 
