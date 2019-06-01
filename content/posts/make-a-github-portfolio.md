@@ -5,7 +5,8 @@ description: "How to make a Portfolio for your GitHub repositories with `github/
 date: 2019-05-27
 tags: [github, repositories, open source, portfolio, github-pages]
 
-
+aliases:
+  - /make-a-github-portfolio/
 image:
   feature: /images/infominer33-github-portfolio.jpeg
   thumb: /images/infominer33-github-portfolio.jpeg

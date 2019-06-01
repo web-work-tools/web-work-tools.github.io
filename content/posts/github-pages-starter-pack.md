@@ -5,8 +5,8 @@ description: "Publishing a Website via GitHub pages is free, and easy. Everythin
 
 tags: [jekyll, github-pages, resources, web-publishing]
 date: 2019-02-24
-
-redirect_from: gh-pages-starter-pack/
+aliases:
+  - /github-pages-starter-pack/
 image:
   feature: /images/github-pages-jekyll-starter-pack.png
 ---

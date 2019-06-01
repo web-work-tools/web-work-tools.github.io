@@ -4,7 +4,8 @@ title: "Static Site Generators"
 description: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
 date: 2019-05-25
 tags: [static site generators, tools, resources, CI\CD]
-
+aliases:
+  - /static-site-generators/
 image:
   feature: /images/devopedia-static-site-generators.jpg
   credit: Devopedia.org

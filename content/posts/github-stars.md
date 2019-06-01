@@ -4,7 +4,8 @@ title: "Infominer's Starred GitHub Repositories"
 description: "An organized list of Repositories."
 date: 2019-05-26
 tags: [github, stars, repositories, open source]
-
+aliases:
+  - /github-stars/
 
 image:
   feature: /images/infominer-starred-repositories-head.png
