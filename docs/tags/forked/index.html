@@ -1,305 +1,243 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<html lang="en-gb">
 <head>
-<meta charset="utf-8">
-<title>Forked &#8211; Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
-<meta name="description" content="">
-
+    <meta charset="utf-8">
     
+    <title>Webwork.tools</title>
+    <meta name="description" content="{Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto.">
+    <meta name="author" content="Infominer">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="me" href="mailto:infominer@protonmail.com">
+    <link rel="me" href="https://github.com/infominer33">
+    <link rel="me" href="https://twitter.com/infominer33">
+    <link rel="me" href="https://micro.blog/infominer">
+    
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    
+    <style type="text/css">@font-face{
+    font-family: 'Fira Code';
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.ttf') format('truetype');
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.ttf') format('truetype');
+    font-display: optional;
+}
 
-<meta name="twitter:title" content="Forked">
-<meta name="twitter:description" content="Digital Tools for a Digital Transformation.">
-
-
-
-
-<meta property="og:type" content="article">
-<meta property="og:title" content="Forked">
-<meta property="og:description" content="Digital Tools for a Digital Transformation.">
-<meta property="og:url" content="https://infominer.id/web-work/tags/forked/">
-<meta property="og:site_name" content="Webwork.tools: Independent Web-Work and Skyscraper Publishing.">
-
-
-
-  <meta property="og:updated_time" content="2019-05-29T00:00:00&#43;00:00"/>
-
-
-
-
-
-<link rel="canonical" href="https://infominer.id/web-work/tags/forked/">
-
-  <link href="https://infominer.id/web-work/tags/forked/index.xml" rel="alternate" type="application/rss+xml" title="Webwork.tools: Independent Web-Work and Skyscraper Publishing." />
-  <link href="https://infominer.id/web-work/tags/forked/index.xml" rel="feed" type="application/rss+xml" title="Webwork.tools: Independent Web-Work and Skyscraper Publishing." />
-
-
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<link rel="stylesheet" href="/web-work/css/main.css">
-
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
-
-<meta http-equiv="cleartype" content="on">
-
-<meta name="generator" content="Hugo 0.31.1" />
-
-<script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
-
-
-<link rel="shortcut icon" href="/web-work/favicon.png">
-
-
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+</style>
+    <link rel="stylesheet" href="https://infominer.id/web-work/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-<body id="post-index" >
-<nav id="dl-menu" class="dl-menuwrapper" role="navigation" style="display:inline-block">
-	<button class="dl-trigger">Open Menu</button>
-	<ul class="dl-menu">
-		<li><a href="/web-work/">Home</a></li>
-		<li>
-			<a href="#">About</a>
-			<ul class="dl-submenu">
-			
-				<li>
-					
-					<img src="/web-work/images/info-id.png" alt="⧉ Infominer's photo" class="author-photo">
-					
-					<h4>⧉ Infominer</h4>
-					<p>Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉</p>
-				</li>
-				<li><a href="/web-work/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-				
-				
-				
-				
-				
-				<li>
-					<a href="https://github.com/infominer33/web-work"><i class="fa fa-fw fa-github"></i> GitHub</a>
-				</li>
-				
-				
-				
-				
-			
-			</ul>
-		</li>
-		<li>
-			<a href="#">Posts</a>
-			<ul class="dl-submenu">
-				<li><a href="/web-work/posts/">All Posts</a></li>
-				<li><a href="/web-work/tags/">All Tags</a></li>
-			</ul>
-		</li>
-		
-	    <li><a href="/web-work/posts/webwork.tools/" >Webwork.tools</a></li>
-	  
-	    <li><a href="/web-work/posts/services/" >Services</a></li>
-	  
-	    <li><a href="/web-work/posts/seo-tools/" >Mostly Free SEO Tools</a></li>
-	  
-	    <li><a href="/web-work/posts/github-pages-starter-pack/" >GitHub Pages Starter Pack</a></li>
-	  
-	    <li><a href="/web-work/posts/practical-public-key-crypto/" >Practical Public Key Crypto</a></li>
-	  
-	    <li><a href="http://infominer.id/indieweb/" target="_blank">IndieWeb</a></li>
-	  
-	    <li><a href="http://infominer.id/" target="_blank">InfoMine</a></li>
-	  
-	</ul>
-</nav>
-
-<div class="entry-header">
-  
-  <div class="header-title">
-    <div class="header-title-wrap">
-		<h1><a href="/" title="Go to the homepage">Webwork.tools: Independent Web-Work and Skyscraper Publishing.</a></h1>
-	  <h2>
-            
-            
-              Forked
-            
-          </h2>
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="https://infominer.id/web-work/"><img src="https://infominer.id/web-work/images/site-logo.svg" alt="Site Logo" height="64px" width="64px"></a>
     </div>
-  </div>
+    <header>        
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="https://infominer.id/web-work/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/about-the-theme/">
+                    
+                    <span>About The Theme</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/adding-menu-items/">
+                    
+                    <span>Adding Page Items</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+        <div id="site-header">
+            <h1>Webwork.tools</h1>
+            
+            <p>
+              Independent Web-Work and Skyscraper Publishing
+            </p>
+            
+        </div>
+        
+    </header>
+<h2>Forked</h2>
+<div id="content">
+
+
+    <article>
+      <header>
+        
+        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/forked-repositories/">Infominer&#39;s Forked Repositores</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2019-05-29T00:00:00Z">
+            29 May, 2019 at 00:00 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        An organized list of my forked repositories.
+Now that I have both forked and starred
+WebPub  artemsheludko/galada - Galada is an easy and simple blog theme for Jekyll. github/personal-website - A place to track the repositories of infominer. contrafabulists-toolbox/google-sheet-to-github-website - This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source. minicomp/wax - Jekyll for minimal exhibitions with IIIF bee weskerfoot/KettleBlog - A full featured blog in RiotJS poole/lanyon - A content-first, sliding sidebar theme for Jekyll.
+      </div>
+      
+      <p><a class="read-more" href="https://infominer.id/web-work/posts/forked-repositories/">Read more &rarr;</a></p>
+      
+    </article>
+
 </div>
 
-<div id="main" role="main">
-
-<article class="hentry">
-  <header>
     
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/forked-repositories/" title="Infominer&#39;s Forked Repositores"><img src="/web-work/images/infominer-forked-repositories.png" alt="Infominer&#39;s Forked Repositores"></a>
+    <div class="h-card">
+      <img class="u-photo" src="https://infominer.id/web-work/images/infominer.svg" />
+      <div class="card-content">
+        <h2 class="card-name"><a class="p-name u-url" href="https://infominer.id/web-work/" rel="me">Infominer</a></h2>
+        <p class="card-subhead">
+          <span class="p-locality">Marginalized</span>,
+          <span class="p-country-name">Stateless</span><br />
+          <a class="u-email" href="mailto:infominer@protonmail.com">Email me</a>
+        </p>
       </div>
+      <p class="p-note">Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉</p>
+    </div>
     
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-05-29 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/forked-repositories/">May 29, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~3 minutes
-      </span>
+    <div id="footer">
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:infominer@protonmail.com"><img src="https://infominer.id/web-work/icons/envelope.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/infominer33"><img src="https://infominer.id/web-work/icons/github.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitLab profile" href="https://gitlab.com/infominer33"><img src="https://infominer.id/web-work/icons/gitlab.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Keybase profile" href="https://keybase.io/infominer"><img src="https://infominer.id/web-work/icons/keybase.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/infominer"><img src="https://infominer.id/web-work/icons/microblog.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Reddit profile" href="https://www.reddit.com/user/infominer33"><img src="https://infominer.id/web-work/icons/reddit-alien.svg" height="24px" width="24px" /></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Stack Overflow profile" href="https://stackoverflow.com/users/infominer33"><img src="https://infominer.id/web-work/icons/stack-overflow.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Twitter profile" href="https://twitter.com/infominer33"><img src="https://infominer.id/web-work/icons/twitter.svg" height="24px" width="24px"></a>
+     </div>
+     
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          ⧉ &lt;a href=&#39;https://creativecommons.org/publicdomain/zero/1.0/&#39;&gt;Website Content Creative Commons (CC0 1.0) Public Domain&lt;/a&gt; by &lt;a href=&#39;https://infominer.id&#39;&gt;Infominer&lt;/a&gt;. ⧉ Powered by &lt;a href=&#39;https://themes.gohugo.io/indigo/&#39;&gt;Indigo&lt;/a&gt; via &lt;a href=&#39;https://github.com/gohugoio/hugo/releases/tag/v0.51&#39;&gt;Hugo&lt;/a&gt; and &lt;a href=&#39;https://infominer.id/gh-pages-starter-pack.html&#39;&gt;Github Pages&lt;/a&gt;.
+      </p>
       
     </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/forked-repositories/" rel="bookmark" title="Infominer&#39;s Forked Repositores" itemprop="url">Infominer&#39;s Forked Repositores</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<p>An organized list of my forked repositories.</p>
-
-<p>Now that I have both forked <a href="https://infominer.id/web-work/infominer33-starred-repos/">and starred</a></p>
-
-<h2 id="webpub">WebPub</h2>
-
-<ul>
-<li><a href="https://github.com/artemsheludko/galada">artemsheludko/galada</a>
-&gt; Galada is an easy and simple blog theme for Jekyll.</li>
-<li><a href="https://github.com/github/personal-website">github/personal-website</a>
-&gt; A place to track the repositories of infominer.</li>
-<li><a href="https://github.com/contrafabulists-toolbox/google-sheet-to-github-website">contrafabulists-toolbox/google-sheet-to-github-website</a>
-&gt; This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source.
-&gt; * <a href="https://github.com/minicomp/wax">minicomp/wax</a>
-&gt; Jekyll for minimal exhibitions with IIIF bee</li>
-<li><a href="https://github.com/weskerfoot/KettleBlog">weskerfoot/KettleBlog</a>
-&gt; A full featured blog in RiotJS</li>
-<li><a href="https://github.com/poole/lanyon">poole/lanyon</a>
-&gt; A content-first, sliding sidebar theme for Jekyll.</li>
-<li><a href="https://github.com/gdamdam/awesome-decentralized-web">gdamdam/awesome-decentralized-web</a>
-&gt; an awesome list of decentralized services and technologies</li>
-<li><a href="https://github.com/Tyrrrz/DiscordChatExporter">Tyrrrz/DiscordChatExporter</a>
-&gt; Exports Discord chat logs to a file</li>
-<li><a href="https://github.com/anaibol/awesome-serverless">anaibol/awesome-serverless</a>
-&gt; cloud A curated list of awesome services, solutions and resources for serverless / nobackend applications.</li>
-<li><a href="https://github.com/toddmotto/public-apis">toddmotto/public-apis</a>
-&gt; A collective list of free APIs for use in software and web development.</li>
-<li><a href="https://github.com/iipc/awesome-web-archiving">iipc/awesome-web-archiving</a>
-&gt; An Awesome List for getting started with web archiving</li>
-<li><a href="https://github.com/fire1ce/3os.org">fire1ce/3os.org</a>
-&gt; Source Code for 3os.org website. The website based on Markdown format, rendered to html and hosted on github-pages</li>
-<li><a href="https://github.com/mmistakes/minimal-mistakes">mmistakes/minimal-mistakes</a>
-&gt; triangular_ruler A flexible two-column Jekyll theme perfect for building personal sites, blogs, and portfolios.</li>
-<li><a href="https://github.com/gristlabs/mkdocs-windmill">gristlabs/mkdocs-windmill</a>
-&gt; Outstanding mkdocs theme with a focus on navigation and usability</li>
-<li><a href="https://github.com/poole/poole">poole/poole</a>
-&gt; The Jekyll Butler.</li>
-<li><a href="https://github.com/mmistakes/hpstr-jekyll-theme">mmistakes/hpstr-jekyll-theme</a>
-&gt; A Jekyll theme with some tumble-log tendencies.</li>
-<li><a href="https://github.com/mnyrop/pagemaster">mnyrop/pagemaster</a>
-&gt; Jekyll plugin for generating Markdown collection pages from CSV/YAML/JSON records 🧙book</li>
-<li><a href="https://github.com/mmistakes/so-simple-theme">mmistakes/so-simple-theme</a>
-&gt; A simple Jekyll theme for words and pictures.</li>
-<li><a href="https://github.com/ChristopherA/jekyll-remote_theme-test">ChristopherA/jekyll-remote_theme-test</a></li>
-<li><a href="https://github.com/ChristopherA/simplest-github-page">ChristopherA/simplest-github-page</a>
-&gt; Test of simplest GitHub page, leveraging Jekyll without Jekyll</li>
-<li><a href="https://github.com/mmistakes/minimal-mistakes-algolia-search">mmistakes/minimal-mistakes-algolia-search</a>
-&gt; Minimal Mistakes Jekyll theme test with Algolia search</li>
-<li><a href="https://github.com/aioobe/dead-simple-jekyll-comments">aioobe/dead-simple-jekyll-comments</a>
-&gt; Dead simple DIY comment system for Jekyll.</li>
-</ul>
-
-<h2 id="tools-n-resources">Tools n Resources</h2>
-
-<ul>
-<li><a href="https://github.com/watson/awesome-computer-history">watson/awesome-computer-history</a>
-&gt; An Awesome List of computer history videos, documentaries and related folklore</li>
-<li><a href="https://github.com/redknight99/annotated-awesome-osint">redknight99/annotated-awesome-osint</a>
-&gt; scream A curated list of amazingly awesome OSINT</li>
-<li><a href="https://github.com/trimstray/the-book-of-secret-knowledge">trimstray/the-book-of-secret-knowledge</a>
-&gt; A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</li>
-<li><a href="https://github.com/chow-petit/awesome-curated-tools">chow-petit/awesome-curated-tools</a>
-&gt; A curated list of digital tools we use, ranging from accounting and data science to scientific research and liquid democracy. Commented, connected, by everyone and for everyone !</li>
-<li><a href="https://github.com/jlevy/the-art-of-command-line">jlevy/the-art-of-command-line</a>
-&gt; Master the command line, in one page</li>
-<li><a href="https://github.com/mozilla/sops">mozilla/sops</a>
-&gt; Secrets management stinks, use some sops!</li>
-<li><a href="https://github.com/theanalyst/awesome-distributed-systems">theanalyst/awesome-distributed-systems</a>
-&gt; A curated list to learn about distributed systems</li>
-<li><a href="https://github.com/chaconnewu/awesome-augmented">chaconnewu/awesome-augmented</a>
-&gt; Centralize all awesome lists with addition info on curated GitHub repos (automated by scripts)</li>
-</ul>
-
-<h2 id="indieweb">Indieweb</h2>
-
-<ul>
-<li><a href="https://github.com/projectpages/project-pages">projectpages/project-pages</a>
-&gt; GitHub Pages for an Indieweb</li>
-<li><a href="https://github.com/voxpelli/webpage-webmentions">voxpelli/webpage-webmentions</a>
-&gt; A hosted Disqus-like comment service that enables WebMention receiving on any kind of site</li>
-</ul>
-
-<h2 id="crypto">Crypto</h2>
-
-<ul>
-<li><a href="https://github.com/denisnazarov/awesome-crypto-trackers">denisnazarov/awesome-crypto-trackers</a>
-&gt; A curated list of crypto project trackers and analytics dashboards.</li>
-<li><a href="https://github.com/ethhub-io/ethhub">ethhub-io/ethhub</a>
-&gt; The essential Ethereum information hub.</li>
-<li><a href="https://github.com/the-domains/gigabitcoin">the-domains/gigabitcoin</a></li>
-<li><a href="https://github.com/cryptoparty/artwork">cryptoparty/artwork</a>
-&gt; a collection of public domain artwork and graphics, where possible, with source files to help others remix and reuse to make slides, handouts and flyers for cryptoparties</li>
-<li><a href="https://github.com/sunnankar/wuc-new">sunnankar/wuc-new</a>
-&gt; We Use Coins website.</li>
-</ul>
-
-<h2 id="decentralized-identity">Decentralized Identity</h2>
-
-<ul>
-<li><a href="https://github.com/Identitywoman/identity-commons">Identitywoman/identity-commons</a>
-&gt; This is a repository for commons resources that can serve the community working on identity.</li>
-<li><a href="https://github.com/WebOfTrustInfo/rwot3-sf">WebOfTrustInfo/rwot3-sf</a>
-&gt; RWOT3 in San Francisco, California (October 2016)</li>
-<li><a href="https://github.com/WebOfTrustInfo/rwot2-id2020">WebOfTrustInfo/rwot2-id2020</a>
-&gt; RWOT2 for the ID2020 UN Summit (May 2016)</li>
-<li><a href="https://github.com/WebOfTrustInfo/rwot1-sf">WebOfTrustInfo/rwot1-sf</a>
-&gt; RWOT1 in San Francisco, California (November 2015)</li>
-<li><a href="https://github.com/hyperledger/indy-docs">hyperledger/indy-docs</a></li>
-<li><a href="https://github.com/WebOfTrustInfo/self-sovereign-identity">WebOfTrustInfo/self-sovereign-identity</a>
-&gt; Articles and documents associated with designing and implementing identity technology using self-sovereign identity principles</li>
-<li><a href="https://github.com/peacekeeper/blockchain-identity">peacekeeper/blockchain-identity</a>
-&gt; Blockchain and Identity</li>
-<li><a href="https://github.com/tyleryasaka/identity-proposals">tyleryasaka/identity-proposals</a></li>
-<li><a href="https://github.com/WebOfTrustInfo/rwot4-paris">WebOfTrustInfo/rwot4-paris</a>
-&gt; RWOT4 in Paris, France (April 2017)</li>
-</ul>
-
-  </div>
-</article>
-
-
-
-
-
-</div>
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    <span> Powered by <a href="https://gohugo.io/" rel="nofollow">Hugo</a> using the <a href="https://github.com/dldx/hpstr-hugo-theme" rel="nofollow">HPSTR theme</a>.</span>
-
-  </footer>
-</div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="\/web-work\/js\/vendor\/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="/web-work/js/scripts.min.js"></script>
-
 
 
 </body>
 </html>
-

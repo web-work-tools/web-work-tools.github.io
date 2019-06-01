@@ -1,1123 +1,291 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<html lang="en-gb">
 <head>
-<meta charset="utf-8">
-<title>Resources &#8211; Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
-<meta name="description" content="">
-
+    <meta charset="utf-8">
     
+    <title>Webwork.tools</title>
+    <meta name="description" content="{Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto.">
+    <meta name="author" content="Infominer">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="me" href="mailto:infominer@protonmail.com">
+    <link rel="me" href="https://github.com/infominer33">
+    <link rel="me" href="https://twitter.com/infominer33">
+    <link rel="me" href="https://micro.blog/infominer">
+    
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    
+    <style type="text/css">@font-face{
+    font-family: 'Fira Code';
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.ttf') format('truetype');
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.ttf') format('truetype');
+    font-display: optional;
+}
 
-<meta name="twitter:title" content="Resources">
-<meta name="twitter:description" content="Digital Tools for a Digital Transformation.">
-
-
-
-
-<meta property="og:type" content="article">
-<meta property="og:title" content="Resources">
-<meta property="og:description" content="Digital Tools for a Digital Transformation.">
-<meta property="og:url" content="https://infominer.id/web-work/tags/resources/">
-<meta property="og:site_name" content="Webwork.tools: Independent Web-Work and Skyscraper Publishing.">
-
-
-
-  <meta property="og:updated_time" content="2019-05-29T00:00:00&#43;00:00"/>
-
-
-
-
-
-<link rel="canonical" href="https://infominer.id/web-work/tags/resources/">
-
-  <link href="https://infominer.id/web-work/tags/resources/index.xml" rel="alternate" type="application/rss+xml" title="Webwork.tools: Independent Web-Work and Skyscraper Publishing." />
-  <link href="https://infominer.id/web-work/tags/resources/index.xml" rel="feed" type="application/rss+xml" title="Webwork.tools: Independent Web-Work and Skyscraper Publishing." />
-
-
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<link rel="stylesheet" href="/web-work/css/main.css">
-
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
-
-<meta http-equiv="cleartype" content="on">
-
-<meta name="generator" content="Hugo 0.31.1" />
-
-<script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
-
-
-<link rel="shortcut icon" href="/web-work/favicon.png">
-
-
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+</style>
+    <link rel="stylesheet" href="https://infominer.id/web-work/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-<body id="post-index" >
-<nav id="dl-menu" class="dl-menuwrapper" role="navigation" style="display:inline-block">
-	<button class="dl-trigger">Open Menu</button>
-	<ul class="dl-menu">
-		<li><a href="/web-work/">Home</a></li>
-		<li>
-			<a href="#">About</a>
-			<ul class="dl-submenu">
-			
-				<li>
-					
-					<img src="/web-work/images/info-id.png" alt="⧉ Infominer's photo" class="author-photo">
-					
-					<h4>⧉ Infominer</h4>
-					<p>Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉</p>
-				</li>
-				<li><a href="/web-work/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-				
-				
-				
-				
-				
-				<li>
-					<a href="https://github.com/infominer33/web-work"><i class="fa fa-fw fa-github"></i> GitHub</a>
-				</li>
-				
-				
-				
-				
-			
-			</ul>
-		</li>
-		<li>
-			<a href="#">Posts</a>
-			<ul class="dl-submenu">
-				<li><a href="/web-work/posts/">All Posts</a></li>
-				<li><a href="/web-work/tags/">All Tags</a></li>
-			</ul>
-		</li>
-		
-	    <li><a href="/web-work/posts/webwork.tools/" >Webwork.tools</a></li>
-	  
-	    <li><a href="/web-work/posts/services/" >Services</a></li>
-	  
-	    <li><a href="/web-work/posts/seo-tools/" >Mostly Free SEO Tools</a></li>
-	  
-	    <li><a href="/web-work/posts/github-pages-starter-pack/" >GitHub Pages Starter Pack</a></li>
-	  
-	    <li><a href="/web-work/posts/practical-public-key-crypto/" >Practical Public Key Crypto</a></li>
-	  
-	    <li><a href="http://infominer.id/indieweb/" target="_blank">IndieWeb</a></li>
-	  
-	    <li><a href="http://infominer.id/" target="_blank">InfoMine</a></li>
-	  
-	</ul>
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="https://infominer.id/web-work/"><img src="https://infominer.id/web-work/images/site-logo.svg" alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>        
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="https://infominer.id/web-work/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/about-the-theme/">
+                    
+                    <span>About The Theme</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/adding-menu-items/">
+                    
+                    <span>Adding Page Items</span>
+                </a>
+            </div>
+        
+    </div>
 </nav>
-
-<div class="entry-header">
-  
-  <div class="header-title">
-    <div class="header-title-wrap">
-		<h1><a href="/" title="Go to the homepage">Webwork.tools: Independent Web-Work and Skyscraper Publishing.</a></h1>
-	  <h2>
+        
+        <div id="site-header">
+            <h1>Webwork.tools</h1>
             
+            <p>
+              Independent Web-Work and Skyscraper Publishing
+            </p>
             
-              Resources
-            
-          </h2>
-    </div>
-  </div>
-</div>
+        </div>
+        
+    </header>
+<h2>Resources</h2>
+<div id="content">
 
-<div id="main" role="main">
 
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/forked-repositories/" title="Infominer&#39;s Forked Repositores"><img src="/web-work/images/infominer-forked-repositories.png" alt="Infominer&#39;s Forked Repositores"></a>
+    <article>
+      <header>
+        
+        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/forked-repositories/">Infominer&#39;s Forked Repositores</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2019-05-29T00:00:00Z">
+            29 May, 2019 at 00:00 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        An organized list of my forked repositories.
+Now that I have both forked and starred
+WebPub  artemsheludko/galada - Galada is an easy and simple blog theme for Jekyll. github/personal-website - A place to track the repositories of infominer. contrafabulists-toolbox/google-sheet-to-github-website - This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source. minicomp/wax - Jekyll for minimal exhibitions with IIIF bee weskerfoot/KettleBlog - A full featured blog in RiotJS poole/lanyon - A content-first, sliding sidebar theme for Jekyll.
       </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-05-29 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/forked-repositories/">May 29, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~3 minutes
-      </span>
       
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/forked-repositories/" rel="bookmark" title="Infominer&#39;s Forked Repositores" itemprop="url">Infominer&#39;s Forked Repositores</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
+      <p><a class="read-more" href="https://infominer.id/web-work/posts/forked-repositories/">Read more &rarr;</a></p>
+      
+    </article>
 
-<p>An organized list of my forked repositories.</p>
 
-<p>Now that I have both forked <a href="https://infominer.id/web-work/infominer33-starred-repos/">and starred</a></p>
 
-<h2 id="webpub">WebPub</h2>
-
-<ul>
-<li><a href="https://github.com/artemsheludko/galada">artemsheludko/galada</a>
-&gt; Galada is an easy and simple blog theme for Jekyll.</li>
-<li><a href="https://github.com/github/personal-website">github/personal-website</a>
-&gt; A place to track the repositories of infominer.</li>
-<li><a href="https://github.com/contrafabulists-toolbox/google-sheet-to-github-website">contrafabulists-toolbox/google-sheet-to-github-website</a>
-&gt; This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source.
-&gt; * <a href="https://github.com/minicomp/wax">minicomp/wax</a>
-&gt; Jekyll for minimal exhibitions with IIIF bee</li>
-<li><a href="https://github.com/weskerfoot/KettleBlog">weskerfoot/KettleBlog</a>
-&gt; A full featured blog in RiotJS</li>
-<li><a href="https://github.com/poole/lanyon">poole/lanyon</a>
-&gt; A content-first, sliding sidebar theme for Jekyll.</li>
-<li><a href="https://github.com/gdamdam/awesome-decentralized-web">gdamdam/awesome-decentralized-web</a>
-&gt; an awesome list of decentralized services and technologies</li>
-<li><a href="https://github.com/Tyrrrz/DiscordChatExporter">Tyrrrz/DiscordChatExporter</a>
-&gt; Exports Discord chat logs to a file</li>
-<li><a href="https://github.com/anaibol/awesome-serverless">anaibol/awesome-serverless</a>
-&gt; cloud A curated list of awesome services, solutions and resources for serverless / nobackend applications.</li>
-<li><a href="https://github.com/toddmotto/public-apis">toddmotto/public-apis</a>
-&gt; A collective list of free APIs for use in software and web development.</li>
-<li><a href="https://github.com/iipc/awesome-web-archiving">iipc/awesome-web-archiving</a>
-&gt; An Awesome List for getting started with web archiving</li>
-<li><a href="https://github.com/fire1ce/3os.org">fire1ce/3os.org</a>
-&gt; Source Code for 3os.org website. The website based on Markdown format, rendered to html and hosted on github-pages</li>
-<li><a href="https://github.com/mmistakes/minimal-mistakes">mmistakes/minimal-mistakes</a>
-&gt; triangular_ruler A flexible two-column Jekyll theme perfect for building personal sites, blogs, and portfolios.</li>
-<li><a href="https://github.com/gristlabs/mkdocs-windmill">gristlabs/mkdocs-windmill</a>
-&gt; Outstanding mkdocs theme with a focus on navigation and usability</li>
-<li><a href="https://github.com/poole/poole">poole/poole</a>
-&gt; The Jekyll Butler.</li>
-<li><a href="https://github.com/mmistakes/hpstr-jekyll-theme">mmistakes/hpstr-jekyll-theme</a>
-&gt; A Jekyll theme with some tumble-log tendencies.</li>
-<li><a href="https://github.com/mnyrop/pagemaster">mnyrop/pagemaster</a>
-&gt; Jekyll plugin for generating Markdown collection pages from CSV/YAML/JSON records 🧙book</li>
-<li><a href="https://github.com/mmistakes/so-simple-theme">mmistakes/so-simple-theme</a>
-&gt; A simple Jekyll theme for words and pictures.</li>
-<li><a href="https://github.com/ChristopherA/jekyll-remote_theme-test">ChristopherA/jekyll-remote_theme-test</a></li>
-<li><a href="https://github.com/ChristopherA/simplest-github-page">ChristopherA/simplest-github-page</a>
-&gt; Test of simplest GitHub page, leveraging Jekyll without Jekyll</li>
-<li><a href="https://github.com/mmistakes/minimal-mistakes-algolia-search">mmistakes/minimal-mistakes-algolia-search</a>
-&gt; Minimal Mistakes Jekyll theme test with Algolia search</li>
-<li><a href="https://github.com/aioobe/dead-simple-jekyll-comments">aioobe/dead-simple-jekyll-comments</a>
-&gt; Dead simple DIY comment system for Jekyll.</li>
-</ul>
-
-<h2 id="tools-n-resources">Tools n Resources</h2>
-
-<ul>
-<li><a href="https://github.com/watson/awesome-computer-history">watson/awesome-computer-history</a>
-&gt; An Awesome List of computer history videos, documentaries and related folklore</li>
-<li><a href="https://github.com/redknight99/annotated-awesome-osint">redknight99/annotated-awesome-osint</a>
-&gt; scream A curated list of amazingly awesome OSINT</li>
-<li><a href="https://github.com/trimstray/the-book-of-secret-knowledge">trimstray/the-book-of-secret-knowledge</a>
-&gt; A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</li>
-<li><a href="https://github.com/chow-petit/awesome-curated-tools">chow-petit/awesome-curated-tools</a>
-&gt; A curated list of digital tools we use, ranging from accounting and data science to scientific research and liquid democracy. Commented, connected, by everyone and for everyone !</li>
-<li><a href="https://github.com/jlevy/the-art-of-command-line">jlevy/the-art-of-command-line</a>
-&gt; Master the command line, in one page</li>
-<li><a href="https://github.com/mozilla/sops">mozilla/sops</a>
-&gt; Secrets management stinks, use some sops!</li>
-<li><a href="https://github.com/theanalyst/awesome-distributed-systems">theanalyst/awesome-distributed-systems</a>
-&gt; A curated list to learn about distributed systems</li>
-<li><a href="https://github.com/chaconnewu/awesome-augmented">chaconnewu/awesome-augmented</a>
-&gt; Centralize all awesome lists with addition info on curated GitHub repos (automated by scripts)</li>
-</ul>
-
-<h2 id="indieweb">Indieweb</h2>
-
-<ul>
-<li><a href="https://github.com/projectpages/project-pages">projectpages/project-pages</a>
-&gt; GitHub Pages for an Indieweb</li>
-<li><a href="https://github.com/voxpelli/webpage-webmentions">voxpelli/webpage-webmentions</a>
-&gt; A hosted Disqus-like comment service that enables WebMention receiving on any kind of site</li>
-</ul>
-
-<h2 id="crypto">Crypto</h2>
-
-<ul>
-<li><a href="https://github.com/denisnazarov/awesome-crypto-trackers">denisnazarov/awesome-crypto-trackers</a>
-&gt; A curated list of crypto project trackers and analytics dashboards.</li>
-<li><a href="https://github.com/ethhub-io/ethhub">ethhub-io/ethhub</a>
-&gt; The essential Ethereum information hub.</li>
-<li><a href="https://github.com/the-domains/gigabitcoin">the-domains/gigabitcoin</a></li>
-<li><a href="https://github.com/cryptoparty/artwork">cryptoparty/artwork</a>
-&gt; a collection of public domain artwork and graphics, where possible, with source files to help others remix and reuse to make slides, handouts and flyers for cryptoparties</li>
-<li><a href="https://github.com/sunnankar/wuc-new">sunnankar/wuc-new</a>
-&gt; We Use Coins website.</li>
-</ul>
-
-<h2 id="decentralized-identity">Decentralized Identity</h2>
-
-<ul>
-<li><a href="https://github.com/Identitywoman/identity-commons">Identitywoman/identity-commons</a>
-&gt; This is a repository for commons resources that can serve the community working on identity.</li>
-<li><a href="https://github.com/WebOfTrustInfo/rwot3-sf">WebOfTrustInfo/rwot3-sf</a>
-&gt; RWOT3 in San Francisco, California (October 2016)</li>
-<li><a href="https://github.com/WebOfTrustInfo/rwot2-id2020">WebOfTrustInfo/rwot2-id2020</a>
-&gt; RWOT2 for the ID2020 UN Summit (May 2016)</li>
-<li><a href="https://github.com/WebOfTrustInfo/rwot1-sf">WebOfTrustInfo/rwot1-sf</a>
-&gt; RWOT1 in San Francisco, California (November 2015)</li>
-<li><a href="https://github.com/hyperledger/indy-docs">hyperledger/indy-docs</a></li>
-<li><a href="https://github.com/WebOfTrustInfo/self-sovereign-identity">WebOfTrustInfo/self-sovereign-identity</a>
-&gt; Articles and documents associated with designing and implementing identity technology using self-sovereign identity principles</li>
-<li><a href="https://github.com/peacekeeper/blockchain-identity">peacekeeper/blockchain-identity</a>
-&gt; Blockchain and Identity</li>
-<li><a href="https://github.com/tyleryasaka/identity-proposals">tyleryasaka/identity-proposals</a></li>
-<li><a href="https://github.com/WebOfTrustInfo/rwot4-paris">WebOfTrustInfo/rwot4-paris</a>
-&gt; RWOT4 in Paris, France (April 2017)</li>
-</ul>
-
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/content-creation/" title="Resources for Content Creation"><img src="/web-work/images/content-creation.png" alt="Resources for Content Creation"></a>
+    <article>
+      <header>
+        
+        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/content-creation/">Resources for Content Creation</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2019-05-28T00:00:00Z">
+            28 May, 2019 at 00:00 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        Here&rsquo;s some tools to make content creation a little easier.
+As per usual, this list will grow and become more organized over time.
+For now, it&rsquo;s just a copy\paste from the GitHub-Pages Starter Pack.
+Basics  Mastering Markdown Markdown Cheet-Sheet  Editors  Visual Studio Code Where I build webpages. ]  This thing has extensions for all your coding needs&hellip; It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.
       </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-05-28 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/content-creation/">May 28, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~3 minutes
-      </span>
       
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/content-creation/" rel="bookmark" title="Resources for Content Creation" itemprop="url">Resources for Content Creation</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
+      <p><a class="read-more" href="https://infominer.id/web-work/posts/content-creation/">Read more &rarr;</a></p>
+      
+    </article>
 
-<p>Here&rsquo;s some tools to make content creation a little easier.</p>
 
-<p>As per usual, this list will grow and become more organized over time.</p>
 
-<p>For now, it&rsquo;s just a copy\paste from the <a href="/content-creation/">GitHub-Pages Starter Pack</a>.</p>
-
-<h2 id="basics">Basics</h2>
-
-<ul>
-<li><a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a></li>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheet-Sheet</a></li>
-</ul>
-
-<h2 id="editors">Editors</h2>
-
-<ul>
-<li><a href="https://code.visualstudio.com/">Visual Studio Code</a>
-Where I build webpages.
-<img src="https://imgur.com/eqWiJ8Il.png" alt="" />]</li>
-</ul>
-
-<p>This thing has extensions for all your coding needs&hellip; It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).</p>
-
-<p><strong>HackMD - Collaborative Markdown Editor</strong>
-* <a href="https://hackmd.io">https://hackmd.io</a> - Collaborative markdown editor (where I write everything else).
-  * <a href="https://hackmd.io/getting-started">Getting started</a><br />
-  * <a href="https://hackmd.io/c/tutorials/%2Fs%2Ftutorials">Tutorial</a>
-  * <a href="https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book">How to Create a Book</a>
-  * <a href="https://hackmd.io/c/tutorials-tw/%2Fs%2Fyaml-metadata">YAML Metadata</a>
-* See also <a href="https://demo.codimd.org/">demo.codimd.org/</a></p>
-
-<h2 id="public-domain-stock-images">Public Domain - Stock Images</h2>
-
-<ul>
-<li><a href="https://github.com/nacyot/awesome-opensource-documents">nacyot/awesome-opensource-documents</a></li>
-<li><a href="https://github.com/neutraltone/awesome-stock-resources">neutraltone/awesome-stock-resources</a></li>
-<li><a href="https://github.com/shime/creative-commons-media">shime/creative-commons-media</a></li>
-<li><a href="https://github.com/idleberg/Creative-Commons-Markdown">idleberg/Creative-Commons-Markdown</a> - snippets to add CC license to your work.</li>
-</ul>
-
-<h2 id="image-sizes-for-popular-platforms">Image Sizes for Popular Platforms</h2>
-
-<ul>
-<li><a href="https://louisem.com/217438/twitter-image-size">Twitter-Image Sizes</a></li>
-</ul>
-
-<h2 id="images-infographics">Images - Infographics</h2>
-
-<ul>
-<li><a href="https://www.canva.com/create/infographics/">Canva Infographic Creator</a></li>
-<li><a href="http://www.easel.ly/">easel.ly</a> - free create infographics</li>
-<li><a href="https://builtvisible.com/content-strategy-helper/">Content Strategy Tool</a> - Find inspiration for your content marketing topics</li>
-<li><a href="http://www.google.com/publicdata/directory">Google Public Data</a> - content research, infographics, and more.</li>
-<li><a href="http://www.seomofo.com/snippet-optimizer.html">Google SERP Snippet Optimization Tool</a> - see how your snippet may appear in search results.</li>
-<li><a href="https://infogr.am/">infogr.am</a> - create infographics and data visualizations</li>
-<li><a href="https://www341.lunapic.com/editor/">https://www341.lunapic.com/editor/</a></li>
-<li><a href="http://piktochart.com/">Piktochart</a> - visualization generator.</li>
-</ul>
-
-<h3 id="optimization">Optimization</h3>
-
-<p>The web <em>loooves</em> big old beautiful high quality images&hellip; However, my visitors probably notice the load time of huge images more than I do (though I do notice them).</p>
-
-<ul>
-<li><a href="https://trimage.org/">https://trimage.org/</a>
-&gt;A cross-platform tool for losslessly optimizing PNG and JPG files for web.</li>
-<li><a href="https://pngquant.org/">pngquant</a>
-&gt; is a command-line utility and a library for lossy compression of PNG images.
-&gt;
-&gt;The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems.</li>
-<li><a href="https://ezgif.com/optimize">https://ezgif.com/optimize</a></li>
-</ul>
-
-<h2 id="text">Text</h2>
-
-<ul>
-<li><a href="http://www.textcleanr.com/">Text Cleaner</a> - cleans up all kinds of text formatting when copying and pasting between applications.</li>
-<li><a href="http://www.wordle.net/">wordle</a> - word cloud generator</li>
-<li><a href="http://pipes.yahoo.com/pipes/">Yahoo Pipes</a>
-combines feeds &ldquo;into content and other magical creations&rdquo;.</li>
-<li><a href="https://www.pcjs.org">https://www.pcjs.org</a> - IBM PC simulation that runs in your web browser</li>
-</ul>
-
-<h2 id="video">Video</h2>
-
-<ul>
-<li><a href="http://amara.org/en/">Amara</a> - create captions for YouTube videos.</li>
-<li><a href="http://wistia.com/">Wistia</a> - SEO-friendly video hosting.</li>
-</ul>
-
-<h2 id="plagiarism">Plagiarism</h2>
-
-<ul>
-<li><a href="http://www.copyscape.com/">Copyscape</a> - track if your content is being plagiarized.</li>
-</ul>
-
-<p>^^^ This is the industry standard. It can help to prevent even plagiarizing from yourself!</p>
-
-<h2 id="archiving">Archiving</h2>
-
-<ul>
-<li><a href="https://chrome.google.com/webstore/detail/web-archive-for-wayback-m/ppokigfjbmhncgkabghdgpiafjdpllke">Web Archive for WayBack Machine</a></li>
-<li><a href="https://github.com/iipc/awesome-web-archiving">iipc/awesome-web-archiving</a></li>
-<li><a href="https://webapps.stackexchange.com/questions/115369/how-to-archive-the-whole-website">webapps.stackexchange.com - how-to-archive-the-whole-website</a></li>
-<li><a href="http://www.httrack.com">httrack.com</a></li>
-</ul>
-
-<h2 id="data-visualization">Data Visualization</h2>
-
-<ul>
-<li><a href="https://developer.github.com/v3/guides/rendering-data-as-graphs/">rendering-data-as-graphs</a></li>
-<li><a href="https://www.benlcollins.com/javascript/creating-a-dynamic-d3-visualization-from-the-github-api/">Creating a dynamic d3 visualization from the GitHub API</a></li>
-<li><a href="https://www.targetprocess.com/blog/visualize-github-code-contribution-using-app-link/">Visualize GitHub Code Contribution using APP Link</a></li>
-<li><a href="https://datavizforall.org/github.html">Data Visualization for All - Modify and Host Code with GitHub</a> by Jack Dougherty &amp; Ilya Ilyankou
-&gt; In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control.</li>
-<li><a href="https://livablesoftware.com/tools-visualize-github-profile/">tools-visualize-github-profile/</a></li>
-</ul>
-
-<h2 id="tutes-walkthrus">Tutes \ Walkthrus</h2>
-
-<ul>
-<li><a href="https://webdesign.tutsplus.com/tutorials/how-to-create-an-open-source-directory-on-github-pages--cms-26225">How to Create an Open-Source Directory on GitHub Pages</a></li>
-<li><a href="https://www.labnol.org/internet/github-gist-tutorial/28499/">What You Can Do With Gists on Github?</a></li>
-</ul>
-
-<h2 id="assorted">Assorted</h2>
-
-<ul>
-<li><a href="https://polyglot.untra.io/">https://polyglot.untra.io/</a> - multi-lingual publishing.</li>
-<li><a href="https://konpa.github.io/devicon/">https://konpa.github.io/devicon/</a></li>
-<li><a href="https://material.io/tools/color/#!/?view.left=0&amp;view.right=0&amp;primary.color=455A64">Color Tool</a></li>
-</ul>
-
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/static-site-generators/" title="Static Site Generators"><img src="/web-work/images/devopedia-static-site-generators.jpg" alt="Static Site Generators"></a>
+    <article>
+      <header>
+        
+        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/static-site-generators/">Static Site Generators</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2019-05-25T00:00:00Z">
+            25 May, 2019 at 00:00 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        You may have noticed that the GitHub Pages Starter Pack is getting a bit crowded.
+Well, now i&rsquo;m looking into options besides jekyll, to expand my skills, and try out some themes that aren&rsquo;t available for Jekyll.
+I&rsquo;ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.
+What is a Static Site Generator (SSG)? There are some configuration files, layouts and templates, and then there is all your content that your create.
       </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-05-25 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/static-site-generators/">May 25, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~2 minutes
-      </span>
       
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/static-site-generators/" rel="bookmark" title="Static Site Generators" itemprop="url">Static Site Generators</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<p>You may have noticed that the <a href="https://infomienr.id/web-work/github-pages-starter-pack/">GitHub Pages Starter Pack</a> is getting a bit crowded.</p>
-
-<p>Well, now i&rsquo;m looking into options besides jekyll, to expand my skills, and try out some themes that aren&rsquo;t available for Jekyll.</p>
-
-<p>I&rsquo;ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.</p>
-
-<h2 id="what-is-a-static-site-generator-ssg">What is a Static Site Generator (SSG)?</h2>
-
-<p>There are some configuration files, layouts and templates, and then there is all your content that your create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.</p>
-
-<p>I&rsquo;ll have a few general resources at the top and just add as I go, since I&rsquo;m not ready to learn about too many of them, just yet.</p>
-
-<h2 id="general">General</h2>
-
-<ul>
-<li><a href="https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll">Using A Static Site Generator other than Jekyll</a></li>
-<li><a href="https://github.com/pinceladasdaweb/Static-Site-Generators">pinceladasdaweb/Static-Site-Generators</a></li>
-<li><a href="https://staticsitegenerators.net">staticsitegenerators.net</a></li>
-<li><a href="https://www.staticgen.com/">https://www.staticgen.com/</a>
-
-<ul>
-<li><a href="https://news.ycombinator.com/item?id=17952234">I tried Hugo, Jekyll and Gatsby</a></li>
-</ul></li>
-</ul>
-
-<h2 id="hugo">Hugo</h2>
-
-<p>There are some indieweb integrated themes w hugo, and some themes no longer supported in their jekyll form that have been ported over to Hugo. There seems to be a lot of buzz aroudn it anyway.</p>
-
-<ul>
-<li><a href="https://discourse.gohugo.io">discourse.gohugo.io</a></li>
-<li><a href="https://zwbetz.com/make-a-hugo-blog-from-scratch/">Make A Hugo Blog from Scratch</a></li>
-<li><a href="https://regisphilibert.com/tags/hugo/">https://regisphilibert.com/tags/hugo/</a></li>
-<li><a href="https://discourse.gohugo.io/t/recommended-reading-reference/14815">Recommended Reading Reference</a> *** Ton of good stuff in here.</li>
-<li><a href="https://github.com/budparr/awesome-hugo/">https://github.com/budparr/awesome-hugo/</a></li>
-<li><a href="https://kodify.net/hugo-static-site-tutorials/">Hugo Static Site Tutorials</a></li>
-<li><a href="https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4">comprehensive-hugo-tutorial-for-beginners</a></li>
-<li><a href="https://news.ycombinator.com/item?id=17387103">Migrating from Jekyll to Hugo</a> &lt;&ndash;good thread</li>
-<li><a href="https://github.com/kevinmarks/stopbrexit">kevinmarks/stopbrexit</a> -  example of a &ldquo;complete and operational&rdquo; hugo site.
-
-<ul>
-<li><a href="http://stopbrexit.party/">stopbrexit.party</a></li>
-</ul></li>
-</ul>
-
-<h2 id="mkdocs">MkDocs</h2>
-
-<p>MkDocs has built in search, and in some ways simpler than publishing w jekyll.</p>
-
-<p>For example, you don&rsquo;t need to put frontmatter into every single document.. it will just create a website from markdown files and autogenerate toc based on directory structure.</p>
-
-<p>MkDocs really caught my eye when I saw it running at <a href="https://docs.ethhub.io/">EthHub</a></p>
-
-<p><img src="https://i.imgur.com/c7Ik39r.png" alt="" /></p>
-
-<ul>
-<li><a href="https://www.mkdocs.org/">https://www.mkdocs.org/</a></li>
-<li><a href="https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins">/mkdocs/mkdocs/wiki/MkDocs-Plugins</a></li>
-<li><a href="https://yakworks.github.io/mkdocs-material-components/cheat-sheet/">MkDocs Material Components - Cheat Sheet</a></li>
-<li><a href="https://mkdocs.readthedocs.io">mkdocs.readthedocs.io</a></li>
-<li><a href="https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins">mkdocs/mkdocs/wiki/MkDocs-Plugins</a></li>
-<li><a href="https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin">mkdocs-awesome-pages-plugin</a></li>
-<li><a href="https://www.wheelodex.org/entry-points/mkdocs.plugins/">mkdocs.plugins/</a></li>
-<li><a href="https://blogs.pjjk.net/phil/metadata-for-markdown-mkdocs/">metadata-for-markdown-mkdocs/</a></li>
-<li><a href="https://gristlabs.github.io/mkdocs-windmill/#">https://gristlabs.github.io/mkdocs-windmill/</a>
-
-<ul>
-<li><a href="https://github.com/gristlabs/mkdocs-windmill">gristlabs/mkdocs-windmill</a></li>
-</ul></li>
-<li><a href="https://python-markdown.github.io/extensions/">https://python-markdown.github.io/extensions/</a>
-
-<ul>
-<li><a href="https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions">Python-Markdown/markdown/wiki/Third-Party-Extensions</a></li>
-</ul></li>
-<li><a href="https://python-markdown.github.io/extensions/smarty/">https://python-markdown.github.io/extensions/smarty/</a></li>
-</ul>
-
-<p>Because MkDocs builds with python, that opens up a whole universe of tools at your disposal. The python markdown extensions are a prime example.</p>
-
-<p>However, basically none of the regular jekyll plugins work with mkdocs, it&rsquo;s a whole universe to its own w Python.</p>
-
-<h3 id="now-dev">Now Dev</h3>
-
-<p>I don&rsquo;t even know&hellip; but it seems pretty dope.</p>
-
-<ul>
-<li><a href="https://zeit.co/blog/now-dev">https://zeit.co/blog/now-dev</a></li>
-<li><a href="https://zeit.co/docs/v2/deployments/concepts/lambdas">https://zeit.co/docs/v2/deployments/concepts/lambdas</a></li>
-</ul>
-
-<h3 id="keybase">Keybase</h3>
-
-<p><img src="https://imgur.com/PVUAaAu.png" alt="" /></p>
-
-<p>Just sayin&rsquo;&hellip; keybase has 250 gigs of free storage you can use to host a website&hellip;</p>
-
-<p>you could build gem based sites locally, and keybase will automatically sync the data.</p>
-
-<h2 id="thats-all-for-now">Thats all for now!</h2>
-
-<figure class="full">
-    <img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-    <figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
-</figure>
-
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/practical-public-key-crypto/" title="Using PGP and Cryptocurrency Keysignatures"><img src="/web-work/images/pgp-og.png" alt="Using PGP and Cryptocurrency Keysignatures"></a>
-      </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-03-22 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/practical-public-key-crypto/">Mar 22, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~6 minutes
-      </span>
+      <p><a class="read-more" href="https://infominer.id/web-work/posts/static-site-generators/">Read more &rarr;</a></p>
       
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/practical-public-key-crypto/" rel="bookmark" title="Using PGP and Cryptocurrency Keysignatures" itemprop="url">Using PGP and Cryptocurrency Keysignatures</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<p>&ldquo;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&rdquo;</p>
-
-<p>I created this resource while researching the following article:</p>
-
-<ul>
-<li><a href="https://freelanceforcoins.com/article/6-escrow">freelanceforcoins.com/<strong>Business with Crypto 101—Escrow and Key Signatures</strong></a> -infominer
-&gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.</li>
-</ul>
-
-<p><img src="https://infominer.id/web-work/images/gnu-pgp-thumb.png" alt="[](https://infominer.id/web-work/images/Cover50.png)" />{: .align-left}</p>
-
-<h2 id="phil-zimmerman">Phil Zimmerman</h2>
-
-<ul>
-<li><a href="https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html">Why I Wrote PGP -Part of the Original 1991 PGP User&rsquo;s Guide</a>
-&gt;It&rsquo;s personal. It&rsquo;s private. And it&rsquo;s no one&rsquo;s business but yours. You may be planning a political campaign, discussing your taxes, or having a secret romance. Or you may be communicating with a political dissident in a repressive country. Whatever it is, you don&rsquo;t want your private electronic mail (email) or confidential documents read by anyone else. There&rsquo;s nothing wrong with asserting your privacy. Privacy is as apple-pie as the Constitution.</li>
-<li><a href="https://www.wired.com/1993/02/crypto-rebels/">https://www.wired.com/1993/02/crypto-rebels/</a>
-<a href="https://www.wired.com/1993/02/crypto-rebels/"><img src="https://i.imgur.com/kzOMg4o.png" alt="" /></a></li>
-<li><a href="https://cryptoanarchy.wiki/events/90s-crypto-wars">Crypto Wars, Phil Zimmermann and PGP</a>
-&gt; Phil Zimmermann was a key player in this period. The PGP software he authored was considered as munitions by the US government and subject to export licenses. The US government at this time was keen to avoid strong crypto falling into the hands of civilians and foreign governments. At this time the US government was also pushing for specialised key-escrowed chips that would perform encryption, but make the plaintext readable to NSA if necessary. This was rightly considered a gross violation of privacy, rights, and a huge security hole by the cypherpunks.</li>
-<li><a href="https://www.techrepublic.com/article/defending-the-last-missing-pixels-phil-zimmermann/">Defending the last missing pixels: Phil Zimmermann speaks out on encryption, privacy, and avoiding a surveillance state</a>
-&gt;Since writing the PGP encryption software in the 1990s, Phil Zimmermann has been a key figure in the internet privacy debate. With that argument heating up again, his perspective is more relevant than ever.</li>
-<li><a href="https://infominer.id/bitcoin-history/before-bitcoin/cypherpunks/">infominer.id/bitcoin-history/before-bitcoin/cypherpunks/</a></li>
-<li><a href="https://motherboard.vice.com/en_us/article/vvbw9a/even-the-inventor-of-pgp-doesnt-use-pgp">Even the Inventor of PGP Doesn’t Use PGP</a></li>
-</ul>
-
-<h2 id="pgp-for-newbs-and-beyond">PGP for Newbs and Beyond</h2>
-
-<p><img src="https://infominer.id/bitcoin-history/assets/img/pgp-og.png" alt="" /></p>
-
-<ul>
-<li><a href="https://howtopgp.jugendhackt.de/#/">How-To-PGP</a>
-&gt;With this interactiv instruction we want to explain you, how to encrypt your e-mails with PGP to protect your communication and help stopping mass surveillance.</li>
-<li><a href="https://emailselfdefense.fsf.org/en">EMAIL SELF-DEFENSE</a> - &ldquo;Learn GnuPG in 30 Minutes&rdquo;
-&gt; <img src="https://i.imgur.com/danqZLd.png" alt="" /></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages">How To Use GPG to Encrypt and Sign Messages</a></li>
-<li><a href="https://irtfweb.ifa.hawaii.edu/~lockhart/gpg/">Quick&rsquo;n easy gpg cheatsheet</a></li>
-<li><a href="https://medium.com/@acparas/gpg-quickstart-guide-d01f005ca99">GPG Quickstart Guide 🔒</a></li>
-<li><a href="https://futureboy.us/pgp.html">GPG Tutorial and PGP Public Key for ∀lan ∃liasen</a></li>
-<li><a href="http://moser-isi.ethz.ch/gpg.html">GnuPG for Daily Use (a Mini How-To&hellip;)</a></li>
-<li><a href="https://ttmm.io/tech/yubikey/">Configuring Yubikeys, GPG, and Keybase</a></li>
-<li><a href="https://petertodd.org/2016/opentimestamps-git-integration">Solving the PGP Revocation Problem with OpenTimestamps for Git Commits</a></li>
-</ul>
-
-<h3 id="ssh">SSH</h3>
-
-<p>Another form of public key encryption, allows you to remotely connect to a server, without typing in your user\name password.</p>
-
-<ul>
-<li><a href="https://help.github.com/en/articles/connecting-to-github-with-ssh" target="_blank">Connecting to GitHub with SSH</a></li>
-<li><a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">Generating a new SSH key and adding it to the SSH agent</a></li>
-<li><a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a></li>
-<li><a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a></li>
-</ul>
-
-<p>Signing Commits
-* <a href="https://help.github.com/en/articles/managing-commit-signature-verification">managing-commit-signature-verification</a></p>
-
-<h2 id="protonmail">Protonmail</h2>
-
-<p>Has built in support for PGP for your e-mails&hellip; but doesn&rsquo;t make it super easy to verify messages from outside.</p>
-
-<p>Somehow you can use PGP with non-protonmail users.. but I haven&rsquo;t figured it out, yet.</p>
-
-<ul>
-<li><a href="https://protonmail.com/support/knowledge-base/how-to-use-pgp/">https://protonmail.com/support/knowledge-base/how-to-use-pgp/</a></li>
-</ul>
-
-<p>It&rsquo;s really super to use Protonmail and I&rsquo;ll recommend it to anyone.</p>
-
-<h2 id="verifying-pgp-signatures">Verifying PGP Signatures</h2>
-
-<ul>
-<li><a href="https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/how-to-verify-your-downloaded-files-are-authentic/">HOW TO VERIFY YOUR DOWNLOADED FILES ARE AUTHENTIC</a></li>
-<li><a href="https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/verifying-signed-messages-with-signatures-and-signing-your-own-messages/">VERIFYING SIGNED MESSAGES WITH SIGNATURES AND SIGNING YOUR OWN MESSAGES</a></li>
-</ul>
-
-<pre><code>gpg --import singing_key.pub
-gpg --verify signed_file.sig
-</code></pre>
-
-<h3 id="bitcoin-and-ethereum-signatures">Bitcoin and Ethereum Signatures</h3>
-
-<ul>
-<li><a href="https://www.cryptocompare.com/wallets/guides/how-do-digital-signatures-in-bitcoin-work/">How do digital signatures in Bitcoin work?</a></li>
-<li><a href="https://medium.com/@vinczhain/signing-a-message-from-your-ethereum-wallet-with-myetherwallet-cfef7acd6f6d">Signing a message from your Ethereum wallet with MyEtherWallet</a></li>
-</ul>
-
-<h3 id="keybase">Keybase</h3>
-
-<p><img src="https://i.imgur.com/YJAJSU6.png" alt="" />
-* <a href="https://keybase.io/">https://keybase.io/</a>
-  &gt;Keybase is a new and free security app for mobile phones and computers. For the geeks among us: it&rsquo;s open source and powered by public-key cryptography.<br>
-  &gt;
-  &gt;Keybase is for anyone. Imagine a Slack for the whole world, except end-to-end encrypted across all your devices. Or a Team Dropbox where the server can&rsquo;t leak your files or be hacked.
-* <a href="https://www.andreagrandi.it/2017/10/21/keybase-pgp-encryption-made-easy/">Keybase - PGP Encryption made Easy</a>
-* <a href="https://keybase.io/docs/command_line">https://keybase.io/docs/command_line</a></p>
-
-<h2 id="deepdotweb">deepdotweb</h2>
-
-<ul>
-<li><a href="https://gir.pub/deepdotweb/about-deepdotweb/">About DeepDotWeb</a></li>
-</ul>
-
-<blockquote>
-<p>We established DeepDotWeb in the wake of our friend being arrested by local authorities, for buying drugs from the original Silk Road marketplace. Our aim is make information about dark net markets accessible to everyone, as well as making the dark net safer by reporting on security risks, scams and operations conducted by law enforcement.</p>
-</blockquote>
-
-<ul>
-<li><a href="https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/">Jolly Roger’s Security Guide for Beginners</a>
-
-<ul>
-<li><a href="https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgp-tails-virtual-box/">PGP, TAILS, VIRTUAL BOX</a></li>
-<li><a href="http://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgp-continued/">PGP CONTINUED</a></li>
-<li><a href="https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/obtaining-sending-and-receiving-bitcoins-anonymously/">OBTAINING, SENDING AND RECEIVING BITCOINS ANONYMOUSLY</a></li>
-<li><a href="https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgpgpg-email-addresses/">PGP/GPG Email Addresses</a></li>
-</ul></li>
-<li><a href="https://gir.pub/deepdotweb/pgp-tutorial-for-newbs-gpg4win/">PGP Tutorial For Newbs (GPA - Gpg4Win)</a></li>
-<li><a href="https://gir.pub/deepdotweb/pgp-tutorial-for-windows-kleopatra-gpg4win/">PGP Tutorial For Newbs (Kleopatra - Gpg4Win)</a></li>
-<li><a href="https://gir.pub/deepdotweb/pgp-tutorial-for-newbs-gpg4usb/">PGP Tutorial For Newbs Gpg4usb</a></li>
-<li><a href="https://gir.pub/deepdotweb/basic-guide-pgp-linux/">Basic Guide to PGP On Linux</a></li>
-<li><a href="http://gir.pub/deepdotweb/pgp-tutorial-os-x/">PGP Tutorial for OSX</a></li>
-</ul>
-
-<h2 id="escrow-services">Escrow Services</h2>
-
-<p>Escrow Agents are impartial and trusted intermediaries who hold custody of buyer&rsquo;s funds until pre-defined conditions are met. They allow parties who don&rsquo;t know or trust each-other to engage in commerce, online.</p>
-
-<ul>
-<li><a href="https://www.bitrated.com/">Bitrated.com</a>
-&gt;Using multi-signature ensures that the trust agent never has full control over the funds and cannot take them to himself. In addition, when everything goes well, the funds can be released with no intervention by the trust agent.</li>
-</ul>
-
-<pre><code> Launched in 2013, Bitrated was the first multi-signature application ever released to the public. Bitrated is operated from Israel and was founded by Nadav Ivgi, a software developer and a long time Bitcoin enthusiast.
-</code></pre>
-
-<ul>
-<li><a href="http://jobs4btc-escrow.appspot.com/">jobs4btc-escrow.appspot.com</a></li>
-</ul>
-
-<blockquote>
-<p>Traffic on the Jobs4Bitcoins subreddit is picking up, and with it, the number of transactions with anonymous strangers around the internet. One thing that is sorely needed is a simple, trusted escrow system through which to have secure trades of work for bitcoin.</p>
-
-<p>Commissioned by the admin of the subreddit, /u/matthew_boyd, this app attempts to fill that hole, by providing the service of trusted escrow for a small fee.</p>
-
-<p>When some work is uploaded, a community-trusted programmer will check through it, to make sure that the project has been successfully completed.</p>
-</blockquote>
-
-<h3 id="discord">Discord</h3>
-
-<p>Yes you can even &ldquo;unofficially&rdquo; get encypted chat for discord</p>
-
-<ul>
-<li><a href="https://github.com/leogx9r/DiscordCrypt">leogx9r/DiscordCrypt</a></li>
-</ul>
-
-<h3 id="bitcointalk-escrow">BitcoinTalk Escrow</h3>
-
-<p>These seem to be the currently active bitcointalk threads.</p>
-
-<ul>
-<li>Financisto: <a href="https://bitcointalk.org/index.php?topic=276897.0;all">⛓LIST⛓ BitcoinTalk&rsquo;s Escrow Providers: Ranking &amp; Blacklist ☠ Avoid Scammers ☠</a> - <strong>(Started `13 — Updated <sup>9</sup>&frasl;<sub>18</sub>)</strong>
-<img src="https://image.ibb.co/fbhMLU/escrow.png" alt="" /></li>
-<li>hedgy73: <a href="https://bitcointalk.org/index.php?topic=2439910.0">Recommended bitcointalk escrow services</a> - <strong>(Started <sup>11</sup>&frasl;<sub>17</sub> — Updated <sup>7</sup>&frasl;<sub>18</sub>)</strong>
-<img src="https://i.imgur.com/EvuQwxN.png" alt="" /></li>
-<li><a href="https://bitcointalk.org/index.php?topic=5116510.0">Escrow for anything via discord by Dream (fpga channel mod)
-March 03, 2019</a>
-<img src="https://i.imgur.com/DvuqyGh.png" alt="" /></li>
-</ul>
-
-<h2 id="apps">Apps</h2>
-
-<ul>
-<li><a href="https://github.com/henryboldi/felony">henryboldi/felony</a></li>
-<li><a href="https://github.com/romanz/trezor-agent">romanz/trezor-agent</a></li>
-<li><a href="https://github.com/mapmeld/profanity-pgp">mapmeld/profanity-pgp</a></li>
-<li><a href="https://github.com/jedisct1/minisign">jedisct1/minisign</a></li>
-<li><a href="https://encrypt.to/">encrypt.to</a></li>
-<li><a href="https://metachat.app/">metachat.app</a></li>
-<li><a href="https://github.com/Steven-Ireland/ethmail.tech">Steven-Ireland/ethmail.tech</a> - PGP\Ethereum Powered Distributed E-mail</li>
-<li><a href="https://github.com/jens-maus/yam">mailbox_with_mail YAM (short for &lsquo;Yet Another Mailer&rsquo;)</a></li>
-<li><a href="https://github.com/nurupo/paper-store">nurupo/paper-store</a> - Cold store small files on paper as QR codes &ndash; PGP keys, Bitcoin keys, Tox keys or any other small files in general.</li>
-<li><a href="https://github.com/mozilla/sops">mozilla/sops</a> - Secrets management stinks, use some sops!</li>
-</ul>
-
-<h2 id="resources">Resources</h2>
-
-<ul>
-<li><a href="https://github.com/CyPurr-Collective/cryptoparty-presentation">CyPurr-Collective/cryptoparty-presentation</a></li>
-<li><a href="https://modernpgp.github.io/about/">modernpgp.github.io/about/</a></li>
-<li><a href="https://github.com/jonathancross/jc-docs">Documentation and Examples</a></li>
-<li><a href="https://github.com/ModernPGP/icons">ModernPGP/icons</a></li>
-<li><a href="https://emailselfdefense.fsf.org/en">EMAIL SELF-DEFENSE</a> - &ldquo;Learn GnuPG in 30 Minutes&rdquo;
-&gt;In addition to using encryption, standing up to surveillance requires fighting politically for a reduction in the amount of data collected on us, but the essential first step is to protect yourself and make surveillance of your communication as difficult as possible. This guide helps you do that. It is designed for beginners, but if you already know the basics of GnuPG or are an experienced free software user, you&rsquo;ll enjoy the advanced tips and the guide to teaching your friends.
-<img src="https://static.fsf.org/nosvn/enc-dev0/img/en/full-infographic.png" alt="" /></li>
-</ul>
-
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/seo-tools/" title="100&#39;s of Mostly Free SEO Tools"><img src="/web-work/images/ww-tools-head.jpg" alt="100&#39;s of Mostly Free SEO Tools"></a>
-      </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-03-02 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/seo-tools/">Mar 2, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~6 minutes
-      </span>
-      
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/seo-tools/" rel="bookmark" title="100&#39;s of Mostly Free SEO Tools" itemprop="url">100&#39;s of Mostly Free SEO Tools</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<!-- fix link on infominer.id:
-  - research/seo-tools.html-->
-
-<h2 id="google-and-company">Google and Company</h2>
-
-<ul>
-<li><a href="http://www.google.com/analytics/">Google Analytics</a> - duh -  free tools to track and analyze website data.</li>
-<li><a href="http://www.google.com/webmasters/">Google Webmaster</a> - Tools Suite, Diagnostic</li>
-<li><a href="https://www.google.com/webmasters/tools/home?hl=en">Google Search Console</a> - what you&rsquo;re already ranking for, straight from google.</li>
-<li><a href="https://developers.google.com/speed/pagespeed/insights">Google PageSpeed Insights</a></li>
-<li><a href="https://search.google.com/test/mobile-friendly">Google&rsquo;s Mobile Friendly Test</a></li>
-<li><a href="http://code.google.com/p/sitemap-generators/wiki/SitemapGenerators">Google Sitemap Generators</a></li>
-<li><a href="http://www.bing.com/toolbox/webmaster">Bing Webmaster Tools</a> - Similar to Google&rsquo;s Webmaster Tools.</li>
-<li><a href="https://www.youtube.com/analytics">YouTube Analytics</a> - must-have for YouTube video publishers.</li>
-<li><a href="https://adelseo.com.au/what-is-seo/">A Must-Have Guide for Decoding the Google Rankings</a></li>
-</ul>
-
-<p>For adding ^^^ this link to my page (It seems like a decent guide.) they gave me this cool video :)</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bxUDZzUJk_A" frameborder="0" allowfullscreen></iframe>
-
-<h2 id="limited-trial-power-tools">Limited Trial-Power Tools</h2>
-
-<ul>
-<li><a href="https://www.semrush.com">SEMRush</a> - offers a limited amount of free searches, but packs a lot of value into that search.</li>
-<li><a href="https://ahrefs.com/site-explorer">ahrefs.com/site-explorer</a> - Powerful keyword research, a lot more than any free tool. (See bottom of <a href="https://ahrefs.com/blog/free-keyword-research-tools/">linked article</a> for how much more powerful)</li>
-<li><a href="https://moz.com/explorer">moz.com/explorer</a> a useful tool for keyword research and competitive analysis. Trial limited to 10 searches.</li>
-<li><a href="http://yoast.com/wordpress/seo/">Yoast WordPress SEO Plugin</a> - #1 Wordpress SEO Plugin</li>
-<li><a href="https://moz.com/products/pro/features">Moz Pro</a> - Tools Suite: Diagnostic, Tracking, Social - all your marketing data in one place, with analytics.</li>
-<li><a href="https://www.optimizely.com/">Optimizely</a> - A/B testing and analytics</li>
-<li><a href="http://raventools.com/">Raven</a> - suite of SEO, content, and research tools</li>
-<li><a href="https://visualwebsiteoptimizer.com/">Visual Website Optimizer</a></li>
-<li><a href="http://www.wordtracker.com/">Wordtracker</a> -  keyword research suite</li>
-</ul>
-
-<h2 id="audit-and-analytics">Audit and Analytics</h2>
-
-<ul>
-<li><a href="https://seomator.com">Seomator</a> free online SEO Audit Tool. This tool crawls your website and provides an analysis. If you are just beginning to optimize, Seomator will likely highlight a number of issues you can begin to fix right away.</li>
-<li><a href="https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en">SEO Quake Chrome Extension</a> provides on-the-fly analysis of any webpage you visit.
-&gt;&ldquo;More raw data than any other SEO toolbar out there.&rdquo; -<a href="https://moz.com/blog/100-free-seo-tools">moz</a></li>
-<li><a href="http://www.screamingfrog.co.uk/">screamingfrog.co.uk</a>
-&gt; &ldquo;must-have for most serious SEOs.&rdquo; -<a href="https://moz.com/blog/100-free-seo-tools">moz</a></li>
-<li><a href="https://bitly.com/">Bitly.com</a> - Analytics</li>
-<li><a href="http://builtwith.com/">Builtwith.com</a> - find out what websites are made of.</li>
-<li><a href="https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd">Chrome Webscraping Extension</a></li>
-<li><a href="http://www.similarweb.com/">Similarweb</a> - Competitive analysis &ldquo;Competitor website stats are hard to come by, but Similar Web does a good job.&rdquo; -moz</li>
-<li><a href="http://www.browseo.net/">Browseo</a> - See your website the way the search engine sees it.</li>
-<li><a href="https://www.seerinteractive.com/labs/seo-toolbox/">SEER&rsquo;s SEO Toolbox</a></li>
-<li><a href="http://tools.seobook.com/seo-toolbar/">SEO Toolbar</a> -  information including backlinks and competitive research.</li>
-<li><a href="http://nielsbosma.se/projects/seotools/">SEO Tools for Excel</a></li>
-<li><a href="http://seogadget.com/tools/">SEOgadget Tools</a> includes Excel plugins, content strategy generator&hellip;.</li>
-<li><a href="http://urivalet.com/">URI Valet</a> - check server headers, canonical information, analyzing redirect problems and more.</li>
-<li><a href="http://www.virante.org/seo-tools">Virante SEO Tools</a></li>
-<li><a href="http://home.snafu.de/tilman/xenulink.html">Xenu&rsquo;s Link Sleuth</a> - Site Crawler, find broken links, create sitemaps, etc.</li>
-<li><a href="https://raventools.com/site-auditor/">Raven Tools</a> Site Audit</li>
-<li><a href="http://nibbler.silktide.com/">Nibbler</a>
-Audit for accessibility, SEO, social media, technology.  (limited to 3 reports)</li>
-<li><a href="http://statcounter.com/">Statcounter</a> - Free-Lightweight analytics - alternative to Google Analytics for privacy.</li>
-<li><a href="http://whois.domaintools.com/">Whois Lookup</a> registration, contact, and administrative information for any domain.</li>
-<li><a href="http://www.quicksprout.com/">http://www.quicksprout.com/</a> - Website Analysis</li>
-</ul>
-
-<h2 id="rank-and-visibility">Rank and Visibility</h2>
-
-<ul>
-<li><a href="http://tools.seobook.com/firefox/rank-checker/">Search Engine Rank Checker</a></li>
-<li><a href="http://suite.searchmetrics.com/en/research">Searchmetrics Visibility Charts</a> - Track search visibility of any website</li>
-<li><a href="http://serpmetrics.com/flux/">SERPmetrics</a> - SERP Tracking, Competitive Intelligence</li>
-<li><a href="https://support.google.com/webmasters/answer/6066468?hl=en&amp;rd=2">Use Fetch as Google for websites</a> - Test if Google can crawl your web page</li>
-</ul>
-
-<h2 id="optimizations">Optimizations</h2>
-
-<ul>
-<li><a href="http://www.removeem.com/ratios.php">Anchor Text Over Optimization Tool</a></li>
-<li><a href="http://www.xml-sitemaps.com/">XML-Sitemaps.com</a></li>
-<li><a href="http://www.webconfs.com/similar-page-checker.php">Similar Page Checker</a> - will give a score of how closely the HTML of two pages matches.</li>
-<li><a href="https://technicalseo.com/seo-tools/robots-txt/">Robots.txt tool</a></li>
-<li><a href="https://matomo.org">https://matomo.org</a> - light alternative to google analytics</li>
-</ul>
-
-<h2 id="speed-responsiveness">Speed-Responsiveness</h2>
-
-<ul>
-<li><a href="https://testmysite.thinkwithgoogle.com/">Test your mobile speed</a></li>
-<li><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a> - Make your web pages fast on all devices</li>
-<li><a href="https://www.browserstack.com/responsive">Responsive Design Testing across Devices</a></li>
-<li><a href="http://tools.pingdom.com/fpt/">Pingdom</a> - Speed tools</li>
-<li><a href="http://www.webpagetest.org/">webpagetest.org</a> - speed - performance</li>
-<li><a href="https://www.cloudflare.com/">Cloudflare</a></li>
-<li><a href="http://gtmetrix.com/">GTMetrics</a></li>
-</ul>
-
-<h2 id="keywords">Keywords</h2>
-
-<ul>
-<li><a href="https://ads.google.com/home/tools/keyword-planner/">Google Keyword Planner</a> [<a href="https://backlinko.com/google-keyword-planner">Article</a>]</li>
-<li><a href="https://authoritywebsiteincome.com/best-kw-research-tool-keyword-competitiveness/">KWFinder</a></li>
-<li><a href="https://keywordtool.io/amazon">Amazon&rsquo;s Kewordtool.io</a></li>
-<li><a href="https://www.seocentro.com/tools/search-engines/keyword-position.html">Check your raking for a given keyword</a></li>
-<li><a href="https://answerthepublic.com/">answerthepublic.com</a> - finds questions, prepositions, comparisons, alphabeticals, and related searches.</li>
-<li><a href="https://www.google.com/trends/correlate">Google Correlate</a> - finds search patterns corresponding with real‐world trends</li>
-<li><a href="https://ahrefs.com/blog/how-to-use-google-trends-for-keyword-research/">How to use Google Trends for Keyword Research</a></li>
-<li><a href="https://trends.google.com">Google Trends</a></li>
-<li><a href="https://my.jaaxy.com">Jaaxy</a> - has &ldquo;quoted search result&rdquo; feature, good for determining keyword competition</li>
-<li><a href="http://keywordshitter.com">Keyword Shitter</a></li>
-<li><a href="http://seo.danzambonini.com">AdWord &amp; SEO Keyword Permutation Generator</a></li>
-<li><a href="http://www.wordstream.com/free-keyword-tools">Wordstream Free Keyword Tools</a></li>
-<li><a href="https://topvisor.com/">Topvisor</a> - keyword tools - monitors the position of web pages for different keywords on Search Engine Result Pages.</li>
-<li><a href="http://www.keywordeye.com/">Keywordeye</a> -  keyword reserach with visualizations</li>
-<li><a href="http://www.ntopic.org/">nTopic</a> - gives your content a &ldquo;relevancy score&rdquo; and offers keyword suggestions to improve it.</li>
-<li><a href="https://keywordseverywhere.com/">Keywordseverywhere.com</a> - browser addon providing search volume, CPC &amp; competitive data.</li>
-<li><a href="https://www.wordtracker.com/scout">Wordtracker Scout</a> - extension that grabs the most relevant keywords from a web-page.</li>
-<li><a href="https://soovle.com/">Soovle</a> - suggested keywords from Google, YouTube, Bing, Amazon and more.</li>
-<li><a href="https://serps.com/tools/rank_checker">SERPS - Rank Checker</a></li>
-<li><a href="https://www.seedkeywords.com">seedkeywords.com</a></li>
-</ul>
-
-<h2 id="domain-authority">Domain Authority</h2>
-
-<ul>
-<li><a href="http://www.seoreviewtools.com/website-authority-checker/">Website Authority Checker</a></li>
-<li><a href="http://www.bulkdachecker.com/">Bulk Domain Authority Checker</a></li>
-<li><a href="http://www.seoweather.com/bulk-metrics-checker/">Bulk DA, PA &amp; IP Checker – SEOWEATHER</a></li>
-<li><a href="http://smallseotools.com/domain-authority-checker/">Domain Authority Checker</a></li>
-</ul>
-
-<h2 id="social">Social</h2>
-
-<ul>
-<li><a href="https://socialcrawlytics.com/">Social Crawlytics</a> - see your competitors&rsquo; most-shared content, and many other features.</li>
-<li><a href="http://www.sharedcount.com/">SharedCount</a> - discover how content is shared socially.</li>
-<li><a href="http://www.circlecount.com/">Circle Count</a> - Social Analytics</li>
-<li><a href="http://www.socialmention.com/">Social Mention</a> - Enter a search term and see who&rsquo;s sharing what (live)</li>
-<li><a href="https://followerwonk.com/">https://followerwonk.com/</a></li>
-<li><a href="http://knowem.com/">http://knowem.com/</a> - brainstorm new social media names</li>
-<li><a href="https://rowfeeder.com/">RowFeeder</a> - track social usernames, hashtags and keywords - export to Excel.</li>
-</ul>
-
-<h2 id="market-research">Market Research</h2>
-
-<ul>
-<li><a href="https://today.yougov.com/profileslite#/">Yougov</a> - measures the popularity and fame of anything and everything, based on millions of responses from the American public.</li>
-<li><a href="http://www.demographicspro.com/">Demographics Pro</a> - analyze Twitter and Instagram profiles to give you insight into the followers.</li>
-<li><a href="https://www.thinkwithgoogle.com/marketers-almanac/">Think With Google - Marketer&rsquo;s Almanac</a></li>
-<li><a href="http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml">factfinder.census.gov</a> - search U.S. census data.</li>
-<li><a href="https://www.hubspot.com/make-my-persona">Make My Perona</a></li>
-<li><a href="http://www.pewresearch.org/data/">Pew Research</a> - economic conditions, political attitudes, social media usage—interactive charts</li>
-<li><a href="https://research.hubspot.com/">Hubspot Research</a></li>
-</ul>
-
-<h2 id="content-creation">Content Creation</h2>
-
-<ul>
-<li><a href="https://www.canva.com/create/infographics/">Canva Infographic Creator</a></li>
-<li><a href="http://www.easel.ly/">easel.ly</a> - free create infographics</li>
-<li><a href="http://amara.org/en/">Amara</a> - create captions for YouTube videos.</li>
-<li><a href="https://builtvisible.com/content-strategy-helper/">Content Strategy Tool</a> - Find inspiration for your content marketing topics</li>
-<li><a href="http://www.copyscape.com/">Copyscape</a> - track if your content is being plagiarized.</li>
-<li><a href="http://www.google.com/publicdata/directory">Google Public Data</a> - content research, infographics, and more.</li>
-<li><a href="http://www.seomofo.com/snippet-optimizer.html">Google SERP Snippet Optimization Tool</a> - see how your snippet may appear in search results.</li>
-<li><a href="https://infogr.am/">infogr.am</a> - create infographics and data visualizations</li>
-<li><a href="http://www.textcleanr.com/">Text Cleaner</a> - cleans up all kinds of text formatting when copying and pasting between applications.</li>
-<li><a href="http://www.wordle.net/">wordle</a> - word cloud generator</li>
-<li><a href="http://pipes.yahoo.com/pipes/">Yahoo Pipes</a>
-combines feeds &ldquo;into content and other magical creations&rdquo;.</li>
-<li><a href="http://piktochart.com/">Piktochart</a> - visualization generator.</li>
-<li><a href="http://wistia.com/">Wistia</a> - SEO-friendly video hosting.</li>
-</ul>
-
-<h2 id="link-building">Link Building</h2>
-
-<ul>
-<li><a href="http://www.boomeranggmail.com/">Boomerang</a> - follow-up email reminders.</li>
-<li><a href="http://tools.buzzstream.com/link-building">Buzzstream Tools Suite</a> -</li>
-<li><a href="https://netvantagemarketing.com/about/domain-hunter-plus">Domain Hunter Plus</a> - Chrome extension to check for broken links.</li>
-<li><a href="http://email-format.com/">email-format.com</a> - find the email address formats in use at thousands of companies</li>
-<li><a href="http://www.google.com/mapmaker">Google Mapmaker</a> - allows you to contribute to public map information, which may be shared and incorporated into Google Maps.</li>
-<li><a href="http://www.linkstant.com/">linkstant.com</a> - alerts you when you recieve a link</li>
-<li><a href="http://linksy.me/find-email">Linksy.me Email Guesser</a></li>
-<li><a href="http://mailtester.com/">mailtester.com</a> - check an e-mail address without sending it a spam test message</li>
-<li><a href="http://myblogguest.com/">MyBlogGuest</a> - Find Guest Posting opportunities</li>
-<li><a href="http://www.majesticseo.com/">Majestic SEO</a> - Link Research\Building, Competitive Analysis - free options great for link research.</li>
-</ul>
-
-<h2 id="local-seo">Local SEO</h2>
-
-<ul>
-<li><a href="https://moz.com/local/search">Check Listing</a> - checks name-address-phone number across local listings</li>
-<li><a href="https://www.whitespark.ca/local-citation-finder/">Whitespark Local Citation Finder</a></li>
-<li><a href="http://www.localprmedia.com/local-business-listings/">localprmedia.com</a></li>
-<li><a href="http://www.yext.com/">Yext</a></li>
-<li><a href="https://www.ubl.org/">UBL</a></li>
-</ul>
-
-<h2 id="schema">Schema</h2>
-
-<ul>
-<li><a href="http://schema-creator.org/">Schema-Creator</a></li>
-</ul>
-
-<h2 id="api">API</h2>
-
-<ul>
-<li><a href="http://www.sharedcount.com/documentation.php">SharedCount API</a> - combined statistics of Google+, Twitter, Facebook, and more.</li>
-<li><a href="https://support.google.com/analytics/answer/1008004?hl=en&amp;ref_topic=1008008">Google Analytics API</a> -for building custom reports and tools, and also for pulling data straight into Excel or Google Docs.</li>
-<li><a href="http://seogadget.com/api/">SEOgadget Links API</a> - lets you gather backlink data and contact information.</li>
-<li><a href="https://followerwonk.com/social-authority">Social Authority API</a>
-How much reach and social authority do your followers and the people you want to connect with have?</li>
-<li><a href="http://blog.majesticseo.com/general/majestic-seo-api-now-explained/">Majestic SEO API</a></li>
-<li><a href="https://moz.com/products/api">Mozscape API</a></li>
-</ul>
-
-<h2 id="track-google-algorithm">Track Google Algorithm</h2>
-
-<ul>
-<li><a href="https://www.searchenginejournal.com/seo-guide/track-google-algorithm-updates/">Track Google Algorithm Updates</a></li>
-<li><a href="https://moz.com/mozcast/">Mozcast</a> - tracks changes in the SERPs.</li>
-<li><a href="http://www.barracuda-digital.co.uk/panguin-tool/">Panguin Tool</a> - connects with Google Analytics to track Google Algorithm.</li>
-<li><a href="https://www.semrush.com/sensor">SEMRush Sensor</a></li>
-<li><a href="https://www.rankranger.com/rank-risk-index">Rank Risk Index</a></li>
-<li><a href="https://www.accuranker.com/grump/">https://www.accuranker.com/grump/</a></li>
-<li><a href="https://algoroo.com/">https://algoroo.com/</a></li>
-<li><a href="https://www.advancedwebranking.com/google-algorithm-changes/">https://www.advancedwebranking.com/google-algorithm-changes/</a></li>
-<li><a href="https://cognitiveseo.com/signals/">Cognitiveseo.com - Signals</a></li>
-</ul>
-
-<p>You can minimize your chances of avoiding a huge impact by always focusing on the SEO fundamentals. Avoid any shortcuts or spammy tactics that may have short-term gains but could create disaster in the long term.</p>
-
-<p>You’re far better off understanding your audience and creating content that builds your authority, relevance, and trust.</p>
-
-<h2 id="resources">Resources</h2>
-
-<ul>
-<li><a href="https://moz.com/blog/100-free-seo-tools">100 Free SEO Tools - Moz</a></li>
-<li><a href="http://seeromega.com/500-most-effective-free-seo-tools-online-for-blogger-and-business/">500 Free SEO Tools</a></li>
-<li><a href="http://seoexpertservices-ro.blogspot.com/2016/08/new-get-over-1000-top-seo-internet.html#">1000 Top SEO Internet Marketing Tools</a> (Just a list, no links)</li>
-<li><a href="https://backlinko.com/keyword-research-tools">https://backlinko.com/keyword-research-tools</a></li>
-<li><a href="https://www.robbierichards.com/seo/best-keyword-research-tool/">https://www.robbierichards.com/seo/best-keyword-research-tool/</a></li>
-</ul>
-
-<p><strong>Source: <a href="https://github.com/infominer33/WebWork">infominer33/WebWork</a></strong></p>
-
-  </div>
-</article>
-
-
-
-
-<div class="pagination">
-  <ul class="inline-list">
-	  
-    
-
-	
-
-	
-	
-    
-	<li><strong class="current-page">1</strong></li>
-    
-	
-    
-	<li><a href="/web-work/tags/resources/page/2/">2</a></li>
-    
-	
-
-	
-
-	
-    
-      <li><a href="/web-work/tags/resources/page/2/" class="btn">Next</a></li>
-    
-  </ul>
-</div>
-
+    </article>
 
 </div>
 
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    <span> Powered by <a href="https://gohugo.io/" rel="nofollow">Hugo</a> using the <a href="https://github.com/dldx/hpstr-hugo-theme" rel="nofollow">HPSTR theme</a>.</span>
+    
+    <div class="h-card">
+      <img class="u-photo" src="https://infominer.id/web-work/images/infominer.svg" />
+      <div class="card-content">
+        <h2 class="card-name"><a class="p-name u-url" href="https://infominer.id/web-work/" rel="me">Infominer</a></h2>
+        <p class="card-subhead">
+          <span class="p-locality">Marginalized</span>,
+          <span class="p-country-name">Stateless</span><br />
+          <a class="u-email" href="mailto:infominer@protonmail.com">Email me</a>
+        </p>
+      </div>
+      <p class="p-note">Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉</p>
+    </div>
+    
+    <div id="footer">
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:infominer@protonmail.com"><img src="https://infominer.id/web-work/icons/envelope.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/infominer33"><img src="https://infominer.id/web-work/icons/github.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitLab profile" href="https://gitlab.com/infominer33"><img src="https://infominer.id/web-work/icons/gitlab.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Keybase profile" href="https://keybase.io/infominer"><img src="https://infominer.id/web-work/icons/keybase.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/infominer"><img src="https://infominer.id/web-work/icons/microblog.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Reddit profile" href="https://www.reddit.com/user/infominer33"><img src="https://infominer.id/web-work/icons/reddit-alien.svg" height="24px" width="24px" /></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Stack Overflow profile" href="https://stackoverflow.com/users/infominer33"><img src="https://infominer.id/web-work/icons/stack-overflow.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Twitter profile" href="https://twitter.com/infominer33"><img src="https://infominer.id/web-work/icons/twitter.svg" height="24px" width="24px"></a>
+     </div>
+     
+  </div>
+</aside>
 
-  </footer>
-</div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="\/web-work\/js\/vendor\/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="/web-work/js/scripts.min.js"></script>
-
+      
+      <p class="copyright">
+          ⧉ &lt;a href=&#39;https://creativecommons.org/publicdomain/zero/1.0/&#39;&gt;Website Content Creative Commons (CC0 1.0) Public Domain&lt;/a&gt; by &lt;a href=&#39;https://infominer.id&#39;&gt;Infominer&lt;/a&gt;. ⧉ Powered by &lt;a href=&#39;https://themes.gohugo.io/indigo/&#39;&gt;Indigo&lt;/a&gt; via &lt;a href=&#39;https://github.com/gohugoio/hugo/releases/tag/v0.51&#39;&gt;Hugo&lt;/a&gt; and &lt;a href=&#39;https://infominer.id/gh-pages-starter-pack.html&#39;&gt;Github Pages&lt;/a&gt;.
+      </p>
+      
+    </div>
 
 
 </body>
 </html>
-

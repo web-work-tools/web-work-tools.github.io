@@ -88,6 +88,29 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/posts/introducing-indigo/</loc>
+    <lastmod>2018-10-01T09:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/featured-typefaces/</loc>
+    <lastmod>2018-10-01T08:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/author-bios/</loc>
+    <lastmod>2018-10-01T08:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/about-the-theme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/adding-menu-items/</loc>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/tags/adwords/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -153,6 +176,12 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/tags/indieweb/</loc>
+    <lastmod>2018-10-01T09:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/tags/jekyll/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -171,6 +200,12 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/categories/meta/</loc>
+    <lastmod>2018-10-01T09:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/tags/migration/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -179,6 +214,12 @@
   <url>
     <loc>https://infominer.id/web-work/tags/open-source/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/options/</loc>
+    <lastmod>2018-10-01T08:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -279,6 +320,12 @@
   <url>
     <loc>https://infominer.id/web-work/tags/tools/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/typography/</loc>
+    <lastmod>2018-10-01T09:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   

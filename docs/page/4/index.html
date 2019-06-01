@@ -1,1241 +1,311 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<html lang="en-gb">
 <head>
-<meta charset="utf-8">
-<title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
-<meta name="description" content="">
-
+	<meta name="generator" content="Hugo 0.51" />
+    <meta charset="utf-8">
     
-
-
-
-
-
-
-<meta name="twitter:title" content="Webwork.tools: Independent Web-Work and Skyscraper Publishing.">
-<meta name="twitter:description" content="Digital Tools for a Digital Transformation.">
-
-
+    <title>Webwork.tools</title>
+    <meta name="description" content="{Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto.">
+    <meta name="author" content="Infominer">
     
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
     
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="https://infominer.id/images/web-work-tools.png">
+    <link rel="me" href="mailto:infominer@protonmail.com">
+    <link rel="me" href="https://github.com/infominer33">
+    <link rel="me" href="https://twitter.com/infominer33">
+    <link rel="me" href="https://micro.blog/infominer">
     
-
-
-
-<meta property="og:type" content="article">
-<meta property="og:title" content="Webwork.tools: Independent Web-Work and Skyscraper Publishing.">
-<meta property="og:description" content="Digital Tools for a Digital Transformation.">
-<meta property="og:url" content="https://infominer.id/web-work/">
-<meta property="og:site_name" content="Webwork.tools: Independent Web-Work and Skyscraper Publishing.">
-
-
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     
-    <meta property="og:image" content="https://infominer.id/images/web-work-tools.png" />
+    <style type="text/css">@font-face{
+    font-family: 'Fira Code';
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.ttf') format('truetype');
+    font-display: optional;
+}
 
-  <meta property="og:updated_time" content="2019-02-24T00:00:00&#43;00:00"/>
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    font-display: optional;
+}
 
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.ttf') format('truetype');
+    font-display: optional;
+}
 
-
-<link rel="canonical" href="https://infominer.id/web-work/">
-
-  <link href="https://infominer.id/web-work/index.xml" rel="alternate" type="application/rss+xml" title="Webwork.tools: Independent Web-Work and Skyscraper Publishing." />
-  <link href="https://infominer.id/web-work/index.xml" rel="feed" type="application/rss+xml" title="Webwork.tools: Independent Web-Work and Skyscraper Publishing." />
-
-
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<link rel="stylesheet" href="/web-work/css/main.css">
-
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
-
-<meta http-equiv="cleartype" content="on">
-
-<meta name="generator" content="Hugo 0.31.1" />
-
-<script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
-
-
-<link rel="shortcut icon" href="/web-work/favicon.png">
-
-
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+</style>
+    <link rel="stylesheet" href="https://infominer.id/web-work/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="https://infominer.id/web-work/"><img src="https://infominer.id/web-work/images/site-logo.svg" alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>        
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="https://infominer.id/web-work/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/about-the-theme/">
+                    
+                    <span>About The Theme</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/adding-menu-items/">
+                    
+                    <span>Adding Page Items</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+        <div id="site-header">
+            <h1>Webwork.tools</h1>
+            
+            <p>
+              Independent Web-Work and Skyscraper Publishing
+            </p>
+            
+        </div>
+        
+    </header>
 
-<body id="post-index" class="feature">
-<nav id="dl-menu" class="dl-menuwrapper" role="navigation" style="display:inline-block">
-	<button class="dl-trigger">Open Menu</button>
-	<ul class="dl-menu">
-		<li><a href="/web-work/">Home</a></li>
-		<li>
-			<a href="#">About</a>
-			<ul class="dl-submenu">
-			
-				<li>
-					
-					<img src="/web-work/images/info-id.png" alt="⧉ Infominer's photo" class="author-photo">
-					
-					<h4>⧉ Infominer</h4>
-					<p>Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉</p>
-				</li>
-				<li><a href="/web-work/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-				
-				
-				
-				
-				
-				<li>
-					<a href="https://github.com/infominer33/web-work"><i class="fa fa-fw fa-github"></i> GitHub</a>
-				</li>
-				
-				
-				
-				
-			
-			</ul>
-		</li>
-		<li>
-			<a href="#">Posts</a>
-			<ul class="dl-submenu">
-				<li><a href="/web-work/posts/">All Posts</a></li>
-				<li><a href="/web-work/tags/">All Tags</a></li>
-			</ul>
-		</li>
-		
-	    <li><a href="/web-work/posts/webwork.tools/" >Webwork.tools</a></li>
-	  
-	    <li><a href="/web-work/posts/services/" >Services</a></li>
-	  
-	    <li><a href="/web-work/posts/seo-tools/" >Mostly Free SEO Tools</a></li>
-	  
-	    <li><a href="/web-work/posts/github-pages-starter-pack/" >GitHub Pages Starter Pack</a></li>
-	  
-	    <li><a href="/web-work/posts/practical-public-key-crypto/" >Practical Public Key Crypto</a></li>
-	  
-	    <li><a href="http://infominer.id/indieweb/" target="_blank">IndieWeb</a></li>
-	  
-	    <li><a href="http://infominer.id/" target="_blank">InfoMine</a></li>
-	  
-	</ul>
+
+<div id="content">
+
+
+    <article>
+      <header>
+        
+        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/open-source-publishing/">Open Source Publishing.</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2019-05-23T00:00:00Z">
+            23 May, 2019 at 00:00 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        Pro-tip: Go Home for a full view of featured image.
+ Shows what can be done in a short period of time. I didn&rsquo;t start building any of this till the beginning of this year.
+It&rsquo;s true that it&rsquo;s a ton of work to do what I do, but you could use this concept for just one topic instead of 100 and build a valuable resource in a few days!
+      </div>
+      
+      <p><a class="read-more" href="https://infominer.id/web-work/posts/open-source-publishing/">Read more &rarr;</a></p>
+      
+    </article>
+
+
+
+    <article>
+      <header>
+        
+        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/practical-public-key-crypto/">Using PGP and Cryptocurrency Keysignatures</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2019-03-22T00:00:00Z">
+            22 March, 2019 at 00:00 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        &quot;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&quot;  I created this resource while researching the following article:
+ freelanceforcoins.com/Business with Crypto 101—Escrow and Key Signatures -infominer &gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.
+      </div>
+      
+      <p><a class="read-more" href="https://infominer.id/web-work/posts/practical-public-key-crypto/">Read more &rarr;</a></p>
+      
+    </article>
+
+
+
+    <article>
+      <header>
+        
+        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/seo-tools/">100&#39;s of Mostly Free SEO Tools</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2019-03-02T00:00:00Z">
+            2 March, 2019 at 00:00 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        Google and Company  Google Analytics - duh - free tools to track and analyze website data. Google Webmaster - Tools Suite, Diagnostic Google Search Console - what you&rsquo;re already ranking for, straight from google. Google PageSpeed Insights Google&rsquo;s Mobile Friendly Test Google Sitemap Generators Bing Webmaster Tools - Similar to Google&rsquo;s Webmaster Tools. YouTube Analytics - must-have for YouTube video publishers. A Must-Have Guide for Decoding the Google Rankings  For adding ^^^ this link to my page (It seems like a decent guide.
+      </div>
+      
+      <p><a class="read-more" href="https://infominer.id/web-work/posts/seo-tools/">Read more &rarr;</a></p>
+      
+    </article>
+
+<nav>
+    <div id="pagination">
+        <div class="pagination-item-spacer">&nbsp;</div>
+        
+            <div class="pagination-item">
+                <a alt="Newer articles" href="/web-work/page/3/">&larr; Newer</a>
+            </div>
+        
+        <div class="pagination-item-spacer">
+            Page 4 of 5
+        </div>
+        
+            <div class="pagination-item">
+                <a alt="Older articles" href="/web-work/page/5/">Older &rarr;</a>
+            </div>
+        
+        <div class="pagination-item-spacer">&nbsp;</div>
+    </div>
 </nav>
 
-<div class="entry-header">
-  
-
-	
-    <div class="entry-image">
-      <img src="/web-work/images/web-work-tools.png" alt="Webwork.tools: Independent Web-Work and Skyscraper Publishing.">
-    </div>
-  
-  <div class="header-title">
-    <div class="header-title-wrap">
-		<h1><a href="/" title="Go to the homepage">Webwork.tools: Independent Web-Work and Skyscraper Publishing.</a></h1>
-	  <h2>
-            Digital Tools for a Digital Transformation.
-          </h2>
-    </div>
-  </div>
 </div>
 
-<div id="main" role="main">
 
-<article class="hentry">
-  <header>
+
     
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/github-pages-starter-pack/" title="GitHub Pages-Starter Pack"><img src="/web-work/images/github-pages-jekyll-starter-pack.png" alt="GitHub Pages-Starter Pack"></a>
+    <div class="h-card">
+      <img class="u-photo" src="https://infominer.id/web-work/images/infominer.svg" />
+      <div class="card-content">
+        <h2 class="card-name"><a class="p-name u-url" href="https://infominer.id/web-work/" rel="me">Infominer</a></h2>
+        <p class="card-subhead">
+          <span class="p-locality">Marginalized</span>,
+          <span class="p-country-name">Stateless</span><br />
+          <a class="u-email" href="mailto:infominer@protonmail.com">Email me</a>
+        </p>
       </div>
+      <p class="p-note">Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉</p>
+    </div>
     
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-02-24 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/github-pages-starter-pack/">Feb 24, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~11 minutes
-      </span>
+    <div id="footer">
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:infominer@protonmail.com"><img src="https://infominer.id/web-work/icons/envelope.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/infominer33"><img src="https://infominer.id/web-work/icons/github.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitLab profile" href="https://gitlab.com/infominer33"><img src="https://infominer.id/web-work/icons/gitlab.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Keybase profile" href="https://keybase.io/infominer"><img src="https://infominer.id/web-work/icons/keybase.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/infominer"><img src="https://infominer.id/web-work/icons/microblog.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Reddit profile" href="https://www.reddit.com/user/infominer33"><img src="https://infominer.id/web-work/icons/reddit-alien.svg" height="24px" width="24px" /></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Stack Overflow profile" href="https://stackoverflow.com/users/infominer33"><img src="https://infominer.id/web-work/icons/stack-overflow.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Twitter profile" href="https://twitter.com/infominer33"><img src="https://infominer.id/web-work/icons/twitter.svg" height="24px" width="24px"></a>
+     </div>
+     
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          ⧉ &lt;a href=&#39;https://creativecommons.org/publicdomain/zero/1.0/&#39;&gt;Website Content Creative Commons (CC0 1.0) Public Domain&lt;/a&gt; by &lt;a href=&#39;https://infominer.id&#39;&gt;Infominer&lt;/a&gt;. ⧉ Powered by &lt;a href=&#39;https://themes.gohugo.io/indigo/&#39;&gt;Indigo&lt;/a&gt; via &lt;a href=&#39;https://github.com/gohugoio/hugo/releases/tag/v0.51&#39;&gt;Hugo&lt;/a&gt; and &lt;a href=&#39;https://infominer.id/gh-pages-starter-pack.html&#39;&gt;Github Pages&lt;/a&gt;.
+      </p>
       
     </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/github-pages-starter-pack/" rel="bookmark" title="GitHub Pages-Starter Pack" itemprop="url">GitHub Pages-Starter Pack</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<p>Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).</p>
-
-<p>Each feature you want to enable requires a little more learning, and GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer.</p>
-
-<p>If you don’t want to think about web-development, and simply want your markdown files to look beautiful once published, github pages can help you do that too.</p>
-
-<p><img src="https://i.imgur.com/mN5sBdg.png" alt="" /></p>
-
-<p>I first started playing around with GitHub to make an <a href="https://github.com/infominer33/awesome-decentralized-id">awesome-list</a>, in November.</p>
-
-<p>The number of technical subjects I&rsquo;ve begun to learn, thanks to github, is incredible. Publishing via github-pages is really empowering.</p>
-
-<p><img src="https://imgur.com/oin0Ir8.png" alt="" /></p>
-
-<h2 id="introduction">Introduction</h2>
-
-<p>I&rsquo;m just a newb that created this resource to help myself. It does take a lot of work to create bigger projects like, however it&rsquo;s really simple to create a blog, or a homepage.</p>
-
-<p>Corrections, suggestions, tips, and links would be all appreciated.</p>
-
-<p><strong>Note:</strong> this page is just for Jekyll\GHPages. I&rsquo;m making new pages for the other stuff like <a href="https://infominer.id/web-work/static-site-generators/">static site generators besides jekyll</a>, and <a href="https://infominer.id/web-work/content-creation/">content creation</a>.</p>
-
-<p><img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="" /></p>
-
-<p>Github pages runs Jekyll, which runs <a href="https://kramdown.gettalong.org/quickref.html">Kramdown</a>, which can transform yaml, markdown, and a number of related languages into proper html.</p>
-
-<p>Github pages can be used, like, 4 different ways. It’s versitile, but can be confusing.</p>
-
-<p>The simplest way to use pages is to choose one of the <a href="https://pages.github.com/themes/" target="_blank">official GitHub pages themes</a>. Just go into your repository settings:</p>
-
-<p><img src="https://i.imgur.com/sw4Iann.png" alt="" /></p>
-
-<p>All you really need to do is select a branch and it will begin publishing your repository. Then choose a method to publish. Brand-newbs go with the theme chooser.</p>
-
-<p>The first repository for your web-page must be named like so: <code>username.github.io</code>. For example, the repository for my personal page is called <code>infominer33.github.io</code>.  Simply create a new repository, and if your github username is <code>@awesomesauce</code> then you would create a new directory named <code>awesomesauce.github.io</code>.</p>
-
-<p>Every other repository you own can also be made into its own web-page, that will published off of your user page, with the same name following your domain. So if you have a repository called, <code>/Dynomite</code> and you go into settings select pages to publish from the master branch, then that page will be found at <code>https://awesomesauce.github.io/Dynomite</code>.</p>
-
-<p>so <a href="https://github.com/infominer33/DIDecentralized">github.com/infominer33/DIDecentralized</a> is published at <a href="https://infominer.id/DIDecentralized">infominer.id/DIDecentralized</a>, because I have a custom domain. But it can still be found at, <a href="https://infominer.id/DIDecentralized">infominer33.github.io/DIDecentralized</a>.</p>
-
-<h3 id="domains">Domains</h3>
-
-<p>Namecheap supports BTC purchases, so I&rsquo;m including their github how-to here. If you know of other crypto-friendly domain providers, lmk in the issues.</p>
-
-<ul>
-<li><a href="https://help.github.com/en/articles/using-a-custom-domain-with-github-pages">https://help.github.com/en/articles/using-a-custom-domain-with-github-pages</a></li>
-<li><a href="https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a">Using Custom Domain for Github Pages</a></li>
-<li><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages">namecheap.com - how-do-i-link-my-domain-to-github-pages</a></li>
-</ul>
-
-<h2 id="getting-started">Getting Started</h2>
-
-<p>If you used the theme chooser, all you need to do is edit README.md, and your page is built instantly when you save a commit to the repository.</p>
-
-<p><strong>Create an index.md</strong></p>
-
-<p>Although pages will build an index.html from your readme.md, pages will not behave as expected if you try to do any configuration or additional optimization with only readme.md.</p>
-
-<p>in that index.md you need to include front matter:</p>
-
-<pre><code>---
-layout: default
----
-</code></pre>
-
-<p>There is a plugin that builds index files from all the readme.md files of your repository.. but it has trouble creating an index.html from your repositories primary README.md.</p>
-
-<h2 id="besides-the-theme-chooser">Besides the Theme Chooser</h2>
-
-<ol>
-<li>Remote Themes.</li>
-</ol>
-
-<p>This is supposed to be the easy route, and makes it simpler to keep your source files up to date.</p>
-
-<ul>
-<li><a href="https://github.blog/2017-11-29-use-any-theme-with-github-pages/">github.blog/2017-11-29-use-any-theme-with-github-pages/</a></li>
-<li><a href="https://github.com/benbalter/jekyll-remote-theme">Jekyll Remote Theme</a>
-<br /></li>
-</ul>
-
-<pre><code>   plugins:
-     - jekyll-remote-theme
-
-   remote_theme: benbalter/retlab
-</code></pre>
-
-<p>Essentially, if you&rsquo;re just editing files on github, you should just add those lines to your _config.yml along w an index file and Jekyll should build your site.</p>
-
-<ol>
-<li><p>You can also run any Gem based theme from your page. Gem files are packages that contain all of the files necessary for building your site, and keep your repository directory un-cluttered. Then, if you want to change a file that&rsquo;s in the gem, you just create the directory and pur the file where it goes, and configure as you wish.</p>
-
-<ul>
-<li><a href="https://github.com/planetjekyll/awesome-jekyll-themes">planetjekyll/awesome-jekyll-themes</a>
-&gt;Q: How can I get started with gem-packaged themes? / Do I need to package my theme into a gem?
-&gt;
-&gt;Gem-packaged themes are just an advanced option and in addition they are in development for (real world) experiments (e.g. think v0.1 as stated by the Ben Balter - the lead designer / manager / dev at GitHub).
-&gt;
-&gt;Thus, to conclude do NOT read too much into the official themes docs e.g. as the only or &ldquo;right&rdquo; way to design a theme. Just (continue to) use &ldquo;classic&rdquo; themes - there are hundreds to learn from and once you have mastered &ldquo;classic&rdquo; themes you can &ldquo;graduate&rdquo; to the master class, that is, using gem-packaged themes.<br />
-&gt;
-&gt;I understand what they&rsquo;re saying, but I feel kind of the opposite. I used the theme chooser and remote\gem themes to begin learning. Then again, I didn&rsquo;t really understand my options when I started.</li>
-</ul></li>
-
-<li><p>These <a href="#classic">classic themes</a> are just files and folders, everything where you can see it (and should be forkable to create working websites)</p></li>
-</ol>
-
-<h2 id="moved">Moved</h2>
-
-<p>Running out of space on this page ;)</p>
-
-<p><strong>NOTE:</strong> The following resources are specifically for github-pages\jekyll <em>compatible</em> themes. Anything requiring a local build will now live on another page:</p>
-
-<h3 id="static-site-generators-other-than-jekyll">Static Site Generators Other Than Jekyll</h3>
-
-<p><a href="https://infominer.id/web-work/static-site-generators/" class="btn btn-success">Static Site Generators</a></p>
-
-<h3 id="content-creation">Content Creation</h3>
-
-<p><a href="https://infominer.id/web-work/content-creation/" class="btn btn-primary">Content Creation</a></p>
-
-<h2 id="fundamentals">Fundamentals</h2>
-
-<p><a href="https://lab.github.com/" class="btn btn-info">GitHub Learning Lab</a></p>
-
-<h3 id="markdown">Markdown</h3>
-
-<ul>
-<li><a href="https://kramdown.gettalong.org/quickref.html">Kramdown - QuickRef Guide</a></li>
-<li><a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a></li>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheet-Sheet</a></li>
-</ul>
-
-<h3 id="github-pages">Github Pages</h3>
-
-<ul>
-<li><a href="https://github.community/t5/GitHub-Pages/bd-p/pages">Github Pages Community Forum</a></li>
-<li><a href="https://pages.github.com/versions/" target="_blank"><a href="https://pages.github.com/versions/">https://pages.github.com/versions/</a></a> - These plugins can be used via gh-pages.</li>
-<li><a href="https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages">Configuring a Publishing Source for GitHub Pages</a></li>
-<li><a href="https://help.github.com/en/articles/user-organization-and-project-pages">help.github.com - User, Organization, and Project Pages</a></li>
-<li><a href="http://ragupappu.com/2015/04/22/setup-website-using-github-pages-and-jekyll/" target="_blank"><a href="http://ragupappu.com/2015/04/22/setup-website-using-github-pages-and-jekyll/">http://ragupappu.com/2015/04/22/setup-website-using-github-pages-and-jekyll/</a></a></li>
-<li><a href="https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll" target="_blank">Setting up You GitHub Pages Site Locally with Jekyll</a>
-
-<ul>
-<li><a href="https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-3-Local-development-with/ba-p/2292" target="_blank">&ndash; Local development with GitHub Pages</a></li>
-</ul></li>
-<li><a href="https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-4-Customizing-your-Pages/ba-p/4058" target="_blank">Getting started with GitHub Pages: Part 4 &ndash; Customizing your Pages site</a></li>
-<li><a href="https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/">Clearing Up Confusion around Baseurl</a></li>
-</ul>
-
-<h3 id="jekyll">Jekyll</h3>
-
-<p><img src="https://infominer.id/web-work/images/gh-jekyll.png" alt="" /></p>
-
-<ul>
-<li><a href="https://github.com/jekyll/jekyll/blob/master/README.markdown" target="_blank">Jekyll README</a></li>
-<li><a href="https://github.com/planetjekyll" target="_blank">planetjekyll</a>
-
-<ul>
-<li><a href="https://github.com/planetjekyll/awesome-jekyll" target="_blank">planetjekyll/awesome-jekyll</a></li>
-</ul></li>
-<li><a href="https://devhints.io/jekyll" target="_blank">Jekyll - Cheat Sheet</a></li>
-<li><a href="http://talk.jekyllrb.com/">Jekyll Community Forum</a></li>
-<li><a href="https://jekyllrb.com/docs/pagination/" target="_blank">Jekyll - Pagination Docs</a></li>
-<li><a href="https://jekyllrb.com/tutorials/navigation/" target="_blank">Jekyll - Navigation Tutorial</a></li>
-<li><a href="https://wiredcraft.com/blog/make-jekyll-fast">https://wiredcraft.com/blog/make-jekyll-fast</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB">Jekyll - Static Site Generator | Tutorial</a>
-&gt; This course covers the basics of using Jekyll - Static Site Generator. Work your way through the videos and we&rsquo;ll teach you everything you need to know to create a professional and scalable website or blog!
-<a href="https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB"><img src="https://i.imgur.com/IoU70pW.png" alt="" /></a></li>
-<li><a href="https://makandracards.com/makandra/9741-run-specific-version-of-bundler">Run a Specific Version of Bundler</a>
-
-<ul>
-<li>Can get older themes to work if you use the right verion of bundler (found in gemfile.lock).</li>
-</ul></li>
-<li><a href="https://github.com/benbalter/jekyll-style-guide">benbalter/jekyll-style-guide</a></li>
-</ul>
-
-<h3 id="themes">Themes</h3>
-
-<p>I&rsquo;ll say now, if you are new to web-development, best to start off trying out a few of the <a href="https://pages.github.com/themes/">official GitHub Pages Themes</a>.</p>
-
-<p>Once installed, I cloned those repos locally so its easier to see how everything works. Then, if I want to configure a file that&rsquo;s not in my repository, I have a copy nearby. You can grab the <code>_layouts/default.html</code>, put it in your repo, and get a feel for how configuring that template shapes your entire site. But then you configure individual pages, and categories, perhaphs, to display differently.</p>
-
-<h3 id="finding-themes">Finding Themes</h3>
-
-<ul>
-<li><a href="https://github.com/planetjekyll/awesome-jekyll-themes" target="_blank">planetjekyll/awesome-jekyll-themes</a> (gem-based)</li>
-<li><a href="http://themes.jekyllrc.org/">http://themes.jekyllrc.org/</a></li>
-<li><a href="https://webcache.googleusercontent.com/search?q=cache:http://talk.jekyllrb.com/t/jekyll-theme-showcase-share-your-jekyll-themes/1382">jekyll-theme-showcase-share-your-jekyll-themes/1382</a></li>
-<li><a href="http://forked.yannick.io"><strong>forked.yannick.io</strong></a> - <strong>Find maintained forks of your favorite GitHub repos.</strong></li>
-</ul>
-
-<p>The problem is that all of these websites are not exactly up to date. Many of the themes listed above were written for older versions of Jekyll.</p>
-
-<p>Choosing a theme is very personal to your needs, also.</p>
-
-<h3 id="found-themes">Found Themes</h3>
-
-<p>I&rsquo;m keeping track of themes that catch my eye:</p>
-
-<ul>
-<li><a href="https://projectpages.github.io/project-pages/">projectpages.github.io/project-pages/</a>
-
-<ul>
-<li><a href="https://github.com/projectpages/project-pages/wiki">project-pages/wiki</a></li>
-</ul></li>
-<li><a href="https://github.com/bradleytaunt/lightspeed">bradleytaunt/lightspeed</a></li>
-<li><a href="https://pmarsceill.github.io/just-the-docs/">Just the Docs</a></li>
-<li><a href="https://era.yayd.in/jekyll-bulma/">era.yayd.in/jekyll-bulma/</a></li>
-<li><a href="https://ndrewtl.github.io/airspace-jekyll/">https://ndrewtl.github.io/airspace-jekyll/</a>
-
-<ul>
-<li><a href="https://github.com/ndrewtl/airspace-jekyll/">ndrewtl/airspace-jekyll/</a></li>
-</ul></li>
-<li><a href="https://deanattali.com/beautiful-jekyll/">deanattali.com/beautiful-jekyll/</a></li>
-<li><a href="https://github.com/github/personal-website">github/personal-website</a>
-&gt; Code that&rsquo;ll help you kickstart a personal website that showcases your work as a software developer.</li>
-<li><a href="https://idratherbewriting.com/documentation-theme-jekyll">Documentation Theme Jekyll</a>
-<img src="https://imgur.com/7UjPtdAl.png" alt="" /></li>
-</ul>
-
-<h3 id="classic">Classic</h3>
-
-<ul>
-<li><a href="https://drjekyllthemes.github.io">drjekyllthemes.github.io</a> (classic &lsquo;files and folders&rsquo;)</li>
-<li><a href="https://github.com/indieweb/blank-gh-site">indieweb/blank-gh-site</a></li>
-<li><a href="https://github.com/ChristopherA/simplest-github-page">ChristopherA/simplest-github-page</a></li>
-<li><a href="https://github.com/prose/starter">prose/starter</a></li>
-<li><a href="https://github.com/kinlane/beforeeighteen">https://github.com/kinlane/beforeeighteen</a> (template for presentation style pages.)</li>
-</ul>
-
-<h3 id="hydejack">Hydejack</h3>
-
-<p><img src="https://i.imgur.com/3ZY5FI7.png" alt="" /></p>
-
-<ul>
-<li><a href="https://infominer.id/qwtel/hydejack/" target="_blank">/qwtel/hydejack/</a></li>
-<li><a href="https://github.com/qwtel/hydejack-starter-kit">/qwtel/hydejack-starter-kit</a></li>
-<li><a href="https://hydejack.com/docs/print/" target="_blank">Hydejack Print Documentation</a></li>
-<li><a href="http://nickengmann.com/Documentation.pdf" target="_blank">Hydejack Documentation.pdf</a></li>
-<li><a href="https://github.com/qwtel/hydejack/blob/master/docs/advanced.md" target="_blank">Hydejack Advanced</a></li>
-</ul>
-
-<p>If you don&rsquo;t want to think too much about web-development, try <a href="https://hydejack.com">Hydejack</a>. It&rsquo;s build with everything you need to create a beatiful responsive web-page, with plenty of options and configurations supported. It&rsquo;s a free version of a more robust commercial option. But it&rsquo;s easy to set up, and works great.</p>
-
-<p>The only problem is that it is not open source. So it&rsquo;s not 100% customizable. Then again, that keeps you from getting in and screwing things up. &ndash;&gt;</p>
-
-<h3 id="minimal-mistakes">Minimal Mistakes</h3>
-
-<p>Minimal Mistakes is the most popular theme for Github Pages, and with good cause. It creates gorgeous web-sites right out the box, and with some fine tuning is beautiful indeed. You can find pretty much everything you need to run Minimal Mistakes in the Quickstart Guide, Sample Posts and Collections, along with their corresponding files on Github.</p>
-
-<ul>
-<li><a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">minimal-mistakes/docs/quick-start-guide</a></li>
-<li><a href="https://mmistakes.github.io/minimal-mistakes/year-archive/">Sample Posts</a></li>
-<li><a href="https://mmistakes.github.io/minimal-mistakes/collection-archive/">Sample Collections</a></li>
-<li><a href="https://github.com/mmistakes/minimal-mistakes">mmistakes/minimal-mistakes</a>
-<img src="https://i.imgur.com/Ua8hFx8.png" alt="" />
-
-<ul>
-<li><a href="https://github.com/mmistakes/mm-github-pages-starter">Minimal Mistakes remote theme starter</a></li>
-<li><a href="https://github.com/mmistakes/minimal-mistakes-algolia-search">mmistakes/minimal-mistakes-algolia-search</a> - reference if you have problems enabling search.</li>
-</ul></li>
-<li><a href="https://github.com/mmistakes/jekyll-theme-unit-test">mmistakes/jekyll-theme-unit-test</a></li>
-<li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_data/navigation.yml">Minimal Mistakes Navigation Examples</a></li>
-</ul>
-
-<h3 id="other-themes-by-mmistakes-https-github-com-mmistakes">Other themes by <a href="https://github.com/mmistakes">@mmistakes</a>:</h3>
-
-<p>I&rsquo;ve just listed what repositories most fit my use cases, you might want to browse through his <a href="https://github.com/mmistakes">github portfolio</a>, yourself.</p>
-
-<h4 id="made-mistakes">Made Mistakes</h4>
-
-<ul>
-<li><a href="https://mademistakes.com/">mademistakes.com</a> -Michael Rose&rsquo;s Homepage
-
-<ul>
-<li><a href="https://github.com/mmistakes/made-mistakes-jekyll">mmistakes/made-mistakes-jekyll</a>
-<img src="https://imgur.com/0yW4S0h.png" alt="" /></li>
-</ul></li>
-</ul>
-
-<h4 id="so-simple">So Simple</h4>
-
-<ul>
-<li><a href="https://mmistakes.github.io/so-simple-theme/">So Simple Theme</a>
-
-<ul>
-<li><a href="https://github.com/mmistakes/so-simple-theme">mmistakes/so-simple-theme</a>
-<img src="https://imgur.com/uS54JQp.png" alt="" /></li>
-</ul></li>
-</ul>
-
-<h4 id="basically-basic">Basically Basic</h4>
-
-<ul>
-<li><a href="https://mmistakes.github.io/jekyll-theme-basically-basic/">Basically Basic</a>
-
-<ul>
-<li><a href="https://github.com/mmistakes/jekyll-theme-basically-basic">mmistakes/jekyll-theme-basically-basic</a></li>
-<li><a href="https://github.com/mmistakes/jekyll-theme-basically-basic-algolia-search">mmistakes/jekyll-theme-basically-basic-algolia-search</a>
-<img src="https://imgur.com/OPflMe7.png" alt="" /></li>
-</ul></li>
-</ul>
-
-<h4 id="skinny-bones">Skinny Bones</h4>
-
-<ul>
-<li><a href="https://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>
-
-<ul>
-<li><a href="https://github.com/mmistakes/skinny-bones-jekyll">mmistakes/skinny-bones-jekyll</a>
-<img src="https://imgur.com/HKZKkfKl.png" alt="" /></li>
-</ul></li>
-</ul>
-
-<h4 id="hpstr">Hpstr</h4>
-
-<p>This site currently runs on Hpstr, but it is archived, and doesn&rsquo;t support modern features of jekyll such as baseurl, nor can I get jekyll-redirect-from to work with it.</p>
-
-<p>I will try migrating this to the Hugo port of this theme, which i believe is maintained. It&rsquo;s been nice trying out though, and I&rsquo;ve got a few I&rsquo;d like to look at anyway.</p>
-
-<ul>
-<li><a href="https://mmistakes.github.io/hpstr-jekyll-theme/">Hpstr</a>
-
-<ul>
-<li><a href="https://github.com/mmistakes/hpstr-jekyll-theme">mmistakes/hpstr-jekyll-theme</a>
-<img src="https://imgur.com/G9eWy3ol.png" alt="" /></li>
-</ul></li>
-</ul>
-
-<h2 id="setup">Setup</h2>
-
-<h3 id="front-matter">Front Matter</h3>
-
-<ul>
-<li><a href="https://jekyllrb.com/docs/front-matter/" target="_blank">Front Matter</a></li>
-<li><a href="http://simpleprimate.com/blog/front-matter" target="_blank">YAML front matter in Jekyll</a></li>
-<li><a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial" target="_blank">YAML tutorial in the context of Jekyll</a></li>
-</ul>
-
-<h3 id="layouts">Layouts</h3>
-
-<p>Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &ldquo;single&rdquo; and &ldquo;page&rdquo;. Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I&rsquo;m also using the Home layout:</p>
-
-<p><img src="https://imgur.com/ikX9wF6l.png" alt="" /></p>
-
-<ul>
-<li><a href="https://jekyllrb.com/docs/step-by-step/04-layouts/">https://jekyllrb.com/docs/step-by-step/04-layouts/</a></li>
-<li><a href="https://idratherbewriting.com/documentation-theme-jekyll/tag_special_layouts.html">documentation-theme-jekyll/tag_special_layouts.html</a></li>
-</ul>
-
-<p>I&rsquo;m wondering if I can move these documentation theme layouts, or even this post index from hpstr over to minimal-mistakes&hellip; probably so&hellip; except maybe there is custom css.. and I really haven&rsquo;t taken the time to figure that out, yet.</p>
-
-<h3 id="collections">Collections</h3>
-
-<ul>
-<li><a href="https://jekyllrb.com/docs/collections/">https://jekyllrb.com/docs/collections/</a></li>
-<li><a href="http://stories.upthebuzzard.com/jekyll_notes/">http://stories.upthebuzzard.com/jekyll_notes/</a>
-
-<ul>
-<li><a href="http://stories.upthebuzzard.com/jekyll_notes/2017-02-15-using-jekyll-collections.html">using-jekyll-collections.html</a></li>
-<li><a href="http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-prev-and-next-within-a-jekyll-collection.html">prev-and-next-within-a-jekyll-collection.html</a></li>
-<li><a href="http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-sort-order-of-jekyll-collections.html">sort-order-of-jekyll-collections.html</a></li>
-<li><a href="http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-accessing-jekyll-collection-details-from-a-post.html">accessing-jekyll-collection-details-from-a-post.html</a></li>
-</ul></li>
-</ul>
-
-<h3 id="plugins">Plugins</h3>
-
-<ul>
-<li><a href="https://jekyllrb.com/docs/plugins/installation/" target="_blank">jekyllrb.com/docs/plugins/installation/</a></li>
-<li><a href="https://github.com/planetjekyll/awesome-jekyll-plugins" target="_blank">planetjekyll/awesome-jekyll-plugins</a></li>
-<li><a href="https://keith-mifsud.me/projects/jekyll-target-blank">Jekyll-Target-Blank</a></li>
-<li><a href="https://github.com/jekyll/jekyll-mentions/">https://github.com/jekyll/jekyll-mentions/</a></li>
-<li><a href="https://github.com/jekyll/jemoji">Github Flavored Emoji for Jekyll</a></li>
-<li><a href="https://help.github.com/en/articles/adding-jekyll-plugins-to-a-github-pages-site" target="_blank">Adding Jekyll Plugins to a GitHub Pages Site - help.github.com</a></li>
-<li><a href="https://help.github.com/en/articles/creating-a-custom-404-page-for-your-github-pages-site" target="_blank">Creating Custom 404 page</a></li>
-<li><a href="https://github.com/delftswa2014/jekyll/commit/e109555aa0533148c53200e63d1e60a3acf67e74">Implemented the &ldquo;Edit this page&rdquo; feature. jekyll#3495</a></li>
-<li><a href="https://help.github.com/en/articles/redirects-on-github-pages" target="_blank">Jekyll Redirect Plugin</a></li>
-</ul>
-
-<p>Use <code>redirect_from: internal/url</code> to change the location you are publishing, but keep old links.
-Use <code>redirect_to: https://external.url</code> to send visitors somewhere else (perhaps you want it to live on another site, but not lose your valuable links :)
-{: .notice&ndash;info}</p>
-
-<h2 id="other-customizations">Other Customizations</h2>
-
-<ul>
-<li><a href="https://digitaldrummerj.me/categories/jekyll/">digitaldrummerj.me/categories/jekyll</a></li>
-<li><a href="https://mycyberuniverse.com/social-media-share-bar-jekyll-blog-website.html">Social Media Share Bar</a></li>
-<li><a href="https://digitaldrummerj.me/jekyll-validating-links-and-images/">Validating Links and Images</a></li>
-<li><a href="http://longqian.me/">longqian.me/</a> -Metamask Donation Button.</li>
-<li><a href="https://superdevresources.com/share-buttons-jekyll/" target="_blank"><a href="https://superdevresources.com/share-buttons-jekyll/">https://superdevresources.com/share-buttons-jekyll/</a></a></li>
-<li><a href="http://gist-it.appspot.com/">Embed files from a github repository onto your page.</a></li>
-<li><a href="https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7">Redirecting GitHub Pages after a repository move</a></li>
-<li><a href="https://www.sitepoint.com/hacking-routing-component-jekyll/">hacking-routing-component-jekyll/</a></li>
-<li><a href="https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/">How-to-build-a-lowtech-website</a></li>
-</ul>
-
-<h3 id="comments">Comments</h3>
-
-<ul>
-<li><a href="http://artsy.github.io/blog/2017/07/15/Comments-are-on/">Github Issues for Blog Comments</a></li>
-<li><a href="https://github.com/orta/gh-commentify">A repo you can use to work-around GH issue comment request limmits.</a></li>
-<li><a href="https://darekkay.com/blog/static-site-comments/">Various ways you can add comments to your static site</a></li>
-<li><a href="https://github.com/damieng/jekyll-blog-comments">Add comments to your jekyll powered blog</a></li>
-<li><a href="https://www.flyinggrizzly.net/2017/12/setting-up-staticman-server/">Setting up Staticman Server</a>
-
-<ul>
-<li><a href="https://www.edwinwenink.xyz/posts/18-comments/">new feature! added comments to this <em>static</em> website</a></li>
-</ul></li>
-<li><a href="https://mademistakes.com/articles/jekyll-static-comments/">https://mademistakes.com/articles/jekyll-static-comments/</a>
-
-<ul>
-<li><a href="https://mademistakes.com/articles/improving-jekyll-static-comments/">https://mademistakes.com/articles/improving-jekyll-static-comments/</a></li>
-</ul></li>
-</ul>
-
-<h3 id="search">Search</h3>
-
-<ul>
-<li><a href="https://blog.omc.io/elasticsearch-for-jekyll-part-1-ab456ac7c093">Elasticsearch for Jekyll</a></li>
-<li><a href="https://digitaldrummerj.me/blogging-on-github-part-7-adding-a-custom-google-search/">Adding Custom Google Search</a></li>
-<li><a href="https://github.com/algolia/jekyll-algolia">github.com/algolia/jekyll-algolia</a></li>
-<li><a href="https://community.algolia.com/jekyll-algolia/blog.html">community.algolia.com/jekyll-algolia/blog.html</a></li>
-<li><a href="https://www.algolia.com/doc/">https://www.algolia.com/doc/</a></li>
-</ul>
-
-<h2 id="seo">SEO</h2>
-
-<ul>
-<li><a href="https://codeburst.io/use-jekyll-like-a-pro-improving-seo-c8cfb81781b7">Use Jekyll like a pro: Improving SEO</a></li>
-</ul>
-
-<h3 id="jekyll-seo-tag">Jekyll-SEO-Tag</h3>
-
-<ul>
-<li><a href="https://help.github.com/en/articles/search-engine-optimization-for-github-pages" target="_blank">Search Engine Optimization for Github Pages - help.github.com</a></li>
-<li><a href="https://github.com/jekyll/jekyll-seo-tag" target="_blank">/jekyll/jekyll-seo-tag</a></li>
-<li><a href="https://github.com/pmarsceill/jekyll-seo-gem" target="_blank">/pmarsceill/jekyll-seo-gem</a></li>
-<li><a href="https://github.com/meedan/meedan.code/commit/a9ad6e794fffd35035aa7e5bfb1200a34fe0e479" target="_blank">Override default jekyll-seo-tag template</a></li>
-<li><a href="https://blog.webjeda.com/optimize-jekyll-seo/" target="_blank">Tips to Optimize Jekyll SEO</a></li>
-<li><a href="https://blog.webjeda.com/optimize-jekyll-seo/#6-open-graph-and-twitter-cards-in-jekyll">blog.webjeda.com/optimize-jekyll-seo/#6-open-graph-and-twitter-cards-in-jekyll</a></li>
-</ul>
-
-<h3 id="open-graph-favicons-and-more">Open Graph - Favicons and More</h3>
-
-<ul>
-<li><a href="https://warfareplugins.com/open-graph-tags-twitter-cards-rich-pins/" target="_blank">Open Graph Tags, Twitter Cards, Rich Pins</a></li>
-<li><a href="https://www.reddit.com/r/discordapp/comments/82p8i6/a_basic_tutorial_on_how_to_get_the_most_out_of/" target="_blank">A basic tutorial on &ldquo;How to get the most out of embeds?&rdquo; for a discord-friendly website!</a> (supports og values)
-
-<ul>
-<li><a href="https://discordapp.com/developers/docs/resources/channel#embed-limits" target="_blank">discordapp.com/developers/docs/resources/channel#embed-limits</a></li>
-</ul></li>
-<li><a href="https://iframely.com/debug" target="_blank"><a href="https://iframely.com/debug">https://iframely.com/debug</a></a></li>
-<li><a href="https://realfavicongenerator.net">realfavicongenerator.net</a>
-&gt; The strict minimum for the master picture is 70x70. Your picture is 225x225, which is ok. However, it is recommended to use a picture of at least 260x260. If you still want to use your picture, some of the derivated favicons will not be generated, such as the high resolution tile for Windows 8 / IE 11.</li>
-<li><a href="http://ogp.me" target="_blank">ogp.me</a> - Open Graph Webpage (really good resource for Facebook and beyond. great links at bottom.)</li>
-<li><a href="https://developers.google.com/search/docs/data-types/breadcrumb">developers.google.com - Breadcrumbs</a>
-<img src="https://i.imgur.com/TWbbVhn.png" alt="" /></li>
-<li><a href="https://developers.google.com/search/docs/guides/enhance-site">Googles guide to enhancing your site&rsquo;s metadata</a></li>
-</ul>
-
-<h3 id="twitter">Twitter</h3>
-
-<ul>
-<li><a href="https://cards-dev.twitter.com/validator" target="_blank">Twitter Card Validator</a></li>
-<li><a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards" target="_blank">About Cards - developer.twitter.com</a></li>
-<li><a href="https://github.com/jekyll/jekyll-mentions/">https://github.com/jekyll/jekyll-mentions/</a></li>
-</ul>
-
-<h2 id="bug-testing">Bug Testing</h2>
-
-<p>Buidling your site locally is the best way to figure out why it&rsquo;s not publishing correctly via GitHub.</p>
-
-<p>You must set up your gemfile specifically for each theme.</p>
-
-<ul>
-<li><a href="https://bundler.io/">Install bundler</a></li>
-</ul>
-
-<p>then prepare bundler for your project:</p>
-
-<pre><code> bundle update
-
- bundle install
-</code></pre>
-
-<p>Build gives an error message if the build fails</p>
-
-<pre><code> bundle exec jekyll build
-</code></pre>
-
-<p>Serve builds and &ldquo;serves&rdquo; a local browsable copy</p>
-
-<pre><code> bundle exec jekyll serve
-</code></pre>
-
-<p>Trace gives details on errors (but won&rsquo;t always show your problem)</p>
-
-<pre><code> bundle exec jekyll build --trace
-</code></pre>
-
-<p>Verbose&hellip; you get the idea.</p>
-
-<pre><code> bundle exec jekyll build --verbose
-</code></pre>
-
-<h3 id="proofers">Proofers</h3>
-
-<ul>
-<li><a href="https://github.com/gjtorikian/html-proofer">gjtorikian/html-proofer</a> - you got broken links bruh</li>
-</ul>
-
-<h3 id="linters">Linters</h3>
-
-<p>coming soon&hellip;.</p>
-
-<h2 id="technical-deets">Technical Deets</h2>
-
-<h3 id="html-css">HTML - CSS</h3>
-
-<ul>
-<li><a href="https://htmldog.com/guides/html/beginner/" target="_blank">htmldog.com - HTML5 and CSS Beginner Tutorials</a></li>
-<li><a href="https://www.w3schools.com/w3css/w3css_sidebar.asp" target="_blank">/w3css/w3css_sidebar.asp</a></li>
-<li><a href="https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript" target="_blank">The_web_standards<em>model</em>-_HTML_CSS_and_JavaScript</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Learn web development - developer.mozilla.org</a></li>
-<li><a href="https://codepen.io/maziarzamani/pen/eJKGvj" target="_blank">Flat CSS Sidebar</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank">The Head - Metadata in HTML</a></li>
-<li><a href="https://metatags.io" target="_blank"><a href="https://metatags.io">https://metatags.io</a></a></li>
-<li><a href="https://htmlcolorcodes.com/color-chart/">https://htmlcolorcodes.com/color-chart/</a></li>
-<li><a href="https://dbushell.com/2016/03/04/css-only-responsive-tables/">rtable</a></li>
-<li><a href="https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs" target="_blank">unicode-table.com/#miscellaneous-symbols-and-pictographs</a></li>
-<li><a href="https://khan.github.io/KaTeX/">katex</a></li>
-<li><a href="https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0">Viewport and Media Queries</a></li>
-</ul>
-
-<h3 id="kramdown">Kramdown</h3>
-
-<ul>
-<li><a href="https://kramdown.gettalong.org/" target="_blank">kramdown.gettalong.org</a></li>
-<li><a href="https://kramdown.gettalong.org/syntax.html">Kramdown - Syntax</a></li>
-</ul>
-
-<h3 id="liquid">Liquid</h3>
-
-<p><img src="https://i.imgur.com/jMtd9WR.png"/></p>
-
-<ul>
-<li><a href="http://shopify.github.io/liquid/tags/control-flow/">shopify.github.io/liquid/tags/control-flow/</a></li>
-<li><a href="https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/" target="_blank">Jekyll Variables and Liquid Template Tags-Cheatsheet</a></li>
-<li><a href="https://learn.cloudcannon.com/jekyll/introduction-to-liquid/" target="_blank">Introduction to Liquid for Jekyll</a></li>
-<li><a href="https://blog.webjeda.com/jekyll-liquid/" target="_blank"><a href="https://blog.webjeda.com/jekyll-liquid/">https://blog.webjeda.com/jekyll-liquid/</a></a></li>
-</ul>
-
-<h3 id="git">Git</h3>
-
-<ul>
-<li><a href="https://gist.github.com/davfre/8313299" target="_blank">davfre/git_cheat-sheet.md</a></li>
-<li><a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">education.github.com - GIT CHEAT SHEET</a></li>
-<li><a href="https://chris.beams.io/posts/git-commit/" target="_blank">Writing Effective Commits</a></li>
-<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow</a></li>
-<li><a href="https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md">Git CheetSheet</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes">Working with Remotes</a></li>
-<li><a href="https://help.github.com/en/articles/managing-commit-signature-verification">managing-commit-signature-verification</a></li>
-<li><a href="https://github.com/mnyrop/swc-materials/blob/master/git.md">mnyrop/swc-materials/blob/master/git.md</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git-Tools-Submodules</a> - so you can pull other git repos into your project</li>
-</ul>
-
-<h3 id="ssh">SSH</h3>
-
-<ul>
-<li><a href="https://help.github.com/en/articles/connecting-to-github-with-ssh" target="_blank">Connecting to GitHub with SSH</a></li>
-<li><a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">Generating a new SSH key and adding it to the SSH agent</a></li>
-<li><a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a></li>
-<li><a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a></li>
-</ul>
-
-<h3 id="data">Data</h3>
-
-<ul>
-<li><a href="https://mademistakes.com/notes/static-files/">https://mademistakes.com/notes/static-files/</a></li>
-<li><a href="https://jekyllrb.com/docs/datafiles/">jekyllrb.com/docs/datafiles/</a></li>
-<li><a href="https://github.com/ashmaroli/jekyll-data">https://github.com/ashmaroli/jekyll-data</a></li>
-<li><a href="https://community.airtable.com/t/how-to-easily-use-airtable-data-in-jekyll/3925">how-to-easily-use-airtable-data-in-jekyll</a></li>
-<li><a href="https://github.com/mnyrop/pagemaster">mnyrop/pagemaster</a></li>
-<li><a href="https://minicomp.github.io/wax/reuse/">https://minicomp.github.io/wax/reuse/</a></li>
-<li><a href="http://marii.info/wax_docs/">http://marii.info/wax_docs/</a></li>
-<li><a href="http://marii.info/annotate/">http://marii.info/annotate/</a></li>
-<li><a href="https://www.linode.com/docs/applications/project-management/jupyter-notebook-on-jekyll/">project-management/jupyter-notebook-on-jekyll/</a></li>
-<li><a href="https://www.chenhuijing.com/blog/managing-data-with-jekyll/">managing-data-with-jekyll/</a></li>
-<li><a href="https://github.com/18F/jekyll-get">18F/jekyll-get</a></li>
-<li><a href="http://fabian-kostadinov.github.io/2015/02/04/how-i-created-a-simple-dbms-using-github-jekyll-prose-and-heroku/">how-i-created-a-simple-dbms-using-github-jekyll-prose-and-heroku/</a></li>
-<li><a href="https://contrafabulists-lessons.github.io/google-sheet-to-github-website/">contrafabulists-lessons.github.io/google-sheet-to-github-website/</a></li>
-<li><a href="https://hackernoon.com/execute-millions-of-sql-statements-in-milliseconds-in-the-browser-with-webassembly-and-web-workers-3e0b25c3f1a6">execute-millions-of-sql-statements-in-milliseconds-in-the-browser-with-webassembly-and-web-workers</a></li>
-<li><a href="https://github.blog/2012-06-12-github-data-challenge-winners/">https://github.blog/2012-06-12-github-data-challenge-winners/</a></li>
-</ul>
-
-<h3 id="json">JSON</h3>
-
-<ul>
-<li><a href="https://natelandau.com/a-json-feed-for-jekyll/">A JSON content feed for Jekyll</a></li>
-<li><a href="http://www.cagrimmett.com/til/2016/05/20/json-output-in-jekyll.html">Counting and JSON output in Jekyll</a></li>
-<li><a href="https://stackoverflow.com/questions/16889512/jekyll-convert-full-yaml-front-matter-to-xml-json">Jekyll — Convert Full YAML Front-matter to XML/JSON</a></li>
-<li><a href="https://mrcoles.com/inlining-json-jekyll-liquid-template/">Inlining JSON in a Jekyll Liquid Template</a></li>
-<li><a href="https://www.techiediaries.com/how-to-use-jekyll-like-a-pro-output-data-as-json/">Jekyll JSON API</a></li>
-<li><a href="https://json-feed-viewer.herokuapp.com/feed/?url=https%3A%2F%2Fndarville.com%2Ffeed.json">JSON Feed Viewer</a></li>
-</ul>
-
-<h3 id="automation">Automation</h3>
-
-<ul>
-<li><a href="https://alternativeto.net/software/heroku/?license=free">alternativeto.net/software/heroku/?license=free</a></li>
-<li><a href="https://www.enigma.com/blog/integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll">integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll</a></li>
-<li><a href="https://github.com/benbalter/jekyllbot">benbalter/jekyllbot</a> - Listens for GitHub post-recieve service hooks messages, runs jekyll, and pushes the results back to GitHub.</li>
-<li><a href="https://webrender.net/2017/11/23/automate-github-pages-ifttt-glitch.html">automate-github-pages-ifttt-glitch.html</a></li>
-</ul>
-
-<h3 id="api-evangelist">API Evangelist</h3>
-
-<p>Not sure how much of this is useful, but I&rsquo;ll save for further examination.</p>
-
-<ul>
-<li><a href="https://dzone.com/articles/simple-apis-with-jekyll-and-github-with-data-manag">simple-apis-with-jekyll-and-github-with-data-manag</a></li>
-<li><a href="https://apievangelist.com/2016/09/19/providing-yaml-driven-xml-json-and-atom-using-jekyll-and-github/">providing-yaml-driven-xml-json-and-atom-using-jekyll-and-github</a></li>
-<li><a href="http://kinlane.com/2016/10/11/google-spreadsheet-to-yaml-on-jekyll/">google-spreadsheet-to-yaml-on-jekyll/</a></li>
-<li><a href="http://kinlane.com/2016/08/15/using-github-repos-and-jekyll-as-a-data-store/">using-github-repos-and-jekyll-as-a-data-store/</a></li>
-<li><a href="https://kinlane.github.io/github-micro-tool/">kinlane.github.io/github-micro-tool/</a></li>
-<li><a href="http://openapi.toolbox.apievangelist.com/documentation/">openapi.toolbox.apievangelist.com/documentation/</a></li>
-<li><a href="https://kinlane.github.io/what-is-openapi/">kinlane.github.io/what-is-openapi/</a></li>
-<li><a href="https://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/">d3js-visualizations-using-yaml-and-jekyll/</a></li>
-<li><a href="https://github.com/kinlane/OpenAPI-Specification">https://github.com/kinlane/OpenAPI-Specification</a></li>
-</ul>
-
-<h3 id="indieweb">Indieweb</h3>
-
-<p><a href="https://infominer.id/indieweb" class="btn btn-success">infominer.id/indieweb</a></p>
-
-<ul>
-<li><a href="https://indieweb.org">indieweb.org</a></li>
-<li><a href="https://indieweb.org/Micropub">Micropub</a></li>
-<li><a href="https://indieweb.org/IndieAuth">IndieAuth</a></li>
-<li><a href="https://github.com/miklb/jekyll-indieweb">miklb/jekyll-indieweb</a></li>
-<li><a href="https://www.growdigital.org/posts/static-site-generators-the-indieweb/">Static Site Generators &amp; the IndieWeb</a></li>
-<li><a href="http://wordius.com/jekyll-and-the-indieweb/">Jekyll and the Indieweb</a></li>
-<li><a href="https://vincentp.me/articles/2018/11/14/20-00/">Implementing the Indieweb on a static website</a> - Sending and receiving Webmentions and Micropub on a static site</li>
-<li><a href="https://github.com/voxpelli/webpage-micropub-to-github/">voxpelli/webpage-micropub-to-github/</a></li>
-</ul>
-
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/web-work/posts/learn-seo/" title="Learn SEO"><img src="/web-work/images/organic-seo-drive-traffic.jpg" alt="Learn SEO"></a>
-      </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-01-10 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/learn-seo/">Jan 10, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~5 minutes
-      </span>
-      
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/learn-seo/" rel="bookmark" title="Learn SEO" itemprop="url">Learn SEO</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<p>SEO seems like a valuable subject to know about right?</p>
-
-<p>The problem with SEO is that there&rsquo;s so much to learn, it&rsquo;s a vast domain of knowledge, with many branches that could each take up thier own websites of related information.</p>
-
-<p>SEO is always changing, and a lot of incorrect or outdated information is republished.</p>
-
-<p>What I&rsquo;m trying to do is break it down into it&rsquo;s various components.</p>
-
-<p>The fundamental building blocks of SEO are:</p>
-
-<ul>
-<li>Keyword Reserach</li>
-<li>Content</li>
-<li>Internal linking and Site Structure</li>
-<li>A Multitude of Technical Optimizations.</li>
-</ul>
-
-<p>Most of those optimizations revolve around gradually making every individual piece of code on your site more machine readable, so that it communicates essential bits of information to a variety of connecting sites\services that make it stand out from the crowd.</p>
-
-<h2 id="before-you-worry-about-seo">Before you worry about SEO</h2>
-
-<p>Mind you&hellip; none of this matters as much as having the highest quality content, if you&rsquo;d like to show up (and\or remain) in the search rankings.</p>
-
-<p>It&rsquo;s better to start with a good foundation&hellip;</p>
-
-<p>You should have at least 4 pages of 1500+ word information dense content. Find a subject you are excited about that your target market is interested in, and do some research.</p>
-
-<p>You&rsquo;ll likely find many valuable links, but nothing that presents all of the information you need in one place.</p>
-
-<p>If you&rsquo;re working on a well-researched and indexed subject, fine tune to a particular aspect that isn&rsquo;t well indexed, but is particularly useful or interesting to you.</p>
-
-<p>Point being, the internet is abundant with information that isn&rsquo;t well organized amongst eachother. Provide value, it&rsquo;s just work&hellip; not really hard.</p>
-
-<p>Theeeeeeen you can start to think about your site structure and all of the details. If you have really informational content, there are going to be quite a few keywords, naturally&hellip;</p>
-
-<p>I haven&rsquo;t done any seo, besides making sure image\description pops up in social media, and my site is getting organic search traffic and rising through the rankings, relatively quickly.</p>
-
-<hr />
-
-<ul>
-<li><a href="https://github.com/teles/awesome-seo">teles/awesome-seo</a> - A curated list of SEO (Search Engine Optimization) links.</li>
-<li><a href="https://github.com/marcobiedermann/search-engine-optimization">marcobiedermann/search-engine-optimization</a> - A helpful checklist / collection of Search Engine Optimization (SEO) tips and techniques.</li>
-</ul>
-
-<p>I gathered all this info here in prep for writing this article:</p>
-
-<ul>
-<li><strong><a href="https://www.csbtechemporium.com/seo-simplified-2019/">SEO Simplified! Increase your Search Rankings in 2019!!</a></strong></li>
-</ul>
-
-<h2 id="contents">Contents</h2>
-
-<ul>
-<li><a href="#before-you-worry-about-seo">Before you worry about SEO</a></li>
-<li><a href="#contents">Contents</a></li>
-<li><a href="#learn-seo">/Learn-SEO</a>
-
-<ul>
-<li><a href="#101">101</a></li>
-<li><a href="#know-your-self-customer-competition">Know Your Self-Customer-Competition</a></li>
-<li><a href="#keyword-research">Keyword Research</a></li>
-<li><a href="#seed-keywords">Seed Keywords</a></li>
-<li><a href="#for-bloggers">For Bloggers</a></li>
-<li><a href="#lsi-keywords">LSI Keywords</a></li>
-<li><a href="#domain-authority">Domain Authority</a></li>
-<li><a href="#internal-linking-cornerstone-content">Internal Linking-Cornerstone Content</a></li>
-<li><a href="#evergreen-skyscraper-content">Evergreen-Skyscraper Content</a></li>
-<li><a href="#backlink-research">Backlink Research</a></li>
-<li><a href="#optimizations">Optimizations</a></li>
-<li><a href="#kpi">KPI</a></li>
-<li><a href="#apply-seo-to-different-platforms">Apply SEO to Different Platforms</a></li>
-<li><a href="#adwords">Adwords</a></li>
-<li><a href="#ghost">Ghost</a></li>
-<li><a href="#squarespace">SquareSpace</a></li>
-<li><a href="#wordpress">Wordpress</a></li>
-<li><a href="#small-business-seo">Small Business SEO</a></li>
-<li><a href="#machine-learning">Machine Learning</a></li>
-<li><a href="#studies">Studies</a></li>
-<li><a href="#assorted">Assorted</a></li>
-<li><a href="#history">History</a></li>
-<li><a href="#resources">Resources</a></li>
-</ul></li>
-</ul>
-
-<h2 id="learn-seo">/Learn-SEO</h2>
-
-<h3 id="101">101</h3>
-
-<ul>
-<li><a href="https://support.google.com/webmasters/answer/35769?hl=en#3">Webmaster Guidelines - Google Search Console</a></li>
-<li><a href="https://www.nuvonium.com/articles/view/search-engine-optimization-ten-seo-fundamentals">Ten SEO Fundamentals</a></li>
-<li><a href="https://backlinko.com/seo-this-year">backlinko-SEO this Year</a></li>
-<li><a href="https://www.entrepreneur.com/article/299053">10 Fundamentals to Understanding SEO</a></li>
-<li><a href="https://www.searchenginejournal.com/seo-guide/seo-success-factors/">SEO Success Factors</a></li>
-<li><a href="https://www.searchenginejournal.com/">https://www.searchenginejournal.com/</a></li>
-<li><a href="https://www.searchenginejournal.com/content-marketing-kpis/seo/">13 SEO KPI</a></li>
-</ul>
-
-<p><a href="https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb">https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb</a>
-&hellip; coming soon &hellip;</p>
-
-<h3 id="know-your-self-customer-competition">Know Your Self-Customer-Competition</h3>
-
-<ul>
-<li><a href="https://neilpatel.com/blog/the-simple-but-effective-guide-to-keyword-competition-analysis/">The Simple but Effective Guide to Keyword Competition Analysis</a></li>
-<li><a href="https://www.searchenginejournal.com/seo-guide/know-your-audience/">Know Your Audience</a></li>
-<li><a href="https://yoast.com/know-your-customer/">Know Your Customer</a></li>
-<li><a href="https://searchenginewatch.com/sew/how-to/2406842/5-steps-for-seo-competitive-analysis-research">https://searchenginewatch.com/sew/how-to/2406842/5-steps-for-seo-competitive-analysis-research</a></li>
-<li><a href="https://moz.com/blog/category/competitive-research">https://moz.com/blog/category/competitive-research</a></li>
-<li><a href="http://beamusup.com/research-competition-seo-crawler/">http://beamusup.com/research-competition-seo-crawler/</a></li>
-<li><a href="https://curatedseotools.com/site-audit/">https://curatedseotools.com/site-audit/</a>
-
-<ul>
-<li><a href="#Ways-to-gather-customer-insight">Ways to gather customer insight</a></li>
-<li><a href="#personas">Personas</a></li>
-</ul></li>
-<li>Searcher Intent</li>
-</ul>
-
-<h3 id="keyword-research">Keyword Research</h3>
-
-<ul>
-<li><a href="https://www.csbtechemporium.com/keyword-research-fundamentals/">Keyword Research Fundamentals</a> -@infominer</li>
-<li><a href="https://moz.com/beginners-guide-to-seo/keyword-research">Moz - Keyword Research</a></li>
-<li><a href="https://searchengineland.com/build-customer-centric-keyword-strategy-220472">Building a Customer Centric Keyword Strategy</a></li>
-<li><a href="https://www.wordstream.com/blog/ws/2017/01/23/keyword-search-volume">Keyword Search Volume</a></li>
-<li><a href="https://mangools.com/blog/what-is-keyword-seo-difficulty/">What is Keyword SEO Difficulty?</a></li>
-<li><a href="https://www.brafton.com/blog/strategy/how-to-use-keyword-difficulty-in-your-keyword-research-process/">How to use Difficulty in you Keyword Research Process</a></li>
-<li><a href="https://backlinko.com/long-tail-keywords">Long-Tail Keywords</a></li>
-<li><a href="https://yoast.com/focus-on-long-tail-keywords/">Focus on Long-Tail Keywords</a></li>
-<li><a href="https://www.searchenginejournal.com/breadcrumbs-seo/255007/">Breadcrumbs</a></li>
-<li><a href="https://www.semrush.com/blog/the-ultimate-keyword-research-checklist/">https://www.semrush.com/blog/the-ultimate-keyword-research-checklist/</a></li>
-</ul>
-
-<h4 id="seed-keywords">Seed Keywords</h4>
-
-<h4 id="for-bloggers">For Bloggers</h4>
-
-<ul>
-<li><a href="https://www.seo.com/blog/best-keyword-research-method-ever-for-blogs/">Best Keyword Research for Bloggers</a></li>
-<li><a href="https://neilpatel.com/blog/stop-keyword-research-for-blogging/">Stop keyword research for blogging</a></li>
-</ul>
-
-<h4 id="lsi-keywords">LSI Keywords</h4>
-
-<ul>
-<li><a href="https://lsigraph.com/">lsigraph.com</a></li>
-<li><a href="https://seopressor.com/learn-seopressor/lsi-keywords-and-keyword-density/">LSI Keywords and Keywords Density</a></li>
-<li><a href="https://lsikeywords.com/">LSIKeywords.com</a></li>
-<li><a href="https://beginnersbook.com/2012/11/lsi-keywords-for-better-ranking/">https://beginnersbook.com/2012/11/lsi-keywords-for-better-ranking/</a></li>
-<li><a href="https://thecontentwrangler.com/2016/08/15/complete-guide-lis-keywords/#">https://thecontentwrangler.com/2016/08/15/complete-guide-lis-keywords/#</a></li>
-</ul>
-
-<h3 id="domain-authority">Domain Authority</h3>
-
-<ul>
-<li><a href="http://precisebench.com/how-to-increase-domain-authority/">http://precisebench.com/how-to-increase-domain-authority/</a></li>
-<li><a href="https://seopressor.com/blog/how-to-increase-domain-authority/">https://seopressor.com/blog/how-to-increase-domain-authority/</a></li>
-<li><a href="https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458">https://medium.com/the-mission/how-to-rank-on-the-first-google-page-if-you-have-a-low-authority-site-aab70b254458</a></li>
-<li><a href="https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/">https://www.quicksprout.com/2014/05/19/5-practical-steps-to-improving-your-websites-domain-authority/</a></li>
-<li><a href="https://techtage.com/how-to-increase-domain-authority/">https://techtage.com/how-to-increase-domain-authority/</a></li>
-<li><a href="https://neilpatel.com/blog/boost-your-domain-authority/">https://neilpatel.com/blog/boost-your-domain-authority/</a></li>
-</ul>
-
-<p><strong>SPEED</strong></p>
-
-<p><strong>Mobile</strong></p>
-
-<ul>
-<li><a href="https://www.searchenginejournal.com/seo-guide/introduction-to-mobile-seo/">https://www.searchenginejournal.com/seo-guide/introduction-to-mobile-seo/</a></li>
-<li><a href="https://www.searchenginejournal.com/convert-blog-posts-amp/161661/">https://www.searchenginejournal.com/convert-blog-posts-amp/161661/</a></li>
-</ul>
-
-<h4 id="internal-linking-cornerstone-content">Internal Linking-Cornerstone Content</h4>
-
-<ul>
-<li><a href="https://yoast.com/what-is-cornerstone-content/">What is Cornerstone Content?</a></li>
-<li><a href="https://yoast.com/cornerstone-content-rank/">Cornerstone Content - Yoast</a></li>
-<li><a href="https://makeawebsitehub.com/cornerstone-content/">Cornerstone Content</a></li>
-<li><a href="https://loriballen.com/cornerstone-content-key-pages-website/">https://loriballen.com/cornerstone-content-key-pages-website/</a></li>
-<li><a href="https://www.copyblogger.com/how-to-create-cornerstone-content-that-google-loves/">How to Create Cornerstone Content that Google Loves</a></li>
-<li><a href="https://www.wordstream.com/blog/ws/2017/10/23/cornerstone-content-guide">Cornerstone Content Guide</a></li>
-<li><a href="https://maketraffichappen.com/cornerstone-content/">https://maketraffichappen.com/cornerstone-content/</a></li>
-</ul>
-
-<h3 id="evergreen-skyscraper-content">Evergreen-Skyscraper Content</h3>
-
-<ul>
-<li><a href="https://graywolfseo.com/seo/evergreen-content/">https://graywolfseo.com/seo/evergreen-content/</a></li>
-<li><a href="https://backlinko.com/skyscraper-technique">https://backlinko.com/skyscraper-technique</a></li>
-</ul>
-
-<p><strong>Creating 10x Content:</strong>
-  * <a href="https://www.searchenginejournal.com/guide-10x-content-new-successful-content-beyond/139731/">https://www.searchenginejournal.com/guide-10x-content-new-successful-content-beyond/139731/</a>
-  * <a href="https://backlinko.com/skyscraper-technique">https://backlinko.com/skyscraper-technique</a>
-* Examples of trending quality content:
-  &gt;* Guest Blogging
-  &gt;* &ldquo;opinion-forming journalism from recognized experts, and data-driven research studies showed a strong correlation between shares and links.&rdquo;
-  &gt; * Client case studies: These are shared by the client and can include exciting information about how they achieved their results, which can help others.
-  &gt; * Infographics: These still get shared heavily online and are a great way to provide an instant view of data on a specific topic. It can be fun and informative, and usually, are republished on other blogs and shared on social media.
-  &gt; * Other content that highlights influencers: This could include podcasts or video interviews.
-  &gt; * Industry surveys: Many publishers do annual industry surveys, which have become well-known (and well-cited) each time they are released.
-  &gt; * Free content or tools: This could include long-form content such as ebooks, or useful tools like quizzes and personalized reports that give users the helpful information they didn’t know before. -<a href="https://www.searchenginejournal.com/seo-guide/what-to-do-when-things-go-wrong/">What to do when things go wrong</a></p>
-
-<ul>
-<li><a href="https://www.searchenginejournal.com/1000-word-post-vs-2000-word-post-better-roi/112156/">1000 word articles vs 2000 word articles</a></li>
-<li><a href="https://blog.hubspot.com/marketing/historical-blog-seo-conversion-optimization">Historical Blog SEO Optimization</a></li>
-</ul>
-
-<h4 id="backlink-research">Backlink Research</h4>
-
-<ul>
-<li><a href="https://blog.monitorbacklinks.com/seo/how-to-get-quality-backlinks/">How to get Quality Backlinks</a></li>
-<li><a href="https://backlinko.com/backlinks-guide">backlinko.com/backlinks-guide</a></li>
-<li><a href="https://www.convertwithcontent.com/60-niche-social-networks-marketers/">60 Niche Social Networks Marketers Should Know About</a></li>
-<li><a href="https://blog.monitorbacklinks.com/seo/free-backlinks/">12 Ways to get Free Backlinks</a></li>
-<li><a href="https://ahrefs.com/blog/how-to-get-backlinks/">ahrefs.com/blog/how-to-get-backlinks</a></li>
-<li><a href="https://www.crazyegg.com/blog/smart-ways-get-quality-backlinks/">Smart ways to get Backlinks &ldquo;At Scale&rdquo;</a></li>
-<li><a href="https://www.youtube.com/watch?v=Ovu2ZYWgOJQ">youtube - ahrefs - Copy My Link Building System: How to Get Backlinks “At Scale&rdquo;</a></li>
-</ul>
-
-<h3 id="optimizations">Optimizations</h3>
-
-<ul>
-<li><a href="https://moz.com/learn/seo/title-tag">Title Tag</a></li>
-<li><a href="https://www.searchenginejournal.com/seo-best-practices-meta-descriptions/262747/">Meta Descriptions</a></li>
-<li>Images</li>
-<li>video content</li>
-<li>header tags (H1, H2, H3, etc.).</li>
-<li>Anchor Text</li>
-<li>https</li>
-<li><a href="https://www.searchenginejournal.com/ready-google-mobile-first-index-podcast/242807/">Page Speed Podcast</a></li>
-<li><a href="https://www.searchenginejournal.com/schema-101-improve-seo-results/204858/">Schema</a></li>
-<li><a href="https://www.searchenginejournal.com/seo-friendly-url-structure-2/202790/">Search Engine Friendly URL</a></li>
-<li>Social Sharing Buttons</li>
-<li><a href="https://www.searchenginejournal.com/seo-guide/where-seo-and-user-experience-ux-collide/">User Experience</a></li>
-</ul>
-
-<p><img src="https://www.searchenginejournal.com/wp-content/uploads/2018/08/how-to-create-perfectly-optimized-content-infographic.png" alt="" /></p>
-
-<h4 id="kpi">KPI</h4>
-
-<ul>
-<li><a href="https://www.searchenginejournal.com/seo-guide/top-seo-kpis/">Top SEO KPI</a></li>
-<li>Organic Sessions</li>
-<li>Keyword Ranking Increases</li>
-<li>Leads/Conversions</li>
-<li>Bounce Rate</li>
-<li>Pages/Session</li>
-<li>Average Session Duration</li>
-<li>Page Load Time</li>
-<li>Top Exit Pages</li>
-<li>Crawl Errors</li>
-</ul>
-
-<h3 id="apply-seo-to-different-platforms">Apply SEO to Different Platforms</h3>
-
-<ul>
-<li>App store</li>
-<li>YouTube channel and video</li>
-<li>Google My Business</li>
-<li>Social media</li>
-<li>Amazon</li>
-<li>Yelp</li>
-</ul>
-
-<h4 id="adwords">Adwords</h4>
-
-<h4 id="ghost">Ghost</h4>
-
-<ul>
-<li><a href="https://blog.mornati.net/optimize-ghost-for-seo-page-title/">Optimize Ghost for SEO-Page Title</a></li>
-</ul>
-
-<h4 id="squarespace">SquareSpace</h4>
-
-<h4 id="wordpress">Wordpress</h4>
-
-<ul>
-<li><a href="http://www.fathomdelivers.com/blog/cro-an-ux/wordpress-seo-secret-switching-post-h1-h2-tags/">Wordpress SEO Secret: Switching Post H1-H2 Tags</a> - Essential Optimization for Wordpress users to ensure</li>
-<li><a href="https://onlinemediamasters.com/wordpress-local-seo/">Wordpress Local-SEO</a></li>
-<li><a href="https://www.shoutmeloud.com/show-last-modified-date-wordpress.html">Show Date Last Modified</a></li>
-</ul>
-
-<h3 id="small-business-seo">Small Business SEO</h3>
-
-<h3 id="machine-learning">Machine Learning</h3>
-
-<ul>
-<li><a href="https://www.searchenginejournal.com/seo-guide/machine-learning/">https://www.searchenginejournal.com/seo-guide/machine-learning/</a></li>
-<li><a href="https://www.searchenginejournal.com/how-machine-learning-in-search-works/257837/">Machine Learning in SEO</a></li>
-</ul>
-
-<h3 id="studies">Studies</h3>
-
-<ul>
-<li><a href="https://www.thinkwithgoogle.com/consumer-insights/shopper-research/">Google Study</a></li>
-<li><a href="https://backlinko.com/search-engine-ranking">https://backlinko.com/search-engine-ranking</a></li>
-<li><a href="https://moz.com/blog/content-shares-and-links-insights-from-analyzing-1-million-articles">Moz analyses 1 million Articles</a></li>
-</ul>
-
-<h3 id="assorted">Assorted</h3>
-
-<ul>
-<li><a href="https://www.searchenginejournal.com/seo-changing-article-dates/225789/">SEO Changing Article Dates</a></li>
-<li><a href="https://www.quora.com/Which-is-the-best-keywords-for-website-development-company">https://www.quora.com/Which-is-the-best-keywords-for-website-development-company</a></li>
-</ul>
-
-<h3 id="history">History</h3>
-
-<ul>
-<li><a href="https://www.searchenginejournal.com/seo-101/seo-history/">SEO History</a></li>
-<li><a href="http://infolab.stanford.edu/~backrub/google.html">http://infolab.stanford.edu/~backrub/google.html</a></li>
-<li><a href="https://www.searchenginejournal.com/google-algorithm-history/">Google Algorithm History</a></li>
-</ul>
-
-<h3 id="resources">Resources</h3>
-
-<ul>
-<li><a href="https://github.com/teles/awesome-seo">/teles/awesome-seo</a></li>
-<li><a href="https://github.com/marcobiedermann/search-engine-optimization">/marcobiedermann/search-engine-optimization</a></li>
-<li><a href="https://www.internetmarketingninjas.com/tools/">SEO &amp; Webmaster Tools packed with Ninja efficiency</a></li>
-<li><a href="https://blog.hubspot.com/marketing/best-seo-blogs">Best SEO BLogs</a></li>
-</ul>
-
-<figure class="full">
-    <img src="https://infominer.id/web-work/images/organic-seo-ctr-infographic.png" alt="">
-    <figcaption></figcaption>
-</figure>
-
-  </div>
-</article>
-
-
-
-
-<div class="pagination">
-  <ul class="inline-list">
-	  
-    
-        <li><a href="/web-work/page/3/" class="btn">Previous</a></li>
-    
-
-	
-
-	
-	
-    
-	<li><a href="/web-work/">1</a></li>
-    
-	
-    
-	<li><a href="/web-work/page/2/">2</a></li>
-    
-	
-    
-	<li><a href="/web-work/page/3/">3</a></li>
-    
-	
-    
-	<li><strong class="current-page">4</strong></li>
-    
-	
-
-	
-
-	
-    
-  </ul>
-</div>
-
-
-</div>
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    <span> Powered by <a href="https://gohugo.io/" rel="nofollow">Hugo</a> using the <a href="https://github.com/dldx/hpstr-hugo-theme" rel="nofollow">HPSTR theme</a>.</span>
-
-  </footer>
-</div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="\/web-work\/js\/vendor\/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="/web-work/js/scripts.min.js"></script>
-
 
 
 </body>
 </html>
-

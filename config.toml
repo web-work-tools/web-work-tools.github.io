@@ -1,25 +1,19 @@
 publishdir = "docs"
 enableEmoji = true
-
-[twitter]
-  card = "summary_image_large"
-  site = "@infominer33"
-  creator = "@infominer33"
   
 
-baseurl = "https://infominer.id/web-work"
-title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
-copyright = "⧉ [infominer](https://infominer.id) ⧉ [Creative Commons (CC0 1.0) Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) ⧉ Powered by [Indigo](https://themes.gohugo.io/indigo/) via [Hugo]() [Github Pages](https://infominer.id/gh-pages-starter-pack.html). ⧉</span>
-"
+baseurl = "https://infominer.id/web-work/"
+title = "Webwork.tools"
+copyright = "⧉ <a href='https://creativecommons.org/publicdomain/zero/1.0/'>Website Content Creative Commons (CC0 1.0) Public Domain</a> by <a href='https://infominer.id'>Infominer</a>. ⧉ Powered by <a href='https://themes.gohugo.io/indigo/'>Indigo</a> via <a href='https://github.com/gohugoio/hugo/releases/tag/v0.51'>Hugo</a> and <a href='https://infominer.id/gh-pages-starter-pack.html'>Github Pages</a>."
 languageCode = "en-gb"
 theme = "indigo"
 paginate = 3
 
 [params]
   Author = "Infominer"
-  description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content."
-  Subtitle = "A subtitle for your site"
-  image = "images/web-work-tools.png"
+  description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto."
+  Subtitle = "Independent Web-Work and Skyscraper Publishing"
+  Avatar = "images/infominer.svg"
   Biography = "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
   ShowBio = true
   PermalinkText = "🔗"
@@ -38,9 +32,13 @@ paginate = 3
   # with the above email/social network parameters.
   [params.indieWeb]  
     EmailAddress = "infominer@protonmail.com"
-    FlickrUser = #"FlickrUserName"
     GitHubUser = "infominer33"
     TwitterUser = "infominer33"
     MicroBlogUser = "infominer"
     Country = "Stateless"
     City = "Marginalized"
+
+  [params.twitter]
+    card = "summary_image_large"
+    site = "@infominer33"
+    creator = "@infominer33"
