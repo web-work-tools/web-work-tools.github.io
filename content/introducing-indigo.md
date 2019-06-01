@@ -4,6 +4,7 @@ date: 2018-10-01T09:00:00-04:00
 draft: false
 categories: ["meta"]
 tags: ["typography", "indieweb"]
+menu: "main"
 ---
 
 Indigo is a lightweight theme for [Hugo][hugo] with [IndieWeb][indieweb] features baked in. It's great for longer-form blogging, placing its focus on distraction-free reading and beautiful typefaces.

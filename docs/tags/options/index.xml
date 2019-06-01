@@ -6,7 +6,7 @@
     <description>Recent content in Options on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <copyright>https://creativecommons.org/publicdomain/zero/1.0/  ⧉ https://infominer.id  ⧉ Powered by https://themes.gohugo.io/indigo/ via: https://github.com/gohugoio/hugo/releases/tag/v0.51 and https://infominer.id/web-work/github-pages-starter-pack/</copyright>
+    <copyright>⧉ Infominer creativecommons.org/publicdomain/zero/1.0/  ⧉ Powered by themes.gohugo.io/indigo/ via: github.com/gohugoio/hugo</copyright>
     <lastBuildDate>Mon, 01 Oct 2018 08:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://infominer.id/web-work/tags/options/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>Author Bios</title>
-      <link>https://infominer.id/web-work/posts/author-bios/</link>
+      <link>https://infominer.id/web-work/author-bios/</link>
       <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/author-bios/</guid>
+      <guid>https://infominer.id/web-work/author-bios/</guid>
       <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;</description>
     </item>
     
