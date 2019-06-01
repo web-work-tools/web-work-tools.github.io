@@ -33,6 +33,10 @@ I also show examples of the differences between the two, where and how I made ch
 
 It turns out that each version was released at the same time, and that they were built together from the very beginning!
 
+The nice thing about `hpstr-hugo-theme` is that its not archived, and if you want to open any [issues](https://github.com/dldx/hpstr-hugo-theme/issues) or [pull-requests](https://github.com/dldx/hpstr-hugo-theme/pulls), that can be done. 
+
+Interestingly, but nice to see, there are currently 0 open pull request or issues in the themes repository.
+
 [![](https://imgur.com/jNTAlGt.png)](https://github.com/mmistakes/hpstr-jekyll-theme/releases)
 [![](https://imgur.com/dvapj4y.png)](https://github.com/dldx/hpstr-hugo-theme/releases)
 
