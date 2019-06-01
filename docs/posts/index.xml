@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <title>Posts on Webwork.tools</title>
     <link>https://infominer.id/web-work/posts/</link>
-    <description>Recent content in Posts on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <description>Recent content in Posts on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <copyright>⧉ &lt;a href=&#39;https://creativecommons.org/publicdomain/zero/1.0/&#39;&gt;Website Content Creative Commons (CC0 1.0) Public Domain&lt;/a&gt; by &lt;a href=&#39;https://infominer.id&#39;&gt;Infominer&lt;/a&gt;. ⧉ Powered by &lt;a href=&#39;https://themes.gohugo.io/indigo/&#39;&gt;Indigo&lt;/a&gt; via &lt;a href=&#39;https://github.com/gohugoio/hugo/releases/tag/v0.51&#39;&gt;Hugo&lt;/a&gt; and &lt;a href=&#39;https://infominer.id/gh-pages-starter-pack.html&#39;&gt;Github Pages&lt;/a&gt;.</copyright>
     <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://infominer.id/web-work/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -44,7 +45,7 @@ Some git basics for newbs like me  Git Branching and Merging  Git keeps track of
       <guid>https://infominer.id/web-work/posts/forked-repositories/</guid>
       <description>An organized list of my forked repositories.
 Now that I have both forked and starred
-WebPub  artemsheludko/galada &amp;gt; Galada is an easy and simple blog theme for Jekyll. github/personal-website &amp;gt; A place to track the repositories of infominer. contrafabulists-toolbox/google-sheet-to-github-website &amp;gt; This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source. &amp;gt; * minicomp/wax &amp;gt; Jekyll for minimal exhibitions with IIIF bee weskerfoot/KettleBlog &amp;gt; A full featured blog in RiotJS poole/lanyon &amp;gt; A content-first, sliding sidebar theme for Jekyll.</description>
+WebPub  artemsheludko/galada - Galada is an easy and simple blog theme for Jekyll. github/personal-website - A place to track the repositories of infominer. contrafabulists-toolbox/google-sheet-to-github-website - This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source. minicomp/wax - Jekyll for minimal exhibitions with IIIF bee weskerfoot/KettleBlog - A full featured blog in RiotJS poole/lanyon - A content-first, sliding sidebar theme for Jekyll.</description>
     </item>
     
     <item>
@@ -135,8 +136,7 @@ It&amp;rsquo;s true that it&amp;rsquo;s a ton of work to do what I do, but you c
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/practical-public-key-crypto/</guid>
-      <description>&amp;ldquo;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;rdquo;
-I created this resource while researching the following article:
+      <description>&amp;quot;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;quot;  I created this resource while researching the following article:
  freelanceforcoins.com/Business with Crypto 101—Escrow and Key Signatures -infominer &amp;gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.</description>
     </item>
     
@@ -180,6 +180,33 @@ The problem with SEO is that there&amp;rsquo;s so much to learn, it&amp;rsquo;s 
 SEO is always changing, and a lot of incorrect or outdated information is republished.
 What I&amp;rsquo;m trying to do is break it down into it&amp;rsquo;s various components.
 The fundamental building blocks of SEO are:</description>
+    </item>
+    
+    <item>
+      <title>Introducing Indigo</title>
+      <link>https://infominer.id/web-work/posts/introducing-indigo/</link>
+      <pubDate>Mon, 01 Oct 2018 09:00:00 -0400</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/introducing-indigo/</guid>
+      <description>&lt;p&gt;Indigo is a lightweight theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; features baked in. It&amp;rsquo;s great for longer-form blogging, placing its focus on distraction-free reading and beautiful typefaces.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Featured Typefaces</title>
+      <link>https://infominer.id/web-work/posts/featured-typefaces/</link>
+      <pubDate>Mon, 01 Oct 2018 08:30:00 -0400</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/featured-typefaces/</guid>
+      <description>&lt;p&gt;Indigo uses a combination of three beautiful typefaces to render your words.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Author Bios</title>
+      <link>https://infominer.id/web-work/posts/author-bios/</link>
+      <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/author-bios/</guid>
+      <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;</description>
     </item>
     
   </channel>

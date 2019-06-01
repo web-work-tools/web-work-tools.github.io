@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typography on Webwork.tools</title>
+    <link>https://infominer.id/web-work/tags/typography/</link>
+    <description>Recent content in Typography on Webwork.tools</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>⧉ &lt;a href=&#39;https://creativecommons.org/publicdomain/zero/1.0/&#39;&gt;Website Content Creative Commons (CC0 1.0) Public Domain&lt;/a&gt; by &lt;a href=&#39;https://infominer.id&#39;&gt;Infominer&lt;/a&gt;. ⧉ Powered by &lt;a href=&#39;https://themes.gohugo.io/indigo/&#39;&gt;Indigo&lt;/a&gt; via &lt;a href=&#39;https://github.com/gohugoio/hugo/releases/tag/v0.51&#39;&gt;Hugo&lt;/a&gt; and &lt;a href=&#39;https://infominer.id/gh-pages-starter-pack.html&#39;&gt;Github Pages&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 01 Oct 2018 09:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://infominer.id/web-work/tags/typography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing Indigo</title>
+      <link>https://infominer.id/web-work/posts/introducing-indigo/</link>
+      <pubDate>Mon, 01 Oct 2018 09:00:00 -0400</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/introducing-indigo/</guid>
+      <description>&lt;p&gt;Indigo is a lightweight theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; features baked in. It&amp;rsquo;s great for longer-form blogging, placing its focus on distraction-free reading and beautiful typefaces.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Featured Typefaces</title>
+      <link>https://infominer.id/web-work/posts/featured-typefaces/</link>
+      <pubDate>Mon, 01 Oct 2018 08:30:00 -0400</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/featured-typefaces/</guid>
+      <description>&lt;p&gt;Indigo uses a combination of three beautiful typefaces to render your words.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
