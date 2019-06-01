@@ -25,7 +25,7 @@ paginate = 10
   KeybaseUser = "infominer"
   MicroBlogUser = "infominer"
   RedditUser = "infominer33"
-  StackOverflowUser = "infominer33"
+  StackOverflowUser = "infominer"
   TwitterUser = "infominer33"
 
   # These are parameters used for indieweb identity. You should set these along
