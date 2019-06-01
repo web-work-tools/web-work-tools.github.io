@@ -4,6 +4,7 @@ date: 2018-10-01T08:00:00-04:00
 draft: false
 categories: ["meta"]
 tags: ["options"]
+menu: "main"
 ---
 
 The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.

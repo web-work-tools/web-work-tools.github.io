@@ -141,67 +141,79 @@
     </div>
 </nav>
         
-        <div id="site-header">
-            <h1>Webwork.tools</h1>
+    </header>
+
+
+
+<div id="content">
+    <article class="h-entry">
+        <header>
+            <h1 class="post-title p-name">Featured Typefaces</h1>
             
-            <p>
-              Independent Web-Work and Skyscraper Publishing
+            
+            <p class="post-tag">Category: 
+                
+                <a href="https://infominer.id/web-work/categories/meta" class="post-tag p-category">meta</a>
+                
+            </p>
+            <hr class="post-underline">
+            
+        </header>
+        <section class="content e-content">
+            <p>Indigo uses a combination of three beautiful typefaces to render your words.</p>
+
+<ul>
+<li><a href="https://bboxtype.com/typefaces/FiraSans/#!layout=specimen">Fira Sans</a> for heading text</li>
+<li><a href="https://practicaltypography.com/charter.html">Charter</a> for body text</li>
+<li><a href="https://github.com/tonsky/FiraCode">Fira Code</a> for monospaced text</li>
+</ul>
+
+<p>Licenses are included in the theme’s <code>static/fonts</code> folder.</p>
+
+<p>Have a look at a couple of paragraphs of placeholder text using the wonderfully readable Charter:</p>
+
+<hr />
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend nulla ac elit venenatis posuere. Sed id aliquam arcu, et malesuada lectus. <strong>Donec et dignissim massa. Pellentesque in laoreet nibh. Pellentesque sagittis, libero quis vestibulum aliquam, ante risus imperdiet magna, at ornare dolor libero quis nunc.</strong> Donec quis tempus purus. Cras ornare magna ac facilisis tristique. Nulla aliquet purus quis massa rutrum interdum ac at magna. Cras fermentum magna id orci viverra facilisis. Ut vitae lobortis nisl.</p>
+
+<p>Sed interdum tincidunt venenatis. Sed hendrerit dictum nisi, at dignissim orci consectetur quis. Aenean sed nisl et nisl placerat euismod. Proin hendrerit nulla at rhoncus molestie. Cras eu gravida erat, vestibulum ornare diam. <em>Praesent nunc arcu, ultrices et risus sed, dictum mattis dui. Maecenas vitae nisl at massa porta pellentesque</em>. Donec eget urna eget nisl imperdiet scelerisque eget a mauris. Nam fringilla sem id vehicula rhoncus. Curabitur tincidunt massa mauris, facilisis placerat odio eleifend sit amet. Etiam nec vehicula sapien, at dignissim risus. Sed elit erat, lacinia eu vulputate at, semper eu nulla. Quisque a urna sed nulla viverra egestas nec quis nunc. Curabitur iaculis elit in orci sollicitudin suscipit.</p>
+
+<hr />
+
+<p>And code snippets look great with Fira Code:</p>
+
+<pre><code>&lt;article&gt;
+    &lt;header&gt;
+    {{ if .Title }}
+    &lt;h2 class=&quot;list-title&quot;&gt;&lt;a href=&quot;{{ .Permalink }}&quot;&gt;{{ .Title }}&lt;/a&gt;&lt;/h2&gt;
+    {{ end }}
+    &lt;p class=&quot;list-post-date&quot;&gt;
+        &lt;time datetime=&quot;{{ .Date.Format &quot;2006-01-02T15:04:05Z07:00&quot; | safeHTML }}&quot;&gt;
+        {{ .PublishDate.Format &quot;2 January, 2006 at 15:04 MST&quot; }}
+        &lt;/time&gt;
+    &lt;/p&gt;
+    &lt;/header&gt;
+    &lt;div&gt;
+    {{ .Summary | plainify | safeHTML }}
+    &lt;/div&gt;
+    {{ if .Truncated }}
+    &lt;p&gt;&lt;a class=&quot;read-more&quot; href=&quot;{{ .Permalink }}&quot;&gt;Read more &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+    {{ end }}
+&lt;/article&gt;
+</code></pre>
+        </section>
+        <footer>
+            <a class="permalink u-url" href="https://infominer.id/web-work/featured-typefaces/">🔗</a>
+            
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post: 
+            
+                <a href="https://infominer.id/web-work/tags/typography" class="post-tag p-category">typography</a>
+            
             </p>
             
-        </div>
-        
-    </header>
-<h2>Hpstr</h2>
-<div id="content">
-
-
-    <article>
-      <header>
-        
-        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/">Migrating from Jekyll HPSTR to Hugo.</a></h2>
-        
-        <p class="list-post-date">
-          <time datetime="2019-06-01T00:00:00Z">
-            1 June, 2019 at 00:00 UTC
-          </time>
-        </p>
-      </header>
-      <div>
-        I&rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
-This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, or Hugo to Jekyll.
-I&rsquo;ve got two branches of the same exact website except one is run by Jekyll and one is run by Hugo!!
-That&rsquo;s pretty neat, if you ask me!
-      </div>
-      
-      <p><a class="read-more" href="https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/">Read more &rarr;</a></p>
-      
+        </footer>
     </article>
-
-
-
-    <article>
-      <header>
-        
-        <h2 class="list-title"><a href="https://infominer.id/web-work/posts/branches-git/">Creating a Test Branch and Merging back the Changes</a></h2>
-        
-        <p class="list-post-date">
-          <time datetime="2019-05-31T00:00:00Z">
-            31 May, 2019 at 00:00 UTC
-          </time>
-        </p>
-      </header>
-      <div>
-        I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
-Checkout test branch Use the command git checkout -b will allow you to create a local branch for testing.
-I will call my new branch test-hugo so the command will be like so:
-git checkout -b test-hugo
-Some git basics for newbs like me  Git Branching and Merging  Git keeps track of all your files, but not just the files, but everything in the repository.
-      </div>
-      
-      <p><a class="read-more" href="https://infominer.id/web-work/posts/branches-git/">Read more &rarr;</a></p>
-      
-    </article>
-
 </div>
 
     
@@ -219,6 +231,22 @@ Some git basics for newbs like me  Git Branching and Merging  Git keeps track of
     </div>
     
     <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="prev">
+          
+          <p>&nbsp;</p>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="next">
+          
+          <p>&nbsp;</p>
+          
+        </div>
+      </nav>
       
       <aside id="social">
   <div id="social-icons">

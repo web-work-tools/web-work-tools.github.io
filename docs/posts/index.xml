@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <copyright>https://creativecommons.org/publicdomain/zero/1.0/  ⧉ https://infominer.id  ⧉ Powered by https://themes.gohugo.io/indigo/ via: https://github.com/gohugoio/hugo/releases/tag/v0.51 and https://infominer.id/web-work/github-pages-starter-pack/</copyright>
+    <copyright>⧉ Infominer creativecommons.org/publicdomain/zero/1.0/  ⧉ Powered by themes.gohugo.io/indigo/ via: github.com/gohugoio/hugo</copyright>
     <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://infominer.id/web-work/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -180,33 +180,6 @@ The problem with SEO is that there&amp;rsquo;s so much to learn, it&amp;rsquo;s 
 SEO is always changing, and a lot of incorrect or outdated information is republished.
 What I&amp;rsquo;m trying to do is break it down into it&amp;rsquo;s various components.
 The fundamental building blocks of SEO are:</description>
-    </item>
-    
-    <item>
-      <title>Introducing Indigo</title>
-      <link>https://infominer.id/web-work/posts/introducing-indigo/</link>
-      <pubDate>Mon, 01 Oct 2018 09:00:00 -0400</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/introducing-indigo/</guid>
-      <description>&lt;p&gt;Indigo is a lightweight theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; features baked in. It&amp;rsquo;s great for longer-form blogging, placing its focus on distraction-free reading and beautiful typefaces.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Featured Typefaces</title>
-      <link>https://infominer.id/web-work/posts/featured-typefaces/</link>
-      <pubDate>Mon, 01 Oct 2018 08:30:00 -0400</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/featured-typefaces/</guid>
-      <description>&lt;p&gt;Indigo uses a combination of three beautiful typefaces to render your words.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Author Bios</title>
-      <link>https://infominer.id/web-work/posts/author-bios/</link>
-      <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/author-bios/</guid>
-      <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;</description>
     </item>
     
   </channel>
