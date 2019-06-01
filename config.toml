@@ -14,7 +14,7 @@ paginate = 10
   description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto."
   Subtitle = "Independent Web-Work and Skyscraper Publishing"
   Avatar = "images/infominer.svg"
-  Biography = "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
+  Biography = "Full-Time Crypto-Curation and Histories ⧉ Bitcoin, Blockchain, DecentralizedID ⧉ Research, Publishing, WebWork, Indieweb ⧉"
   ShowBio = true
   PermalinkText = "🔗"
 
