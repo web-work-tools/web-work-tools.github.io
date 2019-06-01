@@ -1,0 +1,74 @@
+# ----------------------------------------
+# All Web Site Data
+# Pages
+# 20190417-20190524
+# ----------------------------------------
+
+Page,Pageviews,Unique Pageviews,Avg. Time on Page,Entrances,Bounce Rate,% Exit,Page Value
+/index.html,138,98,00:02:34,76,68.42%,56.52%,$0.00
+/bitcoin-history/permissioned/index.html,67,58,00:03:37,57,84.21%,83.58%,$0.00
+/web-work/github-pages-starter-pack/index.html,66,63,00:02:14,55,92.73%,87.88%,$0.00
+/DIDecentralized/index.html,65,54,00:01:05,46,60.87%,53.85%,$0.00
+/learn-crypto-trading/chart-patterns/index.html,45,37,00:03:59,35,80.00%,77.78%,$0.00
+/bitcoin-history/smart-contracts/index.html,44,34,00:05:44,31,87.10%,75.00%,$0.00
+/about/index.html,40,32,00:05:23,28,75.00%,70.00%,$0.00
+/transcripts/VON-Presentation-Jordan-Curran-HGF/index.html,33,27,00:07:34,27,81.48%,78.79%,$0.00
+/SourceCrypto/index.html,54,37,00:00:43,26,53.85%,46.30%,$0.00
+/bitcoin-history/index.html,25,24,00:00:20,18,66.67%,60.00%,$0.00
+/learn-crypto-trading/index.html,30,24,00:01:24,18,72.22%,56.67%,$0.00
+/DIDecentralized/rebooting-web-of-trust/index.html,23,20,00:04:41,17,82.35%,82.61%,$0.00
+/DIDecentralized/indy-ecosystem/index.html,20,16,00:05:28,14,85.71%,65.00%,$0.00
+/DIDecentralized/identity-github/index.html,24,14,00:00:21,12,91.67%,54.17%,$0.00
+/indieweb/index.html,24,14,00:01:02,12,33.33%,33.33%,$0.00
+/web-work/index.html,22,17,00:04:11,12,83.33%,63.64%,$0.00
+/web-work/seo-tools/index.html,16,14,00:04:44,12,75.00%,75.00%,$0.00
+/transcripts/JW-Weatherman-Interview-Tim-May/index.html,11,11,00:00:00,11,100.00%,100.00%,$0.00
+/transcripts/Microledgers-Edgechains-Dan-Hardman/index.html,20,11,00:04:33,10,70.00%,50.00%,$0.00
+/learn-crypto-trading/pinescript/index.html,11,11,00:10:12,9,88.89%,90.91%,$0.00
+/DIDecentralized/hgf-2018/Microledgers-Edgechains-Hardman-HGF/index.html,8,8,00:00:54,8,87.50%,87.50%,$0.00
+/blockchain/UnitedNations/index.html,7,7,00:00:00,7,100.00%,100.00%,$0.00
+/DIDecentralized/organizations/identity-foundation/index.html,9,9,00:00:01,7,100.00%,88.89%,$0.00
+/DIDecentralized/organizations/sovrin-foundation/index.html,21,10,00:02:32,7,57.14%,33.33%,$0.00
+/DIDecentralized/standards/index.html,11,10,00:01:17,7,57.14%,54.55%,$0.00
+,"1,090",876,00:02:13,676,76.04%,62.02%,$0.00
+
+Day Index,Pageviews
+4/17/19,34
+4/18/19,16
+4/19/19,77
+4/20/19,29
+4/21/19,45
+4/22/19,21
+4/23/19,31
+4/24/19,11
+4/25/19,103
+4/26/19,7
+4/27/19,33
+4/28/19,4
+4/29/19,13
+4/30/19,10
+5/1/19,13
+5/2/19,22
+5/3/19,47
+5/4/19,26
+5/5/19,7
+5/6/19,59
+5/7/19,19
+5/8/19,14
+5/9/19,19
+5/10/19,27
+5/11/19,7
+5/12/19,3
+5/13/19,43
+5/14/19,19
+5/15/19,23
+5/16/19,19
+5/17/19,21
+5/18/19,16
+5/19/19,32
+5/20/19,25
+5/21/19,37
+5/22/19,46
+5/23/19,84
+5/24/19,28
+,"1,090"

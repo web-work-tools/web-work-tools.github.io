@@ -311,6 +311,23 @@ This is the final stretch, and we should be good to go
 
 ![](https://imgur.com/za5VOLr.png)
 
+* [Configuring Hugo](http://web.archive.org/web/20161110120102/http://gohugo.io/overview/configuration)
+
+
+>`contentdir = "content"`\
+>`layoutdir = "layouts"`\
+>`publishdir = "public"`\
+>`builddrafts = false`\
+>`baseurl = "http://yoursite.example.com/"`\
+>`canonifyurls = true`
+>
+>`[taxonomies]`\
+>`  category = "categories"`\
+>`  tag = "tags"`
+>
+>`[params]`\
+>`  description = "Tesla's Awesome Hugo Site"`\
+>`  author = "Nikola Tesla"`
 
 
 ## Resources
