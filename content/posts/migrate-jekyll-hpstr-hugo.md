@@ -313,21 +313,10 @@ This is the final stretch, and we should be good to go
 
 * [Configuring Hugo](http://web.archive.org/web/20161110120102/http://gohugo.io/overview/configuration)
 
+>`publishdir = "docs"`
 
->`contentdir = "content"`\
->`layoutdir = "layouts"`\
->`publishdir = "public"`\
->`builddrafts = false`\
->`baseurl = "http://yoursite.example.com/"`\
->`canonifyurls = true`
->
->`[taxonomies]`\
->`  category = "categories"`\
->`  tag = "tags"`
->
->`[params]`\
->`  description = "Tesla's Awesome Hugo Site"`\
->`  author = "Nikola Tesla"`
+By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.
+
 
 
 ## Resources
