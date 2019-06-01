@@ -4,8 +4,10 @@ title: "Creating a Test Branch and Merging back the Changes"
 description: "Used while testing the hugo build of the HPSTR theme."
 tags: [hpstr, jekyll, hugo, theme, migration]
 image:
-  feature: /images/jekyll-hpstr-hugo.png
-date: 2019-06-01
+  feature: Git_branches_fork.svg.png
+  credit: "Bunyk - Українська"
+  creditlink: https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg
+date: 2019-05-31
 
 ---
 

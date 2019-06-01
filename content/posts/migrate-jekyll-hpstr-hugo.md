@@ -340,13 +340,15 @@ enableEmoji = true
 
 By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.
 
+Let me know if you have any questions, or if anything is unclear!!
 
-
+I'll get comments and web-mentions soon!
 
 ## Resources
 
 * [web.archive.org - Installing Hugo v0.17](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
 * [web.archive.org - Using Hugo v0.17](http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/)
+* [Creating a Test Branch and Merging changes back to Master](/branches-git/)
 
 ## Extra
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)
