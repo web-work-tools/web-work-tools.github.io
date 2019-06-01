@@ -9,6 +9,7 @@ image:
 slug: /keyword-planning/
 aliases:
   - /posts/keyword-planner/
+  - /keyword-planner/
 
 ---
 

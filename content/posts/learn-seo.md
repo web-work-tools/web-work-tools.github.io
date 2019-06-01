@@ -4,6 +4,7 @@ title: "Learn SEO"
 description: "Building Blocks of SEO? Keywords- Content - Internal linking - Site Structure - A Multitude of Technical Optimizations."
 aliases:
   - /posts/learn-seo/
+  - /learn-seo/
   - /learn-seo
 slug: /learn-seo/
 tags: [resources, seo]

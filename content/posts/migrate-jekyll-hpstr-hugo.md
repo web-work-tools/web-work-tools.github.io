@@ -12,6 +12,7 @@ excerpt: >
   This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, *or* Hugo to Jekyll.
 aliases:
   - /posts/migrate-jekyll-hpstr-hugo/
+  - /migrate-jekyll-hpstr-hugo/
 slug: /migrate-jekyll-hpstr-hugo/
 
 ---

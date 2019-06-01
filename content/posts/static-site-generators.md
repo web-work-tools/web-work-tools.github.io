@@ -6,6 +6,7 @@ date: 2019-05-25
 tags: [static site generators, tools, resources, CI\CD]
 aliases:
   - /posts/static-site-generators/
+  - /static-site-generators/
 slug: /static-site-generators/
 image:
   feature: /images/devopedia-static-site-generators.jpg

@@ -7,6 +7,7 @@ tags: [jekyll, github-pages, resources, web-publishing]
 date: 2019-02-25
 aliases:
   - /github-pages-extended-resources/
+  - /github-pages-extended-resources/
 image:
   feature: /images/github-pages-jekyll-starter-pack.png
 published: false

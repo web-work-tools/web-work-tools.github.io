@@ -7,6 +7,7 @@ tags: [jekyll, github-pages, resources, web-publishing]
 date: 2019-02-24
 aliases:
   - /posts/github-pages-starter-pack/
+  - /github-pages-starter-pack/
   - /gh-pages-starter-pack/
 slug: /github-pages-starter-pack/
 image:

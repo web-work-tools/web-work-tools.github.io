@@ -1,5 +1,5 @@
 ---
-title: "Featured Typefaces"
+title: "Typefaces"
 date: 2018-10-01T08:30:00-04:00
 draft: false
 categories: ["meta"]
