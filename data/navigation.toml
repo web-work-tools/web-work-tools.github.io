@@ -8,10 +8,6 @@ title = "Services"
 url = "/services/"
 
 [[links]]
-title = "Learn SEO"
-url = "/learn-seo/"
-
-[[links]]
 title = "Mostly Free SEO Tools"
 url = "/seo-tools/"
 
@@ -20,19 +16,15 @@ title = "GitHub Pages Starter Pack"
 url = "/github-pages-starter-pack/"
 
 [[links]]
-title = "Open Source Publishing"
-url = "/open-source-publishing/"
-
-[[links]]
 title = "Practical Public Key Crypto"
 url = "/practical-public-key-crypto/"
 
 [[links]]
 title = "IndieWeb"
-url = "http =//infominer.id/indieweb/"
+url = "http://infominer.id/indieweb/"
 
 [[links]]
 title = "InfoMine"
-url = "http =//infominer.id/"
+url = "http://infominer.id/"
 
 

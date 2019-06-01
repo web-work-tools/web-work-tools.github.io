@@ -6,7 +6,7 @@ description: "Building Blocks of SEO? Keywords- Content - Internal linking - Sit
 tags: [resources, seo]
 image:
   feature: /images/organic-seo-drive-traffic.jpg
-modified: 2019-05-23
+date: 2019-01-10
 
 ---
 

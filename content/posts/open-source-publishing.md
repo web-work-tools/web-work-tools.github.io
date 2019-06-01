@@ -2,7 +2,7 @@
 type: post
 title: "Open Source Publishing."
 description: "Infominer.id - All Page Rankings and Organic Search Rankings"
-modified: 2019-05-30
+date: 2019-05-23
 tags: [google, organic search, stats, open source, github-pages]
 
 
@@ -12,7 +12,6 @@ image:
   og_image: infolytics/5-25-19-organic-search-infominer.png
   credit: See on Github
   creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
-toc: false
 ---
 
 **Pro-tip:** [Go Home](https://infominer.id/web-work) **for a full view of featured image.**

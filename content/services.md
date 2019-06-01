@@ -5,7 +5,7 @@ description: "Research Driven Customer Service, Content Creation, and Web Publis
 image:
   feature: /images/web-work-tools.png
 share: true
-modified: 2019-05-26
+date: 2019-05-26
 ---
 
 ---

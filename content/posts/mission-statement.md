@@ -7,7 +7,7 @@ tags: [mission-statement, introduction]
 image:
   thumb: /images/pgp-og.png
   feature: /images/pgp-banner.png
-modified: 2019-05-25
+date: 2019-05-25
 published: false
 ---
 
