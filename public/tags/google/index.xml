@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <link>https://infominer.id/web-work/tags/google/index.xml</link>
+    <description>Recent content on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://infominer.id/web-work/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Open Source Publishing.</title>
+      <link>https://infominer.id/web-work/posts/open-source-publishing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/open-source-publishing/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Pro-tip:&lt;/strong&gt; &lt;a href=&#34;https://infominer.id/web-work&#34;&gt;Go Home&lt;/a&gt; &lt;strong&gt;for a full view of featured image.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&#34;pull-left&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infolytics/record-monthly.png&#34;/&gt;&lt;/div&gt;
+
+&lt;p&gt;Shows what can be done in a short period of time.  I didn&amp;rsquo;t start building any of this till the beginning of this year.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s true that it&amp;rsquo;s a ton of work to do what &lt;em&gt;I&lt;/em&gt; do, but you could use this concept for just one topic instead of 100 and build a valuable resource in a few days!&lt;/p&gt;
+
+&lt;p&gt;I will publish monthly stats, though it won&amp;rsquo;t always be the same, and if you have any requests, pop up in the issues.&lt;/p&gt;
+
+&lt;p&gt;Soon, I&amp;rsquo;ll have comments enabled, and that will be great.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-present-csv&#34;&gt;How to present CSV?&lt;/h2&gt;
+
+&lt;p&gt;Because of multiple columns and long urls, it&amp;rsquo;s difficult to display this informaiton in text form. It&amp;rsquo;s easier for me to transform the pdf\csv into png. Then it can be displayed just fine on any screen.&lt;/p&gt;
+
+&lt;p&gt;To get a high-quality image, I used &lt;a href=&#34;http://convert-my-image.com/&#34;&gt;convert-my-image.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;generating-pages-from-data-using-liquid&#34;&gt;Generating Pages from Data using Liquid&lt;/h2&gt;
+
+&lt;p&gt;I put &lt;a href=&#34;https://infominer.id/web-work/images/infolytics/performance1.csv&#34;&gt;performance1.csv&lt;/a&gt; and &lt;a href=&#34;https://infominer.id/web-work/images/infolytics/performance1.csv&#34;&gt;performance2.csv&lt;/a&gt; into the /images directory (you can &lt;a href=&#34;https://github.com/infominer33/web-work/tree/master/images/infolytics&#34;&gt;check out on github&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;From there, jekyll throws it all up into &lt;code&gt;site.data.performance1&lt;/code&gt; and &lt;code&gt;site.data.performance2&lt;/code&gt; so I can call it with a bit of code and generate pages with it.&lt;/p&gt;
+
+&lt;p&gt;Sometime I&amp;rsquo;ll create a post, or &lt;a href=&#34;https://infominer.id/webwork/tags/#stub&#34;&gt;stub&lt;/a&gt;, to begin documentation of that feature of Jekyll and grow in familiarity with it.&lt;/p&gt;
+
+&lt;p&gt;For now I&amp;rsquo;ll just share a few links here.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/jMtd9WR.png&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;from: &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;em&gt;GitHub Pages Starter Pack - Extended Resources&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://shopify.github.io/liquid/tags/control-flow/&#34;&gt;shopify.github.io/liquid/tags/control-flow/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/&#34; target=&#34;_blank&#34;&gt;Jekyll Variables and Liquid Template Tags-Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.cloudcannon.com/jekyll/introduction-to-liquid/&#34; target=&#34;_blank&#34;&gt;Introduction to Liquid for Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34;&gt;https://blog.webjeda.com/jekyll-liquid/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;pull requests welcome&lt;/em&gt; ;)&lt;/p&gt;
+
+&lt;p&gt;As you can see, it&amp;rsquo;s possible to begin showing up in google pretty quickly. I started building at the beginning of the year, and I hadn&amp;rsquo;t begun in earnest until you see the chart starting to pop off (around the time I submitted my sitemap to google).&lt;/p&gt;
+
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/web-work/images/infolytics/5-29-19-organic-search-infominer.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://imgur.com/nT7Estp.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/web-work/images/infolytics/5-24-19-organic-search-infominer.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/images/infolytics/infominer-id-Performance-2019-05-24.csv&#34;&gt;infominer-id-Performance-2019-05-24.csv&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

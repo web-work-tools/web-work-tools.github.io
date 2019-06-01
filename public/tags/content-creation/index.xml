@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <link>https://infominer.id/web-work/tags/content-creation/index.xml</link>
+    <description>Recent content on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://infominer.id/web-work/tags/content-creation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Resources for Content Creation</title>
+      <link>https://infominer.id/web-work/posts/content-creation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/content-creation/</guid>
+      <description>
+
+&lt;p&gt;Here&amp;rsquo;s some tools to make content creation a little easier.&lt;/p&gt;
+
+&lt;p&gt;As per usual, this list will grow and become more organized over time.&lt;/p&gt;
+
+&lt;p&gt;For now, it&amp;rsquo;s just a copy\paste from the &lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;GitHub-Pages Starter Pack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;basics&#34;&gt;Basics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34; target=&#34;_blank&#34;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;editors&#34;&gt;Editors&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;
+Where I build webpages.
+&lt;img src=&#34;https://imgur.com/eqWiJ8Il.png&#34; alt=&#34;&#34; /&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This thing has extensions for all your coding needs&amp;hellip; It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HackMD - Collaborative Markdown Editor&lt;/strong&gt;
+* &lt;a href=&#34;https://hackmd.io&#34;&gt;https://hackmd.io&lt;/a&gt; - Collaborative markdown editor (where I write everything else).
+  * &lt;a href=&#34;https://hackmd.io/getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+  * &lt;a href=&#34;https://hackmd.io/c/tutorials/%2Fs%2Ftutorials&#34;&gt;Tutorial&lt;/a&gt;
+  * &lt;a href=&#34;https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book&#34;&gt;How to Create a Book&lt;/a&gt;
+  * &lt;a href=&#34;https://hackmd.io/c/tutorials-tw/%2Fs%2Fyaml-metadata&#34;&gt;YAML Metadata&lt;/a&gt;
+* See also &lt;a href=&#34;https://demo.codimd.org/&#34;&gt;demo.codimd.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;public-domain-stock-images&#34;&gt;Public Domain - Stock Images&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nacyot/awesome-opensource-documents&#34;&gt;nacyot/awesome-opensource-documents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/neutraltone/awesome-stock-resources&#34;&gt;neutraltone/awesome-stock-resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shime/creative-commons-media&#34;&gt;shime/creative-commons-media&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/idleberg/Creative-Commons-Markdown&#34;&gt;idleberg/Creative-Commons-Markdown&lt;/a&gt; - snippets to add CC license to your work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;image-sizes-for-popular-platforms&#34;&gt;Image Sizes for Popular Platforms&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://louisem.com/217438/twitter-image-size&#34;&gt;Twitter-Image Sizes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;images-infographics&#34;&gt;Images - Infographics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.canva.com/create/infographics/&#34;&gt;Canva Infographic Creator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.easel.ly/&#34;&gt;easel.ly&lt;/a&gt; - free create infographics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://builtvisible.com/content-strategy-helper/&#34;&gt;Content Strategy Tool&lt;/a&gt; - Find inspiration for your content marketing topics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.google.com/publicdata/directory&#34;&gt;Google Public Data&lt;/a&gt; - content research, infographics, and more.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.seomofo.com/snippet-optimizer.html&#34;&gt;Google SERP Snippet Optimization Tool&lt;/a&gt; - see how your snippet may appear in search results.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infogr.am/&#34;&gt;infogr.am&lt;/a&gt; - create infographics and data visualizations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www341.lunapic.com/editor/&#34;&gt;https://www341.lunapic.com/editor/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://piktochart.com/&#34;&gt;Piktochart&lt;/a&gt; - visualization generator.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;optimization&#34;&gt;Optimization&lt;/h3&gt;
+
+&lt;p&gt;The web &lt;em&gt;loooves&lt;/em&gt; big old beautiful high quality images&amp;hellip; However, my visitors probably notice the load time of huge images more than I do (though I do notice them).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://trimage.org/&#34;&gt;https://trimage.org/&lt;/a&gt;
+&amp;gt;A cross-platform tool for losslessly optimizing PNG and JPG files for web.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pngquant.org/&#34;&gt;pngquant&lt;/a&gt;
+&amp;gt; is a command-line utility and a library for lossy compression of PNG images.
+&amp;gt;
+&amp;gt;The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ezgif.com/optimize&#34;&gt;https://ezgif.com/optimize&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;text&#34;&gt;Text&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.textcleanr.com/&#34;&gt;Text Cleaner&lt;/a&gt; - cleans up all kinds of text formatting when copying and pasting between applications.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wordle.net/&#34;&gt;wordle&lt;/a&gt; - word cloud generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://pipes.yahoo.com/pipes/&#34;&gt;Yahoo Pipes&lt;/a&gt;
+combines feeds &amp;ldquo;into content and other magical creations&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pcjs.org&#34;&gt;https://www.pcjs.org&lt;/a&gt; - IBM PC simulation that runs in your web browser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://amara.org/en/&#34;&gt;Amara&lt;/a&gt; - create captions for YouTube videos.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wistia.com/&#34;&gt;Wistia&lt;/a&gt; - SEO-friendly video hosting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;plagiarism&#34;&gt;Plagiarism&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.copyscape.com/&#34;&gt;Copyscape&lt;/a&gt; - track if your content is being plagiarized.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;^^^ This is the industry standard. It can help to prevent even plagiarizing from yourself!&lt;/p&gt;
+
+&lt;h2 id=&#34;archiving&#34;&gt;Archiving&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/web-archive-for-wayback-m/ppokigfjbmhncgkabghdgpiafjdpllke&#34;&gt;Web Archive for WayBack Machine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/iipc/awesome-web-archiving&#34;&gt;iipc/awesome-web-archiving&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webapps.stackexchange.com/questions/115369/how-to-archive-the-whole-website&#34;&gt;webapps.stackexchange.com - how-to-archive-the-whole-website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.httrack.com&#34;&gt;httrack.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;data-visualization&#34;&gt;Data Visualization&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.github.com/v3/guides/rendering-data-as-graphs/&#34;&gt;rendering-data-as-graphs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.benlcollins.com/javascript/creating-a-dynamic-d3-visualization-from-the-github-api/&#34;&gt;Creating a dynamic d3 visualization from the GitHub API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.targetprocess.com/blog/visualize-github-code-contribution-using-app-link/&#34;&gt;Visualize GitHub Code Contribution using APP Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://datavizforall.org/github.html&#34;&gt;Data Visualization for All - Modify and Host Code with GitHub&lt;/a&gt; by Jack Dougherty &amp;amp; Ilya Ilyankou
+&amp;gt; In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livablesoftware.com/tools-visualize-github-profile/&#34;&gt;tools-visualize-github-profile/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tutes-walkthrus&#34;&gt;Tutes \ Walkthrus&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://webdesign.tutsplus.com/tutorials/how-to-create-an-open-source-directory-on-github-pages--cms-26225&#34;&gt;How to Create an Open-Source Directory on GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.labnol.org/internet/github-gist-tutorial/28499/&#34;&gt;What You Can Do With Gists on Github?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assorted&#34;&gt;Assorted&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://polyglot.untra.io/&#34;&gt;https://polyglot.untra.io/&lt;/a&gt; - multi-lingual publishing.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://konpa.github.io/devicon/&#34;&gt;https://konpa.github.io/devicon/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://material.io/tools/color/#!/?view.left=0&amp;amp;view.right=0&amp;amp;primary.color=455A64&#34;&gt;Color Tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
