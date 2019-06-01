@@ -5,7 +5,7 @@ theme = "hpstr"
 pluralizelisttitles = false
 PygmentsCodeFences = true
 Paginate = 5
-disqusShortname = "hpstrhugo"
+disqusShortname = "infominer"
 publishdir = "docs"
 enableEmoji = true
 [params]
