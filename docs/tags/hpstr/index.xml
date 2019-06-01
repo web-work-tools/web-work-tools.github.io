@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
-    <link>https://infominer.id/web-work/tags/hpstr/index.xml</link>
-    <description>Recent content on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <title>Hpstr on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <link>https://infominer.id/web-work/tags/hpstr/</link>
+    <description>Recent content in Hpstr on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="https://infominer.id/web-work/tags/hpstr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://infominer.id/web-work/tags/hpstr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a Test Branch and Merging back the Changes</title>
+      <link>https://infominer.id/web-work/posts/branches-git/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/branches-git/</guid>
+      <description>What we&amp;rsquo;re going to do is make a test branch of our repository&amp;hellip; so we can see about getting hugo to run over there, and if successful then we&amp;rsquo;ll learn how to merge this test branch back over.
+Checkout test branch Use the command git checkout -b will allow you to create a local branch for testing.
+I will call my new branch test-hugo so the command will be like so:</description>
+    </item>
     
     <item>
       <title>Migrating from Jekyll HPSTR to Hugo.</title>
@@ -14,338 +28,10 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.&lt;/p&gt;
-
-&lt;p&gt;This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve got two branches of the same exact website except one is run by &lt;a href=&#34;https://github.com/infominer33/web-work/tree/hpstr-jekyll&#34;&gt;Jekyll&lt;/a&gt; and one is run by &lt;a href=&#34;https://github.com/infominer33/web-work/tree/test-hugo&#34;&gt;Hugo&lt;/a&gt;!!&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s pretty neat, if you ask me!&lt;/p&gt;
-
-&lt;p&gt;I also show examples of the differences between the two, where and how I made changes.&lt;/p&gt;
-
-&lt;h2 id=&#34;hpstr-jekyll-vs-hugo&#34;&gt;HPSTR Jekyll vs Hugo&lt;/h2&gt;
-
-&lt;h3 id=&#34;releases&#34;&gt;Releases&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/hpstr-jekyll-theme&#34;&gt;mmistakes/hpstr-jekyll-theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dldx/hpstr-hugo-theme/releases&#34;&gt;dldx/hpstr-hugo-theme&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It turns out that each version was released at the same time, and that they were built together from the very beginning!&lt;/p&gt;
-
-&lt;p&gt;The nice thing about &lt;code&gt;hpstr-hugo-theme&lt;/code&gt; is that its not archived, and if you want to open any &lt;a href=&#34;https://github.com/dldx/hpstr-hugo-theme/issues&#34;&gt;issues&lt;/a&gt; or &lt;a href=&#34;https://github.com/dldx/hpstr-hugo-theme/pulls&#34;&gt;pull-requests&lt;/a&gt;, that can be done.&lt;/p&gt;
-
-&lt;p&gt;Interestingly, but nice to see, there are currently 0 open pull request or issues in the themes repository.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/mmistakes/hpstr-jekyll-theme/releases&#34;&gt;&lt;img src=&#34;https://imgur.com/jNTAlGt.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/dldx/hpstr-hugo-theme/releases&#34;&gt;&lt;img src=&#34;https://imgur.com/dvapj4y.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;commits&#34;&gt;Commits&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/obcGfNc.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://imgur.com/KZQODtU.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;which-version-of-hugo-should-i-run&#34;&gt;Which Version of Hugo Should I Run?&lt;/h2&gt;
-
-&lt;p&gt;Scrolling back through the hugo releases when the HPSTR theme was in active development, I come across:&lt;/p&gt;
-
-&lt;h3 id=&#34;0-16-0-june-6th-2016-https-github-com-gohugoio-hugo-releases-after-v0-16-0&#34;&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases?after=v0.16.0&#34;&gt;0.16.0 June 6th 2016&lt;/a&gt;&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Hugo 0.16 is our best and biggest release ever. The Hugo community has outdone itself with continued performance improvements, beautiful themes for all types of sites from project sites to documentation to blogs to portfolios, and increased stability.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;deb-packages-for-debian-ubuntu-etc&#34;&gt;.deb packages for Debian, Ubuntu, etc.&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Hugo has become part of the official Debian and Ubuntu repositories since January 2016!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That&amp;rsquo;s a nice note to find, since I&amp;rsquo;m an Ubuntu user.&lt;/p&gt;
-
-&lt;h2 id=&#34;v0-17-https-github-com-gohugoio-hugo-releases-tag-v0-17&#34;&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/tag/v0.17&#34;&gt;v0.17&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;There are numerous options for different platforms, and this version of Hugo was &lt;strong&gt;released in October&lt;/strong&gt;, one month after the final release of HPSTR.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Hugo is going global with our 0.17 release. [&amp;hellip;] Adding additional languages to your website is simple and straightforward.&lt;/p&gt;
-
-&lt;p&gt;Hugo continues its trend of each release being faster than the last.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Apparently it&amp;rsquo;s fast enough that people began using hugo&amp;rsquo;s webserver in production, around this time.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;New in 0.17: Available as Snap package&lt;/p&gt;
-
-&lt;p&gt;Thanks to the contribution #2443 and guidance from @dholbach, Hugo is now available as a Snap package! (Snaps are a new kind of universal Linux packages.) Check it out at &lt;a href=&#34;https://uappexplorer.com/app/hugo.hugo-authors&#34;&gt;https://uappexplorer.com/app/hugo.hugo-authors&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Now this is nice because you can get various releases of snap packages through the snap store.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://askubuntu.com/questions/1026075/can-i-install-multiple-copies-of-a-snap-package&#34;&gt;askubuntu.com - Can I install multiple copies of a snap-package?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;download-links-for-hugo-v0-17&#34;&gt;Download links for Hugo v0.17&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17-64bit.deb&#34;&gt;go_0.17-64bit.deb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_armhf.deb&#34;&gt;go_0.17_armhf.deb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_FreeBSD-32bit.zip&#34;&gt;go_0.17_FreeBSD-32bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_FreeBSD-64bit.zip&#34;&gt;go_0.17_FreeBSD-64bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_freebsd_arm.zip&#34;&gt;go_0.17_freebsd_arm.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_i386.deb&#34;&gt;go_0.17_i386.deb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Linux-32bit.tar.gz&#34;&gt;go_0.17_Linux-32bit.tar.gz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz&#34;&gt;go_0.17_Linux-64bit.tar.gz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_linux_arm.tar.gz&#34;&gt;go_0.17_linux_arm.tar.gz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_MacOS-32bit.zip&#34;&gt;go_0.17_MacOS-32bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_MacOS-64bit.zip&#34;&gt;go_0.17_MacOS-64bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_NetBSD-32bit.zip&#34;&gt;go_0.17_NetBSD-32bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_NetBSD-64bit.zip&#34;&gt;go_0.17_NetBSD-64bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_netbsd_arm.zip&#34;&gt;go_0.17_netbsd_arm.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_OpenBSD-32bit.zip&#34;&gt;go_0.17_OpenBSD-32bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_OpenBSD-64bit.zip&#34;&gt;go_0.17_OpenBSD-64bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Windows-32bit.zip&#34;&gt;go_0.17_Windows-32bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Windows-64bit.zip&#34;&gt;go_0.17_Windows-64bit.zip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;test-install&#34;&gt;Test Install&lt;/h2&gt;
-
-&lt;p&gt;Once it&amp;rsquo;s installed, type I &lt;code&gt;hugo version&lt;/code&gt; and read:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/0kxcUkf.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;perfect!!&lt;/p&gt;
-
-&lt;h2 id=&#34;clone-the-hugo-theme&#34;&gt;Clone the Hugo Theme.&lt;/h2&gt;
-
-&lt;p&gt;With some pre-requisites out of the way, lets jump in at the first step in the theme setup:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dldx.org/hpstr-hugo-theme/theme-setup/&#34;&gt;Theme Setup - HPSTR Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;$ mkdir newProject
-$ cd newProject
-$ mkdir themes
-$ cd themes
-$ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and you will see &lt;code&gt;hpster&lt;/code&gt; located in: &lt;code&gt;/web-work/themes/hpstr&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;example-site&#34;&gt;Example Site&lt;/h2&gt;
-
-&lt;p&gt;Once you have the &lt;code&gt;newProject/themes/hpstr&lt;/code&gt; you&amp;rsquo;ll find the folder &lt;code&gt;exampleSite&lt;/code&gt; in the &lt;code&gt;hpstr&lt;/code&gt; directory.&lt;/p&gt;
-
-&lt;p&gt;Just Copy the contents of &lt;code&gt;exampleSite&lt;/code&gt; to the root of &lt;code&gt;newProject&lt;/code&gt;, and test to see if it will run.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ hugo&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;It should print something like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Started building sites ...
-Built site for language en:
-0 draft content
-0 future content
-0 expired content
-10 pages created
-0 non-page files copied
-15 paginator pages created
-9 tags created
-0 categories created
-total in 100 ms
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Unless you get that print-out, don&amp;rsquo;t bother changing your whole sites configuration just yet.&lt;/p&gt;
-
-&lt;p&gt;Make sure you placed the contents of &lt;code&gt;exampleSite&lt;/code&gt; into the root of your project directory, and that your directories are structured properly.&lt;/p&gt;
-
-&lt;p&gt;If you did everything right and it still won&amp;rsquo;t build, then I would shop around to different releases in that same time period to see if I could get one to work.&lt;/p&gt;
-
-&lt;p&gt;Just to be sure! I&amp;rsquo;ll test the server, also, and see that I get a website.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ hugo server&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Started building sites ...
-Built site for language en:
-0 draft content
-0 future content
-0 expired content
-10 pages created
-0 non-page files copied
-15 paginator pages created
-9 tags created
-0 categories created
-total in 61 ms
-Watching for changes in /newProject/ {data,content,static,themes}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Yay!!!&lt;/p&gt;
-
-&lt;h2 id=&#34;directory-structure-hpstr-jekyll-vs-hugo&#34;&gt;Directory Structure HPSTR Jekyll vs Hugo&lt;/h2&gt;
-
-&lt;h3 id=&#34;mmistakes-github-io-hpstr-jekyll-theme-theme-setup-https-mmistakes-github-io-hpstr-jekyll-theme-theme-setup&#34;&gt;&lt;a href=&#34;https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/&#34;&gt;mmistakes.github.io/hpstr-jekyll-theme/theme-setup/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/EBIdUUo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;hpstr-hugo-theme-theme-setup-https-dldx-org-hpstr-hugo-theme-theme-setup-setup-b8b08bb87737c3c5c8e714d4f8821e60&#34;&gt;&lt;a href=&#34;https://dldx.org/hpstr-hugo-theme/theme-setup/#setup:b8b08bb87737c3c5c8e714d4f8821e60&#34;&gt;hpstr-hugo-theme/theme-setup&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/nnI1lou.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;in-with-the-new&#34;&gt;In with the new.&lt;/h2&gt;
-
-&lt;p&gt;Now, it&amp;rsquo;s simply moving over the content, and swapping out some frontmatter, and configuration formating.&lt;/p&gt;
-
-&lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://dldx.org/hpstr-hugo-theme/theme-setup/#adding-new-content:b8b08bb87737c3c5c8e714d4f8821e60&#34;&gt;Posts are stored in the content directory&lt;/a&gt;. By default, only content in the &lt;code&gt;content/posts&lt;/code&gt; will show up in the &lt;code&gt;All Posts&lt;/code&gt; section, however, you can link to other sections manually. For example, if you create a post at &lt;code&gt;gallery/photo1.md&lt;/code&gt;, your post will appear both under the home page and under /gallery.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;In Hugo-HPSTR-Theme, it&amp;rsquo;s all about your directory structure.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/0hsOjV7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll notice that your root directory mirrors the themes directory structure, because the theme always keeps a backup file of everything necessary to function.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/83WTq5g.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;archetypes&#34;&gt;archetypes/&lt;/h3&gt;
-
-&lt;p&gt;I entered some tags and categories:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;web-work/themes/hpstr/archetypes/default.md&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;+++
-Description = &amp;quot;&amp;quot;
-Tags = [&amp;quot;resources&amp;quot;, &amp;quot;web-work&amp;quot;]
-Categories = [&amp;quot;howto&amp;quot;, &amp;quot;tools&amp;quot;]
-menu = &amp;quot;main&amp;quot;
-+++
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;data&#34;&gt;data/&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;From YAML to TOML&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/83WTq5g.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the &lt;code&gt;theme&lt;/code&gt; directory is a navigation.yml file, and even awhole &lt;code&gt;exampleSite&lt;/code&gt; that we can copy over to our root data directory and customize.&lt;/p&gt;
-
-&lt;p&gt;Be sure to change &lt;code&gt;title:&lt;/code&gt; to &lt;code&gt;title =&lt;/code&gt; and so forth.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[links]]
-title = &amp;quot;Webwork.tools&amp;quot;
-url = &amp;quot;/webwork.tools/&amp;quot;
-
-[[links]]
-title = &amp;quot;Services&amp;quot;
-url = &amp;quot;/services/&amp;quot;
-
-[[links]]
-title = &amp;quot;Mostly Free SEO Tools&amp;quot;
-url = &amp;quot;/seo-tools/&amp;quot;
-
-[[links]]
-title = &amp;quot;GitHub Pages Starter Pack&amp;quot;
-url = &amp;quot;/github-pages-starter-pack/&amp;quot;
-
-[[links]]
-title = &amp;quot;Practical Public Key Crypto&amp;quot;
-url = &amp;quot;/practical-public-key-crypto/&amp;quot;
-
-[[links]]
-title = &amp;quot;IndieWeb&amp;quot;
-url = &amp;quot;http://infominer.id/indieweb/&amp;quot;
-
-[[links]]
-title = &amp;quot;InfoMine&amp;quot;
-url = &amp;quot;http://infominer.id/&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;frontmatter&#34;&gt;Frontmatter&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;The main differences&lt;/strong&gt;:
-* using &lt;code&gt;type&lt;/code&gt; rather than &lt;code&gt;layout&lt;/code&gt;
-* using the frontmatter variable &lt;code&gt;date&lt;/code&gt; to signify publication date, rather than hardcoding it into the title.&lt;/p&gt;
-
-&lt;h3 id=&#34;hpstr-jekyll&#34;&gt;HPSTR-Jekyll&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-layout: post
-title: &amp;quot;Sample Code Post&amp;quot;
-description: &amp;quot;Examples and code for various HPSTR functions.&amp;quot;
-tags: [samples, code, snippets]
-comments: true
-link: http://mademistakes.com  
-image:
-  thumb: /images/pgp-og.png
-  feature: pgp-banner.png
-  background: triangular.png
-modified: 2019-05-30T13:15:59-23:00
-permalink: /sample-code/
----
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;hpstr-hugo&#34;&gt;HPSTR-Hugo&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-type: post
-title: Sample Post
-description: &amp;quot;Just about everything you&#39;ll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.&amp;quot;
-date: 2011-03-10
-
-tags: [sample post]
-image:
-  feature: /images//images/abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
----
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;config-toml&#34;&gt;config.toml&lt;/h2&gt;
-
-&lt;p&gt;Now we are getting places! Next step is to copy the &lt;code&gt;config.toml&lt;/code&gt; from the root of our example site into the root of our repository.&lt;/p&gt;
-
-&lt;p&gt;This is the final stretch, and we should be good to go&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://imgur.com/za5VOLr.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20161110120102/http://gohugo.io/overview/configuration&#34;&gt;Configuring Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;contentdir = &amp;quot;content&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;layoutdir = &amp;quot;layouts&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;publishdir = &amp;quot;public&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;builddrafts = false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;baseurl = &amp;quot;http://yoursite.example.com/&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;canonifyurls = true&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;[taxonomies]&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;category = &amp;quot;categories&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;tag = &amp;quot;tags&amp;quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;[params]&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;description = &amp;quot;Tesla&#39;s Awesome Hugo Site&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;author = &amp;quot;Nikola Tesla&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing&#34;&gt;web.archive.org - Installing Hugo v0.17&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://masayk.github.io/tech/hugo/&#34;&gt;Blogging with Org-Mode and Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
+This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, or Hugo to Jekyll.
+I&amp;rsquo;ve got two branches of the same exact website except one is run by Jekyll and one is run by Hugo!!
+That&amp;rsquo;s pretty neat, if you ask me!</description>
     </item>
     
   </channel>

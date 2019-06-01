@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Creating a Test Branch and Merging back the Changes &#8211; Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+<meta name="description" content="Used while testing the hugo build of the HPSTR theme.">
+
+    
+
+<meta name="keywords" content="hpstr, jekyll, hugo, theme, migration">
+
+
+
+<meta name="twitter:title" content="Creating a Test Branch and Merging back the Changes">
+<meta name="twitter:description" content="Used while testing the hugo build of the HPSTR theme.">
+
+
+    
+    
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://infominer.id/images/jekyll-hpstr-hugo.png">
+    
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Creating a Test Branch and Merging back the Changes">
+<meta property="og:description" content="Used while testing the hugo build of the HPSTR theme.">
+<meta property="og:url" content="https://infominer.id/web-work/posts/branches-git/">
+<meta property="og:site_name" content="Webwork.tools: Independent Web-Work and Skyscraper Publishing.">
+
+
+    
+    <meta property="og:image" content="https://infominer.id/images/jekyll-hpstr-hugo.png" />
+
+
+  <meta property="og:updated_time" content="2019-06-01T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+<link rel="canonical" href="https://infominer.id/web-work/posts/branches-git/">
+
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="/web-work/css/main.css">
+
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<meta name="generator" content="Hugo 0.52" />
+
+<script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<link rel="shortcut icon" href="/web-work/favicon.png">
+
+
+</head>
+
+<body id="post" class="feature">
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation" style="display:inline-block">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/web-work/">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+			
+				<li>
+					
+					<img src="/web-work/images/info-id.png" alt="⧉ Infominer's photo" class="author-photo">
+					
+					<h4>⧉ Infominer</h4>
+					<p>Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉</p>
+				</li>
+				<li><a href="/web-work/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+				
+				
+				
+				
+				
+				<li>
+					<a href="https://github.com/infominer33/web-work"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			
+			</ul>
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="/web-work/posts/">All Posts</a></li>
+				<li><a href="/web-work/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		
+	    <li><a href="/web-work/webwork.tools/" >Webwork.tools</a></li>
+	  
+	    <li><a href="/web-work/services/" >Services</a></li>
+	  
+	    <li><a href="/web-work/seo-tools/" >Mostly Free SEO Tools</a></li>
+	  
+	    <li><a href="/web-work/github-pages-starter-pack/" >GitHub Pages Starter Pack</a></li>
+	  
+	    <li><a href="/web-work/practical-public-key-crypto/" >Practical Public Key Crypto</a></li>
+	  
+	    <li><a href="http://infominer.id/indieweb/" target="_blank">IndieWeb</a></li>
+	  
+	    <li><a href="http://infominer.id/" target="_blank">InfoMine</a></li>
+	  
+	</ul>
+</nav>
+
+ 
+<div class="entry-header">
+
+	
+    <div class="entry-image">
+      <img src="/web-work/images/jekyll-hpstr-hugo.png" alt="Creating a Test Branch and Merging back the Changes">
+    </div>
+</div>
+  
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/web-work/posts/branches-git/" rel="bookmark" title="Creating a Test Branch and Merging back the Changes">Creating a Test Branch and Merging back the Changes</a></h1>
+        
+         
+        <h2><span class="entry-date date published"><time datetime="2019-06-01 00:00:00 &#43;0000 UTC">June 1, 2019</time></span></h2>
+        
+        
+      <p class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Reading time ~2 minutes
+    </p>
+    
+      </div>
+    </header>
+    <div class="entry-content">
+      
+
+<p>What  we&rsquo;re going to do is make a test branch of our repository&hellip; so we can see about getting hugo to run over there, and if successful then we&rsquo;ll learn how to merge this test branch back over.</p>
+
+<h2 id="checkout-test-branch">Checkout test branch</h2>
+
+<p>Use the command <code>git checkout -b</code> will allow you to create a local branch for testing.</p>
+
+<p>I will call my new branch <code>test-hugo</code> so the command will be like so:</p>
+
+<p><code>git checkout -b test-hugo</code></p>
+
+<h2 id="some-git-basics-for-newbs-like-me">Some git basics for newbs like me</h2>
+
+<ul>
+<li><a href="https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging">Git Branching and Merging</a></li>
+</ul>
+
+<p>Git keeps track of all your files, but not just the files, but everything in the repository.</p>
+
+<p>Every commit, git remembers.</p>
+
+<blockquote>
+<p>&ldquo;yes yes I know&rdquo;</p>
+</blockquote>
+
+<p>However, it really boggled my mind the first time I tried it locally.</p>
+
+<p>I can change to a branch or another point in the history of this repository, and git tucks away the one I&rsquo;m working on&hellip; and the whole directory changes and like wait&hellip;</p>
+
+<blockquote>
+<p>where did all my files just go?</p>
+</blockquote>
+
+<p>When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain 🤣</p>
+
+<h3 id="git-is-magic">Git is Magic!</h3>
+
+<p>it sure feels that way, especially the first time I realized what it was doing. I still have a sense of wonder and mystery around Git.</p>
+
+<p>You probably knowbut you don&rsquo;t need github at all, and I&rsquo;m learning that a significant portion, of git repositories are never exposed to the public.</p>
+
+<blockquote>
+<p>Outside of GitHub and its imitators, most contributors to a project don’t have a published version of their repository online at all, skipping that step and saving some time. - <a href="https://drewdevault.com/2019/05/24/What-is-a-fork.html">What is a Fork?</a></p>
+</blockquote>
+
+<p><code>git checkout -b</code> is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!</p>
+
+<ul>
+<li><a href="https://infominer.id/web-work/github-pages-starter-pack/#git">More Git Resources</a> &gt;&gt;</li>
+</ul>
+
+<h2 id="merging-changes-back-to-the-master-branch">Merging changes back to the master branch</h2>
+
+<pre><code>git checkout master
+git pull origin master
+git merge test
+git push origin master
+</code></pre>
+
+      <footer class="entry-meta">
+          
+        <span class="entry-tags"><a href="/web-work/tags/#hpstr" title="Pages tagged hpstr" class="tag"><span class="term">hpstr</span></a><a href="/web-work/tags/#jekyll" title="Pages tagged jekyll" class="tag"><span class="term">jekyll</span></a><a href="/web-work/tags/#hugo" title="Pages tagged hugo" class="tag"><span class="term">hugo</span></a><a href="/web-work/tags/#theme" title="Pages tagged theme" class="tag"><span class="term">theme</span></a><a href="/web-work/tags/#migration" title="Pages tagged migration" class="tag"><span class="term">migration</span></a></span>
+        
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2finfominer.id%2fweb-work%2fposts%2fbranches-git%2f" target="_blank" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=https%3a%2f%2finfominer.id%2fweb-work%2fposts%2fbranches-git%2f" target="_blank" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=https%3a%2f%2finfominer.id%2fweb-work%2fposts%2fbranches-git%2f" target="_blank" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div>
+
+      </footer>
+    </div>
+    
+    <section id="disqus_thread"><div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'hpstrhugo';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    
+  </article>
+</div>
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span> Powered by <a href="https://gohugo.io/" rel="nofollow">Hugo</a> using the <a href="https://github.com/dldx/hpstr-hugo-theme" rel="nofollow">HPSTR theme</a>.</span>
+
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="\/web-work\/js\/vendor\/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/web-work/js/scripts.min.js"></script>
+
+
+
+</body>
+</html>
+

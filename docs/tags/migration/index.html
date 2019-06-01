@@ -52,7 +52,7 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.52" />
 
 <script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
@@ -135,6 +135,92 @@
 </div>
 
 <div id="main" role="main">
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
+		  <a href="/web-work/posts/branches-git/" title="Creating a Test Branch and Merging back the Changes"><img src="/web-work/images/jekyll-hpstr-hugo.png" alt="Creating a Test Branch and Merging back the Changes"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2019-06-01 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/branches-git/">Jun 1, 2019</a></time></span>
+        
+        
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Reading time ~2 minutes
+      </span>
+      
+    </div>
+    
+	<h1 class="entry-title"><a href="/web-work/posts/branches-git/" rel="bookmark" title="Creating a Test Branch and Merging back the Changes" itemprop="url">Creating a Test Branch and Merging back the Changes</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    
+
+<p>What  we&rsquo;re going to do is make a test branch of our repository&hellip; so we can see about getting hugo to run over there, and if successful then we&rsquo;ll learn how to merge this test branch back over.</p>
+
+<h2 id="checkout-test-branch">Checkout test branch</h2>
+
+<p>Use the command <code>git checkout -b</code> will allow you to create a local branch for testing.</p>
+
+<p>I will call my new branch <code>test-hugo</code> so the command will be like so:</p>
+
+<p><code>git checkout -b test-hugo</code></p>
+
+<h2 id="some-git-basics-for-newbs-like-me">Some git basics for newbs like me</h2>
+
+<ul>
+<li><a href="https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging">Git Branching and Merging</a></li>
+</ul>
+
+<p>Git keeps track of all your files, but not just the files, but everything in the repository.</p>
+
+<p>Every commit, git remembers.</p>
+
+<blockquote>
+<p>&ldquo;yes yes I know&rdquo;</p>
+</blockquote>
+
+<p>However, it really boggled my mind the first time I tried it locally.</p>
+
+<p>I can change to a branch or another point in the history of this repository, and git tucks away the one I&rsquo;m working on&hellip; and the whole directory changes and like wait&hellip;</p>
+
+<blockquote>
+<p>where did all my files just go?</p>
+</blockquote>
+
+<p>When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain 🤣</p>
+
+<h3 id="git-is-magic">Git is Magic!</h3>
+
+<p>it sure feels that way, especially the first time I realized what it was doing. I still have a sense of wonder and mystery around Git.</p>
+
+<p>You probably knowbut you don&rsquo;t need github at all, and I&rsquo;m learning that a significant portion, of git repositories are never exposed to the public.</p>
+
+<blockquote>
+<p>Outside of GitHub and its imitators, most contributors to a project don’t have a published version of their repository online at all, skipping that step and saving some time. - <a href="https://drewdevault.com/2019/05/24/What-is-a-fork.html">What is a Fork?</a></p>
+</blockquote>
+
+<p><code>git checkout -b</code> is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!</p>
+
+<ul>
+<li><a href="https://infominer.id/web-work/github-pages-starter-pack/#git">More Git Resources</a> &gt;&gt;</li>
+</ul>
+
+<h2 id="merging-changes-back-to-the-master-branch">Merging changes back to the master branch</h2>
+
+<pre><code>git checkout master
+git pull origin master
+git merge test
+git push origin master
+</code></pre>
+
+  </div>
+</article>
 
 <article class="hentry">
   <header>
@@ -272,15 +358,15 @@
 <p>With some pre-requisites out of the way, lets jump in at the first step in the theme setup:</p>
 
 <ul>
-<li><a href="https://dldx.org/hpstr-hugo-theme/theme-setup/">Theme Setup - HPSTR Hugo</a></li>
-</ul>
+<li><p><a href="https://dldx.org/hpstr-hugo-theme/theme-setup/">Theme Setup - HPSTR Hugo</a></p>
 
 <pre><code>$ mkdir newProject
 $ cd newProject
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>and you will see <code>hpster</code> located in: <code>/web-work/themes/hpstr</code>.</p>
 
@@ -468,26 +554,21 @@ image:
 </ul>
 
 <blockquote>
-<p><code>contentdir = &quot;content&quot;</code><br />
-<code>layoutdir = &quot;layouts&quot;</code><br />
-<code>publishdir = &quot;public&quot;</code><br />
-<code>builddrafts = false</code><br />
-<code>baseurl = &quot;http://yoursite.example.com/&quot;</code><br />
-<code>canonifyurls = true</code></p>
-
-<p><code>[taxonomies]</code><br />
-<code>category = &quot;categories&quot;</code><br />
-<code>tag = &quot;tags&quot;</code></p>
-
-<p><code>[params]</code><br />
-<code>description = &quot;Tesla's Awesome Hugo Site&quot;</code><br />
-<code>author = &quot;Nikola Tesla&quot;</code></p>
+<p><code>publishdir = &quot;docs&quot;</code></p>
 </blockquote>
+
+<p>By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.</p>
 
 <h2 id="resources">Resources</h2>
 
 <ul>
 <li><a href="http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing">web.archive.org - Installing Hugo v0.17</a></li>
+<li><a href="http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/">web.archive.org - Using Hugo v0.17</a></li>
+</ul>
+
+<h2 id="extra">Extra</h2>
+
+<ul>
 <li><a href="http://masayk.github.io/tech/hugo/">Blogging with Org-Mode and Hugo</a></li>
 </ul>
 
