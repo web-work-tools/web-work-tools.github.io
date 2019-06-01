@@ -2,7 +2,7 @@
 type: post
 title: "Infominer's Starred GitHub Repositories"
 description: "An organized list of Repositories."
-modified: 2019-05-27
+date: 2019-05-26
 tags: [github, stars, repositories, open source]
 
 

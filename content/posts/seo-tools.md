@@ -4,7 +4,7 @@ title: "100's of Mostly Free SEO Tools"
 description: "An Open-Source Repository of SEO Tools"
 
 tags: [resources, tools, seo]
-modified: 2019-05-26
+date: 2019-03-02
 image:
   thumb: /images/webwork-tools.png
   feature: /images/ww-tools-head.jpg

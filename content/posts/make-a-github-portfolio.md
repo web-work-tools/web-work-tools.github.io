@@ -2,7 +2,7 @@
 type: post
 title: "Infominer's GitHub Portfolio and HowTo"
 description: "How to make a Portfolio for your GitHub repositories with `github/personal-website`"
-modified: 2019-05-28
+date: 2019-05-27
 tags: [github, repositories, open source, portfolio, github-pages]
 
 

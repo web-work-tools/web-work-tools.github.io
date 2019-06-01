@@ -2,7 +2,7 @@
 type: post
 title: How to Sign Up and Get Started using Google Adwords Keyword Planner
 description: This step-by-step guide will ensure that anyone can try out keyword planner and begin learning a keyword research\SEO fundamental.
-modified: 2019-05-23
+date: 2019-05-26
 tags: [keyword-research, seo, walkthrough, stub, adwords, keyword planner]
 image:
   feature: /images/getting-started-adwords-keyword-planner.jpg

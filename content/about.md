@@ -4,7 +4,7 @@ title: "⧉Info⧉"
 image:
   feature: /images/info-id.png
 weight: -1
-modified: 2019-05-22
+date: 2019-05-22
 ---
 
 As you can see, I've been busy. That's 8 different websites, all published to the same domain.
