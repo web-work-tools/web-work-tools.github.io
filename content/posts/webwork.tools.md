@@ -6,8 +6,7 @@ modified: 2019-05-29
 
 share: true
 image:
-  feature: power-words.png
-  thumb: /images/organic-seo-ctr-infographic.png
+  feature: /images/power-words.png
   credit: webwork.tools coming soon!!!
   creditlink: http://infominer.id/web-work/
 ---

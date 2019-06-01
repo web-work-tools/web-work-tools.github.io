@@ -7,7 +7,7 @@ tags: [google, organic search, stats, open source, github-pages]
 
 
 image:
-  feature: infolytics/infominer-id-all-pages-20190417-20190524.jpg
+  feature: /images/infolytics/infominer-id-all-pages-20190417-20190524.jpg
   thumb: /images/infolytics/5-25-19-organic-search-infominer.png
   og_image: infolytics/5-25-19-organic-search-infominer.png
   credit: See on Github

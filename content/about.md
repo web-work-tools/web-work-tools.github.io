@@ -2,7 +2,7 @@
 type: page
 title: "⧉Info⧉"
 image:
-  feature: info-id.png
+  feature: /images/info-id.png
 weight: -1
 modified: 2019-05-22
 ---

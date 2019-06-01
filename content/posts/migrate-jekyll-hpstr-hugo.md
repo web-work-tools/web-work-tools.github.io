@@ -5,8 +5,7 @@ description: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo."
 
 tags: [hpstr, jekyll, hugo, theme, migration]
 image:
-  thumb: /images/jkyll-hpstr-hugo.png
-  feature: jkyll-hpstr-hugo.png
+  feature: /images/jkyll-hpstr-hugo.png
 modified: 2019-06-01
 published: false
 ---

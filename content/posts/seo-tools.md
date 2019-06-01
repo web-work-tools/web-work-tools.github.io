@@ -6,8 +6,7 @@ description: "An Open-Source Repository of SEO Tools"
 tags: [resources, tools, seo]
 modified: 2019-05-26image:
   thumb: /images/webwork-tools.png
-  feature: ww-tools-head.jpg
-
+  feature: /images/ww-tools-head.jpg
 
 ---
 

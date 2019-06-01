@@ -3,17 +3,9 @@ type: post
 title: "Infominer's Forked Repositores"
 description: "An organized list of repositories I've forked."
 modified: 2019-05-29
-tags: 
-  - forked
-  - repositories
-  - github
-  - resources
-
-
+tags: [forked, repositories, github,resources]
 image:
-  feature: infominer-forked-repositories.png
-  thumb: /images/infominer-forked-repositories.png
-  og_image: forked-thumb.png
+  feature: /images/infominer-forked-repositories.png
 
 ---
 

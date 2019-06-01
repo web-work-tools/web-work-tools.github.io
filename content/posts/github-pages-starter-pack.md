@@ -8,8 +8,7 @@ modified: 2019-05-30
 
 redirect_from: gh-pages-starter-pack/
 image:
-  feature: github-pages-jekyll-starter-pack.png
-  thumb: /images/github.png
+  feature: /images/github-pages-jekyll-starter-pack.png
 ---
 
 

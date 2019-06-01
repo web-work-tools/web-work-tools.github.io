@@ -5,8 +5,7 @@ description: "Building Blocks of SEO? Keywords- Content - Internal linking - Sit
 
 tags: [resources, seo]
 image:
-  thumb: /images/organic-seo-drive-traffic.jpg
-  feature: organic-seo-drive-traffic.jpg
+  feature: /images/organic-seo-drive-traffic.jpg
 modified: 2019-05-23
 
 ---
@@ -61,41 +60,32 @@ I gathered all this info here in prep for writing this article:
 
 ## Contents
 
-* [**Learn-SEO**](#learn-seo)
-  * [101](#101-)
-  * [Know Your Self-Customer-Competition](#know-your-self-customer-competition-)
-  * [Keyword Research](#keyword-research-)
-    * [Seed Keywords](#seed-keywords-)
-    * [For Bloggers](#for-bloggers-)
-    * [LSI Keywords](#lsi-keywords-)
-  * [Domain Authority](#domain-authority-)
-    * [Internal linking-Cornerstone Content](#internal-linking-cornerstone-content-)
-    * [Backlink Research](#backlink-research-)
-  * [Evergreen-Skyscraper Content](#evergreen-skyscraper-content-)
-  * [Optimizations](#optimizations-)
-    * [KPI](#kpi-)
-  * [Apply SEO to Different Platforms](#apply-seo-to-different-platforms-)
-    * [Adwords](#adwords-)
-    * [Ghost](#ghost-)
-    * [Squarespace](#squarespace-)
-    * [Wordpress](#wordpress-)
-  * [Google Algorithm](#google-algorithm-)
-  * [Machine Learning](#machine-learning-)
-  * [Studies](#studies-)
-  * [Assorted](#assorted-)
-  * [History](#history-)
-  * [Resources](#resources-)
-* [**/tools.md**](/tools.md)
-  * [Google and Company](/tools.md#Google-and-Company-)
-  * [Limited Trial-Power Tools](/tools.md#Limited-Trial-Power-Tools-)
-  * [Audit and Analytics](/tools.md#Audit-and-Analytics-)
-  * [Speed and Responsiveness](/tools.md#Speed-and-Responsiveness-)
-  * [Keywords](/tools.md#keywords-)
-  * [Social](/tools.md#Social-)
-  * [Content Creation](/tools.md#Content-Creation-)
-  * [Link Building](/tools.md#Link-Building-)
-  * [API](/tools.md#API-)
-  * [Track Google Algorithm](/tools.md#Track-Google-Algorithm-)
+- [Before you worry about SEO](#before-you-worry-about-seo)
+- [Contents](#contents)
+- [/Learn-SEO](#learn-seo)
+  - [101](#101)
+  - [Know Your Self-Customer-Competition](#know-your-self-customer-competition)
+  - [Keyword Research](#keyword-research)
+    - [Seed Keywords](#seed-keywords)
+    - [For Bloggers](#for-bloggers)
+    - [LSI Keywords](#lsi-keywords)
+  - [Domain Authority](#domain-authority)
+    - [Internal Linking-Cornerstone Content](#internal-linking-cornerstone-content)
+  - [Evergreen-Skyscraper Content](#evergreen-skyscraper-content)
+    - [Backlink Research](#backlink-research)
+  - [Optimizations](#optimizations)
+    - [KPI](#kpi)
+  - [Apply SEO to Different Platforms](#apply-seo-to-different-platforms)
+    - [Adwords](#adwords)
+    - [Ghost](#ghost)
+    - [SquareSpace](#squarespace)
+    - [Wordpress](#wordpress)
+  - [Small Business SEO](#small-business-seo)
+  - [Machine Learning](#machine-learning)
+  - [Studies](#studies)
+  - [Assorted](#assorted)
+  - [History](#history)
+  - [Resources](#resources)
 
 
 ## /Learn-SEO

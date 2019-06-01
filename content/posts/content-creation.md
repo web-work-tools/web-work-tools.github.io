@@ -3,14 +3,9 @@ type: post
 title: "Resources for Content Creation"
 description: "All kinda tools for images and editing and handy stuff to assist with content creation."
 modified: 2019-05-29
-tags: 
-  - content creation
-  - tools
-  - resources
+tags: [content creation, tools, resources]
 image:
-  feature: content-creation.png
-  thumb: /images/content-creation.png
-  og_image: content-thumb.png
+  feature: /images/content-creation.png
 
 ---
 
@@ -18,7 +13,7 @@ Here's some tools to make content creation a little easier.
 
 As per usual, this list will grow and become more organized over time.
 
-For now, it's just a copy\paste from the [GitHub-Pages Starter Pack].
+For now, it's just a copy\paste from the [GitHub-Pages Starter Pack](/content-creation/).
 
 ## Basics
 
