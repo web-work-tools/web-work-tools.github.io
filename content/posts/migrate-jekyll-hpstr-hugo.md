@@ -347,11 +347,12 @@ One thing that's important to note, if you are switching from Jekyll HPSTR to HP
 
 If you used to let your blog live at the root of the site, like me, then add aliases, which are how Hugo does redirects.
 
-* [discourse.gohugo.io - want-to-redirect-old-urls-to-new-urls](https://discourse.gohugo.io/t/want-to-redirect-old-urls-to-new-urls/14305/5)
+* [Content Manegement - Aliases](https://gohugo.io/content-management/urls/#aliases)
 
 ```
 aliases:
   - /title-goes-here/
+  - /other-title-too/
 ```
 ## Reach out in the Comments
 
