@@ -10,7 +10,8 @@ excerpt: >
   I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
 
   This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, *or* Hugo to Jekyll.
-
+aliases:
+  - /migrate-jekyll-hpstr-hugo/
 ---
 
 I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
@@ -23,7 +24,18 @@ That's pretty neat, if you ask me!
 
 I also show examples of the differences between the two, where and how I made changes.
 
+## Why
+
+1. `mmistakes/hpstr-jekyll-theme` is archived, and you can no longer submit issues or pull-requests.
+2. Hugo has a lot of support from the development community, and is growing quickly in features and popularity.
+3. It can be really hard finding working jekyll themes.
+4. There are a lot of awesome Hugo themes that generally seem to be operational.
+5. I know of some indieweb themes.
+6. `/themes/` directory allows for easy testing and switching between new themes.
+
 ## HPSTR Jekyll vs Hugo 
+
+I'm looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won't run in the newest version. If you have a newer suggestion, feel free to shout out. I will also find out what the options are.
 
 ### Releases
 
@@ -40,7 +52,7 @@ Interestingly, but nice to see, there are currently 0 open pull request or issue
 [![](https://imgur.com/jNTAlGt.png)](https://github.com/mmistakes/hpstr-jekyll-theme/releases)
 [![](https://imgur.com/dvapj4y.png)](https://github.com/dldx/hpstr-hugo-theme/releases)
 
-### Commits
+### Root Directories
 
 ![](https://imgur.com/obcGfNc.png)
 ![](https://imgur.com/KZQODtU.png)
@@ -57,9 +69,9 @@ Scrolling back through the hugo releases when the HPSTR theme was in active deve
 
 That's a nice note to find, since I'm an Ubuntu user. 
 
-## [v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.17)
+## [v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.30) - October 2016
 
-There are numerous options for different platforms, and this version of Hugo was **released in October**, one month after the final release of HPSTR.
+There are numerous options for different platforms, and this version of Hugo was released in October, one month after the final release of HPSTR.
 
 >Hugo is going global with our 0.17 release. [...] Adding additional languages to your website is simple and straightforward.
 >
@@ -72,36 +84,28 @@ Apparently it's fast enough that people began using hugo's webserver in producti
 >Thanks to the contribution #2443 and guidance from @dholbach, Hugo is now available as a Snap package! (Snaps are a new kind of universal Linux packages.) Check it out at https://uappexplorer.com/app/hugo.hugo-authors
 >
 
-Now this is nice because you can get various releases of snap packages through the snap store.
+### [Download links for Hugo v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.17)
 
-* [askubuntu.com - Can I install multiple copies of a snap-package?](https://askubuntu.com/questions/1026075/can-i-install-multiple-copies-of-a-snap-package)
+Now that I have Hugo working, lets see how far I can go in Hugo versions.
 
-### Download links for Hugo v0.17
 
-* [go_0.17-64bit.deb](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17-64bit.deb)
-* [go_0.17_armhf.deb](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_armhf.deb)
-* [go_0.17_FreeBSD-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_FreeBSD-32bit.zip)
-* [go_0.17_FreeBSD-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_FreeBSD-64bit.zip)
-* [go_0.17_freebsd_arm.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_freebsd_arm.zip)
-* [go_0.17_i386.deb](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_i386.deb)
-* [go_0.17_Linux-32bit.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Linux-32bit.tar.gz)
-* [go_0.17_Linux-64bit.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz)
-* [go_0.17_linux_arm.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_linux_arm.tar.gz)
-* [go_0.17_MacOS-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_MacOS-32bit.zip)
-* [go_0.17_MacOS-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_MacOS-64bit.zip)
-* [go_0.17_NetBSD-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_NetBSD-32bit.zip)
-* [go_0.17_NetBSD-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_NetBSD-64bit.zip)
-* [go_0.17_netbsd_arm.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_netbsd_arm.zip)
-* [go_0.17_OpenBSD-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_OpenBSD-32bit.zip)
-* [go_0.17_OpenBSD-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_OpenBSD-64bit.zip)
-* [go_0.17_Windows-32bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Windows-32bit.zip)
-* [go_0.17_Windows-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Windows-64bit.zip)
+## [v0.30.1](https://github.com/gohugoio/hugo/releases/tag/v0.30.1) - Oct 16, 2017
+
+>Hugo 0.30 is the Race Car Edition. Hugo is already very very fast, but much wants more. So we added Fast Render Mode. It is hard to explain, so start the Hugo development server with hugo server and start editing. Live reloads just got so much faster! The "how and what" is discussed at length in other places, but the short version is that we now re-render only the parts of the site that you are working on.
+
+This is a big release, so I'm going to look ahead for the closest bug-fixes, but avoid any feature releases.
+
+## [v0.31.1](https://github.com/gohugoio/hugo/releases/tag/v0.31.1) -  Nov 27, 2017
+
+So.. there's another big release after this, at the start of 2018, but I think I'll stick with this one. It's a year after HPSTR completed its development. I think we'll be good here, and I want to get to know Hugo better before changing things up too much.
+
+The next major change introduces page bundles. I wouldn't be surprised if it has a problem with this theme.
 
 ## Test Install
 
 Once it's installed, type I `hugo version` and read:
 
-![](https://imgur.com/0kxcUkf.png)
+![](https://imgur.com/J2lnKkR.png)
 
 perfect!!
 
@@ -261,7 +265,9 @@ url = "http://infominer.id/"
 
 ## Frontmatter
 
+
 **The main differences**: 
+
 * using `type` rather than `layout`
 * using the frontmatter variable `date` to signify publication date, rather than hardcoding it into the title.
 
@@ -340,15 +346,96 @@ enableEmoji = true
 
 By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.
 
-Let me know if you have any questions, or if anything is unclear!!
+## Redirects
 
-I'll get comments and web-mentions soon!
+One thing that's important to note, if you are switching from Jekyll HPSTR to HPSTR Hugo with me. HPSTR Hugo makes all your posts live in the `/posts/` directory.
+
+If you used to let your blog live at the root of the site, like me, then add aliases, which are how Hugo does redirects.
+
+* [Content Manegement - Aliases](https://gohugo.io/content-management/urls/#aliases)
+
+```
+aliases:
+  - /title-goes-here/
+  - /other-title-too/
+```
+
+## One last thing!
+
+It seems like you need to type `hugo` to publish to the docs directory, because `hugo server` doesn't do both, it only does the webserving.. I don't really understand, but that seems to be the case.
+
+## Use a linebreak before each list!
+
+## Twitter Cards
+
+This part, I can't figure out.
+
+I don't understand why `.Title` is not `.title`.
+
+I'm pretty sure I need to add 
+
+`<meta name="twitter:site" content="{{ .site }}">`
+
+but I didn't have success with that yet.
+
+```
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ $.Site.Params.subtitle }}{{ end }}">
+{{ with .Site.Params.owner.twitter }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
+{{ if isset ($.Scratch.Get "Params") "image" }}
+    {{ $imageparams := index ($.Scratch.Get "Params") "image" }}
+    {{ with $imageparams.thumb }}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="{{ . | absURL }}">
+    {{ else }}
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="{{ $imageparams.feature | absURL }}">
+    {{ end }}
+{{ end }}
+```
+
+I also added these lines to my config.toml
+
+```
+
+[twitter]
+  card = "summary_image_large"
+  site = "@infominer33"
+  title =  "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+  description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content."
+  image = "/images/web-work-tools.png"
+```
+
+I think some of those are supurfulous but it doesn't matter if I use extra, as long as I get all the right values in.
+
+## Reach out in the Comments
+
+If they ever figure out. If you have any questions, or if anything is unclear!!
+
+I'll get web-mentions and the like soon!
+
+## Test Branches
+
+Even if I change this web-site to a different theme or SSG, I made a branch to save this build forever :D and anyone confused can browse them.
+
+* https://github.com/infominer33/web-work/tree/test-hugo
+* https://github.com/infominer33/web-work/tree/hpster-jekyll
+
+## Check Back In
+
+I'll be updating this post a lot as I learn new things about Hugo, until the resources branch off into their own post.
 
 ## Resources
 
 * [web.archive.org - Installing Hugo v0.17](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
 * [web.archive.org - Using Hugo v0.17](http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/)
-* [Creating a Test Branch and Merging changes back to Master](/branches-git/)
+* [Creating a Test Branch and Merging changes back to Master](https://infominer.id/web-work/posts/branches-git/)
+* [Goodbye Jekyll - Hello Hugo](https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/)
 
-## Extra
+## Other Hugo Themes
+
+* https://github.com/EmielH/tale-hugo
+
+## Over the Rainbow
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)

@@ -14,6 +14,7 @@
 
 
 
+
 <meta name="twitter:title" content="Creating a Test Branch and Merging back the Changes">
 <meta name="twitter:description" content="Used while testing the hugo build of the HPSTR theme.">
 
@@ -21,7 +22,7 @@
     
     
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="https://infominer.id/images/jekyll-hpstr-hugo.png">
+        <meta name="twitter:image" content="https://infominer.id/images/Git_branches_fork.png">
     
 
 
@@ -34,11 +35,10 @@
 
 
     
-    <meta property="og:image" content="https://infominer.id/images/jekyll-hpstr-hugo.png" />
+    <meta property="og:image" content="https://infominer.id/images/Git_branches_fork.png" />
 
 
-  <meta property="og:updated_time" content="2019-06-01T00:00:00&#43;00:00"/>
-
+  <meta property="og:updated_time" content="2019-05-31T00:00:00&#43;00:00"/>
 
 
 
@@ -58,7 +58,7 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<meta name="generator" content="Hugo 0.52" />
+<meta name="generator" content="Hugo 0.31.1" />
 
 <script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
@@ -108,15 +108,15 @@
 			</ul>
 		</li>
 		
-	    <li><a href="/web-work/webwork.tools/" >Webwork.tools</a></li>
+	    <li><a href="/web-work/posts/webwork.tools/" >Webwork.tools</a></li>
 	  
-	    <li><a href="/web-work/services/" >Services</a></li>
+	    <li><a href="/web-work/posts/services/" >Services</a></li>
 	  
-	    <li><a href="/web-work/seo-tools/" >Mostly Free SEO Tools</a></li>
+	    <li><a href="/web-work/posts/seo-tools/" >Mostly Free SEO Tools</a></li>
 	  
-	    <li><a href="/web-work/github-pages-starter-pack/" >GitHub Pages Starter Pack</a></li>
+	    <li><a href="/web-work/posts/github-pages-starter-pack/" >GitHub Pages Starter Pack</a></li>
 	  
-	    <li><a href="/web-work/practical-public-key-crypto/" >Practical Public Key Crypto</a></li>
+	    <li><a href="/web-work/posts/practical-public-key-crypto/" >Practical Public Key Crypto</a></li>
 	  
 	    <li><a href="http://infominer.id/indieweb/" target="_blank">IndieWeb</a></li>
 	  
@@ -128,9 +128,9 @@
  
 <div class="entry-header">
 
-	
+	<div class="image-credit">Image credit: <a href="https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg">Bunyk - Українська</a></div>
     <div class="entry-image">
-      <img src="/web-work/images/jekyll-hpstr-hugo.png" alt="Creating a Test Branch and Merging back the Changes">
+      <img src="/web-work/images/Git_branches_fork.png" alt="Creating a Test Branch and Merging back the Changes">
     </div>
 </div>
   
@@ -143,7 +143,7 @@
           <h1 class="entry-title"><a href="/web-work/posts/branches-git/" rel="bookmark" title="Creating a Test Branch and Merging back the Changes">Creating a Test Branch and Merging back the Changes</a></h1>
         
          
-        <h2><span class="entry-date date published"><time datetime="2019-06-01 00:00:00 &#43;0000 UTC">June 1, 2019</time></span></h2>
+        <h2><span class="entry-date date published"><time datetime="2019-05-31 00:00:00 &#43;0000 UTC">May 31, 2019</time></span></h2>
         
         
       <p class="entry-reading-time">
@@ -156,7 +156,7 @@
     <div class="entry-content">
       
 
-<p>What  we&rsquo;re going to do is make a test branch of our repository&hellip; so we can see about getting hugo to run over there, and if successful then we&rsquo;ll learn how to merge this test branch back over.</p>
+<p>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.</p>
 
 <h2 id="checkout-test-branch">Checkout test branch</h2>
 
@@ -188,7 +188,7 @@
 <p>where did all my files just go?</p>
 </blockquote>
 
-<p>When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain 🤣</p>
+<p>When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain :rofl:</p>
 
 <h3 id="git-is-magic">Git is Magic!</h3>
 
@@ -206,7 +206,7 @@
 <li><a href="https://infominer.id/web-work/github-pages-starter-pack/#git">More Git Resources</a> &gt;&gt;</li>
 </ul>
 
-<h2 id="merging-changes-back-to-the-master-branch">Merging changes back to the master branch</h2>
+<h2 id="merging-changes-back-to-the-master-branch-https-stackoverflow-com-questions-5601931-what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master"><a href="https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master">Merging changes back to the master branch</a></h2>
 
 <pre><code>git checkout master
 git pull origin master
@@ -240,7 +240,7 @@ git push origin master
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'hpstrhugo';
+    var disqus_shortname = 'infominer';
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 })();

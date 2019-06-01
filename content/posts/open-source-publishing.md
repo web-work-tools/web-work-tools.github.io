@@ -5,7 +5,8 @@ description: "Infominer.id - All Page Rankings and Organic Search Rankings"
 date: 2019-05-23
 tags: [google, organic search, stats, open source, github-pages]
 
-
+aliases:
+  - /open-source-publishing/
 image:
   feature: /images/infolytics/infominer-id-all-pages-20190417-20190524.jpg
   thumb: /images/infolytics/5-25-19-organic-search-infominer.png

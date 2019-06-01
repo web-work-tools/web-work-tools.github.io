@@ -23,17 +23,6 @@ What is likly to happen, is there will be a split among domains, and eventually 
     </item>
     
     <item>
-      <title>Creating a Test Branch and Merging back the Changes</title>
-      <link>https://infominer.id/web-work/posts/branches-git/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/branches-git/</guid>
-      <description>What we&amp;rsquo;re going to do is make a test branch of our repository&amp;hellip; so we can see about getting hugo to run over there, and if successful then we&amp;rsquo;ll learn how to merge this test branch back over.
-Checkout test branch Use the command git checkout -b will allow you to create a local branch for testing.
-I will call my new branch test-hugo so the command will be like so:</description>
-    </item>
-    
-    <item>
       <title>Migrating from Jekyll HPSTR to Hugo.</title>
       <link>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
@@ -43,6 +32,19 @@ I will call my new branch test-hugo so the command will be like so:</description
 This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, or Hugo to Jekyll.
 I&amp;rsquo;ve got two branches of the same exact website except one is run by Jekyll and one is run by Hugo!!
 That&amp;rsquo;s pretty neat, if you ask me!</description>
+    </item>
+    
+    <item>
+      <title>Creating a Test Branch and Merging back the Changes</title>
+      <link>https://infominer.id/web-work/posts/branches-git/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/branches-git/</guid>
+      <description>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
+Checkout test branch Use the command git checkout -b will allow you to create a local branch for testing.
+I will call my new branch test-hugo so the command will be like so:
+git checkout -b test-hugo
+Some git basics for newbs like me  Git Branching and Merging  Git keeps track of all your files, but not just the files, but everything in the repository.</description>
     </item>
     
     <item>
@@ -98,9 +100,9 @@ I made this, because it was a little confusing for me when I first tried to use 
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/services/</guid>
-      <description>type: page title: Theme Setup description: &amp;ldquo;Instructions on how to install and customize the modern Jekyll theme HPSTR.&amp;rdquo; image: feature: /images//images/abstract-11.jpg credit: dargadgetz creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-share: true I&amp;rsquo;ve gradually eliminated all of my clients from the time where I was primarily creating content for hire. As I learn more publishing skills, I can see that there is more value in that type of work.
-I&amp;rsquo;d be more interested to write for you if you want me to set up your website.</description>
+      <description>I&amp;rsquo;ve gradually eliminated all of my clients from the time where I was primarily creating content for hire. As I learn more publishing skills, I can see that there is more value in that type of work.
+I&amp;rsquo;d be more interested to write for you if you want me to set up your website. Regardless, I&amp;rsquo;ll be happy to consider any offers.
+Research Consulting In-depth research is time-consuming. In crypto, the matter is made even more challenging because of the vast amount of domain knowledge required to obtain quality results.</description>
     </item>
     
     <item>
@@ -155,7 +157,8 @@ It&amp;rsquo;s true that it&amp;rsquo;s a ton of work to do what I do, but you c
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/practical-public-key-crypto/</guid>
-      <description>&amp;quot;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;quot;  I created this resource while researching the following article:
+      <description>&amp;ldquo;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;rdquo;
+I created this resource while researching the following article:
  freelanceforcoins.com/Business with Crypto 101—Escrow and Key Signatures -infominer &amp;gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.</description>
     </item>
     
@@ -166,6 +169,15 @@ It&amp;rsquo;s true that it&amp;rsquo;s a ton of work to do what I do, but you c
       
       <guid>https://infominer.id/web-work/posts/seo-tools/</guid>
       <description>Google and Company  Google Analytics - duh - free tools to track and analyze website data. Google Webmaster - Tools Suite, Diagnostic Google Search Console - what you&amp;rsquo;re already ranking for, straight from google. Google PageSpeed Insights Google&amp;rsquo;s Mobile Friendly Test Google Sitemap Generators Bing Webmaster Tools - Similar to Google&amp;rsquo;s Webmaster Tools. YouTube Analytics - must-have for YouTube video publishers. A Must-Have Guide for Decoding the Google Rankings  For adding ^^^ this link to my page (It seems like a decent guide.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Pages-Extended Resources</title>
+      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -198,7 +210,7 @@ The fundamental building blocks of SEO are:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/404/</guid>
-      <description>Sorry, we&amp;rsquo;ve misplaced that URL or it&amp;rsquo;s pointing to something that doesn&amp;rsquo;t exist. Head back home to try finding it again.
+      <description>Sorry, we&#39;ve misplaced that URL or it&#39;s pointing to something that doesn&#39;t exist. Head back home to try finding it again.
  https://infominer.id https://infominer.id/web-work/ https://infominer.id/indieweb/ https://infominer.id/DIDecentralized/ https://infominer.id/bitcoin-history/ https://infominer.id/SourceCrypto/ https://infominer.id/transcripts/ https://infominer.id/learn-crypto-trading/ 
 var GOOG_FIXURL_LANG = &#39;en&#39;; var GOOG_FIXURL_SITE = &#39;{{ site.url }}&#39;   </description>
     </item>

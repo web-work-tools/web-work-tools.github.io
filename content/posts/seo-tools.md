@@ -8,7 +8,8 @@ date: 2019-03-02
 image:
   thumb: /images/webwork-tools.png
   feature: /images/ww-tools-head.jpg
-
+aliases:
+  - /seo-tools/
 ---
 
 <!-- fix link on infominer.id:

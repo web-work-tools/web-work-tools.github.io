@@ -2,7 +2,9 @@
 type: post
 title: "Learn SEO"
 description: "Building Blocks of SEO? Keywords- Content - Internal linking - Site Structure - A Multitude of Technical Optimizations."
-
+aliases:
+  - /learn-seo/
+  - /learn-seo
 tags: [resources, seo]
 image:
   feature: /images/organic-seo-drive-traffic.jpg

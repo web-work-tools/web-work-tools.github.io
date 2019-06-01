@@ -14,6 +14,7 @@
 
 
 
+
 <meta name="twitter:title" content="Webwork.tools: Independent Web-Work and Skyscraper Publishing.">
 <meta name="twitter:description" content="Digital Tools for a Digital Transformation.">
 
@@ -43,7 +44,6 @@
 
 
 
-
 <link rel="canonical" href="https://infominer.id/web-work/">
 
   <link href="https://infominer.id/web-work/index.xml" rel="alternate" type="application/rss+xml" title="Webwork.tools: Independent Web-Work and Skyscraper Publishing." />
@@ -61,7 +61,7 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<meta name="generator" content="Hugo 0.52" />
+<meta name="generator" content="Hugo 0.31.1" />
 
 <script src="/web-work/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
@@ -111,15 +111,15 @@
 			</ul>
 		</li>
 		
-	    <li><a href="/web-work/webwork.tools/" >Webwork.tools</a></li>
+	    <li><a href="/web-work/posts/webwork.tools/" >Webwork.tools</a></li>
 	  
-	    <li><a href="/web-work/services/" >Services</a></li>
+	    <li><a href="/web-work/posts/services/" >Services</a></li>
 	  
-	    <li><a href="/web-work/seo-tools/" >Mostly Free SEO Tools</a></li>
+	    <li><a href="/web-work/posts/seo-tools/" >Mostly Free SEO Tools</a></li>
 	  
-	    <li><a href="/web-work/github-pages-starter-pack/" >GitHub Pages Starter Pack</a></li>
+	    <li><a href="/web-work/posts/github-pages-starter-pack/" >GitHub Pages Starter Pack</a></li>
 	  
-	    <li><a href="/web-work/practical-public-key-crypto/" >Practical Public Key Crypto</a></li>
+	    <li><a href="/web-work/posts/practical-public-key-crypto/" >Practical Public Key Crypto</a></li>
 	  
 	    <li><a href="http://infominer.id/indieweb/" target="_blank">IndieWeb</a></li>
 	  
@@ -152,92 +152,6 @@
   <header>
     
       <div class="entry-image-index">
-		  <a href="/web-work/posts/branches-git/" title="Creating a Test Branch and Merging back the Changes"><img src="/web-work/images/jekyll-hpstr-hugo.png" alt="Creating a Test Branch and Merging back the Changes"></a>
-      </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2019-06-01 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/branches-git/">Jun 1, 2019</a></time></span>
-        
-        
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        Reading time ~2 minutes
-      </span>
-      
-    </div>
-    
-	<h1 class="entry-title"><a href="/web-work/posts/branches-git/" rel="bookmark" title="Creating a Test Branch and Merging back the Changes" itemprop="url">Creating a Test Branch and Merging back the Changes</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-
-<p>What  we&rsquo;re going to do is make a test branch of our repository&hellip; so we can see about getting hugo to run over there, and if successful then we&rsquo;ll learn how to merge this test branch back over.</p>
-
-<h2 id="checkout-test-branch">Checkout test branch</h2>
-
-<p>Use the command <code>git checkout -b</code> will allow you to create a local branch for testing.</p>
-
-<p>I will call my new branch <code>test-hugo</code> so the command will be like so:</p>
-
-<p><code>git checkout -b test-hugo</code></p>
-
-<h2 id="some-git-basics-for-newbs-like-me">Some git basics for newbs like me</h2>
-
-<ul>
-<li><a href="https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging">Git Branching and Merging</a></li>
-</ul>
-
-<p>Git keeps track of all your files, but not just the files, but everything in the repository.</p>
-
-<p>Every commit, git remembers.</p>
-
-<blockquote>
-<p>&ldquo;yes yes I know&rdquo;</p>
-</blockquote>
-
-<p>However, it really boggled my mind the first time I tried it locally.</p>
-
-<p>I can change to a branch or another point in the history of this repository, and git tucks away the one I&rsquo;m working on&hellip; and the whole directory changes and like wait&hellip;</p>
-
-<blockquote>
-<p>where did all my files just go?</p>
-</blockquote>
-
-<p>When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain 🤣</p>
-
-<h3 id="git-is-magic">Git is Magic!</h3>
-
-<p>it sure feels that way, especially the first time I realized what it was doing. I still have a sense of wonder and mystery around Git.</p>
-
-<p>You probably knowbut you don&rsquo;t need github at all, and I&rsquo;m learning that a significant portion, of git repositories are never exposed to the public.</p>
-
-<blockquote>
-<p>Outside of GitHub and its imitators, most contributors to a project don’t have a published version of their repository online at all, skipping that step and saving some time. - <a href="https://drewdevault.com/2019/05/24/What-is-a-fork.html">What is a Fork?</a></p>
-</blockquote>
-
-<p><code>git checkout -b</code> is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!</p>
-
-<ul>
-<li><a href="https://infominer.id/web-work/github-pages-starter-pack/#git">More Git Resources</a> &gt;&gt;</li>
-</ul>
-
-<h2 id="merging-changes-back-to-the-master-branch">Merging changes back to the master branch</h2>
-
-<pre><code>git checkout master
-git pull origin master
-git merge test
-git push origin master
-</code></pre>
-
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
 		  <a href="/web-work/posts/migrate-jekyll-hpstr-hugo/" title="Migrating from Jekyll HPSTR to Hugo."><img src="/web-work/images/jekyll-hpstr-hugo.png" alt="Migrating from Jekyll HPSTR to Hugo."></a>
       </div>
     
@@ -248,7 +162,7 @@ git push origin master
         
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
-        Reading time ~6 minutes
+        Reading time ~9 minutes
       </span>
       
     </div>
@@ -269,7 +183,20 @@ git push origin master
 
 <p>I also show examples of the differences between the two, where and how I made changes.</p>
 
+<h2 id="why">Why</h2>
+
+<ol>
+<li><code>mmistakes/hpstr-jekyll-theme</code> is archived, and you can no longer submit issues or pull-requests.</li>
+<li>Hugo has a lot of support from the development community, and is growing quickly in features and popularity.</li>
+<li>It can be really hard finding working jekyll themes.</li>
+<li>There are a lot of awesome Hugo themes that generally seem to be operational.</li>
+<li>I know of some indieweb themes.</li>
+<li><code>/themes/</code> directory allows for easy testing and switching between new themes.</li>
+</ol>
+
 <h2 id="hpstr-jekyll-vs-hugo">HPSTR Jekyll vs Hugo</h2>
+
+<p>I&rsquo;m looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won&rsquo;t run in the newest version. If you have a newer suggestion, feel free to shout out. I will also find out what the options are.</p>
 
 <h3 id="releases">Releases</h3>
 
@@ -287,7 +214,7 @@ git push origin master
 <p><a href="https://github.com/mmistakes/hpstr-jekyll-theme/releases"><img src="https://imgur.com/jNTAlGt.png" alt="" /></a>
 <a href="https://github.com/dldx/hpstr-hugo-theme/releases"><img src="https://imgur.com/dvapj4y.png" alt="" /></a></p>
 
-<h3 id="commits">Commits</h3>
+<h3 id="root-directories">Root Directories</h3>
 
 <p><img src="https://imgur.com/obcGfNc.png" alt="" />
 <img src="https://imgur.com/KZQODtU.png" alt="" /></p>
@@ -310,9 +237,9 @@ git push origin master
 
 <p>That&rsquo;s a nice note to find, since I&rsquo;m an Ubuntu user.</p>
 
-<h2 id="v0-17-https-github-com-gohugoio-hugo-releases-tag-v0-17"><a href="https://github.com/gohugoio/hugo/releases/tag/v0.17">v0.17</a></h2>
+<h2 id="v0-17-https-github-com-gohugoio-hugo-releases-tag-v0-30-october-2016"><a href="https://github.com/gohugoio/hugo/releases/tag/v0.30">v0.17</a> - October 2016</h2>
 
-<p>There are numerous options for different platforms, and this version of Hugo was <strong>released in October</strong>, one month after the final release of HPSTR.</p>
+<p>There are numerous options for different platforms, and this version of Hugo was released in October, one month after the final release of HPSTR.</p>
 
 <blockquote>
 <p>Hugo is going global with our 0.17 release. [&hellip;] Adding additional languages to your website is simple and straightforward.</p>
@@ -328,40 +255,29 @@ git push origin master
 <p>Thanks to the contribution #2443 and guidance from @dholbach, Hugo is now available as a Snap package! (Snaps are a new kind of universal Linux packages.) Check it out at <a href="https://uappexplorer.com/app/hugo.hugo-authors">https://uappexplorer.com/app/hugo.hugo-authors</a></p>
 </blockquote>
 
-<p>Now this is nice because you can get various releases of snap packages through the snap store.</p>
+<h3 id="download-links-for-hugo-v0-17-https-github-com-gohugoio-hugo-releases-tag-v0-17"><a href="https://github.com/gohugoio/hugo/releases/tag/v0.17">Download links for Hugo v0.17</a></h3>
 
-<ul>
-<li><a href="https://askubuntu.com/questions/1026075/can-i-install-multiple-copies-of-a-snap-package">askubuntu.com - Can I install multiple copies of a snap-package?</a></li>
-</ul>
+<p>Now that I have Hugo working, lets see how far I can go in Hugo versions.</p>
 
-<h3 id="download-links-for-hugo-v0-17">Download links for Hugo v0.17</h3>
+<h2 id="v0-30-1-https-github-com-gohugoio-hugo-releases-tag-v0-30-1-oct-16-2017"><a href="https://github.com/gohugoio/hugo/releases/tag/v0.30.1">v0.30.1</a> - Oct 16, 2017</h2>
 
-<ul>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17-64bit.deb">go_0.17-64bit.deb</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_armhf.deb">go_0.17_armhf.deb</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_FreeBSD-32bit.zip">go_0.17_FreeBSD-32bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_FreeBSD-64bit.zip">go_0.17_FreeBSD-64bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_freebsd_arm.zip">go_0.17_freebsd_arm.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_i386.deb">go_0.17_i386.deb</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Linux-32bit.tar.gz">go_0.17_Linux-32bit.tar.gz</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz">go_0.17_Linux-64bit.tar.gz</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_linux_arm.tar.gz">go_0.17_linux_arm.tar.gz</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_MacOS-32bit.zip">go_0.17_MacOS-32bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_MacOS-64bit.zip">go_0.17_MacOS-64bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_NetBSD-32bit.zip">go_0.17_NetBSD-32bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_NetBSD-64bit.zip">go_0.17_NetBSD-64bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_netbsd_arm.zip">go_0.17_netbsd_arm.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_OpenBSD-32bit.zip">go_0.17_OpenBSD-32bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_OpenBSD-64bit.zip">go_0.17_OpenBSD-64bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Windows-32bit.zip">go_0.17_Windows-32bit.zip</a></li>
-<li><a href="https://github.com/gohugoio/hugo/releases/download/v0.17/hugo_0.17_Windows-64bit.zip">go_0.17_Windows-64bit.zip</a></li>
-</ul>
+<blockquote>
+<p>Hugo 0.30 is the Race Car Edition. Hugo is already very very fast, but much wants more. So we added Fast Render Mode. It is hard to explain, so start the Hugo development server with hugo server and start editing. Live reloads just got so much faster! The &ldquo;how and what&rdquo; is discussed at length in other places, but the short version is that we now re-render only the parts of the site that you are working on.</p>
+</blockquote>
+
+<p>This is a big release, so I&rsquo;m going to look ahead for the closest bug-fixes, but avoid any feature releases.</p>
+
+<h2 id="v0-31-1-https-github-com-gohugoio-hugo-releases-tag-v0-31-1-nov-27-2017"><a href="https://github.com/gohugoio/hugo/releases/tag/v0.31.1">v0.31.1</a> -  Nov 27, 2017</h2>
+
+<p>So.. there&rsquo;s another big release after this, at the start of 2018, but I think I&rsquo;ll stick with this one. It&rsquo;s a year after HPSTR completed its development. I think we&rsquo;ll be good here, and I want to get to know Hugo better before changing things up too much.</p>
+
+<p>The next major change introduces page bundles. I wouldn&rsquo;t be surprised if it has a problem with this theme.</p>
 
 <h2 id="test-install">Test Install</h2>
 
 <p>Once it&rsquo;s installed, type I <code>hugo version</code> and read:</p>
 
-<p><img src="https://imgur.com/0kxcUkf.png" alt="" /></p>
+<p><img src="https://imgur.com/J2lnKkR.png" alt="" /></p>
 
 <p>perfect!!</p>
 
@@ -370,15 +286,15 @@ git push origin master
 <p>With some pre-requisites out of the way, lets jump in at the first step in the theme setup:</p>
 
 <ul>
-<li><p><a href="https://dldx.org/hpstr-hugo-theme/theme-setup/">Theme Setup - HPSTR Hugo</a></p>
+<li><a href="https://dldx.org/hpstr-hugo-theme/theme-setup/">Theme Setup - HPSTR Hugo</a></li>
+</ul>
 
 <pre><code>$ mkdir newProject
 $ cd newProject
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
-</code></pre></li>
-</ul>
+</code></pre>
 
 <p>and you will see <code>hpster</code> located in: <code>/web-work/themes/hpstr</code>.</p>
 
@@ -515,9 +431,12 @@ url = &quot;http://infominer.id/&quot;
 
 <h2 id="frontmatter">Frontmatter</h2>
 
-<p><strong>The main differences</strong>:
-* using <code>type</code> rather than <code>layout</code>
-* using the frontmatter variable <code>date</code> to signify publication date, rather than hardcoding it into the title.</p>
+<p><strong>The main differences</strong>:</p>
+
+<ul>
+<li>using <code>type</code> rather than <code>layout</code></li>
+<li>using the frontmatter variable <code>date</code> to signify publication date, rather than hardcoding it into the title.</li>
+</ul>
 
 <h3 id="hpstr-jekyll">HPSTR-Jekyll</h3>
 
@@ -559,7 +478,30 @@ image:
 
 <p>This is the final stretch, and we should be good to go</p>
 
-<p><img src="https://imgur.com/za5VOLr.png" alt="" /></p>
+<pre><code>
+baseurl = &quot;https://infominer.id/web-work&quot;
+languageCode = &quot;en-gb&quot;
+title = &quot;Webwork.tools: Independent Web-Work and Skyscraper Publishing.&quot;
+theme = &quot;hpstr&quot;
+pluralizelisttitles = false
+PygmentsCodeFences = true
+Paginate = 5
+disqusShortname = &quot;hpstrhugo&quot;
+publishdir = &quot;docs&quot;
+enableEmoji = true
+[params]
+	subtitle = &quot;Digital Tools for a Digital Transformation.&quot;
+	[params.author]
+		name = &quot;⧉ Infominer&quot;
+		avatar = &quot;/images/info-id.png&quot;
+		bio = &quot;Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉&quot;
+		github = &quot;infominer33/web-work&quot;
+	[params.image]
+	  feature = &quot;/images/web-work-tools.png&quot;
+
+
+
+</code></pre>
 
 <ul>
 <li><a href="http://web.archive.org/web/20161110120102/http://gohugo.io/overview/configuration">Configuring Hugo</a></li>
@@ -571,18 +513,193 @@ image:
 
 <p>By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.</p>
 
+<h2 id="redirects">Redirects</h2>
+
+<p>One thing that&rsquo;s important to note, if you are switching from Jekyll HPSTR to HPSTR Hugo with me. HPSTR Hugo makes all your posts live in the <code>/posts/</code> directory.</p>
+
+<p>If you used to let your blog live at the root of the site, like me, then add aliases, which are how Hugo does redirects.</p>
+
+<ul>
+<li><a href="https://gohugo.io/content-management/urls/#aliases">Content Manegement - Aliases</a></li>
+</ul>
+
+<pre><code>aliases:
+  - /title-goes-here/
+  - /other-title-too/
+</code></pre>
+
+<h2 id="one-last-thing">One last thing!</h2>
+
+<p>It seems like you need to type <code>hugo</code> to publish to the docs directory, because <code>hugo server</code> doesn&rsquo;t do both, it only does the webserving.. I don&rsquo;t really understand, but that seems to be the case.</p>
+
+<h2 id="use-a-linebreak-before-each-list">Use a linebreak before each list!</h2>
+
+<h2 id="twitter-cards">Twitter Cards</h2>
+
+<p>This part, I can&rsquo;t figure out.</p>
+
+<p>I don&rsquo;t understand why <code>.Title</code> is not <code>.title</code>.</p>
+
+<p>I&rsquo;m pretty sure I need to add</p>
+
+<p><code>&lt;meta name=&quot;twitter:site&quot; content=&quot;{{ .site }}&quot;&gt;</code></p>
+
+<p>but I didn&rsquo;t have success with that yet.</p>
+
+<pre><code>&lt;!-- Twitter Cards --&gt;
+&lt;meta name=&quot;twitter:title&quot; content=&quot;{{ .Title }}&quot;&gt;
+&lt;meta name=&quot;twitter:description&quot; content=&quot;{{ with .Description }}{{ . }}{{ else }}{{ $.Site.Params.subtitle }}{{ end }}&quot;&gt;
+{{ with .Site.Params.owner.twitter }}&lt;meta name=&quot;twitter:creator&quot; content=&quot;{{ . }}&quot;&gt;{{ end }}
+{{ if isset ($.Scratch.Get &quot;Params&quot;) &quot;image&quot; }}
+    {{ $imageparams := index ($.Scratch.Get &quot;Params&quot;) &quot;image&quot; }}
+    {{ with $imageparams.thumb }}
+        &lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot;&gt;
+        &lt;meta name=&quot;twitter:image&quot; content=&quot;{{ . | absURL }}&quot;&gt;
+    {{ else }}
+        &lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot;&gt;
+        &lt;meta name=&quot;twitter:image&quot; content=&quot;{{ $imageparams.feature | absURL }}&quot;&gt;
+    {{ end }}
+{{ end }}
+</code></pre>
+
+<p>I also added these lines to my config.toml</p>
+
+<pre><code>
+[twitter]
+  card = &quot;summary_image_large&quot;
+  site = &quot;@infominer33&quot;
+  title =  &quot;Webwork.tools: Independent Web-Work and Skyscraper Publishing.&quot;
+  description = &quot;Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content.&quot;
+  image = &quot;/images/web-work-tools.png&quot;
+</code></pre>
+
+<p>I think some of those are supurfulous but it doesn&rsquo;t matter if I use extra, as long as I get all the right values in.</p>
+
+<h2 id="reach-out-in-the-comments">Reach out in the Comments</h2>
+
+<p>If they ever figure out. If you have any questions, or if anything is unclear!!</p>
+
+<p>I&rsquo;ll get web-mentions and the like soon!</p>
+
+<h2 id="test-branches">Test Branches</h2>
+
+<p>Even if I change this web-site to a different theme or SSG, I made a branch to save this build forever :D and anyone confused can browse them.</p>
+
+<ul>
+<li><a href="https://github.com/infominer33/web-work/tree/test-hugo">https://github.com/infominer33/web-work/tree/test-hugo</a></li>
+<li><a href="https://github.com/infominer33/web-work/tree/hpster-jekyll">https://github.com/infominer33/web-work/tree/hpster-jekyll</a></li>
+</ul>
+
+<h2 id="check-back-in">Check Back In</h2>
+
+<p>I&rsquo;ll be updating this post a lot as I learn new things about Hugo, until the resources branch off into their own post.</p>
+
 <h2 id="resources">Resources</h2>
 
 <ul>
 <li><a href="http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing">web.archive.org - Installing Hugo v0.17</a></li>
 <li><a href="http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/">web.archive.org - Using Hugo v0.17</a></li>
+<li><a href="https://infominer.id/web-work/posts/branches-git/">Creating a Test Branch and Merging changes back to Master</a></li>
+<li><a href="https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/">Goodbye Jekyll - Hello Hugo</a></li>
 </ul>
 
-<h2 id="extra">Extra</h2>
+<h2 id="other-hugo-themes">Other Hugo Themes</h2>
+
+<ul>
+<li><a href="https://github.com/EmielH/tale-hugo">https://github.com/EmielH/tale-hugo</a></li>
+</ul>
+
+<h2 id="over-the-rainbow">Over the Rainbow</h2>
 
 <ul>
 <li><a href="http://masayk.github.io/tech/hugo/">Blogging with Org-Mode and Hugo</a></li>
 </ul>
+
+  </div>
+</article>
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
+		  <a href="/web-work/posts/branches-git/" title="Creating a Test Branch and Merging back the Changes"><img src="/web-work/images/Git_branches_fork.png" alt="Creating a Test Branch and Merging back the Changes"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2019-05-31 00:00:00 &#43;0000 UTC"><a href="/web-work/posts/branches-git/">May 31, 2019</a></time></span>
+        
+        
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Reading time ~2 minutes
+      </span>
+      
+    </div>
+    
+	<h1 class="entry-title"><a href="/web-work/posts/branches-git/" rel="bookmark" title="Creating a Test Branch and Merging back the Changes" itemprop="url">Creating a Test Branch and Merging back the Changes</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    
+
+<p>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.</p>
+
+<h2 id="checkout-test-branch">Checkout test branch</h2>
+
+<p>Use the command <code>git checkout -b</code> will allow you to create a local branch for testing.</p>
+
+<p>I will call my new branch <code>test-hugo</code> so the command will be like so:</p>
+
+<p><code>git checkout -b test-hugo</code></p>
+
+<h2 id="some-git-basics-for-newbs-like-me">Some git basics for newbs like me</h2>
+
+<ul>
+<li><a href="https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging">Git Branching and Merging</a></li>
+</ul>
+
+<p>Git keeps track of all your files, but not just the files, but everything in the repository.</p>
+
+<p>Every commit, git remembers.</p>
+
+<blockquote>
+<p>&ldquo;yes yes I know&rdquo;</p>
+</blockquote>
+
+<p>However, it really boggled my mind the first time I tried it locally.</p>
+
+<p>I can change to a branch or another point in the history of this repository, and git tucks away the one I&rsquo;m working on&hellip; and the whole directory changes and like wait&hellip;</p>
+
+<blockquote>
+<p>where did all my files just go?</p>
+</blockquote>
+
+<p>When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain :rofl:</p>
+
+<h3 id="git-is-magic">Git is Magic!</h3>
+
+<p>it sure feels that way, especially the first time I realized what it was doing. I still have a sense of wonder and mystery around Git.</p>
+
+<p>You probably knowbut you don&rsquo;t need github at all, and I&rsquo;m learning that a significant portion, of git repositories are never exposed to the public.</p>
+
+<blockquote>
+<p>Outside of GitHub and its imitators, most contributors to a project don’t have a published version of their repository online at all, skipping that step and saving some time. - <a href="https://drewdevault.com/2019/05/24/What-is-a-fork.html">What is a Fork?</a></p>
+</blockquote>
+
+<p><code>git checkout -b</code> is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!</p>
+
+<ul>
+<li><a href="https://infominer.id/web-work/github-pages-starter-pack/#git">More Git Resources</a> &gt;&gt;</li>
+</ul>
+
+<h2 id="merging-changes-back-to-the-master-branch-https-stackoverflow-com-questions-5601931-what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master"><a href="https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master">Merging changes back to the master branch</a></h2>
+
+<pre><code>git checkout master
+git pull origin master
+git merge test
+git push origin master
+</code></pre>
 
   </div>
 </article>

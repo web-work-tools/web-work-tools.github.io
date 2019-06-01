@@ -52,7 +52,8 @@ What is a Static Site Generator (SSG)? There are some configuration files, layou
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/practical-public-key-crypto/</guid>
-      <description>&amp;quot;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;quot;  I created this resource while researching the following article:
+      <description>&amp;ldquo;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;rdquo;
+I created this resource while researching the following article:
  freelanceforcoins.com/Business with Crypto 101—Escrow and Key Signatures -infominer &amp;gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.</description>
     </item>
     
@@ -63,6 +64,15 @@ What is a Static Site Generator (SSG)? There are some configuration files, layou
       
       <guid>https://infominer.id/web-work/posts/seo-tools/</guid>
       <description>Google and Company  Google Analytics - duh - free tools to track and analyze website data. Google Webmaster - Tools Suite, Diagnostic Google Search Console - what you&amp;rsquo;re already ranking for, straight from google. Google PageSpeed Insights Google&amp;rsquo;s Mobile Friendly Test Google Sitemap Generators Bing Webmaster Tools - Similar to Google&amp;rsquo;s Webmaster Tools. YouTube Analytics - must-have for YouTube video publishers. A Must-Have Guide for Decoding the Google Rankings  For adding ^^^ this link to my page (It seems like a decent guide.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Pages-Extended Resources</title>
+      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
+      <description></description>
     </item>
     
     <item>
