@@ -6,9 +6,9 @@ date: 2019-05-26
 tags: [keyword-research, seo, walkthrough, stub, adwords, keyword planner]
 image:
   feature: /images/getting-started-adwords-keyword-planner.jpg
-
+slug: /keyword-planning/
 aliases:
-  - /keyword-planner/
+  - /posts/keyword-planner/
 
 ---
 

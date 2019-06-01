@@ -7,7 +7,8 @@ tags: [content creation, tools, resources]
 image:
   feature: /images/content-creation.png
 aliases:
-  - /content-creation/
+  - /posts/content-creation/
+slug: /content-creation/
 ---
 
 Here's some tools to make content creation a little easier.

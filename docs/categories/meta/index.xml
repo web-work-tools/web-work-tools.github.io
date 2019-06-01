@@ -14,28 +14,28 @@
     
     <item>
       <title>Introducing Indigo</title>
-      <link>https://infominer.id/web-work/introducing-indigo/</link>
+      <link>https://infominer.id/web-work/indigo-intro/</link>
       <pubDate>Mon, 01 Oct 2018 09:00:00 -0400</pubDate>
       
-      <guid>https://infominer.id/web-work/introducing-indigo/</guid>
+      <guid>https://infominer.id/web-work/indigo-intro/</guid>
       <description>&lt;p&gt;Indigo is a lightweight theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; features baked in. It&amp;rsquo;s great for longer-form blogging, placing its focus on distraction-free reading and beautiful typefaces.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Featured Typefaces</title>
-      <link>https://infominer.id/web-work/featured-typefaces/</link>
+      <link>https://infominer.id/web-work/typefaces/</link>
       <pubDate>Mon, 01 Oct 2018 08:30:00 -0400</pubDate>
       
-      <guid>https://infominer.id/web-work/featured-typefaces/</guid>
+      <guid>https://infominer.id/web-work/typefaces/</guid>
       <description>&lt;p&gt;Indigo uses a combination of three beautiful typefaces to render your words.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Author Bios</title>
-      <link>https://infominer.id/web-work/author-bios/</link>
+      <link>https://infominer.id/web-work/authors/</link>
       <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
       
-      <guid>https://infominer.id/web-work/author-bios/</guid>
+      <guid>https://infominer.id/web-work/authors/</guid>
       <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;</description>
     </item>
     

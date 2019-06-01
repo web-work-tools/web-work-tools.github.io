@@ -9,5 +9,6 @@ aliases:
   - /github-pages-extended-resources/
 image:
   feature: /images/github-pages-jekyll-starter-pack.png
+published: false
 ---
 

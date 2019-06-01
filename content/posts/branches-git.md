@@ -9,7 +9,8 @@ image:
   creditlink: "https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg"
 date: 2019-05-31
 aliases:
-  - /branches-git/
+  - /posts/branches-git/
+slugs: /branches-git/
 ---
 
 I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.

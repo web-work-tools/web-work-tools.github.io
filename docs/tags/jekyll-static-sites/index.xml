@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll Static Sites on Webwork.tools</title>
+    <link>https://infominer.id/web-work/tags/jekyll-static-sites/</link>
+    <description>Recent content in Jekyll Static Sites on Webwork.tools</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>⧉ Infominer creativecommons.org/publicdomain/zero/1.0/  ⧉ Powered by themes.gohugo.io/indigo/ via: github.com/gohugoio/hugo</copyright>
+    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://infominer.id/web-work/tags/jekyll-static-sites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Indieweb Resources</title>
+      <link>https://infominer.id/web-work/posts/resources/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/resources/</guid>
+      <description>micro.blog/infominer
+I was using miklb/jekyll-indieweb, but ran into some bugs and found that a new release is coming soon:
+
+In the meantime, I figured I&amp;rsquo;d test out this awesome projects-pages theme.
+I&amp;rsquo;m only guessing that some indieweb folk might appreciate:
+ Project-Pages also includes advanced layouts for the coding scientist. MATLAB and Jupyter layouts provide a framework for direct to post functionality. Surface and Projector layouts provide 3D visualization methods.</description>
+    </item>
+    
+  </channel>
+</rss>
