@@ -6,6 +6,7 @@ pluralizelisttitles = false
 PygmentsCodeFences = true
 Paginate = 5
 disqusShortname = "hpstrhugo"
+publishdir = "docs"
 
 [params]
 	subtitle = "Digital Tools for a Digital Transformation."

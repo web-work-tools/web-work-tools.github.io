@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <link>https://infominer.id/web-work/tags/static-site-generators/index.xml</link>
+    <description>Recent content on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://infominer.id/web-work/tags/static-site-generators/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Static Site Generators</title>
+      <link>https://infominer.id/web-work/posts/static-site-generators/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/static-site-generators/</guid>
+      <description>
+
+&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://infomienr.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt; is getting a bit crowded.&lt;/p&gt;
+
+&lt;p&gt;Well, now i&amp;rsquo;m looking into options besides jekyll, to expand my skills, and try out some themes that aren&amp;rsquo;t available for Jekyll.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-a-static-site-generator-ssg&#34;&gt;What is a Static Site Generator (SSG)?&lt;/h2&gt;
+
+&lt;p&gt;There are some configuration files, layouts and templates, and then there is all your content that your create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll have a few general resources at the top and just add as I go, since I&amp;rsquo;m not ready to learn about too many of them, just yet.&lt;/p&gt;
+
+&lt;h2 id=&#34;general&#34;&gt;General&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll&#34;&gt;Using A Static Site Generator other than Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pinceladasdaweb/Static-Site-Generators&#34;&gt;pinceladasdaweb/Static-Site-Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://staticsitegenerators.net&#34;&gt;staticsitegenerators.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.staticgen.com/&#34;&gt;https://www.staticgen.com/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=17952234&#34;&gt;I tried Hugo, Jekyll and Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
+
+&lt;p&gt;There are some indieweb integrated themes w hugo, and some themes no longer supported in their jekyll form that have been ported over to Hugo. There seems to be a lot of buzz aroudn it anyway.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;discourse.gohugo.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zwbetz.com/make-a-hugo-blog-from-scratch/&#34;&gt;Make A Hugo Blog from Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regisphilibert.com/tags/hugo/&#34;&gt;https://regisphilibert.com/tags/hugo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/recommended-reading-reference/14815&#34;&gt;Recommended Reading Reference&lt;/a&gt; *** Ton of good stuff in here.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/budparr/awesome-hugo/&#34;&gt;https://github.com/budparr/awesome-hugo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodify.net/hugo-static-site-tutorials/&#34;&gt;Hugo Static Site Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4&#34;&gt;comprehensive-hugo-tutorial-for-beginners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=17387103&#34;&gt;Migrating from Jekyll to Hugo&lt;/a&gt; &amp;lt;&amp;ndash;good thread&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kevinmarks/stopbrexit&#34;&gt;kevinmarks/stopbrexit&lt;/a&gt; -  example of a &amp;ldquo;complete and operational&amp;rdquo; hugo site.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://stopbrexit.party/&#34;&gt;stopbrexit.party&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mkdocs&#34;&gt;MkDocs&lt;/h2&gt;
+
+&lt;p&gt;MkDocs has built in search, and in some ways simpler than publishing w jekyll.&lt;/p&gt;
+
+&lt;p&gt;For example, you don&amp;rsquo;t need to put frontmatter into every single document.. it will just create a website from markdown files and autogenerate toc based on directory structure.&lt;/p&gt;
+
+&lt;p&gt;MkDocs really caught my eye when I saw it running at &lt;a href=&#34;https://docs.ethhub.io/&#34;&gt;EthHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/c7Ik39r.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mkdocs.org/&#34;&gt;https://www.mkdocs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins&#34;&gt;/mkdocs/mkdocs/wiki/MkDocs-Plugins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yakworks.github.io/mkdocs-material-components/cheat-sheet/&#34;&gt;MkDocs Material Components - Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mkdocs.readthedocs.io&#34;&gt;mkdocs.readthedocs.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins&#34;&gt;mkdocs/mkdocs/wiki/MkDocs-Plugins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin&#34;&gt;mkdocs-awesome-pages-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wheelodex.org/entry-points/mkdocs.plugins/&#34;&gt;mkdocs.plugins/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blogs.pjjk.net/phil/metadata-for-markdown-mkdocs/&#34;&gt;metadata-for-markdown-mkdocs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gristlabs.github.io/mkdocs-windmill/#&#34;&gt;https://gristlabs.github.io/mkdocs-windmill/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gristlabs/mkdocs-windmill&#34;&gt;gristlabs/mkdocs-windmill&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://python-markdown.github.io/extensions/&#34;&gt;https://python-markdown.github.io/extensions/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions&#34;&gt;Python-Markdown/markdown/wiki/Third-Party-Extensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://python-markdown.github.io/extensions/smarty/&#34;&gt;https://python-markdown.github.io/extensions/smarty/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Because MkDocs builds with python, that opens up a whole universe of tools at your disposal. The python markdown extensions are a prime example.&lt;/p&gt;
+
+&lt;p&gt;However, basically none of the regular jekyll plugins work with mkdocs, it&amp;rsquo;s a whole universe to its own w Python.&lt;/p&gt;
+
+&lt;h3 id=&#34;now-dev&#34;&gt;Now Dev&lt;/h3&gt;
+
+&lt;p&gt;I don&amp;rsquo;t even know&amp;hellip; but it seems pretty dope.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zeit.co/blog/now-dev&#34;&gt;https://zeit.co/blog/now-dev&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zeit.co/docs/v2/deployments/concepts/lambdas&#34;&gt;https://zeit.co/docs/v2/deployments/concepts/lambdas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;keybase&#34;&gt;Keybase&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/PVUAaAu.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just sayin&amp;rsquo;&amp;hellip; keybase has 250 gigs of free storage you can use to host a website&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;you could build gem based sites locally, and keybase will automatically sync the data.&lt;/p&gt;
+
+&lt;h2 id=&#34;thats-all-for-now&#34;&gt;Thats all for now!&lt;/h2&gt;
+
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/web-work/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

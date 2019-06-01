@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <link>https://infominer.id/web-work/tags/github-pages/index.xml</link>
+    <description>Recent content on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://infominer.id/web-work/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Infominer&#39;s GitHub Portfolio and HowTo</title>
+      <link>https://infominer.id/web-work/posts/make-a-github-portfolio/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/make-a-github-portfolio/</guid>
+      <description>
+
+&lt;p&gt;I learned of this cool project from &lt;a href=&#34;https://twitter.com/bmann&#34;&gt;@bmann&lt;/a&gt;. I&amp;rsquo;ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s really nice to have a place to keep track, because I&amp;rsquo;m always forgetting how many I even manage!&lt;/p&gt;
+
+&lt;p&gt;It might seem intimidating to hear, &amp;ldquo;Just Fork It!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;However, you&amp;rsquo;ll see that it&amp;rsquo;s not much more complex than that.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-1&#34;&gt;Step 1&lt;/h2&gt;
+
+&lt;p&gt;Fork this repository:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/github/personal-website&#34;&gt;github/personal-website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;step-2&#34;&gt;Step 2&lt;/h2&gt;
+
+&lt;p&gt;Go to settings and select publish from master branch:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/UAhVvRPl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3&#34;&gt;Step 3&lt;/h2&gt;
+
+&lt;p&gt;If you already have a web-page, then maybe you aren&amp;rsquo;t reading this.. If you don&amp;rsquo;t, then you must name the repository the same as your name on github. So my first website&amp;rsquo;s repository name is &lt;a href=&#34;https://github.com/infominer33/infominer33.github.io&#34;&gt;infominer33.github.io&lt;/a&gt; since my github username is infominer33. Now it publishes to &lt;code&gt;infominer.id&lt;/code&gt; (but also &lt;code&gt;infominer33.github.io&lt;/code&gt;) because I have a custom domain, and every other repository I publish is a branch of that first domain.&lt;/p&gt;
+
+&lt;p&gt;Since I already have a primary webpage, I change my repository name to &lt;code&gt;repo-portfolio&lt;/code&gt;. That way, it lives at:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/repo-portfolio/&#34;&gt;infominer.id/repo-portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/yL5BaNxl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-4&#34;&gt;Step 4&lt;/h2&gt;
+
+&lt;p&gt;On github pages, &lt;code&gt;_config.yml&lt;/code&gt; lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 12
+  exclude:
+    archived: false
+    forks: false
+    projects:
+      - pub-yes
+      - yest
+      - archive-crypto
+      - yest-the-docs
+      - bahamas-crypto
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;you can also configure social media accounts.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;social_media:
+  website: https://infominer.id/
+  keybase: infominer
+  telegram: infominer33
+  twitter: infominer33
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # unsplash: your_username
+  # vk: your_username
+  # youtube: your_username
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and topics of interest:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+topics:
+  - name: Bitcoin
+    web_url: https://github.com/topics/bitcoin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
+
+  - name: Decentralized Identity
+    web_url: https://github.com/topics/decentralized-identity
+    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cool beans, right?&lt;/p&gt;
+
+&lt;p&gt;There are also blog features, although I&amp;rsquo;m not sure I&amp;rsquo;ll blog there&amp;hellip; who knows!?!?&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t looked through the &lt;a href=&#34;https://github.com/github/personal-website/issues&#34;&gt;issues&lt;/a&gt;, or &lt;a href=&#34;https://github.com/github/personal-website/pulls&#34;&gt;pull-requests&lt;/a&gt; yet to see what folk are working on, or tried to tweak any of the quirks I&amp;rsquo;ve noticed..&lt;/p&gt;
+
+&lt;p&gt;If you want to learn more about GitHub Pages, check out:&lt;/p&gt;
+
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/web-work/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Source Publishing.</title>
+      <link>https://infominer.id/web-work/posts/open-source-publishing/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/open-source-publishing/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Pro-tip:&lt;/strong&gt; &lt;a href=&#34;https://infominer.id/web-work&#34;&gt;Go Home&lt;/a&gt; &lt;strong&gt;for a full view of featured image.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&#34;pull-left&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infolytics/record-monthly.png&#34;/&gt;&lt;/div&gt;
+
+&lt;p&gt;Shows what can be done in a short period of time.  I didn&amp;rsquo;t start building any of this till the beginning of this year.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s true that it&amp;rsquo;s a ton of work to do what &lt;em&gt;I&lt;/em&gt; do, but you could use this concept for just one topic instead of 100 and build a valuable resource in a few days!&lt;/p&gt;
+
+&lt;p&gt;I will publish monthly stats, though it won&amp;rsquo;t always be the same, and if you have any requests, pop up in the issues.&lt;/p&gt;
+
+&lt;p&gt;Soon, I&amp;rsquo;ll have comments enabled, and that will be great.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-present-csv&#34;&gt;How to present CSV?&lt;/h2&gt;
+
+&lt;p&gt;Because of multiple columns and long urls, it&amp;rsquo;s difficult to display this informaiton in text form. It&amp;rsquo;s easier for me to transform the pdf\csv into png. Then it can be displayed just fine on any screen.&lt;/p&gt;
+
+&lt;p&gt;To get a high-quality image, I used &lt;a href=&#34;http://convert-my-image.com/&#34;&gt;convert-my-image.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;generating-pages-from-data-using-liquid&#34;&gt;Generating Pages from Data using Liquid&lt;/h2&gt;
+
+&lt;p&gt;I put &lt;a href=&#34;https://infominer.id/web-work/images/infolytics/performance1.csv&#34;&gt;performance1.csv&lt;/a&gt; and &lt;a href=&#34;https://infominer.id/web-work/images/infolytics/performance1.csv&#34;&gt;performance2.csv&lt;/a&gt; into the /images directory (you can &lt;a href=&#34;https://github.com/infominer33/web-work/tree/master/images/infolytics&#34;&gt;check out on github&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;From there, jekyll throws it all up into &lt;code&gt;site.data.performance1&lt;/code&gt; and &lt;code&gt;site.data.performance2&lt;/code&gt; so I can call it with a bit of code and generate pages with it.&lt;/p&gt;
+
+&lt;p&gt;Sometime I&amp;rsquo;ll create a post, or &lt;a href=&#34;https://infominer.id/webwork/tags/#stub&#34;&gt;stub&lt;/a&gt;, to begin documentation of that feature of Jekyll and grow in familiarity with it.&lt;/p&gt;
+
+&lt;p&gt;For now I&amp;rsquo;ll just share a few links here.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/jMtd9WR.png&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;from: &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;em&gt;GitHub Pages Starter Pack - Extended Resources&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://shopify.github.io/liquid/tags/control-flow/&#34;&gt;shopify.github.io/liquid/tags/control-flow/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/&#34; target=&#34;_blank&#34;&gt;Jekyll Variables and Liquid Template Tags-Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.cloudcannon.com/jekyll/introduction-to-liquid/&#34; target=&#34;_blank&#34;&gt;Introduction to Liquid for Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34;&gt;https://blog.webjeda.com/jekyll-liquid/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;pull requests welcome&lt;/em&gt; ;)&lt;/p&gt;
+
+&lt;p&gt;As you can see, it&amp;rsquo;s possible to begin showing up in google pretty quickly. I started building at the beginning of the year, and I hadn&amp;rsquo;t begun in earnest until you see the chart starting to pop off (around the time I submitted my sitemap to google).&lt;/p&gt;
+
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/web-work/images/infolytics/5-29-19-organic-search-infominer.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://imgur.com/nT7Estp.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;full&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/web-work/images/infolytics/5-24-19-organic-search-infominer.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/images/infolytics/infominer-id-Performance-2019-05-24.csv&#34;&gt;infominer-id-Performance-2019-05-24.csv&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHub Pages-Starter Pack</title>
+      <link>https://infominer.id/web-work/posts/github-pages-starter-pack/</link>
+      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-pages-starter-pack/</guid>
+      <description>
+
+&lt;p&gt;Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).&lt;/p&gt;
+
+&lt;p&gt;Each feature you want to enable requires a little more learning, and GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer.&lt;/p&gt;
+
+&lt;p&gt;If you don’t want to think about web-development, and simply want your markdown files to look beautiful once published, github pages can help you do that too.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/mN5sBdg.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I first started playing around with GitHub to make an &lt;a href=&#34;https://github.com/infominer33/awesome-decentralized-id&#34;&gt;awesome-list&lt;/a&gt;, in November.&lt;/p&gt;
+
+&lt;p&gt;The number of technical subjects I&amp;rsquo;ve begun to learn, thanks to github, is incredible. Publishing via github-pages is really empowering.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/oin0Ir8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m just a newb that created this resource to help myself. It does take a lot of work to create bigger projects like, however it&amp;rsquo;s really simple to create a blog, or a homepage.&lt;/p&gt;
+
+&lt;p&gt;Corrections, suggestions, tips, and links would be all appreciated.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; this page is just for Jekyll\GHPages. I&amp;rsquo;m making new pages for the other stuff like &lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;static site generators besides jekyll&lt;/a&gt;, and &lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;content creation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Github pages runs Jekyll, which runs &lt;a href=&#34;https://kramdown.gettalong.org/quickref.html&#34;&gt;Kramdown&lt;/a&gt;, which can transform yaml, markdown, and a number of related languages into proper html.&lt;/p&gt;
+
+&lt;p&gt;Github pages can be used, like, 4 different ways. It’s versitile, but can be confusing.&lt;/p&gt;
+
+&lt;p&gt;The simplest way to use pages is to choose one of the &lt;a href=&#34;https://pages.github.com/themes/&#34; target=&#34;_blank&#34;&gt;official GitHub pages themes&lt;/a&gt;. Just go into your repository settings:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/sw4Iann.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All you really need to do is select a branch and it will begin publishing your repository. Then choose a method to publish. Brand-newbs go with the theme chooser.&lt;/p&gt;
+
+&lt;p&gt;The first repository for your web-page must be named like so: &lt;code&gt;username.github.io&lt;/code&gt;. For example, the repository for my personal page is called &lt;code&gt;infominer33.github.io&lt;/code&gt;.  Simply create a new repository, and if your github username is &lt;code&gt;@awesomesauce&lt;/code&gt; then you would create a new directory named &lt;code&gt;awesomesauce.github.io&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Every other repository you own can also be made into its own web-page, that will published off of your user page, with the same name following your domain. So if you have a repository called, &lt;code&gt;/Dynomite&lt;/code&gt; and you go into settings select pages to publish from the master branch, then that page will be found at &lt;code&gt;https://awesomesauce.github.io/Dynomite&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;so &lt;a href=&#34;https://github.com/infominer33/DIDecentralized&#34;&gt;github.com/infominer33/DIDecentralized&lt;/a&gt; is published at &lt;a href=&#34;https://infominer.id/DIDecentralized&#34;&gt;infominer.id/DIDecentralized&lt;/a&gt;, because I have a custom domain. But it can still be found at, &lt;a href=&#34;https://infominer.id/DIDecentralized&#34;&gt;infominer33.github.io/DIDecentralized&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;domains&#34;&gt;Domains&lt;/h3&gt;
+
+&lt;p&gt;Namecheap supports BTC purchases, so I&amp;rsquo;m including their github how-to here. If you know of other crypto-friendly domain providers, lmk in the issues.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/using-a-custom-domain-with-github-pages&#34;&gt;https://help.github.com/en/articles/using-a-custom-domain-with-github-pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a&#34;&gt;Using Custom Domain for Github Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages&#34;&gt;namecheap.com - how-do-i-link-my-domain-to-github-pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;If you used the theme chooser, all you need to do is edit README.md, and your page is built instantly when you save a commit to the repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create an index.md&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Although pages will build an index.html from your readme.md, pages will not behave as expected if you try to do any configuration or additional optimization with only readme.md.&lt;/p&gt;
+
+&lt;p&gt;in that index.md you need to include front matter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+layout: default
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There is a plugin that builds index files from all the readme.md files of your repository.. but it has trouble creating an index.html from your repositories primary README.md.&lt;/p&gt;
+
+&lt;h2 id=&#34;besides-the-theme-chooser&#34;&gt;Besides the Theme Chooser&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Remote Themes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is supposed to be the easy route, and makes it simpler to keep your source files up to date.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.blog/2017-11-29-use-any-theme-with-github-pages/&#34;&gt;github.blog/2017-11-29-use-any-theme-with-github-pages/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/benbalter/jekyll-remote-theme&#34;&gt;Jekyll Remote Theme&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;   plugins:
+     - jekyll-remote-theme
+
+   remote_theme: benbalter/retlab
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Essentially, if you&amp;rsquo;re just editing files on github, you should just add those lines to your _config.yml along w an index file and Jekyll should build your site.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;You can also run any Gem based theme from your page. Gem files are packages that contain all of the files necessary for building your site, and keep your repository directory un-cluttered. Then, if you want to change a file that&amp;rsquo;s in the gem, you just create the directory and pur the file where it goes, and configure as you wish.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/planetjekyll/awesome-jekyll-themes&#34;&gt;planetjekyll/awesome-jekyll-themes&lt;/a&gt;
+&amp;gt;Q: How can I get started with gem-packaged themes? / Do I need to package my theme into a gem?
+&amp;gt;
+&amp;gt;Gem-packaged themes are just an advanced option and in addition they are in development for (real world) experiments (e.g. think v0.1 as stated by the Ben Balter - the lead designer / manager / dev at GitHub).
+&amp;gt;
+&amp;gt;Thus, to conclude do NOT read too much into the official themes docs e.g. as the only or &amp;ldquo;right&amp;rdquo; way to design a theme. Just (continue to) use &amp;ldquo;classic&amp;rdquo; themes - there are hundreds to learn from and once you have mastered &amp;ldquo;classic&amp;rdquo; themes you can &amp;ldquo;graduate&amp;rdquo; to the master class, that is, using gem-packaged themes.&lt;br /&gt;
+&amp;gt;
+&amp;gt;I understand what they&amp;rsquo;re saying, but I feel kind of the opposite. I used the theme chooser and remote\gem themes to begin learning. Then again, I didn&amp;rsquo;t really understand my options when I started.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;These &lt;a href=&#34;#classic&#34;&gt;classic themes&lt;/a&gt; are just files and folders, everything where you can see it (and should be forkable to create working websites)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;moved&#34;&gt;Moved&lt;/h2&gt;
+
+&lt;p&gt;Running out of space on this page ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The following resources are specifically for github-pages\jekyll &lt;em&gt;compatible&lt;/em&gt; themes. Anything requiring a local build will now live on another page:&lt;/p&gt;
+
+&lt;h3 id=&#34;static-site-generators-other-than-jekyll&#34;&gt;Static Site Generators Other Than Jekyll&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34; class=&#34;btn btn-success&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;content-creation&#34;&gt;Content Creation&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34; class=&#34;btn btn-primary&#34;&gt;Content Creation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;fundamentals&#34;&gt;Fundamentals&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://lab.github.com/&#34; class=&#34;btn btn-info&#34;&gt;GitHub Learning Lab&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;markdown&#34;&gt;Markdown&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/quickref.html&#34;&gt;Kramdown - QuickRef Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34; target=&#34;_blank&#34;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.community/t5/GitHub-Pages/bd-p/pages&#34;&gt;Github Pages Community Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/versions/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://pages.github.com/versions/&#34;&gt;https://pages.github.com/versions/&lt;/a&gt;&lt;/a&gt; - These plugins can be used via gh-pages.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages&#34;&gt;Configuring a Publishing Source for GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/user-organization-and-project-pages&#34;&gt;help.github.com - User, Organization, and Project Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ragupappu.com/2015/04/22/setup-website-using-github-pages-and-jekyll/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://ragupappu.com/2015/04/22/setup-website-using-github-pages-and-jekyll/&#34;&gt;http://ragupappu.com/2015/04/22/setup-website-using-github-pages-and-jekyll/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll&#34; target=&#34;_blank&#34;&gt;Setting up You GitHub Pages Site Locally with Jekyll&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-3-Local-development-with/ba-p/2292&#34; target=&#34;_blank&#34;&gt;&amp;ndash; Local development with GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-4-Customizing-your-Pages/ba-p/4058&#34; target=&#34;_blank&#34;&gt;Getting started with GitHub Pages: Part 4 &amp;ndash; Customizing your Pages site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/&#34;&gt;Clearing Up Confusion around Baseurl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;jekyll&#34;&gt;Jekyll&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/gh-jekyll.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jekyll/jekyll/blob/master/README.markdown&#34; target=&#34;_blank&#34;&gt;Jekyll README&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/planetjekyll&#34; target=&#34;_blank&#34;&gt;planetjekyll&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/planetjekyll/awesome-jekyll&#34; target=&#34;_blank&#34;&gt;planetjekyll/awesome-jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://devhints.io/jekyll&#34; target=&#34;_blank&#34;&gt;Jekyll - Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://talk.jekyllrb.com/&#34;&gt;Jekyll Community Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/docs/pagination/&#34; target=&#34;_blank&#34;&gt;Jekyll - Pagination Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/tutorials/navigation/&#34; target=&#34;_blank&#34;&gt;Jekyll - Navigation Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiredcraft.com/blog/make-jekyll-fast&#34;&gt;https://wiredcraft.com/blog/make-jekyll-fast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&#34;&gt;Jekyll - Static Site Generator | Tutorial&lt;/a&gt;
+&amp;gt; This course covers the basics of using Jekyll - Static Site Generator. Work your way through the videos and we&amp;rsquo;ll teach you everything you need to know to create a professional and scalable website or blog!
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&#34;&gt;&lt;img src=&#34;https://i.imgur.com/IoU70pW.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://makandracards.com/makandra/9741-run-specific-version-of-bundler&#34;&gt;Run a Specific Version of Bundler&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can get older themes to work if you use the right verion of bundler (found in gemfile.lock).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/benbalter/jekyll-style-guide&#34;&gt;benbalter/jekyll-style-guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ll say now, if you are new to web-development, best to start off trying out a few of the &lt;a href=&#34;https://pages.github.com/themes/&#34;&gt;official GitHub Pages Themes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once installed, I cloned those repos locally so its easier to see how everything works. Then, if I want to configure a file that&amp;rsquo;s not in my repository, I have a copy nearby. You can grab the &lt;code&gt;_layouts/default.html&lt;/code&gt;, put it in your repo, and get a feel for how configuring that template shapes your entire site. But then you configure individual pages, and categories, perhaphs, to display differently.&lt;/p&gt;
+
+&lt;h3 id=&#34;finding-themes&#34;&gt;Finding Themes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/planetjekyll/awesome-jekyll-themes&#34; target=&#34;_blank&#34;&gt;planetjekyll/awesome-jekyll-themes&lt;/a&gt; (gem-based)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themes.jekyllrc.org/&#34;&gt;http://themes.jekyllrc.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webcache.googleusercontent.com/search?q=cache:http://talk.jekyllrb.com/t/jekyll-theme-showcase-share-your-jekyll-themes/1382&#34;&gt;jekyll-theme-showcase-share-your-jekyll-themes/1382&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://forked.yannick.io&#34;&gt;&lt;strong&gt;forked.yannick.io&lt;/strong&gt;&lt;/a&gt; - &lt;strong&gt;Find maintained forks of your favorite GitHub repos.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The problem is that all of these websites are not exactly up to date. Many of the themes listed above were written for older versions of Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Choosing a theme is very personal to your needs, also.&lt;/p&gt;
+
+&lt;h3 id=&#34;found-themes&#34;&gt;Found Themes&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m keeping track of themes that catch my eye:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://projectpages.github.io/project-pages/&#34;&gt;projectpages.github.io/project-pages/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/projectpages/project-pages/wiki&#34;&gt;project-pages/wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bradleytaunt/lightspeed&#34;&gt;bradleytaunt/lightspeed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pmarsceill.github.io/just-the-docs/&#34;&gt;Just the Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://era.yayd.in/jekyll-bulma/&#34;&gt;era.yayd.in/jekyll-bulma/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ndrewtl.github.io/airspace-jekyll/&#34;&gt;https://ndrewtl.github.io/airspace-jekyll/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ndrewtl/airspace-jekyll/&#34;&gt;ndrewtl/airspace-jekyll/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deanattali.com/beautiful-jekyll/&#34;&gt;deanattali.com/beautiful-jekyll/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/github/personal-website&#34;&gt;github/personal-website&lt;/a&gt;
+&amp;gt; Code that&amp;rsquo;ll help you kickstart a personal website that showcases your work as a software developer.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://idratherbewriting.com/documentation-theme-jekyll&#34;&gt;Documentation Theme Jekyll&lt;/a&gt;
+&lt;img src=&#34;https://imgur.com/7UjPtdAl.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;classic&#34;&gt;Classic&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drjekyllthemes.github.io&#34;&gt;drjekyllthemes.github.io&lt;/a&gt; (classic &amp;lsquo;files and folders&amp;rsquo;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/indieweb/blank-gh-site&#34;&gt;indieweb/blank-gh-site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ChristopherA/simplest-github-page&#34;&gt;ChristopherA/simplest-github-page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/prose/starter&#34;&gt;prose/starter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kinlane/beforeeighteen&#34;&gt;https://github.com/kinlane/beforeeighteen&lt;/a&gt; (template for presentation style pages.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hydejack&#34;&gt;Hydejack&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/3ZY5FI7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/qwtel/hydejack/&#34; target=&#34;_blank&#34;&gt;/qwtel/hydejack/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qwtel/hydejack-starter-kit&#34;&gt;/qwtel/hydejack-starter-kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hydejack.com/docs/print/&#34; target=&#34;_blank&#34;&gt;Hydejack Print Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nickengmann.com/Documentation.pdf&#34; target=&#34;_blank&#34;&gt;Hydejack Documentation.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qwtel/hydejack/blob/master/docs/advanced.md&#34; target=&#34;_blank&#34;&gt;Hydejack Advanced&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t want to think too much about web-development, try &lt;a href=&#34;https://hydejack.com&#34;&gt;Hydejack&lt;/a&gt;. It&amp;rsquo;s build with everything you need to create a beatiful responsive web-page, with plenty of options and configurations supported. It&amp;rsquo;s a free version of a more robust commercial option. But it&amp;rsquo;s easy to set up, and works great.&lt;/p&gt;
+
+&lt;p&gt;The only problem is that it is not open source. So it&amp;rsquo;s not 100% customizable. Then again, that keeps you from getting in and screwing things up. &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;minimal-mistakes&#34;&gt;Minimal Mistakes&lt;/h3&gt;
+
+&lt;p&gt;Minimal Mistakes is the most popular theme for Github Pages, and with good cause. It creates gorgeous web-sites right out the box, and with some fine tuning is beautiful indeed. You can find pretty much everything you need to run Minimal Mistakes in the Quickstart Guide, Sample Posts and Collections, along with their corresponding files on Github.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/&#34;&gt;minimal-mistakes/docs/quick-start-guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mmistakes.github.io/minimal-mistakes/year-archive/&#34;&gt;Sample Posts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mmistakes.github.io/minimal-mistakes/collection-archive/&#34;&gt;Sample Collections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/minimal-mistakes&#34;&gt;mmistakes/minimal-mistakes&lt;/a&gt;
+&lt;img src=&#34;https://i.imgur.com/Ua8hFx8.png&#34; alt=&#34;&#34; /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/mm-github-pages-starter&#34;&gt;Minimal Mistakes remote theme starter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/minimal-mistakes-algolia-search&#34;&gt;mmistakes/minimal-mistakes-algolia-search&lt;/a&gt; - reference if you have problems enabling search.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/jekyll-theme-unit-test&#34;&gt;mmistakes/jekyll-theme-unit-test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_data/navigation.yml&#34;&gt;Minimal Mistakes Navigation Examples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;other-themes-by-mmistakes-https-github-com-mmistakes&#34;&gt;Other themes by &lt;a href=&#34;https://github.com/mmistakes&#34;&gt;@mmistakes&lt;/a&gt;:&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ve just listed what repositories most fit my use cases, you might want to browse through his &lt;a href=&#34;https://github.com/mmistakes&#34;&gt;github portfolio&lt;/a&gt;, yourself.&lt;/p&gt;
+
+&lt;h4 id=&#34;made-mistakes&#34;&gt;Made Mistakes&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mademistakes.com/&#34;&gt;mademistakes.com&lt;/a&gt; -Michael Rose&amp;rsquo;s Homepage
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/made-mistakes-jekyll&#34;&gt;mmistakes/made-mistakes-jekyll&lt;/a&gt;
+&lt;img src=&#34;https://imgur.com/0yW4S0h.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;so-simple&#34;&gt;So Simple&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mmistakes.github.io/so-simple-theme/&#34;&gt;So Simple Theme&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/so-simple-theme&#34;&gt;mmistakes/so-simple-theme&lt;/a&gt;
+&lt;img src=&#34;https://imgur.com/uS54JQp.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;basically-basic&#34;&gt;Basically Basic&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mmistakes.github.io/jekyll-theme-basically-basic/&#34;&gt;Basically Basic&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/jekyll-theme-basically-basic&#34;&gt;mmistakes/jekyll-theme-basically-basic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/jekyll-theme-basically-basic-algolia-search&#34;&gt;mmistakes/jekyll-theme-basically-basic-algolia-search&lt;/a&gt;
+&lt;img src=&#34;https://imgur.com/OPflMe7.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;skinny-bones&#34;&gt;Skinny Bones&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mmistakes.github.io/skinny-bones-jekyll/&#34;&gt;Skinny Bones&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/skinny-bones-jekyll&#34;&gt;mmistakes/skinny-bones-jekyll&lt;/a&gt;
+&lt;img src=&#34;https://imgur.com/HKZKkfKl.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;hpstr&#34;&gt;Hpstr&lt;/h4&gt;
+
+&lt;p&gt;This site currently runs on Hpstr, but it is archived, and doesn&amp;rsquo;t support modern features of jekyll such as baseurl, nor can I get jekyll-redirect-from to work with it.&lt;/p&gt;
+
+&lt;p&gt;I will try migrating this to the Hugo port of this theme, which i believe is maintained. It&amp;rsquo;s been nice trying out though, and I&amp;rsquo;ve got a few I&amp;rsquo;d like to look at anyway.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mmistakes.github.io/hpstr-jekyll-theme/&#34;&gt;Hpstr&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mmistakes/hpstr-jekyll-theme&#34;&gt;mmistakes/hpstr-jekyll-theme&lt;/a&gt;
+&lt;img src=&#34;https://imgur.com/G9eWy3ol.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;h3 id=&#34;front-matter&#34;&gt;Front Matter&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;Front Matter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://simpleprimate.com/blog/front-matter&#34; target=&#34;_blank&#34;&gt;YAML front matter in Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial&#34; target=&#34;_blank&#34;&gt;YAML tutorial in the context of Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;layouts&#34;&gt;Layouts&lt;/h3&gt;
+
+&lt;p&gt;Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &amp;ldquo;single&amp;rdquo; and &amp;ldquo;page&amp;rdquo;. Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I&amp;rsquo;m also using the Home layout:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/ikX9wF6l.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/docs/step-by-step/04-layouts/&#34;&gt;https://jekyllrb.com/docs/step-by-step/04-layouts/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://idratherbewriting.com/documentation-theme-jekyll/tag_special_layouts.html&#34;&gt;documentation-theme-jekyll/tag_special_layouts.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;m wondering if I can move these documentation theme layouts, or even this post index from hpstr over to minimal-mistakes&amp;hellip; probably so&amp;hellip; except maybe there is custom css.. and I really haven&amp;rsquo;t taken the time to figure that out, yet.&lt;/p&gt;
+
+&lt;h3 id=&#34;collections&#34;&gt;Collections&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/docs/collections/&#34;&gt;https://jekyllrb.com/docs/collections/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stories.upthebuzzard.com/jekyll_notes/&#34;&gt;http://stories.upthebuzzard.com/jekyll_notes/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://stories.upthebuzzard.com/jekyll_notes/2017-02-15-using-jekyll-collections.html&#34;&gt;using-jekyll-collections.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-prev-and-next-within-a-jekyll-collection.html&#34;&gt;prev-and-next-within-a-jekyll-collection.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-sort-order-of-jekyll-collections.html&#34;&gt;sort-order-of-jekyll-collections.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-accessing-jekyll-collection-details-from-a-post.html&#34;&gt;accessing-jekyll-collection-details-from-a-post.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;plugins&#34;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/docs/plugins/installation/&#34; target=&#34;_blank&#34;&gt;jekyllrb.com/docs/plugins/installation/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/planetjekyll/awesome-jekyll-plugins&#34; target=&#34;_blank&#34;&gt;planetjekyll/awesome-jekyll-plugins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://keith-mifsud.me/projects/jekyll-target-blank&#34;&gt;Jekyll-Target-Blank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jekyll/jekyll-mentions/&#34;&gt;https://github.com/jekyll/jekyll-mentions/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jekyll/jemoji&#34;&gt;Github Flavored Emoji for Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/adding-jekyll-plugins-to-a-github-pages-site&#34; target=&#34;_blank&#34;&gt;Adding Jekyll Plugins to a GitHub Pages Site - help.github.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/creating-a-custom-404-page-for-your-github-pages-site&#34; target=&#34;_blank&#34;&gt;Creating Custom 404 page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/delftswa2014/jekyll/commit/e109555aa0533148c53200e63d1e60a3acf67e74&#34;&gt;Implemented the &amp;ldquo;Edit this page&amp;rdquo; feature. jekyll#3495&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/redirects-on-github-pages&#34; target=&#34;_blank&#34;&gt;Jekyll Redirect Plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Use &lt;code&gt;redirect_from: internal/url&lt;/code&gt; to change the location you are publishing, but keep old links.
+Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors somewhere else (perhaps you want it to live on another site, but not lose your valuable links :)
+{: .notice&amp;ndash;info}&lt;/p&gt;
+
+&lt;h2 id=&#34;other-customizations&#34;&gt;Other Customizations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://digitaldrummerj.me/categories/jekyll/&#34;&gt;digitaldrummerj.me/categories/jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mycyberuniverse.com/social-media-share-bar-jekyll-blog-website.html&#34;&gt;Social Media Share Bar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://digitaldrummerj.me/jekyll-validating-links-and-images/&#34;&gt;Validating Links and Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://longqian.me/&#34;&gt;longqian.me/&lt;/a&gt; -Metamask Donation Button.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://superdevresources.com/share-buttons-jekyll/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://superdevresources.com/share-buttons-jekyll/&#34;&gt;https://superdevresources.com/share-buttons-jekyll/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gist-it.appspot.com/&#34;&gt;Embed files from a github repository onto your page.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7&#34;&gt;Redirecting GitHub Pages after a repository move&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sitepoint.com/hacking-routing-component-jekyll/&#34;&gt;hacking-routing-component-jekyll/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/&#34;&gt;How-to-build-a-lowtech-website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://artsy.github.io/blog/2017/07/15/Comments-are-on/&#34;&gt;Github Issues for Blog Comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/orta/gh-commentify&#34;&gt;A repo you can use to work-around GH issue comment request limmits.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://darekkay.com/blog/static-site-comments/&#34;&gt;Various ways you can add comments to your static site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/damieng/jekyll-blog-comments&#34;&gt;Add comments to your jekyll powered blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.flyinggrizzly.net/2017/12/setting-up-staticman-server/&#34;&gt;Setting up Staticman Server&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edwinwenink.xyz/posts/18-comments/&#34;&gt;new feature! added comments to this &lt;em&gt;static&lt;/em&gt; website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mademistakes.com/articles/jekyll-static-comments/&#34;&gt;https://mademistakes.com/articles/jekyll-static-comments/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mademistakes.com/articles/improving-jekyll-static-comments/&#34;&gt;https://mademistakes.com/articles/improving-jekyll-static-comments/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;search&#34;&gt;Search&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.omc.io/elasticsearch-for-jekyll-part-1-ab456ac7c093&#34;&gt;Elasticsearch for Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://digitaldrummerj.me/blogging-on-github-part-7-adding-a-custom-google-search/&#34;&gt;Adding Custom Google Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/algolia/jekyll-algolia&#34;&gt;github.com/algolia/jekyll-algolia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://community.algolia.com/jekyll-algolia/blog.html&#34;&gt;community.algolia.com/jekyll-algolia/blog.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.algolia.com/doc/&#34;&gt;https://www.algolia.com/doc/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;seo&#34;&gt;SEO&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeburst.io/use-jekyll-like-a-pro-improving-seo-c8cfb81781b7&#34;&gt;Use Jekyll like a pro: Improving SEO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;jekyll-seo-tag&#34;&gt;Jekyll-SEO-Tag&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/search-engine-optimization-for-github-pages&#34; target=&#34;_blank&#34;&gt;Search Engine Optimization for Github Pages - help.github.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jekyll/jekyll-seo-tag&#34; target=&#34;_blank&#34;&gt;/jekyll/jekyll-seo-tag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pmarsceill/jekyll-seo-gem&#34; target=&#34;_blank&#34;&gt;/pmarsceill/jekyll-seo-gem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/meedan/meedan.code/commit/a9ad6e794fffd35035aa7e5bfb1200a34fe0e479&#34; target=&#34;_blank&#34;&gt;Override default jekyll-seo-tag template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.webjeda.com/optimize-jekyll-seo/&#34; target=&#34;_blank&#34;&gt;Tips to Optimize Jekyll SEO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.webjeda.com/optimize-jekyll-seo/#6-open-graph-and-twitter-cards-in-jekyll&#34;&gt;blog.webjeda.com/optimize-jekyll-seo/#6-open-graph-and-twitter-cards-in-jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;open-graph-favicons-and-more&#34;&gt;Open Graph - Favicons and More&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://warfareplugins.com/open-graph-tags-twitter-cards-rich-pins/&#34; target=&#34;_blank&#34;&gt;Open Graph Tags, Twitter Cards, Rich Pins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/discordapp/comments/82p8i6/a_basic_tutorial_on_how_to_get_the_most_out_of/&#34; target=&#34;_blank&#34;&gt;A basic tutorial on &amp;ldquo;How to get the most out of embeds?&amp;rdquo; for a discord-friendly website!&lt;/a&gt; (supports og values)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://discordapp.com/developers/docs/resources/channel#embed-limits&#34; target=&#34;_blank&#34;&gt;discordapp.com/developers/docs/resources/channel#embed-limits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://iframely.com/debug&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://iframely.com/debug&#34;&gt;https://iframely.com/debug&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://realfavicongenerator.net&#34;&gt;realfavicongenerator.net&lt;/a&gt;
+&amp;gt; The strict minimum for the master picture is 70x70. Your picture is 225x225, which is ok. However, it is recommended to use a picture of at least 260x260. If you still want to use your picture, some of the derivated favicons will not be generated, such as the high resolution tile for Windows 8 / IE 11.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ogp.me&#34; target=&#34;_blank&#34;&gt;ogp.me&lt;/a&gt; - Open Graph Webpage (really good resource for Facebook and beyond. great links at bottom.)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/search/docs/data-types/breadcrumb&#34;&gt;developers.google.com - Breadcrumbs&lt;/a&gt;
+&lt;img src=&#34;https://i.imgur.com/TWbbVhn.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/search/docs/guides/enhance-site&#34;&gt;Googles guide to enhancing your site&amp;rsquo;s metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cards-dev.twitter.com/validator&#34; target=&#34;_blank&#34;&gt;Twitter Card Validator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards&#34; target=&#34;_blank&#34;&gt;About Cards - developer.twitter.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jekyll/jekyll-mentions/&#34;&gt;https://github.com/jekyll/jekyll-mentions/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;bug-testing&#34;&gt;Bug Testing&lt;/h2&gt;
+
+&lt;p&gt;Buidling your site locally is the best way to figure out why it&amp;rsquo;s not publishing correctly via GitHub.&lt;/p&gt;
+
+&lt;p&gt;You must set up your gemfile specifically for each theme.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bundler.io/&#34;&gt;Install bundler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;then prepare bundler for your project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; bundle update
+
+ bundle install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Build gives an error message if the build fails&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; bundle exec jekyll build
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Serve builds and &amp;ldquo;serves&amp;rdquo; a local browsable copy&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; bundle exec jekyll serve
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Trace gives details on errors (but won&amp;rsquo;t always show your problem)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; bundle exec jekyll build --trace
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Verbose&amp;hellip; you get the idea.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; bundle exec jekyll build --verbose
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;proofers&#34;&gt;Proofers&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gjtorikian/html-proofer&#34;&gt;gjtorikian/html-proofer&lt;/a&gt; - you got broken links bruh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;linters&#34;&gt;Linters&lt;/h3&gt;
+
+&lt;p&gt;coming soon&amp;hellip;.&lt;/p&gt;
+
+&lt;h2 id=&#34;technical-deets&#34;&gt;Technical Deets&lt;/h2&gt;
+
+&lt;h3 id=&#34;html-css&#34;&gt;HTML - CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://htmldog.com/guides/html/beginner/&#34; target=&#34;_blank&#34;&gt;htmldog.com - HTML5 and CSS Beginner Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/w3css/w3css_sidebar.asp&#34; target=&#34;_blank&#34;&gt;/w3css/w3css_sidebar.asp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript&#34; target=&#34;_blank&#34;&gt;The_web_standards&lt;em&gt;model&lt;/em&gt;-_HTML_CSS_and_JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn&#34; target=&#34;_blank&#34;&gt;Learn web development - developer.mozilla.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codepen.io/maziarzamani/pen/eJKGvj&#34; target=&#34;_blank&#34;&gt;Flat CSS Sidebar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&#34; target=&#34;_blank&#34;&gt;The Head - Metadata in HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://metatags.io&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://metatags.io&#34;&gt;https://metatags.io&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://htmlcolorcodes.com/color-chart/&#34;&gt;https://htmlcolorcodes.com/color-chart/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dbushell.com/2016/03/04/css-only-responsive-tables/&#34;&gt;rtable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs&#34; target=&#34;_blank&#34;&gt;unicode-table.com/#miscellaneous-symbols-and-pictographs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://khan.github.io/KaTeX/&#34;&gt;katex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0&#34;&gt;Viewport and Media Queries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;kramdown&#34;&gt;Kramdown&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/&#34; target=&#34;_blank&#34;&gt;kramdown.gettalong.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/syntax.html&#34;&gt;Kramdown - Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;liquid&#34;&gt;Liquid&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/jMtd9WR.png&#34;/&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://shopify.github.io/liquid/tags/control-flow/&#34;&gt;shopify.github.io/liquid/tags/control-flow/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/&#34; target=&#34;_blank&#34;&gt;Jekyll Variables and Liquid Template Tags-Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.cloudcannon.com/jekyll/introduction-to-liquid/&#34; target=&#34;_blank&#34;&gt;Introduction to Liquid for Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34;&gt;https://blog.webjeda.com/jekyll-liquid/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/davfre/8313299&#34; target=&#34;_blank&#34;&gt;davfre/git_cheat-sheet.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34;&gt;education.github.com - GIT CHEAT SHEET&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chris.beams.io/posts/git-commit/&#34; target=&#34;_blank&#34;&gt;Writing Effective Commits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34;&gt;www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md&#34;&gt;Git CheetSheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes&#34;&gt;Working with Remotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/managing-commit-signature-verification&#34;&gt;managing-commit-signature-verification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mnyrop/swc-materials/blob/master/git.md&#34;&gt;mnyrop/swc-materials/blob/master/git.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Submodules&#34;&gt;Git-Tools-Submodules&lt;/a&gt; - so you can pull other git repos into your project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ssh&#34;&gt;SSH&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/connecting-to-github-with-ssh&#34; target=&#34;_blank&#34;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&#34; target=&#34;_blank&#34;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&#34; target=&#34;_blank&#34;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&#34; target=&#34;_blank&#34;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mademistakes.com/notes/static-files/&#34;&gt;https://mademistakes.com/notes/static-files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/docs/datafiles/&#34;&gt;jekyllrb.com/docs/datafiles/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ashmaroli/jekyll-data&#34;&gt;https://github.com/ashmaroli/jekyll-data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://community.airtable.com/t/how-to-easily-use-airtable-data-in-jekyll/3925&#34;&gt;how-to-easily-use-airtable-data-in-jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mnyrop/pagemaster&#34;&gt;mnyrop/pagemaster&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minicomp.github.io/wax/reuse/&#34;&gt;https://minicomp.github.io/wax/reuse/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://marii.info/wax_docs/&#34;&gt;http://marii.info/wax_docs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://marii.info/annotate/&#34;&gt;http://marii.info/annotate/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linode.com/docs/applications/project-management/jupyter-notebook-on-jekyll/&#34;&gt;project-management/jupyter-notebook-on-jekyll/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.chenhuijing.com/blog/managing-data-with-jekyll/&#34;&gt;managing-data-with-jekyll/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/18F/jekyll-get&#34;&gt;18F/jekyll-get&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fabian-kostadinov.github.io/2015/02/04/how-i-created-a-simple-dbms-using-github-jekyll-prose-and-heroku/&#34;&gt;how-i-created-a-simple-dbms-using-github-jekyll-prose-and-heroku/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://contrafabulists-lessons.github.io/google-sheet-to-github-website/&#34;&gt;contrafabulists-lessons.github.io/google-sheet-to-github-website/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackernoon.com/execute-millions-of-sql-statements-in-milliseconds-in-the-browser-with-webassembly-and-web-workers-3e0b25c3f1a6&#34;&gt;execute-millions-of-sql-statements-in-milliseconds-in-the-browser-with-webassembly-and-web-workers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.blog/2012-06-12-github-data-challenge-winners/&#34;&gt;https://github.blog/2012-06-12-github-data-challenge-winners/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;json&#34;&gt;JSON&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://natelandau.com/a-json-feed-for-jekyll/&#34;&gt;A JSON content feed for Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cagrimmett.com/til/2016/05/20/json-output-in-jekyll.html&#34;&gt;Counting and JSON output in Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/16889512/jekyll-convert-full-yaml-front-matter-to-xml-json&#34;&gt;Jekyll — Convert Full YAML Front-matter to XML/JSON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mrcoles.com/inlining-json-jekyll-liquid-template/&#34;&gt;Inlining JSON in a Jekyll Liquid Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techiediaries.com/how-to-use-jekyll-like-a-pro-output-data-as-json/&#34;&gt;Jekyll JSON API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://json-feed-viewer.herokuapp.com/feed/?url=https%3A%2F%2Fndarville.com%2Ffeed.json&#34;&gt;JSON Feed Viewer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;automation&#34;&gt;Automation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://alternativeto.net/software/heroku/?license=free&#34;&gt;alternativeto.net/software/heroku/?license=free&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.enigma.com/blog/integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll&#34;&gt;integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/benbalter/jekyllbot&#34;&gt;benbalter/jekyllbot&lt;/a&gt; - Listens for GitHub post-recieve service hooks messages, runs jekyll, and pushes the results back to GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webrender.net/2017/11/23/automate-github-pages-ifttt-glitch.html&#34;&gt;automate-github-pages-ifttt-glitch.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;api-evangelist&#34;&gt;API Evangelist&lt;/h3&gt;
+
+&lt;p&gt;Not sure how much of this is useful, but I&amp;rsquo;ll save for further examination.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dzone.com/articles/simple-apis-with-jekyll-and-github-with-data-manag&#34;&gt;simple-apis-with-jekyll-and-github-with-data-manag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apievangelist.com/2016/09/19/providing-yaml-driven-xml-json-and-atom-using-jekyll-and-github/&#34;&gt;providing-yaml-driven-xml-json-and-atom-using-jekyll-and-github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kinlane.com/2016/10/11/google-spreadsheet-to-yaml-on-jekyll/&#34;&gt;google-spreadsheet-to-yaml-on-jekyll/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kinlane.com/2016/08/15/using-github-repos-and-jekyll-as-a-data-store/&#34;&gt;using-github-repos-and-jekyll-as-a-data-store/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kinlane.github.io/github-micro-tool/&#34;&gt;kinlane.github.io/github-micro-tool/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://openapi.toolbox.apievangelist.com/documentation/&#34;&gt;openapi.toolbox.apievangelist.com/documentation/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kinlane.github.io/what-is-openapi/&#34;&gt;kinlane.github.io/what-is-openapi/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/&#34;&gt;d3js-visualizations-using-yaml-and-jekyll/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kinlane/OpenAPI-Specification&#34;&gt;https://github.com/kinlane/OpenAPI-Specification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;indieweb&#34;&gt;Indieweb&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://infominer.id/indieweb&#34; class=&#34;btn btn-success&#34;&gt;infominer.id/indieweb&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org&#34;&gt;indieweb.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/Micropub&#34;&gt;Micropub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/IndieAuth&#34;&gt;IndieAuth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.growdigital.org/posts/static-site-generators-the-indieweb/&#34;&gt;Static Site Generators &amp;amp; the IndieWeb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wordius.com/jekyll-and-the-indieweb/&#34;&gt;Jekyll and the Indieweb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vincentp.me/articles/2018/11/14/20-00/&#34;&gt;Implementing the Indieweb on a static website&lt;/a&gt; - Sending and receiving Webmentions and Micropub on a static site&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/voxpelli/webpage-micropub-to-github/&#34;&gt;voxpelli/webpage-micropub-to-github/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

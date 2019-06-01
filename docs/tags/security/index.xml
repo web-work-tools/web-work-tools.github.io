@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webwork.tools: Independent Web-Work and Skyscraper Publishing.</title>
+    <link>https://infominer.id/web-work/tags/security/index.xml</link>
+    <description>Recent content on Webwork.tools: Independent Web-Work and Skyscraper Publishing.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://infominer.id/web-work/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using PGP and Cryptocurrency Keysignatures</title>
+      <link>https://infominer.id/web-work/posts/practical-public-key-crypto/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/practical-public-key-crypto/</guid>
+      <description>
+
+&lt;p&gt;&amp;ldquo;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I created this resource while researching the following article:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://freelanceforcoins.com/article/6-escrow&#34;&gt;freelanceforcoins.com/&lt;strong&gt;Business with Crypto 101—Escrow and Key Signatures&lt;/strong&gt;&lt;/a&gt; -infominer
+&amp;gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/gnu-pgp-thumb.png&#34; alt=&#34;[](https://infominer.id/web-work/images/Cover50.png)&#34; /&gt;{: .align-left}&lt;/p&gt;
+
+&lt;h2 id=&#34;phil-zimmerman&#34;&gt;Phil Zimmerman&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html&#34;&gt;Why I Wrote PGP -Part of the Original 1991 PGP User&amp;rsquo;s Guide&lt;/a&gt;
+&amp;gt;It&amp;rsquo;s personal. It&amp;rsquo;s private. And it&amp;rsquo;s no one&amp;rsquo;s business but yours. You may be planning a political campaign, discussing your taxes, or having a secret romance. Or you may be communicating with a political dissident in a repressive country. Whatever it is, you don&amp;rsquo;t want your private electronic mail (email) or confidential documents read by anyone else. There&amp;rsquo;s nothing wrong with asserting your privacy. Privacy is as apple-pie as the Constitution.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wired.com/1993/02/crypto-rebels/&#34;&gt;https://www.wired.com/1993/02/crypto-rebels/&lt;/a&gt;
+&lt;a href=&#34;https://www.wired.com/1993/02/crypto-rebels/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/kzOMg4o.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cryptoanarchy.wiki/events/90s-crypto-wars&#34;&gt;Crypto Wars, Phil Zimmermann and PGP&lt;/a&gt;
+&amp;gt; Phil Zimmermann was a key player in this period. The PGP software he authored was considered as munitions by the US government and subject to export licenses. The US government at this time was keen to avoid strong crypto falling into the hands of civilians and foreign governments. At this time the US government was also pushing for specialised key-escrowed chips that would perform encryption, but make the plaintext readable to NSA if necessary. This was rightly considered a gross violation of privacy, rights, and a huge security hole by the cypherpunks.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techrepublic.com/article/defending-the-last-missing-pixels-phil-zimmermann/&#34;&gt;Defending the last missing pixels: Phil Zimmermann speaks out on encryption, privacy, and avoiding a surveillance state&lt;/a&gt;
+&amp;gt;Since writing the PGP encryption software in the 1990s, Phil Zimmermann has been a key figure in the internet privacy debate. With that argument heating up again, his perspective is more relevant than ever.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/bitcoin-history/before-bitcoin/cypherpunks/&#34;&gt;infominer.id/bitcoin-history/before-bitcoin/cypherpunks/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://motherboard.vice.com/en_us/article/vvbw9a/even-the-inventor-of-pgp-doesnt-use-pgp&#34;&gt;Even the Inventor of PGP Doesn’t Use PGP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;pgp-for-newbs-and-beyond&#34;&gt;PGP for Newbs and Beyond&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/bitcoin-history/assets/img/pgp-og.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://howtopgp.jugendhackt.de/#/&#34;&gt;How-To-PGP&lt;/a&gt;
+&amp;gt;With this interactiv instruction we want to explain you, how to encrypt your e-mails with PGP to protect your communication and help stopping mass surveillance.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://emailselfdefense.fsf.org/en&#34;&gt;EMAIL SELF-DEFENSE&lt;/a&gt; - &amp;ldquo;Learn GnuPG in 30 Minutes&amp;rdquo;
+&amp;gt; &lt;img src=&#34;https://i.imgur.com/danqZLd.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages&#34;&gt;How To Use GPG to Encrypt and Sign Messages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://irtfweb.ifa.hawaii.edu/~lockhart/gpg/&#34;&gt;Quick&amp;rsquo;n easy gpg cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@acparas/gpg-quickstart-guide-d01f005ca99&#34;&gt;GPG Quickstart Guide 🔒&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://futureboy.us/pgp.html&#34;&gt;GPG Tutorial and PGP Public Key for ∀lan ∃liasen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://moser-isi.ethz.ch/gpg.html&#34;&gt;GnuPG for Daily Use (a Mini How-To&amp;hellip;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ttmm.io/tech/yubikey/&#34;&gt;Configuring Yubikeys, GPG, and Keybase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://petertodd.org/2016/opentimestamps-git-integration&#34;&gt;Solving the PGP Revocation Problem with OpenTimestamps for Git Commits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ssh&#34;&gt;SSH&lt;/h3&gt;
+
+&lt;p&gt;Another form of public key encryption, allows you to remotely connect to a server, without typing in your user\name password.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/connecting-to-github-with-ssh&#34; target=&#34;_blank&#34;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&#34; target=&#34;_blank&#34;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&#34; target=&#34;_blank&#34;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&#34; target=&#34;_blank&#34;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Signing Commits
+* &lt;a href=&#34;https://help.github.com/en/articles/managing-commit-signature-verification&#34;&gt;managing-commit-signature-verification&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;protonmail&#34;&gt;Protonmail&lt;/h2&gt;
+
+&lt;p&gt;Has built in support for PGP for your e-mails&amp;hellip; but doesn&amp;rsquo;t make it super easy to verify messages from outside.&lt;/p&gt;
+
+&lt;p&gt;Somehow you can use PGP with non-protonmail users.. but I haven&amp;rsquo;t figured it out, yet.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://protonmail.com/support/knowledge-base/how-to-use-pgp/&#34;&gt;https://protonmail.com/support/knowledge-base/how-to-use-pgp/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It&amp;rsquo;s really super to use Protonmail and I&amp;rsquo;ll recommend it to anyone.&lt;/p&gt;
+
+&lt;h2 id=&#34;verifying-pgp-signatures&#34;&gt;Verifying PGP Signatures&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/how-to-verify-your-downloaded-files-are-authentic/&#34;&gt;HOW TO VERIFY YOUR DOWNLOADED FILES ARE AUTHENTIC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/verifying-signed-messages-with-signatures-and-signing-your-own-messages/&#34;&gt;VERIFYING SIGNED MESSAGES WITH SIGNATURES AND SIGNING YOUR OWN MESSAGES&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;gpg --import singing_key.pub
+gpg --verify signed_file.sig
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;bitcoin-and-ethereum-signatures&#34;&gt;Bitcoin and Ethereum Signatures&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cryptocompare.com/wallets/guides/how-do-digital-signatures-in-bitcoin-work/&#34;&gt;How do digital signatures in Bitcoin work?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@vinczhain/signing-a-message-from-your-ethereum-wallet-with-myetherwallet-cfef7acd6f6d&#34;&gt;Signing a message from your Ethereum wallet with MyEtherWallet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;keybase&#34;&gt;Keybase&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/YJAJSU6.png&#34; alt=&#34;&#34; /&gt;
+* &lt;a href=&#34;https://keybase.io/&#34;&gt;https://keybase.io/&lt;/a&gt;
+  &amp;gt;Keybase is a new and free security app for mobile phones and computers. For the geeks among us: it&amp;rsquo;s open source and powered by public-key cryptography.&lt;br&gt;
+  &amp;gt;
+  &amp;gt;Keybase is for anyone. Imagine a Slack for the whole world, except end-to-end encrypted across all your devices. Or a Team Dropbox where the server can&amp;rsquo;t leak your files or be hacked.
+* &lt;a href=&#34;https://www.andreagrandi.it/2017/10/21/keybase-pgp-encryption-made-easy/&#34;&gt;Keybase - PGP Encryption made Easy&lt;/a&gt;
+* &lt;a href=&#34;https://keybase.io/docs/command_line&#34;&gt;https://keybase.io/docs/command_line&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;deepdotweb&#34;&gt;deepdotweb&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/about-deepdotweb/&#34;&gt;About DeepDotWeb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We established DeepDotWeb in the wake of our friend being arrested by local authorities, for buying drugs from the original Silk Road marketplace. Our aim is make information about dark net markets accessible to everyone, as well as making the dark net safer by reporting on security risks, scams and operations conducted by law enforcement.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/&#34;&gt;Jolly Roger’s Security Guide for Beginners&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgp-tails-virtual-box/&#34;&gt;PGP, TAILS, VIRTUAL BOX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgp-continued/&#34;&gt;PGP CONTINUED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/obtaining-sending-and-receiving-bitcoins-anonymously/&#34;&gt;OBTAINING, SENDING AND RECEIVING BITCOINS ANONYMOUSLY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgpgpg-email-addresses/&#34;&gt;PGP/GPG Email Addresses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/pgp-tutorial-for-newbs-gpg4win/&#34;&gt;PGP Tutorial For Newbs (GPA - Gpg4Win)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/pgp-tutorial-for-windows-kleopatra-gpg4win/&#34;&gt;PGP Tutorial For Newbs (Kleopatra - Gpg4Win)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/pgp-tutorial-for-newbs-gpg4usb/&#34;&gt;PGP Tutorial For Newbs Gpg4usb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/basic-guide-pgp-linux/&#34;&gt;Basic Guide to PGP On Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gir.pub/deepdotweb/pgp-tutorial-os-x/&#34;&gt;PGP Tutorial for OSX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;escrow-services&#34;&gt;Escrow Services&lt;/h2&gt;
+
+&lt;p&gt;Escrow Agents are impartial and trusted intermediaries who hold custody of buyer&amp;rsquo;s funds until pre-defined conditions are met. They allow parties who don&amp;rsquo;t know or trust each-other to engage in commerce, online.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bitrated.com/&#34;&gt;Bitrated.com&lt;/a&gt;
+&amp;gt;Using multi-signature ensures that the trust agent never has full control over the funds and cannot take them to himself. In addition, when everything goes well, the funds can be released with no intervention by the trust agent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt; Launched in 2013, Bitrated was the first multi-signature application ever released to the public. Bitrated is operated from Israel and was founded by Nadav Ivgi, a software developer and a long time Bitcoin enthusiast.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jobs4btc-escrow.appspot.com/&#34;&gt;jobs4btc-escrow.appspot.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Traffic on the Jobs4Bitcoins subreddit is picking up, and with it, the number of transactions with anonymous strangers around the internet. One thing that is sorely needed is a simple, trusted escrow system through which to have secure trades of work for bitcoin.&lt;/p&gt;
+
+&lt;p&gt;Commissioned by the admin of the subreddit, /u/matthew_boyd, this app attempts to fill that hole, by providing the service of trusted escrow for a small fee.&lt;/p&gt;
+
+&lt;p&gt;When some work is uploaded, a community-trusted programmer will check through it, to make sure that the project has been successfully completed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;discord&#34;&gt;Discord&lt;/h3&gt;
+
+&lt;p&gt;Yes you can even &amp;ldquo;unofficially&amp;rdquo; get encypted chat for discord&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/leogx9r/DiscordCrypt&#34;&gt;leogx9r/DiscordCrypt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bitcointalk-escrow&#34;&gt;BitcoinTalk Escrow&lt;/h3&gt;
+
+&lt;p&gt;These seem to be the currently active bitcointalk threads.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Financisto: &lt;a href=&#34;https://bitcointalk.org/index.php?topic=276897.0;all&#34;&gt;⛓LIST⛓ BitcoinTalk&amp;rsquo;s Escrow Providers: Ranking &amp;amp; Blacklist ☠ Avoid Scammers ☠&lt;/a&gt; - &lt;strong&gt;(Started `13 — Updated &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;18&lt;/sub&gt;)&lt;/strong&gt;
+&lt;img src=&#34;https://image.ibb.co/fbhMLU/escrow.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;hedgy73: &lt;a href=&#34;https://bitcointalk.org/index.php?topic=2439910.0&#34;&gt;Recommended bitcointalk escrow services&lt;/a&gt; - &lt;strong&gt;(Started &lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;17&lt;/sub&gt; — Updated &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;18&lt;/sub&gt;)&lt;/strong&gt;
+&lt;img src=&#34;https://i.imgur.com/EvuQwxN.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitcointalk.org/index.php?topic=5116510.0&#34;&gt;Escrow for anything via discord by Dream (fpga channel mod)
+March 03, 2019&lt;/a&gt;
+&lt;img src=&#34;https://i.imgur.com/DvuqyGh.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;apps&#34;&gt;Apps&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/henryboldi/felony&#34;&gt;henryboldi/felony&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/romanz/trezor-agent&#34;&gt;romanz/trezor-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mapmeld/profanity-pgp&#34;&gt;mapmeld/profanity-pgp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jedisct1/minisign&#34;&gt;jedisct1/minisign&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://encrypt.to/&#34;&gt;encrypt.to&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://metachat.app/&#34;&gt;metachat.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Steven-Ireland/ethmail.tech&#34;&gt;Steven-Ireland/ethmail.tech&lt;/a&gt; - PGP\Ethereum Powered Distributed E-mail&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jens-maus/yam&#34;&gt;mailbox_with_mail YAM (short for &amp;lsquo;Yet Another Mailer&amp;rsquo;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nurupo/paper-store&#34;&gt;nurupo/paper-store&lt;/a&gt; - Cold store small files on paper as QR codes &amp;ndash; PGP keys, Bitcoin keys, Tox keys or any other small files in general.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mozilla/sops&#34;&gt;mozilla/sops&lt;/a&gt; - Secrets management stinks, use some sops!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CyPurr-Collective/cryptoparty-presentation&#34;&gt;CyPurr-Collective/cryptoparty-presentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://modernpgp.github.io/about/&#34;&gt;modernpgp.github.io/about/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jonathancross/jc-docs&#34;&gt;Documentation and Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ModernPGP/icons&#34;&gt;ModernPGP/icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://emailselfdefense.fsf.org/en&#34;&gt;EMAIL SELF-DEFENSE&lt;/a&gt; - &amp;ldquo;Learn GnuPG in 30 Minutes&amp;rdquo;
+&amp;gt;In addition to using encryption, standing up to surveillance requires fighting politically for a reduction in the amount of data collected on us, but the essential first step is to protect yourself and make surveillance of your communication as difficult as possible. This guide helps you do that. It is designed for beginners, but if you already know the basics of GnuPG or are an experienced free software user, you&amp;rsquo;ll enjoy the advanced tips and the guide to teaching your friends.
+&lt;img src=&#34;https://static.fsf.org/nosvn/enc-dev0/img/en/full-infographic.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
