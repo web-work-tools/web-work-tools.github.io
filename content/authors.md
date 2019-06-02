@@ -3,7 +3,7 @@ title: "Authors"
 date: 2018-10-01T08:00:00-04:00
 draft: false
 categories: ["meta"]
-tags: ["options"]
+tags: ["options", "indieweb","hugo","front matter"]
 menu: "main"
 ---
 
