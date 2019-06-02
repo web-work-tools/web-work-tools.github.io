@@ -29,8 +29,7 @@ If you don’t want to think about web-development, and simply want your markdow
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
-      <description>Continued from Github Pages Starter Pack.
-Setup Front Matter  Front Matter YAML front matter in Jekyll YAML tutorial in the context of Jekyll  Layouts Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &amp;ldquo;single&amp;rdquo; and &amp;ldquo;page&amp;rdquo;. Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I&amp;rsquo;m also using the Home layout:</description>
+      <description>Continued from Github Pages Starter Pack.  Setup Front Matter  Front Matter YAML front matter in Jekyll YAML tutorial in the context of Jekyll  Layouts Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &amp;ldquo;single&amp;rdquo; and &amp;ldquo;page&amp;rdquo;. Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I&amp;rsquo;m also using the Home layout:</description>
     </item>
     
   </channel>
