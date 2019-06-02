@@ -2,7 +2,6 @@
 type: post
 title: "GitHub Pages-Extended Resources"
 description: "Publishing a Website via GitHub pages is free, and easy. Everything you need to publish in one place."
-
 tags: [jekyll, github-pages, resources, web-publishing]
 date: 2019-02-24
 aliases:
@@ -12,9 +11,9 @@ image:
 
 ---
 
-![](/images/github-pages-extended-resources.png)
+![](https://infominer.id/web-work/images/github-pages-extended-resources.png)
 
-Continued from [Github Pages Starter Pack](/github-pages-starter-pack/).
+* Continued from [**Github Pages Starter Pack**](/github-pages-starter-pack/).
 
 ## Setup
 
