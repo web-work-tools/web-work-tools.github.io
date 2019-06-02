@@ -1188,19 +1188,28 @@ topics:
 
 &lt;p&gt;One project I&amp;rsquo;m hoping to find a buyer for is a series of articles on the history leading to Bitcoin.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Rough Outline&lt;/strong&gt;
-* History of Cryptography:
-  * Public Key Encryption (currently only available in books)
-  * Hash Algorithms
-* Distributed Systems \ Consensus
-* History of Cypherpunks
-  * History of p2p networking (&lt;strong&gt;commissioned&lt;/strong&gt;)
-* History of open source
-* History of The Federal Reserve
-* History of Digital Currency Before Bitcoin
-* Birth of Bitcoin
-* 2012-2016
-* 2017&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rough Outline&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;History of Cryptography:
+
+&lt;ul&gt;
+&lt;li&gt;Public Key Encryption (currently only available in books)&lt;/li&gt;
+&lt;li&gt;Hash Algorithms&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Distributed Systems \ Consensus&lt;/li&gt;
+&lt;li&gt;History of Cypherpunks
+
+&lt;ul&gt;
+&lt;li&gt;History of p2p networking (&lt;strong&gt;commissioned&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;History of open source&lt;/li&gt;
+&lt;li&gt;History of The Federal Reserve&lt;/li&gt;
+&lt;li&gt;History of Digital Currency Before Bitcoin&lt;/li&gt;
+&lt;li&gt;Birth of Bitcoin&lt;/li&gt;
+&lt;li&gt;2012-2016&lt;/li&gt;
+&lt;li&gt;2017&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;web-publishing&#34;&gt;Web-Publishing&lt;/h3&gt;
 
