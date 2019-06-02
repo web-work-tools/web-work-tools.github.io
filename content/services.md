@@ -6,6 +6,9 @@ image:
   feature: /images/web-work-tools.png
 share: true
 menu: "main"
+slug: /services/
+aliases:
+  - /services/
 date: 2019-05-26
 ---
 
@@ -41,6 +44,7 @@ ISO Clients Who Want Bitcoin-Related Content.
 One project I'm hoping to find a buyer for is a series of articles on the history leading to Bitcoin. 
 
 **Rough Outline**
+
 * History of Cryptography:
   * Public Key Encryption (currently only available in books)
   * Hash Algorithms
