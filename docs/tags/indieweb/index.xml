@@ -35,14 +35,5 @@ I&amp;rsquo;m only guessing that some indieweb folk might appreciate:
  Project-Pages also includes advanced layouts for the coding scientist. MATLAB and Jupyter layouts provide a framework for direct to post functionality. Surface and Projector layouts provide 3D visualization methods.</description>
     </item>
     
-    <item>
-      <title>Indigo Intro</title>
-      <link>https://infominer.id/web-work/indigo-intro/</link>
-      <pubDate>Mon, 01 Oct 2018 09:00:00 -0400</pubDate>
-      
-      <guid>https://infominer.id/web-work/indigo-intro/</guid>
-      <description>&lt;p&gt;Indigo is a lightweight theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; features baked in. It&amp;rsquo;s great for longer-form blogging, placing its focus on distraction-free reading and beautiful typefaces.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

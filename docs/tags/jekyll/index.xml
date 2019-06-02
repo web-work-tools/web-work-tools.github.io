@@ -49,12 +49,22 @@ Some git basics for newbs like me  Git Branching and Merging  Git keeps track of
     <item>
       <title>GitHub Pages-Starter Pack</title>
       <link>https://infominer.id/web-work/posts/github-pages-starter-pack/</link>
-      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/github-pages-starter-pack/</guid>
       <description>Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).
 Each feature you want to enable requires a little more learning, and GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer.
 If you don’t want to think about web-development, and simply want your markdown files to look beautiful once published, github pages can help you do that too.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Pages-Extended Resources</title>
+      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
+      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
+      <description>Continued from Github Pages Starter Pack.
+Setup Front Matter  Front Matter YAML front matter in Jekyll YAML tutorial in the context of Jekyll  Layouts Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &amp;ldquo;single&amp;rdquo; and &amp;ldquo;page&amp;rdquo;. Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I&amp;rsquo;m also using the Home layout:</description>
     </item>
     
   </channel>

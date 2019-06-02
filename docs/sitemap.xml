@@ -84,22 +84,17 @@
   
   <url>
     <loc>https://infominer.id/web-work/posts/github-pages-starter-pack/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/github-pages-extended-resources/</loc>
     <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://infominer.id/web-work/posts/learn-seo/</loc>
     <lastmod>2019-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/indigo-intro/</loc>
-    <lastmod>2018-10-01T09:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/typefaces/</loc>
-    <lastmod>2018-10-01T08:30:00-04:00</lastmod>
   </url>
   
   <url>
@@ -204,7 +199,7 @@
   
   <url>
     <loc>https://infominer.id/web-work/categories/meta/</loc>
-    <lastmod>2018-10-01T09:00:00-04:00</lastmod>
+    <lastmod>2018-10-01T08:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -333,12 +328,6 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/typography/</loc>
-    <lastmod>2018-10-01T09:00:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://infominer.id/web-work/tags/walkthrough/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -346,7 +335,7 @@
   
   <url>
     <loc>https://infominer.id/web-work/tags/web-publishing/</loc>
-    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

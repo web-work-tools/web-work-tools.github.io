@@ -2281,7 +2281,7 @@ How much reach and social authority do your followers and the people you want to
     <item>
       <title>GitHub Pages-Starter Pack</title>
       <link>https://infominer.id/web-work/posts/github-pages-starter-pack/</link>
-      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/github-pages-starter-pack/</guid>
       <description>
@@ -2614,6 +2614,22 @@ layout: default
 &lt;img src=&#34;https://imgur.com/G9eWy3ol.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Continued in &lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHub Pages-Extended Resources</title>
+      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
+      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/github-pages-extended-resources.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Continued from &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;Github Pages Starter Pack&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 
@@ -3274,130 +3290,6 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Indigo Intro</title>
-      <link>https://infominer.id/web-work/indigo-intro/</link>
-      <pubDate>Mon, 01 Oct 2018 09:00:00 -0400</pubDate>
-      
-      <guid>https://infominer.id/web-work/indigo-intro/</guid>
-      <description>&lt;p&gt;Indigo is a lightweight theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; features baked in. It&amp;rsquo;s great for longer-form blogging, placing its focus on distraction-free reading and beautiful typefaces.&lt;/p&gt;
-
-&lt;h2 id=&#34;indieweb-features&#34;&gt;IndieWeb features&lt;/h2&gt;
-
-&lt;p&gt;A key feature of this theme is its support for IndieWeb features, including microformats and web sign-in.&lt;/p&gt;
-
-&lt;h3 id=&#34;web-sign-in&#34;&gt;Web sign-in&lt;/h3&gt;
-
-&lt;p&gt;Indigo handles web sign-in by setting the &lt;code&gt;authorization_endpoint&lt;/code&gt; to &lt;a href=&#34;https://indieauth.com&#34;&gt;IndieAuth.com&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;IndieAuth.com is part of the &lt;a href=&#34;https://indieweb.org/why&#34;&gt;IndieWeb movement&lt;/a&gt; to take back control of your online identity. Instead of logging in to websites as &amp;ldquo;you on Twitter&amp;rdquo; or &amp;ldquo;you on Facebook&amp;rdquo;, &lt;strong&gt;you should be able to log in as just &amp;ldquo;you&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This allows you to sign in to certain services simply by providing your site&amp;rsquo;s domain name.&lt;/p&gt;
-
-&lt;h3 id=&#34;microformats&#34;&gt;microformats&lt;/h3&gt;
-
-&lt;p&gt;Indigo marks up content with appropriate &lt;a href=&#34;http://microformats.org&#34;&gt;microformats&lt;/a&gt;, which provides semantic definitions of your content to other software. Posts are marked up with &lt;code&gt;h-entry&lt;/code&gt; classes, like &lt;code&gt;p-name&lt;/code&gt;, &lt;code&gt;p-author&lt;/code&gt;, and &lt;code&gt;e-content&lt;/code&gt;, while the author bio is marked up with &lt;code&gt;h-card&lt;/code&gt; classes, including &lt;code&gt;u-photo&lt;/code&gt;, &lt;code&gt;u-url&lt;/code&gt;, &lt;code&gt;p-locality&lt;/code&gt;/&lt;code&gt;p-country-name&lt;/code&gt;, and &lt;code&gt;p-note&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;open-typefaces&#34;&gt;Open typefaces&lt;/h2&gt;
-
-&lt;p&gt;Indigo uses a combination of three beautiful typefaces to render your words.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bboxtype.com/typefaces/FiraSans/#!layout=specimen&#34;&gt;Fira Sans&lt;/a&gt; for heading text&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://practicaltypography.com/charter.html&#34;&gt;Charter&lt;/a&gt; for body text&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tonsky/FiraCode&#34;&gt;Fira Code&lt;/a&gt; for monospaced text&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Licenses are included in the theme’s &lt;code&gt;static/fonts&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;Have a look at a couple of paragraphs of placeholder text using the wonderfully readable Charter:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend nulla ac elit venenatis posuere. Sed id aliquam arcu, et malesuada lectus. &lt;strong&gt;Donec et dignissim massa. Pellentesque in laoreet nibh. Pellentesque sagittis, libero quis vestibulum aliquam, ante risus imperdiet magna, at ornare dolor libero quis nunc.&lt;/strong&gt; Donec quis tempus purus. Cras ornare magna ac facilisis tristique. Nulla aliquet purus quis massa rutrum interdum ac at magna. Cras fermentum magna id orci viverra facilisis. Ut vitae lobortis nisl.&lt;/p&gt;
-
-&lt;p&gt;Sed interdum tincidunt venenatis. Sed hendrerit dictum nisi, at dignissim orci consectetur quis. Aenean sed nisl et nisl placerat euismod. Proin hendrerit nulla at rhoncus molestie. Cras eu gravida erat, vestibulum ornare diam. &lt;em&gt;Praesent nunc arcu, ultrices et risus sed, dictum mattis dui. Maecenas vitae nisl at massa porta pellentesque&lt;/em&gt;. Donec eget urna eget nisl imperdiet scelerisque eget a mauris. Nam fringilla sem id vehicula rhoncus. Curabitur tincidunt massa mauris, facilisis placerat odio eleifend sit amet. Etiam nec vehicula sapien, at dignissim risus. Sed elit erat, lacinia eu vulputate at, semper eu nulla. Quisque a urna sed nulla viverra egestas nec quis nunc. Curabitur iaculis elit in orci sollicitudin suscipit.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;And code snippets look great with Fira Code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;article&amp;gt;
-    &amp;lt;header&amp;gt;
-    {{ if .Title }}
-    &amp;lt;h2 class=&amp;quot;list-title&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot;&amp;gt;{{ .Title }}&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
-    {{ end }}
-    &amp;lt;p class=&amp;quot;list-post-date&amp;quot;&amp;gt;
-        &amp;lt;time datetime=&amp;quot;{{ .Date.Format &amp;quot;2006-01-02T15:04:05Z07:00&amp;quot; | safeHTML }}&amp;quot;&amp;gt;
-        {{ .PublishDate.Format &amp;quot;2 January, 2006 at 15:04 MST&amp;quot; }}
-        &amp;lt;/time&amp;gt;
-    &amp;lt;/p&amp;gt;
-    &amp;lt;/header&amp;gt;
-    &amp;lt;div&amp;gt;
-    {{ .Summary | plainify | safeHTML }}
-    &amp;lt;/div&amp;gt;
-    {{ if .Truncated }}
-    &amp;lt;p&amp;gt;&amp;lt;a class=&amp;quot;read-more&amp;quot; href=&amp;quot;{{ .Permalink }}&amp;quot;&amp;gt;Read more &amp;amp;rarr;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
-    {{ end }}
-&amp;lt;/article&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;contributions-welcome&#34;&gt;Contributions welcome&lt;/h2&gt;
-
-&lt;p&gt;Indigo is distributed under the &lt;a href=&#34;https://github.com/AngeloStavrow/indigo/blob/master/LICENSE.md&#34;&gt;MIT license&lt;/a&gt;, so feel free to fork the repository and make it your own! If you&amp;rsquo;ve got ideas on how to improve the theme, let me know by &lt;a href=&#34;issue&#34;&gt;opening an issue in GitHub&lt;/a&gt; — but please be sure to review the documentation on &lt;a href=&#34;https://github.com/AngeloStavrow/indigo/blob/master/CONTRIBUTING.md&#34;&gt;contributing&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Typefaces</title>
-      <link>https://infominer.id/web-work/typefaces/</link>
-      <pubDate>Mon, 01 Oct 2018 08:30:00 -0400</pubDate>
-      
-      <guid>https://infominer.id/web-work/typefaces/</guid>
-      <description>&lt;p&gt;Indigo uses a combination of three beautiful typefaces to render your words.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bboxtype.com/typefaces/FiraSans/#!layout=specimen&#34;&gt;Fira Sans&lt;/a&gt; for heading text&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://practicaltypography.com/charter.html&#34;&gt;Charter&lt;/a&gt; for body text&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tonsky/FiraCode&#34;&gt;Fira Code&lt;/a&gt; for monospaced text&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Licenses are included in the theme’s &lt;code&gt;static/fonts&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;Have a look at a couple of paragraphs of placeholder text using the wonderfully readable Charter:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend nulla ac elit venenatis posuere. Sed id aliquam arcu, et malesuada lectus. &lt;strong&gt;Donec et dignissim massa. Pellentesque in laoreet nibh. Pellentesque sagittis, libero quis vestibulum aliquam, ante risus imperdiet magna, at ornare dolor libero quis nunc.&lt;/strong&gt; Donec quis tempus purus. Cras ornare magna ac facilisis tristique. Nulla aliquet purus quis massa rutrum interdum ac at magna. Cras fermentum magna id orci viverra facilisis. Ut vitae lobortis nisl.&lt;/p&gt;
-
-&lt;p&gt;Sed interdum tincidunt venenatis. Sed hendrerit dictum nisi, at dignissim orci consectetur quis. Aenean sed nisl et nisl placerat euismod. Proin hendrerit nulla at rhoncus molestie. Cras eu gravida erat, vestibulum ornare diam. &lt;em&gt;Praesent nunc arcu, ultrices et risus sed, dictum mattis dui. Maecenas vitae nisl at massa porta pellentesque&lt;/em&gt;. Donec eget urna eget nisl imperdiet scelerisque eget a mauris. Nam fringilla sem id vehicula rhoncus. Curabitur tincidunt massa mauris, facilisis placerat odio eleifend sit amet. Etiam nec vehicula sapien, at dignissim risus. Sed elit erat, lacinia eu vulputate at, semper eu nulla. Quisque a urna sed nulla viverra egestas nec quis nunc. Curabitur iaculis elit in orci sollicitudin suscipit.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;And code snippets look great with Fira Code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;article&amp;gt;
-    &amp;lt;header&amp;gt;
-    {{ if .Title }}
-    &amp;lt;h2 class=&amp;quot;list-title&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot;&amp;gt;{{ .Title }}&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
-    {{ end }}
-    &amp;lt;p class=&amp;quot;list-post-date&amp;quot;&amp;gt;
-        &amp;lt;time datetime=&amp;quot;{{ .Date.Format &amp;quot;2006-01-02T15:04:05Z07:00&amp;quot; | safeHTML }}&amp;quot;&amp;gt;
-        {{ .PublishDate.Format &amp;quot;2 January, 2006 at 15:04 MST&amp;quot; }}
-        &amp;lt;/time&amp;gt;
-    &amp;lt;/p&amp;gt;
-    &amp;lt;/header&amp;gt;
-    &amp;lt;div&amp;gt;
-    {{ .Summary | plainify | safeHTML }}
-    &amp;lt;/div&amp;gt;
-    {{ if .Truncated }}
-    &amp;lt;p&amp;gt;&amp;lt;a class=&amp;quot;read-more&amp;quot; href=&amp;quot;{{ .Permalink }}&amp;quot;&amp;gt;Read more &amp;amp;rarr;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
-    {{ end }}
-&amp;lt;/article&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
