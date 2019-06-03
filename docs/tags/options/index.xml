@@ -7,18 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://infominer.id/web-work/tags/options/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Authors</title>
+      <title>Indigo Authors - Indiweb Features</title>
       <link>https://infominer.id/web-work/posts/indigo-authors-indieweb/</link>
-      <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/indigo-authors-indieweb/</guid>
-      <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;</description>
+      <description>&lt;p&gt;*note, I changed the date so it would bump to the top.&lt;/p&gt;
+
+&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;</description>
     </item>
     
   </channel>

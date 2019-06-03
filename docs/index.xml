@@ -97,12 +97,110 @@
     </item>
     
     <item>
+      <title>Indigo Authors - Indiweb Features</title>
+      <link>https://infominer.id/web-work/posts/indigo-authors-indieweb/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/indigo-authors-indieweb/</guid>
+      <description>&lt;p&gt;*note, I changed the date so it would bump to the top.&lt;/p&gt;
+
+&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;
+
+&lt;h2 id=&#34;setting-up-the-author-bio&#34;&gt;Setting up the author bio&lt;/h2&gt;
+
+&lt;p&gt;A set of configuration options are used for displaying the biography.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params]
+  Author = &amp;quot;Author Name&amp;quot;
+  Avatar = &amp;quot;images/site-logo.svg&amp;quot;
+  Biography = &amp;quot;A short description, a few sentences describing the author. Set
+               the &#39;ShowBio&#39; parameter to false to hide this.&amp;quot;
+  ShowBio = true        
+
+[params.indieWeb]  
+    EmailAddress = &amp;quot;email.address@example.com&amp;quot;
+    Country = &amp;quot;CountryName&amp;quot;
+    City = &amp;quot;CityName&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Specifics on each setting item are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Author&lt;/code&gt;: Your name; this is the site author name.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Avatar&lt;/code&gt;: The path to your profile picture. By default, it will show the theme&amp;rsquo;s logo (&lt;code&gt;/static/images/site-logo.svg&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Biography&lt;/code&gt;: Hopefully the placeholder text here is self-explanatory; add a couple of short sentences about yourself here.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ShowBio&lt;/code&gt;: If you prefer not to show the author bio, set this to &lt;code&gt;false&lt;/code&gt;. By default, it&amp;rsquo;s set to &lt;code&gt;true&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EmailAddress&lt;/code&gt;: The email address at which you can be contacted.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Country&lt;/code&gt;: The name of the country in which you live.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;City&lt;/code&gt;: The name of the city in which you live.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;indieweb-features&#34;&gt;IndieWeb features&lt;/h2&gt;
+
+&lt;p&gt;The following classes are used to mark up the author bio for &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; parsing:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Element&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Class&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;The author card&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;h-card&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Profile picture&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;u-photo&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Author URL*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p-name&lt;/code&gt;, &lt;code&gt;u-url&lt;/code&gt;, &lt;code&gt;rel=me&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;City&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p-locality&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Country&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p-country-name&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Email address&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;u-email&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Biography&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p-note&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;*Author URL is set to the site&amp;rsquo;s base URL.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Jekyll HPSTR-Theme Blog Index Demo</title>
       <link>https://infominer.id/web-work/posts/hpstr-theme-full-page/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/hpstr-theme-full-page/</guid>
       <description>
+
+&lt;p&gt;Since I changed the theme too quickly for anyone to really see what it looked like, I&amp;rsquo;ve been saving images of how it used to look.&lt;/p&gt;
+
+&lt;p&gt;The whole point was not to just have the same theme, but to be able to try out many Hugo themes&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Though I really did like the HPSTR theme, I might switch back to the jekyll version even :)&lt;/p&gt;
 
 &lt;h2 id=&#34;webwork-tools-jekyll-hpstr-index-full-https-infominer-id-web-work-images-webwork-tools-hpstr-demo-post-index-jpg&#34;&gt;&lt;a href=&#34;https://infominer.id/web-work/images/Webwork.tools-HPSTR-DEMO-post-index.jpg&#34;&gt;Webwork.tools Jekyll HPSTR Index-Full&lt;/a&gt;&lt;/h2&gt;
 
@@ -3350,96 +3448,6 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Authors</title>
-      <link>https://infominer.id/web-work/posts/indigo-authors-indieweb/</link>
-      <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/indigo-authors-indieweb/</guid>
-      <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;
-
-&lt;h2 id=&#34;setting-up-the-author-bio&#34;&gt;Setting up the author bio&lt;/h2&gt;
-
-&lt;p&gt;A set of configuration options are used for displaying the biography.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[params]
-  Author = &amp;quot;Author Name&amp;quot;
-  Avatar = &amp;quot;images/site-logo.svg&amp;quot;
-  Biography = &amp;quot;A short description, a few sentences describing the author. Set
-               the &#39;ShowBio&#39; parameter to false to hide this.&amp;quot;
-  ShowBio = true        
-
-[params.indieWeb]  
-    EmailAddress = &amp;quot;email.address@example.com&amp;quot;
-    Country = &amp;quot;CountryName&amp;quot;
-    City = &amp;quot;CityName&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Specifics on each setting item are as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Author&lt;/code&gt;: Your name; this is the site author name.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Avatar&lt;/code&gt;: The path to your profile picture. By default, it will show the theme&amp;rsquo;s logo (&lt;code&gt;/static/images/site-logo.svg&lt;/code&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Biography&lt;/code&gt;: Hopefully the placeholder text here is self-explanatory; add a couple of short sentences about yourself here.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ShowBio&lt;/code&gt;: If you prefer not to show the author bio, set this to &lt;code&gt;false&lt;/code&gt;. By default, it&amp;rsquo;s set to &lt;code&gt;true&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;EmailAddress&lt;/code&gt;: The email address at which you can be contacted.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Country&lt;/code&gt;: The name of the country in which you live.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;City&lt;/code&gt;: The name of the city in which you live.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;indieweb-features&#34;&gt;IndieWeb features&lt;/h2&gt;
-
-&lt;p&gt;The following classes are used to mark up the author bio for &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; parsing:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Element&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Class&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;The author card&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;h-card&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Profile picture&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;u-photo&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Author URL*&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p-name&lt;/code&gt;, &lt;code&gt;u-url&lt;/code&gt;, &lt;code&gt;rel=me&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;City&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p-locality&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Country&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p-country-name&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Email address&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;u-email&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Biography&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p-note&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;*Author URL is set to the site&amp;rsquo;s base URL.&lt;/p&gt;</description>
     </item>
     
     <item>
