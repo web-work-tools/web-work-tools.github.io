@@ -86,13 +86,16 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
 
 * [Static Site Generators & the IndieWeb](https://www.growdigital.org/posts/static-site-generators-the-indieweb/)
 * [Implementing the Indieweb on a static website](https://vincentp.me/articles/2018/11/14/20-00/) - Sending and receiving Webmentions and Micropub on a static site
-
-## Github
-
 * [miklb/jekyll-indieweb](https://github.com/miklb/jekyll-indieweb)
 * [Jekyll and the Indieweb](http://wordius.com/jekyll-and-the-indieweb/)
 * [voxpelli/webpage-micropub-to-github/](https://github.com/voxpelli/webpage-micropub-to-github/)
   * [https://github.com/bmann/microglue/issues/5#issuecomment-425662101](https://github.com/bmann/microglue/issues/5#issuecomment-425662101)
+
+## Indieweb SSG Themes
+* [miklb/jekyll-indieweb](https://github.com/miklb/jekyll-indieweb)
+[![](https://imgur.com/LrC8gO8.png)](https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723)
+* [AngeloStravrow/indigo](https://github.com/AngeloStavrow/indigo) - Hugo Indieweb Theme (This site is currrently running)
+
 
 ## Webmentions
 

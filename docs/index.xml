@@ -20,6 +20,12 @@
       <guid>https://infominer.id/web-work/about/</guid>
       <description>
 
+&lt;p&gt;Right now using the Indigo Hugo theme, that supports indieweb features.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AngeloStavrow/indigo&#34;&gt;AngeloStravrow/indigo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;As you can see, I&amp;rsquo;ve been busy. That&amp;rsquo;s 8 different websites, all published to the same domain.&lt;/p&gt;
 
 &lt;p&gt;What is likly to happen, is there will be a split among domains, and eventually I&amp;rsquo;ll find some CMS that I want to publish a few of the repositories together, with.&lt;/p&gt;
@@ -49,7 +55,6 @@
 &lt;h2 id=&#34;web-work&#34;&gt;Web Work&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/indieweb&#34;&gt;Indieweb&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infomienr.id/web-work&#34;&gt;Web Work&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -519,22 +524,12 @@ enableEmoji = true
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/e6egggQ.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;reach-out-in-the-comments&#34;&gt;Reach out in the Comments&lt;/h2&gt;
-
-&lt;p&gt;If they ever figure out. If you have any questions, or if anything is unclear!!&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ll get web-mentions and the like soon!&lt;/p&gt;
-
 &lt;h2 id=&#34;test-branches&#34;&gt;Test Branches&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/infominer33/web-work/tree/test-hugo&#34;&gt;https://github.com/infominer33/web-work/tree/test-hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/infominer33/web-work/tree/hpster-jekyll&#34;&gt;https://github.com/infominer33/web-work/tree/hpster-jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;check-back-in&#34;&gt;Check Back In&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;ll be updating this post a lot as I learn new things about Hugo, until the resources branch off into their own post.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy it is, here on Hugo.
+* &lt;a href=&#34;https://github.com/infominer33/web-work/tree/test-hugo&#34;&gt;https://github.com/infominer33/web-work/tree/test-hugo&lt;/a&gt;
+* &lt;a href=&#34;https://github.com/infominer33/web-work/tree/hpster-jekyll&#34;&gt;https://github.com/infominer33/web-work/tree/hpster-jekyll&lt;/a&gt;
+* &lt;a href=&#34;https://github.com/AngeloStavrow/indigo&#34;&gt;AngeloStravrow/indigo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
@@ -556,10 +551,6 @@ enableEmoji = true
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://masayk.github.io/tech/hugo/&#34;&gt;Blogging with Org-Mode and Hugo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h1 id=&#34;full&#34;&gt;Full&lt;/h1&gt;
-
-&lt;p&gt;![]()&lt;/p&gt;
 </description>
     </item>
     
@@ -1760,11 +1751,6 @@ IndieAuth Specification&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.growdigital.org/posts/static-site-generators-the-indieweb/&#34;&gt;Static Site Generators &amp;amp; the IndieWeb&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://vincentp.me/articles/2018/11/14/20-00/&#34;&gt;Implementing the Indieweb on a static website&lt;/a&gt; - Sending and receiving Webmentions and Micropub on a static site&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;github&#34;&gt;Github&lt;/h2&gt;
-
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://wordius.com/jekyll-and-the-indieweb/&#34;&gt;Jekyll and the Indieweb&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/voxpelli/webpage-micropub-to-github/&#34;&gt;voxpelli/webpage-micropub-to-github/&lt;/a&gt;
@@ -1772,6 +1758,14 @@ IndieAuth Specification&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/bmann/microglue/issues/5#issuecomment-425662101&#34;&gt;https://github.com/bmann/microglue/issues/5#issuecomment-425662101&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;indieweb-ssg-themes&#34;&gt;Indieweb SSG Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;
+&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723&#34;&gt;&lt;img src=&#34;https://imgur.com/LrC8gO8.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AngeloStavrow/indigo&#34;&gt;AngeloStravrow/indigo&lt;/a&gt; - Hugo Indieweb Theme (This site is currrently running)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;webmentions&#34;&gt;Webmentions&lt;/h2&gt;
@@ -3454,11 +3448,13 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/404/</guid>
-      <description>&lt;p&gt;&lt;p class=&#34;lead&#34;&gt;Sorry, we&amp;rsquo;ve misplaced that URL or it&amp;rsquo;s pointing to something that doesn&amp;rsquo;t exist. &lt;a href=&#34;{{ site.baseurl }}/&#34;&gt;Head back home&lt;/a&gt; to try finding it again.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/lost-places.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;lead&#34;&gt;Sorry, we&amp;rsquo;ve misplaced that URL or it&amp;rsquo;s pointing to something that doesn&amp;rsquo;t exist. &lt;a href=&#34;{{ site.baseurl }}/&#34;&gt;Head back home&lt;/a&gt; to try finding it again.&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id&#34;&gt;https://infominer.id&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;https://infominer.id/repo-portfolio&#34;&gt;Infominer Repository Portfolio&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/&#34;&gt;https://infominer.id/web-work/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;https://infominer.id/indieweb/&#34;&gt;https://infominer.id/indieweb/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id/DIDecentralized/&#34;&gt;https://infominer.id/DIDecentralized/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id/bitcoin-history/&#34;&gt;https://infominer.id/bitcoin-history/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id/SourceCrypto/&#34;&gt;https://infominer.id/SourceCrypto/&lt;/a&gt;&lt;/li&gt;

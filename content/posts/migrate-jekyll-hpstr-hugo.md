@@ -415,21 +415,14 @@ I think some of those are supurfulous but it doesn't matter if I use extra, as l
 
 ![](https://imgur.com/e6egggQ.png)
 
-## Reach out in the Comments
-
-If they ever figure out. If you have any questions, or if anything is unclear!!
-
-I'll get web-mentions and the like soon!
-
 
 ## Test Branches
 
+I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy it is, here on Hugo.
 * https://github.com/infominer33/web-work/tree/test-hugo
 * https://github.com/infominer33/web-work/tree/hpster-jekyll
+* [AngeloStravrow/indigo](https://github.com/AngeloStavrow/indigo)
 
-## Check Back In
-
-I'll be updating this post a lot as I learn new things about Hugo, until the resources branch off into their own post.
 
 ## Resources
 
@@ -444,8 +437,3 @@ I'll be updating this post a lot as I learn new things about Hugo, until the res
 
 ## Over the Rainbow
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)
-
-
-# Full 
-
-![]()
