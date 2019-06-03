@@ -351,54 +351,60 @@
 
 &lt;h2 id=&#34;indieweb-dev-on-iiw-2018-08-19&#34;&gt;#indieweb-dev on IIW 2018-08-19&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20180819&#34;&gt;&lt;img src=&#34;https://imgur.com/MvrlESD.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-* &lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20180819&#34;&gt;#indieweb-dev on IIW 2018-08-19-chat log&lt;/a&gt;
-  * 17:08 &lt;strong&gt;aaronpk&lt;/strong&gt; - No, IIW
-  * 17:09 &lt;strong&gt;aaronpk&lt;/strong&gt; - but all the OAuth IETF people will be there
-  * 17:09 &lt;strong&gt;tantek__&lt;/strong&gt; - IETF people take IETF i-d more seriously than rando domain with proposals
-  * 17:09 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - IIW is a good place to socialize specs certainly
-  * 17:09 &lt;strong&gt;aaronpk&lt;/strong&gt; - I wonder how much of this I can write in the next 2 hours
-  * 17:09 &lt;strong&gt;aaronpk&lt;/strong&gt; - need a name tho
-  * 17:10 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - OpenAppID
-  * 17:10 &lt;strong&gt;aaronpk&lt;/strong&gt; - Oh no
-  * 17:11 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - I was being facetious
-  * 17:11 &lt;strong&gt;tantek__&lt;/strong&gt; - [kevinmarks]: based on what evidence of successful specs to come out of IIW socialization?
-  * 17:11 &lt;strong&gt;tantek__&lt;/strong&gt; - kevinmarks++
-  * 17:11 &lt;strong&gt;Loqi&lt;/strong&gt; - kevinmarks has 7 karma in this channel over the last year (30 in all channels)
-  * 17:11 &lt;strong&gt;tantek__&lt;/strong&gt; - OpenAppID++
-  * 17:11 &lt;strong&gt;Loqi&lt;/strong&gt; - OpenAppID has 1 karma over the last year
-  * 17:11 &lt;strong&gt;aaronpk&lt;/strong&gt; - OAuth came out of IIW
-  * 17:11 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - OAuth 1.0 had a lot of groundwork done at IIW
-  * 17:11 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - yes
-  * 17:12 &lt;strong&gt;tantek__&lt;/strong&gt; - no that&amp;rsquo;s a myth. OAuth came out of a mailing list started by Blaine at Twitter
-  * 17:12 &lt;strong&gt;aaronpk&lt;/strong&gt; - A lot of it was done at IIW regardless of where it started exactly
-  * 17:12 &lt;strong&gt;tantek__&lt;/strong&gt; - the actual work was done by a small set of folks on a limited-write, public-readable mailing list
-  * 17:12 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - yes, but getting the yahoo and Google people in the room with him at IIW really helped
-  * 17:12 &lt;strong&gt;tantek__&lt;/strong&gt; - it was an interesting model of standards development by email
-  * 17:13 &lt;strong&gt;tantek__&lt;/strong&gt; - OAuth did not &amp;ldquo;come out of&amp;rdquo; IIW
-  * 17:13 &lt;strong&gt;tantek__&lt;/strong&gt; - that&amp;rsquo;s the myth
-  * 17:13 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - that helped get the mutual trust necessary to contribute to the mailing list
-  * 17:13 &lt;strong&gt;tantek__&lt;/strong&gt; - it came out of a limited-write, publicly readable mailing list started by Blaine
-  * 17:13 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - I didn&amp;rsquo;t say that, I said &amp;ldquo;a good place to socialize specs&amp;rdquo;
-  * 17:13 &lt;strong&gt;tantek__&lt;/strong&gt; - aaronpk said that
-  * 17:14 &lt;strong&gt;aaronpk&lt;/strong&gt; - What I meant was OAuth would not have succeeded if it had not been discussed at IIW
-  * 17:14 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - I dragged several google auth people across the street to IIW, then they joined the mailing list
-  * 17:15 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - the real bonding experience was them hotpatching the spec and mitigating the replay attack at that foo camp
-  * 17:16 &lt;strong&gt;tantek__&lt;/strong&gt; - yes the Open Web Foo hotpatching of OAuth 1 to fix the security problems was key
-  * 17:16 &lt;strong&gt;aaronpk&lt;/strong&gt; - I need a name that gets across that client registration is replaced by DNS
-  * 17:16 &lt;strong&gt;aaronpk&lt;/strong&gt; - I would use “implicit client registration” if “implicit” didn’t already have existing meaning in OAuth
-  * 17:17 &lt;strong&gt;tantek__&lt;/strong&gt; - &amp;ldquo;URL client registration&amp;rdquo; ?
-  * 17:17 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - Zero Registration per ZeroConf
-  * 17:18 &lt;strong&gt;tantek__&lt;/strong&gt; - or NoReg per NoSQL
-  * 17:19 &lt;strong&gt;tantek__&lt;/strong&gt; - shortened to &amp;ldquo;NR&amp;rdquo;
-  * 17:19 &lt;strong&gt;tantek__&lt;/strong&gt; - how do you handle client registration? we use NR for that
-  * 17:19 &lt;strong&gt;tantek__&lt;/strong&gt; - &amp;ldquo;ZR&amp;rdquo; works just as well
-  * 17:19 &lt;strong&gt;sknebel&lt;/strong&gt; - client lookup?
-  * 17:21 &lt;strong&gt;aaronpk&lt;/strong&gt; - PKCE is a great name because it’s easily googleable and also pronounceable (pixie)
-  * 17:23 &lt;strong&gt;tantek__&lt;/strong&gt; - aaronpk: Zero Registration shortened to: ZoRg
-  * 17:23 &lt;strong&gt;tantek__&lt;/strong&gt; - all the Fifth Element fans will love it
-  * 17:23 &lt;strong&gt;aaronpk&lt;/strong&gt; - zorg omg
-  * 17:24 &lt;strong&gt;tantek__&lt;/strong&gt; - YES&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20180819&#34;&gt;&lt;img src=&#34;https://imgur.com/MvrlESD.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20180819&#34;&gt;#indieweb-dev on IIW 2018-08-19-chat log&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;17:08 &lt;strong&gt;aaronpk&lt;/strong&gt; - No, IIW&lt;/li&gt;
+&lt;li&gt;17:09 &lt;strong&gt;aaronpk&lt;/strong&gt; - but all the OAuth IETF people will be there&lt;/li&gt;
+&lt;li&gt;17:09 &lt;strong&gt;tantek__&lt;/strong&gt; - IETF people take IETF i-d more seriously than rando domain with proposals&lt;/li&gt;
+&lt;li&gt;17:09 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - IIW is a good place to socialize specs certainly&lt;/li&gt;
+&lt;li&gt;17:09 &lt;strong&gt;aaronpk&lt;/strong&gt; - I wonder how much of this I can write in the next 2 hours&lt;/li&gt;
+&lt;li&gt;17:09 &lt;strong&gt;aaronpk&lt;/strong&gt; - need a name tho&lt;/li&gt;
+&lt;li&gt;17:10 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - OpenAppID&lt;/li&gt;
+&lt;li&gt;17:10 &lt;strong&gt;aaronpk&lt;/strong&gt; - Oh no&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - I was being facetious&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;tantek__&lt;/strong&gt; - [kevinmarks]: based on what evidence of successful specs to come out of IIW socialization?&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;tantek__&lt;/strong&gt; - kevinmarks++&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;Loqi&lt;/strong&gt; - kevinmarks has 7 karma in this channel over the last year (30 in all channels)&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;tantek__&lt;/strong&gt; - OpenAppID++&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;Loqi&lt;/strong&gt; - OpenAppID has 1 karma over the last year&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;aaronpk&lt;/strong&gt; - OAuth came out of IIW&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - OAuth 1.0 had a lot of groundwork done at IIW&lt;/li&gt;
+&lt;li&gt;17:11 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - yes&lt;/li&gt;
+&lt;li&gt;17:12 &lt;strong&gt;tantek__&lt;/strong&gt; - no that&amp;rsquo;s a myth. OAuth came out of a mailing list started by Blaine at Twitter&lt;/li&gt;
+&lt;li&gt;17:12 &lt;strong&gt;aaronpk&lt;/strong&gt; - A lot of it was done at IIW regardless of where it started exactly&lt;/li&gt;
+&lt;li&gt;17:12 &lt;strong&gt;tantek__&lt;/strong&gt; - the actual work was done by a small set of folks on a limited-write, public-readable mailing list&lt;/li&gt;
+&lt;li&gt;17:12 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - yes, but getting the yahoo and Google people in the room with him at IIW really helped&lt;/li&gt;
+&lt;li&gt;17:12 &lt;strong&gt;tantek__&lt;/strong&gt; - it was an interesting model of standards development by email&lt;/li&gt;
+&lt;li&gt;17:13 &lt;strong&gt;tantek__&lt;/strong&gt; - OAuth did not &amp;ldquo;come out of&amp;rdquo; IIW&lt;/li&gt;
+&lt;li&gt;17:13 &lt;strong&gt;tantek__&lt;/strong&gt; - that&amp;rsquo;s the myth&lt;/li&gt;
+&lt;li&gt;17:13 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - that helped get the mutual trust necessary to contribute to the mailing list&lt;/li&gt;
+&lt;li&gt;17:13 &lt;strong&gt;tantek__&lt;/strong&gt; - it came out of a limited-write, publicly readable mailing list started by Blaine&lt;/li&gt;
+&lt;li&gt;17:13 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - I didn&amp;rsquo;t say that, I said &amp;ldquo;a good place to socialize specs&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;17:13 &lt;strong&gt;tantek__&lt;/strong&gt; - aaronpk said that&lt;/li&gt;
+&lt;li&gt;17:14 &lt;strong&gt;aaronpk&lt;/strong&gt; - What I meant was OAuth would not have succeeded if it had not been discussed at IIW&lt;/li&gt;
+&lt;li&gt;17:14 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - I dragged several google auth people across the street to IIW, then they joined the mailing list&lt;/li&gt;
+&lt;li&gt;17:15 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - the real bonding experience was them hotpatching the spec and mitigating the replay attack at that foo camp&lt;/li&gt;
+&lt;li&gt;17:16 &lt;strong&gt;tantek__&lt;/strong&gt; - yes the Open Web Foo hotpatching of OAuth 1 to fix the security problems was key&lt;/li&gt;
+&lt;li&gt;17:16 &lt;strong&gt;aaronpk&lt;/strong&gt; - I need a name that gets across that client registration is replaced by DNS&lt;/li&gt;
+&lt;li&gt;17:16 &lt;strong&gt;aaronpk&lt;/strong&gt; - I would use “implicit client registration” if “implicit” didn’t already have existing meaning in OAuth&lt;/li&gt;
+&lt;li&gt;17:17 &lt;strong&gt;tantek__&lt;/strong&gt; - &amp;ldquo;URL client registration&amp;rdquo; ?&lt;/li&gt;
+&lt;li&gt;17:17 &lt;strong&gt;[kevinmarks]&lt;/strong&gt; - Zero Registration per ZeroConf&lt;/li&gt;
+&lt;li&gt;17:18 &lt;strong&gt;tantek__&lt;/strong&gt; - or NoReg per NoSQL&lt;/li&gt;
+&lt;li&gt;17:19 &lt;strong&gt;tantek__&lt;/strong&gt; - shortened to &amp;ldquo;NR&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;17:19 &lt;strong&gt;tantek__&lt;/strong&gt; - how do you handle client registration? we use NR for that&lt;/li&gt;
+&lt;li&gt;17:19 &lt;strong&gt;tantek__&lt;/strong&gt; - &amp;ldquo;ZR&amp;rdquo; works just as well&lt;/li&gt;
+&lt;li&gt;17:19 &lt;strong&gt;sknebel&lt;/strong&gt; - client lookup?&lt;/li&gt;
+&lt;li&gt;17:21 &lt;strong&gt;aaronpk&lt;/strong&gt; - PKCE is a great name because it’s easily googleable and also pronounceable (pixie)&lt;/li&gt;
+&lt;li&gt;17:23 &lt;strong&gt;tantek__&lt;/strong&gt; - aaronpk: Zero Registration shortened to: ZoRg&lt;/li&gt;
+&lt;li&gt;17:23 &lt;strong&gt;tantek__&lt;/strong&gt; - all the Fifth Element fans will love it&lt;/li&gt;
+&lt;li&gt;17:23 &lt;strong&gt;aaronpk&lt;/strong&gt; - zorg omg&lt;/li&gt;
+&lt;li&gt;17:24 &lt;strong&gt;tantek__&lt;/strong&gt; - YES&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
