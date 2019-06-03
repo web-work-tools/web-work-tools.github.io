@@ -220,7 +220,9 @@ slugs: /indieweb-dev-on-did/
   * 21:32 **Loqi** - swentel has 27 karma in this channel over the last year (48 in all channels)
 
 ## #indieweb-dev on IIW 2018-08-19
+
 [![](https://imgur.com/MvrlESD.png)](https://freenode.logbot.info/indieweb-dev/20180819)
+
 * [#indieweb-dev on IIW 2018-08-19-chat log](https://freenode.logbot.info/indieweb-dev/20180819)
   * 17:08 **aaronpk** - No, IIW
   * 17:09 **aaronpk** - but all the OAuth IETF people will be there
