@@ -1,10 +1,16 @@
 ---
-title: "Authors"
-date: 2018-10-01T08:00:00-04:00
-draft: false
+type: post
+title: "Indigo Authors - Indiweb Features"
+date: 2019-06-03
 categories: ["meta"]
 tags: ["options", "indieweb","hugo","front matter"]
+slug: /indigo-authors-indieweb/
+aliases:
+  - /indigo-authors-indieweb/
+  - /posts/indigo-authors-indieweb/
 ---
+
+*note, I changed the date so it would bump to the top.
 
 The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.
 
