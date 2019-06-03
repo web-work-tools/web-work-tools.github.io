@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Chat Log</title>
+      <link>https://infominer.id/web-work/tags/chat-log/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/chat-log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ci\cd</title>
       <link>https://infominer.id/web-work/tags/ci%5Ccd/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
@@ -58,11 +67,29 @@
     </item>
     
     <item>
+      <title>Did</title>
+      <link>https://infominer.id/web-work/tags/did/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/did/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Forked</title>
       <link>https://infominer.id/web-work/tags/forked/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/tags/forked/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freenode</title>
+      <link>https://infominer.id/web-work/tags/freenode/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/freenode/</guid>
       <description></description>
     </item>
     
@@ -126,6 +153,15 @@
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/tags/indieweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indieweb Dev</title>
+      <link>https://infominer.id/web-work/tags/indieweb-dev/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/indieweb-dev/</guid>
       <description></description>
     </item>
     
@@ -243,6 +279,15 @@
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rwot</title>
+      <link>https://infominer.id/web-work/tags/rwot/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/rwot/</guid>
       <description></description>
     </item>
     

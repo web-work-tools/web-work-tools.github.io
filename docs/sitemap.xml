@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/posts/indieweb-dev-on-did/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/posts/indigo-authors-indieweb/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
   </url>
@@ -119,6 +124,12 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/tags/chat-log/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/tags/ci%5Ccd/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -143,8 +154,20 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/tags/did/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/tags/forked/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/freenode/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -186,6 +209,12 @@
   
   <url>
     <loc>https://infominer.id/web-work/tags/indieweb/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/indieweb-dev/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -281,6 +310,12 @@
   <url>
     <loc>https://infominer.id/web-work/tags/resources/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/rwot/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

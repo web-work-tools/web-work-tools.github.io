@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chat Log on Webwork.tools</title>
+    <link>https://infominer.id/web-work/tags/chat-log/</link>
+    <description>Recent content in Chat Log on Webwork.tools</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://infominer.id/web-work/tags/chat-log/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FreeNode IRC #indieweb-dev on DID&#39;s</title>
+      <link>https://infominer.id/web-work/posts/indieweb-dev-on-did/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/indieweb-dev-on-did/</guid>
+      <description>Link to #indieweb-dev Channel  Matrix bridge to #dev channnel chat (via riot.im) Link to the rest of this Chat-log  16:14 sandhawke - I don&amp;rsquo;t think I have that level of interest to attend IIW - but I happen to be at RWoT right now, and that seems like a sweet spot for me to work on while I&amp;rsquo;m here. I just made this: 16:14 sandhawke - https://docs.</description>
+    </item>
+    
+  </channel>
+</rss>

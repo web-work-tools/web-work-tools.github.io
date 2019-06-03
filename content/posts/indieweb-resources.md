@@ -61,6 +61,16 @@ I cover most anything you'd need to get started with GitHub Pages in:
 * [calumryan/indieweb-guides](https://github.com/calumryan/indieweb-guides)
 * [Tom Brown and Manton Reece An Introduction to Indieweb](https://www.plutopia.io/2018/12/02/tom-brown-and-manton-reece-an-introduction-to-indieweb/)
 
+## Matrix Matrix bridge to #indieweb channels (via riot.im)
+
+* [Matrix bridge to #indieweb chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb:matrix.org)
+* [Matrix bridge to #meta channnel chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb-meta:matrix.org)
+* [Matrix bridge to #dev channnel chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org)
+* [Matrix bridge to #wordpress channnel chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb-wordpress:matrix.org)
+* [Matrix bridge to #chat channnel chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb-chat:matrix.org)
+* [Matrix bridge to #chat channnel chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb-news:matrix.org)
+* [Matrix bridge to #microformats chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#microformats:matrix.org)
+* [Matrix bridge to #knownchat chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#knownchat:matrix.org)
 
 ## [herestomwiththeweather.com](https://herestomwiththeweather.com) 
 
@@ -165,3 +175,63 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
 ### Web Hosting and Migration - IndieWebCamp Austin
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VrgzvetbH7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Social Web W3C Community Working Group
+
+* [petermolnar-rubenverborgh-yes-indieweb-community-formed-as](https://quickthoughts.jgregorymcverry.com/2019/02/01/petermolnar-rubenverborgh-yes-indieweb-community-formed-as#comments)
+
+![](https://imgur.com/hMp0b0d.png)
+
+* [https://www.w3.org/wiki/Socialwg](https://www.w3.org/wiki/Socialwg) - **The Social Web Working Group was active 2014-07-21 to 2018-02-13.**
+* [Social Web Working Group Charter **CLOSED**](https://www.w3.org/2013/socialweb/social-wg-charter)
+* https://indieweb.org/Social_Web_Working_Group
+* [Christopher Lemmer Webber on MediaGoblin and ActivityPub](https://medium.com/we-distribute/faces-of-the-federation-christopher-allan-webber-on-mediagoblin-and-activitypub-24bbe212867e)
+  >Here’s a shortlist of things I think are priorities for the SocialCG:
+  >
+  >* Most importantly, the SocialCG is a space for implementors to talk and collaborate and to incubate new and interesting things.
+  >* More work on anti-abuse and anti-spam tools.
+  >* Decentralized identity. For instance, Hubzilla has “nomadic identity” in that posts are really tied to your public key fingerprint, and in a sense that’s more your username than anything else. But it would be good to be able to rotate your key, so Decentralized Identifiers are interesting work in that direction. (I actually do some work on this through my job at Digital Bazaar, though it isn’t yet connected to federated social networks.)
+  >* Merging peer to peer networks and federated networks. I see that some people have started exploring running ActivityPub instances over Tor onion services. More stuff like that!
+  >* I think there’s a ton to be learned from the object capability security community. Petnames, etc etc.
+
+* [aaronpk on June 8, 2017 | on: Ask HN: What are we doing about Facebook, Google, ...](https://news.ycombinator.com/item?id=14516923)
+  > I am a member of the W3C Social Web Working Group (https://www.w3.org/wiki/Socialwg), and have been organizing IndieWebCamp (https://indieweb.org/) conferences in this space for the last 7 years. We've been making a lot of progress:
+  >* https://www.w3.org/TR/webmention/ - cross-site commenting
+  >
+  >* https://www.w3.org/TR/micropub/ - API for apps to create posts on various servers
+  >
+  >* https://www.w3.org/TR/websub/ - realtime subscriptions to feeds
+  >
+  >* More: https://indieweb.org/specs
+  >
+  >We focus on making sure there are a plurality of implementations and approaches rather than trying to build a single software solution to solve everything.
+  >
+  >Try commenting on my copy of this post on my website by sending me a webmention! https://aaronparecki.com/2017/06/08/9/indieweb
+
+
+
+	
+* [aaronpk on June 8, 2017](https://news.ycombinator.com/item?id=14517803)
+  >
+  > Micropub clients: https://indieweb.org/Micropub/Clients
+  > Micropub servers: https://indieweb.org/Micropub/Servers
+  > 
+  >Webmention implementations: https://indieweb.org/Webmention
+  >
+  > More details: https://indieweb.org/indieweb_network
+
+* [reedlaw on June 8, 2017](https://news.ycombinator.com/item?id=14517884)
+  > This looks like a good start for a personal blog site: https://github.com/barryf/transformative
+  > I found this on the Webmention Implementation Report [1].
+  >
+  > 1. https://webmention.net/implementation-reports/summary/
+
+## Activity Pub
+
+* [ActivityPub: from decentralized to distributed social networks](https://github.com/WebOfTrustInfo/rwot5-boston/blob/master/final-documents/activitypub-decentralized-distributed.md)
+  > ActivityPub is a protocol being developed at the W3C for the purpose of building federated social systems. Users can use implementations of ActivityPub like Mastodon and MediaGoblin as libre alternatives to large siloed social networking systems such as Facebook, Twitter, YouTube, and Instagram.1
+  >
+  >In general ActivityPub follows the client-server paradigm that has been popular on the World Wide Web, while restoring some level of decentralization. Current implementations of ActivityPub go as far as to bring a level of decentralization akin to email,2 but there are many opportunities to go further.
+
+ 
