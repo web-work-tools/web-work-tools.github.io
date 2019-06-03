@@ -1,6 +1,6 @@
 ---
 type: post
-title: "FreeNode IRC #indieweb-dev on DID's"
+title: "FreeNode IRC #indieweb-dev on IIW RWoT and DID's"
 date: 2019-06-03
 description: "Conversation about RWoT and DIDs at #indieweb-dev on Freenode"
 tags: [indieweb, did, rwot, indieweb-dev, freenode, chat-log]
@@ -10,11 +10,21 @@ aliases:
 slugs: /indieweb-dev-on-did/
 ---
 
+## Links 
+
+* [indieweb.org/discuss#Join_Discussions](https://indieweb.org/discuss#Join_Discussions)
+* [Matrix bridge to #dev channnel chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org)
+
+### Chat Logs
+
+* [#indieweb-dev on DIDs 2019-03-02-chat log](https://freenode.logbot.info/indieweb-dev/20190302)
+
+
+## indieweb-dev on RWoT-DIDs 2019-03-02
+
 [![](https://imgur.com/A4IPjIi.png)](https://freenode.logbot.info/indieweb-dev/20190302)
 
-## Link to #indieweb-dev Channel
-* [Matrix bridge to #dev channnel chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org)
-* [Link to the rest of this Chat-log](https://freenode.logbot.info/indieweb-dev/20190302)
+* [#indieweb-dev on DIDs 2019-03-02-chat log](https://freenode.logbot.info/indieweb-dev/20190302)
   * 16:14 **sandhawke** - I don't think I have that level of interest to attend IIW - but I happen to be at RWoT right now, and that seems like a sweet spot for me to work on while I'm here. I just made this:
   * 16:14 **sandhawke** - https://docs.google.com/document/d/1SwSWIOO…jRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4
   * 16:14 **sandhawke** - which should perhaps have a column for IndieAuth
@@ -172,3 +182,53 @@ slugs: /indieweb-dev-on-did/
   * 21:32 **aaronpk** - [tantek]: re: geo URI? I thought URLs had to be resolvable
   * 21:32 **[tantek]** - swentel++ wow
   * 21:32 **Loqi** - swentel has 27 karma in this channel over the last year (48 in all channels)
+
+## #indieweb-dev on IIW 2018-08-19
+[![](https://imgur.com/MvrlESD.png)](https://freenode.logbot.info/indieweb-dev/20180819)
+* [#indieweb-dev on IIW 2018-08-19-chat log](https://freenode.logbot.info/indieweb-dev/20180819)
+  * 17:08**aaronpk** - No, IIW
+  * 17:09**aaronpk** - but all the OAuth IETF people will be there
+  * 17:09**tantek__** - IETF people take IETF i-d more seriously than rando domain with proposals
+  * 17:09**[kevinmarks]** - IIW is a good place to socialize specs certainly
+  * 17:09**aaronpk** - I wonder how much of this I can write in the next 2 hours
+  * 17:09**aaronpk** - need a name tho
+  * 17:10**[kevinmarks]** - OpenAppID
+  * 17:10**aaronpk** - Oh no
+  * 17:11**[kevinmarks]** - I was being facetious
+  * 17:11**tantek__** - [kevinmarks]: based on what evidence of successful specs to come out of IIW socialization?
+  * 17:11**tantek__** - kevinmarks++
+  * 17:11**Loqi** - kevinmarks has 7 karma in this channel over the last year (30 in all channels)
+  * 17:11**tantek__** - OpenAppID++
+  * 17:11**Loqi** - OpenAppID has 1 karma over the last year
+  * 17:11**aaronpk** - OAuth came out of IIW
+  * 17:11**[kevinmarks]** - OAuth 1.0 had a lot of groundwork done at IIW
+  * 17:11**[kevinmarks]** - yes
+  * 17:12**tantek__** - no that's a myth. OAuth came out of a mailing list started by Blaine at Twitter
+  * 17:12**aaronpk** - A lot of it was done at IIW regardless of where it started exactly
+  * 17:12**tantek__** - the actual work was done by a small set of folks on a limited-write, public-readable mailing list
+  * 17:12**[kevinmarks]** - yes, but getting the yahoo and Google people in the room with him at IIW really helped
+  * 17:12**tantek__** - it was an interesting model of standards development by email
+  * 17:13**tantek__** - OAuth did not "come out of" IIW
+  * 17:13**tantek__** - that's the myth
+  * 17:13**[kevinmarks]** - that helped get the mutual trust necessary to contribute to the mailing list
+  * 17:13**tantek__** - it came out of a limited-write, publicly readable mailing list started by Blaine
+  * 17:13**[kevinmarks]** - I didn't say that, I said "a good place to socialize specs"
+  * 17:13**tantek__** - aaronpk said that
+  * 17:14**aaronpk** - What I meant was OAuth would not have succeeded if it had not been discussed at IIW
+  * 17:14**[kevinmarks]** - I dragged several google auth people across the street to IIW, then they joined the mailing list
+  * 17:15**[kevinmarks]** - the real bonding experience was them hotpatching the spec and mitigating the replay attack at that foo camp
+  * 17:16**tantek__** - yes the Open Web Foo hotpatching of OAuth 1 to fix the security problems was key
+  * 17:16**aaronpk** - I need a name that gets across that client registration is replaced by DNS
+  * 17:16**aaronpk** - I would use “implicit client registration” if “implicit” didn’t already have existing meaning in OAuth
+  * 17:17**tantek__** - "URL client registration" ?
+  * 17:17**[kevinmarks]** - Zero Registration per ZeroConf
+  * 17:18**tantek__** - or NoReg per NoSQL
+  * 17:19**tantek__** - shortened to "NR"
+  * 17:19**tantek__** - how do you handle client registration? we use NR for that
+  * 17:19**tantek__** - "ZR" works just as well
+  * 17:19**sknebel** - client lookup?
+  * 17:21**aaronpk** - PKCE is a great name because it’s easily googleable and also pronounceable (pixie)
+  * 17:23**tantek__** - aaronpk: Zero Registration shortened to: ZoRg
+  * 17:23**tantek__** - all the Fifth Element fans will love it
+  * 17:23**aaronpk** - zorg omg
+  * 17:24**tantek__** - YES
