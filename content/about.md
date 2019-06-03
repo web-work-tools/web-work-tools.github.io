@@ -7,6 +7,10 @@ weight: -1
 date: 2019-05-22
 ---
 
+Right now using the Indigo Hugo theme, that supports indieweb features.
+
+* [AngeloStravrow/indigo](https://github.com/AngeloStavrow/indigo)
+
 As you can see, I've been busy. That's 8 different websites, all published to the same domain.
 
 What is likly to happen, is there will be a split among domains, and eventually I'll find some CMS that I want to publish a few of the repositories together, with.
@@ -31,7 +35,6 @@ Ok, thanks for having this chat with me!
 
 
 ## Web Work
-* [Indieweb](https://infominer.id/indieweb)
 * [Web Work](https://infomienr.id/web-work)
 
 ## Decentralized Identity

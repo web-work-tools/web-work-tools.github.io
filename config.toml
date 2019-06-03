@@ -7,7 +7,7 @@ title = "Webwork.tools"
 copyright = "⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉"
 languageCode = "en-gb"
 theme = "indigo"
-paginate = 13
+paginate = 22
 
 [params]
   Author = "Infominer"
