@@ -118,17 +118,6 @@ What is a Static Site Generator (SSG)? There are some configuration files, layou
     </item>
     
     <item>
-      <title>Webwork.tools</title>
-      <link>https://infominer.id/web-work/posts/webwork.tools/</link>
-      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/webwork.tools/</guid>
-      <description>This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
-This page has some samples of content that I&amp;rsquo;ve created for others, as well as general resources for web-work.
-Originally it wasn&amp;rsquo;t in blog form&amp;hellip; but I just looked on github, to see when I started, and chose the date that way, for each. This page wasn&amp;rsquo;t in the blog, either.</description>
-    </item>
-    
-    <item>
       <title>Open Source Publishing</title>
       <link>https://infominer.id/web-work/posts/open-source-publishing/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
@@ -212,6 +201,15 @@ The problem with SEO is that there&amp;rsquo;s so much to learn, it&amp;rsquo;s 
 SEO is always changing, and a lot of incorrect or outdated information is republished.
 What I&amp;rsquo;m trying to do is break it down into it&amp;rsquo;s various components.
 The fundamental building blocks of SEO are:</description>
+    </item>
+    
+    <item>
+      <title>Authors</title>
+      <link>https://infominer.id/web-work/posts/indigo-authors-indieweb/</link>
+      <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/indigo-authors-indieweb/</guid>
+      <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;</description>
     </item>
     
   </channel>
