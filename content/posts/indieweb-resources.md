@@ -41,7 +41,7 @@ I cover most anything you'd need to get started with GitHub Pages in:
 
   <p class="e-content"><iframe width="560" height="315" src="https://www.youtube.com/embed/y9FSPcmybT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/><br/>At the end of that video, we are directed to <a href="https://aaronparecki.com/2018/06/30/11/your-first-webmention">Your First Webmention</a>. </p>
 
-  <a href="https://infominer.id/indieweb/resources/" class="u-url">
+  <a href="https://infominer.id/web-work/indieweb-resources/" class="u-url">
   <time class="dt-published" datetime="2019-05-19">May 05, 2019</time></a>
 </div>
 
@@ -53,7 +53,7 @@ I cover most anything you'd need to get started with GitHub Pages in:
 
 <p data-notist="srushe/7D5URN">View <a href="https://noti.st/srushe/7D5URN">Playing with the Indieweb</a> on Notist.</p><script async src="https://on.notist.cloud/embed/002.js"></script>
 
-* [Indieweb Github Repositories](https://infominer.id/indieweb/github/)
+* [Indieweb Github Repositories](https://infominer.id/web-work/indieweb-github-repos/)
 * [indieweb.org](https://indieweb.org)
 * [https://brid.gy](https://brid.gy)
 * [github.com/indieweb](https://github.com/indieweb)

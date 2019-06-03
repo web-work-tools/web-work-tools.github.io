@@ -269,7 +269,7 @@ Not sure how much of this is useful, but I'll save for further examination.
 
 ### Indieweb
 
-<a href="https://infominer.id/indieweb" class="btn btn-success">infominer.id/indieweb</a>
+<a href="https://infominer.id/web-work/indieweb-resources/" class="btn btn-success">Webwork.tools/indieweb-resources</a>
 
 * [indieweb.org](https://indieweb.org)
 * [Micropub](https://indieweb.org/Micropub)
