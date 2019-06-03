@@ -466,10 +466,6 @@ title = &amp;quot;Practical Public Key Crypto&amp;quot;
 url = &amp;quot;/practical-public-key-crypto/&amp;quot;
 
 [[links]]
-title = &amp;quot;IndieWeb&amp;quot;
-url = &amp;quot;http://infominer.id/indieweb/&amp;quot;
-
-[[links]]
 title = &amp;quot;InfoMine&amp;quot;
 url = &amp;quot;http://infominer.id/&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
@@ -1808,7 +1804,7 @@ IndieAuth Specification&lt;/li&gt;
 &lt;p&gt;&lt;p data-notist=&#34;srushe/7D5URN&#34;&gt;View &lt;a href=&#34;https://noti.st/srushe/7D5URN&#34;&gt;Playing with the Indieweb&lt;/a&gt; on Notist.&lt;/p&gt;&lt;script async src=&#34;https://on.notist.cloud/embed/002.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/indieweb/github/&#34;&gt;Indieweb Github Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/indieweb-github-repos/&#34;&gt;Indieweb Github Repositories&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://indieweb.org&#34;&gt;indieweb.org&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://brid.gy&#34;&gt;https://brid.gy&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/indieweb&#34;&gt;github.com/indieweb&lt;/a&gt;&lt;/li&gt;
