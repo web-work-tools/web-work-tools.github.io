@@ -147,17 +147,27 @@
         <section class="content e-content">
             
 
+<h2 id="contents">Contents</h2>
+
+<ul>
+<li><a href="#links">Links</a>
+
+<ul>
+<li><a href="#in-chat-links">In-Chat Links</a></li>
+<li><a href="#peer-to-peer-dids">Peer to Peer DIDs</a></li>
+<li><a href="#indieauth">IndieAuth</a></li>
+</ul></li>
+<li><a href="#indieweb-dev-on-rwot-dids-2019-03-02">#indieweb-dev on RWoT-DIDs 2019-03-02</a></li>
+<li><a href="#indieweb-dev-on-iiw-2018-08-19">#indieweb-dev on IIW 2018-08-19</a></li>
+</ul>
+
 <h2 id="links">Links</h2>
 
 <ul>
 <li><a href="https://indieweb.org/discuss#Join_Discussions">indieweb.org/discuss#Join_Discussions</a></li>
 <li><a href="https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org">Matrix bridge to #dev channnel chat (via riot.im)</a></li>
-</ul>
-
-<h3 id="chat-logs">Chat Logs</h3>
-
-<ul>
 <li><a href="https://freenode.logbot.info/indieweb-dev/20190302">#indieweb-dev on DIDs 2019-03-02-chat log</a></li>
+<li><a href="https://freenode.logbot.info/indieweb-dev/20180819">#indieweb-dev on IIW 2018-08-19-chat log</a></li>
 </ul>
 
 <h3 id="in-chat-links">In-chat Links</h3>
@@ -169,6 +179,7 @@
 <li>DNSLink uses DNS TXT records to map a domain name (like ipfs.io) to an IPFS address. Because you can edit your DNS records, you can use them to always point to the latest version of an object in IPFS (remember that an IPFS object’s address changes if you modify the object). Because DNSLink uses DNS records, the names it produces are also usually easy to type and read.</li>
 <li>A DNSLink address looks like an IPNS address, but it uses a domain name in place of a hashed public key:</li>
 </ul></li>
+<li><a href="https://indieweb.org/checkin#Posting_checkins_from_clients">indieweb.org/checkin#Posting_checkins_from_clients</a></li>
 </ul>
 
 <h4 id="peer-to-peer-dids">Peer-to-Peer DIDs</h4>
@@ -244,7 +255,7 @@
 <li>16:17 <strong>sandhawke</strong> -Yes, &ldquo;peer&rdquo;</li>
 <li>16:17 <strong>sandhawke</strong> -<a href="https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/P2P-DID.md">Peer to Peer DIDs</a></li>
 <li>16:18 <strong>aaronpk</strong> -Even just reading w3c-ccg.github.io/did-primer/#the-format-of-a-did-0 they casually drop a mention of blockchain as the only option</li>
-<li>16:18 <strong>sandhawke</strong> -dhh1128.github.io/peer-did-method-spec/index.html</li>
+<li>16:18 <strong>sandhawke</strong> -<a href="https://dhh1128.github.io/peer-did-method-spec/index.html">dhh1128.github.io/peer-did-method-spec/index.html</a></li>
 <li>16:18 <strong>aaronpk</strong> -I&rsquo;d recommend revising that sentence if they want to not have people think that</li>
 <li>16:18 <strong>sandhawke</strong> -Yes, I know, and they know.</li>
 <li>16:19 <strong>sandhawke</strong> -But the best solution IMHO is just deploy something as nice and simple as indieauth</li>
@@ -277,7 +288,7 @@
 <li>20:28 <strong>jacky</strong> - DNS is <em>not</em> going anywhere</li>
 <li>20:29 <strong>jacky</strong> - as least for the people I aim to build for (like myself and then family to an extent)</li>
 <li>20:29 <strong>jacky</strong> - DNS is straight-forward and more-or-less &ldquo;reliable&rdquo;</li>
-<li>20:30 <strong>jacky</strong> - the only other idea I&rsquo;ve seen thus far that was &lsquo;usable&rsquo; has been docs.ipfs.io/guides/concepts/dnslink</li>
+<li>20:30 <strong>jacky</strong> - the only other idea I&rsquo;ve seen thus far that was &lsquo;usable&rsquo; has been <a href="https://docs.ipfs.io/guides/concepts/dnslink">docs.ipfs.io/guides/concepts/dnslink</a></li>
 <li>20:30 <strong>jacky</strong> - (which still relies on DNS but one could augment a local DNS resolver to intercept these lookups)</li>
 <li>20:51 <strong>[tantek]</strong> - listens intently. (also welcome (back) sandhawke!)</li>
 <li>20:55 <strong>jacky</strong> - I don&rsquo;t know / wonder if a solution that&rsquo;s speech-friendly will arise</li>
@@ -341,7 +352,7 @@
 <li>21:21 <strong>Zegnat</strong> - I do not want to change the name property in mf2 here [tantek]. I just want it to be clear that the minimal info returned from an IndieAuth endpoint is a display name specifically (and further names (?) may be available under something like a profile scope)</li>
 <li>21:21 <strong>[tantek]</strong> - in the past other formats have tried to make distinctions between &ldquo;display name&rdquo; &ldquo;full name&rdquo; etc. and it just results in bad UX. in practice people enter into &ldquo;name&rdquo; what they want displayed. period. no need to futz or handwring about bikeshedding the property. it works</li>
 <li>21:22 <strong>[tantek]</strong> - Zegnat, calling something display name then implies that other &ldquo;name&rdquo;s are not &ldquo;display&rdquo; and it just confuses people (implementers, users etc.)</li>
-<li>21:22 <strong>swentel</strong> - GWG, I&rsquo;ve documented my experimental geo:uri;h=card on indieweb.org/checkin#Posting_checkins_from_clients (but I&rsquo;m not sure if that&rsquo;s the right place :/) ****</li>
+<li>21:22 <strong>swentel</strong> - GWG, I&rsquo;ve documented my experimental geo:uri;h=card on <a href="https://indieweb.org/checkin#Posting_checkins_from_clients">indieweb.org/checkin#Posting_checkins_from_clients</a> (but I&rsquo;m not sure if that&rsquo;s the right place :/) ****</li>
 <li>21:22 <strong>[tantek]</strong> - there is never a need in practice to ever &ldquo;be clear&rdquo; about &ldquo;is a display name specifically&rdquo;</li>
 <li>21:22 <strong>swentel</strong> - just wanted to make sure it exists at least</li>
 <li>21:22 <strong>aaronpk</strong> - side note: openid connect has &ldquo;name&rdquo;, &ldquo;family_name&rdquo;, &ldquo;given_name&rdquo;, &ldquo;middle_name&rdquo; and &ldquo;nickname&rdquo; all under the &ldquo;profile&rdquo; scope, and tbh is an example of what tantek is talking about where the only one actually used is just &ldquo;name&rdquo;</li>
