@@ -16,7 +16,7 @@ Here's some tools to make content creation a little easier.
 
 As per usual, this list will grow and become more organized over time.
 
-For now, it's just a copy\paste from the [GitHub-Pages Starter Pack](/content-creation/).
+For now, it's just a copy\paste from the [GitHub-Pages Starter Pack](https://infominer.id/web-work/github-pages-starter-pack/).
 
 ## Basics
 
@@ -26,9 +26,9 @@ For now, it's just a copy\paste from the [GitHub-Pages Starter Pack](/content-cr
 
 ## Editors
 
+![](https://infominer.id/web-work/images/content-creation.png)
 * [Visual Studio Code](https://code.visualstudio.com/)
 Where I build webpages.
-  ![](https://imgur.com/eqWiJ8Il.png)]
 
 This thing has extensions for all your coding needs... It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).
 

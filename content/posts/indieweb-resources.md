@@ -5,8 +5,10 @@ date: "2019-05-19"
 category: indieweb
 tags: [indieweb, github-pages, resources, jekyll static-sites]
 subtitle: To Become An Extensive Collection
-slug: /resources/
+slug: /indieweb-resources/
 aliases:
+  - /posts/indieweb-resources/
+  - /indieweb-resources/
   - /posts/resources/
   - /resources/
 ---
@@ -20,12 +22,7 @@ I was using [miklb/jekyll-indieweb](https://github.com/miklb/jekyll-indieweb), b
 
 [![](https://imgur.com/LrC8gO8.png)](https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723)
 
-In the meantime, I figured I'd test out this awesome [projects-pages](https://github.com/projectpages/project-pages/wiki) theme.
-
-I'm only guessing that some indieweb folk might appreciate:
-
-> Project-Pages also includes advanced layouts for the coding scientist. MATLAB and Jupyter layouts provide a framework for direct to post functionality. Surface and Projector layouts provide 3D visualization methods.
-
+This is [indigo](https://github.com/AngeloStavrow/indigo), an Indieweb prepared Hugo theme, that I'll be writing about more soon, and figuring out how to make use of all its awesome indieweb integrations.
 
 I cover most anything you'd need to get started with GitHub Pages in:
 
@@ -35,7 +32,7 @@ I cover most anything you'd need to get started with GitHub Pages in:
 ## Taking Back Your Content
 
 <div class="h-card">
-	<img src="https://infominer.id/indieweb/info.png" class="u-photo" width="40">
+	<img src="https://infominer.id/web-work/images/info.png" class="u-photo" width="40">
   <a href="https://infominer.id" class="u-url p-name">InfoMine ⧉</a>
 </div>	
 

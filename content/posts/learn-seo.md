@@ -14,6 +14,7 @@ date: 2019-01-10
 
 ---
 
+![](https://infominer.id/web-work/images/organic-seo-drive-traffic.jpg)
 
 SEO seems like a valuable subject to know about right?
 

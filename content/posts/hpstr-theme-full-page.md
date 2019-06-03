@@ -1,6 +1,6 @@
 ---
 type: post
-title: "HPSTR-Theme Full Page Demo"
+title: "Jekyll HPSTR-Theme Blog Index Demo"
 description: "A demonstration of the HPSTR theme as it was when installed."
 tags: [hpstr, jekyll, hugo, theme, migration,demo]
 image:
@@ -17,5 +17,6 @@ slug: /hpstr-theme-full-page/
 
 ---
 
+## [Webwork.tools Jekyll HPSTR Index-Full](https://infominer.id/web-work/images/Webwork.tools-HPSTR-DEMO-post-index.jpg)
 
 ![](https://infominer.id/web-work/images/Webwork.tools-HPSTR-DEMO-Tools-Digital-Transformation.jpg)

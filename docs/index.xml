@@ -92,12 +92,16 @@
     </item>
     
     <item>
-      <title>HPSTR-Theme Full Page Demo</title>
+      <title>Jekyll HPSTR-Theme Blog Index Demo</title>
       <link>https://infominer.id/web-work/posts/hpstr-theme-full-page/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/hpstr-theme-full-page/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/Webwork.tools-HPSTR-DEMO-Tools-Digital-Transformation.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;webwork-tools-jekyll-hpstr-index-full-https-infominer-id-web-work-images-webwork-tools-hpstr-demo-post-index-jpg&#34;&gt;&lt;a href=&#34;https://infominer.id/web-work/images/Webwork.tools-HPSTR-DEMO-post-index.jpg&#34;&gt;Webwork.tools Jekyll HPSTR Index-Full&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/Webwork.tools-HPSTR-DEMO-Tools-Digital-Transformation.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -108,6 +112,8 @@
       
       <guid>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</guid>
       <description>
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/jekyll-hpstr-hugo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.&lt;/p&gt;
 
@@ -222,15 +228,15 @@
 &lt;p&gt;With some pre-requisites out of the way, lets jump in at the first step in the theme setup:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dldx.org/hpstr-hugo-theme/theme-setup/&#34;&gt;Theme Setup - HPSTR Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dldx.org/hpstr-hugo-theme/theme-setup/&#34;&gt;Theme Setup - HPSTR Hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ mkdir newProject
 $ cd newProject
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;and you will see &lt;code&gt;hpster&lt;/code&gt; located in: &lt;code&gt;/web-work/themes/hpstr&lt;/code&gt;.&lt;/p&gt;
 
@@ -456,13 +462,13 @@ enableEmoji = true
 &lt;p&gt;If you used to let your blog live at the root of the site, like me, then add aliases, which are how Hugo does redirects.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/urls/#aliases&#34;&gt;Content Manegement - Aliases&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/content-management/urls/#aliases&#34;&gt;Content Manegement - Aliases&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;aliases:
-  - /title-goes-here/
-  - /other-title-too/
-&lt;/code&gt;&lt;/pre&gt;
+- /title-goes-here/
+- /other-title-too/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;one-last-thing&#34;&gt;One last thing!&lt;/h2&gt;
 
@@ -561,6 +567,8 @@ enableEmoji = true
       <guid>https://infominer.id/web-work/posts/branches-git/</guid>
       <description>
 
+&lt;p&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/Git_branches_fork.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.&lt;/p&gt;
 
 &lt;h2 id=&#34;checkout-test-branch&#34;&gt;Checkout test branch&lt;/h2&gt;
@@ -628,6 +636,8 @@ git push origin master
       
       <guid>https://infominer.id/web-work/posts/forked-repositories/</guid>
       <description>
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer-forked-repositories.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
 
@@ -718,7 +728,7 @@ git push origin master
 
 &lt;p&gt;As per usual, this list will grow and become more organized over time.&lt;/p&gt;
 
-&lt;p&gt;For now, it&amp;rsquo;s just a copy\paste from the &lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;GitHub-Pages Starter Pack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For now, it&amp;rsquo;s just a copy\paste from the &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub-Pages Starter Pack&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;basics&#34;&gt;Basics&lt;/h2&gt;
 
@@ -729,11 +739,9 @@ git push origin master
 
 &lt;h2 id=&#34;editors&#34;&gt;Editors&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;
-Where I build webpages.
-&lt;img src=&#34;https://imgur.com/eqWiJ8Il.png&#34; alt=&#34;&#34; /&gt;]&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/content-creation.png&#34; alt=&#34;&#34; /&gt;
+* &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;
+Where I build webpages.&lt;/p&gt;
 
 &lt;p&gt;This thing has extensions for all your coding needs&amp;hellip; It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).&lt;/p&gt;
 
@@ -863,6 +871,8 @@ combines feeds &amp;ldquo;into content and other magical creations&amp;rdquo;.&l
       <guid>https://infominer.id/web-work/posts/make-a-github-portfolio/</guid>
       <description>
 
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer33-github-portfolio.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;I learned of this cool project from &lt;a href=&#34;https://twitter.com/bmann&#34;&gt;@bmann&lt;/a&gt;. I&amp;rsquo;ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s really nice to have a place to keep track, because I&amp;rsquo;m always forgetting how many I even manage!&lt;/p&gt;
@@ -978,7 +988,8 @@ topics:
       <guid>https://infominer.id/web-work/posts/github-stars/</guid>
       <description>
 
-&lt;p&gt;Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer-starred-repositories-head.png&#34; alt=&#34;&#34; /&gt;
+Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
 
 &lt;p&gt;I used this:&lt;/p&gt;
 
@@ -1164,11 +1175,13 @@ topics:
       <guid>https://infominer.id/web-work/posts/keyword-planning/</guid>
       <description>
 
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/getting-started-adwords-keyword-planner.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This is just a &amp;ldquo;stub&amp;rdquo;, and doesn&amp;rsquo;t go fully into the details of keyword research. I have written an &lt;a href=&#34;https://www.csbtechemporium.com/keyword-research-fundamentals/&#34;&gt;article on the subject&lt;/a&gt;, and begun some study of Keyword Research and SEO, although I&amp;rsquo;m not by any means an expert.&lt;/p&gt;
 
 &lt;p&gt;I made this, because it was a little confusing for me when I first tried to use it, and I wanted to be sure that eveyone in my organization had a fundamental understanding of keyword research, so they could assist in coming up with seed-keywords, and understand the building blocks of keyword-research.&lt;/p&gt;
 
-&lt;p&gt;Everything builds from this. In my opinion, it will be valuable to get input from everyone in the organization for at least the first round of keyword research, since this is all about the identity of your website and your organization.&lt;/p&gt;
+&lt;p&gt;In my opinion, it will be valuable to get input from everyone in the organization for at least the first round of keyword research, since this is all about the identity of your website and your organization.&lt;/p&gt;
 
 &lt;p&gt;This step-by-step guide will ensure that anyone can try out keyword planner and begin learning a keyword research\SEO fundamental. It&amp;rsquo;s a valuable tool to have in your arsenal, but takes some manual effort to get the most out of.&lt;/p&gt;
 
@@ -1248,7 +1261,10 @@ topics:
       <guid>https://infominer.id/web-work/posts/static-site-generators/</guid>
       <description>
 
-&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://infomienr.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt; is getting a bit crowded.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://devopedia.org/static-site-generators&#34;&gt;Devopedia.org&lt;/a&gt;
+&lt;img src=&#34;https://infominer.id/web-work/images/devopedia-static-site-generators.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Well, now i&amp;rsquo;m looking into options besides jekyll, to expand my skills, and try out some themes that aren&amp;rsquo;t available for Jekyll.&lt;/p&gt;
 
@@ -1363,7 +1379,7 @@ topics:
       <guid>https://infominer.id/web-work/posts/webwork.tools/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/power-words.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.&lt;/p&gt;
 
@@ -1385,6 +1401,8 @@ topics:
 
 &lt;h2 id=&#34;site-index&#34;&gt;Site Index&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/open-source-publishing/&#34;&gt;Open Source Publishing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-seo/&#34;&gt;Learn-SEO&lt;/a&gt;
@@ -1405,7 +1423,9 @@ topics:
 &lt;p&gt;Eventually this will live along in the same site with web-work.. though I&amp;rsquo;m not sure of the specifics rn.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/indieweb/&#34;&gt;Infominer does IndieWeb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/resources/&#34;&gt;IndieWeb Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indieweb-github-repos/&#34;&gt;IndieWeb Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
@@ -1454,7 +1474,7 @@ topics:
       <guid>https://infominer.id/web-work/posts/open-source-publishing/</guid>
       <description>
 
-&lt;p&gt;&lt;strong&gt;Pro-tip:&lt;/strong&gt; &lt;a href=&#34;https://infominer.id/web-work&#34;&gt;Go Home&lt;/a&gt; &lt;strong&gt;for a full view of featured image.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infolytics/infominer-id-all-pages-20190417-20190524.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;div class=&#34;pull-left&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infolytics/record-monthly.png&#34;/&gt;&lt;/div&gt;
 
@@ -1516,10 +1536,10 @@ topics:
     
     <item>
       <title>Indieweb Github Repositories</title>
-      <link>https://infominer.id/web-work/posts/github/</link>
+      <link>https://infominer.id/web-work/posts/indieweb-github-repos/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/github/</guid>
+      <guid>https://infominer.id/web-work/posts/indieweb-github-repos/</guid>
       <description>
 
 &lt;h2 id=&#34;github-com-miklb-https-github-com-miklb&#34;&gt;&lt;a href=&#34;https://github.com/miklb&#34;&gt;github.com/miklb&lt;/a&gt;&lt;/h2&gt;
@@ -1634,10 +1654,10 @@ IndieAuth Specification&lt;/li&gt;
     
     <item>
       <title>Indieweb Resources</title>
-      <link>https://infominer.id/web-work/posts/resources/</link>
+      <link>https://infominer.id/web-work/posts/indieweb-resources/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/resources/</guid>
+      <guid>https://infominer.id/web-work/posts/indieweb-resources/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/ahnVZ9tl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -1648,13 +1668,7 @@ IndieAuth Specification&lt;/li&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723&#34;&gt;&lt;img src=&#34;https://imgur.com/LrC8gO8.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;In the meantime, I figured I&amp;rsquo;d test out this awesome &lt;a href=&#34;https://github.com/projectpages/project-pages/wiki&#34;&gt;projects-pages&lt;/a&gt; theme.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m only guessing that some indieweb folk might appreciate:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Project-Pages also includes advanced layouts for the coding scientist. MATLAB and Jupyter layouts provide a framework for direct to post functionality. Surface and Projector layouts provide 3D visualization methods.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://github.com/AngeloStavrow/indigo&#34;&gt;indigo&lt;/a&gt;, an Indieweb prepared Hugo theme, that I&amp;rsquo;ll be writing about more soon, and figuring out how to make use of all its awesome indieweb integrations.&lt;/p&gt;
 
 &lt;p&gt;I cover most anything you&amp;rsquo;d need to get started with GitHub Pages in:&lt;/p&gt;
 
@@ -1665,7 +1679,7 @@ IndieAuth Specification&lt;/li&gt;
 &lt;h2 id=&#34;taking-back-your-content&#34;&gt;Taking Back Your Content&lt;/h2&gt;
 
 &lt;div class=&#34;h-card&#34;&gt;
-    &lt;img src=&#34;https://infominer.id/indieweb/info.png&#34; class=&#34;u-photo&#34; width=&#34;40&#34;&gt;
+    &lt;img src=&#34;https://infominer.id/web-work/images/info.png&#34; class=&#34;u-photo&#34; width=&#34;40&#34;&gt;
   &lt;a href=&#34;https://infominer.id&#34; class=&#34;u-url p-name&#34;&gt;InfoMine ⧉&lt;/a&gt;
 &lt;/div&gt;  
 
@@ -1849,8 +1863,10 @@ IndieAuth Specification&lt;/li&gt;
       <guid>https://infominer.id/web-work/posts/practical-public-key-crypto/</guid>
       <description>
 
-&lt;pre&gt;&lt;code&gt;&amp;quot;Prove you are who you say you are, with public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;quot;
+&lt;pre&gt;&lt;code&gt;&amp;quot;Public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/pgp-og.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I created this resource while researching the following article:&lt;/p&gt;
 
@@ -1924,12 +1940,13 @@ IndieAuth Specification&lt;/li&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/how-to-verify-your-downloaded-files-are-authentic/&#34;&gt;HOW TO VERIFY YOUR DOWNLOADED FILES ARE AUTHENTIC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/verifying-signed-messages-with-signatures-and-signing-your-own-messages/&#34;&gt;VERIFYING SIGNED MESSAGES WITH SIGNATURES AND SIGNING YOUR OWN MESSAGES&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/verifying-signed-messages-with-signatures-and-signing-your-own-messages/&#34;&gt;VERIFYING SIGNED MESSAGES WITH SIGNATURES AND SIGNING YOUR OWN MESSAGES&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;gpg --import singing_key.pub
 gpg --verify signed_file.sig
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;bitcoin-and-ethereum-signatures&#34;&gt;Bitcoin and Ethereum Signatures&lt;/h3&gt;
 
@@ -1979,15 +1996,13 @@ gpg --verify signed_file.sig
 &lt;p&gt;Escrow Agents are impartial and trusted intermediaries who hold custody of buyer&amp;rsquo;s funds until pre-defined conditions are met. They allow parties who don&amp;rsquo;t know or trust each-other to engage in commerce, online.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bitrated.com/&#34;&gt;Bitrated.com&lt;/a&gt;
-&amp;gt;Using multi-signature ensures that the trust agent never has full control over the funds and cannot take them to himself. In addition, when everything goes well, the funds can be released with no intervention by the trust agent.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.bitrated.com/&#34;&gt;Bitrated.com&lt;/a&gt;
+&amp;gt;Using multi-signature ensures that the trust agent never has full control over the funds and cannot take them to himself. In addition, when everything goes well, the funds can be released with no intervention by the trust agent.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; Launched in 2013, Bitrated was the first multi-signature application ever released to the public. Bitrated is operated from Israel and was founded by Nadav Ivgi, a software developer and a long time Bitcoin enthusiast.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Launched in 2013, Bitrated was the first multi-signature application ever released to the public. Bitrated is operated from Israel and was founded by Nadav Ivgi, a software developer and a long time Bitcoin enthusiast.
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://jobs4btc-escrow.appspot.com/&#34;&gt;jobs4btc-escrow.appspot.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://jobs4btc-escrow.appspot.com/&#34;&gt;jobs4btc-escrow.appspot.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
@@ -2056,6 +2071,8 @@ March 03, 2019&lt;/a&gt;
       
       <guid>https://infominer.id/web-work/posts/seo-tools/</guid>
       <description>
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;!-- fix link on infominer.id:
   - research/seo-tools.html--&gt;
@@ -2388,15 +2405,15 @@ layout: default
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.blog/2017-11-29-use-any-theme-with-github-pages/&#34;&gt;github.blog/2017-11-29-use-any-theme-with-github-pages/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/benbalter/jekyll-remote-theme&#34;&gt;Jekyll Remote Theme&lt;/a&gt;
-&lt;br /&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/benbalter/jekyll-remote-theme&#34;&gt;Jekyll Remote Theme&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;plugins:
+ - jekyll-remote-theme
+
+remote_theme: benbalter/retlab
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;   plugins:
-     - jekyll-remote-theme
-
-   remote_theme: benbalter/retlab
-&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Essentially, if you&amp;rsquo;re just editing files on github, you should just add those lines to your _config.yml along w an index file and Jekyll should build your site.&lt;/p&gt;
 
@@ -2986,6 +3003,8 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
       
       <guid>https://infominer.id/web-work/posts/learn-seo/</guid>
       <description>
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/organic-seo-drive-traffic.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;SEO seems like a valuable subject to know about right?&lt;/p&gt;
 

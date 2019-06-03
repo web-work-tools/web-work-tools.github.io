@@ -14,16 +14,16 @@
     
     <item>
       <title>Indieweb Resources</title>
-      <link>https://infominer.id/web-work/posts/resources/</link>
+      <link>https://infominer.id/web-work/posts/indieweb-resources/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/resources/</guid>
+      <guid>https://infominer.id/web-work/posts/indieweb-resources/</guid>
       <description>micro.blog/infominer
 I was using miklb/jekyll-indieweb, but ran into some bugs and found that a new release is coming soon:
 
-In the meantime, I figured I&amp;rsquo;d test out this awesome projects-pages theme.
-I&amp;rsquo;m only guessing that some indieweb folk might appreciate:
- Project-Pages also includes advanced layouts for the coding scientist. MATLAB and Jupyter layouts provide a framework for direct to post functionality. Surface and Projector layouts provide 3D visualization methods.</description>
+This is indigo, an Indieweb prepared Hugo theme, that I&amp;rsquo;ll be writing about more soon, and figuring out how to make use of all its awesome indieweb integrations.
+I cover most anything you&amp;rsquo;d need to get started with GitHub Pages in:
+ infominer.id/web-work/github-pages-starter-pack  Taking Back Your Content InfoMine ⧉  https://aaronparecki.</description>
     </item>
     
   </channel>

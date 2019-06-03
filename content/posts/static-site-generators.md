@@ -14,7 +14,9 @@ image:
   creditlink: https://devopedia.org/static-site-generators
 ---
 
-You may have noticed that the [GitHub Pages Starter Pack](https://infomienr.id/web-work/github-pages-starter-pack/) is getting a bit crowded.
+* [Devopedia.org](https://devopedia.org/static-site-generators)
+  ![](https://infominer.id/web-work/images/devopedia-static-site-generators.jpg)
+
 
 Well, now i'm looking into options besides jekyll, to expand my skills, and try out some themes that aren't available for Jekyll.
 

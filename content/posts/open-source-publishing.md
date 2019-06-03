@@ -17,7 +17,7 @@ image:
   creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
 ---
 
-**Pro-tip:** [Go Home](https://infominer.id/web-work) **for a full view of featured image.**
+![](https://infominer.id/web-work/images/infolytics/infominer-id-all-pages-20190417-20190524.jpg)
 
 <div class="pull-left"><img src="https://infominer.id/web-work/images/infolytics/record-monthly.png"/></div>
 

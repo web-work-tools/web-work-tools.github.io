@@ -9,12 +9,12 @@ aliases:
 slug: /webwork.tools/
 share: true
 image:
-  feature: /images/power-words.png
+  feature: 
   credit: webwork.tools coming soon!!!
   creditlink: http://infominer.id/web-work/
 ---
 
-![](https://infominer.id/web-work/images/webwork-tools.png)
+![](https://infominer.id/web-work/images/power-words.png)
 
 This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
 
@@ -35,6 +35,9 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 
 ## Site Index
 
+![](https://infominer.id/web-work/images/webwork-tools.png)
+
+
 * [Open Source Publishing](https://infominer.id/web-work/open-source-publishing/)
 * [Learn-SEO](https://infominer.id/web-work/learn-seo/)
   * [Getting Started with Adwords Keyword Planner](https://infominer.id/web-work/getting-started-adwords-keyword-planner/)
@@ -49,7 +52,9 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 
 Eventually this will live along in the same site with web-work.. though I'm not sure of the specifics rn.
 
-* [Infominer does IndieWeb](https://infominer.id/indieweb/)
+* [IndieWeb Resources](https://infominer.id/web-work/posts/resources/)
+* [IndieWeb Resources](https://infominer.id/web-work/posts/indieweb-github-repos/)
+* 
 
 ## Resources
 

@@ -17,6 +17,8 @@ image:
   creditlink: https://infominer.id/repo-portfolio
 ---
 
+![](https://infominer.id/web-work/images/infominer33-github-portfolio.jpeg)
+
 I learned of this cool project from [@bmann](https://twitter.com/bmann). I've been wanting a simple way to make a page like this for a while!
 
 It's really nice to have a place to keep track, because I'm always forgetting how many I even manage!
