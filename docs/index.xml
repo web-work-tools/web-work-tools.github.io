@@ -104,17 +104,27 @@
       <guid>https://infominer.id/web-work/posts/indieweb-dev-on-did/</guid>
       <description>
 
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#links&#34;&gt;Links&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#in-chat-links&#34;&gt;In-Chat Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#peer-to-peer-dids&#34;&gt;Peer to Peer DIDs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#indieauth&#34;&gt;IndieAuth&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#indieweb-dev-on-rwot-dids-2019-03-02&#34;&gt;#indieweb-dev on RWoT-DIDs 2019-03-02&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#indieweb-dev-on-iiw-2018-08-19&#34;&gt;#indieweb-dev on IIW 2018-08-19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://indieweb.org/discuss#Join_Discussions&#34;&gt;indieweb.org/discuss#Join_Discussions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org&#34;&gt;Matrix bridge to #dev channnel chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chat-logs&#34;&gt;Chat Logs&lt;/h3&gt;
-
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20190302&#34;&gt;#indieweb-dev on DIDs 2019-03-02-chat log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20180819&#34;&gt;#indieweb-dev on IIW 2018-08-19-chat log&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;in-chat-links&#34;&gt;In-chat Links&lt;/h3&gt;
@@ -126,6 +136,7 @@
 &lt;li&gt;DNSLink uses DNS TXT records to map a domain name (like ipfs.io) to an IPFS address. Because you can edit your DNS records, you can use them to always point to the latest version of an object in IPFS (remember that an IPFS object’s address changes if you modify the object). Because DNSLink uses DNS records, the names it produces are also usually easy to type and read.&lt;/li&gt;
 &lt;li&gt;A DNSLink address looks like an IPNS address, but it uses a domain name in place of a hashed public key:&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/checkin#Posting_checkins_from_clients&#34;&gt;indieweb.org/checkin#Posting_checkins_from_clients&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;peer-to-peer-dids&#34;&gt;Peer-to-Peer DIDs&lt;/h4&gt;
@@ -201,7 +212,7 @@
 &lt;li&gt;16:17 &lt;strong&gt;sandhawke&lt;/strong&gt; -Yes, &amp;ldquo;peer&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;16:17 &lt;strong&gt;sandhawke&lt;/strong&gt; -&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/P2P-DID.md&#34;&gt;Peer to Peer DIDs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;16:18 &lt;strong&gt;aaronpk&lt;/strong&gt; -Even just reading w3c-ccg.github.io/did-primer/#the-format-of-a-did-0 they casually drop a mention of blockchain as the only option&lt;/li&gt;
-&lt;li&gt;16:18 &lt;strong&gt;sandhawke&lt;/strong&gt; -dhh1128.github.io/peer-did-method-spec/index.html&lt;/li&gt;
+&lt;li&gt;16:18 &lt;strong&gt;sandhawke&lt;/strong&gt; -&lt;a href=&#34;https://dhh1128.github.io/peer-did-method-spec/index.html&#34;&gt;dhh1128.github.io/peer-did-method-spec/index.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;16:18 &lt;strong&gt;aaronpk&lt;/strong&gt; -I&amp;rsquo;d recommend revising that sentence if they want to not have people think that&lt;/li&gt;
 &lt;li&gt;16:18 &lt;strong&gt;sandhawke&lt;/strong&gt; -Yes, I know, and they know.&lt;/li&gt;
 &lt;li&gt;16:19 &lt;strong&gt;sandhawke&lt;/strong&gt; -But the best solution IMHO is just deploy something as nice and simple as indieauth&lt;/li&gt;
@@ -234,7 +245,7 @@
 &lt;li&gt;20:28 &lt;strong&gt;jacky&lt;/strong&gt; - DNS is &lt;em&gt;not&lt;/em&gt; going anywhere&lt;/li&gt;
 &lt;li&gt;20:29 &lt;strong&gt;jacky&lt;/strong&gt; - as least for the people I aim to build for (like myself and then family to an extent)&lt;/li&gt;
 &lt;li&gt;20:29 &lt;strong&gt;jacky&lt;/strong&gt; - DNS is straight-forward and more-or-less &amp;ldquo;reliable&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;20:30 &lt;strong&gt;jacky&lt;/strong&gt; - the only other idea I&amp;rsquo;ve seen thus far that was &amp;lsquo;usable&amp;rsquo; has been docs.ipfs.io/guides/concepts/dnslink&lt;/li&gt;
+&lt;li&gt;20:30 &lt;strong&gt;jacky&lt;/strong&gt; - the only other idea I&amp;rsquo;ve seen thus far that was &amp;lsquo;usable&amp;rsquo; has been &lt;a href=&#34;https://docs.ipfs.io/guides/concepts/dnslink&#34;&gt;docs.ipfs.io/guides/concepts/dnslink&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;20:30 &lt;strong&gt;jacky&lt;/strong&gt; - (which still relies on DNS but one could augment a local DNS resolver to intercept these lookups)&lt;/li&gt;
 &lt;li&gt;20:51 &lt;strong&gt;[tantek]&lt;/strong&gt; - listens intently. (also welcome (back) sandhawke!)&lt;/li&gt;
 &lt;li&gt;20:55 &lt;strong&gt;jacky&lt;/strong&gt; - I don&amp;rsquo;t know / wonder if a solution that&amp;rsquo;s speech-friendly will arise&lt;/li&gt;
@@ -298,7 +309,7 @@
 &lt;li&gt;21:21 &lt;strong&gt;Zegnat&lt;/strong&gt; - I do not want to change the name property in mf2 here [tantek]. I just want it to be clear that the minimal info returned from an IndieAuth endpoint is a display name specifically (and further names (?) may be available under something like a profile scope)&lt;/li&gt;
 &lt;li&gt;21:21 &lt;strong&gt;[tantek]&lt;/strong&gt; - in the past other formats have tried to make distinctions between &amp;ldquo;display name&amp;rdquo; &amp;ldquo;full name&amp;rdquo; etc. and it just results in bad UX. in practice people enter into &amp;ldquo;name&amp;rdquo; what they want displayed. period. no need to futz or handwring about bikeshedding the property. it works&lt;/li&gt;
 &lt;li&gt;21:22 &lt;strong&gt;[tantek]&lt;/strong&gt; - Zegnat, calling something display name then implies that other &amp;ldquo;name&amp;rdquo;s are not &amp;ldquo;display&amp;rdquo; and it just confuses people (implementers, users etc.)&lt;/li&gt;
-&lt;li&gt;21:22 &lt;strong&gt;swentel&lt;/strong&gt; - GWG, I&amp;rsquo;ve documented my experimental geo:uri;h=card on indieweb.org/checkin#Posting_checkins_from_clients (but I&amp;rsquo;m not sure if that&amp;rsquo;s the right place :/) ****&lt;/li&gt;
+&lt;li&gt;21:22 &lt;strong&gt;swentel&lt;/strong&gt; - GWG, I&amp;rsquo;ve documented my experimental geo:uri;h=card on &lt;a href=&#34;https://indieweb.org/checkin#Posting_checkins_from_clients&#34;&gt;indieweb.org/checkin#Posting_checkins_from_clients&lt;/a&gt; (but I&amp;rsquo;m not sure if that&amp;rsquo;s the right place :/) ****&lt;/li&gt;
 &lt;li&gt;21:22 &lt;strong&gt;[tantek]&lt;/strong&gt; - there is never a need in practice to ever &amp;ldquo;be clear&amp;rdquo; about &amp;ldquo;is a display name specifically&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;21:22 &lt;strong&gt;swentel&lt;/strong&gt; - just wanted to make sure it exists at least&lt;/li&gt;
 &lt;li&gt;21:22 &lt;strong&gt;aaronpk&lt;/strong&gt; - side note: openid connect has &amp;ldquo;name&amp;rdquo;, &amp;ldquo;family_name&amp;rdquo;, &amp;ldquo;given_name&amp;rdquo;, &amp;ldquo;middle_name&amp;rdquo; and &amp;ldquo;nickname&amp;rdquo; all under the &amp;ldquo;profile&amp;rdquo; scope, and tbh is an example of what tantek is talking about where the only one actually used is just &amp;ldquo;name&amp;rdquo;&lt;/li&gt;

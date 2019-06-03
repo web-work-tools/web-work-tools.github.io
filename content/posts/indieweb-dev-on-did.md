@@ -10,20 +10,27 @@ aliases:
 slugs: /indieweb-dev-on-did/
 ---
 
+## Contents
+* [Links](#links)
+  * [In-Chat Links](#in-chat-links)
+    * [Peer to Peer DIDs](#peer-to-peer-dids)
+    * [IndieAuth](#indieauth)
+* [#indieweb-dev on RWoT-DIDs 2019-03-02](#indieweb-dev-on-rwot-dids-2019-03-02)
+* [#indieweb-dev on IIW 2018-08-19](#indieweb-dev-on-iiw-2018-08-19)
+
 ## Links 
 
 * [indieweb.org/discuss#Join_Discussions](https://indieweb.org/discuss#Join_Discussions)
 * [Matrix bridge to #dev channnel chat (via riot.im)](https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org)
-
-### Chat Logs
-
 * [#indieweb-dev on DIDs 2019-03-02-chat log](https://freenode.logbot.info/indieweb-dev/20190302)
+* [#indieweb-dev on IIW 2018-08-19-chat log](https://freenode.logbot.info/indieweb-dev/20180819)
 
 ### In-chat Links
 
 * https://docs.ipfs.io/guides/concepts/dnslink/
   * DNSLink uses DNS TXT records to map a domain name (like ipfs.io) to an IPFS address. Because you can edit your DNS records, you can use them to always point to the latest version of an object in IPFS (remember that an IPFS object’s address changes if you modify the object). Because DNSLink uses DNS records, the names it produces are also usually easy to type and read.
   * A DNSLink address looks like an IPNS address, but it uses a domain name in place of a hashed public key:
+* [indieweb.org/checkin#Posting_checkins_from_clients](https://indieweb.org/checkin#Posting_checkins_from_clients)
 
 #### Peer-to-Peer DIDs
 
@@ -73,7 +80,7 @@ slugs: /indieweb-dev-on-did/
   * 16:17 **sandhawke** -Yes, "peer"
   * 16:17 **sandhawke** -[Peer to Peer DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/P2P-DID.md)
   * 16:18 **aaronpk** -Even just reading w3c-ccg.github.io/did-primer/#the-format-of-a-did-0 they casually drop a mention of blockchain as the only option
-  * 16:18 **sandhawke** -dhh1128.github.io/peer-did-method-spec/index.html
+  * 16:18 **sandhawke** -[dhh1128.github.io/peer-did-method-spec/index.html](https://dhh1128.github.io/peer-did-method-spec/index.html)
   * 16:18 **aaronpk** -I'd recommend revising that sentence if they want to not have people think that
   * 16:18 **sandhawke** -Yes, I know, and they know.
   * 16:19 **sandhawke** -But the best solution IMHO is just deploy something as nice and simple as indieauth
@@ -106,7 +113,7 @@ slugs: /indieweb-dev-on-did/
   * 20:28 **jacky** - DNS is _not_ going anywhere
   * 20:29 **jacky** - as least for the people I aim to build for (like myself and then family to an extent)
   * 20:29 **jacky** - DNS is straight-forward and more-or-less "reliable"
-  * 20:30 **jacky** - the only other idea I've seen thus far that was 'usable' has been docs.ipfs.io/guides/concepts/dnslink
+  * 20:30 **jacky** - the only other idea I've seen thus far that was 'usable' has been [docs.ipfs.io/guides/concepts/dnslink](https://docs.ipfs.io/guides/concepts/dnslink)
   * 20:30 **jacky** - (which still relies on DNS but one could augment a local DNS resolver to intercept these lookups)
   * 20:51 **[tantek]** - listens intently. (also welcome (back) sandhawke!)
   * 20:55 **jacky** - I don't know / wonder if a solution that's speech-friendly will arise
@@ -170,7 +177,7 @@ slugs: /indieweb-dev-on-did/
   * 21:21 **Zegnat** - I do not want to change the name property in mf2 here [tantek]. I just want it to be clear that the minimal info returned from an IndieAuth endpoint is a display name specifically (and further names (?) may be available under something like a profile scope)
   * 21:21 **[tantek]** - in the past other formats have tried to make distinctions between "display name" "full name" etc. and it just results in bad UX. in practice people enter into "name" what they want displayed. period. no need to futz or handwring about bikeshedding the property. it works
   * 21:22 **[tantek]** - Zegnat, calling something display name then implies that other "name"s are not "display" and it just confuses people (implementers, users etc.)
-  * 21:22 **swentel** - GWG, I've documented my experimental geo:uri;h=card on indieweb.org/checkin#Posting_checkins_from_clients (but I'm not sure if that's the right place :/) **** 
+  * 21:22 **swentel** - GWG, I've documented my experimental geo:uri;h=card on [indieweb.org/checkin#Posting_checkins_from_clients](https://indieweb.org/checkin#Posting_checkins_from_clients) (but I'm not sure if that's the right place :/) **** 
   * 21:22 **[tantek]** - there is never a need in practice to ever "be clear" about "is a display name specifically"
   * 21:22 **swentel** - just wanted to make sure it exists at least
   * 21:22 **aaronpk** - side note: openid connect has "name", "family_name", "given_name", "middle_name" and "nickname" all under the "profile" scope, and tbh is an example of what tantek is talking about where the only one actually used is just "name" 
