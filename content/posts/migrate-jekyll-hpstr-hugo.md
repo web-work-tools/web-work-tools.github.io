@@ -258,10 +258,6 @@ title = "Practical Public Key Crypto"
 url = "/practical-public-key-crypto/"
 
 [[links]]
-title = "IndieWeb"
-url = "http://infominer.id/indieweb/"
-
-[[links]]
 title = "InfoMine"
 url = "http://infominer.id/"
 ```
