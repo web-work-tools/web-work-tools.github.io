@@ -160,6 +160,68 @@
 <li><a href="https://freenode.logbot.info/indieweb-dev/20190302">#indieweb-dev on DIDs 2019-03-02-chat log</a></li>
 </ul>
 
+<h3 id="in-chat-links">In-chat Links</h3>
+
+<ul>
+<li><a href="https://docs.ipfs.io/guides/concepts/dnslink/">https://docs.ipfs.io/guides/concepts/dnslink/</a>
+
+<ul>
+<li>DNSLink uses DNS TXT records to map a domain name (like ipfs.io) to an IPFS address. Because you can edit your DNS records, you can use them to always point to the latest version of an object in IPFS (remember that an IPFS object’s address changes if you modify the object). Because DNSLink uses DNS records, the names it produces are also usually easy to type and read.</li>
+<li>A DNSLink address looks like an IPNS address, but it uses a domain name in place of a hashed public key:</li>
+</ul></li>
+</ul>
+
+<h4 id="peer-to-peer-dids">Peer-to-Peer DIDs</h4>
+
+<ul>
+<li><a href="https://docs.google.com/document/d/1SwSWIOOujRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4/edit">Comparing WebIDs and DIDs</a></li>
+<li><a href="https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/P2P-DID.md">Peer to Peer DIDs</a></li>
+<li><a href="https://dhh1128.github.io/peer-did-method-spec/index.html">dhh1128.github.io/peer-did-method-spec/index.html</a>
+
+<ul>
+<li><a href="https://dhh1128.github.io/peer-did-method-spec/index.html#grafting-peer-dids-into-another-did-method-namespace">#grafting-peer-dids-into-another-did-method-namespace</a></li>
+</ul></li>
+</ul>
+
+<h4 id="indieauth">IndieAuth</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EeCNlB7v08I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<ul>
+<li><a href="https://indieauth.spec.indieweb.org">indieauth.spec.indieweb.org</a><br />
+&gt; IndieAuth is an identity layer on top of OAuth 2.0 [RFC6749], primarily used to obtain an OAuth 2.0 Bearer Token [RFC6750] for use by [Micropub] clients. End-Users and Clients are all represented by URLs. IndieAuth enables Clients to verify the identity of an End-User, as well as to obtain an access token that can be used to access resources under the control of the End-User.<br /></li>
+<li><a href="https://w3.org/TR/2018/NOTE-indieauth-20180123">W3C Working Group Note 23 January 2018</a>
+&gt; An IndieAuth implementation can implement one or more of the roles of an IndieAuth server or client. This section describes the conformance criteria for each role.
+&gt;
+&gt;Listed below are known types of IndieAuth implementations.
+&gt;
+&gt;2.1.1 Authorization Endpoint
+&gt;An IndieAuth Authorization Endpoint is responsible for obtaining authorization or authentication consent from the end user and generating and verifying authorization codes.
+&gt;
+&gt;2.1.2 Token Endpoint
+&gt;An IndieAuth Token Endpoint is responsible for generating and verifying OAuth 2.0 Bearer Tokens.
+&gt;
+&gt;2.1.3 Micropub Client
+&gt;A Micropub client will attempt to obtain an OAuth 2.0 Bearer Token given an IndieAuth profile URL, and will use the token when making Micropub requests.
+&gt;
+&gt;2.1.4 IndieAuth Client
+&gt;An IndieAuth client is a client that is attempting to authenticate a user given their profile URL, but does not need an OAuth 2.0 Bearer Token.</li>
+<li><a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">aaronparecki.com - Oath for the Open Web</a>
+&gt;OAuth has become the de facto standard for authorization and authentication on the web. Nearly every company with an API used by third party developers has implemented OAuth to enable people to build apps on top of it.
+&gt;
+&gt;While OAuth is a great framework for this, the way it has ended up being used is much more centralized and closed than prior efforts like OpenID 1. Every service that spins up an OAuth-enabled API ends up being its own isolated system. For example, if I want to build an app that can read someone&rsquo;s step count from FitBit, I have to first go register as a developer on FitBit&rsquo;s website in order to get API keys to use with their OAuth API</li>
+<li><a href="https://github.com/indieweb/indieauth/issues/23#issuecomment-414152219">indieweb/indieauth #23#issuecomment-414152219</a>
+
+<ul>
+<li>21:13 <strong>Loqi</strong> - [Zegnat] The table above has been updated with new statistics. This shows that <code>rel=&quot;manifest&quot;</code> are equally as likely to be found on client pages as <code>h-x-app</code>. This Web App Manifests may be a more logical alternative than previously realised.</li>
+</ul></li>
+<li><a href="https://github.com/indieweb/wordpress-indieauth/pull/127/files#diff-F81F3DFF36BF04B7A070D642C858E883">indieweb/wordpress-indieauth #127/files#diff-F81F3DFF36BF04B7A070D642C858E883</a>
+
+<ul>
+<li><strong>dshanske</strong> commented on Feb 24- Returns a jf2 h-card in the token return on verification so the client can display name and user avatar on an application</li>
+</ul></li>
+</ul>
+
 <h2 id="indieweb-dev-on-rwot-dids-2019-03-02">indieweb-dev on RWoT-DIDs 2019-03-02</h2>
 
 <p><a href="https://freenode.logbot.info/indieweb-dev/20190302"><img src="https://imgur.com/A4IPjIi.png" alt="" /></a></p>
@@ -169,7 +231,7 @@
 
 <ul>
 <li>16:14 <strong>sandhawke</strong> - I don&rsquo;t think I have that level of interest to attend IIW - but I happen to be at RWoT right now, and that seems like a sweet spot for me to work on while I&rsquo;m here. I just made this:</li>
-<li>16:14 <strong>sandhawke</strong> - <a href="https://docs.google.com/document/d/1SwSWIOO…jRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4">https://docs.google.com/document/d/1SwSWIOO…jRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4</a></li>
+<li>16:14 <strong>sandhawke</strong> - <a href="https://docs.google.com/document/d/1SwSWIOOujRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4/edit">Comparing WebIDs and DIDs</a></li>
 <li>16:14 <strong>sandhawke</strong> - which should perhaps have a column for IndieAuth</li>
 <li>16:15 <strong>sandhawke</strong> -although it&rsquo;s not quite the same type of thing, it kina is</li>
 <li>16:15 sandhawke <strong>-Anyway</strong> - DIDs seem to have a lot of momentum, so I&rsquo;m inclined to fit webids &amp; indieauth, which I much prefer, into the DID world</li>
@@ -177,10 +239,9 @@
 <li>16:16 <strong>sandhawke</strong> -In person everyone here denies that, and they seem to welcome other mechanisms.</li>
 <li>16:17 <strong>aaronpk</strong> -any examples yet?</li>
 <li>16:17 <strong>sandhawke</strong> -Yes, &ldquo;peer&rdquo;</li>
-<li>16:17 <strong>sandhawke</strong> -github.com/WebOfTrustInfo/rwot8-bar…ics-and-advance-readings/P2P-DID.md</li>
+<li>16:17 <strong>sandhawke</strong> -<a href="https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/P2P-DID.md">Peer to Peer DIDs</a></li>
 <li>16:18 <strong>aaronpk</strong> -Even just reading w3c-ccg.github.io/did-primer/#the-format-of-a-did-0 they casually drop a mention of blockchain as the only option</li>
 <li>16:18 <strong>sandhawke</strong> -dhh1128.github.io/peer-did-method-spec/index.html</li>
-<li><a href="https://dhh1128.github.io/peer-did-method-spec/index.html#grafting-peer-dids-into-another-did-method-namespace">#grafting-peer-dids-into-another-did-method-namespace</a> - Anchor link to Peer DID Info (  *Editor&rsquo;s note  *)</li>
 <li>16:18 <strong>aaronpk</strong> -I&rsquo;d recommend revising that sentence if they want to not have people think that</li>
 <li>16:18 <strong>sandhawke</strong> -Yes, I know, and they know.</li>
 <li>16:19 <strong>sandhawke</strong> -But the best solution IMHO is just deploy something as nice and simple as indieauth</li>
@@ -201,7 +262,7 @@
 <li>16:28 <strong>aaronpk</strong> -Yep and <a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web</a> is a good explanation too</li>
 <li>16:28 <strong>aaronpk</strong> - oh did I forget a change log section? I&rsquo;ll try to add that</li>
 <li>16:29 <strong>sandhawke</strong> - +1</li>
-<li>16:30 <strong>aaronpk</strong> - If video is more your thing, I gave this talk at the W3C workshop youtube.com/watch?v=EeCNlB7v08I</li>
+<li>16:30 <strong>aaronpk</strong> - If video is more your thing, I gave this talk at the W3C workshop <a href="https://youtube.com/watch?v=EeCNlB7v08I">youtube.com/watch?v=EeCNlB7v08I</a></li>
 <li>16:30 <strong>aaronpk</strong> - its nice and short</li>
 <li>16:34 <strong>sandhawke</strong> - cool, pulling out headphones and wathching&hellip;</li>
 <li>16:45 <strong>sandhawke</strong> - ha - amused to hear Wendy&rsquo;s voice moderating the session</li>
@@ -228,9 +289,9 @@
 <li>21:09 <strong>swentel</strong> - other than that, fun experiments today with checkins and geocache, I&rsquo;m getting excited by the location stuff in indigenous :)</li>
 <li>21:10 <strong>jacky</strong> - hm so I saw a question about indieauth and &ldquo;data&rdquo;, like in comparison to how OAuth2 gives you a blob of info post login</li>
 <li>21:11 <strong>jacky</strong> - IndieAuth doesn&rsquo;t have to do that thanks to MF2; you can just pull what you need from their h-card but now I wonder</li>
-<li>21:11 <strong>aaronpk</strong> - jacky: w <strong>e actually started experimenting with this</strong></li>
+<li>21:11 <strong>aaronpk</strong> - jacky: we actually started experimenting with this</li>
 <li>21:11 <strong>jacky</strong> - would it make sense to show a specialized page in the value of the &lsquo;me&rsquo; page? that changes b/c on the authenticated app?</li>
-<li>21:11 <strong>jacky</strong> - aaronpk: o <strong>h?</strong></li>
+<li>21:11 <strong>jacky</strong> - aaronpk: oh?</li>
 <li>21:12 <strong>aaronpk</strong> - trying to remember where we documented it? it was a quick thing during IWC Austin</li>
 <li>21:12 <strong>jacky</strong> - oh man</li>
 <li>21:12 <strong>aaronpk</strong> - GWG added it to wordpress and I added it to Quill</li>
@@ -241,7 +302,7 @@
 <li>21:13 <strong>swentel</strong> - that&rsquo;s at least the indieauth thing</li>
 <li>21:13 <strong>swentel</strong> - maybe there&rsquo;s more?</li>
 <li>21:13 <strong>aaronpk</strong> - yep thanks</li>
-<li>21:13 <strong>jacky</strong> - indieweb/indieauth #23#issuecomment-414152219</li>
+<li>21:13 <strong>jacky</strong> - <a href="https://github.com/indieweb/indieauth/issues/23#issuecomment-414152219">indieweb/indieauth #23#issuecomment-414152219</a></li>
 <li>21:13 <strong>Loqi</strong> - [Zegnat] The table above has been updated with new statistics. This shows that <code>rel=&quot;manifest&quot;</code> are equally as likely to be found on client pages as <code>h-x-app</code>. This Web App Manifests may be a more logical alternative than previously realised.</li>
 <li>21:13 <strong>Loqi</strong> - Further devel&hellip;</li>
 <li>21:13 <strong>GWG</strong> - Although Zegnat pointed out it should be nickname not name</li>
@@ -254,7 +315,7 @@
 <li>21:14 <strong>Zegnat</strong> - More like: I ** wondered if it should be more clear to expect a “display name” rather than a personal name (which I feel <code>name</code> is often used for)**</li>
 <li>21:15 <strong>aaronpk</strong> - the other reason for doing this is it means it&rsquo;s easier to return private/sensitive profile data to apps without having to have a way to serve protected data from your home page</li>
 <li>21:15 <strong>GWG</strong> - aaronpk, I agree with the idea and am willing to change to display name. It is still new and easy to adjust.</li>
-<li>21:15 <strong>jacky</strong> - aaronpk: r <strong>ight</strong></li>
+<li>21:15 <strong>jacky</strong> - aaronpk: right</li>
 <li>21:15 <strong>Zegnat</strong> - aaronpk, yes, that was a bit part of my reasoning over on GitHub :)</li>
 <li>21:15 <strong>Zegnat</strong> - please comment with more details if you think I didn’t make that clear</li>
 <li>21:16 <strong>Zegnat</strong> - s/a bit/a big/</li>
@@ -265,13 +326,13 @@
 <li>21:16 <strong>aaronpk</strong> - there isn&rsquo;t any expectation of that in this stuff anyway so I don&rsquo;t really see the problem</li>
 <li>21:17 <strong>Zegnat</strong> - Except I felt there may have been an expectation of that in JF2, aaronpk. And the issue seemed to suggest using JF2 cards.</li>
 <li>21:17 <strong>GWG</strong> - aaronpk, what if someone requests the theoretical profile scope?</li>
-<li>21:17 <strong>aaronpk</strong> - Zegnat: w <strong>hat gave you the idea of that from jf2? jf2 shouldn&rsquo;t be defining any new semantics on top of the mf2 properties</strong></li>
+<li>21:17 <strong>aaronpk</strong> - Zegnat: what gave you the idea of that from jf2? jf2 shouldn&rsquo;t be defining any new semantics on top of the mf2 properties</li>
 <li>21:18 <strong>swentel</strong> - GWG, do you have a link to the commit in wordpress?</li>
 <li>21:18 <strong>swentel</strong> - Just for inspiration</li>
 <li>21:18 <strong>Zegnat</strong> - “full/formatted name of the person or organisation” is the mf2 definition</li>
 <li>21:18 <strong>Zegnat</strong> - Also, it feels to me like people have been using <code>name</code> on their h-cards a lot for full name currently</li>
-<li>21:19 <strong>GWG</strong> - indieweb/wordpress-indieauth #127/files#diff-F81F3DFF36BF04B7A070D642C858E883</li>
-<li>21:19 **** - » Zegnat now has 3–5 seconds IRC delay, so discussing is going to be hard</li>
+<li>21:19 <strong>GWG</strong> - <a href="https://github.com/indieweb/wordpress-indieauth/pull/127/files#diff-F81F3DFF36BF04B7A070D642C858E883">indieweb/wordpress-indieauth #127/files#diff-F81F3DFF36BF04B7A070D642C858E883</a></li>
+<li>21:19 » <strong>Zegnat</strong> now has 3–5 seconds IRC delay, so discussing is going to be hard</li>
 <li>21:19 <strong>swentel</strong> - thanks</li>
 <li>21:20 <strong>[tantek]</strong> - hmm - we&rsquo;ve been through this renaming loop before. name is display name, no need to ever change to &ldquo;display name&rdquo;.</li>
 <li>21:21 <strong>Zegnat</strong> - I do not want to change the name property in mf2 here [tantek]. I just want it to be clear that the minimal info returned from an IndieAuth endpoint is a display name specifically (and further names (?) may be available under something like a profile scope)</li>
@@ -332,52 +393,52 @@
 
 <p><a href="https://freenode.logbot.info/indieweb-dev/20180819"><img src="https://imgur.com/MvrlESD.png" alt="" /></a>
 * <a href="https://freenode.logbot.info/indieweb-dev/20180819">#indieweb-dev on IIW 2018-08-19-chat log</a>
-  * 17:08<strong>aaronpk</strong> - No, IIW
-  * 17:09<strong>aaronpk</strong> - but all the OAuth IETF people will be there
-  * 17:09<strong>tantek__</strong> - IETF people take IETF i-d more seriously than rando domain with proposals
-  * 17:09<strong>[kevinmarks]</strong> - IIW is a good place to socialize specs certainly
-  * 17:09<strong>aaronpk</strong> - I wonder how much of this I can write in the next 2 hours
-  * 17:09<strong>aaronpk</strong> - need a name tho
-  * 17:10<strong>[kevinmarks]</strong> - OpenAppID
-  * 17:10<strong>aaronpk</strong> - Oh no
-  * 17:11<strong>[kevinmarks]</strong> - I was being facetious
-  * 17:11<strong>tantek__</strong> - [kevinmarks]: based on what evidence of successful specs to come out of IIW socialization?
-  * 17:11<strong>tantek__</strong> - kevinmarks++
-  * 17:11<strong>Loqi</strong> - kevinmarks has 7 karma in this channel over the last year (30 in all channels)
-  * 17:11<strong>tantek__</strong> - OpenAppID++
-  * 17:11<strong>Loqi</strong> - OpenAppID has 1 karma over the last year
-  * 17:11<strong>aaronpk</strong> - OAuth came out of IIW
-  * 17:11<strong>[kevinmarks]</strong> - OAuth 1.0 had a lot of groundwork done at IIW
-  * 17:11<strong>[kevinmarks]</strong> - yes
-  * 17:12<strong>tantek__</strong> - no that&rsquo;s a myth. OAuth came out of a mailing list started by Blaine at Twitter
-  * 17:12<strong>aaronpk</strong> - A lot of it was done at IIW regardless of where it started exactly
-  * 17:12<strong>tantek__</strong> - the actual work was done by a small set of folks on a limited-write, public-readable mailing list
-  * 17:12<strong>[kevinmarks]</strong> - yes, but getting the yahoo and Google people in the room with him at IIW really helped
-  * 17:12<strong>tantek__</strong> - it was an interesting model of standards development by email
-  * 17:13<strong>tantek__</strong> - OAuth did not &ldquo;come out of&rdquo; IIW
-  * 17:13<strong>tantek__</strong> - that&rsquo;s the myth
-  * 17:13<strong>[kevinmarks]</strong> - that helped get the mutual trust necessary to contribute to the mailing list
-  * 17:13<strong>tantek__</strong> - it came out of a limited-write, publicly readable mailing list started by Blaine
-  * 17:13<strong>[kevinmarks]</strong> - I didn&rsquo;t say that, I said &ldquo;a good place to socialize specs&rdquo;
-  * 17:13<strong>tantek__</strong> - aaronpk said that
-  * 17:14<strong>aaronpk</strong> - What I meant was OAuth would not have succeeded if it had not been discussed at IIW
-  * 17:14<strong>[kevinmarks]</strong> - I dragged several google auth people across the street to IIW, then they joined the mailing list
-  * 17:15<strong>[kevinmarks]</strong> - the real bonding experience was them hotpatching the spec and mitigating the replay attack at that foo camp
-  * 17:16<strong>tantek__</strong> - yes the Open Web Foo hotpatching of OAuth 1 to fix the security problems was key
-  * 17:16<strong>aaronpk</strong> - I need a name that gets across that client registration is replaced by DNS
-  * 17:16<strong>aaronpk</strong> - I would use “implicit client registration” if “implicit” didn’t already have existing meaning in OAuth
-  * 17:17<strong>tantek__</strong> - &ldquo;URL client registration&rdquo; ?
-  * 17:17<strong>[kevinmarks]</strong> - Zero Registration per ZeroConf
-  * 17:18<strong>tantek__</strong> - or NoReg per NoSQL
-  * 17:19<strong>tantek__</strong> - shortened to &ldquo;NR&rdquo;
-  * 17:19<strong>tantek__</strong> - how do you handle client registration? we use NR for that
-  * 17:19<strong>tantek__</strong> - &ldquo;ZR&rdquo; works just as well
-  * 17:19<strong>sknebel</strong> - client lookup?
-  * 17:21<strong>aaronpk</strong> - PKCE is a great name because it’s easily googleable and also pronounceable (pixie)
-  * 17:23<strong>tantek__</strong> - aaronpk: Zero Registration shortened to: ZoRg
-  * 17:23<strong>tantek__</strong> - all the Fifth Element fans will love it
-  * 17:23<strong>aaronpk</strong> - zorg omg
-  * 17:24<strong>tantek__</strong> - YES</p>
+  * 17:08 <strong>aaronpk</strong> - No, IIW
+  * 17:09 <strong>aaronpk</strong> - but all the OAuth IETF people will be there
+  * 17:09 <strong>tantek__</strong> - IETF people take IETF i-d more seriously than rando domain with proposals
+  * 17:09 <strong>[kevinmarks]</strong> - IIW is a good place to socialize specs certainly
+  * 17:09 <strong>aaronpk</strong> - I wonder how much of this I can write in the next 2 hours
+  * 17:09 <strong>aaronpk</strong> - need a name tho
+  * 17:10 <strong>[kevinmarks]</strong> - OpenAppID
+  * 17:10 <strong>aaronpk</strong> - Oh no
+  * 17:11 <strong>[kevinmarks]</strong> - I was being facetious
+  * 17:11 <strong>tantek__</strong> - [kevinmarks]: based on what evidence of successful specs to come out of IIW socialization?
+  * 17:11 <strong>tantek__</strong> - kevinmarks++
+  * 17:11 <strong>Loqi</strong> - kevinmarks has 7 karma in this channel over the last year (30 in all channels)
+  * 17:11 <strong>tantek__</strong> - OpenAppID++
+  * 17:11 <strong>Loqi</strong> - OpenAppID has 1 karma over the last year
+  * 17:11 <strong>aaronpk</strong> - OAuth came out of IIW
+  * 17:11 <strong>[kevinmarks]</strong> - OAuth 1.0 had a lot of groundwork done at IIW
+  * 17:11 <strong>[kevinmarks]</strong> - yes
+  * 17:12 <strong>tantek__</strong> - no that&rsquo;s a myth. OAuth came out of a mailing list started by Blaine at Twitter
+  * 17:12 <strong>aaronpk</strong> - A lot of it was done at IIW regardless of where it started exactly
+  * 17:12 <strong>tantek__</strong> - the actual work was done by a small set of folks on a limited-write, public-readable mailing list
+  * 17:12 <strong>[kevinmarks]</strong> - yes, but getting the yahoo and Google people in the room with him at IIW really helped
+  * 17:12 <strong>tantek__</strong> - it was an interesting model of standards development by email
+  * 17:13 <strong>tantek__</strong> - OAuth did not &ldquo;come out of&rdquo; IIW
+  * 17:13 <strong>tantek__</strong> - that&rsquo;s the myth
+  * 17:13 <strong>[kevinmarks]</strong> - that helped get the mutual trust necessary to contribute to the mailing list
+  * 17:13 <strong>tantek__</strong> - it came out of a limited-write, publicly readable mailing list started by Blaine
+  * 17:13 <strong>[kevinmarks]</strong> - I didn&rsquo;t say that, I said &ldquo;a good place to socialize specs&rdquo;
+  * 17:13 <strong>tantek__</strong> - aaronpk said that
+  * 17:14 <strong>aaronpk</strong> - What I meant was OAuth would not have succeeded if it had not been discussed at IIW
+  * 17:14 <strong>[kevinmarks]</strong> - I dragged several google auth people across the street to IIW, then they joined the mailing list
+  * 17:15 <strong>[kevinmarks]</strong> - the real bonding experience was them hotpatching the spec and mitigating the replay attack at that foo camp
+  * 17:16 <strong>tantek__</strong> - yes the Open Web Foo hotpatching of OAuth 1 to fix the security problems was key
+  * 17:16 <strong>aaronpk</strong> - I need a name that gets across that client registration is replaced by DNS
+  * 17:16 <strong>aaronpk</strong> - I would use “implicit client registration” if “implicit” didn’t already have existing meaning in OAuth
+  * 17:17 <strong>tantek__</strong> - &ldquo;URL client registration&rdquo; ?
+  * 17:17 <strong>[kevinmarks]</strong> - Zero Registration per ZeroConf
+  * 17:18 <strong>tantek__</strong> - or NoReg per NoSQL
+  * 17:19 <strong>tantek__</strong> - shortened to &ldquo;NR&rdquo;
+  * 17:19 <strong>tantek__</strong> - how do you handle client registration? we use NR for that
+  * 17:19 <strong>tantek__</strong> - &ldquo;ZR&rdquo; works just as well
+  * 17:19 <strong>sknebel</strong> - client lookup?
+  * 17:21 <strong>aaronpk</strong> - PKCE is a great name because it’s easily googleable and also pronounceable (pixie)
+  * 17:23 <strong>tantek__</strong> - aaronpk: Zero Registration shortened to: ZoRg
+  * 17:23 <strong>tantek__</strong> - all the Fifth Element fans will love it
+  * 17:23 <strong>aaronpk</strong> - zorg omg
+  * 17:24 <strong>tantek__</strong> - YES</p>
 
         </section>
         <footer>
