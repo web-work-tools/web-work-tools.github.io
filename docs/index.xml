@@ -556,6 +556,10 @@ enableEmoji = true
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://masayk.github.io/tech/hugo/&#34;&gt;Blogging with Org-Mode and Hugo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h1 id=&#34;full&#34;&gt;Full&lt;/h1&gt;
+
+&lt;p&gt;![]()&lt;/p&gt;
 </description>
     </item>
     
@@ -1373,10 +1377,10 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Webwork.tools</title>
-      <link>https://infominer.id/web-work/posts/webwork.tools/</link>
+      <link>https://infominer.id/web-work/webwork.tools/</link>
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/webwork.tools/</guid>
+      <guid>https://infominer.id/web-work/webwork.tools/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/power-words.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -1385,7 +1389,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 
 &lt;p&gt;This page has some samples of content that I&amp;rsquo;ve created for others, as well as general resources for web-work.&lt;/p&gt;
 
-&lt;p&gt;Originally it wasn&amp;rsquo;t in blog form&amp;hellip; but I just looked on github, to see when I started, and chose the date that way, for each. This page wasn&amp;rsquo;t in the blog, either.. but seems like it was hidden away in the menu, and less accessible.&lt;/p&gt;
+&lt;p&gt;Originally it wasn&amp;rsquo;t in blog form&amp;hellip; but I just looked on github, to see when I started, and chose the date that way, for each.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/j1TZ1Zf.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -1399,23 +1403,26 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;li&gt;&lt;a href=&#34;https://www.csbtechemporium.com/digital-age-small-business/&#34; target=&#34;_blank&#34;&gt;Small Business in the Digital Age.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;site-index&#34;&gt;Site Index&lt;/h2&gt;
-
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/open-source-publishing/&#34;&gt;Open Source Publishing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-seo/&#34;&gt;Learn-SEO&lt;/a&gt;
+&lt;h2 id=&#34;site-index&#34;&gt;Site Index&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/getting-started-adwords-keyword-planner/&#34;&gt;Getting Started with Adwords Keyword Planner&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/seo-tools/&#34;&gt;100s of free SEO Tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack: Extended Resources&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/practical-pgp/&#34;&gt;Practical PGP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-stars/&#34;&gt;Infominer&amp;rsquo;s Starred Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/forked-repositories/&#34;&gt;Infominer&amp;rsquo;s Forked Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;webpub&#34;&gt;WebPub&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/make-a-github-portfolio/&#34;&gt;Make a Github Portfolio&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/open-source-publishing/&#34;&gt;Open Source Publishing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/infominer33-github-stars/&#34;&gt;Organized list of Repositories I&amp;rsquo;ve Starred&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/branches-git/&#34;&gt;Creating a Test Branch and Merging back the Changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;indieweb&#34;&gt;IndieWeb&lt;/h3&gt;
@@ -1424,11 +1431,22 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/resources/&#34;&gt;IndieWeb Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indieweb-github-repos/&#34;&gt;IndieWeb Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indieweb-github-repos/&#34;&gt;IndieWeb GitHub Repositories&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;h3 id=&#34;seo&#34;&gt;SEO&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-seo/&#34;&gt;Learn-SEO&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/getting-started-adwords-keyword-planner/&#34;&gt;Getting Started with Adwords Keyword Planner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/seo-tools/&#34;&gt;100s of free SEO Tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;off-site-resources&#34;&gt;Off-Site Resources&lt;/h2&gt;
 
 &lt;p&gt;The following are &amp;ldquo;Top Level&amp;rdquo; web-work resources that do not yet have their own page on this site.&lt;/p&gt;
 
@@ -1875,7 +1893,7 @@ IndieAuth Specification&lt;/li&gt;
 &amp;gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/gnu-pgp-thumb.png&#34; alt=&#34;[](https://infominer.id/web-work/images/Cover50.png)&#34; /&gt;{: .align-left}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/gnu-pgp-thumb.png&#34; alt=&#34;[](https://infominer.id/web-work/images/Cover50.png)&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;phil-zimmerman&#34;&gt;Phil Zimmerman&lt;/h2&gt;
 
@@ -2327,6 +2345,8 @@ How much reach and social authority do your followers and the people you want to
       
       <guid>https://infominer.id/web-work/posts/github-pages-starter-pack/</guid>
       <description>
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/github-pages-jekyll-starter-pack.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).&lt;/p&gt;
 
@@ -3340,10 +3360,10 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     
     <item>
       <title>Authors</title>
-      <link>https://infominer.id/web-work/authors/</link>
+      <link>https://infominer.id/web-work/posts/indigo-authors-indieweb/</link>
       <pubDate>Mon, 01 Oct 2018 08:00:00 -0400</pubDate>
       
-      <guid>https://infominer.id/web-work/authors/</guid>
+      <guid>https://infominer.id/web-work/posts/indigo-authors-indieweb/</guid>
       <description>&lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;
 
 &lt;h2 id=&#34;setting-up-the-author-bio&#34;&gt;Setting up the author bio&lt;/h2&gt;

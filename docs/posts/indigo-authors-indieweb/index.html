@@ -134,142 +134,120 @@
 <div id="content">
     <article class="h-entry">
         <header>
-            <h1 class="post-title p-name">Infominer&#39;s GitHub Portfolio and HowTo</h1>
+            <h1 class="post-title p-name">Authors</h1>
             
             <p class="post-date">Posted on
-                <time class="dt-published" datetime="2019-05-27T00:00:00Z">
-                27 May, 2019 at 00:00 UTC
+                <time class="dt-published" datetime="2018-10-01T08:00:00-04:00">
+                1 October, 2018 at 08:00 EDT
                 </time>  by <a href="https://infominer.id/web-work/" class="p-author h-card" rel="author">Infominer</a>
             </p>
             
             
+            <p class="post-tag">Category: 
+                
+                <a href="https://infominer.id/web-work/categories/meta" class="post-tag p-category">meta</a>
+                
+            </p>
+            <hr class="post-underline">
+            
         </header>
         <section class="content e-content">
-            
+            <p>The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.</p>
 
-<p><img src="https://infominer.id/web-work/images/infominer33-github-portfolio.jpeg" alt="" /></p>
+<h2 id="setting-up-the-author-bio">Setting up the author bio</h2>
 
-<p>I learned of this cool project from <a href="https://twitter.com/bmann">@bmann</a>. I&rsquo;ve been wanting a simple way to make a page like this for a while!</p>
+<p>A set of configuration options are used for displaying the biography.</p>
 
-<p>It&rsquo;s really nice to have a place to keep track, because I&rsquo;m always forgetting how many I even manage!</p>
+<pre><code>[params]
+  Author = &quot;Author Name&quot;
+  Avatar = &quot;images/site-logo.svg&quot;
+  Biography = &quot;A short description, a few sentences describing the author. Set
+               the 'ShowBio' parameter to false to hide this.&quot;
+  ShowBio = true        
 
-<p>It might seem intimidating to hear, &ldquo;Just Fork It!&rdquo;</p>
+[params.indieWeb]  
+    EmailAddress = &quot;email.address@example.com&quot;
+    Country = &quot;CountryName&quot;
+    City = &quot;CityName&quot;
+</code></pre>
 
-<p>However, you&rsquo;ll see that it&rsquo;s not much more complex than that.</p>
-
-<h2 id="step-1">Step 1</h2>
-
-<p>Fork this repository:</p>
+<p>Specifics on each setting item are as follows:</p>
 
 <ul>
-<li><a href="https://github.com/github/personal-website">github/personal-website</a></li>
+<li><code>Author</code>: Your name; this is the site author name.</li>
+<li><code>Avatar</code>: The path to your profile picture. By default, it will show the theme&rsquo;s logo (<code>/static/images/site-logo.svg</code>).</li>
+<li><code>Biography</code>: Hopefully the placeholder text here is self-explanatory; add a couple of short sentences about yourself here.</li>
+<li><code>ShowBio</code>: If you prefer not to show the author bio, set this to <code>false</code>. By default, it&rsquo;s set to <code>true</code>.</li>
+<li><code>EmailAddress</code>: The email address at which you can be contacted.</li>
+<li><code>Country</code>: The name of the country in which you live.</li>
+<li><code>City</code>: The name of the city in which you live.</li>
 </ul>
 
-<h2 id="step-2">Step 2</h2>
+<h2 id="indieweb-features">IndieWeb features</h2>
 
-<p>Go to settings and select publish from master branch:</p>
+<p>The following classes are used to mark up the author bio for <a href="https://indieweb.org/">IndieWeb</a> parsing:</p>
 
-<p><img src="https://imgur.com/UAhVvRPl.png" alt="" /></p>
+<table>
+<thead>
+<tr>
+<th align="left">Element</th>
+<th align="left">Class</th>
+</tr>
+</thead>
 
-<h2 id="step-3">Step 3</h2>
+<tbody>
+<tr>
+<td align="left">The author card</td>
+<td align="left"><code>h-card</code></td>
+</tr>
 
-<p>If you already have a web-page, then maybe you aren&rsquo;t reading this.. If you don&rsquo;t, then you must name the repository the same as your name on github. So my first website&rsquo;s repository name is <a href="https://github.com/infominer33/infominer33.github.io">infominer33.github.io</a> since my github username is infominer33. Now it publishes to <code>infominer.id</code> (but also <code>infominer33.github.io</code>) because I have a custom domain, and every other repository I publish is a branch of that first domain.</p>
+<tr>
+<td align="left">Profile picture</td>
+<td align="left"><code>u-photo</code></td>
+</tr>
 
-<p>Since I already have a primary webpage, I change my repository name to <code>repo-portfolio</code>. That way, it lives at:</p>
+<tr>
+<td align="left">Author URL*</td>
+<td align="left"><code>p-name</code>, <code>u-url</code>, <code>rel=me</code></td>
+</tr>
 
-<ul>
-<li><a href="https://infominer.id/repo-portfolio/">infominer.id/repo-portfolio</a></li>
-</ul>
+<tr>
+<td align="left">City</td>
+<td align="left"><code>p-locality</code></td>
+</tr>
 
-<p><img src="https://imgur.com/yL5BaNxl.png" alt="" /></p>
+<tr>
+<td align="left">Country</td>
+<td align="left"><code>p-country-name</code></td>
+</tr>
 
-<h2 id="step-4">Step 4</h2>
+<tr>
+<td align="left">Email address</td>
+<td align="left"><code>u-email</code></td>
+</tr>
 
-<p>On github pages, <code>_config.yml</code> lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:</p>
+<tr>
+<td align="left">Biography</td>
+<td align="left"><code>p-note</code></td>
+</tr>
+</tbody>
+</table>
 
-<pre><code>
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 12
-  exclude:
-    archived: false
-    forks: false
-    projects:
-      - pub-yes
-      - yest
-      - archive-crypto
-      - yest-the-docs
-      - bahamas-crypto
-
-</code></pre>
-
-<p>you can also configure social media accounts.</p>
-
-<pre><code>social_media:
-  website: https://infominer.id/
-  keybase: infominer
-  telegram: infominer33
-  twitter: infominer33
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # unsplash: your_username
-  # vk: your_username
-  # youtube: your_username
-</code></pre>
-
-<p>and topics of interest:</p>
-
-<pre><code>
-topics:
-  - name: Bitcoin
-    web_url: https://github.com/topics/bitcoin
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
-
-  - name: Decentralized Identity
-    web_url: https://github.com/topics/decentralized-identity
-    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
-
-</code></pre>
-
-<p>Cool beans, right?</p>
-
-<p>There are also blog features, although I&rsquo;m not sure I&rsquo;ll blog there&hellip; who knows!?!?</p>
-
-<p>I haven&rsquo;t looked through the <a href="https://github.com/github/personal-website/issues">issues</a>, or <a href="https://github.com/github/personal-website/pulls">pull-requests</a> yet to see what folk are working on, or tried to tweak any of the quirks I&rsquo;ve noticed..</p>
-
-<p>If you want to learn more about GitHub Pages, check out:</p>
-
-<figure class="full">
-    <img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-    <figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
-</figure>
-
+<p>*Author URL is set to the site&rsquo;s base URL.</p>
         </section>
         <footer>
-            <a class="permalink u-url" href="https://infominer.id/web-work/posts/make-a-github-portfolio/">🔗</a>
+            <a class="permalink u-url" href="https://infominer.id/web-work/posts/indigo-authors-indieweb/">🔗</a>
             
             <hr class="post-underline">
             <p class="post-tag">Tags for this post: 
             
-                <a href="https://infominer.id/web-work/tags/github" class="post-tag p-category">github</a>
+                <a href="https://infominer.id/web-work/tags/options" class="post-tag p-category">options</a>
             
-                <a href="https://infominer.id/web-work/tags/repositories" class="post-tag p-category">repositories</a>
+                <a href="https://infominer.id/web-work/tags/indieweb" class="post-tag p-category">indieweb</a>
             
-                <a href="https://infominer.id/web-work/tags/open-source" class="post-tag p-category">open source</a>
+                <a href="https://infominer.id/web-work/tags/hugo" class="post-tag p-category">hugo</a>
             
-                <a href="https://infominer.id/web-work/tags/portfolio" class="post-tag p-category">portfolio</a>
-            
-                <a href="https://infominer.id/web-work/tags/github-pages" class="post-tag p-category">github-pages</a>
+                <a href="https://infominer.id/web-work/tags/front-matter" class="post-tag p-category">front matter</a>
             
             </p>
             
@@ -296,7 +274,7 @@ topics:
       <nav id="article-skip">
         <div class="prev">
           
-          <a alt="Newer article" href="https://infominer.id/web-work/posts/content-creation/">&larr; Newer</a>
+          <a alt="Newer article" href="https://infominer.id/web-work/posts/learn-seo/">&larr; Newer</a>
           
         </div>
         <div class="top">
@@ -304,7 +282,7 @@ topics:
         </div>
         <div class="next">
           
-          <a alt="Older article" href="https://infominer.id/web-work/posts/github-stars/">Older &rarr;</a>
+          <a alt="Older article" href="https://infominer.id/web-work/404/">Older &rarr;</a>
           
         </div>
       </nav>
