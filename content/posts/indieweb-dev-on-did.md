@@ -10,6 +10,8 @@ aliases:
 slugs: /indieweb-dev-on-did/
 ---
 
+What I'm hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.
+
 ## Contents
 * [Links](#links)
   * [In-Chat Links](#in-chat-links)
