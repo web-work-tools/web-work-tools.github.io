@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Webwork.tools</title>
+    <meta name="description" content="{Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto.">
+    <meta name="author" content="Infominer">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="me" href="mailto:infominer@protonmail.com">
+    <link rel="me" href="https://github.com/infominer33">
+    <link rel="me" href="https://twitter.com/infominer33">
+    <link rel="me" href="https://micro.blog/infominer">
+    
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    
+    <style type="text/css">@font-face{
+    font-family: 'Fira Code';
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.ttf') format('truetype');
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.ttf') format('truetype');
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+</style>
+    <link rel="stylesheet" href="https://infominer.id/web-work/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="https://infominer.id/web-work/"><img src="https://infominer.id/web-work/images/site-logo.svg" alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>        
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="https://infominer.id/web-work/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/services/">
+                    
+                    <span>Services</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/webwork.tools/">
+                    
+                    <span>Webwork.tools</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+    </header>
+
+
+
+<div id="content">
+    <article class="h-entry">
+        <header>
+            <h1 class="post-title p-name">FreeNode IRC #indieweb-dev on DID&#39;s</h1>
+            
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="2019-06-03T00:00:00Z">
+                3 June, 2019 at 00:00 UTC
+                </time>  by <a href="https://infominer.id/web-work/" class="p-author h-card" rel="author">Infominer</a>
+            </p>
+            
+            
+        </header>
+        <section class="content e-content">
+            
+
+<p><a href="https://freenode.logbot.info/indieweb-dev/20190302"><img src="https://imgur.com/A4IPjIi.png" alt="" /></a></p>
+
+<h2 id="link-to-indieweb-dev-channel">Link to #indieweb-dev Channel</h2>
+
+<ul>
+<li><a href="https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org">Matrix bridge to #dev channnel chat (via riot.im)</a></li>
+<li><a href="https://freenode.logbot.info/indieweb-dev/20190302">Link to the rest of this Chat-log</a>
+
+<ul>
+<li>16:14 <strong>sandhawke</strong> - I don&rsquo;t think I have that level of interest to attend IIW - but I happen to be at RWoT right now, and that seems like a sweet spot for me to work on while I&rsquo;m here. I just made this:</li>
+<li>16:14 <strong>sandhawke</strong> - <a href="https://docs.google.com/document/d/1SwSWIOO…jRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4">https://docs.google.com/document/d/1SwSWIOO…jRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4</a></li>
+<li>16:14 <strong>sandhawke</strong> - which should perhaps have a column for IndieAuth</li>
+<li>16:15 <strong>sandhawke</strong> -although it&rsquo;s not quite the same type of thing, it kina is</li>
+<li>16:15 sandhawke <strong>-Anyway</strong> - DIDs seem to have a lot of momentum, so I&rsquo;m inclined to fit webids &amp; indieauth, which I much prefer, into the DID world</li>
+<li>16:16 <strong>aaronpk</strong> -DIDs lost me when they make the assumption that blockchains are the only resolution mechanism</li>
+<li>16:16 <strong>sandhawke</strong> -In person everyone here denies that, and they seem to welcome other mechanisms.</li>
+<li>16:17 <strong>aaronpk</strong> -any examples yet?</li>
+<li>16:17 <strong>sandhawke</strong> -Yes, &ldquo;peer&rdquo;</li>
+<li>16:17 <strong>sandhawke</strong> -github.com/WebOfTrustInfo/rwot8-bar…ics-and-advance-readings/P2P-DID.md</li>
+<li>16:18 <strong>aaronpk</strong> -Even just reading w3c-ccg.github.io/did-primer/#the-format-of-a-did-0 they casually drop a mention of blockchain as the only option</li>
+<li>16:18 <strong>sandhawke</strong> -dhh1128.github.io/peer-did-method-spec/index.html</li>
+<li><a href="https://dhh1128.github.io/peer-did-method-spec/index.html#grafting-peer-dids-into-another-did-method-namespace">#grafting-peer-dids-into-another-did-method-namespace</a> - Anchor link to Peer DID Info (  *Editor&rsquo;s note  *)</li>
+<li>16:18 <strong>aaronpk</strong> -I&rsquo;d recommend revising that sentence if they want to not have people think that</li>
+<li>16:18 <strong>sandhawke</strong> -Yes, I know, and they know.</li>
+<li>16:19 <strong>sandhawke</strong> -But the best solution IMHO is just deploy something as nice and simple as indieauth</li>
+<li>16:19 <strong>sandhawke</strong> -But I agree there&rsquo;s a culture clash</li>
+<li>16:19 <strong>aaronpk</strong> -From what I understand they have no interest in relying on DNS so that takes them completely out of the realm of working with current browsers or anything like IndieAuth</li>
+<li>16:20 <strong>aaronpk</strong> -in theory you could make a dns resolver method for did and use domain names as the identifier and get close to something like IndieAuth</li>
+<li>16:20 <strong>sandhawke</strong> -Right.</li>
+<li>16:21 <strong>sandhawke</strong> -And it doesn&rsquo;t matter if they want that</li>
+<li>16:21 <strong>sandhawke</strong> -The end-users benefit</li>
+<li>16:22 <strong>aaronpk</strong> -The other thing missing from DID is the authorization framework that comes with IndieAuth since it&rsquo;s built on OAuth 2.0</li>
+<li>16:22 <strong>sandhawke</strong> -They&rsquo;re working on DID-Auth, trying to figure out what that means. There are two papers about that this weekend, one from Microsoft.</li>
+<li>16:23 <strong>aaronpk</strong> -The DID and OIDC groups weren&rsquo;t even getting along very well and while OIDC is way overkill for what we use IndieAuth for, its still more similar to IndieAuth than blockchain stuff is</li>
+<li>16:24 <strong>sandhawke</strong> -I agree re &ldquo;way overkill&rdquo;, so I want to show how simple it can be. They&rsquo;re not the first &ldquo;way overkill&rdquo; people in identity / authn / authz.</li>
+<li>16:25 sandhawke -I mean &ndash; maybe I should just go watch <strong>netflix</strong> &ndash; this might be a silly waste of time, but I&rsquo;m here, and it&rsquo;s a lot of smart and motivate people, so I can&rsquo;t help but wonder about trying to steer them a bit.</li>
+<li>16:26 <strong>aaronpk</strong> -I would be very interested in what you come up with. I haven&rsquo;t had much luck in any of these conversations so far</li>
+<li>16:27 <strong>sandhawke</strong> -fair enough :-) Is indieauth.spec.indieweb.org pretty much up-to-date with your thinking?</li>
+<li>16:28 <strong>sandhawke</strong> -( sad not to see a change log from <a href="https://w3.org/TR/2018/NOTE-indieauth-20180123">https://w3.org/TR/2018/NOTE-indieauth-20180123</a> )</li>
+<li>16:28 <strong>aaronpk</strong> -Yep and <a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web</a> is a good explanation too</li>
+<li>16:28 <strong>aaronpk</strong> - oh did I forget a change log section? I&rsquo;ll try to add that</li>
+<li>16:29 <strong>sandhawke</strong> - +1</li>
+<li>16:30 <strong>aaronpk</strong> - If video is more your thing, I gave this talk at the W3C workshop youtube.com/watch?v=EeCNlB7v08I</li>
+<li>16:30 <strong>aaronpk</strong> - its nice and short</li>
+<li>16:34 <strong>sandhawke</strong> - cool, pulling out headphones and wathching&hellip;</li>
+<li>16:45 <strong>sandhawke</strong> - ha - amused to hear Wendy&rsquo;s voice moderating the session</li>
+<li>16:52 <strong>sandhawke</strong> - I don&rsquo;t understand the value of public apps being identified</li>
+<li>16:52 <strong>sandhawke</strong> - (good video)</li>
+<li>16:59 <strong>sandhawke</strong> - I guess there&rsquo;s some attack it&rsquo;s intended prevent.</li>
+<li>17:01 <strong>aaronpk</strong> - Yeah that&rsquo;s from OAuth. Prevents redirect interception by registering the redirect URL, and also helps the user not get phished</li>
+<li>20:28 <strong>jacky</strong> - tbh as much as I&rsquo;m for the whole DiD and what not</li>
+<li>20:28 <strong>jacky</strong> - DNS is <em>not</em> going anywhere</li>
+<li>20:29 <strong>jacky</strong> - as least for the people I aim to build for (like myself and then family to an extent)</li>
+<li>20:29 <strong>jacky</strong> - DNS is straight-forward and more-or-less &ldquo;reliable&rdquo;</li>
+<li>20:30 <strong>jacky</strong> - the only other idea I&rsquo;ve seen thus far that was &lsquo;usable&rsquo; has been docs.ipfs.io/guides/concepts/dnslink</li>
+<li>20:30 <strong>jacky</strong> - (which still relies on DNS but one could augment a local DNS resolver to intercept these lookups)</li>
+<li>20:51 <strong>[tantek]</strong> - listens intently. (also welcome (back) sandhawke!)</li>
+<li>20:55 <strong>jacky</strong> - I don&rsquo;t know / wonder if a solution that&rsquo;s speech-friendly will arise</li>
+<li>20:55 <strong>jacky</strong> - like if I can&rsquo;t say it out loud, it&rsquo;s incredibly hard to share</li>
+<li>20:55 <strong>jacky</strong> - sure, I can just share a link</li>
+<li>21:00 <strong>[tantek]</strong> - speechfriendly++</li>
+<li>21:00 <strong>Loqi</strong> - speechfriendly has 1 karma over the last year</li>
+<li>21:05 <strong>swentel</strong> - [tantek], yeah, I figured that it might be a useful link for people looking for my &lsquo;main&rsquo; feed</li>
+<li>21:06 <strong>swentel</strong> - also because currently in aperture, rel=&ldquo;feed&rdquo; is ignored. So if people search feeds on realize.be, they will get microformats, but that&rsquo;s on my homepage, which is kind of useless</li>
+<li>21:06 <strong>swentel</strong> - which makes me wonder whether I should remove microformat markup on the homepage maybe</li>
+<li>21:08 <strong>swentel</strong> - (to be more specific, xray underneath ignores rel=&ldquo;feed&rdquo;, but that&rsquo;s technical detail)</li>
+<li>21:09 <strong>swentel</strong> - other than that, fun experiments today with checkins and geocache, I&rsquo;m getting excited by the location stuff in indigenous :)</li>
+<li>21:10 <strong>jacky</strong> - hm so I saw a question about indieauth and &ldquo;data&rdquo;, like in comparison to how OAuth2 gives you a blob of info post login</li>
+<li>21:11 <strong>jacky</strong> - IndieAuth doesn&rsquo;t have to do that thanks to MF2; you can just pull what you need from their h-card but now I wonder</li>
+<li>21:11 <strong>aaronpk</strong> - jacky: w <strong>e actually started experimenting with this</strong></li>
+<li>21:11 <strong>jacky</strong> - would it make sense to show a specialized page in the value of the &lsquo;me&rsquo; page? that changes b/c on the authenticated app?</li>
+<li>21:11 <strong>jacky</strong> - aaronpk: o <strong>h?</strong></li>
+<li>21:12 <strong>aaronpk</strong> - trying to remember where we documented it? it was a quick thing during IWC Austin</li>
+<li>21:12 <strong>jacky</strong> - oh man</li>
+<li>21:12 <strong>aaronpk</strong> - GWG added it to wordpress and I added it to Quill</li>
+<li>21:12 <strong>swentel</strong> - hmm, GWG opened an issue for me indigenous, there&rsquo;s probably a link there, let me check</li>
+<li>21:12 <strong>swentel</strong> - indieweb/indieauth #31</li>
+<li>21:12 <strong>Loqi</strong> - [dshanske] #31 Returning Profile Data</li>
+<li>21:13 <strong>jacky</strong> - nice</li>
+<li>21:13 <strong>swentel</strong> - that&rsquo;s at least the indieauth thing</li>
+<li>21:13 <strong>swentel</strong> - maybe there&rsquo;s more?</li>
+<li>21:13 <strong>aaronpk</strong> - yep thanks</li>
+<li>21:13 <strong>jacky</strong> - indieweb/indieauth #23#issuecomment-414152219</li>
+<li>21:13 <strong>Loqi</strong> - [Zegnat] The table above has been updated with new statistics. This shows that <code>rel=&quot;manifest&quot;</code> are equally as likely to be found on client pages as <code>h-x-app</code>. This Web App Manifests may be a more logical alternative than previously realised.</li>
+<li>21:13 <strong>Loqi</strong> - Further devel&hellip;</li>
+<li>21:13 <strong>GWG</strong> - Although Zegnat pointed out it should be nickname not name</li>
+<li>21:13 <strong>aaronpk</strong> - hrm I don&rsquo;t think it should be &ldquo;nickname&rdquo;</li>
+<li>21:13 <strong>Zegnat</strong> - Hardly “should be”</li>
+<li>21:14 <strong>jacky</strong> - that makes sense</li>
+<li>21:14 <strong>jacky</strong> - b/c name is so vague</li>
+<li>21:14 <strong>jacky</strong> - vs &lsquo;username&rsquo;, &lsquo;nickname&rsquo;, &lsquo;given name&rsquo;</li>
+<li>21:14 <strong>aaronpk</strong> - display name is more accurate</li>
+<li>21:14 <strong>Zegnat</strong> - More like: I ** wondered if it should be more clear to expect a “display name” rather than a personal name (which I feel <code>name</code> is often used for)**</li>
+<li>21:15 <strong>aaronpk</strong> - the other reason for doing this is it means it&rsquo;s easier to return private/sensitive profile data to apps without having to have a way to serve protected data from your home page</li>
+<li>21:15 <strong>GWG</strong> - aaronpk, I agree with the idea and am willing to change to display name. It is still new and easy to adjust.</li>
+<li>21:15 <strong>jacky</strong> - aaronpk: r <strong>ight</strong></li>
+<li>21:15 <strong>Zegnat</strong> - aaronpk, yes, that was a bit part of my reasoning over on GitHub :)</li>
+<li>21:15 <strong>Zegnat</strong> - please comment with more details if you think I didn’t make that clear</li>
+<li>21:16 <strong>Zegnat</strong> - s/a bit/a big/</li>
+<li>21:16 <strong>GWG</strong> - If someone gives it another +1 I&rsquo;ll go make a PR</li>
+<li>21:16 <strong>swentel</strong> - Hmm, I like name tbh :)</li>
+<li>21:16 <strong>aaronpk</strong> - I also don&rsquo;t necessarily think &ldquo;name&rdquo; is a bad property for this, just need to make it clear that there is no expectation of a &ldquo;real name&rdquo; or &ldquo;full name&rdquo;</li>
+<li>21:16 <strong>swentel</strong> - as it&rsquo;s consistent then</li>
+<li>21:16 <strong>aaronpk</strong> - there isn&rsquo;t any expectation of that in this stuff anyway so I don&rsquo;t really see the problem</li>
+<li>21:17 <strong>Zegnat</strong> - Except I felt there may have been an expectation of that in JF2, aaronpk. And the issue seemed to suggest using JF2 cards.</li>
+<li>21:17 <strong>GWG</strong> - aaronpk, what if someone requests the theoretical profile scope?</li>
+<li>21:17 <strong>aaronpk</strong> - Zegnat: w <strong>hat gave you the idea of that from jf2? jf2 shouldn&rsquo;t be defining any new semantics on top of the mf2 properties</strong></li>
+<li>21:18 <strong>swentel</strong> - GWG, do you have a link to the commit in wordpress?</li>
+<li>21:18 <strong>swentel</strong> - Just for inspiration</li>
+<li>21:18 <strong>Zegnat</strong> - “full/formatted name of the person or organisation” is the mf2 definition</li>
+<li>21:18 <strong>Zegnat</strong> - Also, it feels to me like people have been using <code>name</code> on their h-cards a lot for full name currently</li>
+<li>21:19 <strong>GWG</strong> - indieweb/wordpress-indieauth #127/files#diff-F81F3DFF36BF04B7A070D642C858E883</li>
+<li>21:19 **** - » Zegnat now has 3–5 seconds IRC delay, so discussing is going to be hard</li>
+<li>21:19 <strong>swentel</strong> - thanks</li>
+<li>21:20 <strong>[tantek]</strong> - hmm - we&rsquo;ve been through this renaming loop before. name is display name, no need to ever change to &ldquo;display name&rdquo;.</li>
+<li>21:21 <strong>Zegnat</strong> - I do not want to change the name property in mf2 here [tantek]. I just want it to be clear that the minimal info returned from an IndieAuth endpoint is a display name specifically (and further names (?) may be available under something like a profile scope)</li>
+<li>21:21 <strong>[tantek]</strong> - in the past other formats have tried to make distinctions between &ldquo;display name&rdquo; &ldquo;full name&rdquo; etc. and it just results in bad UX. in practice people enter into &ldquo;name&rdquo; what they want displayed. period. no need to futz or handwring about bikeshedding the property. it works</li>
+<li>21:22 <strong>[tantek]</strong> - Zegnat, calling something display name then implies that other &ldquo;name&rdquo;s are not &ldquo;display&rdquo; and it just confuses people (implementers, users etc.)</li>
+<li>21:22 <strong>swentel</strong> - GWG, I&rsquo;ve documented my experimental geo:uri;h=card on indieweb.org/checkin#Posting_checkins_from_clients (but I&rsquo;m not sure if that&rsquo;s the right place :/) ****</li>
+<li>21:22 <strong>[tantek]</strong> - there is never a need in practice to ever &ldquo;be clear&rdquo; about &ldquo;is a display name specifically&rdquo;</li>
+<li>21:22 <strong>swentel</strong> - just wanted to make sure it exists at least</li>
+<li>21:22 <strong>aaronpk</strong> - side note: openid connect has &ldquo;name&rdquo;, &ldquo;family_name&rdquo;, &ldquo;given_name&rdquo;, &ldquo;middle_name&rdquo; and &ldquo;nickname&rdquo; all under the &ldquo;profile&rdquo; scope, and tbh is an example of what tantek is talking about where the only one actually used is just &ldquo;name&rdquo;</li>
+<li>21:22 <strong>[tantek]</strong> - that&rsquo;s a hypothetical concern from which no one has ever documented any actual harm ever</li>
+<li>21:22 <strong>GWG</strong> - swentel, link to that under Micropub experimental as well.</li>
+<li>21:23 <strong>swentel</strong> - GWG, on micropub extensions?</li>
+<li>21:23 <strong>GWG</strong> - Swentel, yes, excuse me.</li>
+<li>21:23 <strong>swentel</strong> - Ok, maybe it&rsquo;s better to move it there completely</li>
+<li>21:24 <strong>[tantek]</strong> - aaronpk is correct, and opendid connect even there screwed up (inserted Western-centric assumptions by I&rsquo;m sure the 100% Western white male openid connect &ldquo;designers) by renaming vCard&rsquo;s &ldquo;additional name&rdquo; into &ldquo;middle_name&rdquo;.</li>
+<li>21:24 <strong>[tantek]</strong> - openidconnect&ndash;</li>
+<li>21:24 <strong>Loqi</strong> - openidconnect has -1 karma over the last year</li>
+<li>21:24 <strong>GWG</strong> - Do we have a theoretical use case for more than minimal data yet?</li>
+<li>21:24 <strong>[tantek]</strong> - westerncentricassumptions&ndash;</li>
+<li>21:24 <strong>Loqi</strong> - westerncentricassumptions has -1 karma over the last year</li>
+<li>21:26 <strong>GWG</strong> - I return name, url, and photo because that was the minimum needed for a client to display. I am happy to return more behind a profile scope the day someone wants it</li>
+<li>21:26 <strong>[tantek]</strong> - (note: &ldquo; middle&rdquo; is a layout/order specific label, not a semantic. in the past these same kinds of 100% Western white male format designers would have &ldquo;first_name&rdquo; &ldquo;middle_name&rdquo; &ldquo;last_name&rdquo;, there&rsquo;s plenty of examples of bad old dead formats with that, programming examples in various &ldquo;5 minutes to make your own social network!&rdquo; type stuff etc.)</li>
+<li>21:26 <strong>aaronpk</strong> - GWG: I&rsquo;d hold off on anything further with this until we get more publishers and consumers of it</li>
+<li>21:27 <strong>jacky</strong> - r^</li>
+<li>21:27 <strong>GWG</strong> - aaronpk, I planned on it</li>
+<li>21:27 <strong>GWG</strong> - I just was curious about uses</li>
+<li>21:27 <strong>GWG</strong> - I have bigger problems right now</li>
+<li>21:27 <strong>[tantek]</strong> - swentel - I think if you put rel=&ldquo;alternate&rdquo; on the link to your h-feed page then it may be discoverable. I believe rel=feed was deprecated (even dropped by WHATWG HTML for lack of interest / implementations)</li>
+<li>21:28 <strong>swentel</strong> - [tantek], oh, interesting, I&rsquo;ll give that a try yes!</li>
+<li>21:28 <strong>GWG</strong> - Really? I just added a bunch of rel feeds</li>
+<li>21:28 <strong>GWG</strong> - I can&rsquo;t keep up</li>
+<li>21:29 <strong>GWG</strong> - I thought alternate was an alternative view of the same page and feed was a different page</li>
+<li>21:29 <strong>GWG</strong> - What is rel-feed?</li>
+<li>21:29 <strong>Loqi</strong> - rel-feed is the standard for linking to multiple (potentially alternative) h-feeds from a site&rsquo;s homepage using the code rel=&ldquo;feed&rdquo; on those links indieweb.org/rel-feed</li>
+<li>21:30 <strong>jacky</strong> - yeah same</li>
+<li>21:30 <strong>jacky</strong> - re: G WG</li>
+<li>21:31 <strong>[tantek]</strong> - no feed discovery is done via rel=alternate type=&ldquo;insert your feed mime type here&rdquo;</li>
+<li>21:31 <strong>[tantek]</strong> - like since forever</li>
+<li>21:31 <strong>GWG</strong> - That&rsquo;s the way I am using and consuming it</li>
+<li>21:31 <strong>aaronpk</strong> - whoa swentel indieweb.org/Micropub-extensions#Location_checkin_information</li>
+<li>21:31 <strong>[tantek]</strong> - folks here have been trying to get rel=feed off the ground again but TBH I&rsquo;m unsure about it&rsquo;s feasibility</li>
+<li>21:31 <strong>GWG</strong> - What is feed discovery?</li>
+<li>21:31 <strong>Loqi</strong> - feed discovery is a way to, given someone&rsquo;s home page, discover their feed or feeds that they publish indieweb.org/feed_discovery</li>
+<li>21:31 <strong>aaronpk</strong> - that&rsquo;s like an embedded h-card in a geo URL?</li>
+<li>21:31 <strong>aaronpk</strong> - URI</li>
+<li>21:31 <strong>swentel</strong> - aaronpk, yeah, works great .. (at least for me)</li>
+<li>21:32 <strong>GWG</strong> - aaronpk, yes it is</li>
+<li>21:32 <strong>[tantek]</strong> - aaronpk you had it right 🙂</li>
+<li>21:32 <strong>swentel</strong> - I can post checkins and geocaches now from indigenous, with pictures, all in one go :)</li>
+<li>21:32 <strong>swentel</strong> - it&rsquo;s GREAT ;)</li>
+<li>21:32 <strong>aaronpk</strong> - [tantek]: re: geo URI? I thought URLs had to be resolvable</li>
+<li>21:32 <strong>[tantek]</strong> - swentel++ wow</li>
+<li>21:32 <strong>Loqi</strong> - swentel has 27 karma in this channel over the last year (48 in all channels)</li>
+</ul></li>
+</ul>
+
+        </section>
+        <footer>
+            <a class="permalink u-url" href="https://infominer.id/web-work/posts/indieweb-dev-on-did/">🔗</a>
+            
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post: 
+            
+                <a href="https://infominer.id/web-work/tags/indieweb" class="post-tag p-category">indieweb</a>
+            
+                <a href="https://infominer.id/web-work/tags/did" class="post-tag p-category">did</a>
+            
+                <a href="https://infominer.id/web-work/tags/rwot" class="post-tag p-category">rwot</a>
+            
+                <a href="https://infominer.id/web-work/tags/indieweb-dev" class="post-tag p-category">indieweb-dev</a>
+            
+                <a href="https://infominer.id/web-work/tags/freenode" class="post-tag p-category">freenode</a>
+            
+                <a href="https://infominer.id/web-work/tags/chat-log" class="post-tag p-category">chat-log</a>
+            
+            </p>
+            
+        </footer>
+    </article>
+</div>
+
+    
+    <div class="h-card">
+      <img class="u-photo" src="https://infominer.id/web-work/images/infominer.svg" />
+      <div class="card-content">
+        <h2 class="card-name"><a class="p-name u-url" href="https://infominer.id/web-work/" rel="me">Infominer</a></h2>
+        <p class="card-subhead">
+          <span class="p-locality">Marginalized</span>,
+          <span class="p-country-name">Stateless</span><br />
+          <a class="u-email" href="mailto:infominer@protonmail.com">Email me</a>
+        </p>
+      </div>
+      <p class="p-note">Full-Time Crypto-Curation and Histories ⧉ Bitcoin, Blockchain, DecentralizedID ⧉ Research, Publishing, WebWork, Indieweb ⧉ her/him</p>
+    </div>
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="prev">
+          
+          <a alt="Newer article" href="https://infominer.id/web-work/about/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="next">
+          
+          <a alt="Older article" href="https://infominer.id/web-work/posts/indigo-authors-indieweb/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:infominer@protonmail.com"><img src="https://infominer.id/web-work/icons/envelope.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/infominer33"><img src="https://infominer.id/web-work/icons/github.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitLab profile" href="https://gitlab.com/infominer33"><img src="https://infominer.id/web-work/icons/gitlab.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Keybase profile" href="https://keybase.io/infominer"><img src="https://infominer.id/web-work/icons/keybase.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/infominer"><img src="https://infominer.id/web-work/icons/microblog.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Reddit profile" href="https://www.reddit.com/user/infominer33"><img src="https://infominer.id/web-work/icons/reddit-alien.svg" height="24px" width="24px" /></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Stack Overflow profile" href="https://stackoverflow.com/users/10793272"><img src="https://infominer.id/web-work/icons/stack-overflow.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Twitter profile" href="https://twitter.com/infominer33"><img src="https://infominer.id/web-work/icons/twitter.svg" height="24px" width="24px"></a>
+     </div>
+     
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          ⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉
+      </p>
+      
+    </div>
+
+
+</body>
+</html>

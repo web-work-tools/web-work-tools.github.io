@@ -97,6 +97,185 @@
     </item>
     
     <item>
+      <title>FreeNode IRC #indieweb-dev on DID&#39;s</title>
+      <link>https://infominer.id/web-work/posts/indieweb-dev-on-did/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/indieweb-dev-on-did/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20190302&#34;&gt;&lt;img src=&#34;https://imgur.com/A4IPjIi.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;link-to-indieweb-dev-channel&#34;&gt;Link to #indieweb-dev Channel&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org&#34;&gt;Matrix bridge to #dev channnel chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20190302&#34;&gt;Link to the rest of this Chat-log&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;16:14 &lt;strong&gt;sandhawke&lt;/strong&gt; - I don&amp;rsquo;t think I have that level of interest to attend IIW - but I happen to be at RWoT right now, and that seems like a sweet spot for me to work on while I&amp;rsquo;m here. I just made this:&lt;/li&gt;
+&lt;li&gt;16:14 &lt;strong&gt;sandhawke&lt;/strong&gt; - &lt;a href=&#34;https://docs.google.com/document/d/1SwSWIOO…jRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4&#34;&gt;https://docs.google.com/document/d/1SwSWIOO…jRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;16:14 &lt;strong&gt;sandhawke&lt;/strong&gt; - which should perhaps have a column for IndieAuth&lt;/li&gt;
+&lt;li&gt;16:15 &lt;strong&gt;sandhawke&lt;/strong&gt; -although it&amp;rsquo;s not quite the same type of thing, it kina is&lt;/li&gt;
+&lt;li&gt;16:15 sandhawke &lt;strong&gt;-Anyway&lt;/strong&gt; - DIDs seem to have a lot of momentum, so I&amp;rsquo;m inclined to fit webids &amp;amp; indieauth, which I much prefer, into the DID world&lt;/li&gt;
+&lt;li&gt;16:16 &lt;strong&gt;aaronpk&lt;/strong&gt; -DIDs lost me when they make the assumption that blockchains are the only resolution mechanism&lt;/li&gt;
+&lt;li&gt;16:16 &lt;strong&gt;sandhawke&lt;/strong&gt; -In person everyone here denies that, and they seem to welcome other mechanisms.&lt;/li&gt;
+&lt;li&gt;16:17 &lt;strong&gt;aaronpk&lt;/strong&gt; -any examples yet?&lt;/li&gt;
+&lt;li&gt;16:17 &lt;strong&gt;sandhawke&lt;/strong&gt; -Yes, &amp;ldquo;peer&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;16:17 &lt;strong&gt;sandhawke&lt;/strong&gt; -github.com/WebOfTrustInfo/rwot8-bar…ics-and-advance-readings/P2P-DID.md&lt;/li&gt;
+&lt;li&gt;16:18 &lt;strong&gt;aaronpk&lt;/strong&gt; -Even just reading w3c-ccg.github.io/did-primer/#the-format-of-a-did-0 they casually drop a mention of blockchain as the only option&lt;/li&gt;
+&lt;li&gt;16:18 &lt;strong&gt;sandhawke&lt;/strong&gt; -dhh1128.github.io/peer-did-method-spec/index.html&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dhh1128.github.io/peer-did-method-spec/index.html#grafting-peer-dids-into-another-did-method-namespace&#34;&gt;#grafting-peer-dids-into-another-did-method-namespace&lt;/a&gt; - Anchor link to Peer DID Info (  *Editor&amp;rsquo;s note  *)&lt;/li&gt;
+&lt;li&gt;16:18 &lt;strong&gt;aaronpk&lt;/strong&gt; -I&amp;rsquo;d recommend revising that sentence if they want to not have people think that&lt;/li&gt;
+&lt;li&gt;16:18 &lt;strong&gt;sandhawke&lt;/strong&gt; -Yes, I know, and they know.&lt;/li&gt;
+&lt;li&gt;16:19 &lt;strong&gt;sandhawke&lt;/strong&gt; -But the best solution IMHO is just deploy something as nice and simple as indieauth&lt;/li&gt;
+&lt;li&gt;16:19 &lt;strong&gt;sandhawke&lt;/strong&gt; -But I agree there&amp;rsquo;s a culture clash&lt;/li&gt;
+&lt;li&gt;16:19 &lt;strong&gt;aaronpk&lt;/strong&gt; -From what I understand they have no interest in relying on DNS so that takes them completely out of the realm of working with current browsers or anything like IndieAuth&lt;/li&gt;
+&lt;li&gt;16:20 &lt;strong&gt;aaronpk&lt;/strong&gt; -in theory you could make a dns resolver method for did and use domain names as the identifier and get close to something like IndieAuth&lt;/li&gt;
+&lt;li&gt;16:20 &lt;strong&gt;sandhawke&lt;/strong&gt; -Right.&lt;/li&gt;
+&lt;li&gt;16:21 &lt;strong&gt;sandhawke&lt;/strong&gt; -And it doesn&amp;rsquo;t matter if they want that&lt;/li&gt;
+&lt;li&gt;16:21 &lt;strong&gt;sandhawke&lt;/strong&gt; -The end-users benefit&lt;/li&gt;
+&lt;li&gt;16:22 &lt;strong&gt;aaronpk&lt;/strong&gt; -The other thing missing from DID is the authorization framework that comes with IndieAuth since it&amp;rsquo;s built on OAuth 2.0&lt;/li&gt;
+&lt;li&gt;16:22 &lt;strong&gt;sandhawke&lt;/strong&gt; -They&amp;rsquo;re working on DID-Auth, trying to figure out what that means. There are two papers about that this weekend, one from Microsoft.&lt;/li&gt;
+&lt;li&gt;16:23 &lt;strong&gt;aaronpk&lt;/strong&gt; -The DID and OIDC groups weren&amp;rsquo;t even getting along very well and while OIDC is way overkill for what we use IndieAuth for, its still more similar to IndieAuth than blockchain stuff is&lt;/li&gt;
+&lt;li&gt;16:24 &lt;strong&gt;sandhawke&lt;/strong&gt; -I agree re &amp;ldquo;way overkill&amp;rdquo;, so I want to show how simple it can be. They&amp;rsquo;re not the first &amp;ldquo;way overkill&amp;rdquo; people in identity / authn / authz.&lt;/li&gt;
+&lt;li&gt;16:25 sandhawke -I mean &amp;ndash; maybe I should just go watch &lt;strong&gt;netflix&lt;/strong&gt; &amp;ndash; this might be a silly waste of time, but I&amp;rsquo;m here, and it&amp;rsquo;s a lot of smart and motivate people, so I can&amp;rsquo;t help but wonder about trying to steer them a bit.&lt;/li&gt;
+&lt;li&gt;16:26 &lt;strong&gt;aaronpk&lt;/strong&gt; -I would be very interested in what you come up with. I haven&amp;rsquo;t had much luck in any of these conversations so far&lt;/li&gt;
+&lt;li&gt;16:27 &lt;strong&gt;sandhawke&lt;/strong&gt; -fair enough :-) Is indieauth.spec.indieweb.org pretty much up-to-date with your thinking?&lt;/li&gt;
+&lt;li&gt;16:28 &lt;strong&gt;sandhawke&lt;/strong&gt; -( sad not to see a change log from &lt;a href=&#34;https://w3.org/TR/2018/NOTE-indieauth-20180123&#34;&gt;https://w3.org/TR/2018/NOTE-indieauth-20180123&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;16:28 &lt;strong&gt;aaronpk&lt;/strong&gt; -Yep and &lt;a href=&#34;https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web&#34;&gt;https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web&lt;/a&gt; is a good explanation too&lt;/li&gt;
+&lt;li&gt;16:28 &lt;strong&gt;aaronpk&lt;/strong&gt; - oh did I forget a change log section? I&amp;rsquo;ll try to add that&lt;/li&gt;
+&lt;li&gt;16:29 &lt;strong&gt;sandhawke&lt;/strong&gt; - +1&lt;/li&gt;
+&lt;li&gt;16:30 &lt;strong&gt;aaronpk&lt;/strong&gt; - If video is more your thing, I gave this talk at the W3C workshop youtube.com/watch?v=EeCNlB7v08I&lt;/li&gt;
+&lt;li&gt;16:30 &lt;strong&gt;aaronpk&lt;/strong&gt; - its nice and short&lt;/li&gt;
+&lt;li&gt;16:34 &lt;strong&gt;sandhawke&lt;/strong&gt; - cool, pulling out headphones and wathching&amp;hellip;&lt;/li&gt;
+&lt;li&gt;16:45 &lt;strong&gt;sandhawke&lt;/strong&gt; - ha - amused to hear Wendy&amp;rsquo;s voice moderating the session&lt;/li&gt;
+&lt;li&gt;16:52 &lt;strong&gt;sandhawke&lt;/strong&gt; - I don&amp;rsquo;t understand the value of public apps being identified&lt;/li&gt;
+&lt;li&gt;16:52 &lt;strong&gt;sandhawke&lt;/strong&gt; - (good video)&lt;/li&gt;
+&lt;li&gt;16:59 &lt;strong&gt;sandhawke&lt;/strong&gt; - I guess there&amp;rsquo;s some attack it&amp;rsquo;s intended prevent.&lt;/li&gt;
+&lt;li&gt;17:01 &lt;strong&gt;aaronpk&lt;/strong&gt; - Yeah that&amp;rsquo;s from OAuth. Prevents redirect interception by registering the redirect URL, and also helps the user not get phished&lt;/li&gt;
+&lt;li&gt;20:28 &lt;strong&gt;jacky&lt;/strong&gt; - tbh as much as I&amp;rsquo;m for the whole DiD and what not&lt;/li&gt;
+&lt;li&gt;20:28 &lt;strong&gt;jacky&lt;/strong&gt; - DNS is &lt;em&gt;not&lt;/em&gt; going anywhere&lt;/li&gt;
+&lt;li&gt;20:29 &lt;strong&gt;jacky&lt;/strong&gt; - as least for the people I aim to build for (like myself and then family to an extent)&lt;/li&gt;
+&lt;li&gt;20:29 &lt;strong&gt;jacky&lt;/strong&gt; - DNS is straight-forward and more-or-less &amp;ldquo;reliable&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;20:30 &lt;strong&gt;jacky&lt;/strong&gt; - the only other idea I&amp;rsquo;ve seen thus far that was &amp;lsquo;usable&amp;rsquo; has been docs.ipfs.io/guides/concepts/dnslink&lt;/li&gt;
+&lt;li&gt;20:30 &lt;strong&gt;jacky&lt;/strong&gt; - (which still relies on DNS but one could augment a local DNS resolver to intercept these lookups)&lt;/li&gt;
+&lt;li&gt;20:51 &lt;strong&gt;[tantek]&lt;/strong&gt; - listens intently. (also welcome (back) sandhawke!)&lt;/li&gt;
+&lt;li&gt;20:55 &lt;strong&gt;jacky&lt;/strong&gt; - I don&amp;rsquo;t know / wonder if a solution that&amp;rsquo;s speech-friendly will arise&lt;/li&gt;
+&lt;li&gt;20:55 &lt;strong&gt;jacky&lt;/strong&gt; - like if I can&amp;rsquo;t say it out loud, it&amp;rsquo;s incredibly hard to share&lt;/li&gt;
+&lt;li&gt;20:55 &lt;strong&gt;jacky&lt;/strong&gt; - sure, I can just share a link&lt;/li&gt;
+&lt;li&gt;21:00 &lt;strong&gt;[tantek]&lt;/strong&gt; - speechfriendly++&lt;/li&gt;
+&lt;li&gt;21:00 &lt;strong&gt;Loqi&lt;/strong&gt; - speechfriendly has 1 karma over the last year&lt;/li&gt;
+&lt;li&gt;21:05 &lt;strong&gt;swentel&lt;/strong&gt; - [tantek], yeah, I figured that it might be a useful link for people looking for my &amp;lsquo;main&amp;rsquo; feed&lt;/li&gt;
+&lt;li&gt;21:06 &lt;strong&gt;swentel&lt;/strong&gt; - also because currently in aperture, rel=&amp;ldquo;feed&amp;rdquo; is ignored. So if people search feeds on realize.be, they will get microformats, but that&amp;rsquo;s on my homepage, which is kind of useless&lt;/li&gt;
+&lt;li&gt;21:06 &lt;strong&gt;swentel&lt;/strong&gt; - which makes me wonder whether I should remove microformat markup on the homepage maybe&lt;/li&gt;
+&lt;li&gt;21:08 &lt;strong&gt;swentel&lt;/strong&gt; - (to be more specific, xray underneath ignores rel=&amp;ldquo;feed&amp;rdquo;, but that&amp;rsquo;s technical detail)&lt;/li&gt;
+&lt;li&gt;21:09 &lt;strong&gt;swentel&lt;/strong&gt; - other than that, fun experiments today with checkins and geocache, I&amp;rsquo;m getting excited by the location stuff in indigenous :)&lt;/li&gt;
+&lt;li&gt;21:10 &lt;strong&gt;jacky&lt;/strong&gt; - hm so I saw a question about indieauth and &amp;ldquo;data&amp;rdquo;, like in comparison to how OAuth2 gives you a blob of info post login&lt;/li&gt;
+&lt;li&gt;21:11 &lt;strong&gt;jacky&lt;/strong&gt; - IndieAuth doesn&amp;rsquo;t have to do that thanks to MF2; you can just pull what you need from their h-card but now I wonder&lt;/li&gt;
+&lt;li&gt;21:11 &lt;strong&gt;aaronpk&lt;/strong&gt; - jacky: w &lt;strong&gt;e actually started experimenting with this&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;21:11 &lt;strong&gt;jacky&lt;/strong&gt; - would it make sense to show a specialized page in the value of the &amp;lsquo;me&amp;rsquo; page? that changes b/c on the authenticated app?&lt;/li&gt;
+&lt;li&gt;21:11 &lt;strong&gt;jacky&lt;/strong&gt; - aaronpk: o &lt;strong&gt;h?&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;21:12 &lt;strong&gt;aaronpk&lt;/strong&gt; - trying to remember where we documented it? it was a quick thing during IWC Austin&lt;/li&gt;
+&lt;li&gt;21:12 &lt;strong&gt;jacky&lt;/strong&gt; - oh man&lt;/li&gt;
+&lt;li&gt;21:12 &lt;strong&gt;aaronpk&lt;/strong&gt; - GWG added it to wordpress and I added it to Quill&lt;/li&gt;
+&lt;li&gt;21:12 &lt;strong&gt;swentel&lt;/strong&gt; - hmm, GWG opened an issue for me indigenous, there&amp;rsquo;s probably a link there, let me check&lt;/li&gt;
+&lt;li&gt;21:12 &lt;strong&gt;swentel&lt;/strong&gt; - indieweb/indieauth #31&lt;/li&gt;
+&lt;li&gt;21:12 &lt;strong&gt;Loqi&lt;/strong&gt; - [dshanske] #31 Returning Profile Data&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;jacky&lt;/strong&gt; - nice&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;swentel&lt;/strong&gt; - that&amp;rsquo;s at least the indieauth thing&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;swentel&lt;/strong&gt; - maybe there&amp;rsquo;s more?&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;aaronpk&lt;/strong&gt; - yep thanks&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;jacky&lt;/strong&gt; - indieweb/indieauth #23#issuecomment-414152219&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;Loqi&lt;/strong&gt; - [Zegnat] The table above has been updated with new statistics. This shows that &lt;code&gt;rel=&amp;quot;manifest&amp;quot;&lt;/code&gt; are equally as likely to be found on client pages as &lt;code&gt;h-x-app&lt;/code&gt;. This Web App Manifests may be a more logical alternative than previously realised.&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;Loqi&lt;/strong&gt; - Further devel&amp;hellip;&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;GWG&lt;/strong&gt; - Although Zegnat pointed out it should be nickname not name&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;aaronpk&lt;/strong&gt; - hrm I don&amp;rsquo;t think it should be &amp;ldquo;nickname&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;21:13 &lt;strong&gt;Zegnat&lt;/strong&gt; - Hardly “should be”&lt;/li&gt;
+&lt;li&gt;21:14 &lt;strong&gt;jacky&lt;/strong&gt; - that makes sense&lt;/li&gt;
+&lt;li&gt;21:14 &lt;strong&gt;jacky&lt;/strong&gt; - b/c name is so vague&lt;/li&gt;
+&lt;li&gt;21:14 &lt;strong&gt;jacky&lt;/strong&gt; - vs &amp;lsquo;username&amp;rsquo;, &amp;lsquo;nickname&amp;rsquo;, &amp;lsquo;given name&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;21:14 &lt;strong&gt;aaronpk&lt;/strong&gt; - display name is more accurate&lt;/li&gt;
+&lt;li&gt;21:14 &lt;strong&gt;Zegnat&lt;/strong&gt; - More like: I ** wondered if it should be more clear to expect a “display name” rather than a personal name (which I feel &lt;code&gt;name&lt;/code&gt; is often used for)**&lt;/li&gt;
+&lt;li&gt;21:15 &lt;strong&gt;aaronpk&lt;/strong&gt; - the other reason for doing this is it means it&amp;rsquo;s easier to return private/sensitive profile data to apps without having to have a way to serve protected data from your home page&lt;/li&gt;
+&lt;li&gt;21:15 &lt;strong&gt;GWG&lt;/strong&gt; - aaronpk, I agree with the idea and am willing to change to display name. It is still new and easy to adjust.&lt;/li&gt;
+&lt;li&gt;21:15 &lt;strong&gt;jacky&lt;/strong&gt; - aaronpk: r &lt;strong&gt;ight&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;21:15 &lt;strong&gt;Zegnat&lt;/strong&gt; - aaronpk, yes, that was a bit part of my reasoning over on GitHub :)&lt;/li&gt;
+&lt;li&gt;21:15 &lt;strong&gt;Zegnat&lt;/strong&gt; - please comment with more details if you think I didn’t make that clear&lt;/li&gt;
+&lt;li&gt;21:16 &lt;strong&gt;Zegnat&lt;/strong&gt; - s/a bit/a big/&lt;/li&gt;
+&lt;li&gt;21:16 &lt;strong&gt;GWG&lt;/strong&gt; - If someone gives it another +1 I&amp;rsquo;ll go make a PR&lt;/li&gt;
+&lt;li&gt;21:16 &lt;strong&gt;swentel&lt;/strong&gt; - Hmm, I like name tbh :)&lt;/li&gt;
+&lt;li&gt;21:16 &lt;strong&gt;aaronpk&lt;/strong&gt; - I also don&amp;rsquo;t necessarily think &amp;ldquo;name&amp;rdquo; is a bad property for this, just need to make it clear that there is no expectation of a &amp;ldquo;real name&amp;rdquo; or &amp;ldquo;full name&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;21:16 &lt;strong&gt;swentel&lt;/strong&gt; - as it&amp;rsquo;s consistent then&lt;/li&gt;
+&lt;li&gt;21:16 &lt;strong&gt;aaronpk&lt;/strong&gt; - there isn&amp;rsquo;t any expectation of that in this stuff anyway so I don&amp;rsquo;t really see the problem&lt;/li&gt;
+&lt;li&gt;21:17 &lt;strong&gt;Zegnat&lt;/strong&gt; - Except I felt there may have been an expectation of that in JF2, aaronpk. And the issue seemed to suggest using JF2 cards.&lt;/li&gt;
+&lt;li&gt;21:17 &lt;strong&gt;GWG&lt;/strong&gt; - aaronpk, what if someone requests the theoretical profile scope?&lt;/li&gt;
+&lt;li&gt;21:17 &lt;strong&gt;aaronpk&lt;/strong&gt; - Zegnat: w &lt;strong&gt;hat gave you the idea of that from jf2? jf2 shouldn&amp;rsquo;t be defining any new semantics on top of the mf2 properties&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;21:18 &lt;strong&gt;swentel&lt;/strong&gt; - GWG, do you have a link to the commit in wordpress?&lt;/li&gt;
+&lt;li&gt;21:18 &lt;strong&gt;swentel&lt;/strong&gt; - Just for inspiration&lt;/li&gt;
+&lt;li&gt;21:18 &lt;strong&gt;Zegnat&lt;/strong&gt; - “full/formatted name of the person or organisation” is the mf2 definition&lt;/li&gt;
+&lt;li&gt;21:18 &lt;strong&gt;Zegnat&lt;/strong&gt; - Also, it feels to me like people have been using &lt;code&gt;name&lt;/code&gt; on their h-cards a lot for full name currently&lt;/li&gt;
+&lt;li&gt;21:19 &lt;strong&gt;GWG&lt;/strong&gt; - indieweb/wordpress-indieauth #127/files#diff-F81F3DFF36BF04B7A070D642C858E883&lt;/li&gt;
+&lt;li&gt;21:19 **** - » Zegnat now has 3–5 seconds IRC delay, so discussing is going to be hard&lt;/li&gt;
+&lt;li&gt;21:19 &lt;strong&gt;swentel&lt;/strong&gt; - thanks&lt;/li&gt;
+&lt;li&gt;21:20 &lt;strong&gt;[tantek]&lt;/strong&gt; - hmm - we&amp;rsquo;ve been through this renaming loop before. name is display name, no need to ever change to &amp;ldquo;display name&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;21:21 &lt;strong&gt;Zegnat&lt;/strong&gt; - I do not want to change the name property in mf2 here [tantek]. I just want it to be clear that the minimal info returned from an IndieAuth endpoint is a display name specifically (and further names (?) may be available under something like a profile scope)&lt;/li&gt;
+&lt;li&gt;21:21 &lt;strong&gt;[tantek]&lt;/strong&gt; - in the past other formats have tried to make distinctions between &amp;ldquo;display name&amp;rdquo; &amp;ldquo;full name&amp;rdquo; etc. and it just results in bad UX. in practice people enter into &amp;ldquo;name&amp;rdquo; what they want displayed. period. no need to futz or handwring about bikeshedding the property. it works&lt;/li&gt;
+&lt;li&gt;21:22 &lt;strong&gt;[tantek]&lt;/strong&gt; - Zegnat, calling something display name then implies that other &amp;ldquo;name&amp;rdquo;s are not &amp;ldquo;display&amp;rdquo; and it just confuses people (implementers, users etc.)&lt;/li&gt;
+&lt;li&gt;21:22 &lt;strong&gt;swentel&lt;/strong&gt; - GWG, I&amp;rsquo;ve documented my experimental geo:uri;h=card on indieweb.org/checkin#Posting_checkins_from_clients (but I&amp;rsquo;m not sure if that&amp;rsquo;s the right place :/) ****&lt;/li&gt;
+&lt;li&gt;21:22 &lt;strong&gt;[tantek]&lt;/strong&gt; - there is never a need in practice to ever &amp;ldquo;be clear&amp;rdquo; about &amp;ldquo;is a display name specifically&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;21:22 &lt;strong&gt;swentel&lt;/strong&gt; - just wanted to make sure it exists at least&lt;/li&gt;
+&lt;li&gt;21:22 &lt;strong&gt;aaronpk&lt;/strong&gt; - side note: openid connect has &amp;ldquo;name&amp;rdquo;, &amp;ldquo;family_name&amp;rdquo;, &amp;ldquo;given_name&amp;rdquo;, &amp;ldquo;middle_name&amp;rdquo; and &amp;ldquo;nickname&amp;rdquo; all under the &amp;ldquo;profile&amp;rdquo; scope, and tbh is an example of what tantek is talking about where the only one actually used is just &amp;ldquo;name&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;21:22 &lt;strong&gt;[tantek]&lt;/strong&gt; - that&amp;rsquo;s a hypothetical concern from which no one has ever documented any actual harm ever&lt;/li&gt;
+&lt;li&gt;21:22 &lt;strong&gt;GWG&lt;/strong&gt; - swentel, link to that under Micropub experimental as well.&lt;/li&gt;
+&lt;li&gt;21:23 &lt;strong&gt;swentel&lt;/strong&gt; - GWG, on micropub extensions?&lt;/li&gt;
+&lt;li&gt;21:23 &lt;strong&gt;GWG&lt;/strong&gt; - Swentel, yes, excuse me.&lt;/li&gt;
+&lt;li&gt;21:23 &lt;strong&gt;swentel&lt;/strong&gt; - Ok, maybe it&amp;rsquo;s better to move it there completely&lt;/li&gt;
+&lt;li&gt;21:24 &lt;strong&gt;[tantek]&lt;/strong&gt; - aaronpk is correct, and opendid connect even there screwed up (inserted Western-centric assumptions by I&amp;rsquo;m sure the 100% Western white male openid connect &amp;ldquo;designers) by renaming vCard&amp;rsquo;s &amp;ldquo;additional name&amp;rdquo; into &amp;ldquo;middle_name&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;21:24 &lt;strong&gt;[tantek]&lt;/strong&gt; - openidconnect&amp;ndash;&lt;/li&gt;
+&lt;li&gt;21:24 &lt;strong&gt;Loqi&lt;/strong&gt; - openidconnect has -1 karma over the last year&lt;/li&gt;
+&lt;li&gt;21:24 &lt;strong&gt;GWG&lt;/strong&gt; - Do we have a theoretical use case for more than minimal data yet?&lt;/li&gt;
+&lt;li&gt;21:24 &lt;strong&gt;[tantek]&lt;/strong&gt; - westerncentricassumptions&amp;ndash;&lt;/li&gt;
+&lt;li&gt;21:24 &lt;strong&gt;Loqi&lt;/strong&gt; - westerncentricassumptions has -1 karma over the last year&lt;/li&gt;
+&lt;li&gt;21:26 &lt;strong&gt;GWG&lt;/strong&gt; - I return name, url, and photo because that was the minimum needed for a client to display. I am happy to return more behind a profile scope the day someone wants it&lt;/li&gt;
+&lt;li&gt;21:26 &lt;strong&gt;[tantek]&lt;/strong&gt; - (note: &amp;ldquo; middle&amp;rdquo; is a layout/order specific label, not a semantic. in the past these same kinds of 100% Western white male format designers would have &amp;ldquo;first_name&amp;rdquo; &amp;ldquo;middle_name&amp;rdquo; &amp;ldquo;last_name&amp;rdquo;, there&amp;rsquo;s plenty of examples of bad old dead formats with that, programming examples in various &amp;ldquo;5 minutes to make your own social network!&amp;rdquo; type stuff etc.)&lt;/li&gt;
+&lt;li&gt;21:26 &lt;strong&gt;aaronpk&lt;/strong&gt; - GWG: I&amp;rsquo;d hold off on anything further with this until we get more publishers and consumers of it&lt;/li&gt;
+&lt;li&gt;21:27 &lt;strong&gt;jacky&lt;/strong&gt; - r^&lt;/li&gt;
+&lt;li&gt;21:27 &lt;strong&gt;GWG&lt;/strong&gt; - aaronpk, I planned on it&lt;/li&gt;
+&lt;li&gt;21:27 &lt;strong&gt;GWG&lt;/strong&gt; - I just was curious about uses&lt;/li&gt;
+&lt;li&gt;21:27 &lt;strong&gt;GWG&lt;/strong&gt; - I have bigger problems right now&lt;/li&gt;
+&lt;li&gt;21:27 &lt;strong&gt;[tantek]&lt;/strong&gt; - swentel - I think if you put rel=&amp;ldquo;alternate&amp;rdquo; on the link to your h-feed page then it may be discoverable. I believe rel=feed was deprecated (even dropped by WHATWG HTML for lack of interest / implementations)&lt;/li&gt;
+&lt;li&gt;21:28 &lt;strong&gt;swentel&lt;/strong&gt; - [tantek], oh, interesting, I&amp;rsquo;ll give that a try yes!&lt;/li&gt;
+&lt;li&gt;21:28 &lt;strong&gt;GWG&lt;/strong&gt; - Really? I just added a bunch of rel feeds&lt;/li&gt;
+&lt;li&gt;21:28 &lt;strong&gt;GWG&lt;/strong&gt; - I can&amp;rsquo;t keep up&lt;/li&gt;
+&lt;li&gt;21:29 &lt;strong&gt;GWG&lt;/strong&gt; - I thought alternate was an alternative view of the same page and feed was a different page&lt;/li&gt;
+&lt;li&gt;21:29 &lt;strong&gt;GWG&lt;/strong&gt; - What is rel-feed?&lt;/li&gt;
+&lt;li&gt;21:29 &lt;strong&gt;Loqi&lt;/strong&gt; - rel-feed is the standard for linking to multiple (potentially alternative) h-feeds from a site&amp;rsquo;s homepage using the code rel=&amp;ldquo;feed&amp;rdquo; on those links indieweb.org/rel-feed&lt;/li&gt;
+&lt;li&gt;21:30 &lt;strong&gt;jacky&lt;/strong&gt; - yeah same&lt;/li&gt;
+&lt;li&gt;21:30 &lt;strong&gt;jacky&lt;/strong&gt; - re: G WG&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;[tantek]&lt;/strong&gt; - no feed discovery is done via rel=alternate type=&amp;ldquo;insert your feed mime type here&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;[tantek]&lt;/strong&gt; - like since forever&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;GWG&lt;/strong&gt; - That&amp;rsquo;s the way I am using and consuming it&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;aaronpk&lt;/strong&gt; - whoa swentel indieweb.org/Micropub-extensions#Location_checkin_information&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;[tantek]&lt;/strong&gt; - folks here have been trying to get rel=feed off the ground again but TBH I&amp;rsquo;m unsure about it&amp;rsquo;s feasibility&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;GWG&lt;/strong&gt; - What is feed discovery?&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;Loqi&lt;/strong&gt; - feed discovery is a way to, given someone&amp;rsquo;s home page, discover their feed or feeds that they publish indieweb.org/feed_discovery&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;aaronpk&lt;/strong&gt; - that&amp;rsquo;s like an embedded h-card in a geo URL?&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;aaronpk&lt;/strong&gt; - URI&lt;/li&gt;
+&lt;li&gt;21:31 &lt;strong&gt;swentel&lt;/strong&gt; - aaronpk, yeah, works great .. (at least for me)&lt;/li&gt;
+&lt;li&gt;21:32 &lt;strong&gt;GWG&lt;/strong&gt; - aaronpk, yes it is&lt;/li&gt;
+&lt;li&gt;21:32 &lt;strong&gt;[tantek]&lt;/strong&gt; - aaronpk you had it right 🙂&lt;/li&gt;
+&lt;li&gt;21:32 &lt;strong&gt;swentel&lt;/strong&gt; - I can post checkins and geocaches now from indigenous, with pictures, all in one go :)&lt;/li&gt;
+&lt;li&gt;21:32 &lt;strong&gt;swentel&lt;/strong&gt; - it&amp;rsquo;s GREAT ;)&lt;/li&gt;
+&lt;li&gt;21:32 &lt;strong&gt;aaronpk&lt;/strong&gt; - [tantek]: re: geo URI? I thought URLs had to be resolvable&lt;/li&gt;
+&lt;li&gt;21:32 &lt;strong&gt;[tantek]&lt;/strong&gt; - swentel++ wow&lt;/li&gt;
+&lt;li&gt;21:32 &lt;strong&gt;Loqi&lt;/strong&gt; - swentel has 27 karma in this channel over the last year (48 in all channels)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Indigo Authors - Indiweb Features</title>
       <link>https://infominer.id/web-work/posts/indigo-authors-indieweb/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
@@ -1813,6 +1992,19 @@ IndieAuth Specification&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.plutopia.io/2018/12/02/tom-brown-and-manton-reece-an-introduction-to-indieweb/&#34;&gt;Tom Brown and Manton Reece An Introduction to Indieweb&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;matrix-matrix-bridge-to-indieweb-channels-via-riot-im&#34;&gt;Matrix Matrix bridge to #indieweb channels (via riot.im)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb:matrix.org&#34;&gt;Matrix bridge to #indieweb chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb-meta:matrix.org&#34;&gt;Matrix bridge to #meta channnel chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org&#34;&gt;Matrix bridge to #dev channnel chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb-wordpress:matrix.org&#34;&gt;Matrix bridge to #wordpress channnel chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb-chat:matrix.org&#34;&gt;Matrix bridge to #chat channnel chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb-news:matrix.org&#34;&gt;Matrix bridge to #chat channnel chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Matrix bridge to #microformats chat (via riot.im)]()&lt;/li&gt;
+&lt;li&gt;[Matrix bridge to #knownchat chat (via riot.im)]()&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;herestomwiththeweather-com-https-herestomwiththeweather-com&#34;&gt;&lt;a href=&#34;https://herestomwiththeweather.com&#34;&gt;herestomwiththeweather.com&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;I got the Indieweb Jekyll Theme (^^^ this site uses), here:&lt;/p&gt;
@@ -1958,6 +2150,67 @@ IndieAuth Specification&lt;/li&gt;
 &lt;h3 id=&#34;web-hosting-and-migration-indiewebcamp-austin&#34;&gt;Web Hosting and Migration - IndieWebCamp Austin&lt;/h3&gt;
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VrgzvetbH7o&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;social-web-w3c-community-working-group&#34;&gt;Social Web W3C Community Working Group&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://quickthoughts.jgregorymcverry.com/2019/02/01/petermolnar-rubenverborgh-yes-indieweb-community-formed-as#comments&#34;&gt;petermolnar-rubenverborgh-yes-indieweb-community-formed-as&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/hMp0b0d.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3.org/wiki/Socialwg&#34;&gt;https://www.w3.org/wiki/Socialwg&lt;/a&gt; - &lt;strong&gt;The Social Web Working Group was active 2014-07-21 to 2018-02-13.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3.org/2013/socialweb/social-wg-charter&#34;&gt;Social Web Working Group Charter &lt;strong&gt;CLOSED&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/Social_Web_Working_Group&#34;&gt;https://indieweb.org/Social_Web_Working_Group&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/we-distribute/faces-of-the-federation-christopher-allan-webber-on-mediagoblin-and-activitypub-24bbe212867e&#34;&gt;Christopher Lemmer Webber on MediaGoblin and ActivityPub&lt;/a&gt;
+&amp;gt;Here’s a shortlist of things I think are priorities for the SocialCG:
+&amp;gt;
+&amp;gt;* Most importantly, the SocialCG is a space for implementors to talk and collaborate and to incubate new and interesting things.
+&amp;gt;* More work on anti-abuse and anti-spam tools.
+&amp;gt;* Decentralized identity. For instance, Hubzilla has “nomadic identity” in that posts are really tied to your public key fingerprint, and in a sense that’s more your username than anything else. But it would be good to be able to rotate your key, so Decentralized Identifiers are interesting work in that direction. (I actually do some work on this through my job at Digital Bazaar, though it isn’t yet connected to federated social networks.)
+&amp;gt;* Merging peer to peer networks and federated networks. I see that some people have started exploring running ActivityPub instances over Tor onion services. More stuff like that!
+&amp;gt;* I think there’s a ton to be learned from the object capability security community. Petnames, etc etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=14516923&#34;&gt;aaronpk on June 8, 2017 | on: Ask HN: What are we doing about Facebook, Google, &amp;hellip;&lt;/a&gt;
+&amp;gt; I am a member of the W3C Social Web Working Group (&lt;a href=&#34;https://www.w3.org/wiki/Socialwg&#34;&gt;https://www.w3.org/wiki/Socialwg&lt;/a&gt;), and have been organizing IndieWebCamp (&lt;a href=&#34;https://indieweb.org/&#34;&gt;https://indieweb.org/&lt;/a&gt;) conferences in this space for the last 7 years. We&amp;rsquo;ve been making a lot of progress:
+&amp;gt;* &lt;a href=&#34;https://www.w3.org/TR/webmention/&#34;&gt;https://www.w3.org/TR/webmention/&lt;/a&gt; - cross-site commenting
+&amp;gt;
+&amp;gt;* &lt;a href=&#34;https://www.w3.org/TR/micropub/&#34;&gt;https://www.w3.org/TR/micropub/&lt;/a&gt; - API for apps to create posts on various servers
+&amp;gt;
+&amp;gt;* &lt;a href=&#34;https://www.w3.org/TR/websub/&#34;&gt;https://www.w3.org/TR/websub/&lt;/a&gt; - realtime subscriptions to feeds
+&amp;gt;
+&amp;gt;* More: &lt;a href=&#34;https://indieweb.org/specs&#34;&gt;https://indieweb.org/specs&lt;/a&gt;
+&amp;gt;
+&amp;gt;We focus on making sure there are a plurality of implementations and approaches rather than trying to build a single software solution to solve everything.
+&amp;gt;
+&amp;gt;Try commenting on my copy of this post on my website by sending me a webmention! &lt;a href=&#34;https://aaronparecki.com/2017/06/08/9/indieweb&#34;&gt;https://aaronparecki.com/2017/06/08/9/indieweb&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=14517803&#34;&gt;aaronpk on June 8, 2017&lt;/a&gt;
+&amp;gt;
+&amp;gt; Micropub clients: &lt;a href=&#34;https://indieweb.org/Micropub/Clients&#34;&gt;https://indieweb.org/Micropub/Clients&lt;/a&gt;
+&amp;gt; Micropub servers: &lt;a href=&#34;https://indieweb.org/Micropub/Servers&#34;&gt;https://indieweb.org/Micropub/Servers&lt;/a&gt;
+&amp;gt;
+&amp;gt;Webmention implementations: &lt;a href=&#34;https://indieweb.org/Webmention&#34;&gt;https://indieweb.org/Webmention&lt;/a&gt;
+&amp;gt;
+&amp;gt; More details: &lt;a href=&#34;https://indieweb.org/indieweb_network&#34;&gt;https://indieweb.org/indieweb_network&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=14517884&#34;&gt;reedlaw on June 8, 2017&lt;/a&gt;
+&amp;gt; This looks like a good start for a personal blog site: &lt;a href=&#34;https://github.com/barryf/transformative&#34;&gt;https://github.com/barryf/transformative&lt;/a&gt;
+&amp;gt; I found this on the Webmention Implementation Report [1].
+&amp;gt;
+&amp;gt; 1. &lt;a href=&#34;https://webmention.net/implementation-reports/summary/&#34;&gt;https://webmention.net/implementation-reports/summary/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;activity-pub&#34;&gt;Activity Pub&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/WebOfTrustInfo/rwot5-boston/blob/master/final-documents/activitypub-decentralized-distributed.md&#34;&gt;ActivityPub: from decentralized to distributed social networks&lt;/a&gt;
+&amp;gt; ActivityPub is a protocol being developed at the W3C for the purpose of building federated social systems. Users can use implementations of ActivityPub like Mastodon and MediaGoblin as libre alternatives to large siloed social networking systems such as Facebook, Twitter, YouTube, and Instagram.1
+&amp;gt;
+&amp;gt;In general ActivityPub follows the client-server paradigm that has been popular on the World Wide Web, while restoring some level of decentralization. Current implementations of ActivityPub go as far as to bring a level of decentralization akin to email,2 but there are many opportunities to go further.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
