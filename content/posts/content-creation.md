@@ -51,6 +51,9 @@ This thing has extensions for all your coding needs... It is cross-platform, has
 ## Image Converters
 
 * https://pdf2png.com/
+* https://convertio.co/pdf-html/
+
+I used multiple vpn connections and multiple browsers in multiple locations to take extra advantage of that pdf-html converter!
 
 ## Image Sizes for Popular Platforms
 * [Twitter-Image Sizes](https://louisem.com/217438/twitter-image-size)
