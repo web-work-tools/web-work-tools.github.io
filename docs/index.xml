@@ -104,10 +104,17 @@
       <guid>https://infominer.id/web-work/posts/indieweb-dev-on-did/</guid>
       <description>
 
-&lt;h2 id=&#34;link-to-indieweb-dev-channel&#34;&gt;Link to #indieweb-dev Channel&lt;/h2&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://indieweb.org/discuss#Join_Discussions&#34;&gt;indieweb.org/discuss#Join_Discussions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://riot.im/develop/#/room/#freenode_#indieweb-dev:matrix.org&#34;&gt;Matrix bridge to #dev channnel chat (via riot.im)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;chat-logs&#34;&gt;Chat Logs&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://freenode.logbot.info/indieweb-dev/20190302&#34;&gt;#indieweb-dev on DIDs 2019-03-02-chat log&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;indieweb-dev-on-rwot-dids-2019-03-02&#34;&gt;indieweb-dev on RWoT-DIDs 2019-03-02&lt;/h2&gt;
