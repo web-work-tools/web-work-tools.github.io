@@ -244,162 +244,162 @@
 <li><a href="https://freenode.logbot.info/indieweb-dev/20190302">#indieweb-dev on DIDs 2019-03-02-chat log</a>
 
 <ul>
-<li>16:14 <strong>sandhawke</strong> - I don&rsquo;t think I have that level of interest to attend IIW - but I happen to be at RWoT right now, and that seems like a sweet spot for me to work on while I&rsquo;m here. I just made this:</li>
-<li>16:14 <strong>sandhawke</strong> - <a href="https://docs.google.com/document/d/1SwSWIOOujRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4/edit">Comparing WebIDs and DIDs</a></li>
-<li>16:14 <strong>sandhawke</strong> - which should perhaps have a column for IndieAuth</li>
-<li>16:15 <strong>sandhawke</strong> -although it&rsquo;s not quite the same type of thing, it kina is</li>
-<li>16:15 sandhawke <strong>-Anyway</strong> - DIDs seem to have a lot of momentum, so I&rsquo;m inclined to fit webids &amp; indieauth, which I much prefer, into the DID world</li>
-<li>16:16 <strong>aaronpk</strong> -DIDs lost me when they make the assumption that blockchains are the only resolution mechanism</li>
-<li>16:16 <strong>sandhawke</strong> -In person everyone here denies that, and they seem to welcome other mechanisms.</li>
-<li>16:17 <strong>aaronpk</strong> -any examples yet?</li>
-<li>16:17 <strong>sandhawke</strong> -Yes, &ldquo;peer&rdquo;</li>
-<li>16:17 <strong>sandhawke</strong> -<a href="https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/P2P-DID.md">Peer to Peer DIDs</a></li>
-<li>16:18 <strong>aaronpk</strong> -Even just reading w3c-ccg.github.io/did-primer/#the-format-of-a-did-0 they casually drop a mention of blockchain as the only option</li>
-<li>16:18 <strong>sandhawke</strong> -<a href="https://dhh1128.github.io/peer-did-method-spec/index.html">dhh1128.github.io/peer-did-method-spec/index.html</a></li>
-<li>16:18 <strong>aaronpk</strong> -I&rsquo;d recommend revising that sentence if they want to not have people think that</li>
-<li>16:18 <strong>sandhawke</strong> -Yes, I know, and they know.</li>
-<li>16:19 <strong>sandhawke</strong> -But the best solution IMHO is just deploy something as nice and simple as indieauth</li>
-<li>16:19 <strong>sandhawke</strong> -But I agree there&rsquo;s a culture clash</li>
-<li>16:19 <strong>aaronpk</strong> -From what I understand they have no interest in relying on DNS so that takes them completely out of the realm of working with current browsers or anything like IndieAuth</li>
-<li>16:20 <strong>aaronpk</strong> -in theory you could make a dns resolver method for did and use domain names as the identifier and get close to something like IndieAuth</li>
-<li>16:20 <strong>sandhawke</strong> -Right.</li>
-<li>16:21 <strong>sandhawke</strong> -And it doesn&rsquo;t matter if they want that</li>
-<li>16:21 <strong>sandhawke</strong> -The end-users benefit</li>
-<li>16:22 <strong>aaronpk</strong> -The other thing missing from DID is the authorization framework that comes with IndieAuth since it&rsquo;s built on OAuth 2.0</li>
-<li>16:22 <strong>sandhawke</strong> -They&rsquo;re working on DID-Auth, trying to figure out what that means. There are two papers about that this weekend, one from Microsoft.</li>
-<li>16:23 <strong>aaronpk</strong> -The DID and OIDC groups weren&rsquo;t even getting along very well and while OIDC is way overkill for what we use IndieAuth for, its still more similar to IndieAuth than blockchain stuff is</li>
-<li>16:24 <strong>sandhawke</strong> -I agree re &ldquo;way overkill&rdquo;, so I want to show how simple it can be. They&rsquo;re not the first &ldquo;way overkill&rdquo; people in identity / authn / authz.</li>
-<li>16:25 sandhawke -I mean &ndash; maybe I should just go watch <strong>netflix</strong> &ndash; this might be a silly waste of time, but I&rsquo;m here, and it&rsquo;s a lot of smart and motivate people, so I can&rsquo;t help but wonder about trying to steer them a bit.</li>
-<li>16:26 <strong>aaronpk</strong> -I would be very interested in what you come up with. I haven&rsquo;t had much luck in any of these conversations so far</li>
-<li>16:27 <strong>sandhawke</strong> -fair enough :-) Is indieauth.spec.indieweb.org pretty much up-to-date with your thinking?</li>
-<li>16:28 <strong>sandhawke</strong> -( sad not to see a change log from <a href="https://w3.org/TR/2018/NOTE-indieauth-20180123">https://w3.org/TR/2018/NOTE-indieauth-20180123</a> )</li>
-<li>16:28 <strong>aaronpk</strong> -Yep and <a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web</a> is a good explanation too</li>
-<li>16:28 <strong>aaronpk</strong> - oh did I forget a change log section? I&rsquo;ll try to add that</li>
-<li>16:29 <strong>sandhawke</strong> - +1</li>
-<li>16:30 <strong>aaronpk</strong> - If video is more your thing, I gave this talk at the W3C workshop <a href="https://youtube.com/watch?v=EeCNlB7v08I">youtube.com/watch?v=EeCNlB7v08I</a></li>
-<li>16:30 <strong>aaronpk</strong> - its nice and short</li>
-<li>16:34 <strong>sandhawke</strong> - cool, pulling out headphones and wathching&hellip;</li>
-<li>16:45 <strong>sandhawke</strong> - ha - amused to hear Wendy&rsquo;s voice moderating the session</li>
-<li>16:52 <strong>sandhawke</strong> - I don&rsquo;t understand the value of public apps being identified</li>
-<li>16:52 <strong>sandhawke</strong> - (good video)</li>
-<li>16:59 <strong>sandhawke</strong> - I guess there&rsquo;s some attack it&rsquo;s intended prevent.</li>
-<li>17:01 <strong>aaronpk</strong> - Yeah that&rsquo;s from OAuth. Prevents redirect interception by registering the redirect URL, and also helps the user not get phished</li>
-<li>20:28 <strong>jacky</strong> - tbh as much as I&rsquo;m for the whole DiD and what not</li>
-<li>20:28 <strong>jacky</strong> - DNS is <em>not</em> going anywhere</li>
-<li>20:29 <strong>jacky</strong> - as least for the people I aim to build for (like myself and then family to an extent)</li>
-<li>20:29 <strong>jacky</strong> - DNS is straight-forward and more-or-less &ldquo;reliable&rdquo;</li>
-<li>20:30 <strong>jacky</strong> - the only other idea I&rsquo;ve seen thus far that was &lsquo;usable&rsquo; has been <a href="https://docs.ipfs.io/guides/concepts/dnslink">docs.ipfs.io/guides/concepts/dnslink</a></li>
-<li>20:30 <strong>jacky</strong> - (which still relies on DNS but one could augment a local DNS resolver to intercept these lookups)</li>
-<li>20:51 <strong>[tantek]</strong> - listens intently. (also welcome (back) sandhawke!)</li>
-<li>20:55 <strong>jacky</strong> - I don&rsquo;t know / wonder if a solution that&rsquo;s speech-friendly will arise</li>
-<li>20:55 <strong>jacky</strong> - like if I can&rsquo;t say it out loud, it&rsquo;s incredibly hard to share</li>
-<li>20:55 <strong>jacky</strong> - sure, I can just share a link</li>
-<li>21:00 <strong>[tantek]</strong> - speechfriendly++</li>
-<li>21:00 <strong>Loqi</strong> - speechfriendly has 1 karma over the last year</li>
-<li>21:05 <strong>swentel</strong> - [tantek], yeah, I figured that it might be a useful link for people looking for my &lsquo;main&rsquo; feed</li>
-<li>21:06 <strong>swentel</strong> - also because currently in aperture, rel=&ldquo;feed&rdquo; is ignored. So if people search feeds on realize.be, they will get microformats, but that&rsquo;s on my homepage, which is kind of useless</li>
-<li>21:06 <strong>swentel</strong> - which makes me wonder whether I should remove microformat markup on the homepage maybe</li>
-<li>21:08 <strong>swentel</strong> - (to be more specific, xray underneath ignores rel=&ldquo;feed&rdquo;, but that&rsquo;s technical detail)</li>
-<li>21:09 <strong>swentel</strong> - other than that, fun experiments today with checkins and geocache, I&rsquo;m getting excited by the location stuff in indigenous :)</li>
-<li>21:10 <strong>jacky</strong> - hm so I saw a question about indieauth and &ldquo;data&rdquo;, like in comparison to how OAuth2 gives you a blob of info post login</li>
-<li>21:11 <strong>jacky</strong> - IndieAuth doesn&rsquo;t have to do that thanks to MF2; you can just pull what you need from their h-card but now I wonder</li>
-<li>21:11 <strong>aaronpk</strong> - jacky: we actually started experimenting with this</li>
-<li>21:11 <strong>jacky</strong> - would it make sense to show a specialized page in the value of the &lsquo;me&rsquo; page? that changes b/c on the authenticated app?</li>
-<li>21:11 <strong>jacky</strong> - aaronpk: oh?</li>
-<li>21:12 <strong>aaronpk</strong> - trying to remember where we documented it? it was a quick thing during IWC Austin</li>
-<li>21:12 <strong>jacky</strong> - oh man</li>
-<li>21:12 <strong>aaronpk</strong> - GWG added it to wordpress and I added it to Quill</li>
-<li>21:12 <strong>swentel</strong> - hmm, GWG opened an issue for me indigenous, there&rsquo;s probably a link there, let me check</li>
-<li>21:12 <strong>swentel</strong> - indieweb/indieauth #31</li>
-<li>21:12 <strong>Loqi</strong> - [dshanske] #31 Returning Profile Data</li>
-<li>21:13 <strong>jacky</strong> - nice</li>
-<li>21:13 <strong>swentel</strong> - that&rsquo;s at least the indieauth thing</li>
-<li>21:13 <strong>swentel</strong> - maybe there&rsquo;s more?</li>
-<li>21:13 <strong>aaronpk</strong> - yep thanks</li>
-<li>21:13 <strong>jacky</strong> - <a href="https://github.com/indieweb/indieauth/issues/23#issuecomment-414152219">indieweb/indieauth #23#issuecomment-414152219</a></li>
-<li>21:13 <strong>Loqi</strong> - [Zegnat] The table above has been updated with new statistics. This shows that <code>rel=&quot;manifest&quot;</code> are equally as likely to be found on client pages as <code>h-x-app</code>. This Web App Manifests may be a more logical alternative than previously realised.</li>
-<li>21:13 <strong>Loqi</strong> - Further devel&hellip;</li>
-<li>21:13 <strong>GWG</strong> - Although Zegnat pointed out it should be nickname not name</li>
-<li>21:13 <strong>aaronpk</strong> - hrm I don&rsquo;t think it should be &ldquo;nickname&rdquo;</li>
-<li>21:13 <strong>Zegnat</strong> - Hardly “should be”</li>
-<li>21:14 <strong>jacky</strong> - that makes sense</li>
-<li>21:14 <strong>jacky</strong> - b/c name is so vague</li>
-<li>21:14 <strong>jacky</strong> - vs &lsquo;username&rsquo;, &lsquo;nickname&rsquo;, &lsquo;given name&rsquo;</li>
-<li>21:14 <strong>aaronpk</strong> - display name is more accurate</li>
-<li>21:14 <strong>Zegnat</strong> - More like: I ** wondered if it should be more clear to expect a “display name” rather than a personal name (which I feel <code>name</code> is often used for)**</li>
-<li>21:15 <strong>aaronpk</strong> - the other reason for doing this is it means it&rsquo;s easier to return private/sensitive profile data to apps without having to have a way to serve protected data from your home page</li>
-<li>21:15 <strong>GWG</strong> - aaronpk, I agree with the idea and am willing to change to display name. It is still new and easy to adjust.</li>
-<li>21:15 <strong>jacky</strong> - aaronpk: right</li>
-<li>21:15 <strong>Zegnat</strong> - aaronpk, yes, that was a bit part of my reasoning over on GitHub :)</li>
-<li>21:15 <strong>Zegnat</strong> - please comment with more details if you think I didn’t make that clear</li>
-<li>21:16 <strong>Zegnat</strong> - s/a bit/a big/</li>
-<li>21:16 <strong>GWG</strong> - If someone gives it another +1 I&rsquo;ll go make a PR</li>
-<li>21:16 <strong>swentel</strong> - Hmm, I like name tbh :)</li>
-<li>21:16 <strong>aaronpk</strong> - I also don&rsquo;t necessarily think &ldquo;name&rdquo; is a bad property for this, just need to make it clear that there is no expectation of a &ldquo;real name&rdquo; or &ldquo;full name&rdquo;</li>
-<li>21:16 <strong>swentel</strong> - as it&rsquo;s consistent then</li>
-<li>21:16 <strong>aaronpk</strong> - there isn&rsquo;t any expectation of that in this stuff anyway so I don&rsquo;t really see the problem</li>
-<li>21:17 <strong>Zegnat</strong> - Except I felt there may have been an expectation of that in JF2, aaronpk. And the issue seemed to suggest using JF2 cards.</li>
-<li>21:17 <strong>GWG</strong> - aaronpk, what if someone requests the theoretical profile scope?</li>
-<li>21:17 <strong>aaronpk</strong> - Zegnat: what gave you the idea of that from jf2? jf2 shouldn&rsquo;t be defining any new semantics on top of the mf2 properties</li>
-<li>21:18 <strong>swentel</strong> - GWG, do you have a link to the commit in wordpress?</li>
-<li>21:18 <strong>swentel</strong> - Just for inspiration</li>
-<li>21:18 <strong>Zegnat</strong> - “full/formatted name of the person or organisation” is the mf2 definition</li>
-<li>21:18 <strong>Zegnat</strong> - Also, it feels to me like people have been using <code>name</code> on their h-cards a lot for full name currently</li>
-<li>21:19 <strong>GWG</strong> - <a href="https://github.com/indieweb/wordpress-indieauth/pull/127/files#diff-F81F3DFF36BF04B7A070D642C858E883">indieweb/wordpress-indieauth #127/files#diff-F81F3DFF36BF04B7A070D642C858E883</a></li>
-<li>21:19 » <strong>Zegnat</strong> now has 3–5 seconds IRC delay, so discussing is going to be hard</li>
-<li>21:19 <strong>swentel</strong> - thanks</li>
-<li>21:20 <strong>[tantek]</strong> - hmm - we&rsquo;ve been through this renaming loop before. name is display name, no need to ever change to &ldquo;display name&rdquo;.</li>
-<li>21:21 <strong>Zegnat</strong> - I do not want to change the name property in mf2 here [tantek]. I just want it to be clear that the minimal info returned from an IndieAuth endpoint is a display name specifically (and further names (?) may be available under something like a profile scope)</li>
-<li>21:21 <strong>[tantek]</strong> - in the past other formats have tried to make distinctions between &ldquo;display name&rdquo; &ldquo;full name&rdquo; etc. and it just results in bad UX. in practice people enter into &ldquo;name&rdquo; what they want displayed. period. no need to futz or handwring about bikeshedding the property. it works</li>
-<li>21:22 <strong>[tantek]</strong> - Zegnat, calling something display name then implies that other &ldquo;name&rdquo;s are not &ldquo;display&rdquo; and it just confuses people (implementers, users etc.)</li>
-<li>21:22 <strong>swentel</strong> - GWG, I&rsquo;ve documented my experimental geo:uri;h=card on <a href="https://indieweb.org/checkin#Posting_checkins_from_clients">indieweb.org/checkin#Posting_checkins_from_clients</a> (but I&rsquo;m not sure if that&rsquo;s the right place :/) ****</li>
-<li>21:22 <strong>[tantek]</strong> - there is never a need in practice to ever &ldquo;be clear&rdquo; about &ldquo;is a display name specifically&rdquo;</li>
-<li>21:22 <strong>swentel</strong> - just wanted to make sure it exists at least</li>
-<li>21:22 <strong>aaronpk</strong> - side note: openid connect has &ldquo;name&rdquo;, &ldquo;family_name&rdquo;, &ldquo;given_name&rdquo;, &ldquo;middle_name&rdquo; and &ldquo;nickname&rdquo; all under the &ldquo;profile&rdquo; scope, and tbh is an example of what tantek is talking about where the only one actually used is just &ldquo;name&rdquo;</li>
-<li>21:22 <strong>[tantek]</strong> - that&rsquo;s a hypothetical concern from which no one has ever documented any actual harm ever</li>
-<li>21:22 <strong>GWG</strong> - swentel, link to that under Micropub experimental as well.</li>
-<li>21:23 <strong>swentel</strong> - GWG, on micropub extensions?</li>
-<li>21:23 <strong>GWG</strong> - Swentel, yes, excuse me.</li>
-<li>21:23 <strong>swentel</strong> - Ok, maybe it&rsquo;s better to move it there completely</li>
-<li>21:24 <strong>[tantek]</strong> - aaronpk is correct, and opendid connect even there screwed up (inserted Western-centric assumptions by I&rsquo;m sure the 100% Western white male openid connect &ldquo;designers) by renaming vCard&rsquo;s &ldquo;additional name&rdquo; into &ldquo;middle_name&rdquo;.</li>
-<li>21:24 <strong>[tantek]</strong> - openidconnect&ndash;</li>
-<li>21:24 <strong>Loqi</strong> - openidconnect has -1 karma over the last year</li>
-<li>21:24 <strong>GWG</strong> - Do we have a theoretical use case for more than minimal data yet?</li>
-<li>21:24 <strong>[tantek]</strong> - westerncentricassumptions&ndash;</li>
-<li>21:24 <strong>Loqi</strong> - westerncentricassumptions has -1 karma over the last year</li>
-<li>21:26 <strong>GWG</strong> - I return name, url, and photo because that was the minimum needed for a client to display. I am happy to return more behind a profile scope the day someone wants it</li>
-<li>21:26 <strong>[tantek]</strong> - (note: &ldquo; middle&rdquo; is a layout/order specific label, not a semantic. in the past these same kinds of 100% Western white male format designers would have &ldquo;first_name&rdquo; &ldquo;middle_name&rdquo; &ldquo;last_name&rdquo;, there&rsquo;s plenty of examples of bad old dead formats with that, programming examples in various &ldquo;5 minutes to make your own social network!&rdquo; type stuff etc.)</li>
-<li>21:26 <strong>aaronpk</strong> - GWG: I&rsquo;d hold off on anything further with this until we get more publishers and consumers of it</li>
-<li>21:27 <strong>jacky</strong> - r^</li>
-<li>21:27 <strong>GWG</strong> - aaronpk, I planned on it</li>
-<li>21:27 <strong>GWG</strong> - I just was curious about uses</li>
-<li>21:27 <strong>GWG</strong> - I have bigger problems right now</li>
-<li>21:27 <strong>[tantek]</strong> - swentel - I think if you put rel=&ldquo;alternate&rdquo; on the link to your h-feed page then it may be discoverable. I believe rel=feed was deprecated (even dropped by WHATWG HTML for lack of interest / implementations)</li>
-<li>21:28 <strong>swentel</strong> - [tantek], oh, interesting, I&rsquo;ll give that a try yes!</li>
-<li>21:28 <strong>GWG</strong> - Really? I just added a bunch of rel feeds</li>
-<li>21:28 <strong>GWG</strong> - I can&rsquo;t keep up</li>
-<li>21:29 <strong>GWG</strong> - I thought alternate was an alternative view of the same page and feed was a different page</li>
-<li>21:29 <strong>GWG</strong> - What is rel-feed?</li>
-<li>21:29 <strong>Loqi</strong> - rel-feed is the standard for linking to multiple (potentially alternative) h-feeds from a site&rsquo;s homepage using the code rel=&ldquo;feed&rdquo; on those links indieweb.org/rel-feed</li>
-<li>21:30 <strong>jacky</strong> - yeah same</li>
-<li>21:30 <strong>jacky</strong> - re: G WG</li>
-<li>21:31 <strong>[tantek]</strong> - no feed discovery is done via rel=alternate type=&ldquo;insert your feed mime type here&rdquo;</li>
-<li>21:31 <strong>[tantek]</strong> - like since forever</li>
-<li>21:31 <strong>GWG</strong> - That&rsquo;s the way I am using and consuming it</li>
-<li>21:31 <strong>aaronpk</strong> - whoa swentel indieweb.org/Micropub-extensions#Location_checkin_information</li>
-<li>21:31 <strong>[tantek]</strong> - folks here have been trying to get rel=feed off the ground again but TBH I&rsquo;m unsure about it&rsquo;s feasibility</li>
-<li>21:31 <strong>GWG</strong> - What is feed discovery?</li>
-<li>21:31 <strong>Loqi</strong> - feed discovery is a way to, given someone&rsquo;s home page, discover their feed or feeds that they publish indieweb.org/feed_discovery</li>
-<li>21:31 <strong>aaronpk</strong> - that&rsquo;s like an embedded h-card in a geo URL?</li>
-<li>21:31 <strong>aaronpk</strong> - URI</li>
-<li>21:31 <strong>swentel</strong> - aaronpk, yeah, works great .. (at least for me)</li>
-<li>21:32 <strong>GWG</strong> - aaronpk, yes it is</li>
-<li>21:32 <strong>[tantek]</strong> - aaronpk you had it right 🙂</li>
-<li>21:32 <strong>swentel</strong> - I can post checkins and geocaches now from indigenous, with pictures, all in one go :)</li>
-<li>21:32 <strong>swentel</strong> - it&rsquo;s GREAT ;)</li>
-<li>21:32 <strong>aaronpk</strong> - [tantek]: re: geo URI? I thought URLs had to be resolvable</li>
-<li>21:32 <strong>[tantek]</strong> - swentel++ wow</li>
-<li>21:32 <strong>Loqi</strong> - swentel has 27 karma in this channel over the last year (48 in all channels)</li>
+<li>16:14 <a href="https://twitter.com/sandhawke">@sandhawke</a> - I don&rsquo;t think I have that level of interest to attend IIW - but I happen to be at RWoT right now, and that seems like a sweet spot for me to work on while I&rsquo;m here. I just made this:</li>
+<li>16:14 <a href="https://twitter.com/sandhawke">@sandhawke</a> - <a href="https://docs.google.com/document/d/1SwSWIOOujRCdrwVyrKojwAvQVp-wJJ9P6NBiuQ3bDN4/edit">Comparing WebIDs and DIDs</a></li>
+<li>16:14 <a href="https://twitter.com/sandhawke">@sandhawke</a> - which should perhaps have a column for IndieAuth</li>
+<li>16:15 <a href="https://twitter.com/sandhawke">@sandhawke</a> -although it&rsquo;s not quite the same type of thing, it kina is</li>
+<li>16:15 <a href="https://twitter.com/sandhawke">@sandhawke</a> -Anyway - DIDs seem to have a lot of momentum, so I&rsquo;m inclined to fit webids &amp; indieauth, which I much prefer, into the DID world</li>
+<li>16:16 <a href="https://twitter.com/aaronpk">@aaronpk</a> -DIDs lost me when they make the assumption that blockchains are the only resolution mechanism</li>
+<li>16:16 <a href="https://twitter.com/sandhawke">@sandhawke</a> -In person everyone here denies that, and they seem to welcome other mechanisms.</li>
+<li>16:17 <a href="https://twitter.com/aaronpk">@aaronpk</a> -any examples yet?</li>
+<li>16:17 <a href="https://twitter.com/sandhawke">@sandhawke</a> -Yes, &ldquo;peer&rdquo;</li>
+<li>16:17 <a href="https://twitter.com/sandhawke">@sandhawke</a> -<a href="https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/P2P-DID.md">Peer to Peer DIDs</a></li>
+<li>16:18 <a href="https://twitter.com/aaronpk">@aaronpk</a> -Even just reading w3c-ccg.github.io/did-primer/#the-format-of-a-did-0 they casually drop a mention of blockchain as the only option</li>
+<li>16:18 <a href="https://twitter.com/sandhawke">@sandhawke</a> -<a href="https://dhh1128.github.io/peer-did-method-spec/index.html">dhh1128.github.io/peer-did-method-spec/index.html</a></li>
+<li>16:18 <a href="https://twitter.com/aaronpk">@aaronpk</a> -I&rsquo;d recommend revising that sentence if they want to not have people think that</li>
+<li>16:18 <a href="https://twitter.com/sandhawke">@sandhawke</a> -Yes, I know, and they know.</li>
+<li>16:19 <a href="https://twitter.com/sandhawke">@sandhawke</a> -But the best solution IMHO is just deploy something as nice and simple as indieauth</li>
+<li>16:19 <a href="https://twitter.com/sandhawke">@sandhawke</a> -But I agree there&rsquo;s a culture clash</li>
+<li>16:19 <a href="https://twitter.com/aaronpk">@aaronpk</a> -From what I understand they have no interest in relying on DNS so that takes them completely out of the realm of working with current browsers or anything like IndieAuth</li>
+<li>16:20 <a href="https://twitter.com/aaronpk">@aaronpk</a> -in theory you could make a dns resolver method for did and use domain names as the identifier and get close to something like IndieAuth</li>
+<li>16:20 <a href="https://twitter.com/sandhawke">@sandhawke</a> -Right.</li>
+<li>16:21 <a href="https://twitter.com/sandhawke">@sandhawke</a> -And it doesn&rsquo;t matter if they want that</li>
+<li>16:21 <a href="https://twitter.com/sandhawke">@sandhawke</a> -The end-users benefit</li>
+<li>16:22 <a href="https://twitter.com/aaronpk">@aaronpk</a> -The other thing missing from DID is the authorization framework that comes with IndieAuth since it&rsquo;s built on OAuth 2.0</li>
+<li>16:22 <a href="https://twitter.com/sandhawke">@sandhawke</a> -They&rsquo;re working on DID-Auth, trying to figure out what that means. There are two papers about that this weekend, one from Microsoft.</li>
+<li>16:23 <a href="https://twitter.com/aaronpk">@aaronpk</a> -The DID and OIDC groups weren&rsquo;t even getting along very well and while OIDC is way overkill for what we use IndieAuth for, its still more similar to IndieAuth than blockchain stuff is</li>
+<li>16:24 <a href="https://twitter.com/sandhawke">@sandhawke</a> -I agree re &ldquo;way overkill&rdquo;, so I want to show how simple it can be. They&rsquo;re not the first &ldquo;way overkill&rdquo; people in identity / authn / authz.</li>
+<li>16:25 <a href="https://twitter.com/sandhawke">@sandhawke</a> -I mean &ndash; maybe I should just go watch netflix &ndash; this might be a silly waste of time, but I&rsquo;m here, and it&rsquo;s a lot of smart and motivate people, so I can&rsquo;t help but wonder about trying to steer them a bit.</li>
+<li>16:26 <a href="https://twitter.com/aaronpk">@aaronpk</a> -I would be very interested in what you come up with. I haven&rsquo;t had much luck in any of these conversations so far</li>
+<li>16:27 <a href="https://twitter.com/sandhawke">@sandhawke</a> -fair enough :-) Is indieauth.spec.indieweb.org pretty much up-to-date with your thinking?</li>
+<li>16:28 <a href="https://twitter.com/sandhawke">@sandhawke</a> -( sad not to see a change log from <a href="https://w3.org/TR/2018/NOTE-indieauth-20180123">https://w3.org/TR/2018/NOTE-indieauth-20180123</a> )</li>
+<li>16:28 <a href="https://twitter.com/aaronpk">@aaronpk</a> -Yep and <a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web</a> is a good explanation too</li>
+<li>16:28 <a href="https://twitter.com/aaronpk">@aaronpk</a> - oh did I forget a change log section? I&rsquo;ll try to add that</li>
+<li>16:29 <a href="https://twitter.com/sandhawke">@sandhawke</a> - +1</li>
+<li>16:30 <a href="https://twitter.com/aaronpk">@aaronpk</a> - If video is more your thing, I gave this talk at the W3C workshop <a href="https://youtube.com/watch?v=EeCNlB7v08I">youtube.com/watch?v=EeCNlB7v08I</a></li>
+<li>16:30 <a href="https://twitter.com/aaronpk">@aaronpk</a> - its nice and short</li>
+<li>16:34 <a href="https://twitter.com/sandhawke">@sandhawke</a> - cool, pulling out headphones and wathching&hellip;</li>
+<li>16:45 <a href="https://twitter.com/sandhawke">@sandhawke</a> - ha - amused to hear Wendy&rsquo;s voice moderating the session</li>
+<li>16:52 <a href="https://twitter.com/sandhawke">@sandhawke</a> - I don&rsquo;t understand the value of public apps being identified</li>
+<li>16:52 <a href="https://twitter.com/sandhawke">@sandhawke</a> - (good video)</li>
+<li>16:59 <a href="https://twitter.com/sandhawke">@sandhawke</a> - I guess there&rsquo;s some attack it&rsquo;s intended prevent.</li>
+<li>17:01 <a href="https://twitter.com/aaronpk">@aaronpk</a> - Yeah that&rsquo;s from OAuth. Prevents redirect interception by registering the redirect URL, and also helps the user not get phished</li>
+<li>20:28 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - tbh as much as I&rsquo;m for the whole DiD and what not</li>
+<li>20:28 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - DNS is <em>not</em> going anywhere</li>
+<li>20:29 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - as least for the people I aim to build for (like myself and then family to an extent)</li>
+<li>20:29 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - DNS is straight-forward and more-or-less &ldquo;reliable&rdquo;</li>
+<li>20:30 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - the only other idea I&rsquo;ve seen thus far that was &lsquo;usable&rsquo; has been <a href="https://docs.ipfs.io/guides/concepts/dnslink">docs.ipfs.io/guides/concepts/dnslink</a></li>
+<li>20:30 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - (which still relies on DNS but one could augment a local DNS resolver to intercept these lookups)</li>
+<li>20:51 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - listens intently. (also welcome (back) sandhawke!)</li>
+<li>20:55 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - I don&rsquo;t know / wonder if a solution that&rsquo;s speech-friendly will arise</li>
+<li>20:55 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - like if I can&rsquo;t say it out loud, it&rsquo;s incredibly hard to share</li>
+<li>20:55 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - sure, I can just share a link</li>
+<li>21:00 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - speechfriendly++</li>
+<li>21:00 <a href="https://indieweb.org/Loqi">[Loqi]</a> - speechfriendly has 1 karma over the last year</li>
+<li>21:05 <a href="https://github.com/swentel">@swentel</a> - [tantek], yeah, I figured that it might be a useful link for people looking for my &lsquo;main&rsquo; feed</li>
+<li>21:06 <a href="https://github.com/swentel">@swentel</a> - also because currently in aperture, rel=&ldquo;feed&rdquo; is ignored. So if people search feeds on realize.be, they will get microformats, but that&rsquo;s on my homepage, which is kind of useless</li>
+<li>21:06 <a href="https://github.com/swentel">@swentel</a> - which makes me wonder whether I should remove microformat markup on the homepage maybe</li>
+<li>21:08 <a href="https://github.com/swentel">@swentel</a> - (to be more specific, xray underneath ignores rel=&ldquo;feed&rdquo;, but that&rsquo;s technical detail)</li>
+<li>21:09 <a href="https://github.com/swentel">@swentel</a> - other than that, fun experiments today with checkins and geocache, I&rsquo;m getting excited by the location stuff in indigenous :)</li>
+<li>21:10 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - hm so I saw a question about indieauth and &ldquo;data&rdquo;, like in comparison to how OAuth2 gives you a blob of info post login</li>
+<li>21:11 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - IndieAuth doesn&rsquo;t have to do that thanks to MF2; you can just pull what you need from their h-card but now I wonder</li>
+<li>21:11 <a href="https://twitter.com/aaronpk">@aaronpk</a> - jacky: we actually started experimenting with this</li>
+<li>21:11 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - would it make sense to show a specialized page in the value of the &lsquo;me&rsquo; page? that changes b/c on the authenticated app?</li>
+<li>21:11 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - aaronpk: oh?</li>
+<li>21:12 <a href="https://twitter.com/aaronpk">@aaronpk</a> - trying to remember where we documented it? it was a quick thing during IWC Austin</li>
+<li>21:12 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - oh man</li>
+<li>21:12 <a href="https://twitter.com/aaronpk">@aaronpk</a> - GWG added it to wordpress and I added it to Quill</li>
+<li>21:12 <a href="https://github.com/swentel">@swentel</a> - hmm, GWG opened an issue for me indigenous, there&rsquo;s probably a link there, let me check</li>
+<li>21:12 <a href="https://github.com/swentel">@swentel</a> - indieweb/indieauth #31</li>
+<li>21:12 <a href="https://indieweb.org/Loqi">[Loqi]</a> - [dshanske] #31 Returning Profile Data</li>
+<li>21:13 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - nice</li>
+<li>21:13 <a href="https://github.com/swentel">@swentel</a> - that&rsquo;s at least the indieauth thing</li>
+<li>21:13 <a href="https://github.com/swentel">@swentel</a> - maybe there&rsquo;s more?</li>
+<li>21:13 <a href="https://twitter.com/aaronpk">@aaronpk</a> - yep thanks</li>
+<li>21:13 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - <a href="https://github.com/indieweb/indieauth/issues/23#issuecomment-414152219">indieweb/indieauth #23#issuecomment-414152219</a></li>
+<li>21:13 <a href="https://indieweb.org/Loqi">[Loqi]</a> - [Zegnat] The table above has been updated with new statistics. This shows that <code>rel=&quot;manifest&quot;</code> are equally as likely to be found on client pages as <code>h-x-app</code>. This Web App Manifests may be a more logical alternative than previously realised.</li>
+<li>21:13 <a href="https://indieweb.org/Loqi">[Loqi]</a> - Further devel&hellip;</li>
+<li>21:13 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - Although Zegnat pointed out it should be nickname not name</li>
+<li>21:13 <a href="https://twitter.com/aaronpk">@aaronpk</a> - hrm I don&rsquo;t think it should be &ldquo;nickname&rdquo;</li>
+<li>21:13 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - Hardly “should be”</li>
+<li>21:14 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - that makes sense</li>
+<li>21:14 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - b/c name is so vague</li>
+<li>21:14 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - vs &lsquo;username&rsquo;, &lsquo;nickname&rsquo;, &lsquo;given name&rsquo;</li>
+<li>21:14 <a href="https://twitter.com/aaronpk">@aaronpk</a> - display name is more accurate</li>
+<li>21:14 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - More like: I ** wondered if it should be more clear to expect a “display name” rather than a personal name (which I feel <code>name</code> is often used for)**</li>
+<li>21:15 <a href="https://twitter.com/aaronpk">@aaronpk</a> - the other reason for doing this is it means it&rsquo;s easier to return private/sensitive profile data to apps without having to have a way to serve protected data from your home page</li>
+<li>21:15 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - aaronpk, I agree with the idea and am willing to change to display name. It is still new and easy to adjust.</li>
+<li>21:15 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - aaronpk: right</li>
+<li>21:15 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - aaronpk, yes, that was a bit part of my reasoning over on GitHub :)</li>
+<li>21:15 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - please comment with more details if you think I didn’t make that clear</li>
+<li>21:16 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - s/a bit/a big/</li>
+<li>21:16 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - If someone gives it another +1 I&rsquo;ll go make a PR</li>
+<li>21:16 <a href="https://github.com/swentel">@swentel</a> - Hmm, I like name tbh :)</li>
+<li>21:16 <a href="https://twitter.com/aaronpk">@aaronpk</a> - I also don&rsquo;t necessarily think &ldquo;name&rdquo; is a bad property for this, just need to make it clear that there is no expectation of a &ldquo;real name&rdquo; or &ldquo;full name&rdquo;</li>
+<li>21:16 <a href="https://github.com/swentel">@swentel</a> - as it&rsquo;s consistent then</li>
+<li>21:16 <a href="https://twitter.com/aaronpk">@aaronpk</a> - there isn&rsquo;t any expectation of that in this stuff anyway so I don&rsquo;t really see the problem</li>
+<li>21:17 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - Except I felt there may have been an expectation of that in JF2, aaronpk. And the issue seemed to suggest using JF2 cards.</li>
+<li>21:17 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - aaronpk, what if someone requests the theoretical profile scope?</li>
+<li>21:17 <a href="https://twitter.com/aaronpk">@aaronpk</a> - Zegnat: what gave you the idea of that from jf2? jf2 shouldn&rsquo;t be defining any new semantics on top of the mf2 properties</li>
+<li>21:18 <a href="https://github.com/swentel">@swentel</a> - GWG, do you have a link to the commit in wordpress?</li>
+<li>21:18 <a href="https://github.com/swentel">@swentel</a> - Just for inspiration</li>
+<li>21:18 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - “full/formatted name of the person or organisation” is the mf2 definition</li>
+<li>21:18 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - Also, it feels to me like people have been using <code>name</code> on their h-cards a lot for full name currently</li>
+<li>21:19 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - <a href="https://github.com/indieweb/wordpress-indieauth/pull/127/files#diff-F81F3DFF36BF04B7A070D642C858E883">indieweb/wordpress-indieauth #127/files#diff-F81F3DFF36BF04B7A070D642C858E883</a></li>
+<li>21:19 » <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> now has 3–5 seconds IRC delay, so discussing is going to be hard</li>
+<li>21:19 <a href="https://github.com/swentel">@swentel</a> - thanks</li>
+<li>21:20 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - hmm - we&rsquo;ve been through this renaming loop before. name is display name, no need to ever change to &ldquo;display name&rdquo;.</li>
+<li>21:21 <a href="https://indieweb.org/User:Vanderven.se_martijn">[Zegnat]</a> - I do not want to change the name property in mf2 here [tantek]. I just want it to be clear that the minimal info returned from an IndieAuth endpoint is a display name specifically (and further names (?) may be available under something like a profile scope)</li>
+<li>21:21 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - in the past other formats have tried to make distinctions between &ldquo;display name&rdquo; &ldquo;full name&rdquo; etc. and it just results in bad UX. in practice people enter into &ldquo;name&rdquo; what they want displayed. period. no need to futz or handwring about bikeshedding the property. it works</li>
+<li>21:22 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - Zegnat, calling something display name then implies that other &ldquo;name&rdquo;s are not &ldquo;display&rdquo; and it just confuses people (implementers, users etc.)</li>
+<li>21:22 <a href="https://indieweb.org/checkin#Posting_checkins_from_clients"><a href="https://github.com/swentel">swentel</a> - GWG, I&rsquo;ve documented my experimental geo:uri;h=card on [indieweb.org/checkin#Posting_checkins_from_clients]</a> (but I&rsquo;m not sure if that&rsquo;s the right place :/) ****</li>
+<li>21:22 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - there is never a need in practice to ever &ldquo;be clear&rdquo; about &ldquo;is a display name specifically&rdquo;</li>
+<li>21:22 <a href="https://github.com/swentel">@swentel</a> - just wanted to make sure it exists at least</li>
+<li>21:22 <a href="https://twitter.com/aaronpk">@aaronpk</a> - side note: openid connect has &ldquo;name&rdquo;, &ldquo;family_name&rdquo;, &ldquo;given_name&rdquo;, &ldquo;middle_name&rdquo; and &ldquo;nickname&rdquo; all under the &ldquo;profile&rdquo; scope, and tbh is an example of what tantek is talking about where the only one actually used is just &ldquo;name&rdquo;</li>
+<li>21:22 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - that&rsquo;s a hypothetical concern from which no one has ever documented any actual harm ever</li>
+<li>21:22 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - swentel, link to that under Micropub experimental as well.</li>
+<li>21:23 <a href="https://github.com/swentel">@swentel</a> - GWG, on micropub extensions?</li>
+<li>21:23 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - Swentel, yes, excuse me.</li>
+<li>21:23 <a href="https://github.com/swentel">@swentel</a> - Ok, maybe it&rsquo;s better to move it there completely</li>
+<li>21:24 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - aaronpk is correct, and opendid connect even there screwed up (inserted Western-centric assumptions by I&rsquo;m sure the 100% Western white male openid connect &ldquo;designers) by renaming vCard&rsquo;s &ldquo;additional name&rdquo; into &ldquo;middle_name&rdquo;.</li>
+<li>21:24 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - openidconnect&ndash;</li>
+<li>21:24 <a href="https://indieweb.org/Loqi">[Loqi]</a> - openidconnect has -1 karma over the last year</li>
+<li>21:24 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - Do we have a theoretical use case for more than minimal data yet?</li>
+<li>21:24 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - westerncentricassumptions&ndash;</li>
+<li>21:24 <a href="https://indieweb.org/Loqi">[Loqi]</a> - westerncentricassumptions has -1 karma over the last year</li>
+<li>21:26 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - I return name, url, and photo because that was the minimum needed for a client to display. I am happy to return more behind a profile scope the day someone wants it</li>
+<li>21:26 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - (note: &ldquo; middle&rdquo; is a layout/order specific label, not a semantic. in the past these same kinds of 100% Western white male format designers would have &ldquo;first_name&rdquo; &ldquo;middle_name&rdquo; &ldquo;last_name&rdquo;, there&rsquo;s plenty of examples of bad old dead formats with that, programming examples in various &ldquo;5 minutes to make your own social network!&rdquo; type stuff etc.)</li>
+<li>21:26 <a href="https://twitter.com/aaronpk">@aaronpk</a> - GWG: I&rsquo;d hold off on anything further with this until we get more publishers and consumers of it</li>
+<li>21:27 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - r^</li>
+<li>21:27 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - aaronpk, I planned on it</li>
+<li>21:27 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - I just was curious about uses</li>
+<li>21:27 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - I have bigger problems right now</li>
+<li>21:27 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - swentel - I think if you put rel=&ldquo;alternate&rdquo; on the link to your h-feed page then it may be discoverable. I believe rel=feed was deprecated (even dropped by WHATWG HTML for lack of interest / implementations)</li>
+<li>21:28 <a href="https://github.com/swentel">@swentel</a> - [tantek], oh, interesting, I&rsquo;ll give that a try yes!</li>
+<li>21:28 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - Really? I just added a bunch of rel feeds</li>
+<li>21:28 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - I can&rsquo;t keep up</li>
+<li>21:29 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - I thought alternate was an alternative view of the same page and feed was a different page</li>
+<li>21:29 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - What is rel-feed?</li>
+<li>21:29 <a href="https://indieweb.org/Loqi">[Loqi]</a> - rel-feed is the standard for linking to multiple (potentially alternative) h-feeds from a site&rsquo;s homepage using the code rel=&ldquo;feed&rdquo; on those links indieweb.org/rel-feed</li>
+<li>21:30 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - yeah same</li>
+<li>21:30 <a href="https://indieweb.org/User:Jacky.wtf">[jacky]</a> - re: G WG</li>
+<li>21:31 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - no feed discovery is done via rel=alternate type=&ldquo;insert your feed mime type here&rdquo;</li>
+<li>21:31 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - like since forever</li>
+<li>21:31 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - That&rsquo;s the way I am using and consuming it</li>
+<li>21:31 <a href="https://twitter.com/aaronpk">@aaronpk</a> - whoa swentel indieweb.org/Micropub-extensions#Location_checkin_information</li>
+<li>21:31 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - folks here have been trying to get rel=feed off the ground again but TBH I&rsquo;m unsure about it&rsquo;s feasibility</li>
+<li>21:31 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - What is feed discovery?</li>
+<li>21:31 <a href="https://indieweb.org/Loqi">[Loqi]</a> - feed discovery is a way to, given someone&rsquo;s home page, discover their feed or feeds that they publish indieweb.org/feed_discovery</li>
+<li>21:31 <a href="https://twitter.com/aaronpk">@aaronpk</a> - that&rsquo;s like an embedded h-card in a geo URL?</li>
+<li>21:31 <a href="https://twitter.com/aaronpk">@aaronpk</a> - URI</li>
+<li>21:31 <a href="https://github.com/swentel">@swentel</a> - aaronpk, yeah, works great .. (at least for me)</li>
+<li>21:32 <a href="https://indieweb.org/User:David.shanske.com">[GWG]</a> - aaronpk, yes it is</li>
+<li>21:32 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - aaronpk you had it right 🙂</li>
+<li>21:32 <a href="https://github.com/swentel">@swentel</a> - I can post checkins and geocaches now from indigenous, with pictures, all in one go :)</li>
+<li>21:32 <a href="https://github.com/swentel">@swentel</a> - it&rsquo;s GREAT ;)</li>
+<li>21:32 <a href="https://twitter.com/aaronpk">@aaronpk</a> - [tantek]: re: geo URI? I thought URLs had to be resolvable</li>
+<li>21:32 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - swentel++ wow</li>
+<li>21:32 <a href="https://indieweb.org/Loqi">[Loqi]</a> - swentel has 27 karma in this channel over the last year (48 in all channels)</li>
 </ul></li>
 </ul>
 
@@ -411,52 +411,52 @@
 <li><a href="https://freenode.logbot.info/indieweb-dev/20180819">#indieweb-dev on IIW 2018-08-19-chat log</a>
 
 <ul>
-<li>17:08 <strong>aaronpk</strong> - No, IIW</li>
-<li>17:09 <strong>aaronpk</strong> - but all the OAuth IETF people will be there</li>
-<li>17:09 <strong>tantek__</strong> - IETF people take IETF i-d more seriously than rando domain with proposals</li>
-<li>17:09 <strong>[kevinmarks]</strong> - IIW is a good place to socialize specs certainly</li>
-<li>17:09 <strong>aaronpk</strong> - I wonder how much of this I can write in the next 2 hours</li>
-<li>17:09 <strong>aaronpk</strong> - need a name tho</li>
-<li>17:10 <strong>[kevinmarks]</strong> - OpenAppID</li>
-<li>17:10 <strong>aaronpk</strong> - Oh no</li>
-<li>17:11 <strong>[kevinmarks]</strong> - I was being facetious</li>
-<li>17:11 <strong>tantek__</strong> - [kevinmarks]: based on what evidence of successful specs to come out of IIW socialization?</li>
-<li>17:11 <strong>tantek__</strong> - kevinmarks++</li>
-<li>17:11 <strong>Loqi</strong> - kevinmarks has 7 karma in this channel over the last year (30 in all channels)</li>
-<li>17:11 <strong>tantek__</strong> - OpenAppID++</li>
-<li>17:11 <strong>Loqi</strong> - OpenAppID has 1 karma over the last year</li>
-<li>17:11 <strong>aaronpk</strong> - OAuth came out of IIW</li>
-<li>17:11 <strong>[kevinmarks]</strong> - OAuth 1.0 had a lot of groundwork done at IIW</li>
-<li>17:11 <strong>[kevinmarks]</strong> - yes</li>
-<li>17:12 <strong>tantek__</strong> - no that&rsquo;s a myth. OAuth came out of a mailing list started by Blaine at Twitter</li>
-<li>17:12 <strong>aaronpk</strong> - A lot of it was done at IIW regardless of where it started exactly</li>
-<li>17:12 <strong>tantek__</strong> - the actual work was done by a small set of folks on a limited-write, public-readable mailing list</li>
-<li>17:12 <strong>[kevinmarks]</strong> - yes, but getting the yahoo and Google people in the room with him at IIW really helped</li>
-<li>17:12 <strong>tantek__</strong> - it was an interesting model of standards development by email</li>
-<li>17:13 <strong>tantek__</strong> - OAuth did not &ldquo;come out of&rdquo; IIW</li>
-<li>17:13 <strong>tantek__</strong> - that&rsquo;s the myth</li>
-<li>17:13 <strong>[kevinmarks]</strong> - that helped get the mutual trust necessary to contribute to the mailing list</li>
-<li>17:13 <strong>tantek__</strong> - it came out of a limited-write, publicly readable mailing list started by Blaine</li>
-<li>17:13 <strong>[kevinmarks]</strong> - I didn&rsquo;t say that, I said &ldquo;a good place to socialize specs&rdquo;</li>
-<li>17:13 <strong>tantek__</strong> - aaronpk said that</li>
-<li>17:14 <strong>aaronpk</strong> - What I meant was OAuth would not have succeeded if it had not been discussed at IIW</li>
-<li>17:14 <strong>[kevinmarks]</strong> - I dragged several google auth people across the street to IIW, then they joined the mailing list</li>
-<li>17:15 <strong>[kevinmarks]</strong> - the real bonding experience was them hotpatching the spec and mitigating the replay attack at that foo camp</li>
-<li>17:16 <strong>tantek__</strong> - yes the Open Web Foo hotpatching of OAuth 1 to fix the security problems was key</li>
-<li>17:16 <strong>aaronpk</strong> - I need a name that gets across that client registration is replaced by DNS</li>
-<li>17:16 <strong>aaronpk</strong> - I would use “implicit client registration” if “implicit” didn’t already have existing meaning in OAuth</li>
-<li>17:17 <strong>tantek__</strong> - &ldquo;URL client registration&rdquo; ?</li>
-<li>17:17 <strong>[kevinmarks]</strong> - Zero Registration per ZeroConf</li>
-<li>17:18 <strong>tantek__</strong> - or NoReg per NoSQL</li>
-<li>17:19 <strong>tantek__</strong> - shortened to &ldquo;NR&rdquo;</li>
-<li>17:19 <strong>tantek__</strong> - how do you handle client registration? we use NR for that</li>
-<li>17:19 <strong>tantek__</strong> - &ldquo;ZR&rdquo; works just as well</li>
+<li>17:08 <a href="https://twitter.com/aaronpk">@aaronpk</a> - No, IIW</li>
+<li>17:09 <a href="https://twitter.com/aaronpk">@aaronpk</a> - but all the OAuth IETF people will be there</li>
+<li>17:09 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - IETF people take IETF i-d more seriously than rando domain with proposals</li>
+<li>17:09 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - IIW is a good place to socialize specs certainly</li>
+<li>17:09 <a href="https://twitter.com/aaronpk">@aaronpk</a> - I wonder how much of this I can write in the next 2 hours</li>
+<li>17:09 <a href="https://twitter.com/aaronpk">@aaronpk</a> - need a name tho</li>
+<li>17:10 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - OpenAppID</li>
+<li>17:10 <a href="https://twitter.com/aaronpk">@aaronpk</a> - Oh no</li>
+<li>17:11 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - I was being facetious</li>
+<li>17:11 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - [kevinmarks]: based on what evidence of successful specs to come out of IIW socialization?</li>
+<li>17:11 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - kevinmarks++</li>
+<li>17:11 <a href="https://indieweb.org/Loqi">[Loqi]</a> - kevinmarks has 7 karma in this channel over the last year (30 in all channels)</li>
+<li>17:11 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - OpenAppID++</li>
+<li>17:11 <a href="https://indieweb.org/Loqi">[Loqi]</a> - OpenAppID has 1 karma over the last year</li>
+<li>17:11 <a href="https://twitter.com/aaronpk">@aaronpk</a> - OAuth came out of IIW</li>
+<li>17:11 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - OAuth 1.0 had a lot of groundwork done at IIW</li>
+<li>17:11 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - yes</li>
+<li>17:12 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - no that&rsquo;s a myth. OAuth came out of a mailing list started by Blaine at Twitter</li>
+<li>17:12 <a href="https://twitter.com/aaronpk">@aaronpk</a> - A lot of it was done at IIW regardless of where it started exactly</li>
+<li>17:12 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - the actual work was done by a small set of folks on a limited-write, public-readable mailing list</li>
+<li>17:12 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - yes, but getting the yahoo and Google people in the room with him at IIW really helped</li>
+<li>17:12 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - it was an interesting model of standards development by email</li>
+<li>17:13 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - OAuth did not &ldquo;come out of&rdquo; IIW</li>
+<li>17:13 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - that&rsquo;s the myth</li>
+<li>17:13 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - that helped get the mutual trust necessary to contribute to the mailing list</li>
+<li>17:13 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - it came out of a limited-write, publicly readable mailing list started by Blaine</li>
+<li>17:13 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - I didn&rsquo;t say that, I said &ldquo;a good place to socialize specs&rdquo;</li>
+<li>17:13 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - aaronpk said that</li>
+<li>17:14 <a href="https://twitter.com/aaronpk">@aaronpk</a> - What I meant was OAuth would not have succeeded if it had not been discussed at IIW</li>
+<li>17:14 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - I dragged several google auth people across the street to IIW, then they joined the mailing list</li>
+<li>17:15 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - the real bonding experience was them hotpatching the spec and mitigating the replay attack at that foo camp</li>
+<li>17:16 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - yes the Open Web Foo hotpatching of OAuth 1 to fix the security problems was key</li>
+<li>17:16 <a href="https://twitter.com/aaronpk">@aaronpk</a> - I need a name that gets across that client registration is replaced by DNS</li>
+<li>17:16 <a href="https://twitter.com/aaronpk">@aaronpk</a> - I would use “implicit client registration” if “implicit” didn’t already have existing meaning in OAuth</li>
+<li>17:17 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - &ldquo;URL client registration&rdquo; ?</li>
+<li>17:17 <a href="http://www.kevinmarks.com/">[kevinmarks]</a> - Zero Registration per ZeroConf</li>
+<li>17:18 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - or NoReg per NoSQL</li>
+<li>17:19 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - shortened to &ldquo;NR&rdquo;</li>
+<li>17:19 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - how do you handle client registration? we use NR for that</li>
+<li>17:19 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - &ldquo;ZR&rdquo; works just as well</li>
 <li>17:19 <strong>sknebel</strong> - client lookup?</li>
-<li>17:21 <strong>aaronpk</strong> - PKCE is a great name because it’s easily googleable and also pronounceable (pixie)</li>
-<li>17:23 <strong>tantek__</strong> - aaronpk: Zero Registration shortened to: ZoRg</li>
-<li>17:23 <strong>tantek__</strong> - all the Fifth Element fans will love it</li>
-<li>17:23 <strong>aaronpk</strong> - zorg omg</li>
-<li>17:24 <strong>tantek__</strong> - YES</li>
+<li>17:21 <a href="https://twitter.com/aaronpk">@aaronpk</a> - PKCE is a great name because it’s easily googleable and also pronounceable (pixie)</li>
+<li>17:23 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - aaronpk: Zero Registration shortened to: ZoRg</li>
+<li>17:23 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - all the Fifth Element fans will love it</li>
+<li>17:23 <a href="https://twitter.com/aaronpk">@aaronpk</a> - zorg omg</li>
+<li>17:24 <a href="https://indieweb.org/User:Tantek.com">[tantek]</a> - YES</li>
 </ul></li>
 </ul>
 
