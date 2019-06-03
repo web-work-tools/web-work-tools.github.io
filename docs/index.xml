@@ -104,6 +104,8 @@
       <guid>https://infominer.id/web-work/posts/indieweb-dev-on-did/</guid>
       <description>
 
+&lt;p&gt;What I&amp;rsquo;m hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.&lt;/p&gt;
+
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;

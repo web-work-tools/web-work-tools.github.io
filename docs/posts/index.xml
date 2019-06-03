@@ -18,7 +18,8 @@
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/indieweb-dev-on-did/</guid>
-      <description>Contents  Links  In-Chat Links Peer to Peer DIDs IndieAuth  #indieweb-dev on RWoT-DIDs 2019-03-02 #indieweb-dev on IIW 2018-08-19  Links  indieweb.org/discuss#Join_Discussions Matrix bridge to #dev channnel chat (via riot.im) #indieweb-dev on DIDs 2019-03-02-chat log #indieweb-dev on IIW 2018-08-19-chat log  In-chat Links  https://docs.ipfs.io/guides/concepts/dnslink/  DNSLink uses DNS TXT records to map a domain name (like ipfs.io) to an IPFS address. Because you can edit your DNS records, you can use them to always point to the latest version of an object in IPFS (remember that an IPFS object’s address changes if you modify the object).</description>
+      <description>What I&amp;rsquo;m hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.
+Contents  Links  In-Chat Links Peer to Peer DIDs IndieAuth  #indieweb-dev on RWoT-DIDs 2019-03-02 #indieweb-dev on IIW 2018-08-19  Links  indieweb.org/discuss#Join_Discussions Matrix bridge to #dev channnel chat (via riot.im) #indieweb-dev on DIDs 2019-03-02-chat log #indieweb-dev on IIW 2018-08-19-chat log  In-chat Links  https://docs.</description>
     </item>
     
     <item>
