@@ -16,6 +16,7 @@ aliases:
 slug: /migrate-jekyll-hpstr-hugo/
 
 ---
+![](https://infominer.id/web-work/images/jekyll-hpstr-hugo.png)
 
 I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
 
@@ -443,3 +444,8 @@ I'll be updating this post a lot as I learn new things about Hugo, until the res
 
 ## Over the Rainbow
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)
+
+
+# Full 
+
+![]()

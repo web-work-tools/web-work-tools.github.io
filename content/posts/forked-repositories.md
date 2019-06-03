@@ -12,6 +12,7 @@ aliases:
   - /forked-repositories/
 ---
 
+![](https://infominer.id/web-work/images/infominer-forked-repositories.png)
 
 An organized list of my forked repositories.
 

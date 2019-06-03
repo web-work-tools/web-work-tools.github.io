@@ -20,8 +20,12 @@ title = "Practical Public Key Crypto"
 url = "/posts/practical-public-key-crypto/"
 
 [[links]]
-title = "IndieWeb"
-url = "http://infominer.id/indieweb/"
+title = "IndieWeb Resources"
+url = "/posts/indieweb-resources/"
+
+[[links]]
+title = "IndieWeb Github Repos"
+url = "/posts/indieweb-github-repos/"
 
 [[links]]
 title = "InfoMine"

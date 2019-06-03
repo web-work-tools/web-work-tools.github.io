@@ -14,6 +14,7 @@ image:
   feature: /images/github-pages-jekyll-starter-pack.png
 ---
 
+![](https://infominer.id/web-work/images/github-pages-jekyll-starter-pack.png)
 
 Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).
 

@@ -14,6 +14,8 @@ aliases:
 slug: /seo-tools/
 ---
 
+![](https://infominer.id/web-work/images/webwork-tools.png)
+
 <!-- fix link on infominer.id:
   - research/seo-tools.html-->
 

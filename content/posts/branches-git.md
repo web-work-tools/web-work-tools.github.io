@@ -14,6 +14,8 @@ aliases:
 slugs: /branches-git/
 ---
 
+[![](https://infominer.id/web-work/images/Git_branches_fork.png)](https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg)
+
 I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
 
 ## Checkout test branch
