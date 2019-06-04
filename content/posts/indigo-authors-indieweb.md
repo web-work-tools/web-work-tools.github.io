@@ -10,8 +10,16 @@ aliases:
   - /posts/indigo-authors-indieweb/
 ---
 
+## Notes from the Editor
+
+I'm noticing that the repository hasn't been recently updated by it's owner, however, I can find some helpful contributions from the community:
+
+* https://github.com/AngeloStavrow/indigo/pulls
+
 *note, I changed the date so it would bump to the top.
 
+
+## Indigo Authors
 The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.
 
 <!--more-->
