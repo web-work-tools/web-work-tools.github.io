@@ -111,6 +111,12 @@ combines feeds "into content and other magical creations".
 * [webapps.stackexchange.com - how-to-archive-the-whole-website](https://webapps.stackexchange.com/questions/115369/how-to-archive-the-whole-website)
 * [httrack.com](http://www.httrack.com)
 
+## Wiki
+
+* [en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia)
+* [en.wikipedia.org/wiki/Help:Cheatsheet](https://en.wikipedia.org/wiki/Help:Cheatsheet)
+
+
 ## Data Visualization
 
 * [rendering-data-as-graphs](https://developer.github.com/v3/guides/rendering-data-as-graphs/)
@@ -119,7 +125,6 @@ combines feeds "into content and other magical creations".
 * [Data Visualization for All - Modify and Host Code with GitHub](https://datavizforall.org/github.html) by Jack Dougherty & Ilya Ilyankou
   > In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control.
 * [tools-visualize-github-profile/](https://livablesoftware.com/tools-visualize-github-profile/)
-
 
 ## Tutes \ Walkthrus
 
