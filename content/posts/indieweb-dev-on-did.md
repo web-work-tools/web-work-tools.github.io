@@ -27,6 +27,10 @@ What I'm hoping for is that folk in the DID community will consider integrating 
 * [#indieweb-dev on DIDs 2019-03-02-chat log](https://freenode.logbot.info/indieweb-dev/20190302)
 * [#indieweb-dev on IIW 2018-08-19-chat log](https://freenode.logbot.info/indieweb-dev/20180819)
 
+### Related
+
+* [The Decentralized Identifier (DID) in the DNS](https://datatracker.ietf.org/doc/draft-mayrhofer-did-dns/)
+
 ### In-chat Links
 
 * https://docs.ipfs.io/guides/concepts/dnslink/
