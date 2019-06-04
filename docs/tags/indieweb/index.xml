@@ -28,7 +28,17 @@ Contents  Links  In-Chat Links Peer to Peer DIDs IndieAuth  #indieweb-dev on RWo
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/indigo-authors-indieweb/</guid>
-      <description>&lt;p&gt;*note, I changed the date so it would bump to the top.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;notes-from-the-editor&#34;&gt;Notes from the Editor&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m noticing that the repository hasn&amp;rsquo;t been recently updated by it&amp;rsquo;s owner, however, I can find some helpful contributions from the community:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AngeloStavrow/indigo/pulls&#34;&gt;https://github.com/AngeloStavrow/indigo/pulls&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*note, I changed the date so it would bump to the top.&lt;/p&gt;
+
+&lt;h2 id=&#34;indigo-authors&#34;&gt;Indigo Authors&lt;/h2&gt;
 
 &lt;p&gt;The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.&lt;/p&gt;</description>
     </item>
