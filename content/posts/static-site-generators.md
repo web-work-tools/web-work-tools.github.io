@@ -53,6 +53,11 @@ There are some indieweb integrated themes w hugo, and some themes no longer supp
 * [kevinmarks/stopbrexit](https://github.com/kevinmarks/stopbrexit) -  example of a "complete and operational" hugo site.
   * [stopbrexit.party](http://stopbrexit.party/)
 
+### Hugo Shortcodes
+* https://gohugo.io/content-management/shortcodes/
+* https://github.com/parsiya/Hugo-Shortcodes
+* https://geekthis.net/post/hugo-shortcode-pack/ <-has pdf support.
+
 ## MkDocs
 
 MkDocs has built in search, and in some ways simpler than publishing w jekyll.
