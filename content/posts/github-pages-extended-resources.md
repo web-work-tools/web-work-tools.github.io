@@ -175,13 +175,17 @@ coming soon....
 * <a href="https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript" target="_blank">The_web_standards_model_-_HTML_CSS_and_JavaScript</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Learn web development - developer.mozilla.org</a>
 * <a href="https://codepen.io/maziarzamani/pen/eJKGvj" target="_blank">Flat CSS Sidebar</a>
-* <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank">The Head - Metadata in HTML</a>
-* <a href="https://metatags.io" target="_blank">https://metatags.io</a>
 * [https://htmlcolorcodes.com/color-chart/](https://htmlcolorcodes.com/color-chart/)
 * [rtable](https://dbushell.com/2016/03/04/css-only-responsive-tables/)
 * <a href="https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs" target="_blank">unicode-table.com/#miscellaneous-symbols-and-pictographs</a> 
 * [katex](https://khan.github.io/KaTeX/)
 * [Viewport and Media Queries](https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0)
+
+### Meta Tags
+
+* <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank">The Head - Metadata in HTML</a>
+* <a href="https://metatags.io" target="_blank">https://metatags.io</a>
+* https://www.heymeta.com/
 
 ### Kramdown
 
