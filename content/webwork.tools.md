@@ -45,6 +45,7 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 * [Open Source Publishing](https://infominer.id/web-work/open-source-publishing/)
 * [Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
 * [Creating a Test Branch and Merging back the Changes](https://infominer.id/web-work/branches-git/)
+* [Content Creation](https://infominer.id/web-work/content-creation/)
 
 ### IndieWeb
 
@@ -52,7 +53,8 @@ Eventually this will live along in the same site with web-work.. though I'm not 
 
 * [IndieWeb Resources](https://infominer.id/web-work/posts/resources/)
 * [IndieWeb GitHub Repositories](https://infominer.id/web-work/posts/indieweb-github-repos/)
-* 
+* [FreeNode IRC #indieweb-dev on IIW RWoT and DID's](https://infominer.id/web-work/posts/indieweb-dev-on-did/)
+* [Indigo Authors - Indiweb Features](https://infominer.id/web-work/posts/indigo-authors-indieweb/)
 
 ### SEO
 

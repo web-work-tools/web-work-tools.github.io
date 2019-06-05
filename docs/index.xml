@@ -1867,6 +1867,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/open-source-publishing/&#34;&gt;Open Source Publishing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/branches-git/&#34;&gt;Creating a Test Branch and Merging back the Changes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;indieweb&#34;&gt;IndieWeb&lt;/h3&gt;
@@ -1876,7 +1877,8 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/resources/&#34;&gt;IndieWeb Resources&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indieweb-github-repos/&#34;&gt;IndieWeb GitHub Repositories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indieweb-dev-on-did/&#34;&gt;FreeNode IRC #indieweb-dev on IIW RWoT and DID&amp;rsquo;s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indigo-authors-indieweb/&#34;&gt;Indigo Authors - Indiweb Features&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;seo&#34;&gt;SEO&lt;/h3&gt;
@@ -3592,6 +3594,8 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 &lt;p&gt;Theeeeeeen you can start to think about your site structure and all of the details. If you have really informational content, there are going to be quite a few keywords, naturally&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;I haven&amp;rsquo;t done any seo, besides making sure image\description pops up in social media, and my site is getting organic search traffic and rising through the rankings, relatively quickly.&lt;/p&gt;
+
+&lt;p&gt;Granted, I put out a ton of content.. and truthfully there are a lot of things I take for granted, like naming images with a likely key-phrases.&lt;/p&gt;
 
 &lt;hr /&gt;
 
