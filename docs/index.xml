@@ -1767,6 +1767,14 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&#34;hugo-shortcodes&#34;&gt;Hugo Shortcodes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/parsiya/Hugo-Shortcodes&#34;&gt;https://github.com/parsiya/Hugo-Shortcodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geekthis.net/post/hugo-shortcode-pack/&#34;&gt;https://geekthis.net/post/hugo-shortcode-pack/&lt;/a&gt; &amp;lt;-has pdf support.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;mkdocs&#34;&gt;MkDocs&lt;/h2&gt;
 
 &lt;p&gt;MkDocs has built in search, and in some ways simpler than publishing w jekyll.&lt;/p&gt;
