@@ -8,6 +8,12 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/categories/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/posts/indieweb-dev-on-did/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
   </url>
@@ -18,108 +24,20 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/posts/hpstr-theme-full-page/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/branches-git/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/forked-repositories/</loc>
-    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/content-creation/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/make-a-github-portfolio/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/github-stars/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/services/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/keyword-planning/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/static-site-generators/</loc>
-    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/webwork.tools/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/open-source-publishing/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/indieweb-github-repos/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/indieweb-resources/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/practical-public-key-crypto/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/seo-tools/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/github-pages-starter-pack/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/github-pages-extended-resources/</loc>
-    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/learn-seo/</loc>
-    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/adwords/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <loc>https://infominer.id/web-work/posts/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/categories/</loc>
+    <loc>https://infominer.id/web-work/tags/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -130,38 +48,8 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/ci%5Ccd/</loc>
-    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/content-creation/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/deepdotweb/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/demo/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://infominer.id/web-work/tags/did/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/forked/</loc>
-    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -174,30 +62,6 @@
   <url>
     <loc>https://infominer.id/web-work/tags/front-matter/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/github/</loc>
-    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/github-pages/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/google/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/hpstr/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -220,44 +84,8 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/jekyll/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/jekyll-static-sites/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/keyword-planner/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/keyword-research/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://infominer.id/web-work/categories/meta/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/migration/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/open-source/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -268,36 +96,70 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/organic-search/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/404/</loc>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/pgp/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/portfolio/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/posts/</loc>
+    <loc>https://infominer.id/web-work/tags/rwot/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/privacy/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <loc>https://infominer.id/web-work/posts/hpstr-theme-full-page/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/demo/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/hpstr/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/jekyll/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/migration/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/theme/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/branches-git/</loc>
+    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/forked-repositories/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/forked/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/github/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -314,14 +176,75 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/rwot/</loc>
-    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <loc>https://infominer.id/web-work/posts/content-creation/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/content-creation/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/security/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <loc>https://infominer.id/web-work/tags/tools/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/make-a-github-portfolio/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/github-pages/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/open-source/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/portfolio/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/github-stars/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/services/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/keyword-planning/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/adwords/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/keyword-planner/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/keyword-research/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -338,44 +261,8 @@
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/static-site-generators/</loc>
-    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/static-sites/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/stats/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://infominer.id/web-work/tags/stub/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/theme/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/tools/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -386,15 +273,129 @@
   </url>
   
   <url>
+    <loc>https://infominer.id/web-work/tags/ci%5Ccd/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/static-site-generators/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/static-site-generators/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/webwork.tools/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/open-source-publishing/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/google/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/organic-search/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/stats/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/indieweb-github-repos/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/indieweb-resources/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/jekyll-static-sites/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/static-sites/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/practical-public-key-crypto/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/deepdotweb/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/pgp/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/privacy/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/tags/security/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/seo-tools/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/github-pages-starter-pack/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://infominer.id/web-work/tags/web-publishing/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://infominer.id/web-work/posts/github-pages-extended-resources/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/posts/learn-seo/</loc>
+    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infominer.id/web-work/404/</loc>
   </url>
   
 </urlset>

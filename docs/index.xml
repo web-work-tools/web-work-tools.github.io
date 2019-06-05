@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webwork.tools</title>
@@ -7,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
-    <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://infominer.id/web-work/index.xml" rel="self" type="application/rss+xml" />
     
@@ -1202,14 +1201,8 @@ Where I build webpages.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://pdf2png.com/&#34;&gt;https://pdf2png.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://online2pdf.com/convert-pptx-to-pdf&#34;&gt;https://online2pdf.com/convert-pptx-to-pdf&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://convertio.co/pdf-html/&#34;&gt;https://convertio.co/pdf-html/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I used multiple vpn connections and multiple browsers in multiple locations to take extra advantage of that pdf-html converter!&lt;/p&gt;
-
-&lt;p&gt;Then I found out it&amp;rsquo;s open source (by looking at the html)!!!!!!!&lt;/p&gt;
-
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/coolwanglu/pdf2htmlEX&#34;&gt;https://github.com/coolwanglu/pdf2htmlEX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

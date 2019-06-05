@@ -52,12 +52,8 @@ This thing has extensions for all your coding needs... It is cross-platform, has
 ## Image Converters
 
 * https://pdf2png.com/
+* https://online2pdf.com/convert-pptx-to-pdf
 * https://convertio.co/pdf-html/
-
-I used multiple vpn connections and multiple browsers in multiple locations to take extra advantage of that pdf-html converter!
-
-Then I found out it's open source (by looking at the html)!!!!!!!
-
 * https://github.com/coolwanglu/pdf2htmlEX
 
 ## Image Sizes for Popular Platforms
