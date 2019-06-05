@@ -3435,13 +3435,19 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 &lt;li&gt;&lt;a href=&#34;https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript&#34; target=&#34;_blank&#34;&gt;The_web_standards&lt;em&gt;model&lt;/em&gt;-_HTML_CSS_and_JavaScript&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn&#34; target=&#34;_blank&#34;&gt;Learn web development - developer.mozilla.org&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codepen.io/maziarzamani/pen/eJKGvj&#34; target=&#34;_blank&#34;&gt;Flat CSS Sidebar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&#34; target=&#34;_blank&#34;&gt;The Head - Metadata in HTML&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://metatags.io&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://metatags.io&#34;&gt;https://metatags.io&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://htmlcolorcodes.com/color-chart/&#34;&gt;https://htmlcolorcodes.com/color-chart/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://dbushell.com/2016/03/04/css-only-responsive-tables/&#34;&gt;rtable&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs&#34; target=&#34;_blank&#34;&gt;unicode-table.com/#miscellaneous-symbols-and-pictographs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://khan.github.io/KaTeX/&#34;&gt;katex&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0&#34;&gt;Viewport and Media Queries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;meta-tags&#34;&gt;Meta Tags&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&#34; target=&#34;_blank&#34;&gt;The Head - Metadata in HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://metatags.io&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://metatags.io&#34;&gt;https://metatags.io&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heymeta.com/&#34;&gt;https://www.heymeta.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;kramdown&#34;&gt;Kramdown&lt;/h3&gt;
