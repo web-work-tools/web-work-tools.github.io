@@ -110,6 +110,8 @@ combines feeds "into content and other magical creations".
 * [iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)
 * [webapps.stackexchange.com - how-to-archive-the-whole-website](https://webapps.stackexchange.com/questions/115369/how-to-archive-the-whole-website)
 * [httrack.com](http://www.httrack.com)
+* https://hostadvice.com/how-to/how-to-install-apache-mysql-php-on-an-ubuntu-18-04-vps/
+* https://askubuntu.com/questions/448424/unable-to-open-php-files-on-linux-platform-on-ubuntu
 
 ## Wiki
 
