@@ -1272,6 +1272,8 @@ combines feeds &amp;ldquo;into content and other magical creations&amp;rdquo;.&l
 &lt;li&gt;&lt;a href=&#34;https://github.com/iipc/awesome-web-archiving&#34;&gt;iipc/awesome-web-archiving&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://webapps.stackexchange.com/questions/115369/how-to-archive-the-whole-website&#34;&gt;webapps.stackexchange.com - how-to-archive-the-whole-website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.httrack.com&#34;&gt;httrack.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hostadvice.com/how-to/how-to-install-apache-mysql-php-on-an-ubuntu-18-04-vps/&#34;&gt;https://hostadvice.com/how-to/how-to-install-apache-mysql-php-on-an-ubuntu-18-04-vps/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://askubuntu.com/questions/448424/unable-to-open-php-files-on-linux-platform-on-ubuntu&#34;&gt;https://askubuntu.com/questions/448424/unable-to-open-php-files-on-linux-platform-on-ubuntu&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;wiki&#34;&gt;Wiki&lt;/h2&gt;
@@ -2230,6 +2232,8 @@ IndieAuth Specification&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;
 &lt;a href=&#34;https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723&#34;&gt;&lt;img src=&#34;https://imgur.com/LrC8gO8.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/AngeloStavrow/indigo&#34;&gt;AngeloStravrow/indigo&lt;/a&gt; - Hugo Indieweb Theme (This site is currrently running)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amitgawande.com/indiewebify-hugo-website/&#34;&gt;IndieWebify Your Hugo Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/kaushalmodi/hugo-theme-refined/&#34;&gt;kaushalmodi/hugo-theme-refined/&lt;/a&gt; - (&lt;a href=&#34;https://scripter.co/&#34;&gt;scripter.co&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;webmentions&#34;&gt;Webmentions&lt;/h2&gt;
@@ -2253,6 +2257,7 @@ IndieAuth Specification&lt;/li&gt;
 &lt;h2 id=&#34;indieauth&#34;&gt;IndieAuth&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web&#34;&gt;OAuth for the Open Web&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://aaronparecki.com/2018/12/10/28/indieauth&#34;&gt;aaronparecki.com - indieauth&lt;/a&gt;
 &amp;gt;This morning I gave a brief talk about IndieAuth at the @W3C Strong Authentication and Identity workshop. I just finished transcribing the recording and published the slides and video!&lt;/li&gt;
 &lt;/ul&gt;

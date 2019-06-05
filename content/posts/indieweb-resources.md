@@ -60,6 +60,7 @@ I cover most anything you'd need to get started with GitHub Pages in:
 * [https://indiewebify.me/](https://indiewebify.me/)
 * [calumryan/indieweb-guides](https://github.com/calumryan/indieweb-guides)
 * [Tom Brown and Manton Reece An Introduction to Indieweb](https://www.plutopia.io/2018/12/02/tom-brown-and-manton-reece-an-introduction-to-indieweb/)
+* [Embracing the Indieweb](https://ascraeus.org/embracing-the-indieweb/)
 
 ## Matrix Matrix bridge to #indieweb channels (via riot.im)
 
@@ -105,7 +106,8 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
 * [miklb/jekyll-indieweb](https://github.com/miklb/jekyll-indieweb)
 [![](https://imgur.com/LrC8gO8.png)](https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723)
 * [AngeloStravrow/indigo](https://github.com/AngeloStavrow/indigo) - Hugo Indieweb Theme (This site is currrently running)
-
+* [IndieWebify Your Hugo Website](https://www.amitgawande.com/indiewebify-hugo-website/)
+* [kaushalmodi/hugo-theme-refined/](https://gitlab.com/kaushalmodi/hugo-theme-refined/) - ([scripter.co](https://scripter.co/))
 
 ## Webmentions
 
@@ -119,6 +121,7 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
 
 ## IndieAuth
 
+* [OAuth for the Open Web](https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web)
 * [aaronparecki.com - indieauth](https://aaronparecki.com/2018/12/10/28/indieauth)
   >This morning I gave a brief talk about IndieAuth at the @W3C Strong Authentication and Identity workshop. I just finished transcribing the recording and published the slides and video! 
 
