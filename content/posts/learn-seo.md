@@ -51,6 +51,9 @@ Theeeeeeen you can start to think about your site structure and all of the detai
 
 I haven't done any seo, besides making sure image\description pops up in social media, and my site is getting organic search traffic and rising through the rankings, relatively quickly.
 
+Granted, I put out a ton of content.. and truthfully there are a lot of things I take for granted, like naming images with a likely key-phrases.
+
+
 ---
 
 * [teles/awesome-seo](https://github.com/teles/awesome-seo) - A curated list of SEO (Search Engine Optimization) links. 
