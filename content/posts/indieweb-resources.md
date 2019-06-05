@@ -101,8 +101,9 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
 * [Jekyll and the Indieweb](http://wordius.com/jekyll-and-the-indieweb/)
 * [voxpelli/webpage-micropub-to-github/](https://github.com/voxpelli/webpage-micropub-to-github/)
   * [https://github.com/bmann/microglue/issues/5#issuecomment-425662101](https://github.com/bmann/microglue/issues/5#issuecomment-425662101)
+* https://keithjgrant.com/posts/2019/01/preparing-your-site-for-posting-notes/
 
-## Indieweb SSG Themes
+### Themes
 
 * [miklb/jekyll-indieweb](https://github.com/miklb/jekyll-indieweb)
 [![](https://imgur.com/LrC8gO8.png)](https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723)
@@ -111,6 +112,7 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
 * [kaushalmodi/hugo-theme-refined/](https://gitlab.com/kaushalmodi/hugo-theme-refined/) 
   * [scripter.co](https://scripter.co/)
     * [kaushalmodi/kaushalmodi.gitlab.io](https://gitlab.com/kaushalmodi/kaushalmodi.gitlab.io)
+* [code.dgold.eu/reproach](https://code.dgold.eu/reproach/file/README.md.html)
 
 ## Webmentions
 
@@ -137,6 +139,8 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
 * [tokens.indieauth.com/](https://tokens.indieauth.com/)
 * [indieauth.spec.indieweb.org/](https://indieauth.spec.indieweb.org/)
 * [https://indieweb.org/token-endpoint#Creating_a_token_endpoint](https://indieweb.org/token-endpoint#Creating_a_token_endpoint)
+* [Freenode #indieweb-dev on DIDs\Indieauth](https://infominer.id/web-work/indieweb-dev-on-did/)
+
 
 ### Install IndieAuth Server
 

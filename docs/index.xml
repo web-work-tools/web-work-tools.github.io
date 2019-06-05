@@ -2245,9 +2245,10 @@ IndieAuth Specification&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/bmann/microglue/issues/5#issuecomment-425662101&#34;&gt;https://github.com/bmann/microglue/issues/5#issuecomment-425662101&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://keithjgrant.com/posts/2019/01/preparing-your-site-for-posting-notes/&#34;&gt;https://keithjgrant.com/posts/2019/01/preparing-your-site-for-posting-notes/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;indieweb-ssg-themes&#34;&gt;Indieweb SSG Themes&lt;/h2&gt;
+&lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/miklb/jekyll-indieweb&#34;&gt;miklb/jekyll-indieweb&lt;/a&gt;
@@ -2260,6 +2261,7 @@ IndieAuth Specification&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://scripter.co/&#34;&gt;scripter.co&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gitlab.com/kaushalmodi/kaushalmodi.gitlab.io&#34;&gt;kaushalmodi/kaushalmodi.gitlab.io&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.dgold.eu/reproach/file/README.md.html&#34;&gt;code.dgold.eu/reproach&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;webmentions&#34;&gt;Webmentions&lt;/h2&gt;
@@ -2298,6 +2300,7 @@ IndieAuth Specification&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://tokens.indieauth.com/&#34;&gt;tokens.indieauth.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://indieauth.spec.indieweb.org/&#34;&gt;indieauth.spec.indieweb.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://indieweb.org/token-endpoint#Creating_a_token_endpoint&#34;&gt;https://indieweb.org/token-endpoint#Creating_a_token_endpoint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/indieweb-dev-on-did/&#34;&gt;Freenode #indieweb-dev on DIDs\Indieauth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;install-indieauth-server&#34;&gt;Install IndieAuth Server&lt;/h3&gt;
