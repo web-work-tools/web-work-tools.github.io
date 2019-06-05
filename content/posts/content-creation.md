@@ -33,6 +33,7 @@ Where I build webpages.
 This thing has extensions for all your coding needs... It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).
 
 **HackMD - Collaborative Markdown Editor**
+
 * [https://hackmd.io](https://hackmd.io) - Collaborative markdown editor (where I write everything else).
   * [Getting started](https://hackmd.io/getting-started)  
   * [Tutorial](https://hackmd.io/c/tutorials/%2Fs%2Ftutorials)
@@ -60,6 +61,7 @@ Then I found out it's open source (by looking at the html)!!!!!!!
 * https://github.com/coolwanglu/pdf2htmlEX
 
 ## Image Sizes for Popular Platforms
+
 * [Twitter-Image Sizes](https://louisem.com/217438/twitter-image-size)
 
 
@@ -78,15 +80,17 @@ Then I found out it's open source (by looking at the html)!!!!!!!
 
 The web *loooves* big old beautiful high quality images... However, my visitors probably notice the load time of huge images more than I do (though I do notice them).
 
-* [https://trimage.org/](https://trimage.org/)
-  >A cross-platform tool for losslessly optimizing PNG and JPG files for web.
-* [pngquant](https://pngquant.org/)
-  > is a command-line utility and a library for lossy compression of PNG images.
-  >
-  >The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems.
 * [https://ezgif.com/optimize](https://ezgif.com/optimize)
 
+>cross-platform tool for losslessly optimizing PNG and JPG files for web. - [https://trimage.org/](https://trimage.org/)
+
+> command-line utility and a library for lossy compression of PNG images.
+>
+>The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - [pngquant](https://pngquant.org/)
+
+
 ## Text 
+
 * [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
 * [wordle](http://www.wordle.net/) - word cloud generator
 * [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
@@ -124,9 +128,11 @@ combines feeds "into content and other magical creations".
 * [rendering-data-as-graphs](https://developer.github.com/v3/guides/rendering-data-as-graphs/)
 * [Creating a dynamic d3 visualization from the GitHub API](https://www.benlcollins.com/javascript/creating-a-dynamic-d3-visualization-from-the-github-api/)
 * [Visualize GitHub Code Contribution using APP Link](https://www.targetprocess.com/blog/visualize-github-code-contribution-using-app-link/)
-* [Data Visualization for All - Modify and Host Code with GitHub](https://datavizforall.org/github.html) by Jack Dougherty & Ilya Ilyankou
-  > In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control.
 * [tools-visualize-github-profile/](https://livablesoftware.com/tools-visualize-github-profile/)
+
+> In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control. - [Data Visualization for All - Modify and Host Code with GitHub](https://datavizforall.org/github.html) by Jack Dougherty & Ilya Ilyankou
+
+
 
 ## Tutes \ Walkthrus
 

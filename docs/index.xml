@@ -1175,13 +1175,19 @@ Where I build webpages.&lt;/p&gt;
 
 &lt;p&gt;This thing has extensions for all your coding needs&amp;hellip; It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;HackMD - Collaborative Markdown Editor&lt;/strong&gt;
-* &lt;a href=&#34;https://hackmd.io&#34;&gt;https://hackmd.io&lt;/a&gt; - Collaborative markdown editor (where I write everything else).
-  * &lt;a href=&#34;https://hackmd.io/getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
-  * &lt;a href=&#34;https://hackmd.io/c/tutorials/%2Fs%2Ftutorials&#34;&gt;Tutorial&lt;/a&gt;
-  * &lt;a href=&#34;https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book&#34;&gt;How to Create a Book&lt;/a&gt;
-  * &lt;a href=&#34;https://hackmd.io/c/tutorials-tw/%2Fs%2Fyaml-metadata&#34;&gt;YAML Metadata&lt;/a&gt;
-* See also &lt;a href=&#34;https://demo.codimd.org/&#34;&gt;demo.codimd.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HackMD - Collaborative Markdown Editor&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackmd.io&#34;&gt;https://hackmd.io&lt;/a&gt; - Collaborative markdown editor (where I write everything else).
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackmd.io/getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackmd.io/c/tutorials/%2Fs%2Ftutorials&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book&#34;&gt;How to Create a Book&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackmd.io/c/tutorials-tw/%2Fs%2Fyaml-metadata&#34;&gt;YAML Metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;See also &lt;a href=&#34;https://demo.codimd.org/&#34;&gt;demo.codimd.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;public-domain-stock-images&#34;&gt;Public Domain - Stock Images&lt;/h2&gt;
 
@@ -1231,14 +1237,16 @@ Where I build webpages.&lt;/p&gt;
 &lt;p&gt;The web &lt;em&gt;loooves&lt;/em&gt; big old beautiful high quality images&amp;hellip; However, my visitors probably notice the load time of huge images more than I do (though I do notice them).&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://trimage.org/&#34;&gt;https://trimage.org/&lt;/a&gt;
-&amp;gt;A cross-platform tool for losslessly optimizing PNG and JPG files for web.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pngquant.org/&#34;&gt;pngquant&lt;/a&gt;
-&amp;gt; is a command-line utility and a library for lossy compression of PNG images.
-&amp;gt;
-&amp;gt;The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ezgif.com/optimize&#34;&gt;https://ezgif.com/optimize&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;cross-platform tool for losslessly optimizing PNG and JPG files for web. - &lt;a href=&#34;https://trimage.org/&#34;&gt;https://trimage.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;command-line utility and a library for lossy compression of PNG images.&lt;/p&gt;
+
+&lt;p&gt;The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - &lt;a href=&#34;https://pngquant.org/&#34;&gt;pngquant&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;text&#34;&gt;Text&lt;/h2&gt;
 
@@ -1289,10 +1297,12 @@ combines feeds &amp;ldquo;into content and other magical creations&amp;rdquo;.&l
 &lt;li&gt;&lt;a href=&#34;https://developer.github.com/v3/guides/rendering-data-as-graphs/&#34;&gt;rendering-data-as-graphs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.benlcollins.com/javascript/creating-a-dynamic-d3-visualization-from-the-github-api/&#34;&gt;Creating a dynamic d3 visualization from the GitHub API&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.targetprocess.com/blog/visualize-github-code-contribution-using-app-link/&#34;&gt;Visualize GitHub Code Contribution using APP Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://datavizforall.org/github.html&#34;&gt;Data Visualization for All - Modify and Host Code with GitHub&lt;/a&gt; by Jack Dougherty &amp;amp; Ilya Ilyankou
-&amp;gt; In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://livablesoftware.com/tools-visualize-github-profile/&#34;&gt;tools-visualize-github-profile/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control. - &lt;a href=&#34;https://datavizforall.org/github.html&#34;&gt;Data Visualization for All - Modify and Host Code with GitHub&lt;/a&gt; by Jack Dougherty &amp;amp; Ilya Ilyankou&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;tutes-walkthrus&#34;&gt;Tutes \ Walkthrus&lt;/h2&gt;
 
