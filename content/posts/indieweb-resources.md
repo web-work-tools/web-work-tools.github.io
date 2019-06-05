@@ -103,11 +103,14 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
   * [https://github.com/bmann/microglue/issues/5#issuecomment-425662101](https://github.com/bmann/microglue/issues/5#issuecomment-425662101)
 
 ## Indieweb SSG Themes
+
 * [miklb/jekyll-indieweb](https://github.com/miklb/jekyll-indieweb)
 [![](https://imgur.com/LrC8gO8.png)](https://github.com/miklb/jekyll-indieweb/pull/25#issuecomment-494123723)
 * [AngeloStravrow/indigo](https://github.com/AngeloStavrow/indigo) - Hugo Indieweb Theme (This site is currrently running)
 * [IndieWebify Your Hugo Website](https://www.amitgawande.com/indiewebify-hugo-website/)
-* [kaushalmodi/hugo-theme-refined/](https://gitlab.com/kaushalmodi/hugo-theme-refined/) - ([scripter.co](https://scripter.co/))
+* [kaushalmodi/hugo-theme-refined/](https://gitlab.com/kaushalmodi/hugo-theme-refined/) 
+  * [scripter.co](https://scripter.co/)
+    * [kaushalmodi/kaushalmodi.gitlab.io](https://gitlab.com/kaushalmodi/kaushalmodi.gitlab.io)
 
 ## Webmentions
 
