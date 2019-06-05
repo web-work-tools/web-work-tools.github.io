@@ -7,22 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
-    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://infominer.id/web-work/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Adwords</title>
-      <link>https://infominer.id/web-work/tags/adwords/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/adwords/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chat Log</title>
+      <title>chat-log</title>
       <link>https://infominer.id/web-work/tags/chat-log/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -31,43 +22,7 @@
     </item>
     
     <item>
-      <title>Ci\cd</title>
-      <link>https://infominer.id/web-work/tags/ci%5Ccd/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/ci%5Ccd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Content Creation</title>
-      <link>https://infominer.id/web-work/tags/content-creation/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/content-creation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deepdotweb</title>
-      <link>https://infominer.id/web-work/tags/deepdotweb/</link>
-      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/deepdotweb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>https://infominer.id/web-work/tags/demo/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Did</title>
+      <title>did</title>
       <link>https://infominer.id/web-work/tags/did/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -76,16 +31,7 @@
     </item>
     
     <item>
-      <title>Forked</title>
-      <link>https://infominer.id/web-work/tags/forked/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/forked/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Freenode</title>
+      <title>freenode</title>
       <link>https://infominer.id/web-work/tags/freenode/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -94,7 +40,7 @@
     </item>
     
     <item>
-      <title>Front Matter</title>
+      <title>front matter</title>
       <link>https://infominer.id/web-work/tags/front-matter/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -103,43 +49,7 @@
     </item>
     
     <item>
-      <title>Github</title>
-      <link>https://infominer.id/web-work/tags/github/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github Pages</title>
-      <link>https://infominer.id/web-work/tags/github-pages/</link>
-      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/github-pages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google</title>
-      <link>https://infominer.id/web-work/tags/google/</link>
-      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hpstr</title>
-      <link>https://infominer.id/web-work/tags/hpstr/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/hpstr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
+      <title>hugo</title>
       <link>https://infominer.id/web-work/tags/hugo/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -148,7 +58,7 @@
     </item>
     
     <item>
-      <title>Indieweb</title>
+      <title>indieweb</title>
       <link>https://infominer.id/web-work/tags/indieweb/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -157,7 +67,7 @@
     </item>
     
     <item>
-      <title>Indieweb Dev</title>
+      <title>indieweb-dev</title>
       <link>https://infominer.id/web-work/tags/indieweb-dev/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -166,61 +76,7 @@
     </item>
     
     <item>
-      <title>Jekyll</title>
-      <link>https://infominer.id/web-work/tags/jekyll/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll Static Sites</title>
-      <link>https://infominer.id/web-work/tags/jekyll-static-sites/</link>
-      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/jekyll-static-sites/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keyword Planner</title>
-      <link>https://infominer.id/web-work/tags/keyword-planner/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/keyword-planner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keyword Research</title>
-      <link>https://infominer.id/web-work/tags/keyword-research/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/keyword-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Migration</title>
-      <link>https://infominer.id/web-work/tags/migration/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/migration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://infominer.id/web-work/tags/open-source/</link>
-      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Options</title>
+      <title>options</title>
       <link>https://infominer.id/web-work/tags/options/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -229,61 +85,7 @@
     </item>
     
     <item>
-      <title>Organic Search</title>
-      <link>https://infominer.id/web-work/tags/organic-search/</link>
-      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/organic-search/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pgp</title>
-      <link>https://infominer.id/web-work/tags/pgp/</link>
-      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/pgp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://infominer.id/web-work/tags/portfolio/</link>
-      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/portfolio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy</title>
-      <link>https://infominer.id/web-work/tags/privacy/</link>
-      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Repositories</title>
-      <link>https://infominer.id/web-work/tags/repositories/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/repositories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>https://infominer.id/web-work/tags/resources/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/resources/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rwot</title>
+      <title>rwot</title>
       <link>https://infominer.id/web-work/tags/rwot/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -292,70 +94,43 @@
     </item>
     
     <item>
-      <title>Security</title>
-      <link>https://infominer.id/web-work/tags/security/</link>
-      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      <title>demo</title>
+      <link>https://infominer.id/web-work/tags/demo/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/tags/security/</guid>
+      <guid>https://infominer.id/web-work/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Seo</title>
-      <link>https://infominer.id/web-work/tags/seo/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>hpstr</title>
+      <link>https://infominer.id/web-work/tags/hpstr/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/tags/seo/</guid>
+      <guid>https://infominer.id/web-work/tags/hpstr/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Stars</title>
-      <link>https://infominer.id/web-work/tags/stars/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>jekyll</title>
+      <link>https://infominer.id/web-work/tags/jekyll/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/tags/stars/</guid>
+      <guid>https://infominer.id/web-work/tags/jekyll/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Static Site Generators</title>
-      <link>https://infominer.id/web-work/tags/static-site-generators/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      <title>migration</title>
+      <link>https://infominer.id/web-work/tags/migration/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/tags/static-site-generators/</guid>
+      <guid>https://infominer.id/web-work/tags/migration/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Static Sites</title>
-      <link>https://infominer.id/web-work/tags/static-sites/</link>
-      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/static-sites/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stats</title>
-      <link>https://infominer.id/web-work/tags/stats/</link>
-      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/stats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stub</title>
-      <link>https://infominer.id/web-work/tags/stub/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/tags/stub/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theme</title>
+      <title>theme</title>
       <link>https://infominer.id/web-work/tags/theme/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -364,7 +139,52 @@
     </item>
     
     <item>
-      <title>Tools</title>
+      <title>forked</title>
+      <link>https://infominer.id/web-work/tags/forked/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/forked/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://infominer.id/web-work/tags/github/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>repositories</title>
+      <link>https://infominer.id/web-work/tags/repositories/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/repositories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resources</title>
+      <link>https://infominer.id/web-work/tags/resources/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>content creation</title>
+      <link>https://infominer.id/web-work/tags/content-creation/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/content-creation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
       <link>https://infominer.id/web-work/tags/tools/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
@@ -373,7 +193,88 @@
     </item>
     
     <item>
-      <title>Walkthrough</title>
+      <title>github-pages</title>
+      <link>https://infominer.id/web-work/tags/github-pages/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source</title>
+      <link>https://infominer.id/web-work/tags/open-source/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portfolio</title>
+      <link>https://infominer.id/web-work/tags/portfolio/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adwords</title>
+      <link>https://infominer.id/web-work/tags/adwords/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/adwords/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keyword planner</title>
+      <link>https://infominer.id/web-work/tags/keyword-planner/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/keyword-planner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keyword-research</title>
+      <link>https://infominer.id/web-work/tags/keyword-research/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/keyword-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seo</title>
+      <link>https://infominer.id/web-work/tags/seo/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/seo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stars</title>
+      <link>https://infominer.id/web-work/tags/stars/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/stars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stub</title>
+      <link>https://infominer.id/web-work/tags/stub/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/stub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
       <link>https://infominer.id/web-work/tags/walkthrough/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
@@ -382,7 +283,106 @@
     </item>
     
     <item>
-      <title>Web Publishing</title>
+      <title>CI\CD</title>
+      <link>https://infominer.id/web-work/tags/ci%5Ccd/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/ci%5Ccd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static site generators</title>
+      <link>https://infominer.id/web-work/tags/static-site-generators/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/static-site-generators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google</title>
+      <link>https://infominer.id/web-work/tags/google/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organic search</title>
+      <link>https://infominer.id/web-work/tags/organic-search/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/organic-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stats</title>
+      <link>https://infominer.id/web-work/tags/stats/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/stats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll static-sites</title>
+      <link>https://infominer.id/web-work/tags/jekyll-static-sites/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/jekyll-static-sites/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static-sites</title>
+      <link>https://infominer.id/web-work/tags/static-sites/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/static-sites/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deepdotweb</title>
+      <link>https://infominer.id/web-work/tags/deepdotweb/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/deepdotweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pgp</title>
+      <link>https://infominer.id/web-work/tags/pgp/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/pgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>https://infominer.id/web-work/tags/privacy/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://infominer.id/web-work/tags/security/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-publishing</title>
       <link>https://infominer.id/web-work/tags/web-publishing/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
