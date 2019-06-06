@@ -46,6 +46,8 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 * [Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
 * [Creating a Test Branch and Merging back the Changes](https://infominer.id/web-work/branches-git/)
 * [Content Creation](https://infominer.id/web-work/content-creation/)
+* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
+* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
 
 ### IndieWeb
 

@@ -103,40 +103,45 @@
       <guid>https://infominer.id/web-work/posts/hugo-starter-kit/</guid>
       <description>
 
-&lt;p&gt;All this started a few months ago when I began creating an &lt;a href=&#34;https://infominer.id/DIDecentralized&#34;&gt;awesome list&lt;/a&gt; on github, then got into publishing via GitHub Pages.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/hugo-starter-kit.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators&#34;&gt;Static Site Generators&lt;/a&gt; (just a start)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/&#34;&gt;Interview with Bjørn Erik Pedersen, Hugo lead developer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/hugo-starter-kit.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;official-resources&#34;&gt;Official Resources&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;discourse.gohugo.io&lt;/a&gt; - Hugo Forum&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The language HUGO is built with&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Quickstart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;GoHugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/tools/starter-kits/&#34;&gt;https://gohugo.io/tools/starter-kits/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Golang&lt;/a&gt; - the language HUGO is built with
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;https://golang.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;https://golang.org/pkg/text/template/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;Golang Templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;publishing-websites-via-hugo&#34;&gt;Publishing Websites Via Hugo&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/budparr/awesome-hugo/&#34;&gt;budparr/awesome-hugo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zwbetz.com/make-a-hugo-blog-from-scratch/&#34;&gt;Make A Hugo Blog from Scratch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://regisphilibert.com/tags/hugo/&#34;&gt;https://regisphilibert.com/tags/hugo/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/budparr/awesome-hugo/&#34;&gt;https://github.com/budparr/awesome-hugo/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kodify.net/hugo-static-site-tutorials/&#34;&gt;Hugo Static Site Tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4&#34;&gt;comprehensive-hugo-tutorial-for-beginners&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=17387103&#34;&gt;Migrating from Jekyll to Hugo&lt;/a&gt; &amp;lt;&amp;ndash;good thread&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/&#34;&gt;https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zwbetz.com/tags/hugo/&#34;&gt;https://zwbetz.com/tags/hugo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://willschenk.com/tags/hugo/&#34;&gt;https://willschenk.com/tags/hugo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regisphilibert.com/tags/hugo/&#34;&gt;https://regisphilibert.com/tags/hugo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodify.net/hugo-static-site-tutorials/&#34;&gt;Hugo Static Site Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/undocumented-asset-pipelines-starter-kits-and-boilerplates/8423&#34;&gt;https://discourse.gohugo.io/t/undocumented-asset-pipelines-starter-kits-and-boilerplates/8423&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/udN9Kcs.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -157,12 +162,18 @@
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/search?q=hugo+theme&#34;&gt;github.com/search?q=hugo+theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;themes.gohugo.io&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;academic&#34;&gt;Academic&lt;/h3&gt;
 
 &lt;p&gt;If you are somewhat familiar with Jekyll already, I&amp;rsquo;ll recommend jumping right in with Academic Pages.&lt;/p&gt;
+
+&lt;p&gt;I tried &lt;a href=&#34;https://github.com/search?q=hugo+theme&#34;&gt;github.com/search?q=hugo+theme&lt;/a&gt;, and found that Academic has a toooon of stars. More even than the repository for all of hugos themes in one place !!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/25btYyt.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34;&gt;https://sourcethemes.com/academic/docs/install/&lt;/a&gt;&lt;/li&gt;
@@ -174,6 +185,18 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/&#34;&gt;https://lmyint.github.io/post/hugo-academic-tips/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
+
+&lt;p&gt;All this started a few months ago when I began creating an &lt;a href=&#34;https://github.com/DIDecentralized&#34;&gt;awesome list&lt;/a&gt; on github, then got into publishing via GitHub Pages.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators&#34;&gt;Static Site Generators&lt;/a&gt; (just a start)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2159,6 +2182,8 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/branches-git/&#34;&gt;Creating a Test Branch and Merging back the Changes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;indieweb&#34;&gt;IndieWeb&lt;/h3&gt;
