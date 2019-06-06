@@ -114,6 +114,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Quickstart&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;GoHugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;Configure&lt;/a&gt; - all the cool config.toml settings you never knew!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;Forum&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/tools/starter-kits/&#34;&gt;https://gohugo.io/tools/starter-kits/&lt;/a&gt;&lt;/li&gt;
@@ -182,6 +183,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34;&gt;https://sourcethemes.com/academic/docs/install/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;Writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34;&gt;Getting Started With the Page Builder&lt;/a&gt; - Learn Academic&amp;rsquo;s widget system.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/&#34;&gt;https://lmyint.github.io/post/hugo-academic-tips/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;Display Jupyter Notebooks with Academic&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation&#34;&gt;Creating a Course or Documentation&lt;/a&gt;&lt;/li&gt;

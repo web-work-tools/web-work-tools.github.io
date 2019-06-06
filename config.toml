@@ -54,3 +54,5 @@ paginate = 22
   #Micropub = ""
   # To get microsub support, you can use Aperture from p3k. Either go to https://aperture.p3k.io or self-host it (it's open source!)
   #Microsub = ""
+
+disablePathToLower = true
