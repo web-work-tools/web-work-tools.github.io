@@ -8,7 +8,7 @@ aliases:
   - /github-pages-extended-resources/
 image:
   feature: /images/github-pages-extended-resources.png
-
+summary: ""
 ---
 
 ![](https://infominer.id/web-work/images/github-pages-extended-resources.png)

@@ -18,8 +18,7 @@
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/hugo-starter-kit/</guid>
-      <description>I&amp;rsquo;ve begun organizing resources around using the Hugo Static Site Generator.
-Official Resources, Tutorials, Themes, Sortcodes and More!</description>
+      <description>Interview with Bjørn Erik Pedersen, Hugo lead developer  Official Resources  Quickstart GoHugo Documentation Forum https://gohugo.io/tools/starter-kits/ Golang - the language HUGO is built with  Golang Templates   Publishing Websites Via Hugo  budparr/awesome-hugo Make A Hugo Blog from Scratch comprehensive-hugo-tutorial-for-beginners Migrating from Jekyll to Hugo &amp;lt;&amp;ndash;good thread https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/  Tutorials  https://zwbetz.com/tags/hugo/ https://willschenk.com/tags/hugo/ https://regisphilibert.com/tags/hugo/ Hugo Static Site Tutorials https://discourse.gohugo.io/t/undocumented-asset-pipelines-starter-kits-and-boilerplates/8423   Hugo Video Turorials &amp;gt;This course covers the basics of using Hugo - Static Site Generator.</description>
     </item>
     
     <item>
@@ -28,8 +27,7 @@ Official Resources, Tutorials, Themes, Sortcodes and More!</description>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/static-site-generators/</guid>
-      <description>There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
-I&amp;rsquo;ll have a few general resources at the top and just add as I go, since I&amp;rsquo;m not ready to learn about too many of them, just yet.</description>
+      <description>There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.</description>
     </item>
     
   </channel>

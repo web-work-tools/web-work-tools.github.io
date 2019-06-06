@@ -12,6 +12,7 @@ aliases:
   - /posts/learn-html-css/
   - /learn-html-css/
 slugs: /learn-html-css/
+summary: Trying to keep track of the various languages that our SSGs transform into proper HTML.
 ---
 
 ![](https://infominer.id/web-work/images/HTML5-related-tech-Sergey-Mavrody.png)

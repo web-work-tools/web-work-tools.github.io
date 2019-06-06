@@ -10,7 +10,7 @@ slug: /keyword-planning/
 aliases:
   - /posts/keyword-planner/
   - /keyword-planner/
-
+summary: A basic guide to signing up to AdWords Keyword Planner for the first time. Many SEO guides reference this tool, and it can be a little confusing to get started, and that's why I created this short howto.
 ---
 
 ![](https://infominer.id/web-work/images/getting-started-adwords-keyword-planner.jpg)

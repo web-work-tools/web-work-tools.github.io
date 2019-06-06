@@ -11,6 +11,8 @@ tags: [pgp, deepdotweb, security, privacy, resources]
 image:
   feature: /images/pgp-og.png
 date: 2019-03-22
+summary: >
+  It's personal. It's private. And it's no one's business but yours. You may be planning a political campaign, discussing your taxes, or having a secret romance. Or you may be communicating with a political dissident in a repressive country. Whatever it is, you don't want your private electronic mail (email) or confidential documents read by anyone else. There's nothing wrong with asserting your privacy. Privacy is as apple-pie as the Constitution.
 ---
 
     "Public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!"

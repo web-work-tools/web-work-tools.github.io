@@ -14,7 +14,7 @@ aliases:
   - /posts/hugo-starter-kit/
   - /hugo-starter-kit/
 slug: /hugo-starter-kit/
-
+summary: ""
 ---
 
 

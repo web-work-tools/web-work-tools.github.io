@@ -4,7 +4,7 @@ title: "Open Source Publishing"
 description: "Infominer.id - All Page Rankings and Organic Search Rankings"
 date: 2019-05-23
 tags: [google, organic search, stats, open source, github-pages]
-
+summary: I'll be regularly posting updates from analytics and Google search console, to share how it isn't so impossible to rise through the rankings if you create useful content.
 aliases:
   - /posts/open-source-publishing/
   - /open-source-publishing/
