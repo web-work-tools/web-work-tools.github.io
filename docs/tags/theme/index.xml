@@ -43,10 +43,7 @@ That&amp;rsquo;s pretty neat, if you ask me!</description>
       
       <guid>https://infominer.id/web-work/posts/branches-git/</guid>
       <description>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
-Checkout test branch Use the command git checkout -b will allow you to create a local branch for testing.
-I will call my new branch test-hugo so the command will be like so:
-git checkout -b test-hugo
-Some git basics for newbs like me  Git Branching and Merging  Git keeps track of all your files, but not just the files, but everything in the repository.</description>
+Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to create a local branch for testing.</description>
     </item>
     
   </channel>

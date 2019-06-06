@@ -6,7 +6,10 @@ tags: [resources, hugo, static site generators, webpub]
 image:
   feature: /images/hugo-starter-kit.png
 date: 2019-06-06
-
+summary: >
+  I've begun organizing resources around using the Hugo Static Site Generator. 
+  
+  Official Resources, Tutorials, Themes, Sortcodes and More!
 aliases:
   - /posts/hugo-starter-kit/
   - /hugo-starter-kit/
@@ -71,14 +74,16 @@ I tried [github.com/search?q=hugo+theme](https://github.com/search?q=hugo+theme)
 
 ![](https://imgur.com/25btYyt.png)
 
-* https://sourcethemes.com/academic/docs/install/
-
 There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.
 
 Seriously just click a button, it creates the repo and publishes it for you. Then just dive in like I am:
 
+
+* https://sourcethemes.com/academic/docs/install/
+* [Writing content with Markdown, LaTeX, and Shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
 * https://lmyint.github.io/post/hugo-academic-tips/
-* https://www.lauraleeflores.com/blog/header-image-sizing-guide
+* [Display Jupyter Notebooks with Academic](https://sourcethemes.com/academic/docs/jupyter/)
+* [Creating a Course or Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation)
 
 ## Related Posts
 

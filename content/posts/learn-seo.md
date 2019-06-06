@@ -11,6 +11,10 @@ tags: [resources, seo]
 image:
   feature: /images/organic-seo-drive-traffic.jpg
 date: 2019-01-10
+summary: >
+  "The fundamental building blocks of SEO are Keyword Research, Content, Internal linking, Site Structure, and a Multitude of Technical Optimizations.
+
+  Most of those optimizations revolve around gradually making every individual piece of code on your site more machine readable, so that it communicates essential bits of information to a variety of connecting sites\services that make it stand out from the crowd."
 
 ---
 

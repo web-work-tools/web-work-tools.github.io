@@ -175,17 +175,16 @@
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/25btYyt.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34;&gt;https://sourcethemes.com/academic/docs/install/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.&lt;/p&gt;
 
 &lt;p&gt;Seriously just click a button, it creates the repo and publishes it for you. Then just dive in like I am:&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34;&gt;https://sourcethemes.com/academic/docs/install/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;Writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/&#34;&gt;https://lmyint.github.io/post/hugo-academic-tips/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.lauraleeflores.com/blog/header-image-sizing-guide&#34;&gt;https://www.lauraleeflores.com/blog/header-image-sizing-guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;Display Jupyter Notebooks with Academic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation&#34;&gt;Creating a Course or Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
@@ -1521,10 +1520,11 @@ Where I build webpages.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/coolwanglu/pdf2htmlEX&#34;&gt;https://github.com/coolwanglu/pdf2htmlEX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;image-sizes-for-popular-platforms&#34;&gt;Image Sizes for Popular Platforms&lt;/h2&gt;
+&lt;h2 id=&#34;image-sizes&#34;&gt;Image Sizes&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://louisem.com/217438/twitter-image-size&#34;&gt;Twitter-Image Sizes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lauraleeflores.com/blog/header-image-sizing-guide&#34;&gt;Header Image Sizing Guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;images-infographics&#34;&gt;Images - Infographics&lt;/h2&gt;
@@ -2048,7 +2048,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 
 &lt;h2 id=&#34;what-is-a-static-site-generator-ssg&#34;&gt;What is a Static Site Generator (SSG)?&lt;/h2&gt;
 
-&lt;p&gt;There are some configuration files, layouts and templates, and then there is all your content that your create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.&lt;/p&gt;
+&lt;p&gt;There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ll have a few general resources at the top and just add as I go, since I&amp;rsquo;m not ready to learn about too many of them, just yet.&lt;/p&gt;
 

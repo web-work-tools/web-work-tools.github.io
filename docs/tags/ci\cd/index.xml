@@ -18,9 +18,8 @@
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/static-site-generators/</guid>
-      <description>Devopedia.org   Well, now i&amp;rsquo;m looking into options besides jekyll, to expand my skills, and try out some themes that aren&amp;rsquo;t available for Jekyll.
-I&amp;rsquo;ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.
-What is a Static Site Generator (SSG)? There are some configuration files, layouts and templates, and then there is all your content that your create.</description>
+      <description>There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
+I&amp;rsquo;ll have a few general resources at the top and just add as I go, since I&amp;rsquo;m not ready to learn about too many of them, just yet.</description>
     </item>
     
   </channel>
