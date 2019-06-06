@@ -139,11 +139,8 @@ Running out of space on this page ;)
 
 <a href="https://lab.github.com/" class="btn btn-info">GitHub Learning Lab</a>
 
-### Markdown
+## >> [Markdown, HTML, CSS, etc.](https://infominer.id/web-work/learn-html-css/) >>
 
-* [Kramdown - QuickRef Guide](https://kramdown.gettalong.org/quickref.html)
-* <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a>
-* <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheet-Sheet</a>
 
 ### Github Pages
 
@@ -286,4 +283,10 @@ I will try migrating this to the Hugo port of this theme, which i believe is mai
   * [mmistakes/hpstr-jekyll-theme](https://github.com/mmistakes/hpstr-jekyll-theme)
   ![](https://imgur.com/G9eWy3ol.png)
 
-Continued in [GitHub Pages Extended Resources](/github-pages-extended-resources/)
+## Related Resources
+
+* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
+* [Content Creation](https://infominer.id/web-work/content-creation/)
+* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
+* [Static Site Generators](https://infominer.id/web-work/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)

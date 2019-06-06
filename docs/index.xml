@@ -171,59 +171,6 @@
     </item>
     
     <item>
-      <title>Resources for learning HTML, Meta tags, CSS, Kramdown, Katex.</title>
-      <link>https://infominer.id/web-work/posts/learn-html-css/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/learn-html-css/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/HTML5-related-tech-Sergey-Mavrody.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://htmldog.com/guides/html/beginner/&#34;&gt;htmldog.com - HTML5 and CSS Beginner Tutorials&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript&#34;&gt;The_web_standards&lt;em&gt;model&lt;/em&gt;-_HTML_CSS_and_JavaScript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn&#34;&gt;Learn web development - developer.mozilla.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dbushell.com/2016/03/04/css-only-responsive-tables/&#34;&gt;rtable&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;color-charts&#34;&gt;Color Charts&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://htmlcolorcodes.com/color-chart/&#34;&gt;https://htmlcolorcodes.com/color-chart/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;unicode&#34;&gt;Unicode&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs&#34;&gt;unicode-table.com/#miscellaneous-symbols-and-pictographs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;katex&#34;&gt;Katex&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://khan.github.io/KaTeX/&#34;&gt;katex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0&#34;&gt;Viewport and Media Queries&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;meta-tags&#34;&gt;Meta Tags&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&#34;&gt;The Head - Metadata in HTML&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://metatags.io&#34;&gt;https://metatags.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.heymeta.com/&#34;&gt;https://www.heymeta.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;kramdown&#34;&gt;Kramdown&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/&#34;&gt;kramdown.gettalong.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/syntax.html&#34;&gt;Kramdown - Syntax&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Resources for the Command Line, Git, SSH, and BASH.</title>
       <link>https://infominer.id/web-work/posts/command-line-git-ssh/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
@@ -307,6 +254,93 @@
 &lt;li&gt;&lt;a href=&#34;https://www.shellscript.sh/&#34;&gt;https://www.shellscript.sh/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.hypexr.org/bash_tutorial.php&#34;&gt;http://www.hypexr.org/bash_tutorial.php&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bash.academy/&#34;&gt;https://www.bash.academy/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Markup languages that get transformed into a website.</title>
+      <link>https://infominer.id/web-work/posts/learn-html-css/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/learn-html-css/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/HTML5-related-tech-Sergey-Mavrody.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript&#34;&gt;The_web_standards&lt;em&gt;model&lt;/em&gt;-_HTML_CSS_and_JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34; target=&#34;_blank&#34;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toml-yaml-json&#34;&gt;TOML - YAML - JSON&lt;/h2&gt;
+
+&lt;p&gt;Just this for now, will get deeper with structured data, later on.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/toml-lang/toml&#34;&gt;https://github.com/toml-lang/toml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yaml.org/&#34;&gt;http://yaml.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.json.org/&#34;&gt;https://www.json.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;html&#34;&gt;HTML&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://htmldog.com/guides/html/beginner/&#34;&gt;htmldog.com - HTML5 Beginner Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn&#34;&gt;Learn web development - developer.mozilla.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.learnenough.com/html-tutorial&#34;&gt;Learn Enough HTML to be Dangerous&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;color&#34;&gt;Color&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://htmlcolorcodes.com/color-chart/&#34;&gt;HTML Color Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://paletton.com/&#34;&gt;Paletton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.colorhexa.com/&#34;&gt;Color Hexa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://clrs.cc/&#34;&gt;Colors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;unicode&#34;&gt;Unicode&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs&#34;&gt;Miscellaneous-Symbols-and-Pictographs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;meta-tags&#34;&gt;Meta Tags&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&#34;&gt;The Head - Metadata in HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://metatags.io&#34;&gt;https://metatags.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heymeta.com/&#34;&gt;https://www.heymeta.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0&#34;&gt;Viewport and Media Queries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;css&#34;&gt;CSS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dbushell.com/2016/03/04/css-only-responsive-tables/&#34;&gt;rtable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://htmldog.com/guides/css/&#34;&gt;htmldog.com - CSS Beginner-Advanced Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.learnenough.com/css-and-layout-tutorial&#34;&gt;Learn Enough CSS and Layout to be Dangerous&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;related-markup-and-interpreters&#34;&gt;Related Markup and Interpreters&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://khan.github.io/KaTeX/&#34;&gt;katex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;kramdown&#34;&gt;Kramdown&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/&#34;&gt;kramdown.gettalong.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/syntax.html&#34;&gt;Kramdown - Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/quickref.html&#34;&gt;Kramdown - QuickRef Guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -3219,13 +3253,7 @@ remote_theme: benbalter/retlab
 
 &lt;p&gt;&lt;a href=&#34;https://lab.github.com/&#34; class=&#34;btn btn-info&#34;&gt;GitHub Learning Lab&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;markdown&#34;&gt;Markdown&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/quickref.html&#34;&gt;Kramdown - QuickRef Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34; target=&#34;_blank&#34;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;markdown-html-css-etc-https-infominer-id-web-work-learn-html-css&#34;&gt;&amp;gt;&amp;gt; &lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Markdown, HTML, CSS, etc.&lt;/a&gt; &amp;gt;&amp;gt;&lt;/h2&gt;
 
 &lt;h3 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h3&gt;
 
@@ -3424,7 +3452,15 @@ remote_theme: benbalter/retlab
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Continued in &lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;related-resources&#34;&gt;Related Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

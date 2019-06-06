@@ -13,12 +13,13 @@
     
     
     <item>
-      <title>Resources for learning HTML, Meta tags, CSS, Kramdown, Katex.</title>
+      <title>The Markup languages that get transformed into a website.</title>
       <link>https://infominer.id/web-work/posts/learn-html-css/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/learn-html-css/</guid>
-      <description>  htmldog.com - HTML5 and CSS Beginner Tutorials The_web_standardsmodel-_HTML_CSS_and_JavaScript Learn web development - developer.mozilla.org rtable  Color Charts  https://htmlcolorcodes.com/color-chart/  Unicode  unicode-table.com/#miscellaneous-symbols-and-pictographs  Katex  katex Viewport and Media Queries  Meta Tags  The Head - Metadata in HTML https://metatags.io https://www.heymeta.com/  Kramdown  kramdown.gettalong.org Kramdown - Syntax  </description>
+      <description>The_web_standardsmodel-_HTML_CSS_and_JavaScript  Markdown  Mastering Markdown Markdown Cheet-Sheet  TOML - YAML - JSON Just this for now, will get deeper with structured data, later on.
+ https://github.com/toml-lang/toml http://yaml.org/ https://www.json.org/  HTML  htmldog.com - HTML5 Beginner Tutorials Learn web development - developer.mozilla.org Learn Enough HTML to be Dangerous  Color  HTML Color Chart Paletton Color Hexa Colors  Unicode  Miscellaneous-Symbols-and-Pictographs  Meta Tags  The Head - Metadata in HTML https://metatags.</description>
     </item>
     
   </channel>
