@@ -12,8 +12,7 @@ aliases:
   - /posts/seo-tools/
   - /seo-tools/
 slug: /seo-tools/
-summary: >
-  All your SEO tools are belong to us! No, really! From the official tools of Google and co, limited trial power tools, analytics, link building, content creation and much more! All organized by category.
+summary: "All your SEO tools are belong to us! No, really! From the official tools of Google and co, limited trial power tools, analytics, link building, content creation and much more! All organized by category."
 ---
 
 ![](https://infominer.id/web-work/images/webwork-tools.png)

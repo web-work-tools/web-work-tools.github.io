@@ -10,8 +10,7 @@ aliases:
   - /posts/content-creation/
   - /content-creation/
 slug: /content-creation/
-summary: >
-  Here's some tools to make content creation a little easier. As per usual, this list will grow and become more organized over time.
+summary: "Here's some tools to make content creation a little easier. As per usual, this list will grow and become more organized over time."
 ---
 
 Here's some tools to make content creation a little easier.

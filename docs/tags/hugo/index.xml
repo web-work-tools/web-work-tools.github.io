@@ -48,8 +48,7 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/hpstr-theme-full-page/</guid>
-      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
-This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
+      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone. This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
     </item>
     
     <item>
@@ -58,8 +57,7 @@ This guide and the accompanying repository should help anyone switching from eit
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</guid>
-      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
-This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
+      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone. This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
     </item>
     
     <item>
@@ -68,8 +66,7 @@ This guide and the accompanying repository should help anyone switching from eit
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/branches-git/</guid>
-      <description>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
-Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to create a local branch for testing.</description>
+      <description>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running. Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to create a local branch for testing.</description>
     </item>
     
   </channel>
