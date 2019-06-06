@@ -76,6 +76,15 @@
     </item>
     
     <item>
+      <title>json</title>
+      <link>https://infominer.id/web-work/tags/json/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>katex</title>
       <link>https://infominer.id/web-work/tags/katex/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
@@ -139,11 +148,29 @@
     </item>
     
     <item>
+      <title>toml</title>
+      <link>https://infominer.id/web-work/tags/toml/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/toml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>webpub</title>
       <link>https://infominer.id/web-work/tags/webpub/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/tags/webpub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yaml</title>
+      <link>https://infominer.id/web-work/tags/yaml/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/tags/yaml/</guid>
       <description></description>
     </item>
     
