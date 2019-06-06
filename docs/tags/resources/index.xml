@@ -27,8 +27,7 @@
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/command-line-git-ssh/</guid>
-      <description>I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.
- Learn Enough Command Line to Be Dangerous - Introduction to the Unix command line. Mac to Windows Command Line Mappings reusable materials for bash/git/python bootcamps  Git  The entire Pro Git book -written by Scott Chacon and Ben Straub Learn Enough Git to Be Dangerous Atlassian -Getting Git Right guides.</description>
+      <description>I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.</description>
     </item>
     
     <item>
@@ -46,9 +45,7 @@
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/forked-repositories/</guid>
-      <description>An organized list of my forked repositories.
-Now that I have both forked and starred
-WebPub  artemsheludko/galada - Galada is an easy and simple blog theme for Jekyll. github/personal-website - A place to track the repositories of infominer. contrafabulists-toolbox/google-sheet-to-github-website - This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source. minicomp/wax - Jekyll for minimal exhibitions with IIIF bee weskerfoot/KettleBlog - A full featured blog in RiotJS poole/lanyon - A content-first, sliding sidebar theme for Jekyll.</description>
+      <description>Takin&amp;rsquo; names and Kickin&amp;rsquo; Ass!</description>
     </item>
     
     <item>
@@ -75,7 +72,7 @@ WebPub  artemsheludko/galada - Galada is an easy and simple blog theme for Jekyl
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/indieweb-github-repos/</guid>
-      <description>github.com/miklb  miklb/webpage-micropub-to-github -forked from voxpelli/webpage-micropub-to-github miklb/jekyll-indieweb  forked.yannick.io/miklb/jekyll-indieweb  miklb/node-micropub-express- forked from voxpelli/node-micropub-express - Provides a Micropub route for Express 4.x miklb/mf2_s- Microformats 2 Version of Underscores Starter Theme with Indieweb Support miklb/hubot-github-issue-lookup -forked from SimplyBuilt/hubot-github-issue-lookup  miklb - WordPress  miklb/wordpress-indieweb-press-this- from indieweb/wordpress-indieweb-press-this.  some IndieWeb magic for WordPress&amp;rsquo; &amp;ldquo;press this&amp;rdquo; bookmarklet.  miklb/wordpress-indieweb- Microformats 2 Version of Underscores Starter Theme with Indieweb Support  github.com/indieweb 101  indieweb/indieweb.</description>
+      <description>A start at exploring Indieweb Topics</description>
     </item>
     
     <item>
@@ -121,7 +118,7 @@ Each feature you want to enable requires a little more learning, and  GitHub Pag
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
-      <description>Continued from Github Pages Starter Pack.  Related Resources  Learn HTML CSS and Associated Markup Languages Content Creation GitHub Pages Extended Resources Static Site Generators Migrating from Jekyll HPSTR to Hugo HPSTR theme Command Line - Git - SSH - BASH  Setup Front Matter  Front Matter YAML front matter in Jekyll YAML tutorial in the context of Jekyll  Layouts Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &amp;ldquo;single&amp;rdquo; and &amp;ldquo;page&amp;rdquo;.</description>
+      <description>All those extra things you&amp;rsquo;ll need to know.</description>
     </item>
     
     <item>

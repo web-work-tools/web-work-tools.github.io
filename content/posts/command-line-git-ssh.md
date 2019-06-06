@@ -8,7 +8,7 @@ image:
   credit: "IBM PC AT (8Mhz), 2Mb RAM, 20Mb Hard Disk (Formatted), 128Kb EGA, Enhanced Color Display"
   creditlink: "https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/"
 date: 2019-06-06
-summary: ""
+summary: "I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent."
 aliases:
   - /posts/command-line-git-ssh/
   - /command-line-git-ssh/
