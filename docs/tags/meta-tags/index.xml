@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meta-tags on Webwork.tools</title>
+    <link>https://infominer.id/web-work/tags/meta-tags/</link>
+    <description>Recent content in meta-tags on Webwork.tools</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://infominer.id/web-work/tags/meta-tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resources for learning HTML, Meta tags, CSS, Kramdown, Katex.</title>
+      <link>https://infominer.id/web-work/posts/learn-html-css/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/learn-html-css/</guid>
+      <description>  htmldog.com - HTML5 and CSS Beginner Tutorials The_web_standardsmodel-_HTML_CSS_and_JavaScript Learn web development - developer.mozilla.org rtable  Color Charts  https://htmlcolorcodes.com/color-chart/  Unicode  unicode-table.com/#miscellaneous-symbols-and-pictographs  Katex  katex Viewport and Media Queries  Meta Tags  The Head - Metadata in HTML https://metatags.io https://www.heymeta.com/  Kramdown  kramdown.gettalong.org Kramdown - Syntax  </description>
+    </item>
+    
+  </channel>
+</rss>
