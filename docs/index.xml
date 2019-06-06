@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
-    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://infominer.id/web-work/index.xml" rel="self" type="application/rss+xml" />
     
@@ -92,6 +92,164 @@
 
 &lt;p&gt;&lt;strong&gt;I aim to create content of the highest quality - relating complex subjects in a clear and concise fashion - supplying essential details, with quality sources for further study.&lt;/strong&gt;
 {: .notice&amp;ndash;warning}&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hugo Starter Pack</title>
+      <link>https://infominer.id/web-work/posts/hugo-starter-pack/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/hugo-starter-pack/</guid>
+      <description>
+
+&lt;p&gt;All this started a few months ago when I began creating an &lt;a href=&#34;https://infominer.id/DIDecentralized&#34;&gt;awesome list&lt;/a&gt; on github, then got into publishing via GitHub Pages.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators&#34;&gt;Static Site Generators&lt;/a&gt; (just a start)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;official-resources&#34;&gt;Official Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;discourse.gohugo.io&lt;/a&gt; - Hugo Forum&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/recommended-reading-reference/14815&#34;&gt;Recommended Reading Reference&lt;/a&gt; *** Ton of good stuff in here.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;publishing-websites-via-hugo&#34;&gt;Publishing Websites Via Hugo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zwbetz.com/make-a-hugo-blog-from-scratch/&#34;&gt;Make A Hugo Blog from Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regisphilibert.com/tags/hugo/&#34;&gt;https://regisphilibert.com/tags/hugo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/budparr/awesome-hugo/&#34;&gt;https://github.com/budparr/awesome-hugo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodify.net/hugo-static-site-tutorials/&#34;&gt;Hugo Static Site Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4&#34;&gt;comprehensive-hugo-tutorial-for-beginners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=17387103&#34;&gt;Migrating from Jekyll to Hugo&lt;/a&gt; &amp;lt;&amp;ndash;good thread&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kevinmarks/stopbrexit&#34;&gt;kevinmarks/stopbrexit&lt;/a&gt; -  example of a &amp;ldquo;complete and operational&amp;rdquo; hugo site.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://stopbrexit.party/&#34;&gt;stopbrexit.party&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hugo-shortcodes&#34;&gt;Hugo Shortcodes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/parsiya/Hugo-Shortcodes&#34;&gt;https://github.com/parsiya/Hugo-Shortcodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geekthis.net/post/hugo-shortcode-pack/&#34;&gt;https://geekthis.net/post/hugo-shortcode-pack/&lt;/a&gt; &amp;lt;-has pdf support via third party.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;academic&#34;&gt;Academic&lt;/h3&gt;
+
+&lt;p&gt;If you are somewhat familiar with Jekyll already, I&amp;rsquo;ll recommend jumping right in with Academic Pages.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34;&gt;https://sourcethemes.com/academic/docs/install/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.&lt;/p&gt;
+
+&lt;p&gt;Seriously just click a button, it creates the repo and publishes it for you. Then just dive in like I am:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/&#34;&gt;https://lmyint.github.io/post/hugo-academic-tips/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Resources for the Command Line, Git, SSH, and BASH.</title>
+      <link>https://infominer.id/web-work/posts/command-line-git-ssh/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/command-line-git-ssh/</guid>
+      <description>
+
+&lt;p&gt;I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.learnenough.com/command-line-tutorial/basics&#34;&gt;Learn Enough Command Line to Be Dangerous&lt;/a&gt; - Introduction to the Unix command line.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zwbetz.com/mac-to-windows-command-line-mappings/&#34;&gt;Mac to Windows Command Line Mappings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mnyrop/swc-materials/&#34;&gt;reusable materials for bash/git/python bootcamps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;The entire Pro Git book&lt;/a&gt; -written by Scott Chacon and Ben Straub&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.learnenough.com/git-tutorial/getting_started&#34;&gt;Learn Enough Git to Be Dangerous&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git&#34;&gt;Atlassian -Getting Git Right&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://guides.github.com/introduction/git-handbook/&#34;&gt;guides.github.com - Git Handbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://teamtreehouse.com/library/introduction-to-git&#34;&gt;Introduction to Git&lt;/a&gt; - 186-minute Development Tools Course&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;cheat-sheets&#34;&gt;Cheat Sheets&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/davfre/8313299&#34; target=&#34;_blank&#34;&gt;davfre/git_cheat-sheet.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34;&gt;education.github.com - GIT CHEAT SHEET&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md&#34;&gt;Git CheetSheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;remotes&#34;&gt;Remotes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes&#34;&gt;Working with Remotes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;writing-commits&#34;&gt;Writing Commits&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chris.beams.io/posts/git-commit/&#34; target=&#34;_blank&#34;&gt;Writing Effective Commits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;signing-commits&#34;&gt;Signing Commits&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/managing-commit-signature-verification&#34;&gt;managing-commit-signature-verification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;submodules&#34;&gt;Submodules&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Submodules&#34;&gt;Git-Tools-Submodules&lt;/a&gt; - so you can pull other git repos into your project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;git-workflow&#34;&gt;Git Workflow&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34;&gt;www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ssh&#34;&gt;SSH&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/connecting-to-github-with-ssh&#34; target=&#34;_blank&#34;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&#34; target=&#34;_blank&#34;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&#34; target=&#34;_blank&#34;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&#34; target=&#34;_blank&#34;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;bash-shell-scripting&#34;&gt;BASH - Shell Scripting&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tldp.org/LDP/Bash-Beginners-Guide/html/intro_01.html&#34;&gt;Bash Guide for Beginners&lt;/a&gt;
+&amp;gt;This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don&amp;rsquo;t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.shellscript.sh/&#34;&gt;https://www.shellscript.sh/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.hypexr.org/bash_tutorial.php&#34;&gt;http://www.hypexr.org/bash_tutorial.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bash.academy/&#34;&gt;https://www.bash.academy/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -1174,6 +1332,11 @@ Where I build webpages.&lt;/p&gt;
 
 &lt;p&gt;This thing has extensions for all your coding needs&amp;hellip; It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.learnenough.com/text-editor-tutorial/vim&#34;&gt;Learn Enough Text Editor to Be Dangerous&lt;/a&gt; - Vim&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rick.cogley.info/post/text-editor-introduction/&#34;&gt;So, What&amp;rsquo;s a Text Editor? &amp;hellip;an introduction for newbies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;&lt;strong&gt;HackMD - Collaborative Markdown Editor&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1742,30 +1905,10 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 
 &lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
 
-&lt;p&gt;There are some indieweb integrated themes w hugo, and some themes no longer supported in their jekyll form that have been ported over to Hugo. There seems to be a lot of buzz aroudn it anyway.&lt;/p&gt;
+&lt;p&gt;These links have moved to their own page:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;discourse.gohugo.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zwbetz.com/make-a-hugo-blog-from-scratch/&#34;&gt;Make A Hugo Blog from Scratch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://regisphilibert.com/tags/hugo/&#34;&gt;https://regisphilibert.com/tags/hugo/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/recommended-reading-reference/14815&#34;&gt;Recommended Reading Reference&lt;/a&gt; *** Ton of good stuff in here.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/budparr/awesome-hugo/&#34;&gt;https://github.com/budparr/awesome-hugo/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kodify.net/hugo-static-site-tutorials/&#34;&gt;Hugo Static Site Tutorials&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4&#34;&gt;comprehensive-hugo-tutorial-for-beginners&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=17387103&#34;&gt;Migrating from Jekyll to Hugo&lt;/a&gt; &amp;lt;&amp;ndash;good thread&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kevinmarks/stopbrexit&#34;&gt;kevinmarks/stopbrexit&lt;/a&gt; -  example of a &amp;ldquo;complete and operational&amp;rdquo; hugo site.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://stopbrexit.party/&#34;&gt;stopbrexit.party&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;hugo-shortcodes&#34;&gt;Hugo Shortcodes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/parsiya/Hugo-Shortcodes&#34;&gt;https://github.com/parsiya/Hugo-Shortcodes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://geekthis.net/post/hugo-shortcode-pack/&#34;&gt;https://geekthis.net/post/hugo-shortcode-pack/&lt;/a&gt; &amp;lt;-has pdf support.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/hugo-starter-pack/&#34;&gt;Hugo Starter Pack&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;mkdocs&#34;&gt;MkDocs&lt;/h2&gt;
@@ -3382,7 +3525,7 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 &lt;li&gt;&lt;a href=&#34;https://github.com/jekyll/jekyll-mentions/&#34;&gt;https://github.com/jekyll/jekyll-mentions/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;bug-testing&#34;&gt;Bug Testing&lt;/h2&gt;
+&lt;h2 id=&#34;build-local-bug-testing&#34;&gt;Build Local - Bug Testing&lt;/h2&gt;
 
 &lt;p&gt;Buidling your site locally is the best way to figure out why it&amp;rsquo;s not publishing correctly via GitHub.&lt;/p&gt;
 
@@ -3429,7 +3572,7 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 
 &lt;p&gt;coming soon&amp;hellip;.&lt;/p&gt;
 
-&lt;h2 id=&#34;technical-deets&#34;&gt;Technical Deets&lt;/h2&gt;
+&lt;h2 id=&#34;technical&#34;&gt;Technical&lt;/h2&gt;
 
 &lt;h3 id=&#34;html-css&#34;&gt;HTML - CSS&lt;/h3&gt;
 
@@ -3472,28 +3615,7 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 &lt;li&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34;&gt;https://blog.webjeda.com/jekyll-liquid/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/davfre/8313299&#34; target=&#34;_blank&#34;&gt;davfre/git_cheat-sheet.md&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34;&gt;education.github.com - GIT CHEAT SHEET&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chris.beams.io/posts/git-commit/&#34; target=&#34;_blank&#34;&gt;Writing Effective Commits&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34;&gt;www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md&#34;&gt;Git CheetSheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes&#34;&gt;Working with Remotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/managing-commit-signature-verification&#34;&gt;managing-commit-signature-verification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mnyrop/swc-materials/blob/master/git.md&#34;&gt;mnyrop/swc-materials/blob/master/git.md&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Submodules&#34;&gt;Git-Tools-Submodules&lt;/a&gt; - so you can pull other git repos into your project&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;ssh&#34;&gt;SSH&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/connecting-to-github-with-ssh&#34; target=&#34;_blank&#34;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&#34; target=&#34;_blank&#34;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&#34; target=&#34;_blank&#34;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&#34; target=&#34;_blank&#34;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;git-and-ssh-moved-command-line-git-ssh&#34;&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Git and SSH - Moved&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
 

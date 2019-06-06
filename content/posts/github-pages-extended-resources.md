@@ -127,7 +127,7 @@ Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps
 * [https://github.com/jekyll/jekyll-mentions/](https://github.com/jekyll/jekyll-mentions/)
 
 
-## Bug Testing
+## Build Local - Bug Testing
 
 Buidling your site locally is the best way to figure out why it's not publishing correctly via GitHub.
 
@@ -166,7 +166,7 @@ Verbose... you get the idea.
 
 coming soon....
 
-## Technical Deets
+## Technical
 
 ### HTML - CSS
 
@@ -201,25 +201,7 @@ coming soon....
 * <a href="https://learn.cloudcannon.com/jekyll/introduction-to-liquid/" target="_blank">Introduction to Liquid for Jekyll</a>
 * <a href="https://blog.webjeda.com/jekyll-liquid/" target="_blank">https://blog.webjeda.com/jekyll-liquid/</a>
 
-### Git
-
-* <a href="https://gist.github.com/davfre/8313299" target="_blank">davfre/git_cheat-sheet.md</a>
-* <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">education.github.com - GIT CHEAT SHEET</a>
-* <a href="https://chris.beams.io/posts/git-commit/" target="_blank">Writing Effective Commits</a>
-* [www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-* [Git CheetSheet](https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md)
-* [Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
-* [managing-commit-signature-verification](https://help.github.com/en/articles/managing-commit-signature-verification)
-* [mnyrop/swc-materials/blob/master/git.md](https://github.com/mnyrop/swc-materials/blob/master/git.md)
-* [Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) - so you can pull other git repos into your project
-
-
-### SSH
-
-* <a href="https://help.github.com/en/articles/connecting-to-github-with-ssh" target="_blank">Connecting to GitHub with SSH</a>
-* <a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">Generating a new SSH key and adding it to the SSH agent</a>
-* <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a>
-* <a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a>
+### [Git and SSH - Moved](/command-line-git-ssh/)
 
 ### Data
 
