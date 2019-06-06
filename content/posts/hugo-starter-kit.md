@@ -6,10 +6,7 @@ tags: [resources, hugo, static site generators, webpub]
 image:
   feature: /images/hugo-starter-kit.png
 date: 2019-06-06
-summary: >
-  I've begun organizing resources around using the Hugo Static Site Generator. 
-  
-  Official Resources, Tutorials, Themes, Sortcodes and More!
+summary: "I've begun organizing resources around using the Hugo Static Site Generator. Official Resources, Tutorials, Themes, Sortcodes and More!"
 aliases:
   - /posts/hugo-starter-kit/
   - /hugo-starter-kit/
@@ -26,6 +23,7 @@ summary: ""
 
 * [Quickstart](https://gohugo.io/getting-started/quick-start/)
 * [GoHugo](https://gohugo.io)
+* [Configure](https://gohugo.io/getting-started/configuration/) - all the cool config.toml settings you never knew!
 * [Documentation](https://gohugo.io/documentation/)
 * [Forum](https://discourse.gohugo.io)
 * https://gohugo.io/tools/starter-kits/
@@ -81,6 +79,7 @@ Seriously just click a button, it creates the repo and publishes it for you. The
 
 * https://sourcethemes.com/academic/docs/install/
 * [Writing content with Markdown, LaTeX, and Shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
+* [Getting Started With the Page Builder](https://sourcethemes.com/academic/docs/page-builder/) - Learn Academic's widget system.
 * https://lmyint.github.io/post/hugo-academic-tips/
 * [Display Jupyter Notebooks with Academic](https://sourcethemes.com/academic/docs/jupyter/)
 * [Creating a Course or Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation)
