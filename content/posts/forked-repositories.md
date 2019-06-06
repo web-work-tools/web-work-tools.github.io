@@ -10,6 +10,7 @@ slug: /forked-repositories/
 aliases:
   - /posts/forked-repositories/
   - /forked-repositories/
+summary: ""
 ---
 
 ![](https://infominer.id/web-work/images/infominer-forked-repositories.png)

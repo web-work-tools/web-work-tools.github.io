@@ -8,6 +8,8 @@ aliases:
   - /posts/indieweb-dev-on-did/
   - /indieweb-dev-on-did/
 slugs: /indieweb-dev-on-did/
+summary: What I'm hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.
+
 ---
 
 What I'm hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.

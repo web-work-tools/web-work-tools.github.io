@@ -8,6 +8,9 @@ slug: /indigo-authors-indieweb/
 aliases:
   - /indigo-authors-indieweb/
   - /posts/indigo-authors-indieweb/
+summary: >
+  "The following classes are used to mark up the author bio for Indieweb parsing: h-card, u-photo, p-name, u-url, rel=me, p-locality, p-country-name, u-email, p-note. I'll be exploring these classes more thoroughly, soon."
+
 ---
 
 ## Notes from the Editor
@@ -69,3 +72,4 @@ The following classes are used to mark up the author bio for [IndieWeb][indieweb
 *Author URL is set to the site's base URL.
 
 [indieweb]: https://indieweb.org/
+

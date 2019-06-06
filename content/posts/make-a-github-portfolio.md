@@ -4,7 +4,8 @@ title: "Infominer's GitHub Portfolio and HowTo"
 description: "How to make a Portfolio for your GitHub repositories with `github/personal-website`"
 date: 2019-05-27
 tags: [github, repositories, open source, portfolio, github-pages]
-
+summary: >
+  Now there is a simple way to create a GitHub style portfolio for your github repositories!
 aliases:
   - /posts/make-a-github-portfolio/
   - /make-a-github-portfolio/

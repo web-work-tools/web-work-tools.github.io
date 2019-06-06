@@ -12,6 +12,12 @@ aliases:
 slug: /github-pages-starter-pack/
 image:
   feature: /images/github-pages-jekyll-starter-pack.png
+
+summary: >
+  "Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).
+
+  Each feature you want to enable requires a little more learning, and  GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer."
+
 ---
 
 ![](https://infominer.id/web-work/images/github-pages-jekyll-starter-pack.png)

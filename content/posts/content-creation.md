@@ -10,13 +10,14 @@ aliases:
   - /posts/content-creation/
   - /content-creation/
 slug: /content-creation/
+summary: >
+  Here's some tools to make content creation a little easier. As per usual, this list will grow and become more organized over time.
 ---
 
 Here's some tools to make content creation a little easier.
 
 As per usual, this list will grow and become more organized over time.
 
-For now, it's just a copy\paste from the [GitHub-Pages Starter Pack](https://infominer.id/web-work/github-pages-starter-pack/).
 
 ## Basics
 

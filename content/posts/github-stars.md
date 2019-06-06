@@ -13,6 +13,9 @@ image:
   feature: /images/infominer-starred-repositories-head.png
   credit: See on Github
   creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
+
+summary: A list of my starred Github Repositories. Ill star a lot more, now that I have a convenient way to organize them, and continue refining this list as time goes on. (primarily for my own convenience)
+
 ---
 
 ![](https://infominer.id/web-work/images/infominer-starred-repositories-head.png)
