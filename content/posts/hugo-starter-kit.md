@@ -78,7 +78,7 @@ There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.
 Seriously just click a button, it creates the repo and publishes it for you. Then just dive in like I am:
 
 * https://lmyint.github.io/post/hugo-academic-tips/
-
+* https://www.lauraleeflores.com/blog/header-image-sizing-guide
 
 ## Related Posts
 

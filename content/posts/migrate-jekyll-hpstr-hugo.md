@@ -107,6 +107,8 @@ The next major change introduces page bundles. I wouldn't be surprised if it has
 
 ## Test Install
 
+* [web.archive.org - Installing Hugo - Dec, 2017](http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing)
+
 Once it's installed, type I `hugo version` and read:
 
 ![](https://imgur.com/J2lnKkR.png)
@@ -422,8 +424,9 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 
 ## Resources
 
-* [web.archive.org - Installing Hugo v0.17](http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing)
-* [web.archive.org - Using Hugo v0.17](http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/)
+* https://sourcethemes.com/academic/docs/migrate-from-jekyll/
+* [web.archive.org - Installing Hugo - Dec, 2017](http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing)
+* [web.archive.org - Using Hugo - Dec,2017](http://web.archive.org/web/20171211175036/http://gohugo.io/getting-started/usage)
 * [Creating a Test Branch and Merging changes back to Master](https://infominer.id/web-work/posts/branches-git/)
 * [Goodbye Jekyll - Hello Hugo](https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/)
 
