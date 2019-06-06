@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>command line on Webwork.tools</title>
+    <link>https://infominer.id/web-work/tags/command-line/</link>
+    <description>Recent content in command line on Webwork.tools</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://infominer.id/web-work/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resources for the Command Line, Git, SSH, and BASH.</title>
+      <link>https://infominer.id/web-work/posts/command-line-git-ssh/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/command-line-git-ssh/</guid>
+      <description>I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.
+ Learn Enough Command Line to Be Dangerous - Introduction to the Unix command line. Mac to Windows Command Line Mappings reusable materials for bash/git/python bootcamps  Git  The entire Pro Git book -written by Scott Chacon and Ben Straub Learn Enough Git to Be Dangerous Atlassian -Getting Git Right guides.</description>
+    </item>
+    
+  </channel>
+</rss>

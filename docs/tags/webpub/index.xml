@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>static site generators on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/static-site-generators/</link>
-    <description>Recent content in static site generators on Webwork.tools</description>
+    <title>webpub on Webwork.tools</title>
+    <link>https://infominer.id/web-work/tags/webpub/</link>
+    <description>Recent content in webpub on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/static-site-generators/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://infominer.id/web-work/tags/webpub/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <guid>https://infominer.id/web-work/posts/hugo-starter-pack/</guid>
       <description>All this started a few months ago when I began creating an awesome list on github, then got into publishing via GitHub Pages.
  GitHub Pages Starter Pack GitHub Pages Extended Resources Static Site Generators (just a start) Migrating From Jekyll HPSTR theme to Hugo HPSTR theme Command Line - Git - SSH - BASH  Official Resources  discourse.gohugo.io - Hugo Forum Recommended Reading Reference *** Ton of good stuff in here.</description>
-    </item>
-    
-    <item>
-      <title>Static Site Generators</title>
-      <link>https://infominer.id/web-work/posts/static-site-generators/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/static-site-generators/</guid>
-      <description>Devopedia.org   Well, now i&amp;rsquo;m looking into options besides jekyll, to expand my skills, and try out some themes that aren&amp;rsquo;t available for Jekyll.
-I&amp;rsquo;ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.
-What is a Static Site Generator (SSG)? There are some configuration files, layouts and templates, and then there is all your content that your create.</description>
     </item>
     
   </channel>

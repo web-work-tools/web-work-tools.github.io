@@ -40,23 +40,9 @@ I'll have a few general resources at the top and just add as I go, since I'm not
 
 ## Hugo
 
-There are some indieweb integrated themes w hugo, and some themes no longer supported in their jekyll form that have been ported over to Hugo. There seems to be a lot of buzz aroudn it anyway.
+These links have moved to their own page: 
 
-* [discourse.gohugo.io](https://discourse.gohugo.io)
-* [Make A Hugo Blog from Scratch](https://zwbetz.com/make-a-hugo-blog-from-scratch/)
-* [https://regisphilibert.com/tags/hugo/](https://regisphilibert.com/tags/hugo/)
-* [Recommended Reading Reference](https://discourse.gohugo.io/t/recommended-reading-reference/14815) *** Ton of good stuff in here.
-* [https://github.com/budparr/awesome-hugo/](https://github.com/budparr/awesome-hugo/)
-* [Hugo Static Site Tutorials](https://kodify.net/hugo-static-site-tutorials/)
-* [comprehensive-hugo-tutorial-for-beginners](https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4)
-* [Migrating from Jekyll to Hugo](https://news.ycombinator.com/item?id=17387103) <--good thread
-* [kevinmarks/stopbrexit](https://github.com/kevinmarks/stopbrexit) -  example of a "complete and operational" hugo site.
-  * [stopbrexit.party](http://stopbrexit.party/)
-
-### Hugo Shortcodes
-* https://gohugo.io/content-management/shortcodes/
-* https://github.com/parsiya/Hugo-Shortcodes
-* https://geekthis.net/post/hugo-shortcode-pack/ <-has pdf support.
+* [Hugo Starter Pack](/hugo-starter-pack/)
 
 ## MkDocs
 
