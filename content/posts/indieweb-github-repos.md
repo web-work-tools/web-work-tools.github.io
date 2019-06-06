@@ -12,7 +12,7 @@ aliases:
   - /indieweb-github-repos/
   - /posts/indieweb-github-repos/
 slug: /indieweb-github-repos/
-summary: ""
+summary: "A start at exploring Indieweb Topics"
 ---
 
 

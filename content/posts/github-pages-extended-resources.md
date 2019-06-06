@@ -8,7 +8,7 @@ aliases:
   - /github-pages-extended-resources/
 image:
   feature: /images/github-pages-extended-resources.png
-summary: ""
+summary: "All those extra things you'll need to know."
 ---
 
 ![](https://infominer.id/web-work/images/github-pages-extended-resources.png)
@@ -25,52 +25,7 @@ summary: ""
 * [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
 
 
-## Setup
-
-### Front Matter
-
-* <a href="https://jekyllrb.com/docs/front-matter/" target="_blank">Front Matter</a>
-* <a href="http://simpleprimate.com/blog/front-matter" target="_blank">YAML front matter in Jekyll</a>
-* <a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial" target="_blank">YAML tutorial in the context of Jekyll</a>
-
-
-### Layouts
-
-Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use "single" and "page". Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I'm also using the Home layout:
-
-![](https://imgur.com/ikX9wF6l.png)
-
-* [https://jekyllrb.com/docs/step-by-step/04-layouts/](https://jekyllrb.com/docs/step-by-step/04-layouts/)
-* [documentation-theme-jekyll/tag_special_layouts.html](https://idratherbewriting.com/documentation-theme-jekyll/tag_special_layouts.html)
-
-I'm wondering if I can move these documentation theme layouts, or even this post index from hpstr over to minimal-mistakes... probably so... except maybe there is custom css.. and I really haven't taken the time to figure that out, yet.
-
-### Collections 
-* [https://jekyllrb.com/docs/collections/](https://jekyllrb.com/docs/collections/)
-* [http://stories.upthebuzzard.com/jekyll_notes/](http://stories.upthebuzzard.com/jekyll_notes/)
-  * [using-jekyll-collections.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-15-using-jekyll-collections.html)
-  * [prev-and-next-within-a-jekyll-collection.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-prev-and-next-within-a-jekyll-collection.html)
-  * [sort-order-of-jekyll-collections.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-sort-order-of-jekyll-collections.html)
-  * [accessing-jekyll-collection-details-from-a-post.html](http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-accessing-jekyll-collection-details-from-a-post.html)
-
-### Plugins
-* <a href="https://jekyllrb.com/docs/plugins/installation/" target="_blank">jekyllrb.com/docs/plugins/installation/</a>
-* <a href="https://github.com/planetjekyll/awesome-jekyll-plugins" target="_blank">planetjekyll/awesome-jekyll-plugins</a>
-* [Jekyll-Target-Blank](https://keith-mifsud.me/projects/jekyll-target-blank)
-* [https://github.com/jekyll/jekyll-mentions/](https://github.com/jekyll/jekyll-mentions/)
-* [Github Flavored Emoji for Jekyll](https://github.com/jekyll/jemoji)
-* <a href="https://help.github.com/en/articles/adding-jekyll-plugins-to-a-github-pages-site" target="_blank">Adding Jekyll Plugins to a GitHub Pages Site - help.github.com</a>
-* <a href="https://help.github.com/en/articles/creating-a-custom-404-page-for-your-github-pages-site" target="_blank">Creating Custom 404 page</a>
-* [Implemented the "Edit this page" feature. jekyll#3495](https://github.com/delftswa2014/jekyll/commit/e109555aa0533148c53200e63d1e60a3acf67e74)
-* <a href="https://help.github.com/en/articles/redirects-on-github-pages" target="_blank">Jekyll Redirect Plugin</a>
-
-Use `redirect_from: internal/url` to change the location you are publishing, but keep old links.
-Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps you want it to live on another site, but not lose your valuable links :)
-{: .notice--info}
-
-
-
-## Other Customizations
+## Customizations
 * [digitaldrummerj.me/categories/jekyll](https://digitaldrummerj.me/categories/jekyll/)
 * [Social Media Share Bar](https://mycyberuniverse.com/social-media-share-bar-jekyll-blog-website.html)
 * [Validating Links and Images](https://digitaldrummerj.me/jekyll-validating-links-and-images/)

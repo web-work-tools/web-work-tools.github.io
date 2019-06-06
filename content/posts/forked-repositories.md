@@ -10,7 +10,7 @@ slug: /forked-repositories/
 aliases:
   - /posts/forked-repositories/
   - /forked-repositories/
-summary: ""
+summary: "Takin' names and Kickin' Ass!"
 ---
 
 ![](https://infominer.id/web-work/images/infominer-forked-repositories.png)

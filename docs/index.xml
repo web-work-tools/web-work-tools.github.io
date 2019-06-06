@@ -3528,44 +3528,6 @@ remote_theme: benbalter/retlab
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;related-resources&#34;&gt;Related Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GitHub Pages-Extended Resources</title>
-      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
-      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/github-pages-extended-resources.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Continued from &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;strong&gt;Github Pages Starter Pack&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;related-resources&#34;&gt;Related Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 
 &lt;h3 id=&#34;front-matter&#34;&gt;Front Matter&lt;/h3&gt;
@@ -3621,7 +3583,45 @@ remote_theme: benbalter/retlab
 Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors somewhere else (perhaps you want it to live on another site, but not lose your valuable links :)
 {: .notice&amp;ndash;info}&lt;/p&gt;
 
-&lt;h2 id=&#34;other-customizations&#34;&gt;Other Customizations&lt;/h2&gt;
+&lt;h2 id=&#34;related-resources&#34;&gt;Related Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHub Pages-Extended Resources</title>
+      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
+      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/github-pages-extended-resources.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Continued from &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;strong&gt;Github Pages Starter Pack&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;related-resources&#34;&gt;Related Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;customizations&#34;&gt;Customizations&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://digitaldrummerj.me/categories/jekyll/&#34;&gt;digitaldrummerj.me/categories/jekyll&lt;/a&gt;&lt;/li&gt;

@@ -48,7 +48,7 @@ Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to creat
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/indieweb-github-repos/</guid>
-      <description>github.com/miklb  miklb/webpage-micropub-to-github -forked from voxpelli/webpage-micropub-to-github miklb/jekyll-indieweb  forked.yannick.io/miklb/jekyll-indieweb  miklb/node-micropub-express- forked from voxpelli/node-micropub-express - Provides a Micropub route for Express 4.x miklb/mf2_s- Microformats 2 Version of Underscores Starter Theme with Indieweb Support miklb/hubot-github-issue-lookup -forked from SimplyBuilt/hubot-github-issue-lookup  miklb - WordPress  miklb/wordpress-indieweb-press-this- from indieweb/wordpress-indieweb-press-this.  some IndieWeb magic for WordPress&amp;rsquo; &amp;ldquo;press this&amp;rdquo; bookmarklet.  miklb/wordpress-indieweb- Microformats 2 Version of Underscores Starter Theme with Indieweb Support  github.com/indieweb 101  indieweb/indieweb.</description>
+      <description>A start at exploring Indieweb Topics</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@ Each feature you want to enable requires a little more learning, and  GitHub Pag
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
-      <description>Continued from Github Pages Starter Pack.  Related Resources  Learn HTML CSS and Associated Markup Languages Content Creation GitHub Pages Extended Resources Static Site Generators Migrating from Jekyll HPSTR to Hugo HPSTR theme Command Line - Git - SSH - BASH  Setup Front Matter  Front Matter YAML front matter in Jekyll YAML tutorial in the context of Jekyll  Layouts Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &amp;ldquo;single&amp;rdquo; and &amp;ldquo;page&amp;rdquo;.</description>
+      <description>All those extra things you&amp;rsquo;ll need to know.</description>
     </item>
     
   </channel>
