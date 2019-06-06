@@ -59,9 +59,10 @@ This thing has extensions for all your coding needs... It is cross-platform, has
 * https://convertio.co/pdf-html/
 * https://github.com/coolwanglu/pdf2htmlEX
 
-## Image Sizes for Popular Platforms
+## Image Sizes
 
 * [Twitter-Image Sizes](https://louisem.com/217438/twitter-image-size)
+* [Header Image Sizing Guide](https://www.lauraleeflores.com/blog/header-image-sizing-guide)
 
 
 ## Images - Infographics

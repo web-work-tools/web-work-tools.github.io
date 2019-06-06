@@ -12,6 +12,11 @@ image:
   feature: /images/devopedia-static-site-generators.jpg
   credit: Devopedia.org
   creditlink: https://devopedia.org/static-site-generators
+summary: >
+  There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
+
+  I'll have a few general resources at the top and just add as I go, since I'm not ready to learn about too many of them, just yet.
+
 ---
 
 * [Devopedia.org](https://devopedia.org/static-site-generators)
@@ -25,7 +30,7 @@ I'll be honest, if you are new like me, getting jekyll themes to work is tricky.
 
 ## What is a Static Site Generator (SSG)?
 
-There are some configuration files, layouts and templates, and then there is all your content that your create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
+There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
 
 I'll have a few general resources at the top and just add as I go, since I'm not ready to learn about too many of them, just yet.
 
