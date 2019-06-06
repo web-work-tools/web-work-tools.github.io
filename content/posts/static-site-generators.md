@@ -12,8 +12,7 @@ image:
   feature: /images/devopedia-static-site-generators.jpg
   credit: Devopedia.org
   creditlink: https://devopedia.org/static-site-generators
-summary: >
-  There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
+summary: "There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate."
 
 ---
 

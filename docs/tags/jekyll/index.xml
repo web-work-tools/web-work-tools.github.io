@@ -18,8 +18,7 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/hpstr-theme-full-page/</guid>
-      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
-This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
+      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone. This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
     </item>
     
     <item>
@@ -28,8 +27,7 @@ This guide and the accompanying repository should help anyone switching from eit
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</guid>
-      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
-This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
+      <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone. This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
     </item>
     
     <item>
@@ -38,8 +36,7 @@ This guide and the accompanying repository should help anyone switching from eit
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/branches-git/</guid>
-      <description>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
-Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to create a local branch for testing.</description>
+      <description>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running. Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to create a local branch for testing.</description>
     </item>
     
     <item>
@@ -57,8 +54,7 @@ Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to creat
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/github-pages-starter-pack/</guid>
-      <description>&amp;ldquo;Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).
-Each feature you want to enable requires a little more learning, and  GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer.&amp;rdquo;</description>
+      <description>Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go). Each feature you want to enable requires a little more learning, and  GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer.</description>
     </item>
     
     <item>
