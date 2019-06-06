@@ -19,7 +19,7 @@
       
       <guid>https://infominer.id/web-work/posts/hugo-starter-kit/</guid>
       <description>All this started a few months ago when I began creating an awesome list on github, then got into publishing via GitHub Pages.
- GitHub Pages Starter Pack GitHub Pages Extended Resources Static Site Generators (just a start) Migrating From Jekyll HPSTR theme to Hugo HPSTR theme Command Line - Git - SSH - BASH  Official Resources  discourse.gohugo.io - Hugo Forum Recommended Reading Reference *** Ton of good stuff in here.</description>
+ GitHub Pages Starter Pack GitHub Pages Extended Resources Static Site Generators (just a start) Migrating From Jekyll HPSTR theme to Hugo HPSTR theme Command Line - Git - SSH - BASH  Official Resources  discourse.gohugo.io - Hugo Forum  The language HUGO is built with</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@
       
       <guid>https://infominer.id/web-work/posts/learn-html-css/</guid>
       <description>The_web_standardsmodel-_HTML_CSS_and_JavaScript  Markdown  Mastering Markdown Markdown Cheet-Sheet  TOML - YAML - JSON Just this for now, will get deeper with structured data, later on.
- https://github.com/toml-lang/toml http://yaml.org/ https://www.json.org/  HTML  htmldog.com - HTML5 Beginner Tutorials Learn web development - developer.mozilla.org Learn Enough HTML to be Dangerous  Color  HTML Color Chart Paletton Color Hexa Colors  Unicode  Miscellaneous-Symbols-and-Pictographs  Meta Tags  The Head - Metadata in HTML https://metatags.</description>
+ https://github.com/toml-lang/toml http://yaml.org/ https://www.json.org/  HTML  htmldog.com - HTML5 Beginner Tutorials Learn web development - developer.mozilla.org Learn Enough HTML to be Dangerous  Color  HTML Color Chart Paletton Color Hexa Colors Color Tool  Unicode  Miscellaneous-Symbols-and-Pictographs  Meta Tags  The Head - Metadata in HTML https://metatags.</description>
     </item>
     
     <item>
@@ -251,7 +251,7 @@ If you don’t want to think about web-development, and simply want your markdow
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
-      <description>Continued from Github Pages Starter Pack.  Setup Front Matter  Front Matter YAML front matter in Jekyll YAML tutorial in the context of Jekyll  Layouts Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &amp;ldquo;single&amp;rdquo; and &amp;ldquo;page&amp;rdquo;. Now that I am using blog posts.. (because they populate your RSS feed, and increases their portability) I&amp;rsquo;m also using the Home layout:</description>
+      <description>Continued from Github Pages Starter Pack.  Related Resources  Learn HTML CSS and Associated Markup Languages Content Creation GitHub Pages Extended Resources Static Site Generators Migrating from Jekyll HPSTR to Hugo HPSTR theme Command Line - Git - SSH - BASH  Setup Front Matter  Front Matter YAML front matter in Jekyll YAML tutorial in the context of Jekyll  Layouts Layouts are preconfigured page templates. When I started, it was too much to think about layouts, and I would use &amp;ldquo;single&amp;rdquo; and &amp;ldquo;page&amp;rdquo;.</description>
     </item>
     
     <item>

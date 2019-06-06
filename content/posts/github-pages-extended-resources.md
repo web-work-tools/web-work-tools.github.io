@@ -15,6 +15,16 @@ image:
 
 * Continued from [**Github Pages Starter Pack**](/github-pages-starter-pack/).
 
+## Related Resources
+
+* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
+* [Content Creation](https://infominer.id/web-work/content-creation/)
+* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
+* [Static Site Generators](https://infominer.id/web-work/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
+
+
 ## Setup
 
 ### Front Matter
@@ -168,8 +178,6 @@ coming soon....
 
 ## Technical
 
-### [HTML - CSS - Metatags Kramdown](/learn-html-css/)
-
 
 ### Liquid
 
@@ -179,8 +187,6 @@ coming soon....
 * <a href="https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/" target="_blank">Jekyll Variables and Liquid Template Tags-Cheatsheet</a>
 * <a href="https://learn.cloudcannon.com/jekyll/introduction-to-liquid/" target="_blank">Introduction to Liquid for Jekyll</a>
 * <a href="https://blog.webjeda.com/jekyll-liquid/" target="_blank">https://blog.webjeda.com/jekyll-liquid/</a>
-
-### [Git and SSH - Moved](/command-line-git-ssh/)
 
 ### Data
 

@@ -27,7 +27,11 @@ All this started a few months ago when I began creating an [awesome list](https:
 ## Official Resources
 
 * [discourse.gohugo.io](https://discourse.gohugo.io) - Hugo Forum
-* [Recommended Reading Reference](https://discourse.gohugo.io/t/recommended-reading-reference/14815) *** Ton of good stuff in here.
+
+The language HUGO is built with
+
+* https://golang.org/
+* https://golang.org/pkg/text/template/
 
 ## Publishing Websites Via Hugo
 
@@ -37,8 +41,12 @@ All this started a few months ago when I began creating an [awesome list](https:
 * [Hugo Static Site Tutorials](https://kodify.net/hugo-static-site-tutorials/)
 * [comprehensive-hugo-tutorial-for-beginners](https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4)
 * [Migrating from Jekyll to Hugo](https://news.ycombinator.com/item?id=17387103) <--good thread
-* [kevinmarks/stopbrexit](https://github.com/kevinmarks/stopbrexit) -  example of a "complete and operational" hugo site.
-  * [stopbrexit.party](http://stopbrexit.party/)
+
+
+![](https://imgur.com/udN9Kcs.png)
+
+* [Hugo Video Turorials](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
+  >This course covers the basics of using Hugo - Static Site Generator. Work your way through the videos and we'll teach you everything you need to know to create a professional and scalable website or blog!
 
 ## Hugo Shortcodes
 

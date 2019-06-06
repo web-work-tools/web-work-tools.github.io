@@ -45,6 +45,7 @@ Just this for now, will get deeper with structured data, later on.
 * [Paletton](http://paletton.com/)
 * [Color Hexa](https://www.colorhexa.com/)
 * [Colors](http://clrs.cc/)
+* [Color Tool](https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=455A64)
 
 ### Unicode
 
@@ -74,3 +75,12 @@ Just this for now, will get deeper with structured data, later on.
 * [Kramdown - Syntax](https://kramdown.gettalong.org/syntax.html)
 * [Kramdown - QuickRef Guide](https://kramdown.gettalong.org/quickref.html)
 
+
+## Related Posts
+
+* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
+* [Content Creation](https://infominer.id/web-work/content-creation/)
+* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
+* [Static Site Generators](https://infominer.id/web-work/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)

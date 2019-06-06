@@ -119,7 +119,13 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;discourse.gohugo.io&lt;/a&gt; - Hugo Forum&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/recommended-reading-reference/14815&#34;&gt;Recommended Reading Reference&lt;/a&gt; *** Ton of good stuff in here.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The language HUGO is built with&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;https://golang.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;https://golang.org/pkg/text/template/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;publishing-websites-via-hugo&#34;&gt;Publishing Websites Via Hugo&lt;/h2&gt;
@@ -131,11 +137,13 @@
 &lt;li&gt;&lt;a href=&#34;https://kodify.net/hugo-static-site-tutorials/&#34;&gt;Hugo Static Site Tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4&#34;&gt;comprehensive-hugo-tutorial-for-beginners&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=17387103&#34;&gt;Migrating from Jekyll to Hugo&lt;/a&gt; &amp;lt;&amp;ndash;good thread&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kevinmarks/stopbrexit&#34;&gt;kevinmarks/stopbrexit&lt;/a&gt; -  example of a &amp;ldquo;complete and operational&amp;rdquo; hugo site.
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/udN9Kcs.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://stopbrexit.party/&#34;&gt;stopbrexit.party&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&#34;&gt;Hugo Video Turorials&lt;/a&gt;
+&amp;gt;This course covers the basics of using Hugo - Static Site Generator. Work your way through the videos and we&amp;rsquo;ll teach you everything you need to know to create a professional and scalable website or blog!&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;hugo-shortcodes&#34;&gt;Hugo Shortcodes&lt;/h2&gt;
@@ -304,6 +312,7 @@
 &lt;li&gt;&lt;a href=&#34;http://paletton.com/&#34;&gt;Paletton&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colorhexa.com/&#34;&gt;Color Hexa&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://clrs.cc/&#34;&gt;Colors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://material.io/tools/color/#!/?view.left=0&amp;amp;view.right=0&amp;amp;primary.color=455A64&#34;&gt;Color Tool&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;unicode&#34;&gt;Unicode&lt;/h3&gt;
@@ -341,6 +350,17 @@
 &lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/&#34;&gt;kramdown.gettalong.org&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/syntax.html&#34;&gt;Kramdown - Syntax&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kramdown.gettalong.org/quickref.html&#34;&gt;Kramdown - QuickRef Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -1235,6 +1255,17 @@ enableEmoji = true
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://masayk.github.io/tech/hugo/&#34;&gt;Blogging with Org-Mode and Hugo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -1564,7 +1595,17 @@ combines feeds &amp;ldquo;into content and other magical creations&amp;rdquo;.&l
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://polyglot.untra.io/&#34;&gt;https://polyglot.untra.io/&lt;/a&gt; - multi-lingual publishing.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://konpa.github.io/devicon/&#34;&gt;https://konpa.github.io/devicon/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://material.io/tools/color/#!/?view.left=0&amp;amp;view.right=0&amp;amp;primary.color=455A64&#34;&gt;Color Tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2056,12 +2097,16 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 
 &lt;p&gt;you could build gem based sites locally, and keybase will automatically sync the data.&lt;/p&gt;
 
-&lt;h2 id=&#34;thats-all-for-now&#34;&gt;Thats all for now!&lt;/h2&gt;
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
 
-&lt;figure class=&#34;full&#34;&gt;
-    &lt;img src=&#34;https://infominer.id/web-work/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34;&gt;
-    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -3460,6 +3505,7 @@ remote_theme: benbalter/retlab
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -3476,6 +3522,17 @@ remote_theme: benbalter/retlab
 
 &lt;ul&gt;
 &lt;li&gt;Continued from &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;strong&gt;Github Pages Starter Pack&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;related-resources&#34;&gt;Related Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
@@ -3668,8 +3725,6 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 
 &lt;h2 id=&#34;technical&#34;&gt;Technical&lt;/h2&gt;
 
-&lt;h3 id=&#34;html-css-metatags-kramdown-learn-html-css&#34;&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;HTML - CSS - Metatags Kramdown&lt;/a&gt;&lt;/h3&gt;
-
 &lt;h3 id=&#34;liquid&#34;&gt;Liquid&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/jMtd9WR.png&#34;/&gt;&lt;/p&gt;
@@ -3680,8 +3735,6 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 &lt;li&gt;&lt;a href=&#34;https://learn.cloudcannon.com/jekyll/introduction-to-liquid/&#34; target=&#34;_blank&#34;&gt;Introduction to Liquid for Jekyll&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://blog.webjeda.com/jekyll-liquid/&#34;&gt;https://blog.webjeda.com/jekyll-liquid/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;git-and-ssh-moved-command-line-git-ssh&#34;&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Git and SSH - Moved&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
 
