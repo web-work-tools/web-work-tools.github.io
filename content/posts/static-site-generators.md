@@ -90,12 +90,11 @@ Just sayin'... keybase has 250 gigs of free storage you can use to host a websit
 you could build gem based sites locally, and keybase will automatically sync the data.
 
 
+## Related Posts
 
-
-## Thats all for now!
-
-<figure class="full">
-	<img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-	<figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
-</figure>
-
+* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
+* [Content Creation](https://infominer.id/web-work/content-creation/)
+* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
+* [Static Site Generators](https://infominer.id/web-work/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
