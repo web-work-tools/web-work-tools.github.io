@@ -185,6 +185,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/&#34;&gt;https://lmyint.github.io/post/hugo-academic-tips/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lauraleeflores.com/blog/header-image-sizing-guide&#34;&gt;https://www.lauraleeflores.com/blog/header-image-sizing-guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
@@ -953,6 +954,10 @@
 
 &lt;h2 id=&#34;test-install&#34;&gt;Test Install&lt;/h2&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing&#34;&gt;web.archive.org - Installing Hugo - Dec, 2017&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Once it&amp;rsquo;s installed, type I &lt;code&gt;hugo version&lt;/code&gt; and read:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/J2lnKkR.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -1261,8 +1266,9 @@ enableEmoji = true
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20161110121524/http://gohugo.io/overview/installing&#34;&gt;web.archive.org - Installing Hugo v0.17&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20161103072343/http://gohugo.io/overview/usage/&#34;&gt;web.archive.org - Using Hugo v0.17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/migrate-from-jekyll/&#34;&gt;https://sourcethemes.com/academic/docs/migrate-from-jekyll/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing&#34;&gt;web.archive.org - Installing Hugo - Dec, 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20171211175036/http://gohugo.io/getting-started/usage&#34;&gt;web.archive.org - Using Hugo - Dec,2017&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/branches-git/&#34;&gt;Creating a Test Branch and Merging changes back to Master&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/&#34;&gt;Goodbye Jekyll - Hello Hugo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
