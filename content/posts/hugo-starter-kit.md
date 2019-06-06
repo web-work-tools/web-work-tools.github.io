@@ -1,16 +1,16 @@
 ---
 type: post
-title: "Hugo Starter Pack"
+title: "Hugo Starter Kit"
 description: "Resources for Publishing with the Hugo via Git-Hub/Lab Pages."
 tags: [resources, hugo, static site generators, webpub]
 image:
-  feature: # /images/jekyll-hpstr-hugo.png
+  feature: /images/hugo-starter-kit.png
 date: 2019-06-06
 
 aliases:
-  - /posts/hugo-starter-pack/
-  - /hugo-starter-pack/
-slug: /hugo-starter-pack/
+  - /posts/hugo-starter-kit/
+  - /hugo-starter-kit/
+slug: /hugo-starter-kit/
 
 ---
 
@@ -21,6 +21,8 @@ All this started a few months ago when I began creating an [awesome list](https:
 * [Static Site Generators](https://infominer.id/web-work/static-site-generators) (just a start)
 * [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
 * [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
+
+![](https://infominer.id/web-work/images/hugo-starter-kit.png)
 
 ## Official Resources
 

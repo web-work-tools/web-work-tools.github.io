@@ -96,11 +96,11 @@
     </item>
     
     <item>
-      <title>Hugo Starter Pack</title>
-      <link>https://infominer.id/web-work/posts/hugo-starter-pack/</link>
+      <title>Hugo Starter Kit</title>
+      <link>https://infominer.id/web-work/posts/hugo-starter-kit/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/hugo-starter-pack/</guid>
+      <guid>https://infominer.id/web-work/posts/hugo-starter-kit/</guid>
       <description>
 
 &lt;p&gt;All this started a few months ago when I began creating an &lt;a href=&#34;https://infominer.id/DIDecentralized&#34;&gt;awesome list&lt;/a&gt; on github, then got into publishing via GitHub Pages.&lt;/p&gt;
@@ -112,6 +112,8 @@
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/hugo-starter-kit.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;official-resources&#34;&gt;Official Resources&lt;/h2&gt;
 
@@ -228,6 +230,8 @@
       
       <guid>https://infominer.id/web-work/posts/command-line-git-ssh/</guid>
       <description>
+
+&lt;p&gt;&lt;a href=&#34;https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/command-line.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.&lt;/p&gt;
 
@@ -1962,7 +1966,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;p&gt;These links have moved to their own page:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/hugo-starter-pack/&#34;&gt;Hugo Starter Pack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/hugo-starter-kit/&#34;&gt;Hugo Starter Kit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;mkdocs&#34;&gt;MkDocs&lt;/h2&gt;

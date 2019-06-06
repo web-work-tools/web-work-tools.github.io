@@ -4,7 +4,9 @@ title: "Resources for the Command Line, Git, SSH, and BASH."
 description: "Command Line, Git, SSH, and BASH: Tips, Tricks and Resources."
 tags: [resources, command line, terminal, git, ssh, bash]
 image:
-  feature: # /images/jekyll-hpstr-hugo.png
+  feature: /images/command-line.png
+  credit: "IBM PC AT (8Mhz), 2Mb RAM, 20Mb Hard Disk (Formatted), 128Kb EGA, Enhanced Color Display"
+  creditlink: "https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/"
 date: 2019-06-06
 
 aliases:
@@ -13,6 +15,8 @@ aliases:
 slug: /command-line-git-ssh/
 
 ---
+
+[![](https://infominer.id/web-work/images/command-line.png)](https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/)
 
 I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.
 
