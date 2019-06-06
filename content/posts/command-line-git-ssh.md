@@ -27,6 +27,7 @@ I use Ubuntu Linux, so all of my info comes from that perspective. That said, mo
 * [Atlassian -Getting Git Right](https://www.atlassian.com/git)
 * [guides.github.com - Git Handbook](https://guides.github.com/introduction/git-handbook/)
 * [Introduction to Git](https://teamtreehouse.com/library/introduction-to-git) - 186-minute Development Tools Course 
+* [Create a Test Branch and Merge Back the Changes](https://infominer.id/web-work/branches-git/) >>
 
 ### Cheat Sheets
 
