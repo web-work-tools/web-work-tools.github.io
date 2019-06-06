@@ -42,7 +42,7 @@ I'll have a few general resources at the top and just add as I go, since I'm not
 
 These links have moved to their own page: 
 
-* [Hugo Starter Pack](/hugo-starter-pack/)
+* [Hugo Starter Kit](/hugo-starter-kit/)
 
 ## MkDocs
 
