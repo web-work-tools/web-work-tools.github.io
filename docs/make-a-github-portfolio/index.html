@@ -1,1 +1,372 @@
-<!DOCTYPE html><html><head><title>https://infominer.id/web-work/posts/make-a-github-portfolio/</title><link rel="canonical" href="https://infominer.id/web-work/posts/make-a-github-portfolio/"/><meta name="robots" content="noindex"><meta charset="utf-8" /><meta http-equiv="refresh" content="0; url=https://infominer.id/web-work/posts/make-a-github-portfolio/" /></head></html>
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Webwork.tools</title>
+    <meta name="description" content="{Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto.">
+    <meta name="author" content="Infominer">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="me" href="mailto:infominer@protonmail.com">
+    <link rel="me" href="https://github.com/infominer33">
+    <link rel="me" href="https://twitter.com/infominer33">
+    <link rel="me" href="https://micro.blog/infominer">
+    
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    
+    <style type="text/css">@font-face{
+    font-family: 'Fira Code';
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.ttf') format('truetype');
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.ttf') format('truetype');
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+</style>
+    <link rel="stylesheet" href="https://infominer.id/web-work/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="https://infominer.id/web-work/"><img src="https://infominer.id/web-work/images/site-logo.svg" alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>        
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="https://infominer.id/web-work/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/services/">
+                    
+                    <span>Services</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/webwork.tools/">
+                    
+                    <span>Webwork.tools</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+    </header>
+
+
+
+<div id="content">
+    <article class="h-entry">
+        <header>
+            <h1 class="post-title p-name">Infominer&#39;s GitHub Portfolio and HowTo</h1>
+            
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="2019-05-27T00:00:00Z">
+                27 May, 2019 at 00:00 UTC
+                </time>  by <a href="https://infominer.id/web-work/" class="p-author h-card" rel="author">Infominer</a>
+            </p>
+            
+            
+        </header>
+        <section class="content e-content">
+            
+
+<p><img src="https://infominer.id/web-work/images/infominer33-github-portfolio.jpeg" alt="" /></p>
+
+<p>I learned of this cool project from <a href="https://twitter.com/bmann">@bmann</a>. I&rsquo;ve been wanting a simple way to make a page like this for a while!</p>
+
+<p>It&rsquo;s really nice to have a place to keep track, because I&rsquo;m always forgetting how many I even manage!</p>
+
+<p>It might seem intimidating to hear, &ldquo;Just Fork It!&rdquo;</p>
+
+<p>However, you&rsquo;ll see that it&rsquo;s not much more complex than that.</p>
+
+<h2 id="step-1">Step 1</h2>
+
+<p>Fork this repository:</p>
+
+<ul>
+<li><a href="https://github.com/github/personal-website">github/personal-website</a></li>
+</ul>
+
+<h2 id="step-2">Step 2</h2>
+
+<p>Go to settings and select publish from master branch:</p>
+
+<p><img src="https://imgur.com/UAhVvRPl.png" alt="" /></p>
+
+<h2 id="step-3">Step 3</h2>
+
+<p>If you already have a web-page, then maybe you aren&rsquo;t reading this.. If you don&rsquo;t, then you must name the repository the same as your name on github. So my first website&rsquo;s repository name is <a href="https://github.com/infominer33/infominer33.github.io">infominer33.github.io</a> since my github username is infominer33. Now it publishes to <code>infominer.id</code> (but also <code>infominer33.github.io</code>) because I have a custom domain, and every other repository I publish is a branch of that first domain.</p>
+
+<p>Since I already have a primary webpage, I change my repository name to <code>repo-portfolio</code>. That way, it lives at:</p>
+
+<ul>
+<li><a href="https://infominer.id/repo-portfolio/">infominer.id/repo-portfolio</a></li>
+</ul>
+
+<p><img src="https://imgur.com/yL5BaNxl.png" alt="" /></p>
+
+<h2 id="step-4">Step 4</h2>
+
+<p>On github pages, <code>_config.yml</code> lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:</p>
+
+<pre><code>
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 12
+  exclude:
+    archived: false
+    forks: false
+    projects:
+      - pub-yes
+      - yest
+      - archive-crypto
+      - yest-the-docs
+      - bahamas-crypto
+
+</code></pre>
+
+<p>you can also configure social media accounts.</p>
+
+<pre><code>social_media:
+  website: https://infominer.id/
+  keybase: infominer
+  telegram: infominer33
+  twitter: infominer33
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # unsplash: your_username
+  # vk: your_username
+  # youtube: your_username
+</code></pre>
+
+<p>and topics of interest:</p>
+
+<pre><code>
+topics:
+  - name: Bitcoin
+    web_url: https://github.com/topics/bitcoin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
+
+  - name: Decentralized Identity
+    web_url: https://github.com/topics/decentralized-identity
+    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
+
+</code></pre>
+
+<p>Cool beans, right?</p>
+
+<p>There are also blog features, although I&rsquo;m not sure I&rsquo;ll blog there&hellip; who knows!?!?</p>
+
+<p>I haven&rsquo;t looked through the <a href="https://github.com/github/personal-website/issues">issues</a>, or <a href="https://github.com/github/personal-website/pulls">pull-requests</a> yet to see what folk are working on, or tried to tweak any of the quirks I&rsquo;ve noticed..</p>
+
+<p>If you want to learn more about GitHub Pages, check out:</p>
+
+<figure class="full">
+    <img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
+    <figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
+</figure>
+
+        </section>
+        <footer>
+            <a class="permalink u-url" href="https://infominer.id/web-work/make-a-github-portfolio/">🔗</a>
+            
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post: 
+            
+                <a href="https://infominer.id/web-work/tags/github" class="post-tag p-category">github</a>
+            
+                <a href="https://infominer.id/web-work/tags/repositories" class="post-tag p-category">repositories</a>
+            
+                <a href="https://infominer.id/web-work/tags/open-source" class="post-tag p-category">open source</a>
+            
+                <a href="https://infominer.id/web-work/tags/portfolio" class="post-tag p-category">portfolio</a>
+            
+                <a href="https://infominer.id/web-work/tags/github-pages" class="post-tag p-category">github-pages</a>
+            
+            </p>
+            
+        </footer>
+    </article>
+</div>
+
+    
+    <div class="h-card">
+      <img class="u-photo" src="https://infominer.id/web-work/images/infominer.svg" />
+      <div class="card-content">
+        <h2 class="card-name"><a class="p-name u-url" href="https://infominer.id/web-work/" rel="me">Infominer</a></h2>
+        <p class="card-subhead">
+          <span class="p-locality">Marginalized</span>,
+          <span class="p-country-name">Stateless</span><br />
+          <a class="u-email" href="mailto:infominer@protonmail.com">Email me</a>
+        </p>
+      </div>
+      <p class="p-note">Full-Time Crypto-Curation and Histories ⧉ Bitcoin, Blockchain, DecentralizedID ⧉ Research, Publishing, WebWork, Indieweb ⧉ her/him</p>
+    </div>
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="prev">
+          
+          <a alt="Newer article" href="https://infominer.id/web-work/github-stars/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="next">
+          
+          <a alt="Older article" href="https://infominer.id/web-work/content-creation/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:infominer@protonmail.com"><img src="https://infominer.id/web-work/icons/envelope.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/infominer33"><img src="https://infominer.id/web-work/icons/github.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitLab profile" href="https://gitlab.com/infominer33"><img src="https://infominer.id/web-work/icons/gitlab.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Keybase profile" href="https://keybase.io/infominer"><img src="https://infominer.id/web-work/icons/keybase.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/infominer"><img src="https://infominer.id/web-work/icons/microblog.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Reddit profile" href="https://www.reddit.com/user/infominer33"><img src="https://infominer.id/web-work/icons/reddit-alien.svg" height="24px" width="24px" /></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Stack Overflow profile" href="https://stackoverflow.com/users/10793272"><img src="https://infominer.id/web-work/icons/stack-overflow.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Twitter profile" href="https://twitter.com/infominer33"><img src="https://infominer.id/web-work/icons/twitter.svg" height="24px" width="24px"></a>
+     </div>
+     
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          ⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉
+      </p>
+      
+    </div>
+
+
+</body>
+</html>
