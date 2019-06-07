@@ -1,1 +1,365 @@
-<!DOCTYPE html><html><head><title>https://infominer.id/web-work/posts/indigo-authors-indieweb/</title><link rel="canonical" href="https://infominer.id/web-work/posts/indigo-authors-indieweb/"/><meta name="robots" content="noindex"><meta charset="utf-8" /><meta http-equiv="refresh" content="0; url=https://infominer.id/web-work/posts/indigo-authors-indieweb/" /></head></html>
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Webwork.tools</title>
+    <meta name="description" content="{Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Git, Practical Crypto.">
+    <meta name="author" content="Infominer">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="me" href="mailto:infominer@protonmail.com">
+    <link rel="me" href="https://github.com/infominer33">
+    <link rel="me" href="https://twitter.com/infominer33">
+    <link rel="me" href="https://micro.blog/infominer">
+    
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    
+    <style type="text/css">@font-face{
+    font-family: 'Fira Code';
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraCode-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraCode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_regular-webfont.ttf') format('truetype');
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot');
+    src: url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/charter_bold_italic-webfont.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Book.ttf') format('truetype');
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot');
+    src: url('https://infominer.id/web-work/fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff2') format('woff2'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.woff') format('woff'),
+         url('https://infominer.id/web-work/fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: optional;
+}
+</style>
+    <link rel="stylesheet" href="https://infominer.id/web-work/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="https://infominer.id/web-work/"><img src="https://infominer.id/web-work/images/site-logo.svg" alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>        
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="https://infominer.id/web-work/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/services/">
+                    
+                    <span>Services</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/web-work/webwork.tools/">
+                    
+                    <span>Webwork.tools</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+    </header>
+
+
+
+<div id="content">
+    <article class="h-entry">
+        <header>
+            <h1 class="post-title p-name">Indigo Authors - Indiweb Features</h1>
+            
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="2019-06-03T00:00:00Z">
+                3 June, 2019 at 00:00 UTC
+                </time>  by <a href="https://infominer.id/web-work/" class="p-author h-card" rel="author">Infominer</a>
+            </p>
+            
+            
+            <p class="post-tag">Category: 
+                
+                <a href="https://infominer.id/web-work/categories/meta" class="post-tag p-category">meta</a>
+                
+            </p>
+            <hr class="post-underline">
+            
+        </header>
+        <section class="content e-content">
+            
+
+<h2 id="notes-from-the-editor">Notes from the Editor</h2>
+
+<p>I&rsquo;m noticing that the repository hasn&rsquo;t been recently updated by it&rsquo;s owner, however, I can find some helpful contributions from the community:</p>
+
+<ul>
+<li><a href="https://github.com/AngeloStavrow/indigo/pulls">https://github.com/AngeloStavrow/indigo/pulls</a></li>
+</ul>
+
+<p>*note, I changed the date so it would bump to the top.</p>
+
+<h2 id="indigo-authors">Indigo Authors</h2>
+
+<p>The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.</p>
+
+<h2 id="setting-up-the-author-bio">Setting up the author bio</h2>
+
+<p>A set of configuration options are used for displaying the biography.</p>
+
+<pre><code>[params]
+  Author = &quot;Author Name&quot;
+  Avatar = &quot;images/site-logo.svg&quot;
+  Biography = &quot;A short description, a few sentences describing the author. Set
+               the 'ShowBio' parameter to false to hide this.&quot;
+  ShowBio = true        
+
+[params.indieWeb]  
+    EmailAddress = &quot;email.address@example.com&quot;
+    Country = &quot;CountryName&quot;
+    City = &quot;CityName&quot;
+</code></pre>
+
+<p>Specifics on each setting item are as follows:</p>
+
+<ul>
+<li><code>Author</code>: Your name; this is the site author name.</li>
+<li><code>Avatar</code>: The path to your profile picture. By default, it will show the theme&rsquo;s logo (<code>/static/images/site-logo.svg</code>).</li>
+<li><code>Biography</code>: Hopefully the placeholder text here is self-explanatory; add a couple of short sentences about yourself here.</li>
+<li><code>ShowBio</code>: If you prefer not to show the author bio, set this to <code>false</code>. By default, it&rsquo;s set to <code>true</code>.</li>
+<li><code>EmailAddress</code>: The email address at which you can be contacted.</li>
+<li><code>Country</code>: The name of the country in which you live.</li>
+<li><code>City</code>: The name of the city in which you live.</li>
+</ul>
+
+<h2 id="indieweb-features">IndieWeb features</h2>
+
+<p>The following classes are used to mark up the author bio for <a href="https://indieweb.org/">IndieWeb</a> parsing:</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Element</th>
+<th align="left">Class</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">The author card</td>
+<td align="left"><code>h-card</code></td>
+</tr>
+
+<tr>
+<td align="left">Profile picture</td>
+<td align="left"><code>u-photo</code></td>
+</tr>
+
+<tr>
+<td align="left">Author URL*</td>
+<td align="left"><code>p-name</code>, <code>u-url</code>, <code>rel=me</code></td>
+</tr>
+
+<tr>
+<td align="left">City</td>
+<td align="left"><code>p-locality</code></td>
+</tr>
+
+<tr>
+<td align="left">Country</td>
+<td align="left"><code>p-country-name</code></td>
+</tr>
+
+<tr>
+<td align="left">Email address</td>
+<td align="left"><code>u-email</code></td>
+</tr>
+
+<tr>
+<td align="left">Biography</td>
+<td align="left"><code>p-note</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>*Author URL is set to the site&rsquo;s base URL.</p>
+
+        </section>
+        <footer>
+            <a class="permalink u-url" href="https://infominer.id/web-work/indigo-authors-indieweb/">🔗</a>
+            
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post: 
+            
+                <a href="https://infominer.id/web-work/tags/options" class="post-tag p-category">options</a>
+            
+                <a href="https://infominer.id/web-work/tags/indieweb" class="post-tag p-category">indieweb</a>
+            
+                <a href="https://infominer.id/web-work/tags/hugo" class="post-tag p-category">hugo</a>
+            
+                <a href="https://infominer.id/web-work/tags/front-matter" class="post-tag p-category">front matter</a>
+            
+            </p>
+            
+        </footer>
+    </article>
+</div>
+
+    
+    <div class="h-card">
+      <img class="u-photo" src="https://infominer.id/web-work/images/infominer.svg" />
+      <div class="card-content">
+        <h2 class="card-name"><a class="p-name u-url" href="https://infominer.id/web-work/" rel="me">Infominer</a></h2>
+        <p class="card-subhead">
+          <span class="p-locality">Marginalized</span>,
+          <span class="p-country-name">Stateless</span><br />
+          <a class="u-email" href="mailto:infominer@protonmail.com">Email me</a>
+        </p>
+      </div>
+      <p class="p-note">Full-Time Crypto-Curation and Histories ⧉ Bitcoin, Blockchain, DecentralizedID ⧉ Research, Publishing, WebWork, Indieweb ⧉ her/him</p>
+    </div>
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="prev">
+          
+          <a alt="Newer article" href="https://infominer.id/web-work/hpstr-theme-full-page/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="next">
+          
+          <a alt="Older article" href="https://infominer.id/web-work/indieweb-dev-on-did/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:infominer@protonmail.com"><img src="https://infominer.id/web-work/icons/envelope.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/infominer33"><img src="https://infominer.id/web-work/icons/github.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitLab profile" href="https://gitlab.com/infominer33"><img src="https://infominer.id/web-work/icons/gitlab.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Keybase profile" href="https://keybase.io/infominer"><img src="https://infominer.id/web-work/icons/keybase.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/infominer"><img src="https://infominer.id/web-work/icons/microblog.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Reddit profile" href="https://www.reddit.com/user/infominer33"><img src="https://infominer.id/web-work/icons/reddit-alien.svg" height="24px" width="24px" /></a>
+    </div>
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Stack Overflow profile" href="https://stackoverflow.com/users/10793272"><img src="https://infominer.id/web-work/icons/stack-overflow.svg" height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Twitter profile" href="https://twitter.com/infominer33"><img src="https://infominer.id/web-work/icons/twitter.svg" height="24px" width="24px"></a>
+     </div>
+     
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          ⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉
+      </p>
+      
+    </div>
+
+
+</body>
+</html>

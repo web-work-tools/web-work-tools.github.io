@@ -97,10 +97,10 @@
     
     <item>
       <title>Hugo Starter Kit</title>
-      <link>https://infominer.id/web-work/posts/hugo-starter-kit/</link>
+      <link>https://infominer.id/web-work/hugo-starter-kit/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/hugo-starter-kit/</guid>
+      <guid>https://infominer.id/web-work/hugo-starter-kit/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/hugo-starter-kit.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -114,7 +114,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Quickstart&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;GoHugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;Configure&lt;/a&gt; - all the cool config.toml settings you never knew!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;Forum&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/tools/starter-kits/&#34;&gt;https://gohugo.io/tools/starter-kits/&lt;/a&gt;&lt;/li&gt;
@@ -123,6 +122,10 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;Golang Templates&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;Configure&lt;/a&gt; - all the cool config.toml settings you never knew!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;Page Bundles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/urls/#permalink-configuration-values&#34;&gt;Permalink Configuration Values&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;publishing-websites-via-hugo&#34;&gt;Publishing Websites Via Hugo&lt;/h2&gt;
@@ -131,8 +134,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/budparr/awesome-hugo/&#34;&gt;budparr/awesome-hugo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zwbetz.com/make-a-hugo-blog-from-scratch/&#34;&gt;Make A Hugo Blog from Scratch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4&#34;&gt;comprehensive-hugo-tutorial-for-beginners&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=17387103&#34;&gt;Migrating from Jekyll to Hugo&lt;/a&gt; &amp;lt;&amp;ndash;good thread&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/&#34;&gt;https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/&#34;&gt;Hugo Asset Pipeline&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
@@ -170,7 +172,9 @@
 
 &lt;h3 id=&#34;academic&#34;&gt;Academic&lt;/h3&gt;
 
-&lt;p&gt;If you are somewhat familiar with Jekyll already, I&amp;rsquo;ll recommend jumping right in with Academic Pages.&lt;/p&gt;
+&lt;p&gt;If you are somewhat familiar with Jekyll already, you may want to jumping right in with Academic Pages. It&amp;rsquo;s not exactly simple, but its versatile.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/JpASy3c.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I tried &lt;a href=&#34;https://github.com/search?q=hugo+theme&#34;&gt;github.com/search?q=hugo+theme&lt;/a&gt;, and found that Academic has a toooon of stars. More even than the repository for all of hugos themes in one place !!!&lt;/p&gt;
 
@@ -178,7 +182,7 @@
 
 &lt;p&gt;There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.&lt;/p&gt;
 
-&lt;p&gt;Seriously just click a button, it creates the repo and publishes it for you. Then just dive in like I am:&lt;/p&gt;
+&lt;p&gt;Seriously just click a button, it creates the repo and publishes it for you.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34;&gt;https://sourcethemes.com/academic/docs/install/&lt;/a&gt;&lt;/li&gt;
@@ -187,6 +191,20 @@
 &lt;li&gt;&lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/&#34;&gt;https://lmyint.github.io/post/hugo-academic-tips/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;Display Jupyter Notebooks with Academic&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation&#34;&gt;Creating a Course or Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/mZfWUqyl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another documentation theme, I think a bit simpler than Academic.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/matcornic/hugo-theme-learn&#34;&gt;https://github.com/matcornic/hugo-theme-learn&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.netlify.com/en/&#34;&gt;https://learn.netlify.com/en/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
@@ -205,10 +223,10 @@
     
     <item>
       <title>Resources for the Command Line, Git, SSH, and BASH.</title>
-      <link>https://infominer.id/web-work/posts/command-line-git-ssh/</link>
+      <link>https://infominer.id/web-work/command-line-git-ssh/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/command-line-git-ssh/</guid>
+      <guid>https://infominer.id/web-work/command-line-git-ssh/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/command-line.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -293,10 +311,10 @@
     
     <item>
       <title>The Markup languages that get transformed into a website.</title>
-      <link>https://infominer.id/web-work/posts/learn-html-css/</link>
+      <link>https://infominer.id/web-work/learn-html-css/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/learn-html-css/</guid>
+      <guid>https://infominer.id/web-work/learn-html-css/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/HTML5-related-tech-Sergey-Mavrody.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -392,10 +410,10 @@
     
     <item>
       <title>FreeNode IRC #indieweb-dev on IIW RWoT and DID&#39;s</title>
-      <link>https://infominer.id/web-work/posts/indieweb-dev-on-did/</link>
+      <link>https://infominer.id/web-work/indieweb-dev-on-did/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/indieweb-dev-on-did/</guid>
+      <guid>https://infominer.id/web-work/indieweb-dev-on-did/</guid>
       <description>
 
 &lt;p&gt;What I&amp;rsquo;m hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.&lt;/p&gt;
@@ -723,10 +741,10 @@
     
     <item>
       <title>Indigo Authors - Indiweb Features</title>
-      <link>https://infominer.id/web-work/posts/indigo-authors-indieweb/</link>
+      <link>https://infominer.id/web-work/indigo-authors-indieweb/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/indigo-authors-indieweb/</guid>
+      <guid>https://infominer.id/web-work/indigo-authors-indieweb/</guid>
       <description>
 
 &lt;h2 id=&#34;notes-from-the-editor&#34;&gt;Notes from the Editor&lt;/h2&gt;
@@ -828,10 +846,10 @@
     
     <item>
       <title>Jekyll HPSTR-Theme Blog Index Demo</title>
-      <link>https://infominer.id/web-work/posts/hpstr-theme-full-page/</link>
+      <link>https://infominer.id/web-work/hpstr-theme-full-page/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/hpstr-theme-full-page/</guid>
+      <guid>https://infominer.id/web-work/hpstr-theme-full-page/</guid>
       <description>
 
 &lt;p&gt;Since I changed the theme too quickly for anyone to really see what it looked like, I&amp;rsquo;ve been saving images of how it used to look.&lt;/p&gt;
@@ -848,10 +866,10 @@
     
     <item>
       <title>Migrating from Jekyll HPSTR to Hugo.</title>
-      <link>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</link>
+      <link>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/migrate-jekyll-hpstr-hugo/</guid>
+      <guid>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/jekyll-hpstr-hugo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -1304,10 +1322,10 @@ enableEmoji = true
     
     <item>
       <title>Creating a Test Branch and Merging back the Changes</title>
-      <link>https://infominer.id/web-work/posts/branches-git/</link>
+      <link>https://infominer.id/web-work/branches-git/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/branches-git/</guid>
+      <guid>https://infominer.id/web-work/branches-git/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/Git_branches_fork.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1374,10 +1392,10 @@ git push origin master
     
     <item>
       <title>Infominer&#39;s Forked Repositores</title>
-      <link>https://infominer.id/web-work/posts/forked-repositories/</link>
+      <link>https://infominer.id/web-work/forked-repositories/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/forked-repositories/</guid>
+      <guid>https://infominer.id/web-work/forked-repositories/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer-forked-repositories.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -1461,10 +1479,10 @@ git push origin master
     
     <item>
       <title>Resources for Content Creation</title>
-      <link>https://infominer.id/web-work/posts/content-creation/</link>
+      <link>https://infominer.id/web-work/content-creation/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/content-creation/</guid>
+      <guid>https://infominer.id/web-work/content-creation/</guid>
       <description>
 
 &lt;p&gt;Here&amp;rsquo;s some tools to make content creation a little easier.&lt;/p&gt;
@@ -1647,10 +1665,10 @@ combines feeds &amp;ldquo;into content and other magical creations&amp;rdquo;.&l
     
     <item>
       <title>Infominer&#39;s GitHub Portfolio and HowTo</title>
-      <link>https://infominer.id/web-work/posts/make-a-github-portfolio/</link>
+      <link>https://infominer.id/web-work/make-a-github-portfolio/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/make-a-github-portfolio/</guid>
+      <guid>https://infominer.id/web-work/make-a-github-portfolio/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer33-github-portfolio.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -1764,10 +1782,10 @@ topics:
     
     <item>
       <title>Infominer&#39;s Starred GitHub Repositories</title>
-      <link>https://infominer.id/web-work/posts/github-stars/</link>
+      <link>https://infominer.id/web-work/github-stars/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/github-stars/</guid>
+      <guid>https://infominer.id/web-work/github-stars/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer-starred-repositories-head.png&#34; alt=&#34;&#34; /&gt;
@@ -1951,10 +1969,10 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Sign Up and Get Started using Google Adwords Keyword Planner</title>
-      <link>https://infominer.id/web-work/posts/keyword-planning/</link>
+      <link>https://infominer.id/web-work/keyword-planner/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/keyword-planning/</guid>
+      <guid>https://infominer.id/web-work/keyword-planner/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/getting-started-adwords-keyword-planner.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -2037,10 +2055,10 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Static Site Generators</title>
-      <link>https://infominer.id/web-work/posts/static-site-generators/</link>
+      <link>https://infominer.id/web-work/static-site-generators/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/static-site-generators/</guid>
+      <guid>https://infominer.id/web-work/static-site-generators/</guid>
       <description>
 
 &lt;ul&gt;
@@ -2260,10 +2278,10 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Open Source Publishing</title>
-      <link>https://infominer.id/web-work/posts/open-source-publishing/</link>
+      <link>https://infominer.id/web-work/open-source-publishing/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/open-source-publishing/</guid>
+      <guid>https://infominer.id/web-work/open-source-publishing/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infolytics/infominer-id-all-pages-20190417-20190524.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -2328,10 +2346,10 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Indieweb Github Repositories</title>
-      <link>https://infominer.id/web-work/posts/indieweb-github-repos/</link>
+      <link>https://infominer.id/web-work/indieweb-github-repos/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/indieweb-github-repos/</guid>
+      <guid>https://infominer.id/web-work/indieweb-github-repos/</guid>
       <description>
 
 &lt;h2 id=&#34;github-com-miklb-https-github-com-miklb&#34;&gt;&lt;a href=&#34;https://github.com/miklb&#34;&gt;github.com/miklb&lt;/a&gt;&lt;/h2&gt;
@@ -2446,10 +2464,10 @@ IndieAuth Specification&lt;/li&gt;
     
     <item>
       <title>Indieweb Resources</title>
-      <link>https://infominer.id/web-work/posts/indieweb-resources/</link>
+      <link>https://infominer.id/web-work/indieweb-resources/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/indieweb-resources/</guid>
+      <guid>https://infominer.id/web-work/indieweb-resources/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/ahnVZ9tl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -2738,10 +2756,10 @@ IndieAuth Specification&lt;/li&gt;
     
     <item>
       <title>Using PGP and Cryptocurrency Keysignatures</title>
-      <link>https://infominer.id/web-work/posts/practical-public-key-crypto/</link>
+      <link>https://infominer.id/web-work/practical-public-key-crypto/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/practical-public-key-crypto/</guid>
+      <guid>https://infominer.id/web-work/practical-public-key-crypto/</guid>
       <description>
 
 &lt;pre&gt;&lt;code&gt;&amp;quot;Public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;quot;
@@ -2947,10 +2965,10 @@ March 03, 2019&lt;/a&gt;
     
     <item>
       <title>100&#39;s of Mostly Free SEO Tools</title>
-      <link>https://infominer.id/web-work/posts/seo-tools/</link>
+      <link>https://infominer.id/web-work/seo-tools/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/seo-tools/</guid>
+      <guid>https://infominer.id/web-work/seo-tools/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -3203,10 +3221,10 @@ How much reach and social authority do your followers and the people you want to
     
     <item>
       <title>GitHub Pages-Starter Pack</title>
-      <link>https://infominer.id/web-work/posts/github-pages-starter-pack/</link>
+      <link>https://infominer.id/web-work/github-pages-starter-pack/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/github-pages-starter-pack/</guid>
+      <guid>https://infominer.id/web-work/github-pages-starter-pack/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/github-pages-jekyll-starter-pack.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -3604,10 +3622,10 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     
     <item>
       <title>GitHub Pages-Extended Resources</title>
-      <link>https://infominer.id/web-work/posts/github-pages-extended-resources/</link>
+      <link>https://infominer.id/web-work/github-pages-extended-resources/</link>
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/github-pages-extended-resources/</guid>
+      <guid>https://infominer.id/web-work/github-pages-extended-resources/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/github-pages-extended-resources.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -3848,10 +3866,10 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     
     <item>
       <title>Learn SEO</title>
-      <link>https://infominer.id/web-work/posts/learn-seo/</link>
+      <link>https://infominer.id/web-work/learn-seo/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/posts/learn-seo/</guid>
+      <guid>https://infominer.id/web-work/learn-seo/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/organic-seo-drive-traffic.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;

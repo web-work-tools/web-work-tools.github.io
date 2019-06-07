@@ -22,20 +22,23 @@ slug: /hugo-starter-kit/
 
 * [Quickstart](https://gohugo.io/getting-started/quick-start/)
 * [GoHugo](https://gohugo.io)
-* [Configure](https://gohugo.io/getting-started/configuration/) - all the cool config.toml settings you never knew!
 * [Documentation](https://gohugo.io/documentation/)
 * [Forum](https://discourse.gohugo.io)
 * https://gohugo.io/tools/starter-kits/
 * [Golang](https://golang.org/) - the language HUGO is built with
   * [Golang Templates](https://golang.org/pkg/text/template/)
+* [Configure](https://gohugo.io/getting-started/configuration/) - all the cool config.toml settings you never knew!
+* [Syntax Highlighting](https://gohugo.io/content-management/syntax-highlighting/)
+* [Page Bundles](https://gohugo.io/content-management/page-bundles/)
+* [Permalink Configuration Values](https://gohugo.io/content-management/urls/#permalink-configuration-values)
+
 
 ## Publishing Websites Via Hugo
 
 * [budparr/awesome-hugo](https://github.com/budparr/awesome-hugo/)
 * [Make A Hugo Blog from Scratch](https://zwbetz.com/make-a-hugo-blog-from-scratch/)
 * [comprehensive-hugo-tutorial-for-beginners](https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4)
-* [Migrating from Jekyll to Hugo](https://news.ycombinator.com/item?id=17387103) <--good thread
-* https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/
+* [Hugo Asset Pipeline](https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/)
 
 
 ### Tutorials
@@ -65,7 +68,9 @@ slug: /hugo-starter-kit/
 
 ### Academic
 
-If you are somewhat familiar with Jekyll already, I'll recommend jumping right in with Academic Pages.
+If you are somewhat familiar with Jekyll already, you may want to jumping right in with Academic Pages. It's not exactly simple, but its versatile.
+
+![](https://imgur.com/JpASy3c.png)
 
 I tried [github.com/search?q=hugo+theme](https://github.com/search?q=hugo+theme), and found that Academic has a toooon of stars. More even than the repository for all of hugos themes in one place !!!
 
@@ -73,8 +78,7 @@ I tried [github.com/search?q=hugo+theme](https://github.com/search?q=hugo+theme)
 
 There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.
 
-Seriously just click a button, it creates the repo and publishes it for you. Then just dive in like I am:
-
+Seriously just click a button, it creates the repo and publishes it for you. 
 
 * https://sourcethemes.com/academic/docs/install/
 * [Writing content with Markdown, LaTeX, and Shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
@@ -82,6 +86,17 @@ Seriously just click a button, it creates the repo and publishes it for you. The
 * https://lmyint.github.io/post/hugo-academic-tips/
 * [Display Jupyter Notebooks with Academic](https://sourcethemes.com/academic/docs/jupyter/)
 * [Creating a Course or Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation)
+
+### Learn
+
+![](https://imgur.com/mZfWUqyl.png)
+
+Another documentation theme, I think a bit simpler than Academic.
+
+* https://github.com/matcornic/hugo-theme-learn
+  * https://learn.netlify.com/en/
+
+
 
 ## Related Posts
 
