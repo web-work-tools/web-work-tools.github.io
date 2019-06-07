@@ -727,7 +727,9 @@
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://infominer.id/web-work/posts/indigo-authors-indieweb/</guid>
-      <description>&lt;h2 id=&#34;notes-from-the-editor&#34;&gt;Notes from the Editor&lt;/h2&gt;
+      <description>
+
+&lt;h2 id=&#34;notes-from-the-editor&#34;&gt;Notes from the Editor&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m noticing that the repository hasn&amp;rsquo;t been recently updated by it&amp;rsquo;s owner, however, I can find some helpful contributions from the community:&lt;/p&gt;
 
@@ -820,7 +822,8 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;*Author URL is set to the site&amp;rsquo;s base URL.&lt;/p&gt;</description>
+&lt;p&gt;*Author URL is set to the site&amp;rsquo;s base URL.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -1511,7 +1514,9 @@ Where I build webpages.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/idleberg/Creative-Commons-Markdown&#34;&gt;idleberg/Creative-Commons-Markdown&lt;/a&gt; - snippets to add CC license to your work.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;image-converters&#34;&gt;Image Converters&lt;/h2&gt;
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+
+&lt;h3 id=&#34;converters&#34;&gt;Converters&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://pdf2png.com/&#34;&gt;https://pdf2png.com/&lt;/a&gt;&lt;/li&gt;
@@ -1520,24 +1525,12 @@ Where I build webpages.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/coolwanglu/pdf2htmlEX&#34;&gt;https://github.com/coolwanglu/pdf2htmlEX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;image-sizes&#34;&gt;Image Sizes&lt;/h2&gt;
+&lt;h3 id=&#34;sizes&#34;&gt;Sizes&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://louisem.com/217438/twitter-image-size&#34;&gt;Twitter-Image Sizes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.lauraleeflores.com/blog/header-image-sizing-guide&#34;&gt;Header Image Sizing Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;images-infographics&#34;&gt;Images - Infographics&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.canva.com/create/infographics/&#34;&gt;Canva Infographic Creator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.easel.ly/&#34;&gt;easel.ly&lt;/a&gt; - free create infographics&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://builtvisible.com/content-strategy-helper/&#34;&gt;Content Strategy Tool&lt;/a&gt; - Find inspiration for your content marketing topics&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.google.com/publicdata/directory&#34;&gt;Google Public Data&lt;/a&gt; - content research, infographics, and more.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.seomofo.com/snippet-optimizer.html&#34;&gt;Google SERP Snippet Optimization Tool&lt;/a&gt; - see how your snippet may appear in search results.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infogr.am/&#34;&gt;infogr.am&lt;/a&gt; - create infographics and data visualizations&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www341.lunapic.com/editor/&#34;&gt;https://www341.lunapic.com/editor/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://piktochart.com/&#34;&gt;Piktochart&lt;/a&gt; - visualization generator.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://andrew.hedges.name/experiments/aspect_ratio/&#34;&gt;Aspect Ratio Calculator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;optimization&#34;&gt;Optimization&lt;/h3&gt;
@@ -1555,6 +1548,19 @@ Where I build webpages.&lt;/p&gt;
 
 &lt;p&gt;The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - &lt;a href=&#34;https://pngquant.org/&#34;&gt;pngquant&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h3 id=&#34;infographics&#34;&gt;Infographics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.canva.com/create/infographics/&#34;&gt;Canva Infographic Creator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.easel.ly/&#34;&gt;easel.ly&lt;/a&gt; - free create infographics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://builtvisible.com/content-strategy-helper/&#34;&gt;Content Strategy Tool&lt;/a&gt; - Find inspiration for your content marketing topics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.google.com/publicdata/directory&#34;&gt;Google Public Data&lt;/a&gt; - content research, infographics, and more.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.seomofo.com/snippet-optimizer.html&#34;&gt;Google SERP Snippet Optimization Tool&lt;/a&gt; - see how your snippet may appear in search results.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infogr.am/&#34;&gt;infogr.am&lt;/a&gt; - create infographics and data visualizations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www341.lunapic.com/editor/&#34;&gt;https://www341.lunapic.com/editor/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://piktochart.com/&#34;&gt;Piktochart&lt;/a&gt; - visualization generator.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;text&#34;&gt;Text&lt;/h2&gt;
 

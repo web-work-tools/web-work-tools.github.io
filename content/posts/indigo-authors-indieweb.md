@@ -25,8 +25,6 @@ I'm noticing that the repository hasn't been recently updated by it's owner, how
 ## Indigo Authors
 The bottom of every page in the theme can optionally show a short biography of the site author, including a profile picture, email link, and location.
 
-<!--more-->
-
 ## Setting up the author bio
 
 A set of configuration options are used for displaying the biography.
