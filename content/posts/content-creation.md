@@ -52,29 +52,20 @@ This thing has extensions for all your coding needs... It is cross-platform, has
 * [idleberg/Creative-Commons-Markdown](https://github.com/idleberg/Creative-Commons-Markdown) - snippets to add CC license to your work.
 
 
-## Image Converters
+## Images
+
+### Converters
 
 * https://pdf2png.com/
 * https://online2pdf.com/convert-pptx-to-pdf
 * https://convertio.co/pdf-html/
 * https://github.com/coolwanglu/pdf2htmlEX
 
-## Image Sizes
+### Sizes
 
 * [Twitter-Image Sizes](https://louisem.com/217438/twitter-image-size)
 * [Header Image Sizing Guide](https://www.lauraleeflores.com/blog/header-image-sizing-guide)
-
-
-## Images - Infographics
-
-* [Canva Infographic Creator](https://www.canva.com/create/infographics/)
-* [easel.ly](http://www.easel.ly/) - free create infographics
-* [Content Strategy Tool](https://builtvisible.com/content-strategy-helper/) - Find inspiration for your content marketing topics 
-* [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
-* [Google SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html) - see how your snippet may appear in search results. 
-* [infogr.am](https://infogr.am/) - create infographics and data visualizations
-* [https://www341.lunapic.com/editor/](https://www341.lunapic.com/editor/)
-* [Piktochart](http://piktochart.com/) - visualization generator.
+* [Aspect Ratio Calculator](https://andrew.hedges.name/experiments/aspect_ratio/)
 
 ### Optimization
 
@@ -87,6 +78,17 @@ The web *loooves* big old beautiful high quality images... However, my visitors 
 > command-line utility and a library for lossy compression of PNG images.
 >
 >The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - [pngquant](https://pngquant.org/)
+
+### Infographics
+
+* [Canva Infographic Creator](https://www.canva.com/create/infographics/)
+* [easel.ly](http://www.easel.ly/) - free create infographics
+* [Content Strategy Tool](https://builtvisible.com/content-strategy-helper/) - Find inspiration for your content marketing topics 
+* [Google Public Data](http://www.google.com/publicdata/directory) - content research, infographics, and more.
+* [Google SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html) - see how your snippet may appear in search results. 
+* [infogr.am](https://infogr.am/) - create infographics and data visualizations
+* [https://www341.lunapic.com/editor/](https://www341.lunapic.com/editor/)
+* [Piktochart](http://piktochart.com/) - visualization generator.
 
 
 ## Text 
