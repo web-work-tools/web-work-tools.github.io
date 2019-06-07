@@ -30,16 +30,35 @@ slug: /hugo-starter-kit/
 * [Configure](https://gohugo.io/getting-started/configuration/) - all the cool config.toml settings you never knew!
 * [Syntax Highlighting](https://gohugo.io/content-management/syntax-highlighting/)
 * [Page Bundles](https://gohugo.io/content-management/page-bundles/)
-* [Permalink Configuration Values](https://gohugo.io/content-management/urls/#permalink-configuration-values)
+* [Permalink Configuration Values:](https://gohugo.io/content-management/urls/#permalink-configuration-values)
 
+```
+[Permalinks]
+  # | :year        | the 4-digit year                           |
+  # | :month       | the 2-digit month                          |
+  # | :monthname   | the name of the month                      |
+  # | :day         | the 2-digit day                            |
+  # | :weekday     | the 1-digit day of the week (Sunday = 0)   |
+  # | :weekdayname | the name of the day of the week            |
+  # | :yearday     | the 1- to 3-digit day of the year          |
+  # | :section     | the content's section                      |
+  # | :sections    | the content's sections hierarchy           |
+  # | :title       | the content's title                        |
+  # | :slug        | the content's slug (or title, if no slug)  |
+  # | :filename    | the content's filename (without extension) |
+
+  # Examples
+  posts = "/:filename/"
+  # post = "/:year/:month/:title/"
+  notes = "/notes/:filename/"
+```
 
 ## Publishing Websites Via Hugo
 
 * [budparr/awesome-hugo](https://github.com/budparr/awesome-hugo/)
 * [Make A Hugo Blog from Scratch](https://zwbetz.com/make-a-hugo-blog-from-scratch/)
-* [comprehensive-hugo-tutorial-for-beginners](https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4)
 * [Hugo Asset Pipeline](https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/)
-
+* [Hosting Hugo on Netlify - Insanely Fast Deploys](https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/)
 
 ### Tutorials
 

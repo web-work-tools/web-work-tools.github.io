@@ -169,7 +169,28 @@
 <li><a href="https://gohugo.io/getting-started/configuration/">Configure</a> - all the cool config.toml settings you never knew!</li>
 <li><a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting</a></li>
 <li><a href="https://gohugo.io/content-management/page-bundles/">Page Bundles</a></li>
-<li><a href="https://gohugo.io/content-management/urls/#permalink-configuration-values">Permalink Configuration Values</a></li>
+
+<li><p><a href="https://gohugo.io/content-management/urls/#permalink-configuration-values">Permalink Configuration Values:</a></p>
+
+<pre><code>[Permalinks]
+# | :year        | the 4-digit year                           |
+# | :month       | the 2-digit month                          |
+# | :monthname   | the name of the month                      |
+# | :day         | the 2-digit day                            |
+# | :weekday     | the 1-digit day of the week (Sunday = 0)   |
+# | :weekdayname | the name of the day of the week            |
+# | :yearday     | the 1- to 3-digit day of the year          |
+# | :section     | the content's section                      |
+# | :sections    | the content's sections hierarchy           |
+# | :title       | the content's title                        |
+# | :slug        | the content's slug (or title, if no slug)  |
+# | :filename    | the content's filename (without extension) |
+
+# Examples
+posts = &quot;/:filename/&quot;
+# post = &quot;/:year/:month/:title/&quot;
+notes = &quot;/notes/:filename/&quot;
+</code></pre></li>
 </ul>
 
 <h2 id="publishing-websites-via-hugo">Publishing Websites Via Hugo</h2>
@@ -177,8 +198,8 @@
 <ul>
 <li><a href="https://github.com/budparr/awesome-hugo/">budparr/awesome-hugo</a></li>
 <li><a href="https://zwbetz.com/make-a-hugo-blog-from-scratch/">Make A Hugo Blog from Scratch</a></li>
-<li><a href="https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4">comprehensive-hugo-tutorial-for-beginners</a></li>
 <li><a href="https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/">Hugo Asset Pipeline</a></li>
+<li><a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/">Hosting Hugo on Netlify - Insanely Fast Deploys</a></li>
 </ul>
 
 <h3 id="tutorials">Tutorials</h3>

@@ -125,7 +125,28 @@
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;Configure&lt;/a&gt; - all the cool config.toml settings you never knew!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;Page Bundles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/urls/#permalink-configuration-values&#34;&gt;Permalink Configuration Values&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/content-management/urls/#permalink-configuration-values&#34;&gt;Permalink Configuration Values:&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Permalinks]
+# | :year        | the 4-digit year                           |
+# | :month       | the 2-digit month                          |
+# | :monthname   | the name of the month                      |
+# | :day         | the 2-digit day                            |
+# | :weekday     | the 1-digit day of the week (Sunday = 0)   |
+# | :weekdayname | the name of the day of the week            |
+# | :yearday     | the 1- to 3-digit day of the year          |
+# | :section     | the content&#39;s section                      |
+# | :sections    | the content&#39;s sections hierarchy           |
+# | :title       | the content&#39;s title                        |
+# | :slug        | the content&#39;s slug (or title, if no slug)  |
+# | :filename    | the content&#39;s filename (without extension) |
+
+# Examples
+posts = &amp;quot;/:filename/&amp;quot;
+# post = &amp;quot;/:year/:month/:title/&amp;quot;
+notes = &amp;quot;/notes/:filename/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;publishing-websites-via-hugo&#34;&gt;Publishing Websites Via Hugo&lt;/h2&gt;
@@ -133,8 +154,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/budparr/awesome-hugo/&#34;&gt;budparr/awesome-hugo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zwbetz.com/make-a-hugo-blog-from-scratch/&#34;&gt;Make A Hugo Blog from Scratch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4&#34;&gt;comprehensive-hugo-tutorial-for-beginners&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/&#34;&gt;Hugo Asset Pipeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/&#34;&gt;Hosting Hugo on Netlify - Insanely Fast Deploys&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
