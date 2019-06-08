@@ -35,8 +35,8 @@ paginate = 22
     GitHubUser = "infominer33"
     TwitterUser = "infominer33"
     MicroBlogUser = "infominer"
-    Country = "45 72 6f 73"
-    City = "73 74 61 74 65 6c 65 73 73"
+    Country = "49 6e 64 75 73"
+    City = "Mehtab Bagh"
 
   [params.twitter]
     card = "summary_image_large"
