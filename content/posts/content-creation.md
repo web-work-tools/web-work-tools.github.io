@@ -32,6 +32,8 @@ Where I build webpages.
 
 This thing has extensions for all your coding needs... It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wpmppqh3E9o" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+
 * [Learn Enough Text Editor to Be Dangerous](https://www.learnenough.com/text-editor-tutorial/vim) - Vim
 * [So, What's a Text Editor? ...an introduction for newbies](https://rick.cogley.info/post/text-editor-introduction/)
 

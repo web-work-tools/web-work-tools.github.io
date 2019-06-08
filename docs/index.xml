@@ -1525,6 +1525,8 @@ Where I build webpages.&lt;/p&gt;
 
 &lt;p&gt;This thing has extensions for all your coding needs&amp;hellip; It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).&lt;/p&gt;
 
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wpmppqh3E9o&#34; frameborder=&#34;0&#34; allow=&#34;encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.learnenough.com/text-editor-tutorial/vim&#34;&gt;Learn Enough Text Editor to Be Dangerous&lt;/a&gt; - Vim&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://rick.cogley.info/post/text-editor-introduction/&#34;&gt;So, What&amp;rsquo;s a Text Editor? &amp;hellip;an introduction for newbies&lt;/a&gt;&lt;/li&gt;
@@ -2517,7 +2519,7 @@ IndieAuth Specification&lt;/li&gt;
 &lt;div class=&#34;h-entry&#34;&gt;
   &lt;ul&gt;&lt;li&gt;&lt;a class=&#34;u-in-reply-to&#34; href=&#34;https://aaronparecki.com/2018/12/15/14/indieweb&#34;&gt;https://aaronparecki.com/2018/12/15/14/indieweb&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 
-  &lt;p class=&#34;e-content&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/y9FSPcmybT8&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;At the end of that video, we are directed to &lt;a href=&#34;https://aaronparecki.com/2018/06/30/11/your-first-webmention&#34;&gt;Your First Webmention&lt;/a&gt;. &lt;/p&gt;
+  &lt;p class=&#34;e-content&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/y9FSPcmybT8&#34; frameborder=&#34;0&#34; allow=&#34;encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;At the end of that video, we are directed to &lt;a href=&#34;https://aaronparecki.com/2018/06/30/11/your-first-webmention&#34;&gt;Your First Webmention&lt;/a&gt;. &lt;/p&gt;
 
   &lt;a href=&#34;https://infominer.id/web-work/indieweb-resources/&#34; class=&#34;u-url&#34;&gt;
   &lt;time class=&#34;dt-published&#34; datetime=&#34;2019-05-19&#34;&gt;May 05, 2019&lt;/time&gt;&lt;/a&gt;
