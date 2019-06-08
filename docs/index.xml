@@ -158,6 +158,17 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
 &lt;li&gt;&lt;a href=&#34;https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/&#34;&gt;Hosting Hugo on Netlify - Insanely Fast Deploys&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;using-different-versions-of-hugo&#34;&gt;Using different versions of Hugo:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/&#34;&gt;Netlify Plus Hugo .20 and beyond&lt;/a&gt;
+&amp;gt;Until yesterday, if you wanted to use a new version of Hugo on Netlify, you had two options. The first one was to wait for us to install it on our build servers and work around name collisions. Although it was not complicated, you can see by reading this blog post, it’s not very sustainable. The second option was to add the version of the Hugo binary you wanted to use to your repository. Since Hugo is a static binary, this is a very convenient solution if you want to manage it yourself.
+&amp;gt;
+&amp;gt;Starting today, if you want to use a specific new version of Hugo on Netlify, you only need to set the environment variable HUGO_VERSION with the version number you want to use. If it’s a valid release number, we’ll install it for you and use that version. You don’t have to wait for us, or manage binaries yourself. For example, if you want to use Hugo 0.20 right now, you can go to your site’s settings (Build and Deploy, Build Environment Variables section) and set HUGO_VERSION to 0.20 in your environment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository.&lt;/p&gt;
+
 &lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -866,26 +877,6 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
     </item>
     
     <item>
-      <title>Jekyll HPSTR-Theme Blog Index Demo</title>
-      <link>https://infominer.id/web-work/hpstr-theme-full-page/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://infominer.id/web-work/hpstr-theme-full-page/</guid>
-      <description>
-
-&lt;p&gt;Since I changed the theme too quickly for anyone to really see what it looked like, I&amp;rsquo;ve been saving images of how it used to look.&lt;/p&gt;
-
-&lt;p&gt;The whole point was not to just have the same theme, but to be able to try out many Hugo themes&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Though I really did like the HPSTR theme, I might switch back to the jekyll version even :)&lt;/p&gt;
-
-&lt;h2 id=&#34;webwork-tools-jekyll-hpstr-index-full-https-infominer-id-web-work-images-webwork-tools-hpstr-demo-post-index-jpg&#34;&gt;&lt;a href=&#34;https://infominer.id/web-work/images/Webwork.tools-HPSTR-DEMO-post-index.jpg&#34;&gt;Webwork.tools Jekyll HPSTR Index-Full&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/Webwork.tools-HPSTR-DEMO-Tools-Digital-Transformation.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Migrating from Jekyll HPSTR to Hugo.</title>
       <link>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
@@ -940,6 +931,17 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/obcGfNc.png&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;https://imgur.com/KZQODtU.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;using-different-versions-of-hugo&#34;&gt;Using different versions of Hugo:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/&#34;&gt;Netlify Plus Hugo .20 and beyond&lt;/a&gt;
+&amp;gt;Until yesterday, if you wanted to use a new version of Hugo on Netlify, you had two options. The first one was to wait for us to install it on our build servers and work around name collisions. Although it was not complicated, you can see by reading this blog post, it’s not very sustainable. The second option was to add the version of the Hugo binary you wanted to use to your repository. Since Hugo is a static binary, this is a very convenient solution if you want to manage it yourself.
+&amp;gt;
+&amp;gt;Starting today, if you want to use a specific new version of Hugo on Netlify, you only need to set the environment variable HUGO_VERSION with the version number you want to use. If it’s a valid release number, we’ll install it for you and use that version. You don’t have to wait for us, or manage binaries yourself. For example, if you want to use Hugo 0.20 right now, you can go to your site’s settings (Build and Deploy, Build Environment Variables section) and set HUGO_VERSION to 0.20 in your environment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository.&lt;/p&gt;
 
 &lt;h2 id=&#34;which-version-of-hugo-should-i-run&#34;&gt;Which Version of Hugo Should I Run?&lt;/h2&gt;
 
