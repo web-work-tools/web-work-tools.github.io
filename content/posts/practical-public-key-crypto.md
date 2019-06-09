@@ -40,8 +40,6 @@ I created this resource while researching the following article:
 
 ## PGP for Newbs and Beyond
 
-![](https://infominer.id/bitcoin-history/assets/img/pgp-og.png)
-
 * [How-To-PGP](https://howtopgp.jugendhackt.de/#/) 
   >With this interactiv instruction we want to explain you, how to encrypt your e-mails with PGP to protect your communication and help stopping mass surveillance.
 * [EMAIL SELF-DEFENSE](https://emailselfdefense.fsf.org/en) - "Learn GnuPG in 30 Minutes"
