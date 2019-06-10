@@ -11,18 +11,18 @@ image:
 summary: "All those extra things you'll need to know."
 ---
 
-![](https://infominer.id/web-work/images/github-pages-extended-resources.png)
+![](https://webwork.tools/images/github-pages-extended-resources.png)
 
 * Continued from [**Github Pages Starter Pack**](/github-pages-starter-pack/).
 
 ## Related Resources
 
-* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
-* [Content Creation](https://infominer.id/web-work/content-creation/)
-* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
-* [Static Site Generators](https://infominer.id/web-work/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
+* [Content Creation](https://webwork.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://webwork.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)
 
 
 ## Customizations
@@ -195,7 +195,7 @@ Not sure how much of this is useful, but I'll save for further examination.
 
 ### Indieweb
 
-<a href="https://infominer.id/web-work/indieweb-resources/" class="btn btn-success">Webwork.tools/indieweb-resources</a>
+<a href="https://webwork.tools/indieweb-resources/" class="btn btn-success">Webwork.tools/indieweb-resources</a>
 
 * [indieweb.org](https://indieweb.org)
 * [Micropub](https://indieweb.org/Micropub)

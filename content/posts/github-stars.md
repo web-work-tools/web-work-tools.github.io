@@ -12,13 +12,13 @@ slug: /github-stars/
 image:
   feature: /images/infominer-starred-repositories-head.png
   credit: See on Github
-  creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
+  creditlink: https://github.com/webwork-tools/webwork-tools.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
 
 summary: A list of my starred Github Repositories. Ill star a lot more, now that I have a convenient way to organize them, and continue refining this list as time goes on. (primarily for my own convenience)
 
 ---
 
-![](https://infominer.id/web-work/images/infominer-starred-repositories-head.png)
+![](https://webwork.tools/images/infominer-starred-repositories-head.png)
 Here's all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.
 
 I used this: 

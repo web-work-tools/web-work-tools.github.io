@@ -17,7 +17,7 @@ image:
   creditlink: https://infominer.id/repo-portfolio
 ---
 
-![](https://infominer.id/web-work/images/infominer33-github-portfolio.jpeg)
+![](https://webwork.tools/images/infominer33-github-portfolio.jpeg)
 
 I learned of this cool project from [@bmann](https://twitter.com/bmann). I've been wanting a simple way to make a page like this for a while!
 
@@ -124,7 +124,7 @@ If you want to learn more about GitHub Pages, check out:
 
 
 <figure class="full">
-	<img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-	<figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
+	<img src="https://webwork.tools/images/gh-pages-starter-pack.png" alt="">
+	<figcaption><a href="https://webwork.tools/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
 </figure>
 

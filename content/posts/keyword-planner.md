@@ -13,7 +13,7 @@ aliases:
 summary: A basic guide to signing up to AdWords Keyword Planner for the first time. Many SEO guides reference this tool, and it can be a little confusing to get started, and that's why I created this short howto.
 ---
 
-![](https://infominer.id/web-work/images/getting-started-adwords-keyword-planner.jpg)
+![](https://webwork.tools/images/getting-started-adwords-keyword-planner.jpg)
 
 **Note:** This is just a "stub", and doesn't go fully into the details of keyword research. I have written an [article on the subject](https://www.csbtechemporium.com/keyword-research-fundamentals/), and begun some study of Keyword Research and SEO, although I'm not by any means an expert. 
 
