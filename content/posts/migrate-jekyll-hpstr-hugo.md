@@ -12,13 +12,13 @@ aliases:
   - /migrate-jekyll-hpstr-hugo/
 slug: /migrate-jekyll-hpstr-hugo/
 ---
-![](https://infominer.id/web-work/images/jekyll-hpstr-hugo.png)
+![](https://webwork.tools/images/jekyll-hpstr-hugo.png)
 
 I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
 
 This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, *or* Hugo to Jekyll.
 
-I've got two branches of the same exact website except one is run by [Jekyll](https://github.com/infominer33/web-work/tree/hpstr-jekyll) and one is run by [Hugo](https://github.com/infominer33/web-work/tree/test-hugo)!!
+I've got two branches of the same exact website except one is run by [Jekyll](https://github.com/webwork-tools/webwork-tools.github.io/tree/hpstr-jekyll) and one is run by [Hugo](https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo)!!
 
 That's pretty neat, if you ask me!
 
@@ -326,7 +326,7 @@ This is the final stretch, and we should be good to go
 
 ```
 
-baseurl = "https://infominer.id/web-work"
+baseurl = "https://webwork.tools"
 languageCode = "en-gb"
 title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
 theme = "hpstr"
@@ -342,7 +342,7 @@ enableEmoji = true
 		name = "⧉ Infominer"
 		avatar = "/images/info-id.png"
 		bio = "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
-		github = "infominer33/web-work"
+		github = "webwork-tools/webwork-tools.github.io"
 	[params.image]
 	  feature = "/images/web-work-tools.png"
 
@@ -424,8 +424,8 @@ I think some of those are supurfulous but it doesn't matter if I use extra, as l
 ## Test Branches
 
 I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy it is, here on Hugo.
-* https://github.com/infominer33/web-work/tree/test-hugo
-* https://github.com/infominer33/web-work/tree/hpster-jekyll
+* https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo
+* https://github.com/webwork-tools/webwork-tools.github.io/tree/hpster-jekyll
 * [AngeloStravrow/indigo](https://github.com/AngeloStavrow/indigo)
 
 
@@ -434,7 +434,7 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 * https://sourcethemes.com/academic/docs/migrate-from-jekyll/
 * [web.archive.org - Installing Hugo - Dec, 2017](http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing)
 * [web.archive.org - Using Hugo - Dec,2017](http://web.archive.org/web/20171211175036/http://gohugo.io/getting-started/usage)
-* [Creating a Test Branch and Merging changes back to Master](https://infominer.id/web-work/posts/branches-git/)
+* [Creating a Test Branch and Merging changes back to Master](https://webwork.tools/posts/branches-git/)
 * [Goodbye Jekyll - Hello Hugo](https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/)
 
 ## Other Hugo Themes
@@ -446,9 +446,9 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 
 ## Related Posts
 
-* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
-* [Content Creation](https://infominer.id/web-work/content-creation/)
-* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
-* [Static Site Generators](https://infominer.id/web-work/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
+* [Content Creation](https://webwork.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://webwork.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)

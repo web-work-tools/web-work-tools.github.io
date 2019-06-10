@@ -17,7 +17,7 @@ summary: "There are some configuration files, layouts and templates, and all of 
 ---
 
 * [Devopedia.org](https://devopedia.org/static-site-generators)
-  ![](https://infominer.id/web-work/images/devopedia-static-site-generators.jpg)
+  ![](https://webwork.tools/images/devopedia-static-site-generators.jpg)
 
 
 Well, now i'm looking into options besides jekyll, to expand my skills, and try out some themes that aren't available for Jekyll.
@@ -94,9 +94,9 @@ you could build gem based sites locally, and keybase will automatically sync the
 
 ## Related Posts
 
-* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
-* [Content Creation](https://infominer.id/web-work/content-creation/)
-* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
-* [Static Site Generators](https://infominer.id/web-work/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
+* [Content Creation](https://webwork.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://webwork.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)

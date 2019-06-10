@@ -16,7 +16,7 @@ slug: /command-line-git-ssh/
 
 ---
 
-[![](https://infominer.id/web-work/images/command-line.png)](https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/)
+[![](https://webwork.tools/images/command-line.png)](https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/)
 
 I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.
 
@@ -31,7 +31,7 @@ I use Ubuntu Linux, so all of my info comes from that perspective. That said, mo
 * [Atlassian -Getting Git Right](https://www.atlassian.com/git)
 * [guides.github.com - Git Handbook](https://guides.github.com/introduction/git-handbook/)
 * [Introduction to Git](https://teamtreehouse.com/library/introduction-to-git) - 186-minute Development Tools Course 
-* [Create a Test Branch and Merge Back the Changes](https://infominer.id/web-work/branches-git/) >>
+* [Create a Test Branch and Merge Back the Changes](https://webwork.tools/branches-git/) >>
 
 ### Cheat Sheets
 

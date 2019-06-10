@@ -14,7 +14,7 @@ slug: /hugo-starter-kit/
 ---
 
 
-![](https://infominer.id/web-work/images/hugo-starter-kit.png)
+![](https://webwork.tools/images/hugo-starter-kit.png)
 
 * [Interview with Bjørn Erik Pedersen, Hugo lead developer](https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/)
 
@@ -93,7 +93,7 @@ Basically, if you use netlify it will build with whatever version you tell it to
 
 * [github.com/search?q=hugo+theme](https://github.com/search?q=hugo+theme)
 * [themes.gohugo.io](https://themes.gohugo.io/)
-* [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
+* [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
 
 ### Academic
 
@@ -131,8 +131,8 @@ Another documentation theme, I think a bit simpler than Academic.
 
 All this started a few months ago when I began creating an [awesome list](https://github.com/DIDecentralized) on github, then got into publishing via GitHub Pages.
 
-* [GitHub Pages Starter Pack](https://infominer.id/web-work/github-pages-starter-pack/)
-* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
-* [Static Site Generators](https://infominer.id/web-work/static-site-generators) (just a start)
-* [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
+* [GitHub Pages Starter Pack](https://webwork.tools/github-pages-starter-pack/)
+* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://webwork.tools/static-site-generators) (just a start)
+* [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)

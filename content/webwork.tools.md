@@ -9,7 +9,7 @@ share: true
 menu: "main"
 ---
 
-![](https://infominer.id/web-work/images/power-words.png)
+![](https://webwork.tools/images/power-words.png)
 
 This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
 
@@ -28,41 +28,41 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 * <a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a>
 
 
-![](https://infominer.id/web-work/images/webwork-tools.png)
+![](https://webwork.tools/images/webwork-tools.png)
 
 ## Site Index
 
-* [Practical PGP](https://infominer.id/web-work/practical-pgp/)
-* [Infominer's Starred Repositories](https://infominer.id/web-work/github-stars/)
-* [Infominer's Forked Repositories](https://infominer.id/web-work/forked-repositories/)
+* [Practical PGP](https://webwork.tools/practical-pgp/)
+* [Infominer's Starred Repositories](https://webwork.tools/github-stars/)
+* [Infominer's Forked Repositories](https://webwork.tools/forked-repositories/)
 
 ### WebPub
 
-* [GitHub Pages Starter Pack](https://infominer.id/web-work/github-pages-starter-pack/)
-* [GitHub Pages Extended Resources](https://infominer.id/web-work/github-pages-extended-resources/)
-* [Static Site Generators](https://infominer.id/web-work/static-site-generators/)
-* [Make a Github Portfolio](https://infominer.id/web-work/make-a-github-portfolio/)
-* [Open Source Publishing](https://infominer.id/web-work/open-source-publishing/)
-* [Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme](https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/)
-* [Creating a Test Branch and Merging back the Changes](https://infominer.id/web-work/branches-git/)
-* [Content Creation](https://infominer.id/web-work/content-creation/)
-* [Learn HTML CSS and Associated Markup Languages](https://infominer.id/web-work/learn-html-css/)
-* [Command Line - Git - SSH - BASH](https://infominer.id/web-work/command-line-git-ssh/)
+* [GitHub Pages Starter Pack](https://webwork.tools/github-pages-starter-pack/)
+* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://webwork.tools/static-site-generators/)
+* [Make a Github Portfolio](https://webwork.tools/make-a-github-portfolio/)
+* [Open Source Publishing](https://webwork.tools/open-source-publishing/)
+* [Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
+* [Creating a Test Branch and Merging back the Changes](https://webwork.tools/branches-git/)
+* [Content Creation](https://webwork.tools/content-creation/)
+* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
+* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)
 
 ### IndieWeb
 
 Eventually this will live along in the same site with web-work.. though I'm not sure of the specifics rn.
 
-* [IndieWeb Resources](https://infominer.id/web-work/posts/resources/)
-* [IndieWeb GitHub Repositories](https://infominer.id/web-work/posts/indieweb-github-repos/)
-* [FreeNode IRC #indieweb-dev on IIW RWoT and DID's](https://infominer.id/web-work/posts/indieweb-dev-on-did/)
-* [Indigo Authors - Indiweb Features](https://infominer.id/web-work/posts/indigo-authors-indieweb/)
+* [IndieWeb Resources](https://webwork.tools/posts/resources/)
+* [IndieWeb GitHub Repositories](https://webwork.tools/posts/indieweb-github-repos/)
+* [FreeNode IRC #indieweb-dev on IIW RWoT and DID's](https://webwork.tools/posts/indieweb-dev-on-did/)
+* [Indigo Authors - Indiweb Features](https://webwork.tools/posts/indigo-authors-indieweb/)
 
 ### SEO
 
-* [Learn-SEO](https://infominer.id/web-work/learn-seo/)
-  * [Getting Started with Adwords Keyword Planner](https://infominer.id/web-work/getting-started-adwords-keyword-planner/)
-* [100s of free SEO Tools](https://infominer.id/web-work/seo-tools/)
+* [Learn-SEO](https://webwork.tools/learn-seo/)
+  * [Getting Started with Adwords Keyword Planner](https://webwork.tools/getting-started-adwords-keyword-planner/)
+* [100s of free SEO Tools](https://webwork.tools/seo-tools/)
 
 
 ## Off-Site Resources

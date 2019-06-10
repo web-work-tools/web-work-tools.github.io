@@ -27,13 +27,13 @@ This is [indigo](https://github.com/AngeloStavrow/indigo), an Indieweb prepared 
 
 I cover most anything you'd need to get started with GitHub Pages in:
 
-* [infominer.id/web-work/github-pages-starter-pack](https://infominer.id/web-work/github-pages-starter-pack)
+* [webwork.tools/github-pages-starter-pack](https://webwork.tools/github-pages-starter-pack)
 
 
 ## Taking Back Your Content
 
 <div class="h-card">
-	<img src="https://infominer.id/web-work/images/info.png" class="u-photo" width="40">
+	<img src="https://webwork.tools/images/info.png" class="u-photo" width="40">
   <a href="https://infominer.id" class="u-url p-name">InfoMine ⧉</a>
 </div>	
 
@@ -42,7 +42,7 @@ I cover most anything you'd need to get started with GitHub Pages in:
 
   <p class="e-content"><iframe width="560" height="315" src="https://www.youtube.com/embed/y9FSPcmybT8" frameborder="0" allow="encrypted-media" allowfullscreen></iframe><br/><br/>At the end of that video, we are directed to <a href="https://aaronparecki.com/2018/06/30/11/your-first-webmention">Your First Webmention</a>. </p>
 
-  <a href="https://infominer.id/web-work/indieweb-resources/" class="u-url">
+  <a href="https://webwork.tools/indieweb-resources/" class="u-url">
   <time class="dt-published" datetime="2019-05-19">May 05, 2019</time></a>
 </div>
 
@@ -54,7 +54,7 @@ I cover most anything you'd need to get started with GitHub Pages in:
 
 <p data-notist="srushe/7D5URN">View <a href="https://noti.st/srushe/7D5URN">Playing with the Indieweb</a> on Notist.</p><script async src="https://on.notist.cloud/embed/002.js"></script>
 
-* [Indieweb Github Repositories](https://infominer.id/web-work/indieweb-github-repos/)
+* [Indieweb Github Repositories](https://webwork.tools/indieweb-github-repos/)
 * [indieweb.org](https://indieweb.org)
 * [https://brid.gy](https://brid.gy)
 * [github.com/indieweb](https://github.com/indieweb)
@@ -140,7 +140,7 @@ If you're been on this site for very long, you'll notice that I'm quite passiona
 * [tokens.indieauth.com/](https://tokens.indieauth.com/)
 * [indieauth.spec.indieweb.org/](https://indieauth.spec.indieweb.org/)
 * [https://indieweb.org/token-endpoint#Creating_a_token_endpoint](https://indieweb.org/token-endpoint#Creating_a_token_endpoint)
-* [Freenode #indieweb-dev on DIDs\Indieauth](https://infominer.id/web-work/indieweb-dev-on-did/)
+* [Freenode #indieweb-dev on DIDs\Indieauth](https://webwork.tools/indieweb-dev-on-did/)
 
 
 ### Install IndieAuth Server

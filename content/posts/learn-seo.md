@@ -15,7 +15,7 @@ summary: "The fundamental building blocks of SEO are Keyword Research, Content, 
 
 ---
 
-![](https://infominer.id/web-work/images/organic-seo-drive-traffic.jpg)
+![](https://webwork.tools/images/organic-seo-drive-traffic.jpg)
 
 SEO seems like a valuable subject to know about right?
 
@@ -298,6 +298,6 @@ https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for
 
 
 <figure class="full">
-	<img src="https://infominer.id/web-work/images/organic-seo-ctr-infographic.png" alt="">
+	<img src="https://webwork.tools/images/organic-seo-ctr-infographic.png" alt="">
 	<figcaption></figcaption>
 </figure>
