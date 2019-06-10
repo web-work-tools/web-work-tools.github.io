@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stars on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/stars/</link>
+    <link>https://web-work.tools/tags/stars/</link>
     <description>Recent content in stars on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/stars/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/stars/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Infominer&#39;s Starred GitHub Repositories</title>
-      <link>https://infominer.id/web-work/github-stars/</link>
+      <link>https://web-work.tools/github-stars/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-stars/</guid>
+      <guid>https://web-work.tools/github-stars/</guid>
       <description>A list of my starred Github Repositories. Ill star a lot more, now that I have a convenient way to organize them, and continue refining this list as time goes on. (primarily for my own convenience)</description>
     </item>
     

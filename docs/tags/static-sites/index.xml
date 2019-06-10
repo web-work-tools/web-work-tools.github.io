@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>static-sites on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/static-sites/</link>
+    <link>https://web-work.tools/tags/static-sites/</link>
     <description>Recent content in static-sites on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/static-sites/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/static-sites/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Indieweb Github Repositories</title>
-      <link>https://infominer.id/web-work/indieweb-github-repos/</link>
+      <link>https://web-work.tools/indieweb-github-repos/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-github-repos/</guid>
+      <guid>https://web-work.tools/indieweb-github-repos/</guid>
       <description>A start at exploring Indieweb Topics</description>
     </item>
     

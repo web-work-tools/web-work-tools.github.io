@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>freenode on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/freenode/</link>
+    <link>https://web-work.tools/tags/freenode/</link>
     <description>Recent content in freenode on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/freenode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/freenode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FreeNode IRC #indieweb-dev on IIW RWoT and DID&#39;s</title>
-      <link>https://infominer.id/web-work/indieweb-dev-on-did/</link>
+      <link>https://web-work.tools/indieweb-dev-on-did/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-dev-on-did/</guid>
+      <guid>https://web-work.tools/indieweb-dev-on-did/</guid>
       <description>What I&amp;rsquo;m hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.</description>
     </item>
     

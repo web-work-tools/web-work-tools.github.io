@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>organic search on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/organic-search/</link>
+    <link>https://web-work.tools/tags/organic-search/</link>
     <description>Recent content in organic search on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/organic-search/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/organic-search/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Open Source Publishing</title>
-      <link>https://infominer.id/web-work/open-source-publishing/</link>
+      <link>https://web-work.tools/open-source-publishing/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/open-source-publishing/</guid>
+      <guid>https://web-work.tools/open-source-publishing/</guid>
       <description>I&amp;rsquo;ll be regularly posting updates from analytics and Google search console, to share how it isn&amp;rsquo;t so impossible to rise through the rankings if you create useful content.</description>
     </item>
     

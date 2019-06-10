@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web-publishing on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/web-publishing/</link>
+    <link>https://web-work.tools/tags/web-publishing/</link>
     <description>Recent content in web-publishing on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Mon, 25 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/web-publishing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/web-publishing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitHub Pages-Starter Pack</title>
-      <link>https://infominer.id/web-work/github-pages-starter-pack/</link>
+      <link>https://web-work.tools/github-pages-starter-pack/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-pages-starter-pack/</guid>
+      <guid>https://web-work.tools/github-pages-starter-pack/</guid>
       <description>Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go). Each feature you want to enable requires a little more learning, and  GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer.</description>
     </item>
     
     <item>
       <title>GitHub Pages-Extended Resources</title>
-      <link>https://infominer.id/web-work/github-pages-extended-resources/</link>
+      <link>https://web-work.tools/github-pages-extended-resources/</link>
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-pages-extended-resources/</guid>
+      <guid>https://web-work.tools/github-pages-extended-resources/</guid>
       <description>All those extra things you&amp;rsquo;ll need to know.</description>
     </item>
     

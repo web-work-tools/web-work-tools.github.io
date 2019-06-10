@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jekyll on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/jekyll/</link>
+    <link>https://web-work.tools/tags/jekyll/</link>
     <description>Recent content in jekyll on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Migrating from Jekyll HPSTR to Hugo.</title>
-      <link>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</link>
+      <link>https://web-work.tools/migrate-jekyll-hpstr-hugo/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</guid>
+      <guid>https://web-work.tools/migrate-jekyll-hpstr-hugo/</guid>
       <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone. This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
     </item>
     
     <item>
       <title>Creating a Test Branch and Merging back the Changes</title>
-      <link>https://infominer.id/web-work/branches-git/</link>
+      <link>https://web-work.tools/branches-git/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/branches-git/</guid>
+      <guid>https://web-work.tools/branches-git/</guid>
       <description>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running. Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to create a local branch for testing.</description>
     </item>
     
     <item>
       <title>Indieweb Github Repositories</title>
-      <link>https://infominer.id/web-work/indieweb-github-repos/</link>
+      <link>https://web-work.tools/indieweb-github-repos/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-github-repos/</guid>
+      <guid>https://web-work.tools/indieweb-github-repos/</guid>
       <description>A start at exploring Indieweb Topics</description>
     </item>
     
     <item>
       <title>GitHub Pages-Starter Pack</title>
-      <link>https://infominer.id/web-work/github-pages-starter-pack/</link>
+      <link>https://web-work.tools/github-pages-starter-pack/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-pages-starter-pack/</guid>
+      <guid>https://web-work.tools/github-pages-starter-pack/</guid>
       <description>Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go). Each feature you want to enable requires a little more learning, and  GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer.</description>
     </item>
     
     <item>
       <title>GitHub Pages-Extended Resources</title>
-      <link>https://infominer.id/web-work/github-pages-extended-resources/</link>
+      <link>https://web-work.tools/github-pages-extended-resources/</link>
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-pages-extended-resources/</guid>
+      <guid>https://web-work.tools/github-pages-extended-resources/</guid>
       <description>All those extra things you&amp;rsquo;ll need to know.</description>
     </item>
     

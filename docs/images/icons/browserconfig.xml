@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://infominer.id/web-work/images/icons/mstile-150x150.png"/>
+            <square150x150logo src="https://webwork.tools/images/icons/mstile-150x150.png"/>
             <TileColor>#ffe082</TileColor>
         </tile>
     </msapplication>

@@ -2,203 +2,203 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Webwork.tools</title>
-    <link>https://infominer.id/web-work/posts/</link>
+    <link>https://web-work.tools/posts/</link>
     <description>Recent content in Posts on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Starter Kit</title>
-      <link>https://infominer.id/web-work/hugo-starter-kit/</link>
+      <link>https://web-work.tools/hugo-starter-kit/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/hugo-starter-kit/</guid>
+      <guid>https://web-work.tools/hugo-starter-kit/</guid>
       <description>I&amp;rsquo;ve begun organizing resources around using the Hugo Static Site Generator. Official Resources, Tutorials, Themes, Sortcodes and More!</description>
     </item>
     
     <item>
       <title>Resources for the Command Line, Git, SSH, and BASH.</title>
-      <link>https://infominer.id/web-work/command-line-git-ssh/</link>
+      <link>https://web-work.tools/command-line-git-ssh/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/command-line-git-ssh/</guid>
+      <guid>https://web-work.tools/command-line-git-ssh/</guid>
       <description>I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.</description>
     </item>
     
     <item>
       <title>The Markup languages that get transformed into a website.</title>
-      <link>https://infominer.id/web-work/learn-html-css/</link>
+      <link>https://web-work.tools/learn-html-css/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/learn-html-css/</guid>
+      <guid>https://web-work.tools/learn-html-css/</guid>
       <description>Trying to keep track of the various languages that our SSGs transform into proper HTML.</description>
     </item>
     
     <item>
       <title>FreeNode IRC #indieweb-dev on IIW RWoT and DID&#39;s</title>
-      <link>https://infominer.id/web-work/indieweb-dev-on-did/</link>
+      <link>https://web-work.tools/indieweb-dev-on-did/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-dev-on-did/</guid>
+      <guid>https://web-work.tools/indieweb-dev-on-did/</guid>
       <description>What I&amp;rsquo;m hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.</description>
     </item>
     
     <item>
       <title>Indigo Authors - Indiweb Features</title>
-      <link>https://infominer.id/web-work/indigo-authors-indieweb/</link>
+      <link>https://web-work.tools/indigo-authors-indieweb/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indigo-authors-indieweb/</guid>
+      <guid>https://web-work.tools/indigo-authors-indieweb/</guid>
       <description>The following classes are used to mark up the author bio for Indieweb parsing: h-card, u-photo, p-name, u-url, rel=me, p-locality, p-country-name, u-email, p-note. I&amp;rsquo;ll be exploring these classes more thoroughly, soon.</description>
     </item>
     
     <item>
       <title>Migrating from Jekyll HPSTR to Hugo.</title>
-      <link>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</link>
+      <link>https://web-work.tools/migrate-jekyll-hpstr-hugo/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</guid>
+      <guid>https://web-work.tools/migrate-jekyll-hpstr-hugo/</guid>
       <description>I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone. This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.</description>
     </item>
     
     <item>
       <title>Creating a Test Branch and Merging back the Changes</title>
-      <link>https://infominer.id/web-work/branches-git/</link>
+      <link>https://web-work.tools/branches-git/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/branches-git/</guid>
+      <guid>https://web-work.tools/branches-git/</guid>
       <description>I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running. Use the command &lt;code&gt;git checkout -b&lt;/code&gt; will allow you to create a local branch for testing.</description>
     </item>
     
     <item>
       <title>Infominer&#39;s Forked Repositores</title>
-      <link>https://infominer.id/web-work/forked-repositories/</link>
+      <link>https://web-work.tools/forked-repositories/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/forked-repositories/</guid>
+      <guid>https://web-work.tools/forked-repositories/</guid>
       <description>Takin&amp;rsquo; names and Kickin&amp;rsquo; Ass!</description>
     </item>
     
     <item>
       <title>Resources for Content Creation</title>
-      <link>https://infominer.id/web-work/content-creation/</link>
+      <link>https://web-work.tools/content-creation/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/content-creation/</guid>
+      <guid>https://web-work.tools/content-creation/</guid>
       <description>Here&amp;rsquo;s some tools to make content creation a little easier. As per usual, this list will grow and become more organized over time.</description>
     </item>
     
     <item>
       <title>Infominer&#39;s GitHub Portfolio and HowTo</title>
-      <link>https://infominer.id/web-work/make-a-github-portfolio/</link>
+      <link>https://web-work.tools/make-a-github-portfolio/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/make-a-github-portfolio/</guid>
+      <guid>https://web-work.tools/make-a-github-portfolio/</guid>
       <description>Now there is a simple way to create a GitHub style portfolio for your github repositories!</description>
     </item>
     
     <item>
       <title>Infominer&#39;s Starred GitHub Repositories</title>
-      <link>https://infominer.id/web-work/github-stars/</link>
+      <link>https://web-work.tools/github-stars/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-stars/</guid>
+      <guid>https://web-work.tools/github-stars/</guid>
       <description>A list of my starred Github Repositories. Ill star a lot more, now that I have a convenient way to organize them, and continue refining this list as time goes on. (primarily for my own convenience)</description>
     </item>
     
     <item>
       <title>Sign Up and Get Started using Google Adwords Keyword Planner</title>
-      <link>https://infominer.id/web-work/keyword-planner/</link>
+      <link>https://web-work.tools/keyword-planner/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/keyword-planner/</guid>
+      <guid>https://web-work.tools/keyword-planner/</guid>
       <description>A basic guide to signing up to AdWords Keyword Planner for the first time. Many SEO guides reference this tool, and it can be a little confusing to get started, and that&amp;rsquo;s why I created this short howto.</description>
     </item>
     
     <item>
       <title>Static Site Generators</title>
-      <link>https://infominer.id/web-work/static-site-generators/</link>
+      <link>https://web-work.tools/static-site-generators/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/static-site-generators/</guid>
+      <guid>https://web-work.tools/static-site-generators/</guid>
       <description>There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.</description>
     </item>
     
     <item>
       <title>Open Source Publishing</title>
-      <link>https://infominer.id/web-work/open-source-publishing/</link>
+      <link>https://web-work.tools/open-source-publishing/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/open-source-publishing/</guid>
+      <guid>https://web-work.tools/open-source-publishing/</guid>
       <description>I&amp;rsquo;ll be regularly posting updates from analytics and Google search console, to share how it isn&amp;rsquo;t so impossible to rise through the rankings if you create useful content.</description>
     </item>
     
     <item>
       <title>Indieweb Github Repositories</title>
-      <link>https://infominer.id/web-work/indieweb-github-repos/</link>
+      <link>https://web-work.tools/indieweb-github-repos/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-github-repos/</guid>
+      <guid>https://web-work.tools/indieweb-github-repos/</guid>
       <description>A start at exploring Indieweb Topics</description>
     </item>
     
     <item>
       <title>Indieweb Resources</title>
-      <link>https://infominer.id/web-work/indieweb-resources/</link>
+      <link>https://web-work.tools/indieweb-resources/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-resources/</guid>
+      <guid>https://web-work.tools/indieweb-resources/</guid>
       <description>When you post something on the web, it should belong to you, not a corporation. Too many companies have gone out of business and lost all of their users’ data. By joining the IndieWeb, your content stays yours and in your control.</description>
     </item>
     
     <item>
       <title>Using PGP and Cryptocurrency Keysignatures</title>
-      <link>https://infominer.id/web-work/practical-public-key-crypto/</link>
+      <link>https://web-work.tools/practical-public-key-crypto/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/practical-public-key-crypto/</guid>
+      <guid>https://web-work.tools/practical-public-key-crypto/</guid>
       <description>It&amp;rsquo;s personal. It&amp;rsquo;s private. And it&amp;rsquo;s no one&amp;rsquo;s business but yours. You may be planning a political campaign, discussing your taxes, or having a secret romance. Or you may be communicating with a political dissident in a repressive country.
  Whatever it is, you don&amp;rsquo;t want your private electronic mail (email) or confidential documents read by anyone else. There&amp;rsquo;s nothing wrong with asserting your privacy. Privacy is as apple-pie as the Constitution.</description>
     </item>
     
     <item>
       <title>100&#39;s of Mostly Free SEO Tools</title>
-      <link>https://infominer.id/web-work/seo-tools/</link>
+      <link>https://web-work.tools/seo-tools/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/seo-tools/</guid>
+      <guid>https://web-work.tools/seo-tools/</guid>
       <description>All your SEO tools are belong to us! No, really! From the official tools of Google and co, limited trial power tools, analytics, link building, content creation and much more! All organized by category.</description>
     </item>
     
     <item>
       <title>GitHub Pages-Starter Pack</title>
-      <link>https://infominer.id/web-work/github-pages-starter-pack/</link>
+      <link>https://web-work.tools/github-pages-starter-pack/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-pages-starter-pack/</guid>
+      <guid>https://web-work.tools/github-pages-starter-pack/</guid>
       <description>Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go). Each feature you want to enable requires a little more learning, and  GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer.</description>
     </item>
     
     <item>
       <title>GitHub Pages-Extended Resources</title>
-      <link>https://infominer.id/web-work/github-pages-extended-resources/</link>
+      <link>https://web-work.tools/github-pages-extended-resources/</link>
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-pages-extended-resources/</guid>
+      <guid>https://web-work.tools/github-pages-extended-resources/</guid>
       <description>All those extra things you&amp;rsquo;ll need to know.</description>
     </item>
     
     <item>
       <title>Learn SEO</title>
-      <link>https://infominer.id/web-work/learn-seo/</link>
+      <link>https://web-work.tools/learn-seo/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/learn-seo/</guid>
+      <guid>https://web-work.tools/learn-seo/</guid>
       <description>The fundamental building blocks of SEO are Keyword Research, Content, Internal linking, Site Structure, and a Multitude of Technical Optimizations.
 Most of those optimizations revolve around gradually making every individual piece of code on your site more machine readable, to communicate with a variety of connecting sites/services and make it stand out from the crowd.</description>
     </item>

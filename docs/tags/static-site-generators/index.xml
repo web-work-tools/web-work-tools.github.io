@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>static site generators on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/static-site-generators/</link>
+    <link>https://web-work.tools/tags/static-site-generators/</link>
     <description>Recent content in static site generators on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/static-site-generators/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/static-site-generators/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Starter Kit</title>
-      <link>https://infominer.id/web-work/hugo-starter-kit/</link>
+      <link>https://web-work.tools/hugo-starter-kit/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/hugo-starter-kit/</guid>
+      <guid>https://web-work.tools/hugo-starter-kit/</guid>
       <description>I&amp;rsquo;ve begun organizing resources around using the Hugo Static Site Generator. Official Resources, Tutorials, Themes, Sortcodes and More!</description>
     </item>
     
     <item>
       <title>Static Site Generators</title>
-      <link>https://infominer.id/web-work/static-site-generators/</link>
+      <link>https://web-work.tools/static-site-generators/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/static-site-generators/</guid>
+      <guid>https://web-work.tools/static-site-generators/</guid>
       <description>There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.</description>
     </item>
     
