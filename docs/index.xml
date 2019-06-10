@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webwork.tools</title>
-    <link>https://infominer.id/web-work/</link>
+    <link>https://web-work.tools/</link>
     <description>Recent content on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://infominer.id/web-work/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://web-work.tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>⧉Info⧉</title>
-      <link>https://infominer.id/web-work/about/</link>
+      <link>https://web-work.tools/about/</link>
       <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/about/</guid>
+      <guid>https://web-work.tools/about/</guid>
       <description>
 
 &lt;p&gt;Right now using the Indigo Hugo theme, that supports indieweb features.&lt;/p&gt;
@@ -97,13 +97,13 @@
     
     <item>
       <title>Hugo Starter Kit</title>
-      <link>https://infominer.id/web-work/hugo-starter-kit/</link>
+      <link>https://web-work.tools/hugo-starter-kit/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/hugo-starter-kit/</guid>
+      <guid>https://web-work.tools/hugo-starter-kit/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/hugo-starter-kit.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/hugo-starter-kit.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/&#34;&gt;Interview with Bjørn Erik Pedersen, Hugo lead developer&lt;/a&gt;&lt;/li&gt;
@@ -199,7 +199,7 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/search?q=hugo+theme&#34;&gt;github.com/search?q=hugo+theme&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;themes.gohugo.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;academic&#34;&gt;Academic&lt;/h3&gt;
@@ -244,24 +244,24 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
 &lt;p&gt;All this started a few months ago when I began creating an &lt;a href=&#34;https://github.com/DIDecentralized&#34;&gt;awesome list&lt;/a&gt; on github, then got into publishing via GitHub Pages.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators&#34;&gt;Static Site Generators&lt;/a&gt; (just a start)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators&#34;&gt;Static Site Generators&lt;/a&gt; (just a start)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Resources for the Command Line, Git, SSH, and BASH.</title>
-      <link>https://infominer.id/web-work/command-line-git-ssh/</link>
+      <link>https://web-work.tools/command-line-git-ssh/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/command-line-git-ssh/</guid>
+      <guid>https://web-work.tools/command-line-git-ssh/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/command-line.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/&#34;&gt;&lt;img src=&#34;https://webwork.tools/images/command-line.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.&lt;/p&gt;
 
@@ -279,7 +279,7 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
 &lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git&#34;&gt;Atlassian -Getting Git Right&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://guides.github.com/introduction/git-handbook/&#34;&gt;guides.github.com - Git Handbook&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://teamtreehouse.com/library/introduction-to-git&#34;&gt;Introduction to Git&lt;/a&gt; - 186-minute Development Tools Course&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/branches-git/&#34;&gt;Create a Test Branch and Merge Back the Changes&lt;/a&gt; &amp;gt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/branches-git/&#34;&gt;Create a Test Branch and Merge Back the Changes&lt;/a&gt; &amp;gt;&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;cheat-sheets&#34;&gt;Cheat Sheets&lt;/h3&gt;
@@ -343,13 +343,13 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
     
     <item>
       <title>The Markup languages that get transformed into a website.</title>
-      <link>https://infominer.id/web-work/learn-html-css/</link>
+      <link>https://web-work.tools/learn-html-css/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/learn-html-css/</guid>
+      <guid>https://web-work.tools/learn-html-css/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/HTML5-related-tech-Sergey-Mavrody.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/HTML5-related-tech-Sergey-Mavrody.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript&#34;&gt;The_web_standards&lt;em&gt;model&lt;/em&gt;-_HTML_CSS_and_JavaScript&lt;/a&gt;&lt;/li&gt;
@@ -430,22 +430,22 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>FreeNode IRC #indieweb-dev on IIW RWoT and DID&#39;s</title>
-      <link>https://infominer.id/web-work/indieweb-dev-on-did/</link>
+      <link>https://web-work.tools/indieweb-dev-on-did/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-dev-on-did/</guid>
+      <guid>https://web-work.tools/indieweb-dev-on-did/</guid>
       <description>
 
 &lt;p&gt;What I&amp;rsquo;m hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.&lt;/p&gt;
@@ -773,10 +773,10 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
     
     <item>
       <title>Indigo Authors - Indiweb Features</title>
-      <link>https://infominer.id/web-work/indigo-authors-indieweb/</link>
+      <link>https://web-work.tools/indigo-authors-indieweb/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indigo-authors-indieweb/</guid>
+      <guid>https://web-work.tools/indigo-authors-indieweb/</guid>
       <description>
 
 &lt;h2 id=&#34;notes-from-the-editor&#34;&gt;Notes from the Editor&lt;/h2&gt;
@@ -878,19 +878,19 @@ notes = &amp;quot;/notes/:filename/&amp;quot;
     
     <item>
       <title>Migrating from Jekyll HPSTR to Hugo.</title>
-      <link>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</link>
+      <link>https://web-work.tools/migrate-jekyll-hpstr-hugo/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</guid>
+      <guid>https://web-work.tools/migrate-jekyll-hpstr-hugo/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/jekyll-hpstr-hugo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/jekyll-hpstr-hugo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.&lt;/p&gt;
 
 &lt;p&gt;This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve got two branches of the same exact website except one is run by &lt;a href=&#34;https://github.com/infominer33/web-work/tree/hpstr-jekyll&#34;&gt;Jekyll&lt;/a&gt; and one is run by &lt;a href=&#34;https://github.com/infominer33/web-work/tree/test-hugo&#34;&gt;Hugo&lt;/a&gt;!!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve got two branches of the same exact website except one is run by &lt;a href=&#34;https://github.com/webwork-tools/webwork-tools.github.io/tree/hpstr-jekyll&#34;&gt;Jekyll&lt;/a&gt; and one is run by &lt;a href=&#34;https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo&#34;&gt;Hugo&lt;/a&gt;!!&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s pretty neat, if you ask me!&lt;/p&gt;
 
@@ -1203,7 +1203,7 @@ image:
 &lt;p&gt;This is the final stretch, and we should be good to go&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-baseurl = &amp;quot;https://infominer.id/web-work&amp;quot;
+baseurl = &amp;quot;https://webwork.tools&amp;quot;
 languageCode = &amp;quot;en-gb&amp;quot;
 title = &amp;quot;Webwork.tools: Independent Web-Work and Skyscraper Publishing.&amp;quot;
 theme = &amp;quot;hpstr&amp;quot;
@@ -1219,7 +1219,7 @@ enableEmoji = true
 		name = &amp;quot;⧉ Infominer&amp;quot;
 		avatar = &amp;quot;/images/info-id.png&amp;quot;
 		bio = &amp;quot;Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉&amp;quot;
-		github = &amp;quot;infominer33/web-work&amp;quot;
+		github = &amp;quot;webwork-tools/webwork-tools.github.io&amp;quot;
 	[params.image]
 	  feature = &amp;quot;/images/web-work-tools.png&amp;quot;
 
@@ -1304,8 +1304,8 @@ enableEmoji = true
 &lt;h2 id=&#34;test-branches&#34;&gt;Test Branches&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;ve switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy it is, here on Hugo.
-* &lt;a href=&#34;https://github.com/infominer33/web-work/tree/test-hugo&#34;&gt;https://github.com/infominer33/web-work/tree/test-hugo&lt;/a&gt;
-* &lt;a href=&#34;https://github.com/infominer33/web-work/tree/hpster-jekyll&#34;&gt;https://github.com/infominer33/web-work/tree/hpster-jekyll&lt;/a&gt;
+* &lt;a href=&#34;https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo&#34;&gt;https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo&lt;/a&gt;
+* &lt;a href=&#34;https://github.com/webwork-tools/webwork-tools.github.io/tree/hpster-jekyll&#34;&gt;https://github.com/webwork-tools/webwork-tools.github.io/tree/hpster-jekyll&lt;/a&gt;
 * &lt;a href=&#34;https://github.com/AngeloStavrow/indigo&#34;&gt;AngeloStravrow/indigo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
@@ -1314,7 +1314,7 @@ enableEmoji = true
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/migrate-from-jekyll/&#34;&gt;https://sourcethemes.com/academic/docs/migrate-from-jekyll/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing&#34;&gt;web.archive.org - Installing Hugo - Dec, 2017&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20171211175036/http://gohugo.io/getting-started/usage&#34;&gt;web.archive.org - Using Hugo - Dec,2017&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/branches-git/&#34;&gt;Creating a Test Branch and Merging changes back to Master&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/posts/branches-git/&#34;&gt;Creating a Test Branch and Merging changes back to Master&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/&#34;&gt;Goodbye Jekyll - Hello Hugo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1333,25 +1333,25 @@ enableEmoji = true
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Creating a Test Branch and Merging back the Changes</title>
-      <link>https://infominer.id/web-work/branches-git/</link>
+      <link>https://web-work.tools/branches-git/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/branches-git/</guid>
+      <guid>https://web-work.tools/branches-git/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/Git_branches_fork.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&#34;&gt;&lt;img src=&#34;https://webwork.tools/images/Git_branches_fork.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.&lt;/p&gt;
 
@@ -1400,7 +1400,7 @@ enableEmoji = true
 &lt;p&gt;&lt;code&gt;git checkout -b&lt;/code&gt; is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/#git&#34;&gt;More Git Resources&lt;/a&gt; &amp;gt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-starter-pack/#git&#34;&gt;More Git Resources&lt;/a&gt; &amp;gt;&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;merging-changes-back-to-the-master-branch-https-stackoverflow-com-questions-5601931-what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master&#34;&gt;&lt;a href=&#34;https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master&#34;&gt;Merging changes back to the master branch&lt;/a&gt;&lt;/h2&gt;
@@ -1415,17 +1415,17 @@ git push origin master
     
     <item>
       <title>Infominer&#39;s Forked Repositores</title>
-      <link>https://infominer.id/web-work/forked-repositories/</link>
+      <link>https://web-work.tools/forked-repositories/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/forked-repositories/</guid>
+      <guid>https://web-work.tools/forked-repositories/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer-forked-repositories.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/infominer-forked-repositories.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
 
-&lt;p&gt;Now that I have both forked &lt;a href=&#34;https://infominer.id/web-work/infominer33-starred-repos/&#34;&gt;and starred&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now that I have both forked &lt;a href=&#34;https://webwork.tools/infominer33-starred-repos/&#34;&gt;and starred&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;webpub&#34;&gt;WebPub&lt;/h2&gt;
 
@@ -1502,10 +1502,10 @@ git push origin master
     
     <item>
       <title>Resources for Content Creation</title>
-      <link>https://infominer.id/web-work/content-creation/</link>
+      <link>https://web-work.tools/content-creation/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/content-creation/</guid>
+      <guid>https://web-work.tools/content-creation/</guid>
       <description>
 
 &lt;p&gt;Here&amp;rsquo;s some tools to make content creation a little easier.&lt;/p&gt;
@@ -1521,7 +1521,7 @@ git push origin master
 
 &lt;h2 id=&#34;editors&#34;&gt;Editors&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/content-creation.png&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/content-creation.png&#34; alt=&#34;&#34; /&gt;
 * &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;
 Where I build webpages.&lt;/p&gt;
 
@@ -1678,25 +1678,25 @@ combines feeds &amp;ldquo;into content and other magical creations&amp;rdquo;.&l
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Infominer&#39;s GitHub Portfolio and HowTo</title>
-      <link>https://infominer.id/web-work/make-a-github-portfolio/</link>
+      <link>https://web-work.tools/make-a-github-portfolio/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/make-a-github-portfolio/</guid>
+      <guid>https://web-work.tools/make-a-github-portfolio/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer33-github-portfolio.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/infominer33-github-portfolio.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I learned of this cool project from &lt;a href=&#34;https://twitter.com/bmann&#34;&gt;@bmann&lt;/a&gt;. I&amp;rsquo;ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
 
@@ -1799,21 +1799,21 @@ topics:
 &lt;p&gt;If you want to learn more about GitHub Pages, check out:&lt;/p&gt;
 
 &lt;figure class=&#34;full&#34;&gt;
-    &lt;img src=&#34;https://infominer.id/web-work/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34;&gt;
-    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
+    &lt;img src=&#34;https://webwork.tools/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;a href=&#34;https://webwork.tools/github-pages-starter-pack/&#34;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 </description>
     </item>
     
     <item>
       <title>Infominer&#39;s Starred GitHub Repositories</title>
-      <link>https://infominer.id/web-work/github-stars/</link>
+      <link>https://web-work.tools/github-stars/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-stars/</guid>
+      <guid>https://web-work.tools/github-stars/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infominer-starred-repositories-head.png&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/infominer-starred-repositories-head.png&#34; alt=&#34;&#34; /&gt;
 Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
 
 &lt;p&gt;I used this:&lt;/p&gt;
@@ -1919,10 +1919,10 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Services</title>
-      <link>https://infominer.id/web-work/services/</link>
+      <link>https://web-work.tools/services/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/services/</guid>
+      <guid>https://web-work.tools/services/</guid>
       <description>
 
 &lt;h2 id=&#34;information-logistics&#34;&gt;Information Logistics&lt;/h2&gt;
@@ -1945,7 +1945,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 
 &lt;p&gt;I enjoy writing high-level overviews of blockchain platforms that can serve as an introduction to developers.&lt;/p&gt;
 
-&lt;p&gt;Recently I made my first attempt at creating &lt;a href=&#34;https://infominer.id/web-work/LearnSEO/#internal-linking-cornerstone-content&#34;&gt;Cornerstone Content&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Recently I made my first attempt at creating &lt;a href=&#34;https://webwork.tools/LearnSEO/#internal-linking-cornerstone-content&#34;&gt;Cornerstone Content&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.csbtechemporium.com/mobile-first-web-development/&#34;&gt;A Mobile-First Web Development Agency&lt;/a&gt;
@@ -1994,13 +1994,13 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Sign Up and Get Started using Google Adwords Keyword Planner</title>
-      <link>https://infominer.id/web-work/keyword-planner/</link>
+      <link>https://web-work.tools/keyword-planner/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/keyword-planner/</guid>
+      <guid>https://web-work.tools/keyword-planner/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/getting-started-adwords-keyword-planner.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/getting-started-adwords-keyword-planner.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This is just a &amp;ldquo;stub&amp;rdquo;, and doesn&amp;rsquo;t go fully into the details of keyword research. I have written an &lt;a href=&#34;https://www.csbtechemporium.com/keyword-research-fundamentals/&#34;&gt;article on the subject&lt;/a&gt;, and begun some study of Keyword Research and SEO, although I&amp;rsquo;m not by any means an expert.&lt;/p&gt;
 
@@ -2080,15 +2080,15 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Static Site Generators</title>
-      <link>https://infominer.id/web-work/static-site-generators/</link>
+      <link>https://web-work.tools/static-site-generators/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/static-site-generators/</guid>
+      <guid>https://web-work.tools/static-site-generators/</guid>
       <description>
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://devopedia.org/static-site-generators&#34;&gt;Devopedia.org&lt;/a&gt;
-&lt;img src=&#34;https://infominer.id/web-work/images/devopedia-static-site-generators.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://webwork.tools/images/devopedia-static-site-generators.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Well, now i&amp;rsquo;m looking into options besides jekyll, to expand my skills, and try out some themes that aren&amp;rsquo;t available for Jekyll.&lt;/p&gt;
@@ -2119,7 +2119,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;p&gt;These links have moved to their own page:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/hugo-starter-kit/&#34;&gt;Hugo Starter Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web-work.tools/hugo-starter-kit/&#34;&gt;Hugo Starter Kit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;mkdocs&#34;&gt;MkDocs&lt;/h2&gt;
@@ -2178,25 +2178,25 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Webwork.tools</title>
-      <link>https://infominer.id/web-work/webwork.tools/</link>
+      <link>https://web-work.tools/webwork.tools/</link>
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/webwork.tools/</guid>
+      <guid>https://web-work.tools/webwork.tools/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/power-words.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/power-words.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.&lt;/p&gt;
 
@@ -2216,29 +2216,29 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;li&gt;&lt;a href=&#34;https://www.csbtechemporium.com/digital-age-small-business/&#34; target=&#34;_blank&#34;&gt;Small Business in the Digital Age.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;site-index&#34;&gt;Site Index&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/practical-pgp/&#34;&gt;Practical PGP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-stars/&#34;&gt;Infominer&amp;rsquo;s Starred Repositories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/forked-repositories/&#34;&gt;Infominer&amp;rsquo;s Forked Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/practical-pgp/&#34;&gt;Practical PGP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-stars/&#34;&gt;Infominer&amp;rsquo;s Starred Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/forked-repositories/&#34;&gt;Infominer&amp;rsquo;s Forked Repositories&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;webpub&#34;&gt;WebPub&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/make-a-github-portfolio/&#34;&gt;Make a Github Portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/open-source-publishing/&#34;&gt;Open Source Publishing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/branches-git/&#34;&gt;Creating a Test Branch and Merging back the Changes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-starter-pack/&#34;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/make-a-github-portfolio/&#34;&gt;Make a Github Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/open-source-publishing/&#34;&gt;Open Source Publishing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/branches-git/&#34;&gt;Creating a Test Branch and Merging back the Changes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;indieweb&#34;&gt;IndieWeb&lt;/h3&gt;
@@ -2246,21 +2246,21 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;p&gt;Eventually this will live along in the same site with web-work.. though I&amp;rsquo;m not sure of the specifics rn.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/resources/&#34;&gt;IndieWeb Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indieweb-github-repos/&#34;&gt;IndieWeb GitHub Repositories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indieweb-dev-on-did/&#34;&gt;FreeNode IRC #indieweb-dev on IIW RWoT and DID&amp;rsquo;s&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/posts/indigo-authors-indieweb/&#34;&gt;Indigo Authors - Indiweb Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/posts/resources/&#34;&gt;IndieWeb Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/posts/indieweb-github-repos/&#34;&gt;IndieWeb GitHub Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/posts/indieweb-dev-on-did/&#34;&gt;FreeNode IRC #indieweb-dev on IIW RWoT and DID&amp;rsquo;s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/posts/indigo-authors-indieweb/&#34;&gt;Indigo Authors - Indiweb Features&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;seo&#34;&gt;SEO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-seo/&#34;&gt;Learn-SEO&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/learn-seo/&#34;&gt;Learn-SEO&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/getting-started-adwords-keyword-planner/&#34;&gt;Getting Started with Adwords Keyword Planner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/getting-started-adwords-keyword-planner/&#34;&gt;Getting Started with Adwords Keyword Planner&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/seo-tools/&#34;&gt;100s of free SEO Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/seo-tools/&#34;&gt;100s of free SEO Tools&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;off-site-resources&#34;&gt;Off-Site Resources&lt;/h2&gt;
@@ -2303,15 +2303,15 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     
     <item>
       <title>Open Source Publishing</title>
-      <link>https://infominer.id/web-work/open-source-publishing/</link>
+      <link>https://web-work.tools/open-source-publishing/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/open-source-publishing/</guid>
+      <guid>https://web-work.tools/open-source-publishing/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infolytics/infominer-id-all-pages-20190417-20190524.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/infolytics/infominer-id-all-pages-20190417-20190524.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;div class=&#34;pull-left&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/infolytics/record-monthly.png&#34;/&gt;&lt;/div&gt;
+&lt;div class=&#34;pull-left&#34;&gt;&lt;img src=&#34;https://webwork.tools/images/infolytics/record-monthly.png&#34;/&gt;&lt;/div&gt;
 
 &lt;p&gt;Shows what can be done in a short period of time.  I didn&amp;rsquo;t start building any of this till the beginning of this year.&lt;/p&gt;
 
@@ -2329,7 +2329,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 
 &lt;h2 id=&#34;generating-pages-from-data-using-liquid&#34;&gt;Generating Pages from Data using Liquid&lt;/h2&gt;
 
-&lt;p&gt;I put &lt;a href=&#34;https://infominer.id/web-work/images/infolytics/performance1.csv&#34;&gt;performance1.csv&lt;/a&gt; and &lt;a href=&#34;https://infominer.id/web-work/images/infolytics/performance1.csv&#34;&gt;performance2.csv&lt;/a&gt; into the /images directory (you can &lt;a href=&#34;https://github.com/infominer33/web-work/tree/master/images/infolytics&#34;&gt;check out on github&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;I put &lt;a href=&#34;https://webwork.tools/images/infolytics/performance1.csv&#34;&gt;performance1.csv&lt;/a&gt; and &lt;a href=&#34;https://webwork.tools/images/infolytics/performance1.csv&#34;&gt;performance2.csv&lt;/a&gt; into the /images directory (you can &lt;a href=&#34;https://github.com/webwork-tools/webwork-tools.github.io/tree/master/images/infolytics&#34;&gt;check out on github&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;From there, jekyll throws it all up into &lt;code&gt;site.data.performance1&lt;/code&gt; and &lt;code&gt;site.data.performance2&lt;/code&gt; so I can call it with a bit of code and generate pages with it.&lt;/p&gt;
 
@@ -2340,7 +2340,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/jMtd9WR.png&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;from: &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;em&gt;GitHub Pages Starter Pack - Extended Resources&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;from: &lt;a href=&#34;https://web-work.tools/github-pages-starter-pack/&#34;&gt;&lt;em&gt;GitHub Pages Starter Pack - Extended Resources&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://shopify.github.io/liquid/tags/control-flow/&#34;&gt;shopify.github.io/liquid/tags/control-flow/&lt;/a&gt;&lt;/li&gt;
@@ -2355,7 +2355,7 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
 &lt;p&gt;As you can see, it&amp;rsquo;s possible to begin showing up in google pretty quickly. I started building at the beginning of the year, and I hadn&amp;rsquo;t begun in earnest until you see the chart starting to pop off (around the time I submitted my sitemap to google).&lt;/p&gt;
 
 &lt;figure class=&#34;full&#34;&gt;
-    &lt;img src=&#34;https://infominer.id/web-work/images/infolytics/5-29-19-organic-search-infominer.png&#34; alt=&#34;&#34;&gt;
+    &lt;img src=&#34;https://webwork.tools/images/infolytics/5-29-19-organic-search-infominer.png&#34; alt=&#34;&#34;&gt;
     &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure class=&#34;full&#34;&gt;
@@ -2363,18 +2363,18 @@ Here&amp;rsquo;s all my starred Github Repositories. Ill star a lot more and con
     &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure class=&#34;full&#34;&gt;
-    &lt;img src=&#34;https://infominer.id/web-work/images/infolytics/5-24-19-organic-search-infominer.png&#34; alt=&#34;&#34;&gt;
-    &lt;figcaption&gt;&lt;a href=&#34;https://infominer.id/web-work/images/infolytics/infominer-id-Performance-2019-05-24.csv&#34;&gt;infominer-id-Performance-2019-05-24.csv&lt;/a&gt;&lt;/figcaption&gt;
+    &lt;img src=&#34;https://webwork.tools/images/infolytics/5-24-19-organic-search-infominer.png&#34; alt=&#34;&#34;&gt;
+    &lt;figcaption&gt;&lt;a href=&#34;https://webwork.tools/images/infolytics/infominer-id-Performance-2019-05-24.csv&#34;&gt;infominer-id-Performance-2019-05-24.csv&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 </description>
     </item>
     
     <item>
       <title>Indieweb Github Repositories</title>
-      <link>https://infominer.id/web-work/indieweb-github-repos/</link>
+      <link>https://web-work.tools/indieweb-github-repos/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-github-repos/</guid>
+      <guid>https://web-work.tools/indieweb-github-repos/</guid>
       <description>
 
 &lt;h2 id=&#34;github-com-miklb-https-github-com-miklb&#34;&gt;&lt;a href=&#34;https://github.com/miklb&#34;&gt;github.com/miklb&lt;/a&gt;&lt;/h2&gt;
@@ -2489,10 +2489,10 @@ IndieAuth Specification&lt;/li&gt;
     
     <item>
       <title>Indieweb Resources</title>
-      <link>https://infominer.id/web-work/indieweb-resources/</link>
+      <link>https://web-work.tools/indieweb-resources/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-resources/</guid>
+      <guid>https://web-work.tools/indieweb-resources/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://imgur.com/ahnVZ9tl.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -2508,13 +2508,13 @@ IndieAuth Specification&lt;/li&gt;
 &lt;p&gt;I cover most anything you&amp;rsquo;d need to get started with GitHub Pages in:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack&#34;&gt;infominer.id/web-work/github-pages-starter-pack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-starter-pack&#34;&gt;webwork.tools/github-pages-starter-pack&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;taking-back-your-content&#34;&gt;Taking Back Your Content&lt;/h2&gt;
 
 &lt;div class=&#34;h-card&#34;&gt;
-    &lt;img src=&#34;https://infominer.id/web-work/images/info.png&#34; class=&#34;u-photo&#34; width=&#34;40&#34;&gt;
+    &lt;img src=&#34;https://webwork.tools/images/info.png&#34; class=&#34;u-photo&#34; width=&#34;40&#34;&gt;
   &lt;a href=&#34;https://infominer.id&#34; class=&#34;u-url p-name&#34;&gt;InfoMine ⧉&lt;/a&gt;
 &lt;/div&gt;  
 
@@ -2523,7 +2523,7 @@ IndieAuth Specification&lt;/li&gt;
 
   &lt;p class=&#34;e-content&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/y9FSPcmybT8&#34; frameborder=&#34;0&#34; allow=&#34;encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;At the end of that video, we are directed to &lt;a href=&#34;https://aaronparecki.com/2018/06/30/11/your-first-webmention&#34;&gt;Your First Webmention&lt;/a&gt;. &lt;/p&gt;
 
-  &lt;a href=&#34;https://infominer.id/web-work/indieweb-resources/&#34; class=&#34;u-url&#34;&gt;
+  &lt;a href=&#34;https://webwork.tools/indieweb-resources/&#34; class=&#34;u-url&#34;&gt;
   &lt;time class=&#34;dt-published&#34; datetime=&#34;2019-05-19&#34;&gt;May 05, 2019&lt;/time&gt;&lt;/a&gt;
 &lt;/div&gt;
 
@@ -2536,7 +2536,7 @@ IndieAuth Specification&lt;/li&gt;
 &lt;p&gt;&lt;p data-notist=&#34;srushe/7D5URN&#34;&gt;View &lt;a href=&#34;https://noti.st/srushe/7D5URN&#34;&gt;Playing with the Indieweb&lt;/a&gt; on Notist.&lt;/p&gt;&lt;script async src=&#34;https://on.notist.cloud/embed/002.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/indieweb-github-repos/&#34;&gt;Indieweb Github Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/indieweb-github-repos/&#34;&gt;Indieweb Github Repositories&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://indieweb.org&#34;&gt;indieweb.org&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://brid.gy&#34;&gt;https://brid.gy&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/indieweb&#34;&gt;github.com/indieweb&lt;/a&gt;&lt;/li&gt;
@@ -2653,7 +2653,7 @@ IndieAuth Specification&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://tokens.indieauth.com/&#34;&gt;tokens.indieauth.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://indieauth.spec.indieweb.org/&#34;&gt;indieauth.spec.indieweb.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://indieweb.org/token-endpoint#Creating_a_token_endpoint&#34;&gt;https://indieweb.org/token-endpoint#Creating_a_token_endpoint&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/indieweb-dev-on-did/&#34;&gt;Freenode #indieweb-dev on DIDs\Indieauth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/indieweb-dev-on-did/&#34;&gt;Freenode #indieweb-dev on DIDs\Indieauth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;install-indieauth-server&#34;&gt;Install IndieAuth Server&lt;/h3&gt;
@@ -2781,16 +2781,16 @@ IndieAuth Specification&lt;/li&gt;
     
     <item>
       <title>Using PGP and Cryptocurrency Keysignatures</title>
-      <link>https://infominer.id/web-work/practical-public-key-crypto/</link>
+      <link>https://web-work.tools/practical-public-key-crypto/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/practical-public-key-crypto/</guid>
+      <guid>https://web-work.tools/practical-public-key-crypto/</guid>
       <description>
 
 &lt;pre&gt;&lt;code&gt;&amp;quot;Public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/pgp-og.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/pgp-og.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I created this resource while researching the following article:&lt;/p&gt;
 
@@ -2799,7 +2799,7 @@ IndieAuth Specification&lt;/li&gt;
 &amp;gt;This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://infominer.id/web-work/images/gnu-gpg-thumb.png&#34;&gt;&lt;img src=&#34;https://infominer.id/web-work/images/Cover50.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://webwork.tools/images/gnu-gpg-thumb.png&#34;&gt;&lt;img src=&#34;https://webwork.tools/images/Cover50.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;phil-zimmerman&#34;&gt;Phil Zimmerman&lt;/h2&gt;
 
@@ -2988,13 +2988,13 @@ March 03, 2019&lt;/a&gt;
     
     <item>
       <title>100&#39;s of Mostly Free SEO Tools</title>
-      <link>https://infominer.id/web-work/seo-tools/</link>
+      <link>https://web-work.tools/seo-tools/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/seo-tools/</guid>
+      <guid>https://web-work.tools/seo-tools/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/webwork-tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;!-- fix link on infominer.id:
   - research/seo-tools.html--&gt;
@@ -3244,13 +3244,13 @@ How much reach and social authority do your followers and the people you want to
     
     <item>
       <title>GitHub Pages-Starter Pack</title>
-      <link>https://infominer.id/web-work/github-pages-starter-pack/</link>
+      <link>https://web-work.tools/github-pages-starter-pack/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-pages-starter-pack/</guid>
+      <guid>https://web-work.tools/github-pages-starter-pack/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/github-pages-jekyll-starter-pack.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/github-pages-jekyll-starter-pack.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).&lt;/p&gt;
 
@@ -3272,9 +3272,9 @@ How much reach and social authority do your followers and the people you want to
 
 &lt;p&gt;Corrections, suggestions, tips, and links would be all appreciated.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; this page is just for Jekyll\GHPages. I&amp;rsquo;m making new pages for the other stuff like &lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;static site generators besides jekyll&lt;/a&gt;, and &lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;content creation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; this page is just for Jekyll\GHPages. I&amp;rsquo;m making new pages for the other stuff like &lt;a href=&#34;https://webwork.tools/static-site-generators/&#34;&gt;static site generators besides jekyll&lt;/a&gt;, and &lt;a href=&#34;https://webwork.tools/content-creation/&#34;&gt;content creation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/gh-pages-starter-pack.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Github pages runs Jekyll, which runs &lt;a href=&#34;https://kramdown.gettalong.org/quickref.html&#34;&gt;Kramdown&lt;/a&gt;, which can transform yaml, markdown, and a number of related languages into proper html.&lt;/p&gt;
 
@@ -3366,17 +3366,17 @@ remote_theme: benbalter/retlab
 
 &lt;h3 id=&#34;static-site-generators-other-than-jekyll&#34;&gt;Static Site Generators Other Than Jekyll&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34; class=&#34;btn btn-success&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators/&#34; class=&#34;btn btn-success&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;content-creation&#34;&gt;Content Creation&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34; class=&#34;btn btn-primary&#34;&gt;Content Creation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://webwork.tools/content-creation/&#34; class=&#34;btn btn-primary&#34;&gt;Content Creation&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;fundamentals&#34;&gt;Fundamentals&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://lab.github.com/&#34; class=&#34;btn btn-info&#34;&gt;GitHub Learning Lab&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;markdown-html-css-etc-https-infominer-id-web-work-learn-html-css&#34;&gt;&amp;gt;&amp;gt; &lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Markdown, HTML, CSS, etc.&lt;/a&gt; &amp;gt;&amp;gt;&lt;/h2&gt;
+&lt;h2 id=&#34;markdown-html-css-etc-https-webwork-tools-learn-html-css&#34;&gt;&amp;gt;&amp;gt; &lt;a href=&#34;https://webwork.tools/learn-html-css/&#34;&gt;Markdown, HTML, CSS, etc.&lt;/a&gt; &amp;gt;&amp;gt;&lt;/h2&gt;
 
 &lt;h3 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h3&gt;
 
@@ -3397,7 +3397,7 @@ remote_theme: benbalter/retlab
 
 &lt;h3 id=&#34;jekyll&#34;&gt;Jekyll&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/gh-jekyll.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/gh-jekyll.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jekyll/jekyll/blob/master/README.markdown&#34; target=&#34;_blank&#34;&gt;Jekyll README&lt;/a&gt;&lt;/li&gt;
@@ -3633,39 +3633,39 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 &lt;h2 id=&#34;related-resources&#34;&gt;Related Resources&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>GitHub Pages-Extended Resources</title>
-      <link>https://infominer.id/web-work/github-pages-extended-resources/</link>
+      <link>https://web-work.tools/github-pages-extended-resources/</link>
       <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/github-pages-extended-resources/</guid>
+      <guid>https://web-work.tools/github-pages-extended-resources/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/github-pages-extended-resources.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/github-pages-extended-resources.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Continued from &lt;a href=&#34;https://infominer.id/web-work/github-pages-starter-pack/&#34;&gt;&lt;strong&gt;Github Pages Starter Pack&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Continued from &lt;a href=&#34;https://web-work.tools/github-pages-starter-pack/&#34;&gt;&lt;strong&gt;Github Pages Starter Pack&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;related-resources&#34;&gt;Related Resources&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/learn-html-css/&#34;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/content-creation/&#34;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/github-pages-extended-resources/&#34;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/static-site-generators/&#34;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/migrate-jekyll-hpstr-hugo/&#34;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webwork.tools/command-line-git-ssh/&#34;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;customizations&#34;&gt;Customizations&lt;/h2&gt;
@@ -3872,7 +3872,7 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 
 &lt;h3 id=&#34;indieweb&#34;&gt;Indieweb&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://infominer.id/web-work/indieweb-resources/&#34; class=&#34;btn btn-success&#34;&gt;Webwork.tools/indieweb-resources&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://webwork.tools/indieweb-resources/&#34; class=&#34;btn btn-success&#34;&gt;Webwork.tools/indieweb-resources&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://indieweb.org&#34;&gt;indieweb.org&lt;/a&gt;&lt;/li&gt;
@@ -3889,13 +3889,13 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     
     <item>
       <title>Learn SEO</title>
-      <link>https://infominer.id/web-work/learn-seo/</link>
+      <link>https://web-work.tools/learn-seo/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/learn-seo/</guid>
+      <guid>https://web-work.tools/learn-seo/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/organic-seo-drive-traffic.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/organic-seo-drive-traffic.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;SEO seems like a valuable subject to know about right?&lt;/p&gt;
 
@@ -4225,7 +4225,7 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
 &lt;/ul&gt;
 
 &lt;figure class=&#34;full&#34;&gt;
-    &lt;img src=&#34;https://infominer.id/web-work/images/organic-seo-ctr-infographic.png&#34; alt=&#34;&#34;&gt;
+    &lt;img src=&#34;https://webwork.tools/images/organic-seo-ctr-infographic.png&#34; alt=&#34;&#34;&gt;
     &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 </description>
@@ -4233,17 +4233,17 @@ Use &lt;code&gt;redirect_to: https://external.url&lt;/code&gt; to send visitors 
     
     <item>
       <title>Page Not Found</title>
-      <link>https://infominer.id/web-work/404/</link>
+      <link>https://web-work.tools/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/404/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://infominer.id/web-work/images/lost-places.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <guid>https://web-work.tools/404/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://webwork.tools/images/lost-places.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p class=&#34;lead&#34;&gt;Sorry, we&amp;rsquo;ve misplaced that URL or it&amp;rsquo;s pointing to something that doesn&amp;rsquo;t exist. &lt;a href=&#34;{{ site.baseurl }}/&#34;&gt;Head back home&lt;/a&gt; to try finding it again.&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id&#34;&gt;https://infominer.id&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id/repo-portfolio&#34;&gt;Infominer Repository Portfolio&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;https://infominer.id/web-work/&#34;&gt;https://infominer.id/web-work/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;https://webwork.tools/&#34;&gt;https://webwork.tools/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id/DIDecentralized/&#34;&gt;https://infominer.id/DIDecentralized/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id/bitcoin-history/&#34;&gt;https://infominer.id/bitcoin-history/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;https://infominer.id/SourceCrypto/&#34;&gt;https://infominer.id/SourceCrypto/&lt;/a&gt;&lt;/li&gt;

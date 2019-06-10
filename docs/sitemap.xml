@@ -3,493 +3,493 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://infominer.id/web-work/about/</loc>
+    <loc>https://web-work.tools/about/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/hugo-starter-kit/</loc>
+    <loc>https://web-work.tools/hugo-starter-kit/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/posts/</loc>
-    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/command-line-git-ssh/</loc>
-    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/</loc>
+    <loc>https://web-work.tools/posts/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/learn-html-css/</loc>
+    <loc>https://web-work.tools/command-line-git-ssh/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/</loc>
-    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/bash/</loc>
+    <loc>https://web-work.tools/tags/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/command-line/</loc>
+    <loc>https://web-work.tools/learn-html-css/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/css/</loc>
+    <loc>https://web-work.tools/tags/bash/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/fundamentals/</loc>
+    <loc>https://web-work.tools/tags/command-line/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/git/</loc>
+    <loc>https://web-work.tools/tags/css/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/html/</loc>
+    <loc>https://web-work.tools/tags/fundamentals/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/hugo/</loc>
+    <loc>https://web-work.tools/tags/git/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/json/</loc>
+    <loc>https://web-work.tools/tags/html/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/katex/</loc>
+    <loc>https://web-work.tools/tags/hugo/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/kramdown/</loc>
+    <loc>https://web-work.tools/tags/json/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/meta-tags/</loc>
+    <loc>https://web-work.tools/tags/katex/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/resources/</loc>
+    <loc>https://web-work.tools/tags/kramdown/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/ssh/</loc>
+    <loc>https://web-work.tools/tags/meta-tags/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/static-site-generators/</loc>
+    <loc>https://web-work.tools/tags/resources/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/terminal/</loc>
+    <loc>https://web-work.tools/tags/ssh/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/toml/</loc>
+    <loc>https://web-work.tools/tags/static-site-generators/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/webpub/</loc>
+    <loc>https://web-work.tools/tags/terminal/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/yaml/</loc>
+    <loc>https://web-work.tools/tags/toml/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/categories/</loc>
+    <loc>https://web-work.tools/tags/webpub/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/tags/yaml/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/categories/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/indieweb-dev-on-did/</loc>
+    <loc>https://web-work.tools/indieweb-dev-on-did/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/indigo-authors-indieweb/</loc>
+    <loc>https://web-work.tools/indigo-authors-indieweb/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/chat-log/</loc>
-    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/did/</loc>
+    <loc>https://web-work.tools/tags/chat-log/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/freenode/</loc>
+    <loc>https://web-work.tools/tags/did/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/front-matter/</loc>
+    <loc>https://web-work.tools/tags/freenode/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/indieweb/</loc>
+    <loc>https://web-work.tools/tags/front-matter/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/indieweb-dev/</loc>
+    <loc>https://web-work.tools/tags/indieweb/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/categories/meta/</loc>
+    <loc>https://web-work.tools/tags/indieweb-dev/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/options/</loc>
+    <loc>https://web-work.tools/categories/meta/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/rwot/</loc>
+    <loc>https://web-work.tools/tags/options/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/migrate-jekyll-hpstr-hugo/</loc>
+    <loc>https://web-work.tools/tags/rwot/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/migrate-jekyll-hpstr-hugo/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/hpstr/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/jekyll/</loc>
+    <loc>https://web-work.tools/tags/hpstr/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/migration/</loc>
+    <loc>https://web-work.tools/tags/jekyll/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/theme/</loc>
+    <loc>https://web-work.tools/tags/migration/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/branches-git/</loc>
+    <loc>https://web-work.tools/tags/theme/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/branches-git/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/forked-repositories/</loc>
+    <loc>https://web-work.tools/forked-repositories/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/forked/</loc>
-    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/github/</loc>
+    <loc>https://web-work.tools/tags/forked/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/repositories/</loc>
+    <loc>https://web-work.tools/tags/github/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/content-creation/</loc>
+    <loc>https://web-work.tools/tags/repositories/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/content-creation/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/content-creation/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/tools/</loc>
+    <loc>https://web-work.tools/tags/content-creation/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/make-a-github-portfolio/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/github-pages/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <loc>https://web-work.tools/tags/tools/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/open-source/</loc>
+    <loc>https://web-work.tools/make-a-github-portfolio/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/portfolio/</loc>
+    <loc>https://web-work.tools/tags/github-pages/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/github-stars/</loc>
+    <loc>https://web-work.tools/tags/open-source/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/tags/portfolio/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/github-stars/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/services/</loc>
+    <loc>https://web-work.tools/services/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/keyword-planner/</loc>
+    <loc>https://web-work.tools/keyword-planner/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/adwords/</loc>
+    <loc>https://web-work.tools/tags/adwords/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/keyword-planner/</loc>
+    <loc>https://web-work.tools/tags/keyword-planner/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/keyword-research/</loc>
+    <loc>https://web-work.tools/tags/keyword-research/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/seo/</loc>
+    <loc>https://web-work.tools/tags/seo/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/stars/</loc>
+    <loc>https://web-work.tools/tags/stars/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/stub/</loc>
+    <loc>https://web-work.tools/tags/stub/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/walkthrough/</loc>
+    <loc>https://web-work.tools/tags/walkthrough/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/ci%5Ccd/</loc>
+    <loc>https://web-work.tools/tags/ci%5Ccd/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/static-site-generators/</loc>
+    <loc>https://web-work.tools/static-site-generators/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/webwork.tools/</loc>
+    <loc>https://web-work.tools/webwork.tools/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/open-source-publishing/</loc>
+    <loc>https://web-work.tools/open-source-publishing/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/google/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/organic-search/</loc>
+    <loc>https://web-work.tools/tags/google/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/stats/</loc>
+    <loc>https://web-work.tools/tags/organic-search/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/indieweb-github-repos/</loc>
+    <loc>https://web-work.tools/tags/stats/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/indieweb-github-repos/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/indieweb-resources/</loc>
+    <loc>https://web-work.tools/indieweb-resources/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/jekyll-static-sites/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://infominer.id/web-work/tags/static-sites/</loc>
+    <loc>https://web-work.tools/tags/jekyll-static-sites/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/practical-public-key-crypto/</loc>
+    <loc>https://web-work.tools/tags/static-sites/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://web-work.tools/practical-public-key-crypto/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/deepdotweb/</loc>
+    <loc>https://web-work.tools/tags/deepdotweb/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/pgp/</loc>
+    <loc>https://web-work.tools/tags/pgp/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/privacy/</loc>
+    <loc>https://web-work.tools/tags/privacy/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/security/</loc>
+    <loc>https://web-work.tools/tags/security/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/seo-tools/</loc>
+    <loc>https://web-work.tools/seo-tools/</loc>
     <lastmod>2019-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/github-pages-starter-pack/</loc>
+    <loc>https://web-work.tools/github-pages-starter-pack/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/tags/web-publishing/</loc>
+    <loc>https://web-work.tools/tags/web-publishing/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/github-pages-extended-resources/</loc>
+    <loc>https://web-work.tools/github-pages-extended-resources/</loc>
     <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/learn-seo/</loc>
+    <loc>https://web-work.tools/learn-seo/</loc>
     <lastmod>2019-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://infominer.id/web-work/404/</loc>
+    <loc>https://web-work.tools/404/</loc>
   </url>
   
 </urlset>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>katex on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/katex/</link>
+    <link>https://web-work.tools/tags/katex/</link>
     <description>Recent content in katex on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/katex/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/katex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Markup languages that get transformed into a website.</title>
-      <link>https://infominer.id/web-work/learn-html-css/</link>
+      <link>https://web-work.tools/learn-html-css/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/learn-html-css/</guid>
+      <guid>https://web-work.tools/learn-html-css/</guid>
       <description>Trying to keep track of the various languages that our SSGs transform into proper HTML.</description>
     </item>
     

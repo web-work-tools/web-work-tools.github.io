@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>indieweb on Webwork.tools</title>
-    <link>https://infominer.id/web-work/tags/indieweb/</link>
+    <link>https://web-work.tools/tags/indieweb/</link>
     <description>Recent content in indieweb on Webwork.tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉</copyright>
     <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://infominer.id/web-work/tags/indieweb/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web-work.tools/tags/indieweb/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FreeNode IRC #indieweb-dev on IIW RWoT and DID&#39;s</title>
-      <link>https://infominer.id/web-work/indieweb-dev-on-did/</link>
+      <link>https://web-work.tools/indieweb-dev-on-did/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-dev-on-did/</guid>
+      <guid>https://web-work.tools/indieweb-dev-on-did/</guid>
       <description>What I&amp;rsquo;m hoping for is that folk in the DID community will consider integrating with IndieAuth. This would enable easy adoption for website owners, and make the logical connection between DID and IndieAuth.</description>
     </item>
     
     <item>
       <title>Indigo Authors - Indiweb Features</title>
-      <link>https://infominer.id/web-work/indigo-authors-indieweb/</link>
+      <link>https://web-work.tools/indigo-authors-indieweb/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indigo-authors-indieweb/</guid>
+      <guid>https://web-work.tools/indigo-authors-indieweb/</guid>
       <description>The following classes are used to mark up the author bio for Indieweb parsing: h-card, u-photo, p-name, u-url, rel=me, p-locality, p-country-name, u-email, p-note. I&amp;rsquo;ll be exploring these classes more thoroughly, soon.</description>
     </item>
     
     <item>
       <title>Indieweb Github Repositories</title>
-      <link>https://infominer.id/web-work/indieweb-github-repos/</link>
+      <link>https://web-work.tools/indieweb-github-repos/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-github-repos/</guid>
+      <guid>https://web-work.tools/indieweb-github-repos/</guid>
       <description>A start at exploring Indieweb Topics</description>
     </item>
     
     <item>
       <title>Indieweb Resources</title>
-      <link>https://infominer.id/web-work/indieweb-resources/</link>
+      <link>https://web-work.tools/indieweb-resources/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://infominer.id/web-work/indieweb-resources/</guid>
+      <guid>https://web-work.tools/indieweb-resources/</guid>
       <description>When you post something on the web, it should belong to you, not a corporation. Too many companies have gone out of business and lost all of their users’ data. By joining the IndieWeb, your content stays yours and in your control.</description>
     </item>
     
