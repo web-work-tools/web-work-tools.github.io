@@ -1,0 +1,26 @@
+# Menu navigation links
+
+- title: "Webwork.tools"
+  url: "/webwork.tools/"
+
+- title: Services
+  url: /services/
+
+- title: GitHub Pages Starter Pack
+  url: /github-pages-starter-pack/
+
+- title: Learn SEO
+  url: /learn-seo/
+
+- title: Mostly Free SEO Tools
+  url: /seo-tools/
+
+- title: Practical PGP
+  url: /practical-pgp/
+
+- title: "IndieWeb"
+  url: "https://infominer.id/indieweb/"
+
+- title: ⧉InfoMine⧉
+  url: https://infominer.id/
+
