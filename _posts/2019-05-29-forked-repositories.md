@@ -20,7 +20,7 @@ image:
 
 An organized list of my forked repositories.
 
-Now that I have both forked [and starred](https://infominer.id/web-work/infominer33-starred-repos/)
+Now that I have both forked [and starred](https://web-work.tools/infominer33-starred-repos/)
 
 ## WebPub
 

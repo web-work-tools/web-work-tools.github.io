@@ -34,9 +34,9 @@ I'm just a newb that created this resource to help myself. It does take a lot of
 
 Corrections, suggestions, tips, and links would be all appreciated.
 
-**Note:** this page is just for Jekyll\GHPages. I'm making new pages for the other stuff like [static site generators besides jekyll](https://infominer.id/web-work/static-site-generators/), and [content creation](https://infominer.id/web-work/content-creation/).
+**Note:** this page is just for Jekyll\GHPages. I'm making new pages for the other stuff like [static site generators besides jekyll](https://web-work.tools/static-site-generators/), and [content creation](https://web-work.tools/content-creation/).
 
-![](https://infominer.id/web-work/images/gh-pages-starter-pack.png)
+![](https://web-work.tools/images/gh-pages-starter-pack.png)
 
 
 Github pages runs Jekyll, which runs [Kramdown](https://kramdown.gettalong.org/quickref.html), which can transform yaml, markdown, and a number of related languages into proper html.
@@ -126,11 +126,11 @@ Running out of space on this page ;)
 
 ### Static Site Generators Other Than Jekyll
 
-<a href="https://infominer.id/web-work/static-site-generators/" class="btn btn-success">Static Site Generators</a>
+<a href="https://web-work.tools/static-site-generators/" class="btn btn-success">Static Site Generators</a>
 
 ### Content Creation
 
-<a href="https://infominer.id/web-work/content-creation/" class="btn btn-primary">Content Creation</a>
+<a href="https://web-work.tools/content-creation/" class="btn btn-primary">Content Creation</a>
 
 ## Fundamentals
 
@@ -157,7 +157,7 @@ Running out of space on this page ;)
 
 ### Jekyll
 
-![](https://infominer.id/web-work/images/gh-jekyll.png)
+![](https://web-work.tools/images/gh-jekyll.png)
 
 * <a href="https://github.com/jekyll/jekyll/blob/master/README.markdown" target="_blank">Jekyll README</a>
 * <a href="https://github.com/planetjekyll" target="_blank">planetjekyll</a>
