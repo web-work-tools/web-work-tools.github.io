@@ -17,7 +17,7 @@ summary: "Github makes it easy to get started, with the click of a button, you c
 
 ---
 
-![](https://webwork.tools/images/github-pages-jekyll-starter-pack.png)
+![](https://web-work.tools/images/github-pages-jekyll-starter-pack.png)
 
 Github makes it easy to get started, with the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).
 
@@ -40,9 +40,9 @@ I'm just a newb that created this resource to help myself. It does take a lot of
 
 Corrections, suggestions, tips, and links would be all appreciated.
 
-**Note:** this page is just for Jekyll\GHPages. I'm making new pages for the other stuff like [static site generators besides jekyll](https://webwork.tools/static-site-generators/), and [content creation](https://webwork.tools/content-creation/).
+**Note:** this page is just for Jekyll\GHPages. I'm making new pages for the other stuff like [static site generators besides jekyll](https://web-work.tools/static-site-generators/), and [content creation](https://web-work.tools/content-creation/).
 
-![](https://webwork.tools/images/gh-pages-starter-pack.png)
+![](https://web-work.tools/images/gh-pages-starter-pack.png)
 
 
 Github pages runs Jekyll, which runs [Kramdown](https://kramdown.gettalong.org/quickref.html), which can transform yaml, markdown, and a number of related languages into proper html.
@@ -132,17 +132,17 @@ Running out of space on this page ;)
 
 ### Static Site Generators Other Than Jekyll
 
-<a href="https://webwork.tools/static-site-generators/" class="btn btn-success">Static Site Generators</a>
+<a href="https://web-work.tools/static-site-generators/" class="btn btn-success">Static Site Generators</a>
 
 ### Content Creation
 
-<a href="https://webwork.tools/content-creation/" class="btn btn-primary">Content Creation</a>
+<a href="https://web-work.tools/content-creation/" class="btn btn-primary">Content Creation</a>
 
 ## Fundamentals
 
 <a href="https://lab.github.com/" class="btn btn-info">GitHub Learning Lab</a>
 
-## >> [Markdown, HTML, CSS, etc.](https://webwork.tools/learn-html-css/) >>
+## >> [Markdown, HTML, CSS, etc.](https://web-work.tools/learn-html-css/) >>
 
 
 ### Github Pages
@@ -160,7 +160,7 @@ Running out of space on this page ;)
 
 ### Jekyll
 
-![](https://webwork.tools/images/gh-jekyll.png)
+![](https://web-work.tools/images/gh-jekyll.png)
 
 * <a href="https://github.com/jekyll/jekyll/blob/master/README.markdown" target="_blank">Jekyll README</a>
 * <a href="https://github.com/planetjekyll" target="_blank">planetjekyll</a>
@@ -335,9 +335,9 @@ Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps
 
 ## Related Resources
 
-* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
-* [Content Creation](https://webwork.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://webwork.tools/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [Content Creation](https://web-work.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)

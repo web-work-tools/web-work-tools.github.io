@@ -26,7 +26,7 @@ As per usual, this list will grow and become more organized over time.
 
 ## Editors
 
-![](https://webwork.tools/images/content-creation.png)
+![](https://web-work.tools/images/content-creation.png)
 * [Visual Studio Code](https://code.visualstudio.com/)
 Where I build webpages.
 
@@ -151,9 +151,9 @@ combines feeds "into content and other magical creations".
 
 ## Related Posts
 
-* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
-* [Content Creation](https://webwork.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://webwork.tools/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [Content Creation](https://web-work.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)

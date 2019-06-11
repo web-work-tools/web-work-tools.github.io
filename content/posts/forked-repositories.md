@@ -13,11 +13,11 @@ aliases:
 summary: "Takin' names and Kickin' Ass!"
 ---
 
-![](https://webwork.tools/images/infominer-forked-repositories.png)
+![](https://web-work.tools/images/infominer-forked-repositories.png)
 
 An organized list of my forked repositories.
 
-Now that I have both forked [and starred](https://webwork.tools/infominer33-starred-repos/)
+Now that I have both forked [and starred](https://web-work.tools/infominer33-starred-repos/)
 
 ## WebPub
 

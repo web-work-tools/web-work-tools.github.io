@@ -1,7 +1,7 @@
 # Awesome Freelance Web-Work Resources
 
 
-So... I was moving this over to [infominer33.github.io/web-work](https://webwork.tools/), but then decided it would be nice to keep all web-working resources in their own repository, that will make theme easier to access\fork, etc.. for those who aren't interested in all the crypto, and probably improve discovery.
+So... I was moving this over to [infominer33.github.io/web-work](https://web-work.tools/), but then decided it would be nice to keep all web-working resources in their own repository, that will make theme easier to access\fork, etc.. for those who aren't interested in all the crypto, and probably improve discovery.
 
 also, I'll be able to play around with a few different blog-themes... and see what I like, without disturbing the rest of the site.
 

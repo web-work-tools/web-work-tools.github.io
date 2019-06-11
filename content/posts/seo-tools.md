@@ -15,7 +15,7 @@ slug: /seo-tools/
 summary: "All your SEO tools are belong to us! No, really! From the official tools of Google and co, limited trial power tools, analytics, link building, content creation and much more! All organized by category."
 ---
 
-![](https://webwork.tools/images/webwork-tools.png)
+![](https://web-work.tools/images/webwork-tools.png)
 
 <!-- fix link on infominer.id:
   - research/seo-tools.html-->

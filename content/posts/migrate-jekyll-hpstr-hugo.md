@@ -12,7 +12,7 @@ aliases:
   - /migrate-jekyll-hpstr-hugo/
 slug: /migrate-jekyll-hpstr-hugo/
 ---
-![](https://webwork.tools/images/jekyll-hpstr-hugo.png)
+![](https://web-work.tools/images/jekyll-hpstr-hugo.png)
 
 I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
 
@@ -247,8 +247,8 @@ Be sure to change `title:` to `title =` and so forth.
 
 ```
 [[links]]
-title = "Webwork.tools"
-url = "/webwork.tools/"
+title = "web-work.tools"
+url = "/web-work.tools/"
 
 [[links]]
 title = "Services"
@@ -326,9 +326,9 @@ This is the final stretch, and we should be good to go
 
 ```
 
-baseurl = "https://webwork.tools"
+baseurl = "https://web-work.tools"
 languageCode = "en-gb"
-title = "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+title = "web-work.tools: Independent Web-Work and Skyscraper Publishing."
 theme = "hpstr"
 pluralizelisttitles = false
 PygmentsCodeFences = true
@@ -411,7 +411,7 @@ I also added these lines to my config.toml
 [twitter]
   card = "summary_image_large"
   site = "@infominer33"
-  title =  "Webwork.tools: Independent Web-Work and Skyscraper Publishing."
+  title =  "web-work.tools: Independent Web-Work and Skyscraper Publishing."
   description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content."
   image = "/images/web-work-tools.png"
 ```
@@ -434,7 +434,7 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 * https://sourcethemes.com/academic/docs/migrate-from-jekyll/
 * [web.archive.org - Installing Hugo - Dec, 2017](http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing)
 * [web.archive.org - Using Hugo - Dec,2017](http://web.archive.org/web/20171211175036/http://gohugo.io/getting-started/usage)
-* [Creating a Test Branch and Merging changes back to Master](https://webwork.tools/posts/branches-git/)
+* [Creating a Test Branch and Merging changes back to Master](https://web-work.tools/posts/branches-git/)
 * [Goodbye Jekyll - Hello Hugo](https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/)
 
 ## Other Hugo Themes
@@ -446,9 +446,9 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 
 ## Related Posts
 
-* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
-* [Content Creation](https://webwork.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://webwork.tools/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [Content Creation](https://web-work.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)

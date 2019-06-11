@@ -19,7 +19,7 @@ What is likly to happen, is there will be a split among domains, and eventually 
 
 I know it's better seo value to keep everything on one domain, but I intend to create a lot of content on a variety of subjects, some of which are only tangentally related.
 
-But you can see, eventually this will be 5 domains with infominer.id becoming the home page for all of it, webwork.tools, didecentral.com, SourceCrypto (don't remember if I have one for that), learncryptotrading.co.
+But you can see, eventually this will be 5 domains with infominer.id becoming the home page for all of it, web-work.tools, didecentral.com, SourceCrypto (don't remember if I have one for that), learncryptotrading.co.
 
 I should probably hoook each of those domains up with a re-direct right now... I've just been pre-occupied with other things. That way I could still gain some promotional benefit of using the domain, while retaining the SEO value of having them live together for the time being.
 

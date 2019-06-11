@@ -33,7 +33,7 @@ I'm experienced at writing on subjects that I previously knew little about. My p
 
 I enjoy writing high-level overviews of blockchain platforms that can serve as an introduction to developers.  
 
-Recently I made my first attempt at creating [Cornerstone Content](https://webwork.tools/LearnSEO/#internal-linking-cornerstone-content):
+Recently I made my first attempt at creating [Cornerstone Content](https://web-work.tools/LearnSEO/#internal-linking-cornerstone-content):
 
 * [A Mobile-First Web Development Agency](https://www.csbtechemporium.com/mobile-first-web-development/)
   [![](https://imgur.com/sHa81Fdl.png)](https://www.csbtechemporium.com/mobile-first-web-development/)

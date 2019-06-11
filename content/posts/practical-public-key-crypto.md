@@ -16,7 +16,7 @@ summary: "It's personal. It's private. And it's no one's business but yours. You
 
     "Public key encryption: supporting secure crypto-currency transactions with strangers online since 1991!!"
 
-![](https://webwork.tools/images/pgp-og.png)
+![](https://web-work.tools/images/pgp-og.png)
 
 
 I created this resource while researching the following article:
@@ -24,7 +24,7 @@ I created this resource while researching the following article:
 * [freelanceforcoins.com/**Business with Crypto 101—Escrow and Key Signatures**](https://freelanceforcoins.com/article/6-escrow) -infominer
   >This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.
 
-[![](https://webwork.tools/images/Cover50.png)](https://webwork.tools/images/gnu-gpg-thumb.png)
+[![](https://web-work.tools/images/Cover50.png)](https://web-work.tools/images/gnu-gpg-thumb.png)
 
 ## Phil Zimmerman
 * [Why I Wrote PGP -Part of the Original 1991 PGP User's Guide](https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)
