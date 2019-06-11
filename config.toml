@@ -1,13 +1,12 @@
 publishdir = "docs"
 enableEmoji = true
   
-
 baseurl = "https://web-work.tools/"
 title = "Webwork.tools"
 copyright = "⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉"
 languageCode = "en-gb"
 theme = "indigo"
-paginate = 22
+paginate = 11
 
 [params]
   Author = "Infominer"
@@ -55,7 +54,6 @@ paginate = 22
   # To get microsub support, you can use Aperture from p3k. Either go to https://aperture.p3k.io or self-host it (it's open source!)
   #Microsub = ""
 
-cleandestinationdir = true
 disablePathToLower = true
 
 [Permalinks]
