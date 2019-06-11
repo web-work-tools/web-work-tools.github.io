@@ -122,8 +122,8 @@ Here is the block you might want to use: ( can't make local captures to work.)
 
 ```liquid
 {% raw %}{% capture images %}
-	https://infominer.id/web-work/images/abstract-10.jpg
-	https://infominer.id/web-work/images/abstract-11.jpg
+	https://web-work.tools/images/abstract-10.jpg
+	https://web-work.tools/images/abstract-11.jpg
 	http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=3 %}{% endraw %}
@@ -138,8 +138,8 @@ Available values: [1..3].
 It will look something like this:
 
 {% capture images %}
-	https://infominer.id/web-work/images/abstract-10.jpg
-	https://infominer.id/web-work/images/abstract-11.jpg
+	https://web-work.tools/images/abstract-10.jpg
+	https://web-work.tools/images/abstract-11.jpg
 	https://upload.wikimedia.org/wikipedia/commons/6/6c/Lenna_0.1_SP_Noise_3x3_VecMed_L1.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=3 %}

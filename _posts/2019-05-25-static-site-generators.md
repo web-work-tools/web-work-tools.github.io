@@ -106,7 +106,7 @@ you could build gem based sites locally, and keybase will automatically sync the
 ## Thats all for now!
 
 <figure class="full">
-	<img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-	<figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
+	<img src="https://web-work.tools/images/gh-pages-starter-pack.png" alt="">
+	<figcaption><a href="https://web-work.tools/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
 </figure>
 
