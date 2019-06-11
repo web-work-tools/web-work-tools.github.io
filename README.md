@@ -1,4 +1,4 @@
-# Webwork.tools
+# web-work.tools
 
 
 ![](https://web-work.tools/images/power-words.png)
@@ -24,37 +24,37 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 
 ## Site Index
 
-* [Practical PGP](https://webwork.tools/practical-pgp/)
-* [Infominer's Starred Repositories](https://webwork.tools/github-stars/)
-* [Infominer's Forked Repositories](https://webwork.tools/forked-repositories/)
+* [Practical PGP](https://web-work.tools/practical-pgp/)
+* [Infominer's Starred Repositories](https://web-work.tools/github-stars/)
+* [Infominer's Forked Repositories](https://web-work.tools/forked-repositories/)
 
 ### WebPub
 
-* [GitHub Pages Starter Pack](https://webwork.tools/github-pages-starter-pack/)
-* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://webwork.tools/static-site-generators/)
-* [Make a Github Portfolio](https://webwork.tools/make-a-github-portfolio/)
-* [Open Source Publishing](https://webwork.tools/open-source-publishing/)
-* [Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
-* [Creating a Test Branch and Merging back the Changes](https://webwork.tools/branches-git/)
-* [Content Creation](https://webwork.tools/content-creation/)
-* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
-* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)
+* [GitHub Pages Starter Pack](https://web-work.tools/github-pages-starter-pack/)
+* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/static-site-generators/)
+* [Make a Github Portfolio](https://web-work.tools/make-a-github-portfolio/)
+* [Open Source Publishing](https://web-work.tools/open-source-publishing/)
+* [Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+* [Creating a Test Branch and Merging back the Changes](https://web-work.tools/branches-git/)
+* [Content Creation](https://web-work.tools/content-creation/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
 
 ### IndieWeb
 
 Eventually this will live along in the same site with web-work.. though I'm not sure of the specifics rn.
 
-* [IndieWeb Resources](https://webwork.tools/posts/resources/)
-* [IndieWeb GitHub Repositories](https://webwork.tools/posts/indieweb-github-repos/)
-* [FreeNode IRC #indieweb-dev on IIW RWoT and DID's](https://webwork.tools/posts/indieweb-dev-on-did/)
-* [Indigo Authors - Indiweb Features](https://webwork.tools/posts/indigo-authors-indieweb/)
+* [IndieWeb Resources](https://web-work.tools/posts/resources/)
+* [IndieWeb GitHub Repositories](https://web-work.tools/posts/indieweb-github-repos/)
+* [FreeNode IRC #indieweb-dev on IIW RWoT and DID's](https://web-work.tools/posts/indieweb-dev-on-did/)
+* [Indigo Authors - Indiweb Features](https://web-work.tools/posts/indigo-authors-indieweb/)
 
 ### SEO
 
-* [Learn-SEO](https://webwork.tools/learn-seo/)
-  * [Getting Started with Adwords Keyword Planner](https://webwork.tools/getting-started-adwords-keyword-planner/)
-* [100s of free SEO Tools](https://webwork.tools/seo-tools/)
+* [Learn-SEO](https://web-work.tools/learn-seo/)
+  * [Getting Started with Adwords Keyword Planner](https://web-work.tools/getting-started-adwords-keyword-planner/)
+* [100s of free SEO Tools](https://web-work.tools/seo-tools/)
 
 
 ## Off-Site Resources

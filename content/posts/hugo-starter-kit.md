@@ -6,7 +6,7 @@ tags: [resources, hugo, static site generators, webpub]
 image:
   feature: /images/hugo-starter-kit.png
 date: 2019-06-06
-summary: "I've begun organizing resources around using the Hugo Static Site Generator. Official Resources, Tutorials, Themes, Sortcodes and More!"
+summary: I've begun organizing resources around using the Hugo Static Site Generator. Official Resources, Tutorials, Themes, Sortcodes and More!
 aliases:
   - /posts/hugo-starter-kit/
   - /hugo-starter-kit/
