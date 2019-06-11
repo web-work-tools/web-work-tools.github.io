@@ -1,7 +1,7 @@
 # Webwork.tools
 
 
-![](https://webwork.tools/images/power-words.png)
+![](https://web-work.tools/images/power-words.png)
 
 This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
 
@@ -20,7 +20,7 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 * <a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a>
 
 
-![](https://webwork.tools/images/webwork-tools.png)
+![](https://web-work.tools/images/webwork-tools.png)
 
 ## Site Index
 
