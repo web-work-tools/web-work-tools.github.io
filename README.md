@@ -1,7 +1,7 @@
-# Webwork.tools
+# [Webwork.tools](https://web-work.tools)
 
+![](https://imgur.com/j1TZ1Zf.png)
 
-![](https://web-work.tools/images/power-words.png)
 
 This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
 
@@ -9,7 +9,7 @@ This page has some samples of content that I've created for others, as well as g
 
 Originally it wasn't in blog form... but I just looked on github, to see when I started, and chose the date that way, for each. 
 
-![](https://imgur.com/j1TZ1Zf.png)
+
 
 ## Articles by Infominer
 
@@ -52,6 +52,9 @@ Eventually this will live along in the same site with web-work.. though I'm not 
 
 ### SEO
 
+![](https://web-work.tools/images/power-words.png)
+
+
 * [Learn-SEO](https://webwork.tools/learn-seo/)
   * [Getting Started with Adwords Keyword Planner](https://webwork.tools/getting-started-adwords-keyword-planner/)
 * [100s of free SEO Tools](https://webwork.tools/seo-tools/)
@@ -85,3 +88,4 @@ The following are "Top Level" web-work resources that do not yet have their own 
 ### Devops
 
 * [Leo-G/DevopsWiki](https://github.com/Leo-G/DevopsWiki)
+
