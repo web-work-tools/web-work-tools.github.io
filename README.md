@@ -1,6 +1,7 @@
 # [Webwork.tools](https://web-work.tools)
 
-![](https://imgur.com/j1TZ1Zf.png)
+
+![](https://web-work.tools/images/webwork-tools.png)
 
 
 This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
@@ -19,8 +20,7 @@ Originally it wasn't in blog form... but I just looked on github, to see when I 
 * <a href="https://www.csbtechemporium.com/types-of-computer-programming/" target="_blank">How Many Types of Software Development are there?</a>
 * <a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a>
 
-
-![](https://web-work.tools/images/webwork-tools.png)
+![](https://imgur.com/j1TZ1Zf.png)
 
 ## Site Index
 
