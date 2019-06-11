@@ -18,7 +18,7 @@ summary: A list of my starred Github Repositories. Ill star a lot more, now that
 
 ---
 
-![](https://webwork.tools/images/infominer-starred-repositories-head.png)
+![](https://web-work.tools/images/infominer-starred-repositories-head.png)
 Here's all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.
 
 I used this: 

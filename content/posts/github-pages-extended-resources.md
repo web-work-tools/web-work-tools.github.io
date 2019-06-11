@@ -11,18 +11,18 @@ image:
 summary: "All those extra things you'll need to know."
 ---
 
-![](https://webwork.tools/images/github-pages-extended-resources.png)
+![](https://web-work.tools/images/github-pages-extended-resources.png)
 
 * Continued from [**Github Pages Starter Pack**](/github-pages-starter-pack/).
 
 ## Related Resources
 
-* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
-* [Content Creation](https://webwork.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://webwork.tools/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [Content Creation](https://web-work.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
 
 
 ## Customizations
@@ -195,7 +195,7 @@ Not sure how much of this is useful, but I'll save for further examination.
 
 ### Indieweb
 
-<a href="https://webwork.tools/indieweb-resources/" class="btn btn-success">Webwork.tools/indieweb-resources</a>
+<a href="https://web-work.tools/indieweb-resources/" class="btn btn-success">web-work.tools/indieweb-resources</a>
 
 * [indieweb.org](https://indieweb.org)
 * [Micropub](https://indieweb.org/Micropub)

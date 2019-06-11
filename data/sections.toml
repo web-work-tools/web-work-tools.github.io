@@ -2,5 +2,5 @@
 	title = "All posts"
 [posts.image]
           feature = "web-work-tools.png"
-          credit = "webwork.tools"
-          creditlink = "http://webwork.tools/webwork.tools/"
+          credit = "web-work.tools"
+          creditlink = "http://web-work.tools/web-work.tools/"

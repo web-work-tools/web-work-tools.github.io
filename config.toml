@@ -2,7 +2,7 @@ publishdir = "docs"
 enableEmoji = true
   
 baseurl = "https://web-work.tools/"
-title = "Webwork.tools"
+title = "Web-work.tools"
 copyright = "⧉ Infominer ⧉ CC0 - Public Domain ⧉ Powered by: themes.gohugo.io/indigo via: gohugoio/hugo ⧉"
 languageCode = "en-gb"
 theme = "indigo"

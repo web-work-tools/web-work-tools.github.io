@@ -15,7 +15,7 @@ slugs: /learn-html-css/
 summary: Trying to keep track of the various languages that our SSGs transform into proper HTML.
 ---
 
-![](https://webwork.tools/images/HTML5-related-tech-Sergey-Mavrody.png)
+![](https://web-work.tools/images/HTML5-related-tech-Sergey-Mavrody.png)
 
 * [The_web_standards_model_-_HTML_CSS_and_JavaScript](https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript)
 
@@ -79,9 +79,9 @@ Just this for now, will get deeper with structured data, later on.
 
 ## Related Posts
 
-* [Learn HTML CSS and Associated Markup Languages](https://webwork.tools/learn-html-css/)
-* [Content Creation](https://webwork.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://webwork.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://webwork.tools/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://webwork.tools/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://webwork.tools/command-line-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [Content Creation](https://web-work.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)

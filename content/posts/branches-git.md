@@ -15,7 +15,7 @@ slugs: /branches-git/
 summary: "I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running. Use the command `git checkout -b` will allow you to create a local branch for testing."
 ---
 
-[![](https://webwork.tools/images/Git_branches_fork.png)](https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg)
+[![](https://web-work.tools/images/Git_branches_fork.png)](https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg)
 
 I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
 
@@ -55,7 +55,7 @@ You probably knowbut you don't need github at all, and I'm learning that a signi
 
 `git checkout -b` is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!
 
-* [More Git Resources](https://webwork.tools/github-pages-starter-pack/#git) >>
+* [More Git Resources](https://web-work.tools/github-pages-starter-pack/#git) >>
 
 ## [Merging changes back to the master branch](https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master)
 
