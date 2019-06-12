@@ -8,6 +8,8 @@ share: true
 modified: 2019-05-26T13:15:59-23:00
 ---
 
+## Information Logistics
+
 I've gradually eliminated all of my clients from the time where I was primarily creating content for hire. As I learn more publishing skills, I can see that there is more value in that type of work. 
 
 I'd be more interested to write for you if you want me to set up your website. Regardless, I'll be happy to consider any offers.
@@ -38,6 +40,7 @@ ISO Clients Who Want Bitcoin-Related Content.
 One project I'm hoping to find a buyer for is a series of articles on the history leading to Bitcoin. 
 
 **Rough Outline**
+
 * History of Cryptography:
   * Public Key Encryption (currently only available in books)
   * Hash Algorithms
