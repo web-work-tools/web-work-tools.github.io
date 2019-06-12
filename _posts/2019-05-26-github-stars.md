@@ -4,7 +4,7 @@ title: "Infominer's Starred GitHub Repositories"
 description: "An organized list of Repositories."
 modified: 2019-05-27T13:15:59-23:00
 tags: [github, stars, repositories, open source]
-permalink: infominer33-starred-repos/
+permalink: /infominer33-starred-repos/
 
 image:
   feature: infominer-starred-repositories-head.png
@@ -13,6 +13,7 @@ image:
   credit: See on Github
   creditlink: https://github.com/web-work-tools/web-work.tools.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
 ---
+
 
 Here's all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.
 
