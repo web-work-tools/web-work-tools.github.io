@@ -142,7 +142,7 @@ Running out of space on this page ;)
 ## >> [Markdown, HTML, CSS, etc.](https://web-work.tools/learn-html-css/) >>
 
 
-### Github Pages
+## Github Pages
 
 * [Github Pages Community Forum](https://github.community/t5/GitHub-Pages/bd-p/pages)
 * <a href="https://pages.github.com/versions/" target="_blank">https://pages.github.com/versions/</a> - These plugins can be used via gh-pages.
@@ -155,7 +155,7 @@ Running out of space on this page ;)
 * [Clearing Up Confusion around Baseurl](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
 
 
-### Jekyll
+## Jekyll
 
 ![](https://web-work.tools/images/gh-jekyll.png)
 
@@ -174,7 +174,7 @@ Running out of space on this page ;)
   * Can get older themes to work if you use the right verion of bundler (found in gemfile.lock).
 * [benbalter/jekyll-style-guide](https://github.com/benbalter/jekyll-style-guide)
 
-### Themes
+## Jekyll Themes
 
 I'll say now, if you are new to web-development, best to start off trying out a few of the [official GitHub Pages Themes](https://pages.github.com/themes/). 
 
@@ -207,7 +207,7 @@ I'm keeping track of themes that catch my eye:
 * [Documentation Theme Jekyll](https://idratherbewriting.com/documentation-theme-jekyll)
   ![](https://imgur.com/7UjPtdAl.png)
 
-### Classic
+### Classic Themes
 
 * [drjekyllthemes.github.io](https://drjekyllthemes.github.io) (classic 'files and folders')
 * [indieweb/blank-gh-site](https://github.com/indieweb/blank-gh-site)
