@@ -19,7 +19,7 @@ But you can see, eventually this will be 5 domains with infominer.id becoming th
 
 I should probably hoook each of those domains up with a re-direct right now... I've just been pre-occupied with other things. That way I could still gain some promotional benefit of using the domain, while retaining the SEO value of having them live together for the time being.
 
-WebWork will be a mix of traditional web-technologies, and practical application of new web-tech such as ipfs and blockchain. It's also where any practical data-science experiments would live.
+Web-work.tools will cover a mix of traditional web-technologies, and practical application of new web-tech such as ipfs and blockchain. It's also where any practical data-science experiments would live.
 
 Ok, thanks for having this chat with me!
 
