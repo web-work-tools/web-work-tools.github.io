@@ -30,14 +30,14 @@ I also show examples of the differences between the two, where and how I made ch
 
 1. `mmistakes/hpstr-jekyll-theme` is archived, and you can no longer submit issues or pull-requests.
 2. Hugo has a lot of support from the development community, and is growing quickly in features and popularity.
-3. It can be really hard finding working jekyll themes.
-4. There are a lot of awesome Hugo themes that generally seem to be operational.
+3. More options.
+4. Learn new skills.
 5. I know of some indieweb themes.
 6. `/themes/` directory allows for easy testing and switching between new themes.
 
 ## HPSTR Jekyll vs Hugo 
 
-I'm looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won't run in the newest version. If you have a newer suggestion, feel free to shout out. I will also find out what the options are.
+I'm looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won't run in the newest version. If you have a newer suggestion, feel free to shout out. I will also find out what the options are. 
 
 ### Releases
 
