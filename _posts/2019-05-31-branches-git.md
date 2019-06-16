@@ -9,10 +9,9 @@ redirect_from:
 permalink: /branches-git/
 image:
   feature: Git_branches_fork.png
-  credit: "Bunyk - Українська"
-  creditlink: "https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg"
 ---
 
+Image Source: [Bunyk - Українська](https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg)
 
 
 I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
