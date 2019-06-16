@@ -45,8 +45,6 @@ Originally it wasn't in blog form, but I've learned there are a number of reason
 
 ### IndieWeb
 
-Eventually this will live along in the same site with web-work.. though I'm not sure of the specifics rn.
-
 * [IndieWeb Resources](https://web-work.tools/indieweb/resources/)
 * [IndieWeb GitHub Repositories](https://web-work.tools/indieweb/github-repos/)
 * [FreeNode IRC #indieweb-dev on IIW RWoT and DID's](https://web-work.tools/indieweb/indieweb-dev-on-did/)
