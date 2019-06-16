@@ -2,7 +2,7 @@
 layout: post
 title: "Resources for Content Creation"
 description: "All kinda tools for images and editing and handy stuff to assist with content creation."
-modified: 2019-05-29T13:33:33-23:00
+modified: 2019-06-16T13:33:33-23:00
 tags: 
   - content creation
   - tools
@@ -61,10 +61,10 @@ This thing has extensions for all your coding needs... It is cross-platform, has
 
 ### Converters
 
-* https://pdf2png.com/
-* https://online2pdf.com/convert-pptx-to-pdf
-* https://convertio.co/pdf-html/
-* https://github.com/coolwanglu/pdf2htmlEX
+* [pdf2png](https://pdf2png.com/)
+* [pptx-to-pdf](https://online2pdf.com/convert-pptx-to-pdf)
+* [pdf to html](https://convertio.co/pdf-html/)
+* [coolwanglu/pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX)
 
 ### Sizes
 

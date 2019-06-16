@@ -5,7 +5,7 @@ description: "Resources for Publishing with Hugo via Git-Hub/Lab Pages."
 tags: [resources, hugo, static site generators, webpub]
 image:
   feature: hugo-starter-kit.png
-date: 2019-06-07
+modified: 2019-06-15T22:22:22-23:00
 excerpt: I've begun organizing resources around using the Hugo Static Site Generator. Official Resources, Tutorials, Themes, Sortcodes and More!
 redirect_from:
   - /hugo-starter-kit
@@ -118,6 +118,7 @@ Seriously just click a button, it creates the repo and publishes it for you.
 * [Academic Tips](https://lmyint.github.io/post/hugo-academic-tips/)
 * [Display Jupyter Notebooks with Academic](https://sourcethemes.com/academic/docs/jupyter/)
 * [Creating a Course or Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation)
+* [Academic - Migrate From Jekyll](https://sourcethemes.com/academic/docs/migrate-from-jekyll/)
 
 ### Learn
 

@@ -3,7 +3,7 @@ layout: post
 title: "Creating a Test Branch and Merging back the Changes"
 description: "Used while testing the hugo build of the HPSTR theme."
 tags: [hpstr, jekyll, hugo, theme, migration]
-date: 2019-05-31
+modified: 2019-05-31T22:22:22-23:00
 redirect_from:
   - /branches-git/
 permalink: /branches-git/

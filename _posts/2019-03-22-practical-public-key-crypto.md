@@ -17,7 +17,7 @@ redirect_from:
   - /practical-pgp
 date: 2019-03-22
 
-modified: 2019-06-11T13:15:59-23:00
+modified: 2019-06-16T13:15:59-23:00
 ---
 
     "Public key encryption: supporting secure transactions online since 1991!!"

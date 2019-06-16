@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Migrating from Jekyll HPSTR to Hugo
-description: Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo
+title: "Migrating from Jekyll HPSTR to Hugo"
+description: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo"
 tags: [hpstr, jekyll, hugo, theme, migration]
-date: 2019-06-01
+modified: 2019-06-16T22:22:22-23:00
 redirect_from:
   - /migrate-jekyll-hpstr-hugo
   - /migrate-jekyll-hpstr-hugo/
@@ -379,46 +379,7 @@ It seems like you need to type `hugo` to publish to the docs directory, because 
 
 ## Twitter Cards
 
-This part, I can't figure out.
-
-I don't understand why `.Title` is not `.title`.
-
-I'm pretty sure I need to add 
-
-`<meta name="twitter:site" content="{{ .site }}">`
-
-but I didn't have success with that yet.
-
-```
-<!-- Twitter Cards -->
-<meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ $.Site.Params.subtitle }}{{ end }}">
-{{ with .Site.Params.owner.twitter }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
-{{ if isset ($.Scratch.Get "Params") "image" }}
-    {{ $imageparams := index ($.Scratch.Get "Params") "image" }}
-    {{ with $imageparams.thumb }}
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:image" content="{{ . | absURL }}">
-    {{ else }}
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="{{ $imageparams.feature | absURL }}">
-    {{ end }}
-{{ end }}
-```
-
-I also added these lines to my config.toml
-
-```
-
-[twitter]
-  card = "summary_image_large"
-  site = "@infominer33"
-  title =  "web-work.tools: Independent Web-Work and Skyscraper Publishing."
-  description = "Resources for Independent Webworkers: Web-Publishing, SEO, Static Site Generators, Ubuntu, Research Driven Content."
-  image = "/images/web-work-tools.png"
-```
-
-I think some of those are supurfulous but it doesn't matter if I use extra, as long as I get all the right values in.
+For twitter cards, I use the [minimal-mistakes - _includes/seo.html](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/seo.html) as a reference for up to date syntax, and update the code that generates it wherever I need (or simply drop it in the includes of jekyll themes).
 
 ![](https://imgur.com/e6egggQ.png)
 
@@ -426,14 +387,13 @@ I think some of those are supurfulous but it doesn't matter if I use extra, as l
 ## Test Branches
 
 I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy it is, here on Hugo.
-* https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo
-* https://github.com/webwork-tools/webwork-tools.github.io/tree/hpster-jekyll
+* [webwork-tools.github.io/tree/test-hugo](https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo)
+* [webwork-tools.github.io/tree/hpster-jekyll](https://github.com/webwork-tools/webwork-tools.github.io/tree/hpster-jekyll)
 * [AngeloStravrow/indigo](https://github.com/AngeloStavrow/indigo)
 
 
 ## Resources
 
-* https://sourcethemes.com/academic/docs/migrate-from-jekyll/
 * [web.archive.org - Installing Hugo - Dec, 2017](http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing)
 * [web.archive.org - Using Hugo - Dec,2017](http://web.archive.org/web/20171211175036/http://gohugo.io/getting-started/usage)
 * [Creating a Test Branch and Merging changes back to Master](https://web-work.tools/posts/branches-git/)
@@ -441,13 +401,14 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 
 ## Other Hugo Themes
 
-* https://github.com/EmielH/tale-hugo
+* [/EmielH/tale-hugo](https://github.com/EmielH/tale-hugo)
 
 ## Over the Rainbow
 * [Blogging with Org-Mode and Hugo](http://masayk.github.io/tech/hugo/)
 
 ## Related Posts
 
+* [Hugo Starter Kit](https://web-work.tools/hugo-starter-kit/)
 * [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
 * [Content Creation](https://web-work.tools/content-creation/)
 * [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
