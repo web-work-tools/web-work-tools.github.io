@@ -69,11 +69,11 @@ Basically, if you use netlify it will build with whatever version you tell it to
 
 ### Tutorials
 
-* https://zwbetz.com/tags/hugo/ 
-* https://willschenk.com/tags/hugo/ 
+* [zwbetz.com - hugo](https://zwbetz.com/tags/hugo/)
+* [willschenk.com - hugo](https://willschenk.com/tags/hugo/)
 * [https://regisphilibert.com/tags/hugo/](https://regisphilibert.com/tags/hugo/)
 * [Hugo Static Site Tutorials](https://kodify.net/hugo-static-site-tutorials/)
-* https://discourse.gohugo.io/t/undocumented-asset-pipelines-starter-kits-and-boilerplates/8423
+* [Undocumented asset pipelines, Starter-Kits and Boilerplates](https://discourse.gohugo.io/t/undocumented-asset-pipelines-starter-kits-and-boilerplates/8423)
 
 ![](https://imgur.com/udN9Kcs.png)
 
@@ -82,15 +82,16 @@ Basically, if you use netlify it will build with whatever version you tell it to
 
 ## Hugo Shortcodes
 
-* https://gohugo.io/content-management/shortcodes/
-* https://github.com/parsiya/Hugo-Shortcodes
-* https://geekthis.net/post/hugo-shortcode-pack/ <-has pdf support via third party.
+* [Content Management - Shortcodes](https://gohugo.io/content-management/shortcodes/)
+* [parsiya/Hugo-Shortcodes](https://github.com/parsiya/Hugo-Shortcodes)
+* [Hugo Shortcode Pack](https://geekthis.net/post/hugo-shortcode-pack/) <-has pdf support via third party.
 
 ## Themes
 
 * [github.com/search?q=hugo+theme](https://github.com/search?q=hugo+theme)
 * [themes.gohugo.io](https://themes.gohugo.io/)
 * [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+  * [mikeymop/minimal-mistakes-hugo/](https://github.com/mikeymop/minimal-mistakes-hugo/) - I see there is also a minimal mistakes hugo theme, so I'll have to try that sometime :)
 
 ### Academic
 
@@ -106,10 +107,15 @@ There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.
 
 Seriously just click a button, it creates the repo and publishes it for you. 
 
-* https://sourcethemes.com/academic/docs/install/
+* [Academic Install](https://sourcethemes.com/academic/docs/install/)
+  >You can choose from one of the following four methods to install:
+    >- one-click install using your web browser (recommended)
+    >- install on your computer using Git with the Command Prompt/Terminal app
+    >- install on your computer by downloading the ZIP files
+    >- install on your computer with RStudio
 * [Writing content with Markdown, LaTeX, and Shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
 * [Getting Started With the Page Builder](https://sourcethemes.com/academic/docs/page-builder/) - Learn Academic's widget system.
-* https://lmyint.github.io/post/hugo-academic-tips/
+* [Academic Tips](https://lmyint.github.io/post/hugo-academic-tips/)
 * [Display Jupyter Notebooks with Academic](https://sourcethemes.com/academic/docs/jupyter/)
 * [Creating a Course or Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation)
 
@@ -119,10 +125,8 @@ Seriously just click a button, it creates the repo and publishes it for you.
 
 Another documentation theme, I think a bit simpler than Academic.
 
-* https://github.com/matcornic/hugo-theme-learn
-  * https://learn.netlify.com/en/
-
-
+* [matcornic/hugo-theme-learn](https://github.com/matcornic/hugo-theme-learn)
+  * [learn.netlify.com](https://learn.netlify.com/en/)
 
 ## Related Posts
 
