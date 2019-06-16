@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "All your web-work tools..."
+title: "All your web-work tools"
 description: "All your web-work tools are belong to us!"
 modified: 2019-06-15T15:59:13-23:00
 permalink: /are-belong-to-us/
