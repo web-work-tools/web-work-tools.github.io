@@ -11,7 +11,7 @@ image:
   feature: Git_branches_fork.png
   credit: "Bunyk - Українська"
   creditlink: "https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg"
-  ---
+---
 
 
 
