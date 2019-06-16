@@ -9,7 +9,8 @@ tags:
   - github
   - resources
 permalink: infominer33-forked-repos/
-
+redirect_from:
+  - forked-repositories/
 image:
   feature: infominer-forked-repositories.png
   thumb: /images/infominer-forked-repositories.png
