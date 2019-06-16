@@ -1,13 +1,9 @@
 ---
-layout: post
-title: "All your Web-work.tools..."
-description: "...are Belong to US!!"
-modified: 2019-05-29T15:59:13-23:00
+layout: page
+title: "Web-work.tools"
+description: "Web-work.tools are belong to us!"
+modified: 2019-06-15T15:59:13-23:00
 permalink: /are-belong-to-us/
-redirect_from:
-  - /webwork.tools/
-  - /webwork.tools
-
 share: true
 image:
   feature: power-words.png
@@ -16,24 +12,16 @@ image:
   creditlink: http://web-work.tools/
 ---
 
+![](https://imgur.com/j1TZ1Zf.png)
+
 This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
 
 This page has some samples of content that I've created for others, as well as general resources for web-work.
 
 Originally it wasn't in blog form... but I just looked on github, to see when I started, and chose the date that way, for each. 
 
-![](https://imgur.com/j1TZ1Zf.png)
-
-## Articles by Infominer
-
-* <a href="https://www.csbtechemporium.com/web-design-history/" target="_blank">Brief History of Web Design</a>
-* <a href="https://www.csbtechemporium.com/keyword-research-fundamentals/" target="_blank">Keyword Research Fundamentals</a>
-* <a href="https://csbtechemporium.com/seo-simplified-2019" target="_blank">SEO Simplified! Increase your Rankings 2019!</a>
-* <a href="https://www.csbtechemporium.com/types-of-computer-programming/" target="_blank">How Many Types of Software Development are there?</a>
-* <a href="https://www.csbtechemporium.com/digital-age-small-business/" target="_blank">Small Business in the Digital Age.</a>
-
-
 ![](https://web-work.tools/images/webwork-tools.png)
+
 
 ## Site Index
 
