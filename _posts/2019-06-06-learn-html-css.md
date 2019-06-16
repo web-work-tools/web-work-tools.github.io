@@ -2,7 +2,7 @@
 layout: post
 title: "The Markup languages that get transformed into a website."
 description: "Structure and Style, at a Glance: HTML, CSS, YAML, TOML, JSON, Kramdown."
-modified: 2019-05-29T22:22:22-23:00
+modified: 2019-06-15T22:22:22-23:00
 tags: [resources, html, css, meta-tags, kramdown, katex, toml, yaml, json, fundamentals]
 image:
   feature: HTML5_APIs_and_related_technologies_taxonomy.png
@@ -28,9 +28,9 @@ redirect_from:
 
 Just this for now, will get deeper with structured data, later on.
 
-* https://github.com/toml-lang/toml
-* http://yaml.org/
-* https://www.json.org/
+* [github.com/toml-lang/toml](https://github.com/toml-lang/toml)
+* [yaml.org](http://yaml.org/)
+* [json.org](https://www.json.org/)
 
 
 ## HTML

@@ -3,7 +3,7 @@ layout: post
 title: "GitHub Pages-Extended Resources"
 description: "Publishing a Website via GitHub pages is free, and easy. Everything you need to publish in one place."
 tags: [jekyll, github-pages, resources, web-publishing]
-modified: 2019-06-11T15:59:13-23:00
+modified: 2019-06-16T15:59:13-23:00
 permalink: /github-pages-extended-resources/
 
 redirect_from: 
