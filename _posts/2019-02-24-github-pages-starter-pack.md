@@ -327,7 +327,7 @@ I'm wondering if I can move these documentation theme layouts, or even this post
 
 Use `redirect_from: internal/url` to change the location you are publishing, but keep old links.
 Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps you want it to live on another site, but not lose your valuable links :)
-{: .notice--info}
+{: .notice }
 
 
 
