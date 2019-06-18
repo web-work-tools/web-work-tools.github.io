@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mining, Exploring, Exporting: Creating Content CSV Tweet Histories"
+title: "Mining, Exploring, Exporting: Creating Content with CSV Tweet Histories"
 description: "Export your tweets to CSV, filter in a spreadsheet and publish."
 tags: [twitter, export, webpub, csv, data, jekyll]
 categories: [content-creation]
