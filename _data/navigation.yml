@@ -10,7 +10,7 @@
   url: /services/
 
 - title: "IndieWeb"
-  url: "https://infominer.id/indieweb/"
+  url: "/indieweb/"
 
 - title: GitHub Pages Starter Pack
   url: /github-pages-starter-pack/
