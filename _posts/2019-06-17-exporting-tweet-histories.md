@@ -13,7 +13,7 @@ excerpt: I was using re-tweets as a way to save information for future examinati
 redirect_from:
   - export-tweets-csv/
 permalink: content-creation/export-tweets-csv/
-
+canonical_url: https://web-work.tools/content-creation/export-tweets-csv/
 ---
 
 Around a year ago, I began retweeting all the most valuable information I found on twitter. Then, I would periodically scroll back and manually paste the links into the channels of a discord server, organized by category.
