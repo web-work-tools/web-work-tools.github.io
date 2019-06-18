@@ -5,7 +5,7 @@ description: "Export your tweets to CSV, filter in a spreadsheet and publish."
 tags: [twitter, export, webpub, csv, data, jekyll]
 categories: [content-creation]
 image:
-  feature: twitter-export-csv.png
+  feature: tweet-history-data-download-research-content-creation-csv.png
   caption: "[rob-murray/jekyll-twitter-plugin/](https://github.com/rob-murray/jekyll-twitter-plugin/) - A Liquid tag plugin for the Jekyll blogging engine that embeds Tweets, Timelines and more from Twitter API"
   thumb: /images/twitter-export-thumb.png
 modified: 2019-06-18T22:22:22-23:00
