@@ -6,9 +6,8 @@ tags: [twitter, export, webpub, csv, data, jekyll]
 categories: [content-creation]
 image:
   feature: tweet-history-data-download-research-content-creation-csv.png
-  og_image: twitter-export-csv.png
   caption: "[rob-murray/jekyll-twitter-plugin/](https://github.com/rob-murray/jekyll-twitter-plugin/) - A Liquid tag plugin for the Jekyll blogging engine that embeds Tweets, Timelines and more from Twitter API"
-  thumb: /images/twitter-export-thumb.png
+  thumb: /images/twitter-export-csv.png
 modified: 2019-06-18T22:22:22-23:00
 excerpt: "I was using re-tweets as a way to save information for future examination. I couldn't keep up, manually. Now will sort through it with a spreadsheet program, and collect info here."
 redirect_from:
