@@ -94,7 +94,7 @@ and then found this app that makes them even prettier and has an option to push 
 
 * [WebOfTrustInfo/rwot8-barcelona](https://github.com/WebOfTrustInfo/rwot8-barcelona)
 * [good-lly/gdpr-documents](https://github.com/good-lly/gdpr-documents)
-* [DIDecentralized](https://github.com/infominer33/DIDecentralized)
+* [DIDecentralized](https://github.com/didecentral/didecentral.github.io)
 * [w3c-ccg/did-test-suite](https://github.com/w3c-ccg/did-test-suite)
 * [WebOfTrustInfo/rwot3-sf](https://github.com/WebOfTrustInfo/rwot3-sf)
 * [WebOfTrustInfo/rwot5-boston](https://github.com/WebOfTrustInfo/rwot5-boston)

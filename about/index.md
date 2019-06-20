@@ -25,7 +25,7 @@ I'm also quite interested in [data science](https://www.csbtechemporium.com/deep
 
 ## [InfoHub](https://infominer.id)
 
-This is where you can get updates regarding any of my web-sites, and a little about me.
+This is where you can get updates most of the web-sites I'm working on.
 
 ## [Web-work.tools](https://Web-work.tools)
 
@@ -47,10 +47,14 @@ Website for the SourceCrypto Discord Server, and archive of it's 170+ channels o
 
 Histories related to Bitcoin.
 
+### [Decentralized Web](https://sourcecrypto.pub/decentralized-web)
+
+Histories related to Bitcoin.
+
 ### [Transcripts](https://sourcecrypto.pub/transcripts)
 
 Just crypto transcriptions.
 
-## [Learn Crypto Trading](https://infominer.id/learn-crypto-trading)
+## [Learn Crypto Trading](https://learncryptotrading.co)
 
 Resources for learning to trade crypto.

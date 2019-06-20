@@ -7,14 +7,14 @@ words_per_minute: 200
 url: "https://web-work.tools"
 # Owner/author information
 owner:
-  name:           "⧉ Infominer"
-  avatar:         "info-id.png"
+  name:           "Web-work.tools"
+  avatar:         "logo.png"
   bio:            "Full-Time Crypto-Curation, Histories, and Static Web-Site Publishing ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
   email:          "infominer@protonmail.com"
   # Social networking links used in footer. Update and remove as you like.
   twitter:        "infominer33"
   facebook:       ""
-  github:         "infominer33"
+  github:         "web-work-tools"
   stackexchange:  "infominer33"
   linkedin:       ""
   instagram:      "infominer33"

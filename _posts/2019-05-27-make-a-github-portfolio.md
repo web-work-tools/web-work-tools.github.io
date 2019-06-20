@@ -104,7 +104,7 @@ topics:
 
   - name: Decentralized Identity
     web_url: https://github.com/topics/decentralized-identity
-    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
+    image_url: https://decentralized-id.com/assets/icons/didicon.png
 
 ```
 
