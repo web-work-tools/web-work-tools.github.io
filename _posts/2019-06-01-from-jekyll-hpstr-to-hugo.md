@@ -413,5 +413,4 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 * [Content Creation](https://web-work.tools/content-creation/)
 * [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
 * [Static Site Generators](https://web-work.tools/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
 * [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
