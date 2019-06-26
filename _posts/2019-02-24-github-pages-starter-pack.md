@@ -121,26 +121,6 @@ There is a plugin that builds index files from all the readme.md files of your r
 
 3. These [classic themes](#classic) are just files and folders, everything where you can see it (and should be forkable to create working websites)
 
-## Moved
-
-Running out of space on this page ;) 
-
-**NOTE:** The following resources are specifically for github-pages\jekyll *compatible* themes. Anything requiring a local build will now live on another page:
-
-### Static Site Generators Other Than Jekyll
-
-<a href="https://web-work.tools/static-site-generators/" class="btn btn-success">Static Site Generators</a>
-
-### Content Creation
-
-<a href="https://web-work.tools/content-creation/" class="btn btn-primary">Content Creation</a>
-
-## Fundamentals
-
-<a href="https://lab.github.com/" class="btn btn-info">GitHub Learning Lab</a>
-
-## >> [Markdown, HTML, CSS, etc.](https://web-work.tools/learn-html-css/) >>
-
 
 ## Github Pages
 
@@ -244,6 +224,7 @@ Minimal Mistakes is the most popular theme for Github Pages, and with good cause
 * [mmistakes/jekyll-theme-unit-test](https://github.com/mmistakes/jekyll-theme-unit-test)
 * [Minimal Mistakes Navigation Examples](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_data/navigation.yml)
 * [Minimal Mistakes - Post Archive with Feature Rows](https://mmistakes.github.io/minimal-mistakes/post-archive-feature-rows/) [[source]](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/post-archive-feature-rows.html)
+* [minimal-mistakes/markup-syntax-highlighting/](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/)
 
 ### Other themes by [@mmistakes](https://github.com/mmistakes):
 
