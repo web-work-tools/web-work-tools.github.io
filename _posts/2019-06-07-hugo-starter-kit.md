@@ -80,6 +80,23 @@ Basically, if you use netlify it will build with whatever version you tell it to
 * [Hugo Video Turorials](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
   >This course covers the basics of using Hugo - Static Site Generator. Work your way through the videos and we'll teach you everything you need to know to create a professional and scalable website or blog!
 
+## Internal Templates
+
+Hugo ships with a group of boilerplate templates that cover the most common use cases for static websites.
+
+* [The Internal Templates](https://gohugo.io/templates/internal/#the-internal-templates)
+
+```
+    _internal/disqus.html
+    _internal/google_news.html
+    _internal/google_analytics.html
+    _internal/google_analytics_async.html
+    _internal/opengraph.html
+    _internal/pagination.html
+    _internal/schema.html
+    _internal/twitter_cards.html
+```
+
 ## Hugo Shortcodes
 
 * [Content Management - Shortcodes](https://gohugo.io/content-management/shortcodes/)
