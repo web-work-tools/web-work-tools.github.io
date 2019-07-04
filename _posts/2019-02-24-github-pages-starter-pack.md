@@ -31,20 +31,29 @@ The number of technical subjects I've begun to learn, thanks to github, is incre
 
 ![](https://imgur.com/oin0Ir8.png)
 
+## Related Resources
+
+* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
+* [Content Creation](https://web-work.tools/content-creation/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+
+
 ## Introduction
 
 I'm just a newb that created this resource to help myself. It does take a lot of work to create bigger projects like, however it's really simple to create a blog, or a homepage.
 
 Corrections, suggestions, tips, and links would be all appreciated.
 
-**Note:** this page is just for Jekyll\GHPages. I'm making new pages for the other stuff like [static site generators besides jekyll](https://web-work.tools/static-site-generators/), and [content creation](https://web-work.tools/content-creation/).
 
 ![](https://web-work.tools/images/gh-pages-starter-pack.png)
 
 
-Github pages runs Jekyll, which runs [Kramdown](https://kramdown.gettalong.org/quickref.html), which can transform yaml, markdown, and a number of related languages into proper html.
+Github pages runs Jekyll, which uses [Kramdown](https://kramdown.gettalong.org/quickref.html) to transform yaml, markdown, and a number of related languages into proper html.
 
-Github pages can be used, like, 4 different ways. It’s versitile, but can be confusing.
+## Getting Started
 
 The simplest way to use pages is to choose one of the <a href="https://pages.github.com/themes/" target="_blank">official GitHub pages themes</a>. Just go into your repository settings:
 
@@ -67,32 +76,93 @@ Namecheap supports BTC purchases, so I'm including their github how-to here. If 
 * [namecheap.com - how-do-i-link-my-domain-to-github-pages](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages)
 
 
-## Getting Started
-
-If you used the theme chooser, all you need to do is edit README.md, and your page is built instantly when you save a commit to the repository.
-
-**Create an index.md**
-
-Although pages will build an index.html from your readme.md, pages will not behave as expected if you try to do any configuration or additional optimization with only readme.md.
-
-in that index.md you need to include front matter:
-
-```
----
-layout: default
----
-```
-
-There is a plugin that builds index files from all the readme.md files of your repository.. but it has trouble creating an index.html from your repositories primary README.md.
-
-
-
 ## Besides the Theme Chooser
 
+It's time for an update, since I previously didn't really understand all of the options very well.
 
-1. Remote Themes.
+There are a few ways to use GitHub Pages. How many? 
 
-   This is supposed to be the easy route, and makes it simpler to keep your source files up to date. 
+I'll list the ones that I can think of:
+
+* [Gem Themes](#gem-based-themes)
+  * [GitHub Supported](#github-supported)
+  * [Everything Else](#everything-else)
+* [Remote Themes](#remote-themes)
+* Files and Folders (Classic)
+
+## Gem Based Themes
+
+Gem files are packages that contain all of the files necessary for building your site, and keep your repository directory un-cluttered. Then, if you want to change a file that's in the gem, you just create the directory and pur the file where it goes, and configure as you wish. 
+
+* [planetjekyll/awesome-jekyll-themes](https://github.com/planetjekyll/awesome-jekyll-themes)
+  >Q: How can I get started with gem-packaged themes? / Do I need to package my theme into a gem?
+  >
+  >Gem-packaged themes are just an advanced option and in addition they are in development for (real world) experiments (e.g. think v0.1 as stated by the Ben Balter - the lead designer / manager / dev at GitHub).
+  >
+  >Thus, to conclude do NOT read too much into the official themes docs e.g. as the only or "right" way to design a theme. Just (continue to) use "classic" themes - there are hundreds to learn from and once you have mastered "classic" themes you can "graduate" to the master class, that is, using gem-packaged themes.  
+
+
+### GitHub [Supported](https://pages.github.com/themes/)
+
+GitHub Pages Supports the following gem themes:
+
+* Architect
+* Cayman
+* Dinky
+* Hacker
+* Leap day
+* Merlot
+* Midnight
+* Minima
+* Minimal
+* Modernist
+* Slate
+* Tactile
+* Time machine
+
+### Everything Else
+
+You can use any gem based theme that you want. However, *GitHub* won't build those for you.
+
+You must build them locally, and tell jekyll to build to the `docs` directory, which you may have noticed as an option in your repository settings, and github will publish that directory. However, for user or organization pages, you can only publish from the master directory.
+
+So this will only work for projects other than your homepage, or your organizations homepage.
+
+Simply add the following line to your `_config.yml`
+
+```yml
+destination: docs
+```
+
+Then add the gem and the source, also add any plugins you are using, such as in this example:
+
+```
+source 'https://rubygems.org'
+gem "minimal-mistakes-jekyll"
+
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem "jekyll-feed"
+gem "jemoji"
+gem "jekyll-include-cache"
+```
+
+then from the root of your project directory, on your local command-line:
+
+`bundle install`
+`bundle exec jekyll serve`
+
+And you can view your updates to the project locally, before sending them over to github.
+
+Even if you don't use this install method, you should use the same steps to build locally, regardless.
+
+* [bundler.io](https://bundler.io/)
+* [Adding a Gem to your Gemfile - help.github.com](https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site#adding-your-theme-as-a-gem-to-your-gemfile)
+
+## Remote Themes
+
+This makes it simpler to keep your source files up to date. However, it is slower than using gems to build locally
   
    * [github.blog/2017-11-29-use-any-theme-with-github-pages/](https://github.blog/2017-11-29-use-any-theme-with-github-pages/)
    * [Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme)
@@ -104,22 +174,18 @@ There is a plugin that builds index files from all the readme.md files of your r
    remote_theme: benbalter/retlab
    ```
 
-   Essentially, if you're just editing files on github, you should just add those lines to your _config.yml along w an index file and Jekyll should build your site.
+Essentially, if you're just editing files on github, you should just add those lines to your _config.yml along w an index file and Jekyll should build your site.
 
 
+## Classic Themes
 
-2. You can also run any Gem based theme from your page. Gem files are packages that contain all of the files necessary for building your site, and keep your repository directory un-cluttered. Then, if you want to change a file that's in the gem, you just create the directory and pur the file where it goes, and configure as you wish. 
+These classic themes are just files and folders, everything where you can see it (and should be forkable to create working websites).
 
-   * [planetjekyll/awesome-jekyll-themes](https://github.com/planetjekyll/awesome-jekyll-themes)
-     >Q: How can I get started with gem-packaged themes? / Do I need to package my theme into a gem?
-     >
-     >Gem-packaged themes are just an advanced option and in addition they are in development for (real world) experiments (e.g. think v0.1 as stated by the Ben Balter - the lead designer / manager / dev at GitHub).
-     >
-     >Thus, to conclude do NOT read too much into the official themes docs e.g. as the only or "right" way to design a theme. Just (continue to) use "classic" themes - there are hundreds to learn from and once you have mastered "classic" themes you can "graduate" to the master class, that is, using gem-packaged themes.  
-     >
-     >I understand what they're saying, but I feel kind of the opposite. I used the theme chooser and remote\gem themes to begin learning. Then again, I didn't really understand my options when I started.
 
-3. These [classic themes](#classic) are just files and folders, everything where you can see it (and should be forkable to create working websites)
+* [drjekyllthemes.github.io](https://drjekyllthemes.github.io) (classic 'files and folders')
+* [ChristopherA/simplest-github-page](https://github.com/ChristopherA/simplest-github-page)
+* [prose/starter](https://github.com/prose/starter)
+* [https://github.com/kinlane/beforeeighteen](https://github.com/kinlane/beforeeighteen) (template for presentation style pages.)
 
 
 ## Github Pages
@@ -187,13 +253,6 @@ I'm keeping track of themes that catch my eye:
 * [Documentation Theme Jekyll](https://idratherbewriting.com/documentation-theme-jekyll)
   ![](https://imgur.com/7UjPtdAl.png)
 
-### Classic Themes
-
-* [drjekyllthemes.github.io](https://drjekyllthemes.github.io) (classic 'files and folders')
-* [indieweb/blank-gh-site](https://github.com/indieweb/blank-gh-site)
-* [ChristopherA/simplest-github-page](https://github.com/ChristopherA/simplest-github-page)
-* [prose/starter](https://github.com/prose/starter)
-* [https://github.com/kinlane/beforeeighteen](https://github.com/kinlane/beforeeighteen) (template for presentation style pages.)
 
 
 ### Hydejack
@@ -268,6 +327,22 @@ I will try migrating this to the Hugo port of this theme, which i believe is mai
 
 
 ## Setup
+
+
+**Create an index.md**
+
+Although pages will build an index.html from your readme.md, pages will not behave as expected if you try to do any configuration or additional optimization with only readme.md.
+
+in that index.md you need to include front matter:
+
+```
+---
+layout: default
+---
+```
+
+There is a plugin that builds index files from all the readme.md files of your repository.. but it has trouble creating an index.html from your repositories primary README.md.
+
 
 ### Front Matter
 

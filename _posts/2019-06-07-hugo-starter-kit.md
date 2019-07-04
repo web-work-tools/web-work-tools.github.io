@@ -80,21 +80,58 @@ Basically, if you use netlify it will build with whatever version you tell it to
 * [Hugo Video Turorials](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
   >This course covers the basics of using Hugo - Static Site Generator. Work your way through the videos and we'll teach you everything you need to know to create a professional and scalable website or blog!
 
+### Hugo Variables and Templating
+
+* [Site Variables](https://gohugo.io/variables/site/)
+* [Page Variables](https://gohugo.io/variables/page/)
+
+
 ## Internal Templates
 
 Hugo ships with a group of boilerplate templates that cover the most common use cases for static websites.
 
-* [The Internal Templates](https://gohugo.io/templates/internal/#the-internal-templates)
+* [The Internal Templates](https://gohugo.io/templates/internal/#the-internal-templates) 
 
+### Twitter Cards
+
+* [Internal Templates: Twitter Cards](https://gohugo.io/templates/internal/#configure-twitter-cards)
+
+I guess the creators of hugo don't use twitter much... since I couldn't get interal includes to work. Or probably I am borked.. anyways.
+
+```html
+    <!-- Twitter Cards-->
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image:src" content="{{ with .Params.images }}{{ . }}{{ else }}{{ .Site.Params.images }}{{ end }}"/>
+    <!-- Twitter Card data -->
+    <meta name="twitter:title" content="{{ .Title }}"/>
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
+    {{ with .Site.Social.twitter }}<meta name="twitter:site" content="@{{ . }}"/>{{ end }}
+    {{ with .Site.Social.twitter_domain }}<meta name="twitter:domain" content="{{ . }}"/>{{ end }}
 ```
-    _internal/disqus.html
-    _internal/google_news.html
-    _internal/google_analytics.html
-    _internal/google_analytics_async.html
-    _internal/opengraph.html
-    _internal/pagination.html
-    _internal/schema.html
-    _internal/twitter_cards.html
+
+I still use their params, but coocked up my own based from theirs and something I had in my head.
+
+You can verify this works at [web-work.tools/indieweb](https://web-work.tools/indieweb):
+
+![](https://imgur.com/CGtUwEI.png)
+
+Now I just have to design a header image that fits with twitter dimensions, or set it up to look for an og:image, incase I use a thinner banner image.
+
+**Params for config.toml**
+
+```toml
+[params]
+  description = "Text about my cool site"
+  images = ["site-feature-image.jpg"]
+```
+
+**Front Matter Post Variables**
+
+```toml
+description = "Text about this post"
+images = ["post-cover.png"]
+title = "Post title"
 ```
 
 ## Hugo Shortcodes
