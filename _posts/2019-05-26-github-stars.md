@@ -4,9 +4,10 @@ title: "Infominer's Starred GitHub Repositories"
 description: "An organized list of Repositories."
 modified: 2019-05-27T13:15:59-23:00
 tags: [github, stars, repositories, open source]
-permalink: /infominer33-starred-repos/
+permalink: github-stars/
 redirect_from:
-  - github-stars/
+  - infominer33-starred-repos/
+  - github-stars
 image:
   feature: infominer-starred-repositories-head.png
   thumb: /images/infominer-starred-repositories.jpeg
