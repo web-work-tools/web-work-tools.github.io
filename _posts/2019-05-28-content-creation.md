@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Resources for Content Creation"
-description: "All kinda tools for images and editing and handy stuff to assist with content creation."
+teaser: "All kinda tools for images and editing and handy stuff to assist with content creation."
 modified: 2019-06-16T13:33:33-23:00
 tags: 
   - content creation
@@ -9,10 +9,12 @@ tags:
   - resources
 permalink: /content-creation/
 
+header:
+  image_fullwidth: "content-creation.png"
+
 image:
-  feature: content-creation.png
-  thumb: /images/content-creation.png
-  og_image: content-thumb.png
+  thumb: "content-creation.png"
+  #og_image: content-thumb.png
 
 ---
 

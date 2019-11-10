@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Infominer's Forked Repositores"
-description: "An organized list of repositories I've forked."
+teaser: "An organized list of repositories I've forked."
 modified: 2019-05-29T22:22:22-23:00
 tags: 
   - forked
@@ -11,10 +11,12 @@ tags:
 permalink: infominer33-forked-repos/
 redirect_from:
   - forked-repositories/
+header:
+  image_fullwidth: "infominer-forked-repositories.png"
+
 image:
-  feature: infominer-forked-repositories.png
-  thumb: /images/infominer-forked-repositories.png
-  og_image: forked-thumb.png
+  thumb: "infominer-forked-repositories.png"
+ #og_image: forked-thumb.png
 
 ---
 

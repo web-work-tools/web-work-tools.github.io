@@ -1,17 +1,18 @@
 ---
-layout: post
+layout: page
 title: "Open Source Publishing."
-description: "Infominer.id - All Page Rankings and Organic Search Rankings"
+teaser: "Infominer.id - All Page Rankings and Organic Search Rankings"
 modified: 2019-05-30T13:15:59-23:00
 tags: [google, organic search, stats, open source, github-pages]
 permalink: /open-source-publishing/
 
+header:
+  image_fullwidth: "infolytics/infominer-id-all-pages-20190417-20190524.jpg"
+  caption: "(PDF)"
+  caption_url: "https://github.com/web-work-tools/web-work.tools.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf"
+
 image:
-  feature: infolytics/infominer-id-all-pages-20190417-20190524.jpg
-  thumb: /images/infolytics/5-25-19-organic-search-infominer.png
-  og_image: infolytics/5-25-19-organic-search-infominer.png
-  credit: See on Github
-  creditlink: https://github.com/web-work-tools/web-work.tools.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
+  thumb: "/images/infolytics/5-25-19-organic-search-infominer.png"
 toc: false
 ---
 

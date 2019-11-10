@@ -1,17 +1,18 @@
 ---
-layout: post
+layout: page
 title: "Infominer's GitHub Portfolio and HowTo"
-description: "How to make a Portfolio for your GitHub repositories with `github/personal-website`"
+teaser: "How to make a Portfolio for your GitHub repositories with `github/personal-website`"
 modified: 2019-05-28T13:15:59-23:00
 tags: [github, repositories, open source, portfolio, github-pages]
 permalink: /make-a-github-portfolio/
 
+header:
+  image_fullwidth: "infominer33-github-portfolio.jpeg"
+  caption: "Check it Out!"
+  caption_url: "https://infominer.id/repo-portfolio"
+
 image:
-  feature: infominer33-github-portfolio.jpeg
-  thumb: /images/infominer33-github-portfolio.jpeg
-  og_image: infominer33-github-portfolio.jpeg
-  credit: Check it Out!
-  creditlink: https://infominer.id/repo-portfolio
+  thumb: "infominer33-github-portfolio.jpeg"
 ---
 
 I learned of this cool project from [@bmann](https://twitter.com/bmann). I've been wanting a simple way to make a page like this for a while!

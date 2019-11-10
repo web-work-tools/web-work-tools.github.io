@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: page
 title: "Hugo Starter Kit"
-description: "Resources for Publishing with Hugo via Git-Hub/Lab Pages."
+teaser: "Tutorials, Themes, Sortcodes and More!"
 tags: [resources, hugo, static site generators, webpub]
-image:
-  feature: hugo-starter-kit.png
+header:
+  image_fullwidth: "hugo-starter-kit.png"
+
 modified: 2019-06-15T22:22:22-23:00
-excerpt: I've begun organizing resources around using the Hugo Static Site Generator. Official Resources, Tutorials, Themes, Sortcodes and More!
 redirect_from:
   - /hugo-starter-kit
 permalink: /hugo-starter-kit/
@@ -99,6 +99,7 @@ Hugo ships with a group of boilerplate templates that cover the most common use 
 I guess the creators of hugo don't use twitter much... since I couldn't get interal includes to work. Or probably I am borked.. anyways.
 
 ```html
+    {% raw %}
     <!-- Twitter Cards-->
     <!-- Twitter summary card with large image must be at least 280x150px -->
     <meta name="twitter:card" content="summary_large_image"/>
@@ -108,6 +109,7 @@ I guess the creators of hugo don't use twitter much... since I couldn't get inte
     <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
     {{ with .Site.Social.twitter }}<meta name="twitter:site" content="@{{ . }}"/>{{ end }}
     {{ with .Site.Social.twitter_domain }}<meta name="twitter:domain" content="{{ . }}"/>{{ end }}
+    {% endraw %}
 ```
 
 I still use their params, but coocked up my own based from theirs and something I had in my head.

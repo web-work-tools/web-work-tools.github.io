@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Migrating from Jekyll HPSTR to Hugo"
-description: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo"
+teaser: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo"
 tags: [hpstr, jekyll, hugo, theme, migration]
 modified: 2019-06-16T22:22:22-23:00
 redirect_from:
@@ -10,9 +10,11 @@ redirect_from:
   - /from-jekyll-hpstr-to-hugo
 permalink: /from-jekyll-hpstr-to-hugo/
 
+header:
+  image_fullwidth: jekyll-hpstr-hugo.png
+
 image:
-  thumb: /images/jekyll-hpstr-hugo.png
-  feature: jekyll-hpstr-hugo.png
+  thumb: "jekyll-hpstr-hugo.png"
 ---
 
 
