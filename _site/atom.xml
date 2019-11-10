@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/feeling-responsive/assets/xslt/atom.xslt" ?>
-<?xml-stylesheet type="text/css" href="/feeling-responsive/assets/css/atom.css" ?>
+<?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
+<?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>http://localhost:4000/feeling-responsive/</id>
-	<title>Feeling Responsive</title>
-	<updated>2019-11-09T19:32:20-05:00</updated>
+	<id>http://localhost:4000/</id>
+	<title>Web-work Tools</title>
+	<updated>2019-11-09T22:19:01-05:00</updated>
 
 	<subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle>
 
@@ -12,37 +12,195 @@
 		
 		<author>
 			
-				<name>phlow</name>
+				<name>infominer</name>
 			
 			
+				<email>infominer@protonmail.com</email>
+			
+			
+				<uri>https://infominer.id/</uri>
 			
 		</author>
 	
 
-	<link href="http://localhost:4000/feeling-responsive/atom.xml" rel="self" type="application/rss+xml" />
-	<link href="http://localhost:4000/feeling-responsive/" rel="alternate" type="text/html" />
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
 
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/hugo-starter-kit/</id>
+			<id>http://localhost:4000/content/twitter-export/</id>
+			<title>Mining, Exploring, Exporting: Creating Content with CSV Tweet Histories</title>
+			<link href="http://localhost:4000/content/twitter-export/" rel="alternate" type="text/html" title="Mining, Exploring, Exporting: Creating Content with CSV Tweet Histories" />
+			<updated>2019-06-17T00:00:00-04:00</updated>
+
+			
+				
+				<author>
+					
+						<name>infominer</name>
+					
+					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
+					
+				</author>
+			
+			<summary>Export your tweets to CSV, filter in a spreadsheet and publish.</summary>
+			<content type="html" xml:base="http://localhost:4000/content/twitter-export/">&lt;p&gt;Around a year ago, I began retweeting all the most valuable information I found on twitter. Then, I would periodically scroll back and manually paste the links into the channels of a discord server, organized by category.&lt;/p&gt;
+
+&lt;p&gt;The problem with that, is if you are scrolling through your history, it has to load, and it’s easy to miss that particualr tweet where I know I left off.&lt;/p&gt;
+
+&lt;p&gt;Eventually, I gave up. More recently, my workflow has become much more direct. When I see a valuable resource (typically via mobile on a smoke break), I click the share button and send it directly to it’s appropriate channel.&lt;/p&gt;
+
+&lt;p&gt;I’ve found this to be quite an efficient solution, however… There’s the matter of what about all those links I re-tweeted with intention to categorize, but never got around to.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What do?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;export-tweets-to-csv&quot;&gt;Export Tweets to CSV&lt;/h1&gt;
+
+&lt;p&gt;So, this is the hard part. Finding a &lt;em&gt;free&lt;/em&gt; app that will get as many tweets as you need.&lt;/p&gt;
+
+&lt;p&gt;For now, I know &lt;a href=&quot;https://www.vicinitas.io/free-tools/download-user-tweets&quot;&gt;vicinitas.io&lt;/a&gt; allows you to download up to 3200 tweets to csv, which was enough for me.&lt;/p&gt;
+
+&lt;p&gt;In the future, this page will fill with everything related to exporting and publishing content from twitter.&lt;/p&gt;
+
+&lt;p&gt;From there, I threw the CSV in Libre Office Calc (an ok free version of Excell). I was able to filter the 3200 tweets to include only those related to identity.&lt;/p&gt;
+
+&lt;p&gt;I am going to share more about how, exactly, I make the content from csv. In the meantime:&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p class=&quot;notice&quot;&gt;This is a game changer! While searching for resources to add in this post, I found &lt;a href=&quot;https://github.com/rob-murray/jekyll-twitter-plugin&quot;&gt;rob-murray/jekyll-twitter-plugin&lt;/a&gt;!!!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/twitterdev/tweet-updates&quot;&gt;twitterdev/tweet-updates&lt;/a&gt; - This repository contains information about the updates to Tweet formats for attachments and simplified replies. -&lt;a href=&quot;https://developer.twitter.com/en/docs/tweets/tweet-updates.html&quot;&gt;developer.twitter.com - tweet updates&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hridaydutta123/awesome-twitter-tools&quot;&gt;hridaydutta123/awesome-twitter-tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;twitter-related-gists&quot;&gt;Twitter Related Gists&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/yanofsky/5436496&quot;&gt;yanofsky/tweet_dumper.py&lt;/a&gt; - A script to download all of a user’s tweets into a csv&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/arikfr/58e491e0cdbe36a9e48c&quot;&gt;arikfr/export_lists.py&lt;/a&gt; - Simple script to export Twitter lists to CSV]&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c&quot;&gt;vickyqian/twitter crawler.txt&lt;/a&gt; - A Python script to download all the tweets of a hashtag into a csv&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;twitter-github-repos&quot;&gt;Twitter GitHub Repos&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kennethreitz/twitter-scraper&quot;&gt;kennethreitz/twitter-scraper&lt;/a&gt; - Scrape the Twitter Frontend API without authentication.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rtweet.info&quot;&gt;rtweet.info&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mkearney/rtweet&quot;&gt;mkearney/rtweet&lt;/a&gt; - bird R client for interacting with Twitter’s [stream and REST] APIs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mkearney/rtweet-workshop&quot;&gt;mkearney/rtweet-workshop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;hrbrmstr/21-recipes&lt;/a&gt; - An R/rtweet edition of &lt;a href=&quot;https://rud.is/books/21-recipes/&quot;&gt;Matthew A. Russell’s Python Twitter Recipes Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/twintproject/twint&quot;&gt;twintproject/twint&lt;/a&gt; - An advanced Twitter scraping &amp;amp; OSINT tool written in Python that doesn’t use Twitter’s API, allowing you to scrape a user’s followers, following, Tweets and more while evading most API limitations.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/taspinar/twitterscraper&quot;&gt;taspinar/twitterscraper&lt;/a&gt; - Scrape Twitter for Tweets&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/AdrienGuille/TweetStreamer&quot;&gt;AdrienGuille/TweetStreamer&lt;/a&gt; - A command line tool for collecting tweets via Twitter’s public streaming API&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/DocNow/twarc&quot;&gt;DocNow/twarc&lt;/a&gt; - A command line tool (and Python library) for archiving Twitter JSON&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Jefferson-Henrique/GetOldTweets-python&quot;&gt;Jefferson-Henrique/GetOldTweets-python&lt;/a&gt; - A project written in Python to get old tweets, it bypass some limitations of Twitter Official API.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jennybc/scream&quot;&gt;jennybc/scream&lt;/a&gt; - Get replies and quotes of a tweet&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/snovvcrash/tweetlord&quot;&gt;snovvcrash/tweetlord&lt;/a&gt; - bird Twitter profile dumper (downloader) with authorization swapping&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Datamine/Archive-Tweets&quot;&gt;Datamine/Archive-Tweets&lt;/a&gt; - Archive and Delete Liked and Posted Tweets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cross-posting&quot;&gt;Cross-posting&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/renatolond/mastodon-twitter-poster&quot;&gt;renatolond/mastodon-twitter-poster&lt;/a&gt; - Crossposter to post statuses between Mastodon and Twitter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bots---code&quot;&gt;Bots - Code&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot&quot;&gt;freeCodeCamp/100DaysOfCode-twitter-bot&lt;/a&gt; - Twitter bot for #100DaysOfCode &lt;a href=&quot;https://twitter.com/_100DaysOfCode&quot;&gt;@_100DaysOfCode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bonzanini&quot;&gt;bonzanini/Book-SocialMediaMiningPython&lt;/a&gt; - Companion code for the book “Mastering Social Media Mining with Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/botwiki/botwiki.org&quot;&gt;botwiki/botwiki.org&lt;/a&gt; - Tutorials, articles, datasets and other resources for creating useful, interesting, artistic and friendly online bots.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/huginn/huginn&quot;&gt;huginn/huginn&lt;/a&gt; - Create agents that monitor and act on your behalf. Your agents are standing by!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;clean-feed&quot;&gt;Clean Feed&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/MikeMcQuaid/TwitterDelete&quot;&gt;MikeMcQuaid/TwitterDelete&lt;/a&gt; - Delete your old, unpopular tweets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nerd-stuff&quot;&gt;Nerd Stuff&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mattdodge/Tweet-2-RSS&quot;&gt;mattdodge/Tweet-2-RSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/vzqzac/twgitbot&quot;&gt;vzqzac/twgitbot&lt;/a&gt; - A node.js bot that checks a github repo changes and tweets it to your Twitter account&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Kikobeats/fetch-timeline-cli&lt;/a&gt; - Fetch Twitter user’s timeline from your terminal zap.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://kikobeats.github.io/fetch-timeline-cli/&quot;&gt;kikobeats.github.io/fetch-timeline-cli/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tylerpearson/twitter-most-followed-scripts&quot;&gt;tylerpearson/twitter-most-followed-scripts&lt;/a&gt; - Scripts to find the most commonly followed Twitter accounts by a group of people &lt;a href=&quot;http://tmf.tylerp.me&quot;&gt;tmf.tylerp.me&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/tylerpearson/twitter-most-followed-site&quot;&gt;tylerpearson/twitter-most-followed-site&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tylerpearson/twitter-bio-analyzer-script&quot;&gt;tylerpearson/twitter-bio-analyzer-script&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/justinlittman/twitter-scraper&quot;&gt;justinlittman/twitter-scraper&lt;/a&gt; - A tool for scraping tweet ids from the Twitter website.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/geofurb/Ornitholog&quot;&gt;geofurb/Ornitholog&lt;/a&gt; - Open-source Twitter collection and archiving tool for tracking specific topics and collecting bulk data.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/motazsaad/tweets-collector&quot;&gt;motazsaad/tweets-collector&lt;/a&gt; - Collect tweets (tweets corpus) using Twitter API. Collection can be based on hashtags, keywords, geographical location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;templates&quot;&gt;Templates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/HoussemDellai/social-media-templates&quot;&gt;HoussemDellai/social-media-templates&lt;/a&gt; - Provides templates for using Twitter, Youtube, Instagram, Flickr, Foursquare and Eventbrite API with Xamarin Forms.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+
+			
+				<category term="content-creation" />
+			
+			
+				<category term="twitter" />
+			
+				<category term="export" />
+			
+				<category term="webpub" />
+			
+				<category term="csv" />
+			
+				<category term="data" />
+			
+				<category term="jekyll" />
+			
+
+			<published>2019-06-17T00:00:00-04:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/jamstack/hugo-starter/</id>
 			<title>Hugo Starter Kit</title>
-			<link href="http://localhost:4000/feeling-responsive/hugo-starter-kit/" rel="alternate" type="text/html" title="Hugo Starter Kit" />
+			<link href="http://localhost:4000/jamstack/hugo-starter/" rel="alternate" type="text/html" title="Hugo Starter Kit" />
 			<updated>2019-06-07T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>Tutorials, Themes, Sortcodes and More!</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/hugo-starter-kit/">&lt;ul&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/hugo-starter/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/&quot;&gt;Interview with Bjørn Erik Pedersen, Hugo lead developer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -268,6 +426,8 @@
 </content>
 
 			
+				<category term="jamstack" />
+			
 			
 				<category term="resources" />
 			
@@ -282,23 +442,27 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/learn-html-css/</id>
+			<id>http://localhost:4000/jamstack/html-css/</id>
 			<title>The Markup languages that get transformed into a website.</title>
-			<link href="http://localhost:4000/feeling-responsive/learn-html-css/" rel="alternate" type="text/html" title="The Markup languages that get transformed into a website." />
+			<link href="http://localhost:4000/jamstack/html-css/" rel="alternate" type="text/html" title="The Markup languages that get transformed into a website." />
 			<updated>2019-06-06T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>Structure and Style, at a Glance: HTML, CSS, YAML, TOML, JSON, Kramdown.</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/learn-html-css/">&lt;p&gt;&lt;a href=&quot;http://commons.wikimedia.org/wiki/File:HTML5_APIs_and_related_technologies_taxonomy_and_status.svg&quot;&gt;&lt;em&gt;header image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/html-css/">&lt;p&gt;&lt;a href=&quot;http://commons.wikimedia.org/wiki/File:HTML5_APIs_and_related_technologies_taxonomy_and_status.svg&quot;&gt;&lt;em&gt;header image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript&quot;&gt;The_web_standards_model_-_HTML_CSS_and_JavaScript&lt;/a&gt;&lt;/li&gt;
@@ -401,6 +565,8 @@
 </content>
 
 			
+				<category term="jamstack" />
+			
 			
 				<category term="resources" />
 			
@@ -427,23 +593,27 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/command-line-git-ssh/</id>
-			<title>Resources for the Command Line, Git, SSH, and BASH.</title>
-			<link href="http://localhost:4000/feeling-responsive/command-line-git-ssh/" rel="alternate" type="text/html" title="Resources for the Command Line, Git, SSH, and BASH." />
+			<id>http://localhost:4000/jamstack/git-ssh/</id>
+			<title>Git, SSH, and Terminal Basics</title>
+			<link href="http://localhost:4000/jamstack/git-ssh/" rel="alternate" type="text/html" title="Git, SSH, and Terminal Basics" />
 			<updated>2019-06-06T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>Command Line, Git, SSH, and BASH: Tips, Tricks and Resources.</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/command-line-git-ssh/">&lt;p&gt;I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/git-ssh/">&lt;p&gt;I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/command-line-tutorial/basics&quot;&gt;Learn Enough Command Line to Be Dangerous&lt;/a&gt; - Introduction to the Unix command line.&lt;/li&gt;
@@ -526,6 +696,8 @@
 </content>
 
 			
+				<category term="jamstack" />
+			
 			
 				<category term="resources" />
 			
@@ -544,23 +716,27 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/from-jekyll-hpstr-to-hugo/</id>
+			<id>http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/</id>
 			<title>Migrating from Jekyll HPSTR to Hugo</title>
-			<link href="http://localhost:4000/feeling-responsive/from-jekyll-hpstr-to-hugo/" rel="alternate" type="text/html" title="Migrating from Jekyll HPSTR to Hugo" />
+			<link href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/" rel="alternate" type="text/html" title="Migrating from Jekyll HPSTR to Hugo" />
 			<updated>2019-06-01T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/from-jekyll-hpstr-to-hugo/">&lt;p&gt;I’ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">&lt;p&gt;I’ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.&lt;/p&gt;
 
 &lt;p&gt;This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.&lt;/p&gt;
 
@@ -977,6 +1153,8 @@ enableEmoji = true
 </content>
 
 			
+				<category term="jamstack" />
+			
 			
 				<category term="hpstr" />
 			
@@ -993,23 +1171,27 @@ enableEmoji = true
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/branches-git/</id>
+			<id>http://localhost:4000/jamstack/git-branches/</id>
 			<title>Creating a Test Branch and Merging back the Changes</title>
-			<link href="http://localhost:4000/feeling-responsive/branches-git/" rel="alternate" type="text/html" title="Creating a Test Branch and Merging back the Changes" />
+			<link href="http://localhost:4000/jamstack/git-branches/" rel="alternate" type="text/html" title="Creating a Test Branch and Merging back the Changes" />
 			<updated>2019-05-31T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>Used while testing the hugo build of the HPSTR theme.</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/branches-git/">&lt;p&gt;Image Source: &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&quot;&gt;Bunyk - Українська&lt;/a&gt;&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/git-branches/">&lt;p&gt;Image Source: &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&quot;&gt;Bunyk - Українська&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.&lt;/p&gt;
 
@@ -1071,6 +1253,8 @@ git push origin master
 </content>
 
 			
+				<category term="jamstack" />
+			
 			
 				<category term="hpstr" />
 			
@@ -1087,23 +1271,27 @@ git push origin master
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/infominer33-forked-repos/</id>
+			<id>http://localhost:4000/info/forked-repositories/</id>
 			<title>Infominer's Forked Repositores</title>
-			<link href="http://localhost:4000/feeling-responsive/infominer33-forked-repos/" rel="alternate" type="text/html" title="Infominer's Forked Repositores" />
+			<link href="http://localhost:4000/info/forked-repositories/" rel="alternate" type="text/html" title="Infominer's Forked Repositores" />
 			<updated>2019-05-29T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>An organized list of repositories I've forked.</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/infominer33-forked-repos/">&lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/info/forked-repositories/">&lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
 
 &lt;p&gt;Now that I have both forked &lt;a href=&quot;https://web-work.tools/infominer33-starred-repos/&quot;&gt;and starred&lt;/a&gt;&lt;/p&gt;
 
@@ -1180,6 +1368,8 @@ git push origin master
 </content>
 
 			
+				<category term="info" />
+			
 			
 				<category term="forked" />
 			
@@ -1194,23 +1384,27 @@ git push origin master
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/content-creation/</id>
+			<id>http://localhost:4000/content/creation/</id>
 			<title>Resources for Content Creation</title>
-			<link href="http://localhost:4000/feeling-responsive/content-creation/" rel="alternate" type="text/html" title="Resources for Content Creation" />
+			<link href="http://localhost:4000/content/creation/" rel="alternate" type="text/html" title="Resources for Content Creation" />
 			<updated>2019-05-28T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>All kinda tools for images and editing and handy stuff to assist with content creation.</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/content-creation/">&lt;p&gt;Here’s some tools to make content creation a little easier.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/content/creation/">&lt;p&gt;Here’s some tools to make content creation a little easier.&lt;/p&gt;
 
 &lt;p&gt;As per usual, this list will grow and become more organized over time.&lt;/p&gt;
 
@@ -1393,6 +1587,8 @@ combines feeds “into content and other magical creations”.&lt;/li&gt;
 </content>
 
 			
+				<category term="content" />
+			
 			
 				<category term="content creation" />
 			
@@ -1405,23 +1601,27 @@ combines feeds “into content and other magical creations”.&lt;/li&gt;
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/make-a-github-portfolio/</id>
+			<id>http://localhost:4000/content/github-portfolio/</id>
 			<title>Infominer's GitHub Portfolio and HowTo</title>
-			<link href="http://localhost:4000/feeling-responsive/make-a-github-portfolio/" rel="alternate" type="text/html" title="Infominer's GitHub Portfolio and HowTo" />
+			<link href="http://localhost:4000/content/github-portfolio/" rel="alternate" type="text/html" title="Infominer's GitHub Portfolio and HowTo" />
 			<updated>2019-05-27T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>How to make a Portfolio for your GitHub repositories with `github/personal-website`</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/make-a-github-portfolio/">&lt;p&gt;I learned of this cool project from &lt;a href=&quot;https://twitter.com/bmann&quot;&gt;@bmann&lt;/a&gt;. I’ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/content/github-portfolio/">&lt;p&gt;I learned of this cool project from &lt;a href=&quot;https://twitter.com/bmann&quot;&gt;@bmann&lt;/a&gt;. I’ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
 
 &lt;p&gt;It’s really nice to have a place to keep track, because I’m always forgetting how many I even manage!&lt;/p&gt;
 
@@ -1528,39 +1728,43 @@ topics:
 </content>
 
 			
+				<category term="content" />
+			
 			
 				<category term="github" />
 			
-				<category term="repositories" />
-			
-				<category term="open source" />
-			
 				<category term="portfolio" />
 			
-				<category term="github-pages" />
+				<category term="github pages" />
+			
+				<category term="how to" />
 			
 
 			<published>2019-05-27T00:00:00-04:00</published>
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/feeling-responsive/github-stars/</id>
+			<id>http://localhost:4000/info/starred-repositories/</id>
 			<title>Infominer's Starred GitHub Repositories</title>
-			<link href="http://localhost:4000/feeling-responsive/github-stars/" rel="alternate" type="text/html" title="Infominer's Starred GitHub Repositories" />
+			<link href="http://localhost:4000/info/starred-repositories/" rel="alternate" type="text/html" title="Infominer's Starred GitHub Repositories" />
 			<updated>2019-05-26T00:00:00-04:00</updated>
 
 			
 				
 				<author>
 					
-						<name>phlow</name>
+						<name>infominer</name>
 					
 					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.id/</uri>
 					
 				</author>
 			
 			<summary>An organized list of Repositories.</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/github-stars/">&lt;p&gt;Here’s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/info/starred-repositories/">&lt;p&gt;Here’s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
 
 &lt;p&gt;I used this:&lt;/p&gt;
 
@@ -1663,6 +1867,8 @@ topics:
 </content>
 
 			
+				<category term="info" />
+			
 			
 				<category term="github" />
 			
@@ -1674,133 +1880,6 @@ topics:
 			
 
 			<published>2019-05-26T00:00:00-04:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000/feeling-responsive/static-site-generators/</id>
-			<title>Static Site Generators</title>
-			<link href="http://localhost:4000/feeling-responsive/static-site-generators/" rel="alternate" type="text/html" title="Static Site Generators" />
-			<updated>2019-05-25T00:00:00-04:00</updated>
-
-			
-				
-				<author>
-					
-						<name>phlow</name>
-					
-					
-					
-				</author>
-			
-			<summary>Resources on Static Site Generators(SSG) - Beyond Jekyll.</summary>
-			<content type="html" xml:base="http://localhost:4000/feeling-responsive/static-site-generators/">&lt;p&gt;Well, now i’m looking into options besides jekyll, to expand my skills, and try out some themes that aren’t available for Jekyll.&lt;/p&gt;
-
-&lt;p&gt;I’ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-a-static-site-generator-ssg&quot;&gt;What is a Static Site Generator (SSG)?&lt;/h2&gt;
-
-&lt;p&gt;There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.&lt;/p&gt;
-
-&lt;p&gt;I’ll have a few general resources at the top and just add as I go, since I’m not ready to learn about too many of them, just yet.&lt;/p&gt;
-
-&lt;h2 id=&quot;general&quot;&gt;General&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll&quot;&gt;Using A Static Site Generator other than Jekyll&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/pinceladasdaweb/Static-Site-Generators&quot;&gt;pinceladasdaweb/Static-Site-Generators&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://staticsitegenerators.net&quot;&gt;staticsitegenerators.net&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.staticgen.com/&quot;&gt;https://www.staticgen.com/&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=17952234&quot;&gt;I tried Hugo, Jekyll and Gatsby&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hugo&quot;&gt;Hugo&lt;/h2&gt;
-
-&lt;p&gt;These links have moved to their own page:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/hugo-starter-kit/&quot;&gt;Hugo Starter Kit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mkdocs&quot;&gt;MkDocs&lt;/h2&gt;
-
-&lt;p&gt;MkDocs has built in search, and in some ways simpler than publishing w jekyll.&lt;/p&gt;
-
-&lt;p&gt;For example, you don’t need to put frontmatter into every single document.. it will just create a website from markdown files and autogenerate toc based on directory structure.&lt;/p&gt;
-
-&lt;p&gt;MkDocs really caught my eye when I saw it running at &lt;a href=&quot;https://docs.ethhub.io/&quot;&gt;EthHub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/c7Ik39r.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mkdocs.org/&quot;&gt;https://www.mkdocs.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins&quot;&gt;/mkdocs/mkdocs/wiki/MkDocs-Plugins&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://yakworks.github.io/mkdocs-material-components/cheat-sheet/&quot;&gt;MkDocs Material Components - Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mkdocs.readthedocs.io&quot;&gt;mkdocs.readthedocs.io&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins&quot;&gt;mkdocs/mkdocs/wiki/MkDocs-Plugins&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin&quot;&gt;mkdocs-awesome-pages-plugin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.wheelodex.org/entry-points/mkdocs.plugins/&quot;&gt;mkdocs.plugins/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blogs.pjjk.net/phil/metadata-for-markdown-mkdocs/&quot;&gt;metadata-for-markdown-mkdocs/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gristlabs.github.io/mkdocs-windmill/#&quot;&gt;https://gristlabs.github.io/mkdocs-windmill/&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/gristlabs/mkdocs-windmill&quot;&gt;gristlabs/mkdocs-windmill&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://python-markdown.github.io/extensions/&quot;&gt;https://python-markdown.github.io/extensions/&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions&quot;&gt;Python-Markdown/markdown/wiki/Third-Party-Extensions&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://python-markdown.github.io/extensions/smarty/&quot;&gt;https://python-markdown.github.io/extensions/smarty/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Because MkDocs builds with python, that opens up a whole universe of tools at your disposal. The python markdown extensions are a prime example.&lt;/p&gt;
-
-&lt;p&gt;However, basically none of the regular jekyll plugins work with mkdocs, it’s a whole universe to its own w Python.&lt;/p&gt;
-
-&lt;h3 id=&quot;now-dev&quot;&gt;Now Dev&lt;/h3&gt;
-
-&lt;p&gt;I don’t even know… but it seems pretty dope.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zeit.co/blog/now-dev&quot;&gt;https://zeit.co/blog/now-dev&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zeit.co/docs/v2/deployments/concepts/lambdas&quot;&gt;https://zeit.co/docs/v2/deployments/concepts/lambdas&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;keybase&quot;&gt;Keybase&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/PVUAaAu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Just sayin’… keybase has 250 gigs of free storage you can use to host a website…&lt;/p&gt;
-
-&lt;p&gt;you could build gem based sites locally, and keybase will automatically sync the data.&lt;/p&gt;
-
-&lt;h2 id=&quot;related-posts&quot;&gt;Related Posts&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/learn-html-css/&quot;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/content-creation/&quot;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-
-			
-			
-				<category term="static site generators" />
-			
-				<category term="tools" />
-			
-				<category term="resources" />
-			
-				<category term="CI\CD" />
-			
-
-			<published>2019-05-25T00:00:00-04:00</published>
 		</entry>
 	
 </feed>

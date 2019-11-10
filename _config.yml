@@ -48,6 +48,8 @@ plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
 
 
 #       ____              _             __  _

@@ -1,70 +1,73 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
+- title: "All your web-work tools..."
+  url: "/are-belong-to-us/"
 
-- title: "Templates"
-  url: "/design/"
+- title: "Info"
+  url: "/info/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
+  - title: "Starred GitHub Repos"
+    url: "/info/starred-repositories/"
+  - title: "Forked GitHub Repos"
+    url: "/info/forked-repositories/"
+  - title: "Infolytics 5/19"
+    url: "/info/analytics/5-19/"
 
-- title: "Header Styles"
-  url: "/headers/"
+- title: "Content Creation"
+  url: "/content/creation/"
   side: left
   dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
-  - title: "Header With Text"
-    url: "/design/header-with-text/"
-  - title: "No Header"
-    url: "/design/no-header/"
-  - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
-
-- title: Documentation
-  url: "/documentation/"
+  - title: "GitHub Portfolio"
+    url: "/content/github-portfolio/"
+  - title: "Twitter Export to CSV"
+    url: "/content/twitter-export/"
+    
+- title: "JamStack"
   side: left
   dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
+  - title: "GitHub Pages Starter"
+    url: "/jamstack/github-pages-starter/"
+  - title: "GitHub Pages Extended"
+    url: "/jamstack/github-pages-extended/"
+  - title: "Hugo Starter Kit" 
+    url: "/jamstack/hugo-starter/"
+  - title: "Jekyll HPSTR to HPSTR Hugo" 
+    url: "/jamstack/jekyll-hpstr-hugo-theme/"
+  - title: "Git Basics" 
+    url: "/jamstack/git-ssh/"
+  - title: "Trying Git Branches" 
+    url: "/jamstack/git-branches/"
+  - title: "HTML, CSS, + Markdown" 
+    url: "/jamstack/html-css/"
+      
+- title: SEO
+  side: right
+  dropdown:
+  - title: "Learn"
+    url: "/seo/learn/"
+  - title: "Tools"
+    url: "/seo/tools/"
+  - title: "Adwords Keyword Planner"
+    url: "/seo/adwords-keyword-planner/"
 
 - title: Blog
   url: "/blog/"
-  side: left
+  side: right
   dropdown:
   - title: "Blog Archive"
     url: "/blog/archive/"
+
+- title: "Theme Documentation"
+  url: "/documentation/"
+  side: right
+  dropdown:
+  - title: "Templates"
+    url: "/design/"
+  - title: "Header Styles"
+    url: "/headers/"
 
 - title: "Search"
   url: "/search/"
