@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Atom Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/feeling-responsive/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="http://localhost:4000/feeling-responsive/assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -32,37 +32,37 @@
 
 	<!-- Search Engine Optimization -->
 	<meta name="description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
-	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
-	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
-	
-	<link rel="author" href="https://plus.google.com/u/0/118311555303973066167">
 	
 	
-	<link rel="canonical" href="http://localhost:4000/feeling-responsive/assets/xslt/atom.xslt">
+	
+	
+	
+	
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
-	<meta property="og:url" content="http://localhost:4000/feeling-responsive/assets/xslt/atom.xslt">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="Feeling Responsive">
+	<meta property="og:site_name" content="Web-work Tools">
 	
-	<meta property="article:author" content="https://www.facebook.com/phlow.media">
+	
 
 
 	
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="phlow">
-	<meta name="twitter:creator" content="phlow">
+	<meta name="twitter:site" content="infominer33">
+	<meta name="twitter:creator" content="infominer33">
 	<meta name="twitter:title" content="Atom Feed (Styled)">
 	<meta name="twitter:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
 	
 	
 
-	<link type="text/plain" rel="author" href="http://localhost:4000/feeling-responsive/humans.txt">
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
 
 	
 
@@ -89,7 +89,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000/feeling-responsive" class="icon-tree"> Feeling Responsive</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Web-work Tools</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -133,6 +133,90 @@
 
           
           
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000">SEO</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/learn/">Learn</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/tools/">Tools</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/adwords-keyword-planner/">Adwords Keyword Planner</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/blog/archive/">Blog Archive</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/documentation/">Theme Documentation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/">Templates</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/headers/">Header Styles</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
         
 
               
@@ -142,7 +226,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/feeling-responsive/search/">Search</a></li>
+              <li><a  href="http://localhost:4000/search/">Search</a></li>
 
             
             
@@ -156,7 +240,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/feeling-responsive/contact/">Contact</a></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
 
             
             
@@ -175,7 +259,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/feeling-responsive/">Start</a></li>
+              <li><a  href="http://localhost:4000/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -186,15 +270,6 @@
               
 
           
-          
-
-            
-            
-              <li><a  href="http://localhost:4000/feeling-responsive/getting-started/">Getting Started</a></li>
-              <li class="divider"></li>
-
-            
-            
           
         
 
@@ -207,59 +282,24 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/feeling-responsive/design/">Templates</a>
+                <a  href="http://localhost:4000/info/">Info</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/grid/">Grid &amp; Colors</a></li>
+                      <li><a  href="http://localhost:4000/info/starred-repositories/">Starred GitHub Repos</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/typography/typography/">Typography</a></li>
+                      <li><a  href="http://localhost:4000/info/forked-repositories/">Forked GitHub Repos</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/page/">Page/Post</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/post-left-sidebar/">Post-Left-Sidebar</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/post-right-sidebar/">Post-Right-Sidebar</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/page-fullwidth/">Page Full-Width</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/blog/">Blog-Page</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/video/">Video</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/gallery/">Gallery</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/portfolio/">Portfolio</a></li>
+                      <li><a  href="http://localhost:4000/info/analytics/5-19/">Infolytics 5/19</a></li>
                     
                   </ul>
 
@@ -278,44 +318,19 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/feeling-responsive/headers/">Header Styles</a>
+                <a  href="http://localhost:4000/content/creation/">Content Creation</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/header-full-width-image/">Header with Full-Width-Image</a></li>
+                      <li><a  href="http://localhost:4000/content/github-portfolio/">GitHub Portfolio</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/header-image-pattern/">Header with Image and Pattern</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/header-image-color/">Header with image and color</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/header-logo-only/">Header Only With Logo</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/header-with-text/">Header With Text</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/no-header/">No Header</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/design/no-header-but-image/">No Header but Image</a></li>
+                      <li><a  href="http://localhost:4000/content/twitter-export/">Twitter Export to CSV</a></li>
                     
                   </ul>
 
@@ -334,19 +349,44 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/feeling-responsive/documentation/">Documentation</a>
+                <a  href="http://localhost:4000">JamStack</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/feeling-responsive/changelog/">Changelog</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/github-pages-starter/">GitHub Pages Starter</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/feeling-responsive/roadmap/">Roadmap</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/github-pages-extended/">GitHub Pages Extended</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/hugo-starter/">Hugo Starter Kit</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">Jekyll HPSTR to HPSTR Hugo</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/git-ssh/">Git Basics</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/git-branches/">Trying Git Branches</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
                     
                   </ul>
 
@@ -360,25 +400,17 @@
 
           
           
+        
 
-            
-            
+              
 
-              <li class="has-dropdown">
-                <a  href="http://localhost:4000/feeling-responsive/blog/">Blog</a>
+          
+          
+        
 
-                  <ul class="dropdown">
-                    
+              
 
-                      
-
-                      <li><a  href="http://localhost:4000/feeling-responsive/blog/archive/">Blog Archive</a></li>
-                    
-                  </ul>
-
-              </li>
-              <li class="divider"></li>
-            
+          
           
         
 
@@ -404,8 +436,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000/feeling-responsive/" title="Feeling Responsive – A Flexible Theme for Jekyll">
-				<img src="http://localhost:4000/feeling-responsive/assets/img/logo.png" alt="Feeling Responsive – A Flexible Theme for Jekyll">
+			<a id="logo" href="http://localhost:4000/" title="Web-work Tools – Skyscraper Curation and Independent Web-Work">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Web-work Tools – Skyscraper Curation and Independent Web-Work">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -483,7 +515,7 @@
 
             <p class="shadow-black">
               »Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.
-              <a href="http://localhost:4000/feeling-responsive/info/">More ›</a>
+              <a href="http://localhost:4000/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -507,27 +539,27 @@
               
                 
                   <li >
-                    <a href="http://localhost:4000/feeling-responsive"  title=""></a>
+                    <a href="http://localhost:4000"  title=""></a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/feeling-responsive/contact/"  title="Contact">Contact</a>
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/feeling-responsive/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/feeling-responsive/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                    <a href="http://localhost:4000/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/feeling-responsive/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
                   </li>
               
               </ul>
@@ -553,7 +585,7 @@
             
               
                 <li >
-                  <a href="http://localhost:4000/feeling-responsive"  title=""></a>
+                  <a href="http://localhost:4000"  title=""></a>
                 </li>
             
               
@@ -611,7 +643,7 @@
 		
 
 
-<script src="http://localhost:4000/feeling-responsive/assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 
@@ -625,7 +657,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-60112281-1', 'auto');
+  ga('create', 'UA-132558656-8', 'auto');
   ga('set', 'anonymizeIp', true);
   ga('send', 'pageview');
 

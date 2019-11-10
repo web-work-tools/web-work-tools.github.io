@@ -1,18 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:4000/feeling-responsive/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="http://localhost:4000/feeling-responsive/assets/css/rss.css" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Feeling Responsive</title>
-		<description>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</description>
-		<link>http://localhost:4000/feeling-responsive/</link>
-		<atom:link href="http://localhost:4000/feeling-responsive/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Hugo Starter Kit</title>
-				<link>http://localhost:4000/feeling-responsive/hugo-starter-kit/</link>
-				<pubDate>Fri, 07 Jun 2019 00:00:00 -0400</pubDate>
-				<description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-09T22:19:01-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Web-work Tools</title><subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle><author><name>infominer</name></author><entry><title type="html">Mining, Exploring, Exporting: Creating Content with CSV Tweet Histories</title><link href="http://localhost:4000/content/twitter-export/" rel="alternate" type="text/html" title="Mining, Exploring, Exporting: Creating Content with CSV Tweet Histories" /><published>2019-06-17T00:00:00-04:00</published><updated>2019-06-17T00:00:00-04:00</updated><id>http://localhost:4000/content/exporting-tweet-histories</id><content type="html" xml:base="http://localhost:4000/content/twitter-export/">&lt;p&gt;Around a year ago, I began retweeting all the most valuable information I found on twitter. Then, I would periodically scroll back and manually paste the links into the channels of a discord server, organized by category.&lt;/p&gt;
+
+&lt;p&gt;The problem with that, is if you are scrolling through your history, it has to load, and it’s easy to miss that particualr tweet where I know I left off.&lt;/p&gt;
+
+&lt;p&gt;Eventually, I gave up. More recently, my workflow has become much more direct. When I see a valuable resource (typically via mobile on a smoke break), I click the share button and send it directly to it’s appropriate channel.&lt;/p&gt;
+
+&lt;p&gt;I’ve found this to be quite an efficient solution, however… There’s the matter of what about all those links I re-tweeted with intention to categorize, but never got around to.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What do?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;export-tweets-to-csv&quot;&gt;Export Tweets to CSV&lt;/h1&gt;
+
+&lt;p&gt;So, this is the hard part. Finding a &lt;em&gt;free&lt;/em&gt; app that will get as many tweets as you need.&lt;/p&gt;
+
+&lt;p&gt;For now, I know &lt;a href=&quot;https://www.vicinitas.io/free-tools/download-user-tweets&quot;&gt;vicinitas.io&lt;/a&gt; allows you to download up to 3200 tweets to csv, which was enough for me.&lt;/p&gt;
+
+&lt;p&gt;In the future, this page will fill with everything related to exporting and publishing content from twitter.&lt;/p&gt;
+
+&lt;p&gt;From there, I threw the CSV in Libre Office Calc (an ok free version of Excell). I was able to filter the 3200 tweets to include only those related to identity.&lt;/p&gt;
+
+&lt;p&gt;I am going to share more about how, exactly, I make the content from csv. In the meantime:&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p class=&quot;notice&quot;&gt;This is a game changer! While searching for resources to add in this post, I found &lt;a href=&quot;https://github.com/rob-murray/jekyll-twitter-plugin&quot;&gt;rob-murray/jekyll-twitter-plugin&lt;/a&gt;!!!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/twitterdev/tweet-updates&quot;&gt;twitterdev/tweet-updates&lt;/a&gt; - This repository contains information about the updates to Tweet formats for attachments and simplified replies. -&lt;a href=&quot;https://developer.twitter.com/en/docs/tweets/tweet-updates.html&quot;&gt;developer.twitter.com - tweet updates&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hridaydutta123/awesome-twitter-tools&quot;&gt;hridaydutta123/awesome-twitter-tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;twitter-related-gists&quot;&gt;Twitter Related Gists&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/yanofsky/5436496&quot;&gt;yanofsky/tweet_dumper.py&lt;/a&gt; - A script to download all of a user’s tweets into a csv&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/arikfr/58e491e0cdbe36a9e48c&quot;&gt;arikfr/export_lists.py&lt;/a&gt; - Simple script to export Twitter lists to CSV]&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c&quot;&gt;vickyqian/twitter crawler.txt&lt;/a&gt; - A Python script to download all the tweets of a hashtag into a csv&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;twitter-github-repos&quot;&gt;Twitter GitHub Repos&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kennethreitz/twitter-scraper&quot;&gt;kennethreitz/twitter-scraper&lt;/a&gt; - Scrape the Twitter Frontend API without authentication.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rtweet.info&quot;&gt;rtweet.info&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mkearney/rtweet&quot;&gt;mkearney/rtweet&lt;/a&gt; - bird R client for interacting with Twitter’s [stream and REST] APIs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mkearney/rtweet-workshop&quot;&gt;mkearney/rtweet-workshop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;hrbrmstr/21-recipes&lt;/a&gt; - An R/rtweet edition of &lt;a href=&quot;https://rud.is/books/21-recipes/&quot;&gt;Matthew A. Russell’s Python Twitter Recipes Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/twintproject/twint&quot;&gt;twintproject/twint&lt;/a&gt; - An advanced Twitter scraping &amp;amp; OSINT tool written in Python that doesn’t use Twitter’s API, allowing you to scrape a user’s followers, following, Tweets and more while evading most API limitations.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/taspinar/twitterscraper&quot;&gt;taspinar/twitterscraper&lt;/a&gt; - Scrape Twitter for Tweets&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/AdrienGuille/TweetStreamer&quot;&gt;AdrienGuille/TweetStreamer&lt;/a&gt; - A command line tool for collecting tweets via Twitter’s public streaming API&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/DocNow/twarc&quot;&gt;DocNow/twarc&lt;/a&gt; - A command line tool (and Python library) for archiving Twitter JSON&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Jefferson-Henrique/GetOldTweets-python&quot;&gt;Jefferson-Henrique/GetOldTweets-python&lt;/a&gt; - A project written in Python to get old tweets, it bypass some limitations of Twitter Official API.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jennybc/scream&quot;&gt;jennybc/scream&lt;/a&gt; - Get replies and quotes of a tweet&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/snovvcrash/tweetlord&quot;&gt;snovvcrash/tweetlord&lt;/a&gt; - bird Twitter profile dumper (downloader) with authorization swapping&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Datamine/Archive-Tweets&quot;&gt;Datamine/Archive-Tweets&lt;/a&gt; - Archive and Delete Liked and Posted Tweets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cross-posting&quot;&gt;Cross-posting&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/renatolond/mastodon-twitter-poster&quot;&gt;renatolond/mastodon-twitter-poster&lt;/a&gt; - Crossposter to post statuses between Mastodon and Twitter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bots---code&quot;&gt;Bots - Code&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot&quot;&gt;freeCodeCamp/100DaysOfCode-twitter-bot&lt;/a&gt; - Twitter bot for #100DaysOfCode &lt;a href=&quot;https://twitter.com/_100DaysOfCode&quot;&gt;@_100DaysOfCode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bonzanini&quot;&gt;bonzanini/Book-SocialMediaMiningPython&lt;/a&gt; - Companion code for the book “Mastering Social Media Mining with Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/botwiki/botwiki.org&quot;&gt;botwiki/botwiki.org&lt;/a&gt; - Tutorials, articles, datasets and other resources for creating useful, interesting, artistic and friendly online bots.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/huginn/huginn&quot;&gt;huginn/huginn&lt;/a&gt; - Create agents that monitor and act on your behalf. Your agents are standing by!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;clean-feed&quot;&gt;Clean Feed&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/MikeMcQuaid/TwitterDelete&quot;&gt;MikeMcQuaid/TwitterDelete&lt;/a&gt; - Delete your old, unpopular tweets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nerd-stuff&quot;&gt;Nerd Stuff&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mattdodge/Tweet-2-RSS&quot;&gt;mattdodge/Tweet-2-RSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/vzqzac/twgitbot&quot;&gt;vzqzac/twgitbot&lt;/a&gt; - A node.js bot that checks a github repo changes and tweets it to your Twitter account&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Kikobeats/fetch-timeline-cli&lt;/a&gt; - Fetch Twitter user’s timeline from your terminal zap.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://kikobeats.github.io/fetch-timeline-cli/&quot;&gt;kikobeats.github.io/fetch-timeline-cli/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tylerpearson/twitter-most-followed-scripts&quot;&gt;tylerpearson/twitter-most-followed-scripts&lt;/a&gt; - Scripts to find the most commonly followed Twitter accounts by a group of people &lt;a href=&quot;http://tmf.tylerp.me&quot;&gt;tmf.tylerp.me&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/tylerpearson/twitter-most-followed-site&quot;&gt;tylerpearson/twitter-most-followed-site&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tylerpearson/twitter-bio-analyzer-script&quot;&gt;tylerpearson/twitter-bio-analyzer-script&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/justinlittman/twitter-scraper&quot;&gt;justinlittman/twitter-scraper&lt;/a&gt; - A tool for scraping tweet ids from the Twitter website.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/geofurb/Ornitholog&quot;&gt;geofurb/Ornitholog&lt;/a&gt; - Open-source Twitter collection and archiving tool for tracking specific topics and collecting bulk data.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/motazsaad/tweets-collector&quot;&gt;motazsaad/tweets-collector&lt;/a&gt; - Collect tweets (tweets corpus) using Twitter API. Collection can be based on hashtags, keywords, geographical location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;templates&quot;&gt;Templates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/HoussemDellai/social-media-templates&quot;&gt;HoussemDellai/social-media-templates&lt;/a&gt; - Provides templates for using Twitter, Youtube, Instagram, Flickr, Foursquare and Eventbrite API with Xamarin Forms.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="twitter" /><category term="export" /><category term="webpub" /><category term="csv" /><category term="data" /><category term="jekyll" /><summary type="html">Around a year ago, I began retweeting all the most valuable information I found on twitter. Then, I would periodically scroll back and manually paste the links into the channels of a discord server, organized by category. The problem with that, is if you are scrolling through your history, it has to load, and it’s easy to miss that particualr tweet where I know I left off. Eventually, I gave up. More recently, my workflow has become much more direct. When I see a valuable resource (typically via mobile on a smoke break), I click the share button and send it directly to it’s appropriate channel. I’ve found this to be quite an efficient solution, however… There’s the matter of what about all those links I re-tweeted with intention to categorize, but never got around to. What do? Export Tweets to CSV So, this is the hard part. Finding a free app that will get as many tweets as you need. For now, I know vicinitas.io allows you to download up to 3200 tweets to csv, which was enough for me. In the future, this page will fill with everything related to exporting and publishing content from twitter. From there, I threw the CSV in Libre Office Calc (an ok free version of Excell). I was able to filter the 3200 tweets to include only those related to identity. I am going to share more about how, exactly, I make the content from csv. In the meantime: Resources This is a game changer! While searching for resources to add in this post, I found rob-murray/jekyll-twitter-plugin!!! twitterdev/tweet-updates - This repository contains information about the updates to Tweet formats for attachments and simplified replies. -developer.twitter.com - tweet updates hridaydutta123/awesome-twitter-tools Twitter Related Gists yanofsky/tweet_dumper.py - A script to download all of a user’s tweets into a csv arikfr/export_lists.py - Simple script to export Twitter lists to CSV] vickyqian/twitter crawler.txt - A Python script to download all the tweets of a hashtag into a csv Twitter GitHub Repos kennethreitz/twitter-scraper - Scrape the Twitter Frontend API without authentication. rtweet.info mkearney/rtweet - bird R client for interacting with Twitter’s [stream and REST] APIs mkearney/rtweet-workshop hrbrmstr/21-recipes - An R/rtweet edition of Matthew A. Russell’s Python Twitter Recipes Book twintproject/twint - An advanced Twitter scraping &amp;amp; OSINT tool written in Python that doesn’t use Twitter’s API, allowing you to scrape a user’s followers, following, Tweets and more while evading most API limitations. taspinar/twitterscraper - Scrape Twitter for Tweets AdrienGuille/TweetStreamer - A command line tool for collecting tweets via Twitter’s public streaming API DocNow/twarc - A command line tool (and Python library) for archiving Twitter JSON Jefferson-Henrique/GetOldTweets-python - A project written in Python to get old tweets, it bypass some limitations of Twitter Official API. jennybc/scream - Get replies and quotes of a tweet snovvcrash/tweetlord - bird Twitter profile dumper (downloader) with authorization swapping Datamine/Archive-Tweets - Archive and Delete Liked and Posted Tweets Cross-posting renatolond/mastodon-twitter-poster - Crossposter to post statuses between Mastodon and Twitter Bots - Code freeCodeCamp/100DaysOfCode-twitter-bot - Twitter bot for #100DaysOfCode @_100DaysOfCode bonzanini/Book-SocialMediaMiningPython - Companion code for the book “Mastering Social Media Mining with Python botwiki/botwiki.org - Tutorials, articles, datasets and other resources for creating useful, interesting, artistic and friendly online bots. huginn/huginn - Create agents that monitor and act on your behalf. Your agents are standing by! Clean Feed MikeMcQuaid/TwitterDelete - Delete your old, unpopular tweets. Nerd Stuff mattdodge/Tweet-2-RSS vzqzac/twgitbot - A node.js bot that checks a github repo changes and tweets it to your Twitter account Kikobeats/fetch-timeline-cli - Fetch Twitter user’s timeline from your terminal zap. kikobeats.github.io/fetch-timeline-cli/ Data tylerpearson/twitter-most-followed-scripts - Scripts to find the most commonly followed Twitter accounts by a group of people tmf.tylerp.me tylerpearson/twitter-most-followed-site tylerpearson/twitter-bio-analyzer-script justinlittman/twitter-scraper - A tool for scraping tweet ids from the Twitter website. geofurb/Ornitholog - Open-source Twitter collection and archiving tool for tracking specific topics and collecting bulk data. motazsaad/tweets-collector - Collect tweets (tweets corpus) using Twitter API. Collection can be based on hashtags, keywords, geographical location Templates HoussemDellai/social-media-templates - Provides templates for using Twitter, Youtube, Instagram, Flickr, Foursquare and Eventbrite API with Xamarin Forms.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22twitter-export-csv.png%22%7D" /></entry><entry><title type="html">Hugo Starter Kit</title><link href="http://localhost:4000/jamstack/hugo-starter/" rel="alternate" type="text/html" title="Hugo Starter Kit" /><published>2019-06-07T00:00:00-04:00</published><updated>2019-06-07T00:00:00-04:00</updated><id>http://localhost:4000/jamstack/hugo-starter-kit</id><content type="html" xml:base="http://localhost:4000/jamstack/hugo-starter/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/&quot;&gt;Interview with Bjørn Erik Pedersen, Hugo lead developer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -234,16 +326,86 @@
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators&quot;&gt;Static Site Generators&lt;/a&gt; (just a start)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="resources" /><category term="hugo" /><category term="static site generators" /><category term="webpub" /><summary type="html">Interview with Bjørn Erik Pedersen, Hugo lead developer Official Resources Quickstart GoHugo Documentation Forum https://gohugo.io/tools/starter-kits/ Golang - the language HUGO is built with Golang Templates Configure - all the cool config.toml settings you never knew! Syntax Highlighting Page Bundles Permalink Configuration Values: [Permalinks] # | :year | the 4-digit year | # | :month | the 2-digit month | # | :monthname | the name of the month | # | :day | the 2-digit day | # | :weekday | the 1-digit day of the week (Sunday = 0) | # | :weekdayname | the name of the day of the week | # | :yearday | the 1- to 3-digit day of the year | # | :section | the content's section | # | :sections | the content's sections hierarchy | # | :title | the content's title | # | :slug | the content's slug (or title, if no slug) | # | :filename | the content's filename (without extension) | # Examples posts = &quot;/:filename/&quot; # post = &quot;/:year/:month/:title/&quot; notes = &quot;/notes/:filename/&quot; Publishing Websites Via Hugo budparr/awesome-hugo Make A Hugo Blog from Scratch Hugo Asset Pipeline Hosting Hugo on Netlify - Insanely Fast Deploys Using different versions of Hugo: Netlify Plus Hugo .20 and beyond Until yesterday, if you wanted to use a new version of Hugo on Netlify, you had two options. The first one was to wait for us to install it on our build servers and work around name collisions. Although it was not complicated, you can see by reading this blog post, it’s not very sustainable. The second option was to add the version of the Hugo binary you wanted to use to your repository. Since Hugo is a static binary, this is a very convenient solution if you want to manage it yourself. Starting today, if you want to use a specific new version of Hugo on Netlify, you only need to set the environment variable HUGO_VERSION with the version number you want to use. If it’s a valid release number, we’ll install it for you and use that version. You don’t have to wait for us, or manage binaries yourself. For example, if you want to use Hugo 0.20 right now, you can go to your site’s settings (Build and Deploy, Build Environment Variables section) and set HUGO_VERSION to 0.20 in your environment. Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository. Tutorials zwbetz.com - hugo willschenk.com - hugo https://regisphilibert.com/tags/hugo/ Hugo Static Site Tutorials Undocumented asset pipelines, Starter-Kits and Boilerplates Hugo Video Turorials This course covers the basics of using Hugo - Static Site Generator. Work your way through the videos and we’ll teach you everything you need to know to create a professional and scalable website or blog! Hugo Variables and Templating Site Variables Page Variables Internal Templates Hugo ships with a group of boilerplate templates that cover the most common use cases for static websites. The Internal Templates Twitter Cards Internal Templates: Twitter Cards I guess the creators of hugo don’t use twitter much… since I couldn’t get interal includes to work. Or probably I am borked.. anyways. &amp;lt;!-- Twitter Cards--&amp;gt; &amp;lt;!-- Twitter summary card with large image must be at least 280x150px --&amp;gt; &amp;lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot;/&amp;gt; &amp;lt;meta name=&quot;twitter:image:src&quot; content=&quot;{{ with .Params.images }}{{ . }}{{ else }}{{ .Site.Params.images }}{{ end }}&quot;/&amp;gt; &amp;lt;!-- Twitter Card data --&amp;gt; &amp;lt;meta name=&quot;twitter:title&quot; content=&quot;{{ .Title }}&quot;/&amp;gt; &amp;lt;meta name=&quot;twitter:description&quot; content=&quot;{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}&quot;/&amp;gt; {{ with .Site.Social.twitter }}&amp;lt;meta name=&quot;twitter:site&quot; content=&quot;@{{ . }}&quot;/&amp;gt;{{ end }} {{ with .Site.Social.twitter_domain }}&amp;lt;meta name=&quot;twitter:domain&quot; content=&quot;{{ . }}&quot;/&amp;gt;{{ end }} I still use their params, but coocked up my own based from theirs and something I had in my head. You can verify this works at web-work.tools/indieweb: Now I just have to design a header image that fits with twitter dimensions, or set it up to look for an og:image, incase I use a thinner banner image. Params for config.toml [params] description = &quot;Text about my cool site&quot; images = [&quot;site-feature-image.jpg&quot;] Front Matter Post Variables description = &quot;Text about this post&quot; images = [&quot;post-cover.png&quot;] title = &quot;Post title&quot; Hugo Shortcodes Content Management - Shortcodes parsiya/Hugo-Shortcodes Hugo Shortcode Pack &amp;lt;-has pdf support via third party. Themes github.com/search?q=hugo+theme themes.gohugo.io Migrating From Jekyll HPSTR theme to Hugo HPSTR theme mikeymop/minimal-mistakes-hugo/ - I see there is also a minimal mistakes hugo theme, so I’ll have to try that sometime :) Academic If you are somewhat familiar with Jekyll already, you may want to jumping right in with Academic Pages. It’s not exactly simple, but its versatile. I tried github.com/search?q=hugo+theme, and found that Academic has a toooon of stars. More even than the repository for all of hugos themes in one place !!! There is a one click fork\deploy with GitHub\GitLab Pages and Netlify. Seriously just click a button, it creates the repo and publishes it for you. Academic Install You can choose from one of the following four methods to install: one-click install using your web browser (recommended) install on your computer using Git with the Command Prompt/Terminal app install on your computer by downloading the ZIP files install on your computer with RStudio Writing content with Markdown, LaTeX, and Shortcodes Getting Started With the Page Builder - Learn Academic’s widget system. Academic Tips Display Jupyter Notebooks with Academic Creating a Course or Documentation Academic - Migrate From Jekyll Learn Another documentation theme, I think a bit simpler than Academic. matcornic/hugo-theme-learn learn.netlify.com Related Posts All this started a few months ago when I began creating an awesome list on github, then got into publishing via GitHub Pages. GitHub Pages Starter Pack GitHub Pages Extended Resources Static Site Generators (just a start) Migrating From Jekyll HPSTR theme to Hugo HPSTR theme Command Line - Git - SSH - BASH</summary></entry><entry><title type="html">Git, SSH, and Terminal Basics</title><link href="http://localhost:4000/jamstack/git-ssh/" rel="alternate" type="text/html" title="Git, SSH, and Terminal Basics" /><published>2019-06-06T00:00:00-04:00</published><updated>2019-06-06T00:00:00-04:00</updated><id>http://localhost:4000/jamstack/command-line-git-ssh</id><content type="html" xml:base="http://localhost:4000/jamstack/git-ssh/">&lt;p&gt;I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/command-line-tutorial/basics&quot;&gt;Learn Enough Command Line to Be Dangerous&lt;/a&gt; - Introduction to the Unix command line.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zwbetz.com/mac-to-windows-command-line-mappings/&quot;&gt;Mac to Windows Command Line Mappings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mnyrop/swc-materials/&quot;&gt;reusable materials for bash/git/python bootcamps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/hugo-starter-kit/</guid>
-			</item>
-		
-			<item>
-				<title>The Markup languages that get transformed into a website.</title>
-				<link>http://localhost:4000/feeling-responsive/learn-html-css/</link>
-				<pubDate>Thu, 06 Jun 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://commons.wikimedia.org/wiki/File:HTML5_APIs_and_related_technologies_taxonomy_and_status.svg&quot;&gt;&lt;em&gt;header image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;The entire Pro Git book&lt;/a&gt; -written by Scott Chacon and Ben Straub&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/git-tutorial/getting_started&quot;&gt;Learn Enough Git to Be Dangerous&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git&quot;&gt;Atlassian -Getting Git Right&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/introduction/git-handbook/&quot;&gt;guides.github.com - Git Handbook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teamtreehouse.com/library/introduction-to-git&quot;&gt;Introduction to Git&lt;/a&gt; - 186-minute Development Tools Course&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/branches-git/&quot;&gt;Create a Test Branch and Merge Back the Changes&lt;/a&gt; »&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cheat-sheets&quot;&gt;Cheat Sheets&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/davfre/8313299&quot; target=&quot;_blank&quot;&gt;davfre/git_cheat-sheet.md&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.github.com/git-cheat-sheet-education.pdf&quot; target=&quot;_blank&quot;&gt;education.github.com - GIT CHEAT SHEET&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md&quot;&gt;Git CheetSheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;remotes&quot;&gt;Remotes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes&quot;&gt;Working with Remotes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;writing-commits&quot;&gt;Writing Commits&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chris.beams.io/posts/git-commit/&quot; target=&quot;_blank&quot;&gt;Writing Effective Commits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;signing-commits&quot;&gt;Signing Commits&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/managing-commit-signature-verification&quot;&gt;managing-commit-signature-verification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;submodules&quot;&gt;Submodules&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Tools-Submodules&quot;&gt;Git-Tools-Submodules&lt;/a&gt; - so you can pull other git repos into your project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;git-workflow&quot;&gt;Git Workflow&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ssh&quot;&gt;SSH&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/connecting-to-github-with-ssh&quot; target=&quot;_blank&quot;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot; target=&quot;_blank&quot;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&quot; target=&quot;_blank&quot;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&quot; target=&quot;_blank&quot;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bash---shell-scripting&quot;&gt;BASH - Shell Scripting&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tldp.org/LDP/Bash-Beginners-Guide/html/intro_01.html&quot;&gt;Bash Guide for Beginners&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don’t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.shellscript.sh/&quot;&gt;https://www.shellscript.sh/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;http://www.hypexr.org/bash_tutorial.php&lt;/li&gt;
+  &lt;li&gt;https://www.bash.academy/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
+
+&lt;p&gt;Header image: &lt;a href=&quot;http://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/&quot;&gt;IBM PC AT (8Mhz), 2Mb RAM, 20Mb Hard Disk (Formatted), 128Kb EGA, Enhanced Color Display&lt;/a&gt;&lt;/p&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="resources" /><category term="command line" /><category term="terminal" /><category term="git" /><category term="ssh" /><category term="bash" /><summary type="html">I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent. Learn Enough Command Line to Be Dangerous - Introduction to the Unix command line. Mac to Windows Command Line Mappings reusable materials for bash/git/python bootcamps Git The entire Pro Git book -written by Scott Chacon and Ben Straub Learn Enough Git to Be Dangerous Atlassian -Getting Git Right guides.github.com - Git Handbook Introduction to Git - 186-minute Development Tools Course Create a Test Branch and Merge Back the Changes » Cheat Sheets davfre/git_cheat-sheet.md education.github.com - GIT CHEAT SHEET Git CheetSheet Remotes Working with Remotes Writing Commits Writing Effective Commits Signing Commits managing-commit-signature-verification Submodules Git-Tools-Submodules - so you can pull other git repos into your project Git Workflow www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow SSH Connecting to GitHub with SSH Generating a new SSH key and adding it to the SSH agent Adding a new SSH key to your GitHub Account How to manage multiple GitHub accounts on a single machine with SSH keys BASH - Shell Scripting Bash Guide for Beginners This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don’t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world. https://www.shellscript.sh/ http://www.hypexr.org/bash_tutorial.php https://www.bash.academy/ Sources Header image: IBM PC AT (8Mhz), 2Mb RAM, 20Mb Hard Disk (Formatted), 128Kb EGA, Enhanced Color Display</summary></entry><entry><title type="html">The Markup languages that get transformed into a website.</title><link href="http://localhost:4000/jamstack/html-css/" rel="alternate" type="text/html" title="The Markup languages that get transformed into a website." /><published>2019-06-06T00:00:00-04:00</published><updated>2019-06-06T00:00:00-04:00</updated><id>http://localhost:4000/jamstack/learn-html-css</id><content type="html" xml:base="http://localhost:4000/jamstack/html-css/">&lt;p&gt;&lt;a href=&quot;http://commons.wikimedia.org/wiki/File:HTML5_APIs_and_related_technologies_taxonomy_and_status.svg&quot;&gt;&lt;em&gt;header image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript&quot;&gt;The_web_standards_model_-_HTML_CSS_and_JavaScript&lt;/a&gt;&lt;/li&gt;
@@ -342,104 +504,7 @@
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/learn-html-css/</guid>
-			</item>
-		
-			<item>
-				<title>Resources for the Command Line, Git, SSH, and BASH.</title>
-				<link>http://localhost:4000/feeling-responsive/command-line-git-ssh/</link>
-				<pubDate>Thu, 06 Jun 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/command-line-tutorial/basics&quot;&gt;Learn Enough Command Line to Be Dangerous&lt;/a&gt; - Introduction to the Unix command line.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zwbetz.com/mac-to-windows-command-line-mappings/&quot;&gt;Mac to Windows Command Line Mappings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mnyrop/swc-materials/&quot;&gt;reusable materials for bash/git/python bootcamps&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;The entire Pro Git book&lt;/a&gt; -written by Scott Chacon and Ben Straub&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/git-tutorial/getting_started&quot;&gt;Learn Enough Git to Be Dangerous&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git&quot;&gt;Atlassian -Getting Git Right&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/introduction/git-handbook/&quot;&gt;guides.github.com - Git Handbook&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://teamtreehouse.com/library/introduction-to-git&quot;&gt;Introduction to Git&lt;/a&gt; - 186-minute Development Tools Course&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/branches-git/&quot;&gt;Create a Test Branch and Merge Back the Changes&lt;/a&gt; »&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;cheat-sheets&quot;&gt;Cheat Sheets&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/davfre/8313299&quot; target=&quot;_blank&quot;&gt;davfre/git_cheat-sheet.md&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://education.github.com/git-cheat-sheet-education.pdf&quot; target=&quot;_blank&quot;&gt;education.github.com - GIT CHEAT SHEET&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md&quot;&gt;Git CheetSheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;remotes&quot;&gt;Remotes&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes&quot;&gt;Working with Remotes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;writing-commits&quot;&gt;Writing Commits&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chris.beams.io/posts/git-commit/&quot; target=&quot;_blank&quot;&gt;Writing Effective Commits&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;signing-commits&quot;&gt;Signing Commits&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/managing-commit-signature-verification&quot;&gt;managing-commit-signature-verification&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;submodules&quot;&gt;Submodules&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Tools-Submodules&quot;&gt;Git-Tools-Submodules&lt;/a&gt; - so you can pull other git repos into your project&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;git-workflow&quot;&gt;Git Workflow&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ssh&quot;&gt;SSH&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/connecting-to-github-with-ssh&quot; target=&quot;_blank&quot;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot; target=&quot;_blank&quot;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&quot; target=&quot;_blank&quot;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&quot; target=&quot;_blank&quot;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bash---shell-scripting&quot;&gt;BASH - Shell Scripting&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tldp.org/LDP/Bash-Beginners-Guide/html/intro_01.html&quot;&gt;Bash Guide for Beginners&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don’t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.shellscript.sh/&quot;&gt;https://www.shellscript.sh/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;http://www.hypexr.org/bash_tutorial.php&lt;/li&gt;
-  &lt;li&gt;https://www.bash.academy/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
-
-&lt;p&gt;Header image: &lt;a href=&quot;http://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/&quot;&gt;IBM PC AT (8Mhz), 2Mb RAM, 20Mb Hard Disk (Formatted), 128Kb EGA, Enhanced Color Display&lt;/a&gt;&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/command-line-git-ssh/</guid>
-			</item>
-		
-			<item>
-				<title>Migrating from Jekyll HPSTR to Hugo</title>
-				<link>http://localhost:4000/feeling-responsive/from-jekyll-hpstr-to-hugo/</link>
-				<pubDate>Sat, 01 Jun 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;I’ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="resources" /><category term="html" /><category term="css" /><category term="meta-tags" /><category term="kramdown" /><category term="katex" /><category term="toml" /><category term="yaml" /><category term="json" /><category term="fundamentals" /><summary type="html">header image source The_web_standards_model_-_HTML_CSS_and_JavaScript Markdown Mastering Markdown Markdown Cheet-Sheet TOML - YAML - JSON Just this for now, will get deeper with structured data, later on. github.com/toml-lang/toml yaml.org json.org HTML htmldog.com - HTML5 Beginner Tutorials Learn web development - developer.mozilla.org Learn Enough HTML to be Dangerous Color HTML Color Chart Paletton Color Hexa Colors Color Tool Unicode Miscellaneous-Symbols-and-Pictographs Meta Tags The Head - Metadata in HTML https://metatags.io https://www.heymeta.com/ Viewport and Media Queries CSS rtable htmldog.com - CSS Beginner-Advanced Tutorials Learn Enough CSS and Layout to be Dangerous Bootstrap Bootstrap is a small responsive css framework that minimizes the effort required to deal with all that by hand. You could use it when building from the ground up, or with a simple theme that doesn’t have much styling… just starting to learn about this. Boostrap Introduction to Bootstrap for Absolute Beginners Boostrap Starter Template Related Markup and Interpreters katex Kramdown kramdown.gettalong.org Kramdown - Syntax Kramdown - QuickRef Guide Related Posts Learn HTML CSS and Associated Markup Languages Content Creation GitHub Pages Extended Resources Static Site Generators Migrating from Jekyll HPSTR to Hugo HPSTR theme Command Line - Git - SSH - BASH</summary></entry><entry><title type="html">Migrating from Jekyll HPSTR to Hugo</title><link href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/" rel="alternate" type="text/html" title="Migrating from Jekyll HPSTR to Hugo" /><published>2019-06-01T00:00:00-04:00</published><updated>2019-06-01T00:00:00-04:00</updated><id>http://localhost:4000/jamstack/from-jekyll-hpstr-to-hugo</id><content type="html" xml:base="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">&lt;p&gt;I’ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.&lt;/p&gt;
 
 &lt;p&gt;This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.&lt;/p&gt;
 
@@ -852,16 +917,7 @@ enableEmoji = true
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/from-jekyll-hpstr-to-hugo/</guid>
-			</item>
-		
-			<item>
-				<title>Creating a Test Branch and Merging back the Changes</title>
-				<link>http://localhost:4000/feeling-responsive/branches-git/</link>
-				<pubDate>Fri, 31 May 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;Image Source: &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&quot;&gt;Bunyk - Українська&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="hpstr" /><category term="jekyll" /><category term="hugo" /><category term="theme" /><category term="migration" /><summary type="html">I’ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone. This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, or Hugo to Jekyll. I’ve got two branches of the same exact website except one is run by Jekyll and one is run by Hugo!! That’s pretty neat, if you ask me! I also show examples of the differences between the two, where and how I made changes. Why mmistakes/hpstr-jekyll-theme is archived, and you can no longer submit issues or pull-requests. Hugo has a lot of support from the development community, and is growing quickly in features and popularity. More options. Learn new skills. I know of some indieweb themes. /themes/ directory allows for easy testing and switching between new themes. HPSTR Jekyll vs Hugo I’m looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won’t run in the newest version. If you have a newer suggestion, feel free to shout out. I will also find out what the options are. Releases mmistakes/hpstr-jekyll-theme dldx/hpstr-hugo-theme It turns out that each version was released at the same time, and that they were built together from the very beginning! The nice thing about hpstr-hugo-theme is that its not archived, and if you want to open any issues or pull-requests, that can be done. Interestingly, but nice to see, there are currently 0 open pull request or issues in the themes repository. Root Directories Using different versions of Hugo: Netlify Plus Hugo .20 and beyond Until yesterday, if you wanted to use a new version of Hugo on Netlify, you had two options. The first one was to wait for us to install it on our build servers and work around name collisions. Although it was not complicated, you can see by reading this blog post, it’s not very sustainable. The second option was to add the version of the Hugo binary you wanted to use to your repository. Since Hugo is a static binary, this is a very convenient solution if you want to manage it yourself. Starting today, if you want to use a specific new version of Hugo on Netlify, you only need to set the environment variable HUGO_VERSION with the version number you want to use. If it’s a valid release number, we’ll install it for you and use that version. You don’t have to wait for us, or manage binaries yourself. For example, if you want to use Hugo 0.20 right now, you can go to your site’s settings (Build and Deploy, Build Environment Variables section) and set HUGO_VERSION to 0.20 in your environment. Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository. Which Version of Hugo Should I Run? Scrolling back through the hugo releases when the HPSTR theme was in active development, I come across: 0.16.0 June 6th 2016 Hugo 0.16 is our best and biggest release ever. The Hugo community has outdone itself with continued performance improvements, beautiful themes for all types of sites from project sites to documentation to blogs to portfolios, and increased stability. .deb packages for Debian, Ubuntu, etc. Hugo has become part of the official Debian and Ubuntu repositories since January 2016! That’s a nice note to find, since I’m an Ubuntu user. v0.17 - October 2016 There are numerous options for different platforms, and this version of Hugo was released in October, one month after the final release of HPSTR. Hugo is going global with our 0.17 release. […] Adding additional languages to your website is simple and straightforward. Hugo continues its trend of each release being faster than the last. Apparently it’s fast enough that people began using hugo’s webserver in production, around this time. New in 0.17: Available as Snap package Thanks to the contribution #2443 and guidance from @dholbach, Hugo is now available as a Snap package! (Snaps are a new kind of universal Linux packages.) Check it out at https://uappexplorer.com/app/hugo.hugo-authors Download links for Hugo v0.17 Now that I have Hugo working, lets see how far I can go in Hugo versions. v0.30.1 - Oct 16, 2017 Hugo 0.30 is the Race Car Edition. Hugo is already very very fast, but much wants more. So we added Fast Render Mode. It is hard to explain, so start the Hugo development server with hugo server and start editing. Live reloads just got so much faster! The “how and what” is discussed at length in other places, but the short version is that we now re-render only the parts of the site that you are working on. This is a big release, so I’m going to look ahead for the closest bug-fixes, but avoid any feature releases. v0.31.1 - Nov 27, 2017 So.. there’s another big release after this, at the start of 2018, but I think I’ll stick with this one. It’s a year after HPSTR completed its development. I think we’ll be good here, and I want to get to know Hugo better before changing things up too much. The next major change introduces page bundles. I wouldn’t be surprised if it has a problem with this theme. Test Install web.archive.org - Installing Hugo - Dec, 2017 Once it’s installed, type I hugo version and read: perfect!! Clone the Hugo Theme. With some pre-requisites out of the way, lets jump in at the first step in the theme setup: Theme Setup - HPSTR Hugo $ mkdir newProject $ cd newProject $ mkdir themes $ cd themes $ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr and you will see hpster located in: /web-work/themes/hpstr. Example Site Once you have the newProject/themes/hpstr you’ll find the folder exampleSite in the hpstr directory. Just Copy the contents of exampleSite to the root of newProject, and test to see if it will run. $ hugo It should print something like this: Started building sites ... Built site for language en: 0 draft content 0 future content 0 expired content 10 pages created 0 non-page files copied 15 paginator pages created 9 tags created 0 categories created total in 100 ms Unless you get that print-out, don’t bother changing your whole sites configuration just yet. Make sure you placed the contents of exampleSite into the root of your project directory, and that your directories are structured properly. If you did everything right and it still won’t build, then I would shop around to different releases in that same time period to see if I could get one to work. Just to be sure! I’ll test the server, also, and see that I get a website. $ hugo server Started building sites ... Built site for language en: 0 draft content 0 future content 0 expired content 10 pages created 0 non-page files copied 15 paginator pages created 9 tags created 0 categories created total in 61 ms Watching for changes in /newProject/ {data,content,static,themes} Yay!!! Directory Structure HPSTR Jekyll vs Hugo mmistakes.github.io/hpstr-jekyll-theme/theme-setup/ hpstr-hugo-theme/theme-setup In with the new. Now, it’s simply moving over the content, and swapping out some frontmatter, and configuration formating. Content Posts are stored in the content directory. By default, only content in the content/posts will show up in the All Posts section, however, you can link to other sections manually. For example, if you create a post at gallery/photo1.md, your post will appear both under the home page and under /gallery. In Hugo-HPSTR-Theme, it’s all about your directory structure. You’ll notice that your root directory mirrors the themes directory structure, because the theme always keeps a backup file of everything necessary to function. archetypes/ I entered some tags and categories: web-work/themes/hpstr/archetypes/default.md +++ Description = &quot;&quot; Tags = [&quot;resources&quot;, &quot;web-work&quot;] Categories = [&quot;howto&quot;, &quot;tools&quot;] menu = &quot;main&quot; +++ data/ From YAML to TOML In the theme directory is a navigation.yml file, and even awhole exampleSite that we can copy over to our root data directory and customize. Be sure to change title: to title = and so forth. [[links]] title = &quot;web-work.tools&quot; url = &quot;/web-work.tools/&quot; [[links]] title = &quot;Services&quot; url = &quot;/services/&quot; [[links]] title = &quot;Mostly Free SEO Tools&quot; url = &quot;/seo-tools/&quot; [[links]] title = &quot;GitHub Pages Starter Pack&quot; url = &quot;/github-pages-starter-pack/&quot; [[links]] title = &quot;Practical Public Key Crypto&quot; url = &quot;/practical-public-key-crypto/&quot; [[links]] title = &quot;InfoMine&quot; url = &quot;http://infominer.id/&quot; Frontmatter The main differences: using type rather than layout using the frontmatter variable date to signify publication date, rather than hardcoding it into the title. HPSTR-Jekyll --- layout: post title: &quot;Sample Code Post&quot; description: &quot;Examples and code for various HPSTR functions.&quot; tags: [samples, code, snippets] comments: true link: http://mademistakes.com image: thumb: /images/pgp-og.png feature: pgp-banner.png background: triangular.png modified: 2019-05-30T13:15:59-23:00 permalink: /sample-code/ --- HPSTR-Hugo --- type: post title: Sample Post description: &quot;Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.&quot; date: 2011-03-10 tags: [sample post] image: feature: abstract-3.jpg credit: dargadgetz creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/ --- config.toml Now we are getting places! Next step is to copy the config.toml from the root of our example site into the root of our repository. This is the final stretch, and we should be good to go baseurl = &quot;https://web-work.tools&quot; languageCode = &quot;en-gb&quot; title = &quot;web-work.tools: Independent Web-Work and Skyscraper Publishing.&quot; theme = &quot;hpstr&quot; pluralizelisttitles = false PygmentsCodeFences = true Paginate = 5 disqusShortname = &quot;hpstrhugo&quot; publishdir = &quot;docs&quot; enableEmoji = true [params] subtitle = &quot;Digital Tools for a Digital Transformation.&quot; [params.author] name = &quot;⧉ Infominer&quot; avatar = &quot;/images/info-id.png&quot; bio = &quot;Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉&quot; github = &quot;webwork-tools/webwork-tools.github.io&quot; [params.image] feature = &quot;/images/web-work-tools.png&quot; Configuring Hugo publishdir = &quot;docs&quot; By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder. Redirects One thing that’s important to note, if you are switching from Jekyll HPSTR to HPSTR Hugo with me. HPSTR Hugo makes all your posts live in the /posts/ directory. If you used to let your blog live at the root of the site, like me, then add aliases, which are how Hugo does redirects. Content Manegement - Aliases aliases: - /title-goes-here/ - /other-title-too/ One last thing! It seems like you need to type hugo to publish to the docs directory, because hugo server doesn’t do both, it only does the webserving.. I don’t really understand, but that seems to be the case. Use a linebreak before each list! Twitter Cards For twitter cards, I use the minimal-mistakes - _includes/seo.html as a reference for up to date syntax, and update the code that generates it wherever I need (or simply drop it in the includes of jekyll themes). Test Branches I’ve switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy it is, here on Hugo. webwork-tools.github.io/tree/test-hugo webwork-tools.github.io/tree/hpster-jekyll AngeloStravrow/indigo Resources web.archive.org - Installing Hugo - Dec, 2017 web.archive.org - Using Hugo - Dec,2017 Creating a Test Branch and Merging changes back to Master Goodbye Jekyll - Hello Hugo Other Hugo Themes /EmielH/tale-hugo Over the Rainbow Blogging with Org-Mode and Hugo Related Posts Hugo Starter Kit Learn HTML CSS and Associated Markup Languages Content Creation GitHub Pages Extended Resources Static Site Generators Command Line - Git - SSH - BASH</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22jekyll-hpstr-hugo.png%22%7D" /></entry><entry><title type="html">Creating a Test Branch and Merging back the Changes</title><link href="http://localhost:4000/jamstack/git-branches/" rel="alternate" type="text/html" title="Creating a Test Branch and Merging back the Changes" /><published>2019-05-31T00:00:00-04:00</published><updated>2019-05-31T00:00:00-04:00</updated><id>http://localhost:4000/jamstack/branches-git</id><content type="html" xml:base="http://localhost:4000/jamstack/git-branches/">&lt;p&gt;Image Source: &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&quot;&gt;Bunyk - Українська&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.&lt;/p&gt;
 
@@ -919,16 +975,7 @@ enableEmoji = true
 git pull origin master
 git merge test
 git push origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/branches-git/</guid>
-			</item>
-		
-			<item>
-				<title>Infominer's Forked Repositores</title>
-				<link>http://localhost:4000/feeling-responsive/infominer33-forked-repos/</link>
-				<pubDate>Wed, 29 May 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="hpstr" /><category term="jekyll" /><category term="hugo" /><category term="theme" /><category term="migration" /><summary type="html">Image Source: Bunyk - Українська I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running. Checkout test branch Use the command git checkout -b will allow you to create a local branch for testing. I will call my new branch test-hugo so the command will be like so: git checkout -b test-hugo Some git basics for newbs like me Git Branching and Merging Git keeps track of all your files, but not just the files, but everything in the repository. Every commit, git remembers. “yes yes I know” However, it really boggled my mind the first time I tried it locally. I can change to a branch or another point in the history of this repository, and git tucks away the one I’m working on… and the whole directory changes and like wait… where did all my files just go? When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain :rofl: Git is Magic! it sure feels that way, especially the first time I realized what it was doing. I still have a sense of wonder and mystery around Git. You probably knowbut you don’t need github at all, and I’m learning that a significant portion, of git repositories are never exposed to the public. Outside of GitHub and its imitators, most contributors to a project don’t have a published version of their repository online at all, skipping that step and saving some time. - What is a Fork? git checkout -b is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress! More Git Resources » Merging changes back to the master branch git checkout master git pull origin master git merge test git push origin master</summary></entry><entry><title type="html">Infominer’s Forked Repositores</title><link href="http://localhost:4000/info/forked-repositories/" rel="alternate" type="text/html" title="Infominer's Forked Repositores" /><published>2019-05-29T00:00:00-04:00</published><updated>2019-05-29T00:00:00-04:00</updated><id>http://localhost:4000/info/forked-repositories</id><content type="html" xml:base="http://localhost:4000/info/forked-repositories/">&lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
 
 &lt;p&gt;Now that I have both forked &lt;a href=&quot;https://web-work.tools/infominer33-starred-repos/&quot;&gt;and starred&lt;/a&gt;&lt;/p&gt;
 
@@ -1000,17 +1047,7 @@ git push origin master
   &lt;li&gt;&lt;a href=&quot;https://github.com/peacekeeper/blockchain-identity&quot;&gt;peacekeeper/blockchain-identity&lt;/a&gt; - Blockchain and Identity&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/tyleryasaka/identity-proposals&quot;&gt;tyleryasaka/identity-proposals&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot4-paris&quot;&gt;WebOfTrustInfo/rwot4-paris&lt;/a&gt; - RWOT4 in Paris, France (April 2017)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/infominer33-forked-repos/</guid>
-			</item>
-		
-			<item>
-				<title>Resources for Content Creation</title>
-				<link>http://localhost:4000/feeling-responsive/content-creation/</link>
-				<pubDate>Tue, 28 May 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;Here’s some tools to make content creation a little easier.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="forked" /><category term="repositories" /><category term="github" /><category term="resources" /><summary type="html">An organized list of my forked repositories. Now that I have both forked and starred WebPub artemsheludko/galada - Galada is an easy and simple blog theme for Jekyll. github/personal-website - A place to track the repositories of infominer. contrafabulists-toolbox/google-sheet-to-github-website - This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source. minicomp/wax - Jekyll for minimal exhibitions with IIIF bee weskerfoot/KettleBlog - A full featured blog in RiotJS poole/lanyon - A content-first, sliding sidebar theme for Jekyll. gdamdam/awesome-decentralized-web - an awesome list of decentralized services and technologies Tyrrrz/DiscordChatExporter - Exports Discord chat logs to a file anaibol/awesome-serverless - cloud A curated list of awesome services, solutions and resources for serverless / nobackend applications. toddmotto/public-apis - A collective list of free APIs for use in software and web development. iipc/awesome-web-archiving - An Awesome List for getting started with web archiving fire1ce/3os.org - Source Code for 3os.org website. The website based on Markdown format, rendered to html and hosted on github-pages mmistakes/minimal-mistakes - triangular_ruler A flexible two-column Jekyll theme perfect for building personal sites, blogs, and portfolios. gristlabs/mkdocs-windmill - Outstanding mkdocs theme with a focus on navigation and usability poole/poole - The Jekyll Butler. mmistakes/hpstr-jekyll-theme - A Jekyll theme with some tumble-log tendencies. mnyrop/pagemaster - Jekyll plugin for generating Markdown collection pages from CSV/YAML/JSON records 🧙book mmistakes/so-simple-theme - A simple Jekyll theme for words and pictures. ChristopherA/jekyll-remote_theme-test ChristopherA/simplest-github-page - Test of simplest GitHub page, leveraging Jekyll without Jekyll mmistakes/minimal-mistakes-algolia-search - Minimal Mistakes Jekyll theme test with Algolia search aioobe/dead-simple-jekyll-comments - Dead simple DIY comment system for Jekyll. Tools n Resources watson/awesome-computer-history - An Awesome List of computer history videos, documentaries and related folklore redknight99/annotated-awesome-osint - scream A curated list of amazingly awesome OSINT trimstray/the-book-of-secret-knowledge - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. chow-petit/awesome-curated-tools - A curated list of digital tools we use, ranging from accounting and data science to scientific research and liquid democracy. Commented, connected, by everyone and for everyone ! jlevy/the-art-of-command-line - Master the command line, in one page mozilla/sops - Secrets management stinks, use some sops! theanalyst/awesome-distributed-systems - A curated list to learn about distributed systems chaconnewu/awesome-augmented - Centralize all awesome lists with addition info on curated GitHub repos (automated by scripts) Indieweb projectpages/project-pages - GitHub Pages for an Indieweb voxpelli/webpage-webmentions - A hosted Disqus-like comment service that enables WebMention receiving on any kind of site Crypto denisnazarov/awesome-crypto-trackers - A curated list of crypto project trackers and analytics dashboards. ethhub-io/ethhub - The essential Ethereum information hub. the-domains/gigabitcoin cryptoparty/artwork - a collection of public domain artwork and graphics, where possible, with source files to help others remix and reuse to make slides, handouts and flyers for cryptoparties sunnankar/wuc-new - We Use Coins website. Decentralized Identity Identitywoman/identity-commons - This is a repository for commons resources that can serve the community working on identity. WebOfTrustInfo/rwot3-sf - RWOT3 in San Francisco, California (October 2016) WebOfTrustInfo/rwot2-id2020 - RWOT2 for the ID2020 UN Summit (May 2016) WebOfTrustInfo/rwot1-sf - RWOT1 in San Francisco, California (November 2015) hyperledger/indy-docs WebOfTrustInfo/self-sovereign-identity - Articles and documents associated with designing and implementing identity technology using self-sovereign identity principles peacekeeper/blockchain-identity - Blockchain and Identity tyleryasaka/identity-proposals WebOfTrustInfo/rwot4-paris - RWOT4 in Paris, France (April 2017)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22infominer-forked-repositories.png%22%7D" /></entry><entry><title type="html">Resources for Content Creation</title><link href="http://localhost:4000/content/creation/" rel="alternate" type="text/html" title="Resources for Content Creation" /><published>2019-05-28T00:00:00-04:00</published><updated>2019-05-28T00:00:00-04:00</updated><id>http://localhost:4000/content/content-creation</id><content type="html" xml:base="http://localhost:4000/content/creation/">&lt;p&gt;Here’s some tools to make content creation a little easier.&lt;/p&gt;
 
 &lt;p&gt;As per usual, this list will grow and become more organized over time.&lt;/p&gt;
 
@@ -1189,16 +1226,7 @@ combines feeds “into content and other magical creations”.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/content-creation/</guid>
-			</item>
-		
-			<item>
-				<title>Infominer's GitHub Portfolio and HowTo</title>
-				<link>http://localhost:4000/feeling-responsive/make-a-github-portfolio/</link>
-				<pubDate>Mon, 27 May 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;I learned of this cool project from &lt;a href=&quot;https://twitter.com/bmann&quot;&gt;@bmann&lt;/a&gt;. I’ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="content creation" /><category term="tools" /><category term="resources" /><summary type="html">Here’s some tools to make content creation a little easier. As per usual, this list will grow and become more organized over time. Basics Mastering Markdown Markdown Cheet-Sheet Editors Visual Studio Code Where I build webpages. This thing has extensions for all your coding needs… It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.). Learn Enough Text Editor to Be Dangerous - Vim So, What’s a Text Editor? …an introduction for newbies HackMD - Collaborative Markdown Editor https://hackmd.io - Collaborative markdown editor (where I write everything else). Getting started Tutorial How to Create a Book YAML Metadata See also demo.codimd.org/ Public Domain - Stock Images nacyot/awesome-opensource-documents neutraltone/awesome-stock-resources shime/creative-commons-media idleberg/Creative-Commons-Markdown - snippets to add CC license to your work. Images Converters pdf2png pptx-to-pdf pdf to html coolwanglu/pdf2htmlEX Sizes Twitter-Image Sizes Header Image Sizing Guide Aspect Ratio Calculator Optimization The web loooves big old beautiful high quality images… However, my visitors probably notice the load time of huge images more than I do (though I do notice them). https://ezgif.com/optimize cross-platform tool for losslessly optimizing PNG and JPG files for web. - https://trimage.org/ command-line utility and a library for lossy compression of PNG images. The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - pngquant Infographics Canva Infographic Creator easel.ly - free create infographics Content Strategy Tool - Find inspiration for your content marketing topics Google Public Data - content research, infographics, and more. Google SERP Snippet Optimization Tool - see how your snippet may appear in search results. infogr.am - create infographics and data visualizations https://www341.lunapic.com/editor/ Piktochart - visualization generator. Text Text Cleaner - cleans up all kinds of text formatting when copying and pasting between applications. wordle - word cloud generator Yahoo Pipes combines feeds “into content and other magical creations”. https://www.pcjs.org - IBM PC simulation that runs in your web browser Video Amara - create captions for YouTube videos. Wistia - SEO-friendly video hosting. Plagiarism Copyscape - track if your content is being plagiarized. ^^^ This is the industry standard. It can help to prevent even plagiarizing from yourself! Archiving Web Archive for WayBack Machine iipc/awesome-web-archiving webapps.stackexchange.com - how-to-archive-the-whole-website httrack.com https://hostadvice.com/how-to/how-to-install-apache-mysql-php-on-an-ubuntu-18-04-vps/ https://askubuntu.com/questions/448424/unable-to-open-php-files-on-linux-platform-on-ubuntu Wiki en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia en.wikipedia.org/wiki/Help:Cheatsheet Data Visualization rendering-data-as-graphs Creating a dynamic d3 visualization from the GitHub API Visualize GitHub Code Contribution using APP Link tools-visualize-github-profile/ In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control. - Data Visualization for All - Modify and Host Code with GitHub by Jack Dougherty &amp;amp; Ilya Ilyankou Tutes \ Walkthrus How to Create an Open-Source Directory on GitHub Pages What You Can Do With Gists on Github? Assorted https://polyglot.untra.io/ - multi-lingual publishing. https://konpa.github.io/devicon/ Related Posts Learn HTML CSS and Associated Markup Languages Content Creation GitHub Pages Extended Resources Static Site Generators Migrating from Jekyll HPSTR to Hugo HPSTR theme Command Line - Git - SSH - BASH</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22content-creation.png%22%7D" /></entry><entry><title type="html">Infominer’s GitHub Portfolio and HowTo</title><link href="http://localhost:4000/content/github-portfolio/" rel="alternate" type="text/html" title="Infominer's GitHub Portfolio and HowTo" /><published>2019-05-27T00:00:00-04:00</published><updated>2019-05-27T00:00:00-04:00</updated><id>http://localhost:4000/content/make-a-github-portfolio</id><content type="html" xml:base="http://localhost:4000/content/github-portfolio/">&lt;p&gt;I learned of this cool project from &lt;a href=&quot;https://twitter.com/bmann&quot;&gt;@bmann&lt;/a&gt;. I’ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
 
 &lt;p&gt;It’s really nice to have a place to keep track, because I’m always forgetting how many I even manage!&lt;/p&gt;
 
@@ -1300,17 +1328,7 @@ topics:
 &lt;figure class=&quot;full&quot;&gt;
 	&lt;img src=&quot;https://web-work.tools/images/gh-pages-starter-pack.png&quot; alt=&quot;&quot; /&gt;
 	&lt;figcaption&gt;&lt;a href=&quot;https://web-work.tools/github-pages-starter-pack/&quot;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/make-a-github-portfolio/</guid>
-			</item>
-		
-			<item>
-				<title>Infominer's Starred GitHub Repositories</title>
-				<link>http://localhost:4000/feeling-responsive/github-stars/</link>
-				<pubDate>Sun, 26 May 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;Here’s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="github" /><category term="portfolio" /><category term="github pages" /><category term="how to" /><summary type="html">I learned of this cool project from @bmann. I’ve been wanting a simple way to make a page like this for a while! It’s really nice to have a place to keep track, because I’m always forgetting how many I even manage! It might seem intimidating to hear, “Just Fork It!” However, you’ll see that it’s not much more complex than that. Step 1 Fork this repository: github/personal-website Step 2 Go to settings and select publish from master branch: Step 3 If you already have a web-page, then maybe you aren’t reading this.. If you don’t, then you must name the repository the same as your name on github. So my first website’s repository name is infominer33.github.io since my github username is infominer33. Now it publishes to infominer.id (but also infominer33.github.io) because I have a custom domain, and every other repository I publish is a branch of that first domain. Since I already have a primary webpage, I change my repository name to repo-portfolio. That way, it lives at: infominer.id/repo-portfolio Step 4 On github pages, _config.yml lives in the root directory of each webpage, this is where you can fine tune settings which repositories display: projects: sort_by: pushed # sort_by options: # - pushed # - stars limit: 12 exclude: archived: false forks: false projects: - pub-yes - yest - archive-crypto - yest-the-docs - bahamas-crypto you can also configure social media accounts. social_media: website: https://infominer.id/ keybase: infominer telegram: infominer33 twitter: infominer33 # behance: your_username # dribbble: your_username # facebook: your_username # hackerrank: your_username # instagram: your_username # linkedin: your_username # mastodon: your_username # medium: your_username # stackoverflow: your_user_id # unsplash: your_username # vk: your_username # youtube: your_username and topics of interest: topics: - name: Bitcoin web_url: https://github.com/topics/bitcoin image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png - name: Decentralized Identity web_url: https://github.com/topics/decentralized-identity image_url: https://decentralized-id.com/assets/icons/didicon.png Cool beans, right? There are also blog features, although I’m not sure I’ll blog there… who knows!?!? I haven’t looked through the issues, or pull-requests yet to see what folk are working on, or tried to tweak any of the quirks I’ve noticed.. If you want to learn more about GitHub Pages, check out: GitHub Pages - Starter Pack:Extended Resources</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22infominer33-github-portfolio.jpeg%22%7D" /></entry><entry><title type="html">Infominer’s Starred GitHub Repositories</title><link href="http://localhost:4000/info/starred-repositories/" rel="alternate" type="text/html" title="Infominer's Starred GitHub Repositories" /><published>2019-05-26T00:00:00-04:00</published><updated>2019-05-26T00:00:00-04:00</updated><id>http://localhost:4000/info/github-stars</id><content type="html" xml:base="http://localhost:4000/info/starred-repositories/">&lt;p&gt;Here’s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
 
 &lt;p&gt;I used this:&lt;/p&gt;
 
@@ -1408,113 +1426,4 @@ topics:
   &lt;li&gt;&lt;a href=&quot;https://github.com/openssi/peer-did-method-spec&quot;&gt;openssi/peer-did-method-spec&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/tyleryasaka/identity-proposals&quot;&gt;tyleryasaka/identity-proposals&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/hyperledger/indy-docs&quot;&gt;hyperledger/indy-docs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/github-stars/</guid>
-			</item>
-		
-			<item>
-				<title>Static Site Generators</title>
-				<link>http://localhost:4000/feeling-responsive/static-site-generators/</link>
-				<pubDate>Sat, 25 May 2019 00:00:00 -0400</pubDate>
-				<description>&lt;p&gt;Well, now i’m looking into options besides jekyll, to expand my skills, and try out some themes that aren’t available for Jekyll.&lt;/p&gt;
-
-&lt;p&gt;I’ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-a-static-site-generator-ssg&quot;&gt;What is a Static Site Generator (SSG)?&lt;/h2&gt;
-
-&lt;p&gt;There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.&lt;/p&gt;
-
-&lt;p&gt;I’ll have a few general resources at the top and just add as I go, since I’m not ready to learn about too many of them, just yet.&lt;/p&gt;
-
-&lt;h2 id=&quot;general&quot;&gt;General&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll&quot;&gt;Using A Static Site Generator other than Jekyll&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/pinceladasdaweb/Static-Site-Generators&quot;&gt;pinceladasdaweb/Static-Site-Generators&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://staticsitegenerators.net&quot;&gt;staticsitegenerators.net&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.staticgen.com/&quot;&gt;https://www.staticgen.com/&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=17952234&quot;&gt;I tried Hugo, Jekyll and Gatsby&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hugo&quot;&gt;Hugo&lt;/h2&gt;
-
-&lt;p&gt;These links have moved to their own page:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/hugo-starter-kit/&quot;&gt;Hugo Starter Kit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mkdocs&quot;&gt;MkDocs&lt;/h2&gt;
-
-&lt;p&gt;MkDocs has built in search, and in some ways simpler than publishing w jekyll.&lt;/p&gt;
-
-&lt;p&gt;For example, you don’t need to put frontmatter into every single document.. it will just create a website from markdown files and autogenerate toc based on directory structure.&lt;/p&gt;
-
-&lt;p&gt;MkDocs really caught my eye when I saw it running at &lt;a href=&quot;https://docs.ethhub.io/&quot;&gt;EthHub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/c7Ik39r.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mkdocs.org/&quot;&gt;https://www.mkdocs.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins&quot;&gt;/mkdocs/mkdocs/wiki/MkDocs-Plugins&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://yakworks.github.io/mkdocs-material-components/cheat-sheet/&quot;&gt;MkDocs Material Components - Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mkdocs.readthedocs.io&quot;&gt;mkdocs.readthedocs.io&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins&quot;&gt;mkdocs/mkdocs/wiki/MkDocs-Plugins&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin&quot;&gt;mkdocs-awesome-pages-plugin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.wheelodex.org/entry-points/mkdocs.plugins/&quot;&gt;mkdocs.plugins/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blogs.pjjk.net/phil/metadata-for-markdown-mkdocs/&quot;&gt;metadata-for-markdown-mkdocs/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gristlabs.github.io/mkdocs-windmill/#&quot;&gt;https://gristlabs.github.io/mkdocs-windmill/&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/gristlabs/mkdocs-windmill&quot;&gt;gristlabs/mkdocs-windmill&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://python-markdown.github.io/extensions/&quot;&gt;https://python-markdown.github.io/extensions/&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions&quot;&gt;Python-Markdown/markdown/wiki/Third-Party-Extensions&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://python-markdown.github.io/extensions/smarty/&quot;&gt;https://python-markdown.github.io/extensions/smarty/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Because MkDocs builds with python, that opens up a whole universe of tools at your disposal. The python markdown extensions are a prime example.&lt;/p&gt;
-
-&lt;p&gt;However, basically none of the regular jekyll plugins work with mkdocs, it’s a whole universe to its own w Python.&lt;/p&gt;
-
-&lt;h3 id=&quot;now-dev&quot;&gt;Now Dev&lt;/h3&gt;
-
-&lt;p&gt;I don’t even know… but it seems pretty dope.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zeit.co/blog/now-dev&quot;&gt;https://zeit.co/blog/now-dev&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zeit.co/docs/v2/deployments/concepts/lambdas&quot;&gt;https://zeit.co/docs/v2/deployments/concepts/lambdas&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;keybase&quot;&gt;Keybase&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/PVUAaAu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Just sayin’… keybase has 250 gigs of free storage you can use to host a website…&lt;/p&gt;
-
-&lt;p&gt;you could build gem based sites locally, and keybase will automatically sync the data.&lt;/p&gt;
-
-&lt;h2 id=&quot;related-posts&quot;&gt;Related Posts&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/learn-html-css/&quot;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/content-creation/&quot;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/static-site-generators/</guid>
-			</item>
-		
-	</channel>
-</rss>
+&lt;/ul&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.id/</uri></author><category term="github" /><category term="stars" /><category term="repositories" /><category term="open source" /><summary type="html">Here’s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on. I used this: kirtan403.github.io/bookmark-github-stars/ and then found this app that makes them even prettier and has an option to push the data to json. (I’ll try this next time) export-github-stars.netlify.com/ Infominer33’s Starred GitHub Repositories avidLearnerInProgress/python-automation-scripts chaconnewu/awesome-augmented mnyrop/swc-materials mnyrop/pagemaster mozilla/sops jens-maus/yam Jugendhackt/HowToPGP vitalysim/Awesome-Hacking-Resources Hack-with-Github/Awesome-Hacking GH-Pages jekyll-toc weskerfoot/artwork weskerfoot/Gitblog weskerfoot/KettleBlog sindresorhus/amas bmann/webpage-webmentions shichao-an/twitter-photos DeeJayhX/HTMLArticleElementStripper unlicense/unlicense.org johnjago/awesome-uncopyright Ryuno-Ki/webmention-tools rypan/jekyll-db iurisegtovich/AwesomeInformationSharing qwtel/hydejack ChristopherA/simplest-github-page mmistakes/minimal-mistakes mdo/wtf-html-css ChristopherA/jekyll-remote_theme-test jonathancross/jc-docs mdo/code-guide Crypto GrayHats/btctalkint the-domains/gigabitcoin Blockstream/liquid weskerfoot/awesome-ocap BlockchainCommons/BlockchainCommonsLLC banteg/bitcointalk tradingview/pine_script_docs JWWeatherman/bitcoin_security_threat_model JWWeatherman/human_threat_model bssrdf/BlockchainLibrary BlockchainBooks/blockchainbooks.github.io kiarafrobles/bitcoin-reading-list ChristopherA/Blockchain-Developer-Resources mark-s/CryptoCoinWhitePapers gdamdam/awesome-decentralized-web monospaced-out/bit-by-bitcoin ERC725Alliance/erc725 reiver/blockchain-reading-list hyperledger/education cdecker/btcresearch decrypto-org/blockchain-papers ethhub-io/ethhub Bitcoin-and-Markets/resources Steven-Ireland/ethmail.tech sunnankar/wuc-new Decentralized Identity WebOfTrustInfo/rwot8-barcelona good-lly/gdpr-documents DIDecentralized w3c-ccg/did-test-suite WebOfTrustInfo/rwot3-sf WebOfTrustInfo/rwot5-boston WebOfTrustInfo/rwot6-santabarbara WebOfTrustInfo/rwot7-toronto WebOfTrustInfo/rwot2-id2020 peacekeeper/blockchain-identity openssi/peer-did-method-spec tyleryasaka/identity-proposals hyperledger/indy-docs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22infominer-starred-repositories.jpeg%22%7D" /></entry></feed>

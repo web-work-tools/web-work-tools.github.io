@@ -1,0 +1,924 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hugo Starter Kit</title>
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
+
+  
+
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
+
+
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="Tutorials, Themes, Sortcodes and More!">
+	
+	
+	
+	
+	
+	
+	<link rel="canonical" href="http://localhost:4000/jamstack/hugo-starter/">
+
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="Hugo Starter Kit">
+	<meta property="og:description" content="Tutorials, Themes, Sortcodes and More!">
+	<meta property="og:url" content="http://localhost:4000/jamstack/hugo-starter/">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Web-work Tools">
+	
+	
+
+
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="infominer33">
+	<meta name="twitter:creator" content="infominer33">
+	<meta name="twitter:title" content="Hugo Starter Kit">
+	<meta name="twitter:description" content="Tutorials, Themes, Sortcodes and More!">
+	
+	
+
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+
+	
+
+	<!--Favicon-->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+<link rel="manifest" href="/images/icons/site.webmanifest">
+<link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#86b444">
+<link rel="shortcut icon" href="/images/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#86b444">
+<meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+<meta name="theme-color" content="#4f8644">
+<!--Favicon-->
+
+	
+
+</head>
+<body id="top-of-page" class="post">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Web-work Tools</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="right">
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000">SEO</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/learn/">Learn</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/tools/">Tools</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/adwords-keyword-planner/">Adwords Keyword Planner</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/blog/archive/">Blog Archive</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/documentation/">Theme Documentation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/">Templates</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/headers/">Header Styles</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/search/">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4000/">Home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/info/">Info</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/info/starred-repositories/">Starred GitHub Repos</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/info/forked-repositories/">Forked GitHub Repos</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/info/analytics/5-19/">Infolytics 5/19</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/content/creation/">Content Creation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/content/github-portfolio/">GitHub Portfolio</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/content/twitter-export/">Twitter Export to CSV</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000">JamStack</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/github-pages-starter/">GitHub Pages Starter</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/github-pages-extended/">GitHub Pages Extended</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/hugo-starter/">Hugo Starter Kit</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">Jekyll HPSTR to HPSTR Hugo</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/git-ssh/">Git Basics</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/git-branches/">Trying Git Branches</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+<div id="masthead">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="http://localhost:4000/" title="Web-work Tools – Skyscraper Curation and Independent Web-Work">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Web-work Tools – Skyscraper Curation and Independent Web-Work">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+
+
+
+
+
+
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<div itemprop="name">
+					
+					<h1>Hugo Starter Kit</h1>
+				</div>
+			</header>
+
+
+			
+			<p class="teaser" itemprop="description">
+				Tutorials, Themes, Sortcodes and More!
+			</p>
+			
+
+			<div itemprop="articleSection">
+			<ul>
+  <li><a href="https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/">Interview with Bjørn Erik Pedersen, Hugo lead developer</a></li>
+</ul>
+
+<h2 id="official-resources">Official Resources</h2>
+
+<ul>
+  <li><a href="https://gohugo.io/getting-started/quick-start/">Quickstart</a></li>
+  <li><a href="https://gohugo.io">GoHugo</a></li>
+  <li><a href="https://gohugo.io/documentation/">Documentation</a></li>
+  <li><a href="https://discourse.gohugo.io">Forum</a></li>
+  <li>https://gohugo.io/tools/starter-kits/</li>
+  <li><a href="https://golang.org/">Golang</a> - the language HUGO is built with
+    <ul>
+      <li><a href="https://golang.org/pkg/text/template/">Golang Templates</a></li>
+    </ul>
+  </li>
+  <li><a href="https://gohugo.io/getting-started/configuration/">Configure</a> - all the cool config.toml settings you never knew!</li>
+  <li><a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting</a></li>
+  <li><a href="https://gohugo.io/content-management/page-bundles/">Page Bundles</a></li>
+  <li><a href="https://gohugo.io/content-management/urls/#permalink-configuration-values">Permalink Configuration Values:</a></li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Permalinks]
+  # | :year        | the 4-digit year                           |
+  # | :month       | the 2-digit month                          |
+  # | :monthname   | the name of the month                      |
+  # | :day         | the 2-digit day                            |
+  # | :weekday     | the 1-digit day of the week (Sunday = 0)   |
+  # | :weekdayname | the name of the day of the week            |
+  # | :yearday     | the 1- to 3-digit day of the year          |
+  # | :section     | the content's section                      |
+  # | :sections    | the content's sections hierarchy           |
+  # | :title       | the content's title                        |
+  # | :slug        | the content's slug (or title, if no slug)  |
+  # | :filename    | the content's filename (without extension) |
+
+  # Examples
+  posts = "/:filename/"
+  # post = "/:year/:month/:title/"
+  notes = "/notes/:filename/"
+</code></pre></div></div>
+
+<h2 id="publishing-websites-via-hugo">Publishing Websites Via Hugo</h2>
+
+<ul>
+  <li><a href="https://github.com/budparr/awesome-hugo/">budparr/awesome-hugo</a></li>
+  <li><a href="https://zwbetz.com/make-a-hugo-blog-from-scratch/">Make A Hugo Blog from Scratch</a></li>
+  <li><a href="https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/">Hugo Asset Pipeline</a></li>
+  <li><a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/">Hosting Hugo on Netlify - Insanely Fast Deploys</a></li>
+</ul>
+
+<h2 id="using-different-versions-of-hugo">Using different versions of Hugo:</h2>
+
+<ul>
+  <li><a href="https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/">Netlify Plus Hugo .20 and beyond</a>
+    <blockquote>
+      <p>Until yesterday, if you wanted to use a new version of Hugo on Netlify, you had two options. The first one was to wait for us to install it on our build servers and work around name collisions. Although it was not complicated, you can see by reading this blog post, it’s not very sustainable. The second option was to add the version of the Hugo binary you wanted to use to your repository. Since Hugo is a static binary, this is a very convenient solution if you want to manage it yourself.</p>
+
+      <p>Starting today, if you want to use a specific new version of Hugo on Netlify, you only need to set the environment variable HUGO_VERSION with the version number you want to use. If it’s a valid release number, we’ll install it for you and use that version. You don’t have to wait for us, or manage binaries yourself. For example, if you want to use Hugo 0.20 right now, you can go to your site’s settings (Build and Deploy, Build Environment Variables section) and set HUGO_VERSION to 0.20 in your environment.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository.</p>
+
+<h3 id="tutorials">Tutorials</h3>
+
+<ul>
+  <li><a href="https://zwbetz.com/tags/hugo/">zwbetz.com - hugo</a></li>
+  <li><a href="https://willschenk.com/tags/hugo/">willschenk.com - hugo</a></li>
+  <li><a href="https://regisphilibert.com/tags/hugo/">https://regisphilibert.com/tags/hugo/</a></li>
+  <li><a href="https://kodify.net/hugo-static-site-tutorials/">Hugo Static Site Tutorials</a></li>
+  <li><a href="https://discourse.gohugo.io/t/undocumented-asset-pipelines-starter-kits-and-boilerplates/8423">Undocumented asset pipelines, Starter-Kits and Boilerplates</a></li>
+</ul>
+
+<p><img src="https://imgur.com/udN9Kcs.png" alt="" /></p>
+
+<ul>
+  <li><a href="https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3">Hugo Video Turorials</a>
+    <blockquote>
+      <p>This course covers the basics of using Hugo - Static Site Generator. Work your way through the videos and we’ll teach you everything you need to know to create a professional and scalable website or blog!</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="hugo-variables-and-templating">Hugo Variables and Templating</h3>
+
+<ul>
+  <li><a href="https://gohugo.io/variables/site/">Site Variables</a></li>
+  <li><a href="https://gohugo.io/variables/page/">Page Variables</a></li>
+</ul>
+
+<h2 id="internal-templates">Internal Templates</h2>
+
+<p>Hugo ships with a group of boilerplate templates that cover the most common use cases for static websites.</p>
+
+<ul>
+  <li><a href="https://gohugo.io/templates/internal/#the-internal-templates">The Internal Templates</a></li>
+</ul>
+
+<h3 id="twitter-cards">Twitter Cards</h3>
+
+<ul>
+  <li><a href="https://gohugo.io/templates/internal/#configure-twitter-cards">Internal Templates: Twitter Cards</a></li>
+</ul>
+
+<p>I guess the creators of hugo don’t use twitter much… since I couldn’t get interal includes to work. Or probably I am borked.. anyways.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    
+    <span class="c">&lt;!-- Twitter Cards--&gt;</span>
+    <span class="c">&lt;!-- Twitter summary card with large image must be at least 280x150px --&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:card"</span> <span class="na">content=</span><span class="s">"summary_large_image"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:image:src"</span> <span class="na">content=</span><span class="s">"{{ with .Params.images }}{{ . }}{{ else }}{{ .Site.Params.images }}{{ end }}"</span><span class="nt">/&gt;</span>
+    <span class="c">&lt;!-- Twitter Card data --&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:title"</span> <span class="na">content=</span><span class="s">"{{ .Title }}"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:description"</span> <span class="na">content=</span><span class="s">"{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"</span><span class="nt">/&gt;</span>
+    {{ with .Site.Social.twitter }}<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:site"</span> <span class="na">content=</span><span class="s">"@{{ . }}"</span><span class="nt">/&gt;</span>{{ end }}
+    {{ with .Site.Social.twitter_domain }}<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:domain"</span> <span class="na">content=</span><span class="s">"{{ . }}"</span><span class="nt">/&gt;</span>{{ end }}
+    
+</code></pre></div></div>
+
+<p>I still use their params, but coocked up my own based from theirs and something I had in my head.</p>
+
+<p>You can verify this works at <a href="https://web-work.tools/indieweb">web-work.tools/indieweb</a>:</p>
+
+<p><img src="https://imgur.com/CGtUwEI.png" alt="" /></p>
+
+<p>Now I just have to design a header image that fits with twitter dimensions, or set it up to look for an og:image, incase I use a thinner banner image.</p>
+
+<p><strong>Params for config.toml</strong></p>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[params]</span>
+  <span class="py">description</span> <span class="p">=</span> <span class="s">"Text about my cool site"</span>
+  <span class="py">images</span> <span class="p">=</span> <span class="nn">["site-feature-image.jpg"]</span>
+</code></pre></div></div>
+
+<p><strong>Front Matter Post Variables</strong></p>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="py">description</span> <span class="p">=</span> <span class="s">"Text about this post"</span>
+<span class="py">images</span> <span class="p">=</span> <span class="nn">["post-cover.png"]</span>
+<span class="py">title</span> <span class="p">=</span> <span class="s">"Post title"</span>
+</code></pre></div></div>
+
+<h2 id="hugo-shortcodes">Hugo Shortcodes</h2>
+
+<ul>
+  <li><a href="https://gohugo.io/content-management/shortcodes/">Content Management - Shortcodes</a></li>
+  <li><a href="https://github.com/parsiya/Hugo-Shortcodes">parsiya/Hugo-Shortcodes</a></li>
+  <li><a href="https://geekthis.net/post/hugo-shortcode-pack/">Hugo Shortcode Pack</a> &lt;-has pdf support via third party.</li>
+</ul>
+
+<h2 id="themes">Themes</h2>
+
+<ul>
+  <li><a href="https://github.com/search?q=hugo+theme">github.com/search?q=hugo+theme</a></li>
+  <li><a href="https://themes.gohugo.io/">themes.gohugo.io</a></li>
+  <li><a href="https://web-work.tools/migrate-jekyll-hpstr-hugo/">Migrating From Jekyll HPSTR theme to Hugo HPSTR theme</a>
+    <ul>
+      <li><a href="https://github.com/mikeymop/minimal-mistakes-hugo/">mikeymop/minimal-mistakes-hugo/</a> - I see there is also a minimal mistakes hugo theme, so I’ll have to try that sometime :)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="academic">Academic</h3>
+
+<p>If you are somewhat familiar with Jekyll already, you may want to jumping right in with Academic Pages. It’s not exactly simple, but its versatile.</p>
+
+<p><img src="https://imgur.com/JpASy3c.png" alt="" /></p>
+
+<p>I tried <a href="https://github.com/search?q=hugo+theme">github.com/search?q=hugo+theme</a>, and found that Academic has a toooon of stars. More even than the repository for all of hugos themes in one place !!!</p>
+
+<p><img src="https://imgur.com/25btYyt.png" alt="" /></p>
+
+<p>There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.</p>
+
+<p>Seriously just click a button, it creates the repo and publishes it for you.</p>
+
+<ul>
+  <li><a href="https://sourcethemes.com/academic/docs/install/">Academic Install</a>
+    <blockquote>
+      <p>You can choose from one of the following four methods to install:</p>
+      <ul>
+        <li>one-click install using your web browser (recommended)</li>
+        <li>install on your computer using Git with the Command Prompt/Terminal app</li>
+        <li>install on your computer by downloading the ZIP files</li>
+        <li>install on your computer with RStudio</li>
+      </ul>
+    </blockquote>
+  </li>
+  <li><a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">Writing content with Markdown, LaTeX, and Shortcodes</a></li>
+  <li><a href="https://sourcethemes.com/academic/docs/page-builder/">Getting Started With the Page Builder</a> - Learn Academic’s widget system.</li>
+  <li><a href="https://lmyint.github.io/post/hugo-academic-tips/">Academic Tips</a></li>
+  <li><a href="https://sourcethemes.com/academic/docs/jupyter/">Display Jupyter Notebooks with Academic</a></li>
+  <li><a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation">Creating a Course or Documentation</a></li>
+  <li><a href="https://sourcethemes.com/academic/docs/migrate-from-jekyll/">Academic - Migrate From Jekyll</a></li>
+</ul>
+
+<h3 id="learn">Learn</h3>
+
+<p><img src="https://imgur.com/mZfWUqyl.png" alt="" /></p>
+
+<p>Another documentation theme, I think a bit simpler than Academic.</p>
+
+<ul>
+  <li><a href="https://github.com/matcornic/hugo-theme-learn">matcornic/hugo-theme-learn</a>
+    <ul>
+      <li><a href="https://learn.netlify.com/en/">learn.netlify.com</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="related-posts">Related Posts</h2>
+
+<p>All this started a few months ago when I began creating an <a href="https://github.com/DIDecentralized">awesome list</a> on github, then got into publishing via GitHub Pages.</p>
+
+<ul>
+  <li><a href="https://web-work.tools/github-pages-starter-pack/">GitHub Pages Starter Pack</a></li>
+  <li><a href="https://web-work.tools/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
+  <li><a href="https://web-work.tools/static-site-generators">Static Site Generators</a> (just a start)</li>
+  <li><a href="https://web-work.tools/migrate-jekyll-hpstr-hugo/">Migrating From Jekyll HPSTR theme to Hugo HPSTR theme</a></li>
+  <li><a href="https://web-work.tools/command-line-git-ssh/">Command Line - Git - SSH - BASH</a></li>
+</ul>
+
+			</div>
+
+			
+						<div id="page-meta" class="t30">
+				<p>
+					<!-- Look the author details up from the site config. -->
+					
+					<!-- Output author details if some exist. -->
+					
+					<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="https://infominer.id/" target="_blank"> infominer</a></span>
+				</span>
+				
+
+				
+				<time class="icon-calendar pr20" datetime="2019-06-07T00:00:00-04:00" itemprop="datePublished"> 2019-06-07</time>
+				
+
+				<span class="icon-archive pr20"> JAMSTACK</span>
+				<br />
+				<span class="pr20"><span class="icon-price-tag pr10"> resources</span> <span class="icon-price-tag pr10"> hugo</span> <span class="icon-price-tag pr10"> static site generators</span> <span class="icon-price-tag pr10"> webpub</span> </span>
+			</p>
+
+			
+			<div id="post-nav" class="row">
+				
+				<div class="small-5 columns"><a class="button small radius prev" href="http://localhost:4000/jamstack/html-css/">&laquo; The Markup languages that get transformed into a website.</a></div><!-- /.small-4.columns -->
+				
+				<div class="small-2 columns text-center"><a class="radius button small" href="http://localhost:4000/blog/archive/" title="Blog Archive">Archive</a></div><!-- /.small-4.columns -->
+				
+				<div class="small-5 columns text-right"><a class="button small radius next" href="http://localhost:4000/content/twitter-export/">Mining, Exploring, Exporting: Creating Content with CSV Tweet Histories &raquo;</a></div><!-- /.small-4.columns -->
+				
+			</div>
+			
+			</div><!--  /.page-meta -->
+
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              »Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.
+              <a href="http://localhost:4000/info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+              
+                <h5 class="shadow-black">Services</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href="http://localhost:4000"  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+              
+                <h5 class="shadow-black">Dankeschön</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+            <ul class="no-bullet shadow-black">
+            
+              
+                <li >
+                  <a href="http://localhost:4000"  title=""></a>
+                </li>
+            
+              
+                <li class="network-entypo" >
+                  <a href="http://entypo.com/" target="_blank"  title="Icons by Daniel Bruce">Icons by Daniel Bruce</a>
+                </li>
+            
+              
+                <li class="services-newsletter" >
+                  <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
+                </li>
+            
+              
+                <li class="rss-link" >
+                  <a href="http://unsplash.com/" target="_blank"  title="Images by Unsplash">Images by Unsplash</a>
+                </li>
+            
+              
+                <li class="sitemap-link" >
+                  <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank"  title="Using Backstretch by Scott Robbin">Using Backstretch by Scott Robbin</a>
+                </li>
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="http://github.com/phlow" target="_blank" class="icon-github" title="Code und mehr..."></a></li>
+            
+              <li><a href="http://www.youtube.com/PhlowMedia" target="_blank" class="icon-youtube" title="Videos, Video-Anleitungen und Filme von Phlow auf YouTube"></a></li>
+            
+              <li><a href="http://twitter.com/phlow" target="_blank" class="icon-twitter" title="Immer das Neuste von Phlow gibt es auf Twitter"></a></li>
+            
+              <li><a href="http://www.mixcloud.com/phlow/" target="_blank" class="icon-cloud" title="Mixe, was sonst?"></a></li>
+            
+              <li><a href="https://plus.google.com/u/0/+Phlow" target="_blank" class="icon-googleplus" title="YouTube Google+"></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+
+
+
+<script>
+    $("#masthead").backstretch("https://web-work.tools/images/hugo-starter-kit.png", {fade: 700});
+    $("#masthead-with-text").backstretch("https://web-work.tools/images/hugo-starter-kit.png", {fade: 700});
+</script>
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-132558656-8', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
