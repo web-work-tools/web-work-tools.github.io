@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: page
 title: "Resources for the Command Line, Git, SSH, and BASH."
-description: "Command Line, Git, SSH, and BASH: Tips, Tricks and Resources."
+teaser: "Command Line, Git, SSH, and BASH: Tips, Tricks and Resources."
 tags: [resources, command line, terminal, git, ssh, bash]
-image:
-  feature: command-line.png
+header:
+  image_fullwidth: "command-line.png"
+
 date: 2019-06-06
 redirect_from:
   - /command-line-git-ssh/

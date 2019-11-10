@@ -1,19 +1,19 @@
 ---
-layout: post
+layout: page
 title: "Infominer's Starred GitHub Repositories"
-description: "An organized list of Repositories."
+teaser: "An organized list of Repositories."
 modified: 2019-05-27T13:15:59-23:00
 tags: [github, stars, repositories, open source]
 permalink: github-stars/
 redirect_from:
   - infominer33-starred-repos/
   - github-stars
+
+header:
+  image_fullwidth: "infominer-starred-repositories-head.png"
+
 image:
-  feature: infominer-starred-repositories-head.png
-  thumb: /images/infominer-starred-repositories.jpeg
-  og_image: infominer-starred-repositories.jpeg
-  credit: See on Github
-  creditlink: https://github.com/web-work-tools/web-work.tools.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
+  thumb: "infominer-starred-repositories.jpeg"
 ---
 
 

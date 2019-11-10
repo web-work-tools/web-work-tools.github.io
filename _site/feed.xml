@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:4000/feeling-responsive/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="http://localhost:4000/feeling-responsive/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Feeling Responsive</title>
+		<description>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</description>
+		<link>http://localhost:4000/feeling-responsive/</link>
+		<atom:link href="http://localhost:4000/feeling-responsive/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hugo Starter Kit</title>
+				<link>http://localhost:4000/feeling-responsive/hugo-starter-kit/</link>
+				<pubDate>Fri, 07 Jun 2019 00:00:00 -0400</pubDate>
+				<description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/&quot;&gt;Interview with Bjørn Erik Pedersen, Hugo lead developer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;official-resources&quot;&gt;Official Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/getting-started/quick-start/&quot;&gt;Quickstart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io&quot;&gt;GoHugo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/documentation/&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discourse.gohugo.io&quot;&gt;Forum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://gohugo.io/tools/starter-kits/&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://golang.org/&quot;&gt;Golang&lt;/a&gt; - the language HUGO is built with
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://golang.org/pkg/text/template/&quot;&gt;Golang Templates&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/getting-started/configuration/&quot;&gt;Configure&lt;/a&gt; - all the cool config.toml settings you never knew!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/content-management/syntax-highlighting/&quot;&gt;Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/content-management/page-bundles/&quot;&gt;Page Bundles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/content-management/urls/#permalink-configuration-values&quot;&gt;Permalink Configuration Values:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Permalinks]
+  # | :year        | the 4-digit year                           |
+  # | :month       | the 2-digit month                          |
+  # | :monthname   | the name of the month                      |
+  # | :day         | the 2-digit day                            |
+  # | :weekday     | the 1-digit day of the week (Sunday = 0)   |
+  # | :weekdayname | the name of the day of the week            |
+  # | :yearday     | the 1- to 3-digit day of the year          |
+  # | :section     | the content's section                      |
+  # | :sections    | the content's sections hierarchy           |
+  # | :title       | the content's title                        |
+  # | :slug        | the content's slug (or title, if no slug)  |
+  # | :filename    | the content's filename (without extension) |
+
+  # Examples
+  posts = &quot;/:filename/&quot;
+  # post = &quot;/:year/:month/:title/&quot;
+  notes = &quot;/notes/:filename/&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;publishing-websites-via-hugo&quot;&gt;Publishing Websites Via Hugo&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/budparr/awesome-hugo/&quot;&gt;budparr/awesome-hugo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zwbetz.com/make-a-hugo-blog-from-scratch/&quot;&gt;Make A Hugo Blog from Scratch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/&quot;&gt;Hugo Asset Pipeline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/&quot;&gt;Hosting Hugo on Netlify - Insanely Fast Deploys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;using-different-versions-of-hugo&quot;&gt;Using different versions of Hugo:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/&quot;&gt;Netlify Plus Hugo .20 and beyond&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Until yesterday, if you wanted to use a new version of Hugo on Netlify, you had two options. The first one was to wait for us to install it on our build servers and work around name collisions. Although it was not complicated, you can see by reading this blog post, it’s not very sustainable. The second option was to add the version of the Hugo binary you wanted to use to your repository. Since Hugo is a static binary, this is a very convenient solution if you want to manage it yourself.&lt;/p&gt;
+
+      &lt;p&gt;Starting today, if you want to use a specific new version of Hugo on Netlify, you only need to set the environment variable HUGO_VERSION with the version number you want to use. If it’s a valid release number, we’ll install it for you and use that version. You don’t have to wait for us, or manage binaries yourself. For example, if you want to use Hugo 0.20 right now, you can go to your site’s settings (Build and Deploy, Build Environment Variables section) and set HUGO_VERSION to 0.20 in your environment.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository.&lt;/p&gt;
+
+&lt;h3 id=&quot;tutorials&quot;&gt;Tutorials&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zwbetz.com/tags/hugo/&quot;&gt;zwbetz.com - hugo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://willschenk.com/tags/hugo/&quot;&gt;willschenk.com - hugo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://regisphilibert.com/tags/hugo/&quot;&gt;https://regisphilibert.com/tags/hugo/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kodify.net/hugo-static-site-tutorials/&quot;&gt;Hugo Static Site Tutorials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discourse.gohugo.io/t/undocumented-asset-pipelines-starter-kits-and-boilerplates/8423&quot;&gt;Undocumented asset pipelines, Starter-Kits and Boilerplates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/udN9Kcs.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&quot;&gt;Hugo Video Turorials&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;This course covers the basics of using Hugo - Static Site Generator. Work your way through the videos and we’ll teach you everything you need to know to create a professional and scalable website or blog!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hugo-variables-and-templating&quot;&gt;Hugo Variables and Templating&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/variables/site/&quot;&gt;Site Variables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/variables/page/&quot;&gt;Page Variables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;internal-templates&quot;&gt;Internal Templates&lt;/h2&gt;
+
+&lt;p&gt;Hugo ships with a group of boilerplate templates that cover the most common use cases for static websites.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/templates/internal/#the-internal-templates&quot;&gt;The Internal Templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;twitter-cards&quot;&gt;Twitter Cards&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/templates/internal/#configure-twitter-cards&quot;&gt;Internal Templates: Twitter Cards&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I guess the creators of hugo don’t use twitter much… since I couldn’t get interal includes to work. Or probably I am borked.. anyways.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Twitter Cards--&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Twitter summary card with large image must be at least 280x150px --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:card&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;summary_large_image&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:image:src&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ with .Params.images }}{{ . }}{{ else }}{{ .Site.Params.images }}{{ end }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Twitter Card data --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ .Title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    {{ with .Site.Social.twitter }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:site&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;@{{ . }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;{{ end }}
+    {{ with .Site.Social.twitter_domain }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:domain&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ . }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;{{ end }}
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I still use their params, but coocked up my own based from theirs and something I had in my head.&lt;/p&gt;
+
+&lt;p&gt;You can verify this works at &lt;a href=&quot;https://web-work.tools/indieweb&quot;&gt;web-work.tools/indieweb&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/CGtUwEI.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now I just have to design a header image that fits with twitter dimensions, or set it up to look for an og:image, incase I use a thinner banner image.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Params for config.toml&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-toml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;[params]&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Text about my cool site&quot;&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;images&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;[&quot;site-feature-image.jpg&quot;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Front Matter Post Variables&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-toml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;py&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Text about this post&quot;&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;images&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;[&quot;post-cover.png&quot;]&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post title&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;hugo-shortcodes&quot;&gt;Hugo Shortcodes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/content-management/shortcodes/&quot;&gt;Content Management - Shortcodes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/parsiya/Hugo-Shortcodes&quot;&gt;parsiya/Hugo-Shortcodes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://geekthis.net/post/hugo-shortcode-pack/&quot;&gt;Hugo Shortcode Pack&lt;/a&gt; &amp;lt;-has pdf support via third party.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;themes&quot;&gt;Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/search?q=hugo+theme&quot;&gt;github.com/search?q=hugo+theme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://themes.gohugo.io/&quot;&gt;themes.gohugo.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/mikeymop/minimal-mistakes-hugo/&quot;&gt;mikeymop/minimal-mistakes-hugo/&lt;/a&gt; - I see there is also a minimal mistakes hugo theme, so I’ll have to try that sometime :)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;academic&quot;&gt;Academic&lt;/h3&gt;
+
+&lt;p&gt;If you are somewhat familiar with Jekyll already, you may want to jumping right in with Academic Pages. It’s not exactly simple, but its versatile.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/JpASy3c.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried &lt;a href=&quot;https://github.com/search?q=hugo+theme&quot;&gt;github.com/search?q=hugo+theme&lt;/a&gt;, and found that Academic has a toooon of stars. More even than the repository for all of hugos themes in one place !!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/25btYyt.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.&lt;/p&gt;
+
+&lt;p&gt;Seriously just click a button, it creates the repo and publishes it for you.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourcethemes.com/academic/docs/install/&quot;&gt;Academic Install&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;one-click install using your web browser (recommended)&lt;/li&gt;
+        &lt;li&gt;install on your computer using Git with the Command Prompt/Terminal app&lt;/li&gt;
+        &lt;li&gt;install on your computer by downloading the ZIP files&lt;/li&gt;
+        &lt;li&gt;install on your computer with RStudio&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourcethemes.com/academic/docs/writing-markdown-latex/&quot;&gt;Writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourcethemes.com/academic/docs/page-builder/&quot;&gt;Getting Started With the Page Builder&lt;/a&gt; - Learn Academic’s widget system.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lmyint.github.io/post/hugo-academic-tips/&quot;&gt;Academic Tips&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourcethemes.com/academic/docs/jupyter/&quot;&gt;Display Jupyter Notebooks with Academic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation&quot;&gt;Creating a Course or Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourcethemes.com/academic/docs/migrate-from-jekyll/&quot;&gt;Academic - Migrate From Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;learn&quot;&gt;Learn&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/mZfWUqyl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another documentation theme, I think a bit simpler than Academic.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/matcornic/hugo-theme-learn&quot;&gt;matcornic/hugo-theme-learn&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://learn.netlify.com/en/&quot;&gt;learn.netlify.com&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;related-posts&quot;&gt;Related Posts&lt;/h2&gt;
+
+&lt;p&gt;All this started a few months ago when I began creating an &lt;a href=&quot;https://github.com/DIDecentralized&quot;&gt;awesome list&lt;/a&gt; on github, then got into publishing via GitHub Pages.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-starter-pack/&quot;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators&quot;&gt;Static Site Generators&lt;/a&gt; (just a start)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating From Jekyll HPSTR theme to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/hugo-starter-kit/</guid>
+			</item>
+		
+			<item>
+				<title>The Markup languages that get transformed into a website.</title>
+				<link>http://localhost:4000/feeling-responsive/learn-html-css/</link>
+				<pubDate>Thu, 06 Jun 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;&lt;a href=&quot;http://commons.wikimedia.org/wiki/File:HTML5_APIs_and_related_technologies_taxonomy_and_status.svg&quot;&gt;&lt;em&gt;header image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript&quot;&gt;The_web_standards_model_-_HTML_CSS_and_JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot; target=&quot;_blank&quot;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot; target=&quot;_blank&quot;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;toml---yaml---json&quot;&gt;TOML - YAML - JSON&lt;/h2&gt;
+
+&lt;p&gt;Just this for now, will get deeper with structured data, later on.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/toml-lang/toml&quot;&gt;github.com/toml-lang/toml&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://yaml.org/&quot;&gt;yaml.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot;&gt;json.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;html&quot;&gt;HTML&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://htmldog.com/guides/html/beginner/&quot;&gt;htmldog.com - HTML5 Beginner Tutorials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn&quot;&gt;Learn web development - developer.mozilla.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/html-tutorial&quot;&gt;Learn Enough HTML to be Dangerous&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;color&quot;&gt;Color&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://htmlcolorcodes.com/color-chart/&quot;&gt;HTML Color Chart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://paletton.com/&quot;&gt;Paletton&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.colorhexa.com/&quot;&gt;Color Hexa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://clrs.cc/&quot;&gt;Colors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://material.io/tools/color/#!/?view.left=0&amp;amp;view.right=0&amp;amp;primary.color=455A64&quot;&gt;Color Tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;unicode&quot;&gt;Unicode&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs&quot;&gt;Miscellaneous-Symbols-and-Pictographs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;meta-tags&quot;&gt;Meta Tags&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&quot;&gt;The Head - Metadata in HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://metatags.io&quot;&gt;https://metatags.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.heymeta.com/&quot;&gt;https://www.heymeta.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0&quot;&gt;Viewport and Media Queries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dbushell.com/2016/03/04/css-only-responsive-tables/&quot;&gt;rtable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://htmldog.com/guides/css/&quot;&gt;htmldog.com - CSS Beginner-Advanced Tutorials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/css-and-layout-tutorial&quot;&gt;Learn Enough CSS and Layout to be Dangerous&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bootstrap&quot;&gt;Bootstrap&lt;/h3&gt;
+
+&lt;p&gt;Bootstrap is a small responsive css framework that minimizes the effort required to deal with all that by hand. You could use it when building from the ground up, or with a simple theme that doesn’t have much styling… just starting to learn about this.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getbootstrap.com&quot;&gt;Boostrap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ostraining.com/blog/webdesign/introduction-to-bootstrap-for-absolute-beginner/&quot;&gt;Introduction to Bootstrap for Absolute Beginners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.3/getting-started/introduction/#starter-template&quot;&gt;Boostrap Starter Template&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/WpzT-pTImyo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;related-markup-and-interpreters&quot;&gt;Related Markup and Interpreters&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://khan.github.io/KaTeX/&quot;&gt;katex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kramdown&quot;&gt;Kramdown&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kramdown.gettalong.org/&quot;&gt;kramdown.gettalong.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kramdown.gettalong.org/syntax.html&quot;&gt;Kramdown - Syntax&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kramdown.gettalong.org/quickref.html&quot;&gt;Kramdown - QuickRef Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;related-posts&quot;&gt;Related Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/learn-html-css/&quot;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/content-creation/&quot;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/learn-html-css/</guid>
+			</item>
+		
+			<item>
+				<title>Resources for the Command Line, Git, SSH, and BASH.</title>
+				<link>http://localhost:4000/feeling-responsive/command-line-git-ssh/</link>
+				<pubDate>Thu, 06 Jun 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/command-line-tutorial/basics&quot;&gt;Learn Enough Command Line to Be Dangerous&lt;/a&gt; - Introduction to the Unix command line.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zwbetz.com/mac-to-windows-command-line-mappings/&quot;&gt;Mac to Windows Command Line Mappings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mnyrop/swc-materials/&quot;&gt;reusable materials for bash/git/python bootcamps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;The entire Pro Git book&lt;/a&gt; -written by Scott Chacon and Ben Straub&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/git-tutorial/getting_started&quot;&gt;Learn Enough Git to Be Dangerous&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git&quot;&gt;Atlassian -Getting Git Right&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/introduction/git-handbook/&quot;&gt;guides.github.com - Git Handbook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teamtreehouse.com/library/introduction-to-git&quot;&gt;Introduction to Git&lt;/a&gt; - 186-minute Development Tools Course&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/branches-git/&quot;&gt;Create a Test Branch and Merge Back the Changes&lt;/a&gt; »&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cheat-sheets&quot;&gt;Cheat Sheets&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/davfre/8313299&quot; target=&quot;_blank&quot;&gt;davfre/git_cheat-sheet.md&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.github.com/git-cheat-sheet-education.pdf&quot; target=&quot;_blank&quot;&gt;education.github.com - GIT CHEAT SHEET&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md&quot;&gt;Git CheetSheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;remotes&quot;&gt;Remotes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes&quot;&gt;Working with Remotes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;writing-commits&quot;&gt;Writing Commits&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chris.beams.io/posts/git-commit/&quot; target=&quot;_blank&quot;&gt;Writing Effective Commits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;signing-commits&quot;&gt;Signing Commits&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/managing-commit-signature-verification&quot;&gt;managing-commit-signature-verification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;submodules&quot;&gt;Submodules&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Tools-Submodules&quot;&gt;Git-Tools-Submodules&lt;/a&gt; - so you can pull other git repos into your project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;git-workflow&quot;&gt;Git Workflow&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ssh&quot;&gt;SSH&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/connecting-to-github-with-ssh&quot; target=&quot;_blank&quot;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot; target=&quot;_blank&quot;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&quot; target=&quot;_blank&quot;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&quot; target=&quot;_blank&quot;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bash---shell-scripting&quot;&gt;BASH - Shell Scripting&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tldp.org/LDP/Bash-Beginners-Guide/html/intro_01.html&quot;&gt;Bash Guide for Beginners&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don’t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.shellscript.sh/&quot;&gt;https://www.shellscript.sh/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;http://www.hypexr.org/bash_tutorial.php&lt;/li&gt;
+  &lt;li&gt;https://www.bash.academy/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
+
+&lt;p&gt;Header image: &lt;a href=&quot;http://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/&quot;&gt;IBM PC AT (8Mhz), 2Mb RAM, 20Mb Hard Disk (Formatted), 128Kb EGA, Enhanced Color Display&lt;/a&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/command-line-git-ssh/</guid>
+			</item>
+		
+			<item>
+				<title>Migrating from Jekyll HPSTR to Hugo</title>
+				<link>http://localhost:4000/feeling-responsive/from-jekyll-hpstr-to-hugo/</link>
+				<pubDate>Sat, 01 Jun 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;I’ve tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.&lt;/p&gt;
+
+&lt;p&gt;This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, &lt;em&gt;or&lt;/em&gt; Hugo to Jekyll.&lt;/p&gt;
+
+&lt;p&gt;I’ve got two branches of the same exact website except one is run by &lt;a href=&quot;https://github.com/webwork-tools/webwork-tools.github.io/tree/hpstr-jekyll&quot;&gt;Jekyll&lt;/a&gt; and one is run by &lt;a href=&quot;https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo&quot;&gt;Hugo&lt;/a&gt;!!&lt;/p&gt;
+
+&lt;p&gt;That’s pretty neat, if you ask me!&lt;/p&gt;
+
+&lt;p&gt;I also show examples of the differences between the two, where and how I made changes.&lt;/p&gt;
+
+&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mmistakes/hpstr-jekyll-theme&lt;/code&gt; is archived, and you can no longer submit issues or pull-requests.&lt;/li&gt;
+  &lt;li&gt;Hugo has a lot of support from the development community, and is growing quickly in features and popularity.&lt;/li&gt;
+  &lt;li&gt;More options.&lt;/li&gt;
+  &lt;li&gt;Learn new skills.&lt;/li&gt;
+  &lt;li&gt;I know of some indieweb themes.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/themes/&lt;/code&gt; directory allows for easy testing and switching between new themes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;hpstr-jekyll-vs-hugo&quot;&gt;HPSTR Jekyll vs Hugo&lt;/h2&gt;
+
+&lt;p&gt;I’m looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won’t run in the newest version. If you have a newer suggestion, feel free to shout out. I will also find out what the options are.&lt;/p&gt;
+
+&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/hpstr-jekyll-theme&quot;&gt;mmistakes/hpstr-jekyll-theme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dldx/hpstr-hugo-theme/releases&quot;&gt;dldx/hpstr-hugo-theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It turns out that each version was released at the same time, and that they were built together from the very beginning!&lt;/p&gt;
+
+&lt;p&gt;The nice thing about &lt;code class=&quot;highlighter-rouge&quot;&gt;hpstr-hugo-theme&lt;/code&gt; is that its not archived, and if you want to open any &lt;a href=&quot;https://github.com/dldx/hpstr-hugo-theme/issues&quot;&gt;issues&lt;/a&gt; or &lt;a href=&quot;https://github.com/dldx/hpstr-hugo-theme/pulls&quot;&gt;pull-requests&lt;/a&gt;, that can be done.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, but nice to see, there are currently 0 open pull request or issues in the themes repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mmistakes/hpstr-jekyll-theme/releases&quot;&gt;&lt;img src=&quot;https://imgur.com/jNTAlGt.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://github.com/dldx/hpstr-hugo-theme/releases&quot;&gt;&lt;img src=&quot;https://imgur.com/dvapj4y.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;root-directories&quot;&gt;Root Directories&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/obcGfNc.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://imgur.com/KZQODtU.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;using-different-versions-of-hugo&quot;&gt;Using different versions of Hugo:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/&quot;&gt;Netlify Plus Hugo .20 and beyond&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Until yesterday, if you wanted to use a new version of Hugo on Netlify, you had two options. The first one was to wait for us to install it on our build servers and work around name collisions. Although it was not complicated, you can see by reading this blog post, it’s not very sustainable. The second option was to add the version of the Hugo binary you wanted to use to your repository. Since Hugo is a static binary, this is a very convenient solution if you want to manage it yourself.&lt;/p&gt;
+
+      &lt;p&gt;Starting today, if you want to use a specific new version of Hugo on Netlify, you only need to set the environment variable HUGO_VERSION with the version number you want to use. If it’s a valid release number, we’ll install it for you and use that version. You don’t have to wait for us, or manage binaries yourself. For example, if you want to use Hugo 0.20 right now, you can go to your site’s settings (Build and Deploy, Build Environment Variables section) and set HUGO_VERSION to 0.20 in your environment.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository.&lt;/p&gt;
+
+&lt;h2 id=&quot;which-version-of-hugo-should-i-run&quot;&gt;Which Version of Hugo Should I Run?&lt;/h2&gt;
+
+&lt;p&gt;Scrolling back through the hugo releases when the HPSTR theme was in active development, I come across:&lt;/p&gt;
+
+&lt;h3 id=&quot;0160-june-6th-2016&quot;&gt;&lt;a href=&quot;https://github.com/gohugoio/hugo/releases?after=v0.16.0&quot;&gt;0.16.0 June 6th 2016&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Hugo 0.16 is our best and biggest release ever. The Hugo community has outdone itself with continued performance improvements, beautiful themes for all types of sites from project sites to documentation to blogs to portfolios, and increased stability.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;deb-packages-for-debian-ubuntu-etc&quot;&gt;.deb packages for Debian, Ubuntu, etc.&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Hugo has become part of the official Debian and Ubuntu repositories since January 2016!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s a nice note to find, since I’m an Ubuntu user.&lt;/p&gt;
+
+&lt;h2 id=&quot;v017---october-2016&quot;&gt;&lt;a href=&quot;https://github.com/gohugoio/hugo/releases/tag/v0.30&quot;&gt;v0.17&lt;/a&gt; - October 2016&lt;/h2&gt;
+
+&lt;p&gt;There are numerous options for different platforms, and this version of Hugo was released in October, one month after the final release of HPSTR.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hugo is going global with our 0.17 release. […] Adding additional languages to your website is simple and straightforward.&lt;/p&gt;
+
+  &lt;p&gt;Hugo continues its trend of each release being faster than the last.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Apparently it’s fast enough that people began using hugo’s webserver in production, around this time.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;New in 0.17: Available as Snap package&lt;/p&gt;
+
+  &lt;p&gt;Thanks to the contribution #2443 and guidance from @dholbach, Hugo is now available as a Snap package! (Snaps are a new kind of universal Linux packages.) Check it out at https://uappexplorer.com/app/hugo.hugo-authors&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;download-links-for-hugo-v017&quot;&gt;&lt;a href=&quot;https://github.com/gohugoio/hugo/releases/tag/v0.17&quot;&gt;Download links for Hugo v0.17&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now that I have Hugo working, lets see how far I can go in Hugo versions.&lt;/p&gt;
+
+&lt;h2 id=&quot;v0301---oct-16-2017&quot;&gt;&lt;a href=&quot;https://github.com/gohugoio/hugo/releases/tag/v0.30.1&quot;&gt;v0.30.1&lt;/a&gt; - Oct 16, 2017&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hugo 0.30 is the Race Car Edition. Hugo is already very very fast, but much wants more. So we added Fast Render Mode. It is hard to explain, so start the Hugo development server with hugo server and start editing. Live reloads just got so much faster! The “how and what” is discussed at length in other places, but the short version is that we now re-render only the parts of the site that you are working on.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is a big release, so I’m going to look ahead for the closest bug-fixes, but avoid any feature releases.&lt;/p&gt;
+
+&lt;h2 id=&quot;v0311----nov-27-2017&quot;&gt;&lt;a href=&quot;https://github.com/gohugoio/hugo/releases/tag/v0.31.1&quot;&gt;v0.31.1&lt;/a&gt; -  Nov 27, 2017&lt;/h2&gt;
+
+&lt;p&gt;So.. there’s another big release after this, at the start of 2018, but I think I’ll stick with this one. It’s a year after HPSTR completed its development. I think we’ll be good here, and I want to get to know Hugo better before changing things up too much.&lt;/p&gt;
+
+&lt;p&gt;The next major change introduces page bundles. I wouldn’t be surprised if it has a problem with this theme.&lt;/p&gt;
+
+&lt;h2 id=&quot;test-install&quot;&gt;Test Install&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing&quot;&gt;web.archive.org - Installing Hugo - Dec, 2017&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once it’s installed, type I &lt;code class=&quot;highlighter-rouge&quot;&gt;hugo version&lt;/code&gt; and read:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/J2lnKkR.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;perfect!!&lt;/p&gt;
+
+&lt;h2 id=&quot;clone-the-hugo-theme&quot;&gt;Clone the Hugo Theme.&lt;/h2&gt;
+
+&lt;p&gt;With some pre-requisites out of the way, lets jump in at the first step in the theme setup:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dldx.org/hpstr-hugo-theme/theme-setup/&quot;&gt;Theme Setup - HPSTR Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ mkdir newProject
+$ cd newProject
+$ mkdir themes
+$ cd themes
+$ git clone https://github.com/dldx/hpstr-hugo-theme.git hpstr
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and you will see &lt;code class=&quot;highlighter-rouge&quot;&gt;hpster&lt;/code&gt; located in: &lt;code class=&quot;highlighter-rouge&quot;&gt;/web-work/themes/hpstr&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-site&quot;&gt;Example Site&lt;/h2&gt;
+
+&lt;p&gt;Once you have the &lt;code class=&quot;highlighter-rouge&quot;&gt;newProject/themes/hpstr&lt;/code&gt; you’ll find the folder &lt;code class=&quot;highlighter-rouge&quot;&gt;exampleSite&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;hpstr&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;Just Copy the contents of &lt;code class=&quot;highlighter-rouge&quot;&gt;exampleSite&lt;/code&gt; to the root of &lt;code class=&quot;highlighter-rouge&quot;&gt;newProject&lt;/code&gt;, and test to see if it will run.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ hugo&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It should print something like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Started building sites ...
+Built site for language en:
+0 draft content
+0 future content
+0 expired content
+10 pages created
+0 non-page files copied
+15 paginator pages created
+9 tags created
+0 categories created
+total in 100 ms
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Unless you get that print-out, don’t bother changing your whole sites configuration just yet.&lt;/p&gt;
+
+&lt;p&gt;Make sure you placed the contents of &lt;code class=&quot;highlighter-rouge&quot;&gt;exampleSite&lt;/code&gt; into the root of your project directory, and that your directories are structured properly.&lt;/p&gt;
+
+&lt;p&gt;If you did everything right and it still won’t build, then I would shop around to different releases in that same time period to see if I could get one to work.&lt;/p&gt;
+
+&lt;p&gt;Just to be sure! I’ll test the server, also, and see that I get a website.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ hugo server&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Started building sites ...
+Built site for language en:
+0 draft content
+0 future content
+0 expired content
+10 pages created
+0 non-page files copied
+15 paginator pages created
+9 tags created
+0 categories created
+total in 61 ms
+Watching for changes in /newProject/ {data,content,static,themes}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Yay!!!&lt;/p&gt;
+
+&lt;h2 id=&quot;directory-structure-hpstr-jekyll-vs-hugo&quot;&gt;Directory Structure HPSTR Jekyll vs Hugo&lt;/h2&gt;
+
+&lt;h3 id=&quot;mmistakesgithubiohpstr-jekyll-themetheme-setup&quot;&gt;&lt;a href=&quot;https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/&quot;&gt;mmistakes.github.io/hpstr-jekyll-theme/theme-setup/&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/EBIdUUo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hpstr-hugo-themetheme-setup&quot;&gt;&lt;a href=&quot;https://dldx.org/hpstr-hugo-theme/theme-setup/#setup:b8b08bb87737c3c5c8e714d4f8821e60&quot;&gt;hpstr-hugo-theme/theme-setup&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/nnI1lou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;in-with-the-new&quot;&gt;In with the new.&lt;/h2&gt;
+
+&lt;p&gt;Now, it’s simply moving over the content, and swapping out some frontmatter, and configuration formating.&lt;/p&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://dldx.org/hpstr-hugo-theme/theme-setup/#adding-new-content:b8b08bb87737c3c5c8e714d4f8821e60&quot;&gt;Posts are stored in the content directory&lt;/a&gt;. By default, only content in the &lt;code class=&quot;highlighter-rouge&quot;&gt;content/posts&lt;/code&gt; will show up in the &lt;code class=&quot;highlighter-rouge&quot;&gt;All Posts&lt;/code&gt; section, however, you can link to other sections manually. For example, if you create a post at &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery/photo1.md&lt;/code&gt;, your post will appear both under the home page and under /gallery.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;In Hugo-HPSTR-Theme, it’s all about your directory structure.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/0hsOjV7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll notice that your root directory mirrors the themes directory structure, because the theme always keeps a backup file of everything necessary to function.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/83WTq5g.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;archetypes&quot;&gt;archetypes/&lt;/h3&gt;
+&lt;p&gt;I entered some tags and categories:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;web-work/themes/hpstr/archetypes/default.md&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+++
+Description = &quot;&quot;
+Tags = [&quot;resources&quot;, &quot;web-work&quot;]
+Categories = [&quot;howto&quot;, &quot;tools&quot;]
+menu = &quot;main&quot;
++++
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;data/&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;From YAML to TOML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/83WTq5g.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;theme&lt;/code&gt; directory is a navigation.yml file, and even awhole &lt;code class=&quot;highlighter-rouge&quot;&gt;exampleSite&lt;/code&gt; that we can copy over to our root data directory and customize.&lt;/p&gt;
+
+&lt;p&gt;Be sure to change &lt;code class=&quot;highlighter-rouge&quot;&gt;title:&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;title =&lt;/code&gt; and so forth.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[links]]
+title = &quot;web-work.tools&quot;
+url = &quot;/web-work.tools/&quot;
+
+[[links]]
+title = &quot;Services&quot;
+url = &quot;/services/&quot;
+
+[[links]]
+title = &quot;Mostly Free SEO Tools&quot;
+url = &quot;/seo-tools/&quot;
+
+[[links]]
+title = &quot;GitHub Pages Starter Pack&quot;
+url = &quot;/github-pages-starter-pack/&quot;
+
+[[links]]
+title = &quot;Practical Public Key Crypto&quot;
+url = &quot;/practical-public-key-crypto/&quot;
+
+[[links]]
+title = &quot;InfoMine&quot;
+url = &quot;http://infominer.id/&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;frontmatter&quot;&gt;Frontmatter&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;The main differences&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;using &lt;code class=&quot;highlighter-rouge&quot;&gt;type&lt;/code&gt; rather than &lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;using the frontmatter variable &lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt; to signify publication date, rather than hardcoding it into the title.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hpstr-jekyll&quot;&gt;HPSTR-Jekyll&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: &quot;Sample Code Post&quot;
+description: &quot;Examples and code for various HPSTR functions.&quot;
+tags: [samples, code, snippets]
+comments: true
+link: http://mademistakes.com  
+image:
+  thumb: /images/pgp-og.png
+  feature: pgp-banner.png
+  background: triangular.png
+modified: 2019-05-30T13:15:59-23:00
+permalink: /sample-code/
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;hpstr-hugo&quot;&gt;HPSTR-Hugo&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+type: post
+title: Sample Post
+description: &quot;Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.&quot;
+date: 2011-03-10
+
+tags: [sample post]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;configtoml&quot;&gt;config.toml&lt;/h2&gt;
+
+&lt;p&gt;Now we are getting places! Next step is to copy the &lt;code class=&quot;highlighter-rouge&quot;&gt;config.toml&lt;/code&gt; from the root of our example site into the root of our repository.&lt;/p&gt;
+
+&lt;p&gt;This is the final stretch, and we should be good to go&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+baseurl = &quot;https://web-work.tools&quot;
+languageCode = &quot;en-gb&quot;
+title = &quot;web-work.tools: Independent Web-Work and Skyscraper Publishing.&quot;
+theme = &quot;hpstr&quot;
+pluralizelisttitles = false
+PygmentsCodeFences = true
+Paginate = 5
+disqusShortname = &quot;hpstrhugo&quot;
+publishdir = &quot;docs&quot;
+enableEmoji = true
+[params]
+	subtitle = &quot;Digital Tools for a Digital Transformation.&quot;
+	[params.author]
+		name = &quot;⧉ Infominer&quot;
+		avatar = &quot;/images/info-id.png&quot;
+		bio = &quot;Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉&quot;
+		github = &quot;webwork-tools/webwork-tools.github.io&quot;
+	[params.image]
+	  feature = &quot;/images/web-work-tools.png&quot;
+
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://web.archive.org/web/20161110120102/http://gohugo.io/overview/configuration&quot;&gt;Configuring Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;publishdir = &quot;docs&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;By setting this in our config.toml, we will be able to ask github pages to publish from the docs folder.&lt;/p&gt;
+
+&lt;h2 id=&quot;redirects&quot;&gt;Redirects&lt;/h2&gt;
+
+&lt;p&gt;One thing that’s important to note, if you are switching from Jekyll HPSTR to HPSTR Hugo with me. HPSTR Hugo makes all your posts live in the &lt;code class=&quot;highlighter-rouge&quot;&gt;/posts/&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;If you used to let your blog live at the root of the site, like me, then add aliases, which are how Hugo does redirects.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/content-management/urls/#aliases&quot;&gt;Content Manegement - Aliases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;aliases:
+  - /title-goes-here/
+  - /other-title-too/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;one-last-thing&quot;&gt;One last thing!&lt;/h2&gt;
+
+&lt;p&gt;It seems like you need to type &lt;code class=&quot;highlighter-rouge&quot;&gt;hugo&lt;/code&gt; to publish to the docs directory, because &lt;code class=&quot;highlighter-rouge&quot;&gt;hugo server&lt;/code&gt; doesn’t do both, it only does the webserving.. I don’t really understand, but that seems to be the case.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-a-linebreak-before-each-list&quot;&gt;Use a linebreak before each list!&lt;/h2&gt;
+
+&lt;h2 id=&quot;twitter-cards&quot;&gt;Twitter Cards&lt;/h2&gt;
+
+&lt;p&gt;For twitter cards, I use the &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/seo.html&quot;&gt;minimal-mistakes - _includes/seo.html&lt;/a&gt; as a reference for up to date syntax, and update the code that generates it wherever I need (or simply drop it in the includes of jekyll themes).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/e6egggQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;test-branches&quot;&gt;Test Branches&lt;/h2&gt;
+
+&lt;p&gt;I’ve switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy it is, here on Hugo.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo&quot;&gt;webwork-tools.github.io/tree/test-hugo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/webwork-tools/webwork-tools.github.io/tree/hpster-jekyll&quot;&gt;webwork-tools.github.io/tree/hpster-jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/AngeloStavrow/indigo&quot;&gt;AngeloStravrow/indigo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing&quot;&gt;web.archive.org - Installing Hugo - Dec, 2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://web.archive.org/web/20171211175036/http://gohugo.io/getting-started/usage&quot;&gt;web.archive.org - Using Hugo - Dec,2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/posts/branches-git/&quot;&gt;Creating a Test Branch and Merging changes back to Master&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/&quot;&gt;Goodbye Jekyll - Hello Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-hugo-themes&quot;&gt;Other Hugo Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/EmielH/tale-hugo&quot;&gt;/EmielH/tale-hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;over-the-rainbow&quot;&gt;Over the Rainbow&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://masayk.github.io/tech/hugo/&quot;&gt;Blogging with Org-Mode and Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;related-posts&quot;&gt;Related Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/hugo-starter-kit/&quot;&gt;Hugo Starter Kit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/learn-html-css/&quot;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/content-creation/&quot;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/from-jekyll-hpstr-to-hugo/</guid>
+			</item>
+		
+			<item>
+				<title>Creating a Test Branch and Merging back the Changes</title>
+				<link>http://localhost:4000/feeling-responsive/branches-git/</link>
+				<pubDate>Fri, 31 May 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;Image Source: &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg&quot;&gt;Bunyk - Українська&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.&lt;/p&gt;
+
+&lt;h2 id=&quot;checkout-test-branch&quot;&gt;Checkout test branch&lt;/h2&gt;
+
+&lt;p&gt;Use the command &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b&lt;/code&gt; will allow you to create a local branch for testing.&lt;/p&gt;
+
+&lt;p&gt;I will call my new branch &lt;code class=&quot;highlighter-rouge&quot;&gt;test-hugo&lt;/code&gt; so the command will be like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b test-hugo&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;some-git-basics-for-newbs-like-me&quot;&gt;Some git basics for newbs like me&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging&quot;&gt;Git Branching and Merging&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Git keeps track of all your files, but not just the files, but everything in the repository.&lt;/p&gt;
+
+&lt;p&gt;Every commit, git remembers.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“yes yes I know”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, it really boggled my mind the first time I tried it locally.&lt;/p&gt;
+
+&lt;p&gt;I can change to a branch or another point in the history of this repository, and git tucks away the one I’m working on… and the whole directory changes and like wait…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;where did all my files just go?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain :rofl:&lt;/p&gt;
+
+&lt;h3 id=&quot;git-is-magic&quot;&gt;Git is Magic!&lt;/h3&gt;
+
+&lt;p&gt;it sure feels that way, especially the first time I realized what it was doing. I still have a sense of wonder and mystery around Git.&lt;/p&gt;
+
+&lt;p&gt;You probably knowbut you don’t need github at all, and I’m learning that a significant portion, of git repositories are never exposed to the public.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Outside of GitHub and its imitators, most contributors to a project don’t have a published version of their repository online at all, skipping that step and saving some time. - &lt;a href=&quot;https://drewdevault.com/2019/05/24/What-is-a-fork.html&quot;&gt;What is a Fork?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b&lt;/code&gt; is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-starter-pack/#git&quot;&gt;More Git Resources&lt;/a&gt; »&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;merging-changes-back-to-the-master-branch&quot;&gt;&lt;a href=&quot;https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master&quot;&gt;Merging changes back to the master branch&lt;/a&gt;&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout master
+git pull origin master
+git merge test
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/branches-git/</guid>
+			</item>
+		
+			<item>
+				<title>Infominer's Forked Repositores</title>
+				<link>http://localhost:4000/feeling-responsive/infominer33-forked-repos/</link>
+				<pubDate>Wed, 29 May 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
+
+&lt;p&gt;Now that I have both forked &lt;a href=&quot;https://web-work.tools/infominer33-starred-repos/&quot;&gt;and starred&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;webpub&quot;&gt;WebPub&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/artemsheludko/galada&quot;&gt;artemsheludko/galada&lt;/a&gt; - Galada is an easy and simple blog theme for Jekyll.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/github/personal-website&quot;&gt;github/personal-website&lt;/a&gt; - A place to track the repositories of infominer.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/contrafabulists-toolbox/google-sheet-to-github-website&quot;&gt;contrafabulists-toolbox/google-sheet-to-github-website&lt;/a&gt; - This is a working project for operating a data driven website on Github Pages using Google Sheets as a data source.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/minicomp/wax&quot;&gt;minicomp/wax&lt;/a&gt; - Jekyll for minimal exhibitions with IIIF bee&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/weskerfoot/KettleBlog&quot;&gt;weskerfoot/KettleBlog&lt;/a&gt; - A full featured blog in RiotJS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;poole/lanyon&lt;/a&gt; - A content-first, sliding sidebar theme for Jekyll.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gdamdam/awesome-decentralized-web&quot;&gt;gdamdam/awesome-decentralized-web&lt;/a&gt; - an awesome list of decentralized services and technologies&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Tyrrrz/DiscordChatExporter&quot;&gt;Tyrrrz/DiscordChatExporter&lt;/a&gt; - Exports Discord chat logs to a file&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/anaibol/awesome-serverless&quot;&gt;anaibol/awesome-serverless&lt;/a&gt; - cloud A curated list of awesome services, solutions and resources for serverless / nobackend applications.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/toddmotto/public-apis&quot;&gt;toddmotto/public-apis&lt;/a&gt; - A collective list of free APIs for use in software and web development.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/iipc/awesome-web-archiving&quot;&gt;iipc/awesome-web-archiving&lt;/a&gt; - An Awesome List for getting started with web archiving&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/fire1ce/3os.org&quot;&gt;fire1ce/3os.org&lt;/a&gt; - Source Code for 3os.org website. The website based on Markdown format, rendered to html and hosted on github-pages&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;mmistakes/minimal-mistakes&lt;/a&gt; - triangular_ruler A flexible two-column Jekyll theme perfect for building personal sites, blogs, and portfolios.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gristlabs/mkdocs-windmill&quot;&gt;gristlabs/mkdocs-windmill&lt;/a&gt; - Outstanding mkdocs theme with a focus on navigation and usability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/poole&quot;&gt;poole/poole&lt;/a&gt; - The Jekyll Butler.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/hpstr-jekyll-theme&quot;&gt;mmistakes/hpstr-jekyll-theme&lt;/a&gt; - A Jekyll theme with some tumble-log tendencies.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mnyrop/pagemaster&quot;&gt;mnyrop/pagemaster&lt;/a&gt; - Jekyll plugin for generating Markdown collection pages from CSV/YAML/JSON records 🧙book&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/so-simple-theme&quot;&gt;mmistakes/so-simple-theme&lt;/a&gt; - A simple Jekyll theme for words and pictures.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ChristopherA/jekyll-remote_theme-test&quot;&gt;ChristopherA/jekyll-remote_theme-test&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ChristopherA/simplest-github-page&quot;&gt;ChristopherA/simplest-github-page&lt;/a&gt; - Test of simplest GitHub page, leveraging Jekyll without Jekyll&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes-algolia-search&quot;&gt;mmistakes/minimal-mistakes-algolia-search&lt;/a&gt; - Minimal Mistakes Jekyll theme test with Algolia search&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/aioobe/dead-simple-jekyll-comments&quot;&gt;aioobe/dead-simple-jekyll-comments&lt;/a&gt; - Dead simple DIY comment system for Jekyll.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tools-n-resources&quot;&gt;Tools n Resources&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watson/awesome-computer-history&quot;&gt;watson/awesome-computer-history&lt;/a&gt; - An Awesome List of computer history videos, documentaries and related folklore&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/redknight99/annotated-awesome-osint&quot;&gt;redknight99/annotated-awesome-osint&lt;/a&gt; - scream A curated list of amazingly awesome OSINT&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/trimstray/the-book-of-secret-knowledge&quot;&gt;trimstray/the-book-of-secret-knowledge&lt;/a&gt; - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/chow-petit/awesome-curated-tools&quot;&gt;chow-petit/awesome-curated-tools&lt;/a&gt; - A curated list of digital tools we use, ranging from accounting and data science to scientific research and liquid democracy. Commented, connected, by everyone and for everyone !&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line&quot;&gt;jlevy/the-art-of-command-line&lt;/a&gt; - Master the command line, in one page&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mozilla/sops&quot;&gt;mozilla/sops&lt;/a&gt; - Secrets management stinks, use some sops!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/theanalyst/awesome-distributed-systems&quot;&gt;theanalyst/awesome-distributed-systems&lt;/a&gt; - A curated list to learn about distributed systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/chaconnewu/awesome-augmented&quot;&gt;chaconnewu/awesome-augmented&lt;/a&gt; - Centralize all awesome lists with addition info on curated GitHub repos (automated by scripts)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;indieweb&quot;&gt;Indieweb&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/projectpages/project-pages&quot;&gt;projectpages/project-pages&lt;/a&gt; - GitHub Pages for an Indieweb&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/voxpelli/webpage-webmentions&quot;&gt;voxpelli/webpage-webmentions&lt;/a&gt; - A hosted Disqus-like comment service that enables WebMention receiving on any kind of site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;crypto&quot;&gt;Crypto&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/denisnazarov/awesome-crypto-trackers&quot;&gt;denisnazarov/awesome-crypto-trackers&lt;/a&gt; - A curated list of crypto project trackers and analytics dashboards.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ethhub-io/ethhub&quot;&gt;ethhub-io/ethhub&lt;/a&gt; - The essential Ethereum information hub.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/the-domains/gigabitcoin&quot;&gt;the-domains/gigabitcoin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cryptoparty/artwork&quot;&gt;cryptoparty/artwork&lt;/a&gt; - a collection of public domain artwork and graphics, where possible, with source files to help others remix and reuse to make slides, handouts and flyers for cryptoparties&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sunnankar/wuc-new&quot;&gt;sunnankar/wuc-new&lt;/a&gt; - We Use Coins website.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;decentralized-identity&quot;&gt;Decentralized Identity&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Identitywoman/identity-commons&quot;&gt;Identitywoman/identity-commons&lt;/a&gt; - This is a repository for commons resources that can serve the community working on identity.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot3-sf&quot;&gt;WebOfTrustInfo/rwot3-sf&lt;/a&gt; - RWOT3 in San Francisco, California (October 2016)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot2-id2020&quot;&gt;WebOfTrustInfo/rwot2-id2020&lt;/a&gt; - RWOT2 for the ID2020 UN Summit (May 2016)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot1-sf&quot;&gt;WebOfTrustInfo/rwot1-sf&lt;/a&gt; - RWOT1 in San Francisco, California (November 2015)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hyperledger/indy-docs&quot;&gt;hyperledger/indy-docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/self-sovereign-identity&quot;&gt;WebOfTrustInfo/self-sovereign-identity&lt;/a&gt; - Articles and documents associated with designing and implementing identity technology using self-sovereign identity principles&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/peacekeeper/blockchain-identity&quot;&gt;peacekeeper/blockchain-identity&lt;/a&gt; - Blockchain and Identity&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tyleryasaka/identity-proposals&quot;&gt;tyleryasaka/identity-proposals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot4-paris&quot;&gt;WebOfTrustInfo/rwot4-paris&lt;/a&gt; - RWOT4 in Paris, France (April 2017)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/infominer33-forked-repos/</guid>
+			</item>
+		
+			<item>
+				<title>Resources for Content Creation</title>
+				<link>http://localhost:4000/feeling-responsive/content-creation/</link>
+				<pubDate>Tue, 28 May 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;Here’s some tools to make content creation a little easier.&lt;/p&gt;
+
+&lt;p&gt;As per usual, this list will grow and become more organized over time.&lt;/p&gt;
+
+&lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot; target=&quot;_blank&quot;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot; target=&quot;_blank&quot;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;editors&quot;&gt;Editors&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://web-work.tools/images/content-creation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt;
+Where I build webpages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This thing has extensions for all your coding needs… It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wpmppqh3E9o&quot; frameborder=&quot;0&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/text-editor-tutorial/vim&quot;&gt;Learn Enough Text Editor to Be Dangerous&lt;/a&gt; - Vim&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rick.cogley.info/post/text-editor-introduction/&quot;&gt;So, What’s a Text Editor? …an introduction for newbies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;HackMD - Collaborative Markdown Editor&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackmd.io&quot;&gt;https://hackmd.io&lt;/a&gt; - Collaborative markdown editor (where I write everything else).
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hackmd.io/getting-started&quot;&gt;Getting started&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hackmd.io/c/tutorials/%2Fs%2Ftutorials&quot;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book&quot;&gt;How to Create a Book&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hackmd.io/c/tutorials-tw/%2Fs%2Fyaml-metadata&quot;&gt;YAML Metadata&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;See also &lt;a href=&quot;https://demo.codimd.org/&quot;&gt;demo.codimd.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;public-domain---stock-images&quot;&gt;Public Domain - Stock Images&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nacyot/awesome-opensource-documents&quot;&gt;nacyot/awesome-opensource-documents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/neutraltone/awesome-stock-resources&quot;&gt;neutraltone/awesome-stock-resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/shime/creative-commons-media&quot;&gt;shime/creative-commons-media&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/idleberg/Creative-Commons-Markdown&quot;&gt;idleberg/Creative-Commons-Markdown&lt;/a&gt; - snippets to add CC license to your work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+
+&lt;h3 id=&quot;converters&quot;&gt;Converters&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pdf2png.com/&quot;&gt;pdf2png&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://online2pdf.com/convert-pptx-to-pdf&quot;&gt;pptx-to-pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://convertio.co/pdf-html/&quot;&gt;pdf to html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/coolwanglu/pdf2htmlEX&quot;&gt;coolwanglu/pdf2htmlEX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sizes&quot;&gt;Sizes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://louisem.com/217438/twitter-image-size&quot;&gt;Twitter-Image Sizes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lauraleeflores.com/blog/header-image-sizing-guide&quot;&gt;Header Image Sizing Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://andrew.hedges.name/experiments/aspect_ratio/&quot;&gt;Aspect Ratio Calculator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;optimization&quot;&gt;Optimization&lt;/h3&gt;
+
+&lt;p&gt;The web &lt;em&gt;loooves&lt;/em&gt; big old beautiful high quality images… However, my visitors probably notice the load time of huge images more than I do (though I do notice them).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ezgif.com/optimize&quot;&gt;https://ezgif.com/optimize&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;cross-platform tool for losslessly optimizing PNG and JPG files for web. - &lt;a href=&quot;https://trimage.org/&quot;&gt;https://trimage.org/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;command-line utility and a library for lossy compression of PNG images.&lt;/p&gt;
+
+  &lt;p&gt;The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - &lt;a href=&quot;https://pngquant.org/&quot;&gt;pngquant&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;infographics&quot;&gt;Infographics&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.canva.com/create/infographics/&quot;&gt;Canva Infographic Creator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.easel.ly/&quot;&gt;easel.ly&lt;/a&gt; - free create infographics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://builtvisible.com/content-strategy-helper/&quot;&gt;Content Strategy Tool&lt;/a&gt; - Find inspiration for your content marketing topics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.google.com/publicdata/directory&quot;&gt;Google Public Data&lt;/a&gt; - content research, infographics, and more.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.seomofo.com/snippet-optimizer.html&quot;&gt;Google SERP Snippet Optimization Tool&lt;/a&gt; - see how your snippet may appear in search results.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://infogr.am/&quot;&gt;infogr.am&lt;/a&gt; - create infographics and data visualizations&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www341.lunapic.com/editor/&quot;&gt;https://www341.lunapic.com/editor/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://piktochart.com/&quot;&gt;Piktochart&lt;/a&gt; - visualization generator.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;text&quot;&gt;Text&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.textcleanr.com/&quot;&gt;Text Cleaner&lt;/a&gt; - cleans up all kinds of text formatting when copying and pasting between applications.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wordle.net/&quot;&gt;wordle&lt;/a&gt; - word cloud generator&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pipes.yahoo.com/pipes/&quot;&gt;Yahoo Pipes&lt;/a&gt;
+combines feeds “into content and other magical creations”.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pcjs.org&quot;&gt;https://www.pcjs.org&lt;/a&gt; - IBM PC simulation that runs in your web browser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://amara.org/en/&quot;&gt;Amara&lt;/a&gt; - create captions for YouTube videos.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wistia.com/&quot;&gt;Wistia&lt;/a&gt; - SEO-friendly video hosting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plagiarism&quot;&gt;Plagiarism&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.copyscape.com/&quot;&gt;Copyscape&lt;/a&gt; - track if your content is being plagiarized.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;^^^ This is the industry standard. It can help to prevent even plagiarizing from yourself!&lt;/p&gt;
+
+&lt;h2 id=&quot;archiving&quot;&gt;Archiving&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/web-archive-for-wayback-m/ppokigfjbmhncgkabghdgpiafjdpllke&quot;&gt;Web Archive for WayBack Machine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/iipc/awesome-web-archiving&quot;&gt;iipc/awesome-web-archiving&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webapps.stackexchange.com/questions/115369/how-to-archive-the-whole-website&quot;&gt;webapps.stackexchange.com - how-to-archive-the-whole-website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.httrack.com&quot;&gt;httrack.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://hostadvice.com/how-to/how-to-install-apache-mysql-php-on-an-ubuntu-18-04-vps/&lt;/li&gt;
+  &lt;li&gt;https://askubuntu.com/questions/448424/unable-to-open-php-files-on-linux-platform-on-ubuntu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wiki&quot;&gt;Wiki&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia&quot;&gt;en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Help:Cheatsheet&quot;&gt;en.wikipedia.org/wiki/Help:Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-visualization&quot;&gt;Data Visualization&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.github.com/v3/guides/rendering-data-as-graphs/&quot;&gt;rendering-data-as-graphs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.benlcollins.com/javascript/creating-a-dynamic-d3-visualization-from-the-github-api/&quot;&gt;Creating a dynamic d3 visualization from the GitHub API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.targetprocess.com/blog/visualize-github-code-contribution-using-app-link/&quot;&gt;Visualize GitHub Code Contribution using APP Link&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://livablesoftware.com/tools-visualize-github-profile/&quot;&gt;tools-visualize-github-profile/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control. - &lt;a href=&quot;https://datavizforall.org/github.html&quot;&gt;Data Visualization for All - Modify and Host Code with GitHub&lt;/a&gt; by Jack Dougherty &amp;amp; Ilya Ilyankou&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;tutes--walkthrus&quot;&gt;Tutes \ Walkthrus&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webdesign.tutsplus.com/tutorials/how-to-create-an-open-source-directory-on-github-pages--cms-26225&quot;&gt;How to Create an Open-Source Directory on GitHub Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.labnol.org/internet/github-gist-tutorial/28499/&quot;&gt;What You Can Do With Gists on Github?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assorted&quot;&gt;Assorted&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://polyglot.untra.io/&quot;&gt;https://polyglot.untra.io/&lt;/a&gt; - multi-lingual publishing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://konpa.github.io/devicon/&quot;&gt;https://konpa.github.io/devicon/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;related-posts&quot;&gt;Related Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/learn-html-css/&quot;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/content-creation/&quot;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/content-creation/</guid>
+			</item>
+		
+			<item>
+				<title>Infominer's GitHub Portfolio and HowTo</title>
+				<link>http://localhost:4000/feeling-responsive/make-a-github-portfolio/</link>
+				<pubDate>Mon, 27 May 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;I learned of this cool project from &lt;a href=&quot;https://twitter.com/bmann&quot;&gt;@bmann&lt;/a&gt;. I’ve been wanting a simple way to make a page like this for a while!&lt;/p&gt;
+
+&lt;p&gt;It’s really nice to have a place to keep track, because I’m always forgetting how many I even manage!&lt;/p&gt;
+
+&lt;p&gt;It might seem intimidating to hear, “Just Fork It!”&lt;/p&gt;
+
+&lt;p&gt;However, you’ll see that it’s not much more complex than that.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1&quot;&gt;Step 1&lt;/h2&gt;
+
+&lt;p&gt;Fork this repository:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/github/personal-website&quot;&gt;github/personal-website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;step-2&quot;&gt;Step 2&lt;/h2&gt;
+
+&lt;p&gt;Go to settings and select publish from master branch:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/UAhVvRPl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3&quot;&gt;Step 3&lt;/h2&gt;
+
+&lt;p&gt;If you already have a web-page, then maybe you aren’t reading this.. If you don’t, then you must name the repository the same as your name on github. So my first website’s repository name is &lt;a href=&quot;https://github.com/infominer33/infominer33.github.io&quot;&gt;infominer33.github.io&lt;/a&gt; since my github username is infominer33. Now it publishes to &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer.id&lt;/code&gt; (but also &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer33.github.io&lt;/code&gt;) because I have a custom domain, and every other repository I publish is a branch of that first domain.&lt;/p&gt;
+
+&lt;p&gt;Since I already have a primary webpage, I change my repository name to &lt;code class=&quot;highlighter-rouge&quot;&gt;repo-portfolio&lt;/code&gt;. That way, it lives at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://infominer.id/repo-portfolio/&quot;&gt;infominer.id/repo-portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/yL5BaNxl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4&quot;&gt;Step 4&lt;/h2&gt;
+
+&lt;p&gt;On github pages, &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 12
+  exclude:
+    archived: false
+    forks: false
+    projects:
+      - pub-yes
+      - yest
+      - archive-crypto
+      - yest-the-docs
+      - bahamas-crypto
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;you can also configure social media accounts.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;social_media:
+  website: https://infominer.id/
+  keybase: infominer
+  telegram: infominer33
+  twitter: infominer33
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # unsplash: your_username
+  # vk: your_username
+  # youtube: your_username
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;and topics of interest:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+topics:
+  - name: Bitcoin
+    web_url: https://github.com/topics/bitcoin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
+
+  - name: Decentralized Identity
+    web_url: https://github.com/topics/decentralized-identity
+    image_url: https://decentralized-id.com/assets/icons/didicon.png
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cool beans, right?&lt;/p&gt;
+
+&lt;p&gt;There are also blog features, although I’m not sure I’ll blog there… who knows!?!?&lt;/p&gt;
+
+&lt;p&gt;I haven’t looked through the &lt;a href=&quot;https://github.com/github/personal-website/issues&quot;&gt;issues&lt;/a&gt;, or &lt;a href=&quot;https://github.com/github/personal-website/pulls&quot;&gt;pull-requests&lt;/a&gt; yet to see what folk are working on, or tried to tweak any of the quirks I’ve noticed..&lt;/p&gt;
+
+&lt;p&gt;If you want to learn more about GitHub Pages, check out:&lt;/p&gt;
+
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;https://web-work.tools/images/gh-pages-starter-pack.png&quot; alt=&quot;&quot; /&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;https://web-work.tools/github-pages-starter-pack/&quot;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/make-a-github-portfolio/</guid>
+			</item>
+		
+			<item>
+				<title>Infominer's Starred GitHub Repositories</title>
+				<link>http://localhost:4000/feeling-responsive/github-stars/</link>
+				<pubDate>Sun, 26 May 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;Here’s all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.&lt;/p&gt;
+
+&lt;p&gt;I used this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kirtan403.github.io/bookmark-github-stars/&quot;&gt;kirtan403.github.io/bookmark-github-stars/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and then found this app that makes them even prettier and has an option to push the data to json. (I’ll try this next time)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://export-github-stars.netlify.com/&quot;&gt;export-github-stars.netlify.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;infominer33s-starred-github-repositories&quot;&gt;Infominer33’s Starred GitHub Repositories&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/avidLearnerInProgress/python-automation-scripts&quot;&gt;avidLearnerInProgress/python-automation-scripts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/chaconnewu/awesome-augmented&quot;&gt;chaconnewu/awesome-augmented&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mnyrop/swc-materials&quot;&gt;mnyrop/swc-materials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mnyrop/pagemaster&quot;&gt;mnyrop/pagemaster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mozilla/sops&quot;&gt;mozilla/sops&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jens-maus/yam&quot;&gt;jens-maus/yam&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Jugendhackt/HowToPGP&quot;&gt;Jugendhackt/HowToPGP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/vitalysim/Awesome-Hacking-Resources&quot;&gt;vitalysim/Awesome-Hacking-Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Hack-with-Github/Awesome-Hacking&quot;&gt;Hack-with-Github/Awesome-Hacking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gh-pages&quot;&gt;GH-Pages&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/allejo/jekyll-toc&quot;&gt;jekyll-toc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/weskerfoot/artwork&quot;&gt;weskerfoot/artwork&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/weskerfoot/Gitblog&quot;&gt;weskerfoot/Gitblog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/weskerfoot/KettleBlog&quot;&gt;weskerfoot/KettleBlog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sindresorhus/amas&quot;&gt;sindresorhus/amas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bmann/webpage-webmentions&quot;&gt;bmann/webpage-webmentions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/shichao-an/twitter-photos&quot;&gt;shichao-an/twitter-photos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/DeeJayhX/HTMLArticleElementStripper&quot;&gt;DeeJayhX/HTMLArticleElementStripper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/unlicense/unlicense.org&quot;&gt;unlicense/unlicense.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/johnjago/awesome-uncopyright&quot;&gt;johnjago/awesome-uncopyright&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Ryuno-Ki/webmention-tools&quot;&gt;Ryuno-Ki/webmention-tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rypan/jekyll-db&quot;&gt;rypan/jekyll-db&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/iurisegtovich/AwesomeInformationSharing&quot;&gt;iurisegtovich/AwesomeInformationSharing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/qwtel/hydejack&quot;&gt;qwtel/hydejack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ChristopherA/simplest-github-page&quot;&gt;ChristopherA/simplest-github-page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;mmistakes/minimal-mistakes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mdo/wtf-html-css&quot;&gt;mdo/wtf-html-css&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ChristopherA/jekyll-remote_theme-test&quot;&gt;ChristopherA/jekyll-remote_theme-test&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jonathancross/jc-docs&quot;&gt;jonathancross/jc-docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mdo/code-guide&quot;&gt;mdo/code-guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;crypto&quot;&gt;Crypto&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GrayHats/btctalkint&quot;&gt;GrayHats/btctalkint&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/the-domains/gigabitcoin&quot;&gt;the-domains/gigabitcoin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Blockstream/liquid&quot;&gt;Blockstream/liquid&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/weskerfoot/awesome-ocap&quot;&gt;weskerfoot/awesome-ocap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/BlockchainCommons/BlockchainCommonsLLC&quot;&gt;BlockchainCommons/BlockchainCommonsLLC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/banteg/bitcointalk&quot;&gt;banteg/bitcointalk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tradingview/pine_script_docs&quot;&gt;tradingview/pine_script_docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/JWWeatherman/bitcoin_security_threat_model&quot;&gt;JWWeatherman/bitcoin_security_threat_model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/JWWeatherman/human_threat_model&quot;&gt;JWWeatherman/human_threat_model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bssrdf/BlockchainLibrary&quot;&gt;bssrdf/BlockchainLibrary&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/BlockchainBooks/blockchainbooks.github.io&quot;&gt;BlockchainBooks/blockchainbooks.github.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kiarafrobles/bitcoin-reading-list&quot;&gt;kiarafrobles/bitcoin-reading-list&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ChristopherA/Blockchain-Developer-Resources&quot;&gt;ChristopherA/Blockchain-Developer-Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mark-s/CryptoCoinWhitePapers&quot;&gt;mark-s/CryptoCoinWhitePapers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gdamdam/awesome-decentralized-web&quot;&gt;gdamdam/awesome-decentralized-web&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/monospaced-out/bit-by-bitcoin&quot;&gt;monospaced-out/bit-by-bitcoin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ERC725Alliance/erc725&quot;&gt;ERC725Alliance/erc725&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/reiver/blockchain-reading-list&quot;&gt;reiver/blockchain-reading-list&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hyperledger/education&quot;&gt;hyperledger/education&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cdecker/btcresearch&quot;&gt;cdecker/btcresearch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/decrypto-org/blockchain-papers&quot;&gt;decrypto-org/blockchain-papers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ethhub-io/ethhub&quot;&gt;ethhub-io/ethhub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Bitcoin-and-Markets/resources&quot;&gt;Bitcoin-and-Markets/resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Steven-Ireland/ethmail.tech&quot;&gt;Steven-Ireland/ethmail.tech&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sunnankar/wuc-new&quot;&gt;sunnankar/wuc-new&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;decentralized-identity&quot;&gt;Decentralized Identity&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot8-barcelona&quot;&gt;WebOfTrustInfo/rwot8-barcelona&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/good-lly/gdpr-documents&quot;&gt;good-lly/gdpr-documents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/didecentral/didecentral.github.io&quot;&gt;DIDecentralized&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/w3c-ccg/did-test-suite&quot;&gt;w3c-ccg/did-test-suite&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot3-sf&quot;&gt;WebOfTrustInfo/rwot3-sf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot5-boston&quot;&gt;WebOfTrustInfo/rwot5-boston&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot6-santabarbara&quot;&gt;WebOfTrustInfo/rwot6-santabarbara&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot7-toronto&quot;&gt;WebOfTrustInfo/rwot7-toronto&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/WebOfTrustInfo/rwot2-id2020&quot;&gt;WebOfTrustInfo/rwot2-id2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/peacekeeper/blockchain-identity&quot;&gt;peacekeeper/blockchain-identity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openssi/peer-did-method-spec&quot;&gt;openssi/peer-did-method-spec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tyleryasaka/identity-proposals&quot;&gt;tyleryasaka/identity-proposals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hyperledger/indy-docs&quot;&gt;hyperledger/indy-docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/github-stars/</guid>
+			</item>
+		
+			<item>
+				<title>Static Site Generators</title>
+				<link>http://localhost:4000/feeling-responsive/static-site-generators/</link>
+				<pubDate>Sat, 25 May 2019 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;Well, now i’m looking into options besides jekyll, to expand my skills, and try out some themes that aren’t available for Jekyll.&lt;/p&gt;
+
+&lt;p&gt;I’ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-static-site-generator-ssg&quot;&gt;What is a Static Site Generator (SSG)?&lt;/h2&gt;
+
+&lt;p&gt;There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.&lt;/p&gt;
+
+&lt;p&gt;I’ll have a few general resources at the top and just add as I go, since I’m not ready to learn about too many of them, just yet.&lt;/p&gt;
+
+&lt;h2 id=&quot;general&quot;&gt;General&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll&quot;&gt;Using A Static Site Generator other than Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pinceladasdaweb/Static-Site-Generators&quot;&gt;pinceladasdaweb/Static-Site-Generators&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://staticsitegenerators.net&quot;&gt;staticsitegenerators.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.staticgen.com/&quot;&gt;https://www.staticgen.com/&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=17952234&quot;&gt;I tried Hugo, Jekyll and Gatsby&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hugo&quot;&gt;Hugo&lt;/h2&gt;
+
+&lt;p&gt;These links have moved to their own page:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/hugo-starter-kit/&quot;&gt;Hugo Starter Kit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mkdocs&quot;&gt;MkDocs&lt;/h2&gt;
+
+&lt;p&gt;MkDocs has built in search, and in some ways simpler than publishing w jekyll.&lt;/p&gt;
+
+&lt;p&gt;For example, you don’t need to put frontmatter into every single document.. it will just create a website from markdown files and autogenerate toc based on directory structure.&lt;/p&gt;
+
+&lt;p&gt;MkDocs really caught my eye when I saw it running at &lt;a href=&quot;https://docs.ethhub.io/&quot;&gt;EthHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/c7Ik39r.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mkdocs.org/&quot;&gt;https://www.mkdocs.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins&quot;&gt;/mkdocs/mkdocs/wiki/MkDocs-Plugins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://yakworks.github.io/mkdocs-material-components/cheat-sheet/&quot;&gt;MkDocs Material Components - Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mkdocs.readthedocs.io&quot;&gt;mkdocs.readthedocs.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins&quot;&gt;mkdocs/mkdocs/wiki/MkDocs-Plugins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin&quot;&gt;mkdocs-awesome-pages-plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.wheelodex.org/entry-points/mkdocs.plugins/&quot;&gt;mkdocs.plugins/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blogs.pjjk.net/phil/metadata-for-markdown-mkdocs/&quot;&gt;metadata-for-markdown-mkdocs/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gristlabs.github.io/mkdocs-windmill/#&quot;&gt;https://gristlabs.github.io/mkdocs-windmill/&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/gristlabs/mkdocs-windmill&quot;&gt;gristlabs/mkdocs-windmill&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://python-markdown.github.io/extensions/&quot;&gt;https://python-markdown.github.io/extensions/&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions&quot;&gt;Python-Markdown/markdown/wiki/Third-Party-Extensions&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://python-markdown.github.io/extensions/smarty/&quot;&gt;https://python-markdown.github.io/extensions/smarty/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Because MkDocs builds with python, that opens up a whole universe of tools at your disposal. The python markdown extensions are a prime example.&lt;/p&gt;
+
+&lt;p&gt;However, basically none of the regular jekyll plugins work with mkdocs, it’s a whole universe to its own w Python.&lt;/p&gt;
+
+&lt;h3 id=&quot;now-dev&quot;&gt;Now Dev&lt;/h3&gt;
+
+&lt;p&gt;I don’t even know… but it seems pretty dope.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zeit.co/blog/now-dev&quot;&gt;https://zeit.co/blog/now-dev&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zeit.co/docs/v2/deployments/concepts/lambdas&quot;&gt;https://zeit.co/docs/v2/deployments/concepts/lambdas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;keybase&quot;&gt;Keybase&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/PVUAaAu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just sayin’… keybase has 250 gigs of free storage you can use to host a website…&lt;/p&gt;
+
+&lt;p&gt;you could build gem based sites locally, and keybase will automatically sync the data.&lt;/p&gt;
+
+&lt;h2 id=&quot;related-posts&quot;&gt;Related Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/learn-html-css/&quot;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/content-creation/&quot;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/static-site-generators/</guid>
+			</item>
+		
+	</channel>
+</rss>

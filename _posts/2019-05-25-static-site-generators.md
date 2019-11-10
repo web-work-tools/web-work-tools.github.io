@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Static Site Generators"
-description: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
+teaser: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
 modified: 2019-06-15T11:12:13-23:00
 tags: 
   - static site generators
@@ -12,15 +12,15 @@ permalink: /static-site-generators/
 
 redirect_from:
   - /static-site-generators
+subheadline: "There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate."
 
-excerpt: "There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate."
+header:
+  image_fullwidth: "devopedia-static-site-generators.jpg"
+  caption: "Devopedia.org"
+  caption_url: "https://devopedia.org/static-site-generators"
 
 image:
-  feature: devopedia-static-site-generators.jpg
-  thumb: /images/devopedia-static-site-generators.jpg
-  og_image: devopedia-static-site-generators.jpg
-  credit: Devopedia.org
-  creditlink: https://devopedia.org/static-site-generators
+  thumb: "devopedia-static-site-generators.jpg"
 ---
 
 

@@ -1,13 +1,15 @@
 ---
-layout: post
+layout: page
 title: Using PGP and Cryptocurrency Keysignatures
-description: "Asymmetric Encryption: Phil Zimmerman, PGP, Bitcoin and Ethereum key-signatures, Escrow, SSL, Various Apps and Resourses."
-excerpt: >
-  "It's personal. It's private. And it's no one's business but yours. You may be planning a political campaign, discussing your taxes, or having a secret romance. Or you may be communicating with a political dissident in a repressive country.\n Whatever it is, you don't want your private electronic mail (email) or confidential documents read by anyone else. There's nothing wrong with asserting your privacy. Privacy is as apple-pie as the Constitution."
+teaser: "Asymmetric Encryption: Phil Zimmerman, PGP, Bitcoin and Ethereum key-signatures, Escrow, SSL, Various Apps and Resourses."
+subheadline: >
+  "It's personal. It's private. And it's no one's business but yours."
 tags: [pgp, deepdotweb, security, privacy, resources]
 image:
-  thumb: /images/pgp-og.png
-  feature: pgp-banner.png
+  thumb: "pgp-og.png"
+
+header:
+  image_fullwidth: "pgp-banner.png"
 permalink: /practical-public-key-crypto/
 redirect_from:
   - /practical-pgp/
@@ -16,7 +18,6 @@ redirect_from:
   - /practical-crypto
   - /practical-pgp
 date: 2019-03-22
-
 modified: 2019-06-16T13:15:59-23:00
 ---
 

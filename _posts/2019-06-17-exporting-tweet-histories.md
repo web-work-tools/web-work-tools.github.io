@@ -1,15 +1,20 @@
 ---
-layout: post
+layout: page
 title: "Mining, Exploring, Exporting: Creating Content with CSV Tweet Histories"
-description: "Export your tweets to CSV, filter in a spreadsheet and publish."
+teaser: "Export your tweets to CSV, filter in a spreadsheet and publish."
 tags: [twitter, export, webpub, csv, data, jekyll]
 categories: [content-creation]
+published: false
+
+header:
+  image_fullwidth: "tweet-history-data-download-research-content-creation-csv.png"
+  caption: "A Liquid tag plugin for the Jekyll blogging engine that embeds Tweets, Timelines and more from Twitter API"
+  caption_url: "https://github.com/rob-murray/jekyll-twitter-plugin/"
 image:
-  feature: tweet-history-data-download-research-content-creation-csv.png
-  caption: "[rob-murray/jekyll-twitter-plugin/](https://github.com/rob-murray/jekyll-twitter-plugin/) - A Liquid tag plugin for the Jekyll blogging engine that embeds Tweets, Timelines and more from Twitter API"
-  thumb: /images/twitter-export-csv.png
+  thumb: "twitter-export-csv.png"
+
 modified: 2019-06-18T22:22:22-23:00
-excerpt: "I was using re-tweets as a way to save information for future examination. I couldn't keep up, manually. Now will sort through it with a spreadsheet program, and collect info here."
+subheadline: #"using re-tweets to save information for future examination. will sort through and collect info here."
 redirect_from:
   - export-tweets-csv/
 permalink: content-creation/export-tweets-csv/

@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: page
 title: "The Markup languages that get transformed into a website."
-description: "Structure and Style, at a Glance: HTML, CSS, YAML, TOML, JSON, Kramdown."
+teaser: "Structure and Style, at a Glance: HTML, CSS, YAML, TOML, JSON, Kramdown."
 modified: 2019-06-15T22:22:22-23:00
 tags: [resources, html, css, meta-tags, kramdown, katex, toml, yaml, json, fundamentals]
-image:
-  feature: HTML5_APIs_and_related_technologies_taxonomy.png
-  credit: Sergey Mavrody
+header:
+  image_fullwidth: "HTML5_APIs_and_related_technologies_taxonomy.png"
+  caption: "Sergey Mavrody"
+
 permalink: /learn-html-css/
 redirect_from:
   - /learn-html-css

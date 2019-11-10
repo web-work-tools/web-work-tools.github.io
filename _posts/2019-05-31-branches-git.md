@@ -1,14 +1,15 @@
 ---
-layout: post
+layout: page
 title: "Creating a Test Branch and Merging back the Changes"
-description: "Used while testing the hugo build of the HPSTR theme."
+teaser: "Used while testing the hugo build of the HPSTR theme."
 tags: [hpstr, jekyll, hugo, theme, migration]
 modified: 2019-05-31T22:22:22-23:00
 redirect_from:
   - /branches-git/
 permalink: /branches-git/
-image:
-  feature: Git_branches_fork.png
+header:
+  image_fullwidth: "Git_branches_fork.png"
+
 ---
 
 Image Source: [Bunyk - Українська](https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg)
