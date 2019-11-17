@@ -14,12 +14,11 @@ modified: 2019-06-15T15:59:13-23:00
 ---
 
 ![](https://imgur.com/j1TZ1Zf.png)
+![]({{ site.urlimg }}infolytics/github-contributions11-19.png)
 
-This blog is where I document my journey as an independent web-worker, and will grow to include contributions from other independent workers of the web.
+This blog is where I document my journey as an independent web-worker. 
 
-This page has some samples of content that I've created for others, as well as general resources for web-work.
-
-Originally it wasn't in blog form, but I've learned there are a number of reasons to use the blog format over individual pages. I just looked on github, and did my best to approximate when I first created a resource to see what date to use for the blog-post.
+This page will become a cornerstone for a few of my creations.
 
 ![](https://web-work.tools/images/webwork-tools.png)
 
