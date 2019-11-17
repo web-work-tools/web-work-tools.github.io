@@ -3,13 +3,12 @@ layout: page
 title: "All your web-work tools"
 description: "All your web-work tools are belong to us!"
 permalink: /are-belong-to-us/
-header:
-   image_fullwidth: "power-words.png"
+header: no
+image:
+   title: "webwork-tools.png"
+   thumb: "power-words.png"
    caption: "web-work.tools"
    caption_url: http://web-work.tools/
-
-image:
-   thumb: /images/organic-seo-ctr-infographic.png
 modified: 2019-06-15T15:59:13-23:00
 ---
 
@@ -19,9 +18,6 @@ modified: 2019-06-15T15:59:13-23:00
 This blog is where I document my journey as an independent web-worker. 
 
 This page will become a cornerstone for a few of my creations.
-
-![](https://web-work.tools/images/webwork-tools.png)
-
 
 ## Site Index
 
@@ -55,6 +51,8 @@ This page will become a cornerstone for a few of my creations.
 * [Learn-SEO](https://web-work.tools/learn-seo/)
 * [Getting Started with Adwords Keyword Planner](https://web-work.tools/getting-started-adwords-keyword-planner/)
 * [100s of free SEO Tools](https://web-work.tools/seo-tools/)
+
+![](https://web-work.tools/images/power-words.png)
 
 
 ## Off-Site Resources
