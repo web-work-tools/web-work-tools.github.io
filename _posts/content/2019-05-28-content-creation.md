@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "Tools and Information for Content Creators"
+title: "Tools and Resources for Content Creation"
 teaser: "A curated list of tools, resources and a variety of web-apps!"
 categories: ['Content Creation']
 tags: 

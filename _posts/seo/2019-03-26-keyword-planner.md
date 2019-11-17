@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: How to Sign Up and Get Started using Google Adwords Keyword Planner
 teaser: This step-by-step guide will ensure that anyone can try out keyword planner and begin learning a keyword research\SEO fundamental.
 
@@ -7,32 +7,36 @@ categories: [seo]
 tags: [keyword-research, walkthrough, stub, adwords, keyword planner]
 
 image:
+  title: "getting-started-adwords-keyword-planner.jpg"
   thumb: "getting-started-adwords-keyword-planner.jpg"
-header:
-  image_fullwidth: "getting-started-adwords-keyword-planner.jpg"
+
+header: no
 
 modified: 2019-05-23T13:15:59-23:00
-permalink: /seo/adwords-keyword-planner/
+permalink: /seo/getting-started-adwords-keyword-planner/
 redirect_from:
   - /getting-started-adwords-keyword-planner/
 
 ---
 
-**Note:** This is just a "stub", and doesn't go fully into the details of keyword research. I have written an [article on the subject](https://www.csbtechemporium.com/keyword-research-fundamentals/), and begun some study of Keyword Research and SEO, although I'm not by any means an expert. 
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
 
-I made this, because it was a little confusing for me when I first tried to use it, and I wanted to be sure that eveyone in my organization had a fundamental understanding of keyword research, so they could assist in coming up with seed-keywords, and understand the building blocks of keyword-research. 
 
-Everything builds from this. In my opinion, it will be valuable to get input from everyone in the organization for at least the first round of keyword research, since this is all about the identity of your website and your organization.
 
-This step-by-step guide will ensure that anyone can try out keyword planner and begin learning a keyword research\SEO fundamental. It's a valuable tool to have in your arsenal, but takes some manual effort to get the most out of.
+{% include _improve_content.html %}
+
+
+This short step-by-step guide will ensure that anyone can try out keyword planner and begin learning how to use this SEO fundamental. It's especially useful if you're not shelling out for expensive keyword tools, right off the bat.
 
 You don't need to worry about it immediately, however, you'll find that many guides have adwords keyword planner as one of the tools to use. This is the really basic instructions for getting started, so anyone should be able to!
-
-## Contents
-
-* [Set up Free Google Ads Account](#set-up-free-google-ads-account)
-* [Start Using Keyword Planner](#start-using-keyword-planner-)
-* [Download and Explore Data](#download-and-explore-data-)
 
 ## Set up Free Google Ads Account
 
