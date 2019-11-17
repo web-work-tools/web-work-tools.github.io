@@ -13,11 +13,14 @@ modified: 2019-06-15T15:59:13-23:00
 ---
 
 ![](https://imgur.com/j1TZ1Zf.png)
-![]({{ site.urlimg }}infolytics/github-contributions11-19.png)
 
 This blog is where I document my journey as an independent web-worker. 
 
-This page will become a cornerstone for a few of my creations.
+This page will become cornerstone content for that journey.
+
+For now, it's a high-level (and out of date) index of content I've created, independently.
+
+![]({{ site.urlimg }}infolytics/github-contributions11-19.png)
 
 ## Site Index
 
