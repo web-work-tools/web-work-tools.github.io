@@ -8,7 +8,7 @@ layout: frontpage
 header:
   image_fullwidth: 'feature.jpg'
 image:
-  title: 'feature.jpg'
+  title: 'feature-og.jpg'
 widget1:
   title: "GitHub Pages Starter Pack"
   url: '/jamstack/github-pages-starter-pack/'
