@@ -1,22 +1,21 @@
 ---
-layout: page
-title: "Creating a Test Branch and Merging back the Changes"
-teaser: "Used while testing the hugo build of the HPSTR theme."
+layout: page-fullwidth
+title: "Testing Git Branches and Merging back the Changes"
 
-header:
-  image_fullwidth: "Git_branches_fork.png"
+header: no
+image:
+  title: Git_branches_fork.png
 
 categories: ['jamstack']
 tags: [hpstr, jekyll, hugo, theme, migration]
 
 redirect_from:
   - /branches-git/
-permalink: /jamstack/git-branches/
+permalink: /jamstack/trying-git-branches/
 modified: 2019-05-31T22:22:22-23:00
-
 ---
 
-Image Source: [Bunyk - Українська](https://commons.wikimedia.org/wiki/File:Git_branches_fork.svg)
+{% include _improve_content.html %}
 
 
 I made a test branch for the swapping jekyll for hugo article, and then merged the changes back to master, once I had it running.
@@ -43,7 +42,7 @@ However, it really boggled my mind the first time I tried it locally.
 
 I can change to a branch or another point in the history of this repository, and git tucks away the one I'm working on... and the whole directory changes and like wait... 
 
->where did all my files just go? 
+> where did all my files just go? 
 
 When you push a repository to GitHub they keep a copy too.. but git is really awesome beyond github. If it was invented today they would call it a blockchain :rofl:
 
@@ -58,6 +57,7 @@ You probably knowbut you don't need github at all, and I'm learning that a signi
 `git checkout -b` is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!
 
 * [More Git Resources](https://web-work.tools/github-pages-starter-pack/#git) >>
+
 
 ## [Merging changes back to the master branch](https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master)
 

@@ -1,35 +1,44 @@
 ---
-layout: page
-title: "Mining, Exploring, Exporting: Creating Content with CSV Tweet Histories"
+layout: page-fullwidth
+title: "Twitter Data: Mine, Export, Explore, Publish"
 teaser: "Export your tweets to CSV, filter in a spreadsheet and publish."
-subheadline: #"using re-tweets to save information for future examination. will sort through and collect info here."
 
-tags: [twitter, export, webpub, csv, data, jekyll]
-categories: [content-creation]
+tags: ["How-To"]
+categories: ["Content Creation"]
 
-header:
-  image_fullwidth: "tweet-history-data-download-research-content-creation-csv.png"
-  caption: "A Liquid tag plugin for the Jekyll blogging engine that embeds Tweets, Timelines and more from Twitter API"
-  caption_url: "https://github.com/rob-murray/jekyll-twitter-plugin/"
+header: no
 image:
-  thumb: "twitter-export-csv.png"
+  title: twitter-history-export.jpg
+  thumb: twitter-history-export.jpg
 
 redirect_from:
   - export-tweets-csv/
-  - content-creation/export-tweets-csv/
-permalink: /content/twitter-export/
-canonical_url: https://web-work.tools/content/twitter-export/
+permalink: /content-creation/twitter-export-csv/
+canonical_url: https://web-work.tools/content-creation/twitter-export-csv/
 modified: 2019-06-18T22:22:22-23:00
 
 ---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
 
-Around a year ago, I began retweeting all the most valuable information I found on twitter. Then, I would periodically scroll back and manually paste the links into the channels of a discord server, organized by category.
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
+
+At the start of 2018, I began retweeting all the most valuable information I found on twitter, as part of a learning process. Then, I would periodically scroll back and manually paste the links into the channels of a discord server, organized by category.
 
 The problem with that, is if you are scrolling through your history, it has to load, and it's easy to miss that particualr tweet where I know I left off.
 
-Eventually, I gave up. More recently, my workflow has become much more direct. When I see a valuable resource (typically via mobile on a smoke break), I click the share button and send it directly to it's appropriate channel.
+Once I gave up scrolling my twitter history manually, I used a share button integration with discord, to directly send a given link to the proper channel. 
 
-I've found this to be quite an efficient solution, however... There's the matter of what about all those links I re-tweeted with intention to categorize, but never got around to. 
+Now I'm taking a break from twitter, transitioning from discord to spreadsheets, and in the process of consolidating a few years of link collecting on a variety of subjects. I have a lot to organize between 4 twitter accounts, a dozen discord servers where I organized links on different subjects, and a variety of other sources....
 
 **What do?**
 

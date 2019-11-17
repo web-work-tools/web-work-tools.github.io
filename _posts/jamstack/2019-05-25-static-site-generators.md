@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Static Site Generators"
 teaser: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
-subheadline: "There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate."
+subheadline: "Configuration files, layouts and templates, and all the content you create."
 
 tags: 
   - static site generators
@@ -25,6 +25,21 @@ redirect_from:
   - /static-site-generators/
 modified: 2019-06-15T11:12:13-23:00
 ---
+
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
 
 
 
@@ -109,3 +124,5 @@ you could build gem based sites locally, and keybase will automatically sync the
 * [Static Site Generators](https://web-work.tools/static-site-generators/)
 * [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
 * [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
+
+</div>

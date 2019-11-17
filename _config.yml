@@ -13,10 +13,10 @@ title: 'Web-work Tools'
 slogan: 'Skyscraper Curation and Independent Web-Work'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
+description: 'A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: 'Content by: <a href="https://infominer.id">infominer</a> ⧉ Creative Commons <a href="https://creativecommons.org/publicdomain/zero/1.0/">(CC0 1.0)</a> Public Domain ⧉ Powered by <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> via <a href="https://web-work.tools/github-pages-starter-pack/">Github Pages</a>.'
 
 # Main author of the website
 # See > authors.yml
@@ -50,7 +50,7 @@ plugins:
     - jekyll-paginate
     - jekyll-sitemap
     - jekyll-feed
-
+    - jekyll-redirect-from
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
@@ -60,7 +60,7 @@ plugins:
 #               /____/
 #
 paginate: 5                      # Paginates all X entries
-paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
+paginate_path: "/blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
 
 # Theme works best with Kramdown (using the table of contents function)
