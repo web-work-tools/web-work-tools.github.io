@@ -2,13 +2,18 @@
 layout: post
 title: "Static Site Generators"
 description: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
-modified: 2019-05-30T11:12:13-23:00
+modified: 2019-06-15T11:12:13-23:00
 tags: 
   - static site generators
   - tools
   - resources
   - CI\CD
-permalink: static-site-generators/
+permalink: /static-site-generators/
+
+redirect_from:
+  - /static-site-generators
+
+excerpt: "There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate."
 
 image:
   feature: devopedia-static-site-generators.jpg
@@ -18,7 +23,8 @@ image:
   creditlink: https://devopedia.org/static-site-generators
 ---
 
-You may have noticed that the GitHub Pages Starter Pack is getting a bit crowded.
+
+
 
 Well, now i'm looking into options besides jekyll, to expand my skills, and try out some themes that aren't available for Jekyll.
 
@@ -27,7 +33,7 @@ I'll be honest, if you are new like me, getting jekyll themes to work is tricky.
 
 ## What is a Static Site Generator (SSG)?
 
-There are some configuration files, layouts and templates, and then there is all your content that your create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
+There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
 
 I'll have a few general resources at the top and just add as I go, since I'm not ready to learn about too many of them, just yet.
 
@@ -42,18 +48,9 @@ I'll have a few general resources at the top and just add as I go, since I'm not
 
 ## Hugo
 
-There are some indieweb integrated themes w hugo, and some themes no longer supported in their jekyll form that have been ported over to Hugo. There seems to be a lot of buzz aroudn it anyway.
+These links have moved to their own page: 
 
-* [discourse.gohugo.io](https://discourse.gohugo.io)
-* [Make A Hugo Blog from Scratch](https://zwbetz.com/make-a-hugo-blog-from-scratch/)
-* [https://regisphilibert.com/tags/hugo/](https://regisphilibert.com/tags/hugo/)
-* [Recommended Reading Reference](https://discourse.gohugo.io/t/recommended-reading-reference/14815) *** Ton of good stuff in here.
-* [https://github.com/budparr/awesome-hugo/](https://github.com/budparr/awesome-hugo/)
-* [Hugo Static Site Tutorials](https://kodify.net/hugo-static-site-tutorials/)
-* [comprehensive-hugo-tutorial-for-beginners](https://discourse.gohugo.io/t/comprehensive-hugo-tutorial-for-beginners/12586/4)
-* [Migrating from Jekyll to Hugo](https://news.ycombinator.com/item?id=17387103) <--good thread
-* [kevinmarks/stopbrexit](https://github.com/kevinmarks/stopbrexit) -  example of a "complete and operational" hugo site.
-  * [stopbrexit.party](http://stopbrexit.party/)
+* [Hugo Starter Kit](/hugo-starter-kit/)
 
 ## MkDocs
 
@@ -101,12 +98,11 @@ Just sayin'... keybase has 250 gigs of free storage you can use to host a websit
 you could build gem based sites locally, and keybase will automatically sync the data.
 
 
+## Related Posts
 
-
-## Thats all for now!
-
-<figure class="full">
-	<img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-	<figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
-</figure>
-
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [Content Creation](https://web-work.tools/content-creation/)
+* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)

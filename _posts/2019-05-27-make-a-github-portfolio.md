@@ -4,7 +4,7 @@ title: "Infominer's GitHub Portfolio and HowTo"
 description: "How to make a Portfolio for your GitHub repositories with `github/personal-website`"
 modified: 2019-05-28T13:15:59-23:00
 tags: [github, repositories, open source, portfolio, github-pages]
-permalink: make-a-github-portfolio/
+permalink: /make-a-github-portfolio/
 
 image:
   feature: infominer33-github-portfolio.jpeg
@@ -104,7 +104,7 @@ topics:
 
   - name: Decentralized Identity
     web_url: https://github.com/topics/decentralized-identity
-    image_url: https://infominer.id/DIDecentralized/assets/icons/didicon.png
+    image_url: https://decentralized-id.com/assets/icons/didicon.png
 
 ```
 
@@ -119,7 +119,7 @@ If you want to learn more about GitHub Pages, check out:
 
 
 <figure class="full">
-	<img src="https://infominer.id/web-work/images/gh-pages-starter-pack.png" alt="">
-	<figcaption><a href="https://infominer.id/web-work/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
+	<img src="https://web-work.tools/images/gh-pages-starter-pack.png" alt="">
+	<figcaption><a href="https://web-work.tools/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
 </figure>
 

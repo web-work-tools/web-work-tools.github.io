@@ -1,13 +1,19 @@
 # Menu navigation links
 
 - title: "Webwork.tools"
-  url: "/webwork.tools/"
+  url: "/are-belong-to-us/"
 
 - title: Services
   url: /services/
 
+- title: "IndieWeb"
+  url: "/indieweb/"
+
 - title: GitHub Pages Starter Pack
   url: /github-pages-starter-pack/
+
+- title: Hugo Starter Kit
+  url: /hugo-starter-kit/
 
 - title: Learn SEO
   url: /learn-seo/
@@ -16,11 +22,8 @@
   url: /seo-tools/
 
 - title: Practical PGP
-  url: /practical-pgp/
+  url: /practical-public-key-crypto/
 
-- title: "IndieWeb"
-  url: "https://infominer.id/indieweb/"
-
-- title: ⧉InfoMine⧉
+- title: Info⧉Hub
   url: https://infominer.id/
 

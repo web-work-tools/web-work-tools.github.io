@@ -4,15 +4,18 @@ title: "Infominer's Starred GitHub Repositories"
 description: "An organized list of Repositories."
 modified: 2019-05-27T13:15:59-23:00
 tags: [github, stars, repositories, open source]
-permalink: infominer33-starred-repos/
-
+permalink: github-stars/
+redirect_from:
+  - infominer33-starred-repos/
+  - github-stars
 image:
   feature: infominer-starred-repositories-head.png
   thumb: /images/infominer-starred-repositories.jpeg
   og_image: infominer-starred-repositories.jpeg
   credit: See on Github
-  creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
+  creditlink: https://github.com/web-work-tools/web-work.tools.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
 ---
+
 
 Here's all my starred Github Repositories. Ill star a lot more and continue refining this list as time goes on.
 
@@ -92,7 +95,7 @@ and then found this app that makes them even prettier and has an option to push 
 
 * [WebOfTrustInfo/rwot8-barcelona](https://github.com/WebOfTrustInfo/rwot8-barcelona)
 * [good-lly/gdpr-documents](https://github.com/good-lly/gdpr-documents)
-* [DIDecentralized](https://github.com/infominer33/DIDecentralized)
+* [DIDecentralized](https://github.com/didecentral/didecentral.github.io)
 * [w3c-ccg/did-test-suite](https://github.com/w3c-ccg/did-test-suite)
 * [WebOfTrustInfo/rwot3-sf](https://github.com/WebOfTrustInfo/rwot3-sf)
 * [WebOfTrustInfo/rwot5-boston](https://github.com/WebOfTrustInfo/rwot5-boston)

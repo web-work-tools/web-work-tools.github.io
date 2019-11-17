@@ -4,33 +4,33 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: https://infominer.id/web-work
+url: "https://web-work.tools"
 # Owner/author information
 owner:
-  name:           "⧉ Infominer"
-  avatar:         "info-id.png"
-  bio:            "Full-Time Crypto-Curation and Histories ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
+  name:           "Web-work.tools"
+  avatar:         "logo.png"
+  bio:            "Full-Time Crypto-Curation, Histories, and Static Web-Site Publishing ⧉ #Bitcoin #Blockchain #DecentralizedID ⧉ Research, Publishing, #WebWork #Indieweb ⧉"
   email:          "infominer@protonmail.com"
   # Social networking links used in footer. Update and remove as you like.
   twitter:        "infominer33"
-  facebook:       
-  github:         "infominer33"
+  facebook:       ""
+  github:         "web-work-tools"
   stackexchange:  "infominer33"
-  linkedin:       
+  linkedin:       ""
   instagram:      "infominer33"
-  flickr:         
-  tumblr:         
+  flickr:        "" 
+  tumblr:       ""  
   # google plus id, include the '+', eg +mmistakes
-  google_plus:
+  google_plus: ""
 
 # Background image to be tiled on all pages
 background: binary.png
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:  "UA-132558656-1"
-google_verify:      
+google_analytics:  "UA-132558656-8"
+google_verify:     "" 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:        "" 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
@@ -51,7 +51,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 3
+paginate: 5
 
 kramdown:
   input: GFM

@@ -4,20 +4,20 @@ title: "Open Source Publishing."
 description: "Infominer.id - All Page Rankings and Organic Search Rankings"
 modified: 2019-05-30T13:15:59-23:00
 tags: [google, organic search, stats, open source, github-pages]
-permalink: open-source-publishing/
+permalink: /open-source-publishing/
 
 image:
   feature: infolytics/infominer-id-all-pages-20190417-20190524.jpg
   thumb: /images/infolytics/5-25-19-organic-search-infominer.png
   og_image: infolytics/5-25-19-organic-search-infominer.png
   credit: See on Github
-  creditlink: https://github.com/infominer33/web-work/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
+  creditlink: https://github.com/web-work-tools/web-work.tools.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf
 toc: false
 ---
 
-**Pro-tip:** [Go Home](https://infominer.id/web-work) **for a full view of featured image.**
+**Pro-tip:** [Go Home](https://web-work.tools) **for a full view of featured image.**
 
-<div class="pull-left"><img src="https://infominer.id/web-work/images/infolytics/record-monthly.png"/></div>
+<div class="pull-left"><img src="https://web-work.tools/images/infolytics/record-monthly.png"/></div>
 
 Shows what can be done in a short period of time.  I didn't start building any of this till the beginning of this year. 
 
@@ -35,7 +35,7 @@ To get a high-quality image, I used [convert-my-image.com](http://convert-my-ima
 
 ## Generating Pages from Data using Liquid
 
-I put [performance1.csv](https://infominer.id/web-work/images/infolytics/performance1.csv) and [performance2.csv](https://infominer.id/web-work/images/infolytics/performance1.csv) into the /images directory (you can [check out on github](https://github.com/infominer33/web-work/tree/master/images/infolytics))
+I put [performance1.csv](https://web-work.tools/images/infolytics/performance1.csv) and [performance2.csv](https://web-work.tools/images/infolytics/performance1.csv) into the /images directory (you can [check out on github](https://github.com/web-work-tools/web-work.tools.github.io/tree/master/images/infolytics))
 
 From there, jekyll throws it all up into `site.data.performance1` and `site.data.performance2` so I can call it with a bit of code and generate pages with it. 
 
@@ -61,7 +61,7 @@ As you can see, it's possible to begin showing up in google pretty quickly. I st
 
 
 <figure class="full">
-	<img src="https://infominer.id/web-work/images/infolytics/5-29-19-organic-search-infominer.png" alt="">
+	<img src="https://web-work.tools/images/infolytics/5-29-19-organic-search-infominer.png" alt="">
 	<figcaption></figcaption>
 </figure>
 <figure class="full">
@@ -69,6 +69,6 @@ As you can see, it's possible to begin showing up in google pretty quickly. I st
 	<figcaption></figcaption>
 </figure>
 <figure class="full">
-	<img src="https://infominer.id/web-work/images/infolytics/5-24-19-organic-search-infominer.png" alt="">
-	<figcaption><a href="https://infominer.id/web-work/images/infolytics/infominer-id-Performance-2019-05-24.csv">infominer-id-Performance-2019-05-24.csv</a></figcaption>
+	<img src="https://web-work.tools/images/infolytics/5-24-19-organic-search-infominer.png" alt="">
+	<figcaption><a href="https://web-work.tools/images/infolytics/infominer-id-Performance-2019-05-24.csv">infominer-id-Performance-2019-05-24.csv</a></figcaption>
 </figure>
