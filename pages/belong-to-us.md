@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "All your web-work tools"
 description: "All your web-work tools are belong to us!"
 permalink: /are-belong-to-us/
