@@ -1,31 +1,24 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Infominer's GitHub Portfolio and HowTo"
 teaser: "How to make a Portfolio for your GitHub repositories with `github/personal-website`"
 
-categories: ['content']
-tags: [github, portfolio, 'github pages', 'how to']
+categories: ["Content Creation"]
+tags: ["github", "how to"]
 
-header:
-  image_fullwidth: "infominer33-github-portfolio.jpeg"
-  caption: "Check it Out!"
-  caption_url: "https://infominer.id/repo-portfolio"
+header: no
 image:
-  thumb: "infominer33-github-portfolio.jpeg"
+  title: "infominer33-github-portfolio.jpeg"
+  caption: "infominer.id/repo-portfolio"
+  caption_url: "https://infominer.id/repo-portfolio"
 
 redirect_from: 
   - /make-a-github-portfolio/
-permalink: /content/github-portfolio/
+permalink: /content-creation/github-portfolio/
 modified: 2019-05-28T13:15:59-23:00
 ---
 
-I learned of this cool project from [@bmann](https://twitter.com/bmann). I've been wanting a simple way to make a page like this for a while!
-
-It's really nice to have a place to keep track, because I'm always forgetting how many I even manage!
-
-It might seem intimidating to hear, "Just Fork It!" 
-
-However, you'll see that it's not much more complex than that.
+I haven't played with this in a while, but I suspect I need to do something in that portfolio to freshen up its view. All the same, I have the steps I took to get this far, right here:
 
 ## Step 1
 

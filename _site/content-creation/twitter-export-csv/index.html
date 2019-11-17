@@ -1,0 +1,778 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Twitter Data: Mine, Export, Explore, Publish</title>
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
+
+  
+
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
+
+
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="Export your tweets to CSV, filter in a spreadsheet and publish.">
+	
+	
+	
+	
+	
+	
+	<link rel="canonical" href="http://localhost:4000/content-creation/twitter-export-csv/">
+
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="Twitter Data: Mine, Export, Explore, Publish">
+	<meta property="og:description" content="Export your tweets to CSV, filter in a spreadsheet and publish.">
+	<meta property="og:url" content="http://localhost:4000/content-creation/twitter-export-csv/">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Web-work Tools">
+	<meta property="og:image" content="http://localhost:4000/images/twitter-history-export.jpg">
+	
+
+
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="infominer33">
+	<meta name="twitter:creator" content="infominer33">
+	<meta name="twitter:title" content="Twitter Data: Mine, Export, Explore, Publish">
+	<meta name="twitter:description" content="Export your tweets to CSV, filter in a spreadsheet and publish.">
+	<meta name="twitter:image" content="http://localhost:4000/images/twitter-history-export.jpg">
+	
+
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+
+	
+
+	<!--Favicon-->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+<link rel="manifest" href="/images/icons/site.webmanifest">
+<link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#86b444">
+<link rel="shortcut icon" href="/images/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#86b444">
+<meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+<meta name="theme-color" content="#4f8644">
+<!--Favicon-->
+
+	
+
+</head>
+<body id="top-of-page" class="page-fullwidth">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Web-work Tools</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="right">
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/info/">Info</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/are-belong-to-us/">All your web-work.tools...</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/info/starred-repositories/">Starred GitHub Repos</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/info/forked-repositories/">Forked GitHub Repos</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/info/analytics/5-19/">Infolytics 5/19</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/documentation/">Theme Documentation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/">Templates</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/headers/">Header Styles</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/search/">Search</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4000/">Home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/content-creation/">Content Creation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/content-creation/">Tools and Info</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/content-creation/github-portfolio/">Make a GitHub Portfolio</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000">JamStack</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/static-site-generators">Static Site Generators</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/github-pages-starter-pack/">GitHub Pages Starter Pack</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/hugo-starter-kit/">Hugo Starter Kit</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">Jekyll HPSTR to HPSTR Hugo</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/terminal-basics-git-ssh/">Terminal Basics: Git, SSH, etc.</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/trying-git-branches/">Git Branches Basics</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000">SEO</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/learn/">Learn</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/tools/">Tools</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seo/adwords-keyword-planner/">Adwords Keyword Planner</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/blog/archive/">Blog Archive</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+
+
+
+	
+<div class="row t30">
+	<div class="small-12 columns">
+		<img src="http://localhost:4000/images/twitter-history-export.jpg" width="970" alt="Twitter Data: Mine, Export, Explore, Publish">
+		
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+
+
+
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				
+				<h1>Twitter Data: Mine, Export, Explore, Publish</h1>
+			</header>
+
+			
+			<p class="teaser">
+				Export your tweets to CSV, filter in a spreadsheet and publish.
+			</p>
+			
+
+			<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#export-tweets-to-csv" id="markdown-toc-export-tweets-to-csv">Export Tweets to CSV</a>    <ul>
+      <li><a href="#resources" id="markdown-toc-resources">Resources</a></li>
+      <li><a href="#twitter-related-gists" id="markdown-toc-twitter-related-gists">Twitter Related Gists</a></li>
+      <li><a href="#twitter-github-repos" id="markdown-toc-twitter-github-repos">Twitter GitHub Repos</a></li>
+      <li><a href="#cross-posting" id="markdown-toc-cross-posting">Cross-posting</a></li>
+      <li><a href="#bots---code" id="markdown-toc-bots---code">Bots - Code</a></li>
+      <li><a href="#clean-feed" id="markdown-toc-clean-feed">Clean Feed</a></li>
+      <li><a href="#nerd-stuff" id="markdown-toc-nerd-stuff">Nerd Stuff</a></li>
+      <li><a href="#data" id="markdown-toc-data">Data</a></li>
+      <li><a href="#templates" id="markdown-toc-templates">Templates</a></li>
+    </ul>
+  </li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/content/2019-06-17-exporting-tweet-histories.md">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/content/2019-06-17-exporting-tweet-histories.md">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <p>At the start of 2018, I began retweeting all the most valuable information I found on twitter, as part of a learning process. Then, I would periodically scroll back and manually paste the links into the channels of a discord server, organized by category.</p>
+
+    <p>The problem with that, is if you are scrolling through your history, it has to load, and it’s easy to miss that particualr tweet where I know I left off.</p>
+
+    <p>Once I gave up scrolling my twitter history manually, I used a share button integration with discord, to directly send a given link to the proper channel.</p>
+
+    <p>Now I’m taking a break from twitter, transitioning from discord to spreadsheets, and in the process of consolidating a few years of link collecting on a variety of subjects. I have a lot to organize between 4 twitter accounts, a dozen discord servers where I organized links on different subjects, and a variety of other sources….</p>
+
+    <p><strong>What do?</strong></p>
+
+    <h1 id="export-tweets-to-csv">Export Tweets to CSV</h1>
+
+    <p>So, this is the hard part. Finding a <em>free</em> app that will get as many tweets as you need.</p>
+
+    <p>For now, I know <a href="https://www.vicinitas.io/free-tools/download-user-tweets">vicinitas.io</a> allows you to download up to 3200 tweets to csv, which was enough for me.</p>
+
+    <p>In the future, this page will fill with everything related to exporting and publishing content from twitter.</p>
+
+    <p>From there, I threw the CSV in Libre Office Calc (an ok free version of Excell). I was able to filter the 3200 tweets to include only those related to identity.</p>
+
+    <p>I am going to share more about how, exactly, I make the content from csv. In the meantime:</p>
+
+    <h2 id="resources">Resources</h2>
+
+    <p class="notice">This is a game changer! While searching for resources to add in this post, I found <a href="https://github.com/rob-murray/jekyll-twitter-plugin">rob-murray/jekyll-twitter-plugin</a>!!!</p>
+
+    <ul>
+      <li><a href="https://github.com/twitterdev/tweet-updates">twitterdev/tweet-updates</a> - This repository contains information about the updates to Tweet formats for attachments and simplified replies. -<a href="https://developer.twitter.com/en/docs/tweets/tweet-updates.html">developer.twitter.com - tweet updates</a></li>
+      <li><a href="https://github.com/hridaydutta123/awesome-twitter-tools">hridaydutta123/awesome-twitter-tools</a></li>
+    </ul>
+
+    <h2 id="twitter-related-gists">Twitter Related Gists</h2>
+    <ul>
+      <li><a href="https://gist.github.com/yanofsky/5436496">yanofsky/tweet_dumper.py</a> - A script to download all of a user’s tweets into a csv</li>
+      <li><a href="https://gist.github.com/arikfr/58e491e0cdbe36a9e48c">arikfr/export_lists.py</a> - Simple script to export Twitter lists to CSV]</li>
+      <li><a href="https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c">vickyqian/twitter crawler.txt</a> - A Python script to download all the tweets of a hashtag into a csv</li>
+    </ul>
+
+    <h2 id="twitter-github-repos">Twitter GitHub Repos</h2>
+
+    <ul>
+      <li><a href="https://github.com/kennethreitz/twitter-scraper">kennethreitz/twitter-scraper</a> - Scrape the Twitter Frontend API without authentication.</li>
+      <li><a href="https://rtweet.info">rtweet.info</a></li>
+      <li><a href="https://github.com/mkearney/rtweet">mkearney/rtweet</a> - bird R client for interacting with Twitter’s [stream and REST] APIs</li>
+      <li><a href="https://github.com/mkearney/rtweet-workshop">mkearney/rtweet-workshop</a></li>
+      <li><a href="">hrbrmstr/21-recipes</a> - An R/rtweet edition of <a href="https://rud.is/books/21-recipes/">Matthew A. Russell’s Python Twitter Recipes Book</a></li>
+      <li><a href="https://github.com/twintproject/twint">twintproject/twint</a> - An advanced Twitter scraping &amp; OSINT tool written in Python that doesn’t use Twitter’s API, allowing you to scrape a user’s followers, following, Tweets and more while evading most API limitations.</li>
+      <li><a href="https://github.com/taspinar/twitterscraper">taspinar/twitterscraper</a> - Scrape Twitter for Tweets</li>
+      <li><a href="https://github.com/AdrienGuille/TweetStreamer">AdrienGuille/TweetStreamer</a> - A command line tool for collecting tweets via Twitter’s public streaming API</li>
+      <li><a href="https://github.com/DocNow/twarc">DocNow/twarc</a> - A command line tool (and Python library) for archiving Twitter JSON</li>
+      <li><a href="https://github.com/Jefferson-Henrique/GetOldTweets-python">Jefferson-Henrique/GetOldTweets-python</a> - A project written in Python to get old tweets, it bypass some limitations of Twitter Official API.</li>
+      <li><a href="https://github.com/jennybc/scream">jennybc/scream</a> - Get replies and quotes of a tweet</li>
+      <li><a href="https://github.com/snovvcrash/tweetlord">snovvcrash/tweetlord</a> - bird Twitter profile dumper (downloader) with authorization swapping</li>
+      <li><a href="https://github.com/Datamine/Archive-Tweets">Datamine/Archive-Tweets</a> - Archive and Delete Liked and Posted Tweets</li>
+    </ul>
+
+    <h2 id="cross-posting">Cross-posting</h2>
+    <ul>
+      <li><a href="https://github.com/renatolond/mastodon-twitter-poster">renatolond/mastodon-twitter-poster</a> - Crossposter to post statuses between Mastodon and Twitter</li>
+    </ul>
+
+    <h2 id="bots---code">Bots - Code</h2>
+
+    <ul>
+      <li><a href="https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot">freeCodeCamp/100DaysOfCode-twitter-bot</a> - Twitter bot for #100DaysOfCode <a href="https://twitter.com/_100DaysOfCode">@_100DaysOfCode</a></li>
+      <li><a href="https://github.com/bonzanini">bonzanini/Book-SocialMediaMiningPython</a> - Companion code for the book “Mastering Social Media Mining with Python</li>
+      <li><a href="https://github.com/botwiki/botwiki.org">botwiki/botwiki.org</a> - Tutorials, articles, datasets and other resources for creating useful, interesting, artistic and friendly online bots.</li>
+      <li><a href="https://github.com/huginn/huginn">huginn/huginn</a> - Create agents that monitor and act on your behalf. Your agents are standing by!</li>
+    </ul>
+
+    <h2 id="clean-feed">Clean Feed</h2>
+
+    <ul>
+      <li><a href="https://github.com/MikeMcQuaid/TwitterDelete">MikeMcQuaid/TwitterDelete</a> - Delete your old, unpopular tweets.</li>
+    </ul>
+
+    <h2 id="nerd-stuff">Nerd Stuff</h2>
+
+    <ul>
+      <li><a href="https://github.com/mattdodge/Tweet-2-RSS">mattdodge/Tweet-2-RSS</a></li>
+      <li><a href="https://github.com/vzqzac/twgitbot">vzqzac/twgitbot</a> - A node.js bot that checks a github repo changes and tweets it to your Twitter account</li>
+      <li><a href="">Kikobeats/fetch-timeline-cli</a> - Fetch Twitter user’s timeline from your terminal zap.
+        <ul>
+          <li><a href="https://kikobeats.github.io/fetch-timeline-cli/">kikobeats.github.io/fetch-timeline-cli/</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="data">Data</h2>
+
+    <ul>
+      <li><a href="https://github.com/tylerpearson/twitter-most-followed-scripts">tylerpearson/twitter-most-followed-scripts</a> - Scripts to find the most commonly followed Twitter accounts by a group of people <a href="http://tmf.tylerp.me">tmf.tylerp.me</a>
+        <ul>
+          <li><a href="https://github.com/tylerpearson/twitter-most-followed-site">tylerpearson/twitter-most-followed-site</a></li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/tylerpearson/twitter-bio-analyzer-script">tylerpearson/twitter-bio-analyzer-script</a></li>
+      <li><a href="https://github.com/justinlittman/twitter-scraper">justinlittman/twitter-scraper</a> - A tool for scraping tweet ids from the Twitter website.</li>
+      <li><a href="https://github.com/geofurb/Ornitholog">geofurb/Ornitholog</a> - Open-source Twitter collection and archiving tool for tracking specific topics and collecting bulk data.</li>
+      <li><a href="https://github.com/motazsaad/tweets-collector">motazsaad/tweets-collector</a> - Collect tweets (tweets corpus) using Twitter API. Collection can be based on hashtags, keywords, geographical location</li>
+    </ul>
+
+    <h2 id="templates">Templates</h2>
+
+    <ul>
+      <li><a href="https://github.com/HoussemDellai/social-media-templates">HoussemDellai/social-media-templates</a> - Provides templates for using Twitter, Youtube, Instagram, Flickr, Foursquare and Eventbrite API with Xamarin Forms.</li>
+    </ul>
+  </div></div>
+
+		</article>
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->
+
+
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.
+              <a href="http://localhost:4000/info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+              
+                <h5 class="shadow-black">Services</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href="http://localhost:4000"  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+              
+                <h5 class="shadow-black">Dankeschön</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+            <ul class="no-bullet shadow-black">
+            
+              
+                <li >
+                  <a href="http://localhost:4000"  title=""></a>
+                </li>
+            
+              
+                <li class="network-entypo" >
+                  <a href="http://entypo.com/" target="_blank"  title="Icons by Daniel Bruce">Icons by Daniel Bruce</a>
+                </li>
+            
+              
+                <li class="services-newsletter" >
+                  <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
+                </li>
+            
+              
+                <li class="rss-link" >
+                  <a href="http://unsplash.com/" target="_blank"  title="Images by Unsplash">Images by Unsplash</a>
+                </li>
+            
+              
+                <li class="sitemap-link" >
+                  <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank"  title="Using Backstretch by Scott Robbin">Using Backstretch by Scott Robbin</a>
+                </li>
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            Content by: <a href="https://infominer.id">infominer</a> ⧉ Creative Commons <a href="https://creativecommons.org/publicdomain/zero/1.0/">(CC0 1.0)</a> Public Domain ⧉ Powered by <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> via <a href="https://web-work.tools/github-pages-starter-pack/">Github Pages</a>.
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="http://github.com/phlow" target="_blank" class="icon-github" title="Code und mehr..."></a></li>
+            
+              <li><a href="http://www.youtube.com/PhlowMedia" target="_blank" class="icon-youtube" title="Videos, Video-Anleitungen und Filme von Phlow auf YouTube"></a></li>
+            
+              <li><a href="http://twitter.com/phlow" target="_blank" class="icon-twitter" title="Immer das Neuste von Phlow gibt es auf Twitter"></a></li>
+            
+              <li><a href="http://www.mixcloud.com/phlow/" target="_blank" class="icon-cloud" title="Mixe, was sonst?"></a></li>
+            
+              <li><a href="https://plus.google.com/u/0/+Phlow" target="_blank" class="icon-googleplus" title="YouTube Google+"></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

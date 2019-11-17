@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Migrating from Jekyll HPSTR to Hugo"
-teaser: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo"
 
 categories: ['jamstack']
 tags: [hpstr, jekyll, hugo, theme, migration]
 
-header:
-  image_fullwidth: "jekyll-hpstr-hugo.png"
+header: no
 image:
+  title: "hpstr-hugo-migration.jpg"
+  caption: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo"
   thumb: "jekyll-hpstr-hugo.png"
 
 redirect_from:
@@ -16,54 +16,40 @@ redirect_from:
   - /migrate-jekyll-hpstr-hugo/
   - /from-jekyll-hpstr-to-hugo
 permalink: /jamstack/jekyll-hpstr-hugo-theme/
-modified: 2019-06-16T22:22:22-23:00
+modified: 2019-11-17T22:22:22-23:00
 ---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
 
 
-I've tried to learn Hugo a few different ways, and finally found one that works for me, and I hope will work well for anyone.
 
-This guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, *or* Hugo to Jekyll.
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
 
-I've got two branches of the same exact website except one is run by [Jekyll](https://github.com/webwork-tools/webwork-tools.github.io/tree/hpstr-jekyll) and one is run by [Hugo](https://github.com/webwork-tools/webwork-tools.github.io/tree/test-hugo)!!
+Originally I used the [Jekyll Theme HPSTR](https://github.com/mmistakes/jekyll-theme-hpstr) for this site. I was also trying to learn Hugo, and found there was a [HPSTR Hugo theme](https://themes.gohugo.io/hpstr-hugo-theme/).
 
-That's pretty neat, if you ask me!
+I made this guide for switching between them, as a part of my learning experience.
 
-I also show examples of the differences between the two, where and how I made changes.
+Ideally, this guide and the accompanying repository should help anyone switching from either Jekyll to Hugo, *or* Hugo to Jekyll.
 
-## Why
+Eventually, I switched back to the Jekyll theme, and now I'm stretching my experience further, with [Feeling Responsive](https://phlow.github.io/feeling-responsive/), which has an ideal UI for the content I create.
 
-1. `mmistakes/hpstr-jekyll-theme` is archived, and you can no longer submit issues or pull-requests.
-2. Hugo has a lot of support from the development community, and is growing quickly in features and popularity.
-3. More options.
-4. Learn new skills.
-5. I know of some indieweb themes.
-6. `/themes/` directory allows for easy testing and switching between new themes.
+I have branches of both the hugo and the jekyll version of this sites old theme, which you can view on github, or even clone and run locally.
+
+* [HPSTR Jekyll Branch](https://github.com/web-work-tools/web-work-tools.github.io/tree/hpstr-jekyll) 
+* [HPSTR Hugo Branch](https://github.com/web-work-tools/web-work-tools.github.io/tree/test-hugo)!!
+
 
 ## HPSTR Jekyll vs Hugo 
 
-I'm looking through different releases of Hugo to see which will run HPSTR, since its an old theme and won't run in the newest version. If you have a newer suggestion, feel free to shout out. I will also find out what the options are. 
-
-### Releases
-
-* [mmistakes/hpstr-jekyll-theme](https://github.com/mmistakes/hpstr-jekyll-theme)
-* [dldx/hpstr-hugo-theme](https://github.com/dldx/hpstr-hugo-theme/releases)
-
-
-It turns out that each version was released at the same time, and that they were built together from the very beginning!
-
-The nice thing about `hpstr-hugo-theme` is that its not archived, and if you want to open any [issues](https://github.com/dldx/hpstr-hugo-theme/issues) or [pull-requests](https://github.com/dldx/hpstr-hugo-theme/pulls), that can be done. 
-
-Interestingly, but nice to see, there are currently 0 open pull request or issues in the themes repository.
-
-[![](https://imgur.com/jNTAlGt.png)](https://github.com/mmistakes/hpstr-jekyll-theme/releases)
-[![](https://imgur.com/dvapj4y.png)](https://github.com/dldx/hpstr-hugo-theme/releases)
-
-
-### Root Directories
-
-![](https://imgur.com/obcGfNc.png)
-![](https://imgur.com/KZQODtU.png)
-
+First, I found which version of hugo it was built for, since its an old theme and won't run in the newest version. 
 
 ## Using different versions of Hugo:
 
@@ -74,47 +60,16 @@ Interestingly, but nice to see, there are currently 0 open pull request or issue
 
 Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository.
 
-## Which Version of Hugo Should I Run?
+### Releases
 
-Scrolling back through the hugo releases when the HPSTR theme was in active development, I come across:
+* [mmistakes/hpstr-jekyll-theme](https://github.com/mmistakes/hpstr-jekyll-theme/releases)
+* [dldx/hpstr-hugo-theme](https://github.com/dldx/hpstr-hugo-theme/releases)
 
-### [0.16.0 June 6th 2016](https://github.com/gohugoio/hugo/releases?after=v0.16.0)
->Hugo 0.16 is our best and biggest release ever. The Hugo community has outdone itself with continued performance improvements, beautiful themes for all types of sites from project sites to documentation to blogs to portfolios, and increased stability.
-
-### .deb packages for Debian, Ubuntu, etc.
->Hugo has become part of the official Debian and Ubuntu repositories since January 2016!
-
-That's a nice note to find, since I'm an Ubuntu user. 
-
-## [v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.30) - October 2016
-
-There are numerous options for different platforms, and this version of Hugo was released in October, one month after the final release of HPSTR.
-
->Hugo is going global with our 0.17 release. [...] Adding additional languages to your website is simple and straightforward.
->
->Hugo continues its trend of each release being faster than the last. 
-
-Apparently it's fast enough that people began using hugo's webserver in production, around this time.
-
->New in 0.17: Available as Snap package
->
->Thanks to the contribution #2443 and guidance from @dholbach, Hugo is now available as a Snap package! (Snaps are a new kind of universal Linux packages.) Check it out at https://uappexplorer.com/app/hugo.hugo-authors
->
-
-### [Download links for Hugo v0.17](https://github.com/gohugoio/hugo/releases/tag/v0.17)
-
-Now that I have Hugo working, lets see how far I can go in Hugo versions.
-
-
-## [v0.30.1](https://github.com/gohugoio/hugo/releases/tag/v0.30.1) - Oct 16, 2017
-
->Hugo 0.30 is the Race Car Edition. Hugo is already very very fast, but much wants more. So we added Fast Render Mode. It is hard to explain, so start the Hugo development server with hugo server and start editing. Live reloads just got so much faster! The "how and what" is discussed at length in other places, but the short version is that we now re-render only the parts of the site that you are working on.
-
-This is a big release, so I'm going to look ahead for the closest bug-fixes, but avoid any feature releases.
+It turns out that each version was released at the same time, and that they were built together from the very beginning! The final release was Sep 14, 2016. So I want a version of Hugo not too much newer then that.
 
 ## [v0.31.1](https://github.com/gohugoio/hugo/releases/tag/v0.31.1) -  Nov 27, 2017
 
-So.. there's another big release after this, at the start of 2018, but I think I'll stick with this one. It's a year after HPSTR completed its development. I think we'll be good here, and I want to get to know Hugo better before changing things up too much.
+I tested the theme on this version and it worked well, you may find a newer release will work, but I wouldn't bother, since any new features could break the theme. It's a year after HPSTR completed its development. I think we'll be good here, and I want to get to know Hugo better before changing things up too much.
 
 The next major change introduces page bundles. I wouldn't be surprised if it has a problem with this theme.
 

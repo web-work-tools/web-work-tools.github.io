@@ -1,14 +1,15 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "The Markup languages that get transformed into a website."
 teaser: "Structure and Style, at a Glance: HTML, CSS, YAML, TOML, JSON, Kramdown."
 
 categories: ['jamstack']
 tags: [resources, html, css, meta-tags, kramdown, katex, toml, yaml, json, fundamentals]
 
-header:
-  image_fullwidth: "HTML5_APIs_and_related_technologies_taxonomy.png"
-  caption: "Sergey Mavrody"
+header: no
+image:
+  title: "HTML5_APIs_and_related_technologies_taxonomy.png"
+  caption: Sergey Mavrody
 
 redirect_from:
   - /learn-html-css/
@@ -16,7 +17,19 @@ permalink: /jamstack/html-css/
 modified: 2019-06-15T22:22:22-23:00
 
 ---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
 
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
 
 [*header image source*](http://commons.wikimedia.org/wiki/File:HTML5_APIs_and_related_technologies_taxonomy_and_status.svg)
 
@@ -99,3 +112,5 @@ Bootstrap is a small responsive css framework that minimizes the effort required
 * [Static Site Generators](https://web-work.tools/static-site-generators/)
 * [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
 * [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
+
+</div>

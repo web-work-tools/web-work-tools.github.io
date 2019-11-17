@@ -1,22 +1,37 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "GitHub Pages-Extended Resources"
 teaser: "Publishing a Website via GitHub pages is free, and easy. Everything you need to publish in one place."
 tags: [jekyll, github-pages, resources, web-publishing]
 categories: ['jamstack']
 
-header:
-  image_fullwidth: "github-pages-extended-resources.png"
+header: no
+
 image:
+  title: "github-pages-extended-resources.png"
   thumb: "github.png"
 
 redirect_from: 
   - /github-pages-extended-resources
   - /gh-pages-starter-pack/
   - /github-pages-extended-resources/
-permalink: /jamstack/github-pages-extended/
+permalink: /jamstack/github-pages-extended-resources/
 modified: 2019-06-16T15:59:13-23:00
 ---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
 
 
 * Continued from [**Github Pages Starter Pack**](/github-pages-starter-pack/).

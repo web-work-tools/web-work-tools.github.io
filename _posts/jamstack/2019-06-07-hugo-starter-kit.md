@@ -1,20 +1,35 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Hugo Starter Kit"
 teaser: "Tutorials, Themes, Sortcodes and More!"
 
 categories: ['jamstack']
 tags: [resources, hugo, static site generators, webpub]
 
-header:
-  image_fullwidth: "hugo-starter-kit.png"
+header: no
+image:
+  title: "hugo-starter-kit.png"
 
 redirect_from:
   - /hugo-starter-kit
   - /hugo-starter-kit/
-permalink: /jamstack/hugo-starter/
+permalink: /jamstack/hugo-starter-kit/
 modified: 2019-06-15T22:22:22-23:00
 ---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
 
 
 * [Interview with Bjørn Erik Pedersen, Hugo lead developer](https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/)
@@ -198,3 +213,5 @@ All this started a few months ago when I began creating an [awesome list](https:
 * [Static Site Generators](https://web-work.tools/static-site-generators) (just a start)
 * [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
 * [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
+
+</div>

@@ -1,20 +1,35 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Git, SSH, and Terminal Basics"
 teaser: "Command Line, Git, SSH, and BASH: Tips, Tricks and Resources."
 
 categories: ['jamstack']
 tags: [resources, command line, terminal, git, ssh, bash]
 
-header:
-  image_fullwidth: "command-line.png"
+header: no
+image:
+  title: "command-line.png"
 
 date: 2019-06-06
 redirect_from:
   - /command-line-git-ssh/
-permalink: /jamstack/git-ssh/
+permalink: /jamstack/terminal-basics-git-ssh/
 
 ---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
 
 
 
@@ -75,3 +90,5 @@ I use Ubuntu Linux, so all of my info comes from that perspective. That said, mo
 ## Sources
 
 Header image: [IBM PC AT (8Mhz), 2Mb RAM, 20Mb Hard Disk (Formatted), 128Kb EGA, Enhanced Color Display](http://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/)
+
+</div>

@@ -1,12 +1,10 @@
 ---
-layout: page
-title: "Resources for Content Creation"
-teaser: "All kinda tools for images and editing and handy stuff to assist with content creation."
-categories: ['content']
+layout: page-fullwidth
+title: "Tools and Information for Content Creators"
+teaser: "A curated list of tools, resources and a variety of web-apps!"
+categories: ['Content Creation']
 tags: 
-  - content creation
-  - tools
-  - resources
+  - "Tools and Resource"
 
 header:
   image_fullwidth: "content-creation.png"
@@ -15,23 +13,46 @@ image:
   thumb: "content-creation.png"
   #og_image: content-thumb.png
 
-permalink: /content/creation/
-redirect_from: /content-creation/
-
-modified: 2019-06-16T13:33:33-23:00
+permalink: /content-creation/
+redirect_from: 
+  - /content/creation/
+modified: 2019-11-17T13:33:33-23:00
 
 ---
 
-Here's some tools to make content creation a little easier.
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
 
-As per usual, this list will grow and become more organized over time.
 
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
+
+This is where I keep track of tools and information surrounding content creation.
 
 ## Basics
 
 * <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a>
 * <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheet-Sheet</a>
 
+## Text 
+
+* [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
+* [wordle](http://www.wordle.net/) - word cloud generator
+* [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
+combines feeds "into content and other magical creations". 
+* [https://www.pcjs.org](https://www.pcjs.org) - IBM PC simulation that runs in your web browser
+
+### Plagiarism
+
+* [Copyscape](http://www.copyscape.com/) - Make sure you didn't plagiarize, even from yourself.
 
 ## Editors
 
@@ -55,15 +76,14 @@ This thing has extensions for all your coding needs... It is cross-platform, has
   * [YAML Metadata](https://hackmd.io/c/tutorials-tw/%2Fs%2Fyaml-metadata)
 * See also [demo.codimd.org/](https://demo.codimd.org/)
 
-## Public Domain - Stock Images
+## Images
+
+### Public Domain - Stock Images
 
 * [nacyot/awesome-opensource-documents](https://github.com/nacyot/awesome-opensource-documents)
 * [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources)
 * [shime/creative-commons-media](https://github.com/shime/creative-commons-media)
 * [idleberg/Creative-Commons-Markdown](https://github.com/idleberg/Creative-Commons-Markdown) - snippets to add CC license to your work.
-
-
-## Images
 
 ### Converters
 
@@ -102,24 +122,9 @@ The web *loooves* big old beautiful high quality images... However, my visitors 
 * [Piktochart](http://piktochart.com/) - visualization generator.
 
 
-## Text 
-
-* [Text Cleaner](http://www.textcleanr.com/) - cleans up all kinds of text formatting when copying and pasting between applications.
-* [wordle](http://www.wordle.net/) - word cloud generator
-* [Yahoo Pipes](http://pipes.yahoo.com/pipes/)
-combines feeds "into content and other magical creations". 
-* [https://www.pcjs.org](https://www.pcjs.org) - IBM PC simulation that runs in your web browser
-
 ## Video
 * [Amara](http://amara.org/en/) - create captions for YouTube videos.
 * [Wistia](http://wistia.com/) - SEO-friendly video hosting. 
-
-## Plagiarism
-
-* [Copyscape](http://www.copyscape.com/) - track if your content is being plagiarized.
-
-^^^ This is the industry standard. It can help to prevent even plagiarizing from yourself!
-
 
 ## Archiving
 
@@ -154,7 +159,6 @@ combines feeds "into content and other magical creations".
 
 ## Assorted
 
-* [https://polyglot.untra.io/](https://polyglot.untra.io/) - multi-lingual publishing.
 * [https://konpa.github.io/devicon/](https://konpa.github.io/devicon/)
 
 
