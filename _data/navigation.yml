@@ -40,16 +40,16 @@
     url: "/seo/learn/"
   - title: "Tools"
     url: "/seo/tools/"
-  - title: "Adwords Keyword Planner"
-    url: "/seo/adwords-keyword-planner/"
+  - title: "Getting started with Keyword Planner"
+    url: "/seo/getting-started-adwords-keyword-planner/"
 
 
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+#- title: Blog
+#  url: "/blog/"
+#  side: left
+#  dropdown:
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
     
 - title: "Info"
   url: "/info/"
@@ -73,11 +73,11 @@
   - title: "Header Styles"
     url: "/headers/"
     
-- title: "Contact"
-  url: "/contact/"
-  side: right
+#- title: "Contact"
+#  url: "/contact/"
+#  side: right
 
-- title: "Search"
-  url: "/search/"
-  side: right
+#- title: "Search"
+#  url: "/search/"
+#  side: right
 
