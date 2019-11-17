@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Web-work Tools</title>
-	<updated>2019-11-17T12:54:09-05:00</updated>
+	<updated>2019-11-17T12:58:39-05:00</updated>
 
 	<subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle>
 
@@ -2056,8 +2056,8 @@ git push origin master
 	
 		<entry>
 			<id>http://localhost:4000/content-creation/</id>
-			<title>Tools and Information for Content Creators</title>
-			<link href="http://localhost:4000/content-creation/" rel="alternate" type="text/html" title="Tools and Information for Content Creators" />
+			<title>Tools and Resources for Content Creation</title>
+			<link href="http://localhost:4000/content-creation/" rel="alternate" type="text/html" title="Tools and Resources for Content Creation" />
 			<updated>2019-05-28T00:00:00-04:00</updated>
 
 			
