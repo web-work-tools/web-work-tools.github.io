@@ -16,7 +16,7 @@ slogan: 'Skyscraper Curation and Independent Web-Work'
 description: 'A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: 'Content by: <a href="https://infominer.id">infominer</a> ⧉ Creative Commons <a href="https://creativecommons.org/publicdomain/zero/1.0/">(CC0 1.0)</a> Public Domain ⧉ Powered by <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> via <a href="https://web-work.tools/github-pages-starter-pack/">Github Pages</a>.'
+credits: '⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain</a> ⧉ <a href="https://infominer.id">infominer</a> ⧉'
 
 # Main author of the website
 # See > authors.yml
