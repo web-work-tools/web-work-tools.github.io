@@ -118,6 +118,6 @@ If you want to learn more about GitHub Pages, check out:
 
 <figure class="full">
 	<img src="https://web-work.tools/images/gh-pages-starter-pack.png" alt="">
-	<figcaption><a href="https://web-work.tools/github-pages-starter-pack/"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
+	<figcaption><a href="https://web-work.tools/jamstack/github-pages-starter-pack//"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
 </figure>
 

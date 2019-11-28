@@ -208,7 +208,7 @@ Another documentation theme, I think a bit simpler than Academic.
 
 All this started a few months ago when I began creating an [awesome list](https://github.com/DIDecentralized) on github, then got into publishing via GitHub Pages.
 
-* [GitHub Pages Starter Pack](https://web-work.tools/github-pages-starter-pack/)
+* [GitHub Pages Starter Pack](https://web-work.tools/jamstack/github-pages-starter-pack//)
 * [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
 * [Static Site Generators](https://web-work.tools/static-site-generators) (just a start)
 * [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)

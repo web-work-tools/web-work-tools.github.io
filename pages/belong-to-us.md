@@ -30,7 +30,7 @@ For now, it's a high-level (and out of date) index of content I've created, inde
 
 ### WebPub
 
-* [GitHub Pages Starter Pack](https://web-work.tools/github-pages-starter-pack/)
+* [GitHub Pages Starter Pack](https://web-work.tools/jamstack/github-pages-starter-pack//)
 * [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
 * [Static Site Generators](https://web-work.tools/static-site-generators/)
 * [Hugo Starter Kit](https://web-work.tools/hugo-starter-kit/)
