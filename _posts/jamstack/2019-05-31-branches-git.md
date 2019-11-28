@@ -56,7 +56,7 @@ You probably knowbut you don't need github at all, and I'm learning that a signi
 
 `git checkout -b` is just the same as creating a new directory, copy pasting the repo files there to test, and testing it out there. Except git makes it look like magic, and keeps track of your progress!
 
-* [More Git Resources](https://web-work.tools/github-pages-starter-pack/#git) >>
+* [More Git Resources](https://web-work.tools/jamstack/github-pages-starter-pack//#git) >>
 
 
 ## [Merging changes back to the master branch](https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master)
