@@ -15,7 +15,6 @@ image:
 
 redirect_from: 
   - /gh-pages-starter-pack/
-  - /github-pages-starter-pack  
   - /github-pages-starter-pack/
 permalink: /jamstack/github-pages-starter-pack/
 modified: 2019-11-17T15:59:13-23:00

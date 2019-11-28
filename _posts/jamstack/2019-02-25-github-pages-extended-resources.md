@@ -34,7 +34,7 @@ modified: 2019-06-16T15:59:13-23:00
 {% include _improve_content.html %}
 
 
-* Continued from [**Github Pages Starter Pack**](/github-pages-starter-pack/).
+* Continued from [**Github Pages Starter Pack**](/jamstack/github-pages-starter-pack/).
 
 ## Related Resources
 
