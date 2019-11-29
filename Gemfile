@@ -6,7 +6,6 @@ group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-paginate'
   gem "jekyll-asciidoc"
-  gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
 end
