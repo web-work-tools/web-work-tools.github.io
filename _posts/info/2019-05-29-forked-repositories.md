@@ -16,9 +16,6 @@ image:
   thumb: "infominer-forked-repositories.png"
 
 permalink: "/info/forked-repositories/"
-redirect_from:
-  - forked-repositories/
-  - infominer33-forked-repos/
 modified: 2019-05-29T22:22:22-23:00
 ---
 

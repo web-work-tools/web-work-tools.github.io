@@ -11,10 +11,6 @@ image:
   caption: "Everything you need to know, from Jekyll-HPSTR to HPSTR-Hugo"
   thumb: "jekyll-hpstr-hugo.png"
 
-redirect_from:
-  - /migrate-jekyll-hpstr-hugo
-  - /migrate-jekyll-hpstr-hugo/
-  - /from-jekyll-hpstr-to-hugo
 permalink: /jamstack/jekyll-hpstr-hugo-theme/
 modified: 2019-11-17T22:22:22-23:00
 ---

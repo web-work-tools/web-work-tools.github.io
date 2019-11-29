@@ -13,10 +13,7 @@ header:
 permalink: /practical-public-key-crypto/
 redirect_from:
   - /practical-pgp/
-  - /practical-public-key-crypto
   - /practical-crypto/
-  - /practical-crypto
-  - /practical-pgp
 date: 2019-03-22
 modified: 2019-06-16T13:15:59-23:00
 ---
