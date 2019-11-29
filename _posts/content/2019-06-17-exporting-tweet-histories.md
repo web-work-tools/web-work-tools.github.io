@@ -11,8 +11,6 @@ image:
   title: twitter-history-export.jpg
   thumb: twitter-history-export.jpg
 
-redirect_from:
-  - export-tweets-csv/
 permalink: /content-creation/twitter-export-csv/
 canonical_url: https://web-work.tools/content-creation/twitter-export-csv/
 modified: 2019-06-18T22:22:22-23:00

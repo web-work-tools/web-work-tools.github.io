@@ -7,7 +7,6 @@ categories: [info]
 tags: [google, organic search, stats, open source, github-pages]
 
 permalink: /info/analytics/5-19/
-redirect_from: /open-source-publishing/
 modified: 2019-05-30T13:15:59-23:00
 
 header:

@@ -13,9 +13,6 @@ image:
   thumb: "infominer-starred-repositories.jpeg"
 
 permalink: "/info/starred-repositories/"
-redirect_from:
-  - infominer33-starred-repos/
-  - github-stars/
 modified: 2019-05-27T13:15:59-23:00
 ---
 
