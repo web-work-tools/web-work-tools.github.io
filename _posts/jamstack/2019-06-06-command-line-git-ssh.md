@@ -50,8 +50,8 @@ I use Ubuntu Linux, so all of my info comes from that perspective. That said, mo
 
 ### Cheat Sheets
 
-* <a href="https://gist.github.com/davfre/8313299" target="_blank">davfre/git_cheat-sheet.md</a>
-* <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">education.github.com - GIT CHEAT SHEET</a>
+* [davfre/git_cheat-sheet.md](https://gist.github.com/davfre/8313299)
+* [education.github.com - GIT CHEAT SHEET](https://education.github.com/git-cheat-sheet-education.pdf)
 * [Git CheetSheet](https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md)
 
 ### Remotes 
@@ -60,7 +60,7 @@ I use Ubuntu Linux, so all of my info comes from that perspective. That said, mo
 
 ### Writing Commits
 
-* <a href="https://chris.beams.io/posts/git-commit/" target="_blank">Writing Effective Commits</a>
+* [Writing Effective Commits](https://chris.beams.io/posts/git-commit/)
 
 ### Signing Commits
 
@@ -74,10 +74,10 @@ I use Ubuntu Linux, so all of my info comes from that perspective. That said, mo
 
 ## SSH
 
-* <a href="https://help.github.com/en/articles/connecting-to-github-with-ssh" target="_blank">Connecting to GitHub with SSH</a>
-* <a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">Generating a new SSH key and adding it to the SSH agent</a>
-* <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a>
-* <a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a>
+* [Connecting to GitHub with SSH](https://help.github.com/en/articles/connecting-to-github-with-ssh)
+* [Generating a new SSH key and adding it to the SSH agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+* [Adding a new SSH key to your GitHub Account](https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account)
+* [How to manage multiple GitHub accounts on a single machine with SSH keys](https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca)
 
 ## BASH - Shell Scripting
 

@@ -49,7 +49,7 @@ modified: 2019-06-16T15:59:13-23:00
 * [Social Media Share Bar](https://mycyberuniverse.com/social-media-share-bar-jekyll-blog-website.html)
 * [Validating Links and Images](https://digitaldrummerj.me/jekyll-validating-links-and-images/)
 * [longqian.me/](http://longqian.me/) -Metamask Donation Button.
-* <a href="https://superdevresources.com/share-buttons-jekyll/" target="_blank">https://superdevresources.com/share-buttons-jekyll/</a>
+* [https://superdevresources.com/share-buttons-jekyll/](https://superdevresources.com/share-buttons-jekyll/)
 * [Embed files from a github repository onto your page.](http://gist-it.appspot.com/)
 * [Redirecting GitHub Pages after a repository move](https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7)
 * [hacking-routing-component-jekyll/](https://www.sitepoint.com/hacking-routing-component-jekyll/)
@@ -82,23 +82,23 @@ modified: 2019-06-16T15:59:13-23:00
 
 ### Jekyll-SEO-Tag
 
-* <a href="https://help.github.com/en/articles/search-engine-optimization-for-github-pages" target="_blank">Search Engine Optimization for Github Pages - help.github.com</a>
-* <a href="https://github.com/jekyll/jekyll-seo-tag" target="_blank">/jekyll/jekyll-seo-tag</a>
-* <a href="https://github.com/pmarsceill/jekyll-seo-gem" target="_blank">/pmarsceill/jekyll-seo-gem</a>
-* <a href="https://github.com/meedan/meedan.code/commit/a9ad6e794fffd35035aa7e5bfb1200a34fe0e479" target="_blank">Override default jekyll-seo-tag template</a>
-* <a href="https://blog.webjeda.com/optimize-jekyll-seo/" target="_blank">Tips to Optimize Jekyll SEO</a>
+* [Search Engine Optimization for Github Pages - help.github.com](https://help.github.com/en/articles/search-engine-optimization-for-github-pages)
+* [/jekyll/jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+* [/pmarsceill/jekyll-seo-gem](https://github.com/pmarsceill/jekyll-seo-gem)
+* [Override default jekyll-seo-tag template](https://github.com/meedan/meedan.code/commit/a9ad6e794fffd35035aa7e5bfb1200a34fe0e479)
+* [Tips to Optimize Jekyll SEO](https://blog.webjeda.com/optimize-jekyll-seo/)
 * [blog.webjeda.com/optimize-jekyll-seo/#6-open-graph-and-twitter-cards-in-jekyll](https://blog.webjeda.com/optimize-jekyll-seo/#6-open-graph-and-twitter-cards-in-jekyll)
 
 
 ### Open Graph - Favicons and More
 
-* <a href="https://warfareplugins.com/open-graph-tags-twitter-cards-rich-pins/" target="_blank">Open Graph Tags, Twitter Cards, Rich Pins</a>
-* <a href="https://www.reddit.com/r/discordapp/comments/82p8i6/a_basic_tutorial_on_how_to_get_the_most_out_of/" target="_blank">A basic tutorial on "How to get the most out of embeds?" for a discord-friendly website!</a> (supports og values)
-  * <a href="https://discordapp.com/developers/docs/resources/channel#embed-limits" target="_blank">discordapp.com/developers/docs/resources/channel#embed-limits</a>
-* <a href="https://iframely.com/debug" target="_blank">https://iframely.com/debug</a>
+* [Open Graph Tags, Twitter Cards, Rich Pins](https://warfareplugins.com/open-graph-tags-twitter-cards-rich-pins/)
+* [A basic tutorial on "How to get the most out of embeds?" for a discord-friendly website!](https://www.reddit.com/r/discordapp/comments/82p8i6/a_basic_tutorial_on_how_to_get_the_most_out_of/) (supports og values)
+  * [discordapp.com/developers/docs/resources/channel#embed-limits](https://discordapp.com/developers/docs/resources/channel#embed-limits)
+* [https://iframely.com/debug](https://iframely.com/debug)
 * [realfavicongenerator.net](https://realfavicongenerator.net) 
   > The strict minimum for the master picture is 70x70. Your picture is 225x225, which is ok. However, it is recommended to use a picture of at least 260x260. If you still want to use your picture, some of the derivated favicons will not be generated, such as the high resolution tile for Windows 8 / IE 11.
-* <a href="http://ogp.me" target="_blank">ogp.me</a> - Open Graph Webpage (really good resource for Facebook and beyond. great links at bottom.)
+* [ogp.me](http://ogp.me) - Open Graph Webpage (really good resource for Facebook and beyond. great links at bottom.)
 * [developers.google.com - Breadcrumbs](https://developers.google.com/search/docs/data-types/breadcrumb)
   ![](https://i.imgur.com/TWbbVhn.png)
 * [Googles guide to enhancing your site's metadata](https://developers.google.com/search/docs/guides/enhance-site)
@@ -107,8 +107,8 @@ modified: 2019-06-16T15:59:13-23:00
 
 ### Twitter
 
-* <a href="https://cards-dev.twitter.com/validator" target="_blank">Twitter Card Validator</a>
-* <a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards" target="_blank">About Cards - developer.twitter.com</a>
+* [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+* [About Cards - developer.twitter.com](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
 * [https://github.com/jekyll/jekyll-mentions/](https://github.com/jekyll/jekyll-mentions/)
 
 
@@ -159,9 +159,9 @@ coming soon....
 <img src="https://i.imgur.com/jMtd9WR.png"/>
 
 * [shopify.github.io/liquid/tags/control-flow/](http://shopify.github.io/liquid/tags/control-flow/)
-* <a href="https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/" target="_blank">Jekyll Variables and Liquid Template Tags-Cheatsheet</a>
-* <a href="https://learn.cloudcannon.com/jekyll/introduction-to-liquid/" target="_blank">Introduction to Liquid for Jekyll</a>
-* <a href="https://blog.webjeda.com/jekyll-liquid/" target="_blank">https://blog.webjeda.com/jekyll-liquid/</a>
+* [Jekyll Variables and Liquid Template Tags-Cheatsheet](https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/)
+* [Introduction to Liquid for Jekyll](https://learn.cloudcannon.com/jekyll/introduction-to-liquid/)
+* [https://blog.webjeda.com/jekyll-liquid/](https://blog.webjeda.com/jekyll-liquid/)
 
 ### Data
 
