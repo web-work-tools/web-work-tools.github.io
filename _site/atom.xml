@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://web-work.tools/</id>
+	<id>http://localhost:4000/</id>
 	<title>Web-work Tools</title>
-	<updated>2019-11-29T03:13:30-05:00</updated>
+	<updated>2019-12-01T16:45:06-05:00</updated>
 
 	<subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle>
 
@@ -23,16 +23,16 @@
 		</author>
 	
 
-	<link href="https://web-work.tools/atom.xml" rel="self" type="application/rss+xml" />
-	<link href="https://web-work.tools/" rel="alternate" type="text/html" />
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
 
 	
 		<entry>
-			<id>https://web-work.tools/linux/</id>
+			<id>http://localhost:4000/linux/</id>
 			<title>(Ubuntu) Linux Starter Pack with Extended Resources.</title>
-			<link href="https://web-work.tools/linux/" rel="alternate" type="text/html" title="(Ubuntu) Linux Starter Pack with Extended Resources." />
+			<link href="http://localhost:4000/linux/" rel="alternate" type="text/html" title="(Ubuntu) Linux Starter Pack with Extended Resources." />
 			<updated>2019-11-08T00:00:00-05:00</updated>
 
 			
@@ -50,7 +50,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://web-work.tools/linux/">&lt;div class=&quot;row&quot;&gt;
+			<content type="html" xml:base="http://localhost:4000/linux/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
@@ -540,9 +540,9 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/content-creation/twitter-export-csv/</id>
+			<id>http://localhost:4000/content-creation/twitter-export-csv/</id>
 			<title>Twitter Data: Mine, Export, Explore, Publish</title>
-			<link href="https://web-work.tools/content-creation/twitter-export-csv/" rel="alternate" type="text/html" title="Twitter Data: Mine, Export, Explore, Publish" />
+			<link href="http://localhost:4000/content-creation/twitter-export-csv/" rel="alternate" type="text/html" title="Twitter Data: Mine, Export, Explore, Publish" />
 			<updated>2019-06-17T00:00:00-04:00</updated>
 
 			
@@ -560,7 +560,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 				</author>
 			
 			<summary>Export your tweets to CSV, filter in a spreadsheet and publish.</summary>
-			<content type="html" xml:base="https://web-work.tools/content-creation/twitter-export-csv/">&lt;div class=&quot;row&quot;&gt;
+			<content type="html" xml:base="http://localhost:4000/content-creation/twitter-export-csv/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
@@ -717,9 +717,9 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/jamstack/hugo-starter-kit/</id>
+			<id>http://localhost:4000/jamstack/hugo-starter-kit/</id>
 			<title>Hugo Starter Kit</title>
-			<link href="https://web-work.tools/jamstack/hugo-starter-kit/" rel="alternate" type="text/html" title="Hugo Starter Kit" />
+			<link href="http://localhost:4000/jamstack/hugo-starter-kit/" rel="alternate" type="text/html" title="Hugo Starter Kit" />
 			<updated>2019-06-07T00:00:00-04:00</updated>
 
 			
@@ -737,7 +737,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 				</author>
 			
 			<summary>Tutorials, Themes, Sortcodes and More!</summary>
-			<content type="html" xml:base="https://web-work.tools/jamstack/hugo-starter-kit/">&lt;div class=&quot;row&quot;&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/hugo-starter-kit/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
@@ -1025,9 +1025,9 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/jamstack/html-css/</id>
+			<id>http://localhost:4000/jamstack/html-css/</id>
 			<title>The Markup languages that get transformed into a website.</title>
-			<link href="https://web-work.tools/jamstack/html-css/" rel="alternate" type="text/html" title="The Markup languages that get transformed into a website." />
+			<link href="http://localhost:4000/jamstack/html-css/" rel="alternate" type="text/html" title="The Markup languages that get transformed into a website." />
 			<updated>2019-06-06T00:00:00-04:00</updated>
 
 			
@@ -1045,7 +1045,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 				</author>
 			
 			<summary>Structure and Style, at a Glance: HTML, CSS, YAML, TOML, JSON, Kramdown.</summary>
-			<content type="html" xml:base="https://web-work.tools/jamstack/html-css/">&lt;div class=&quot;row&quot;&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/html-css/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
@@ -1093,8 +1093,8 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
     &lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot; target=&quot;_blank&quot;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot; target=&quot;_blank&quot;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
     &lt;h2 id=&quot;toml---yaml---json&quot;&gt;TOML - YAML - JSON&lt;/h2&gt;
@@ -1218,9 +1218,9 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/jamstack/terminal-basics-git-ssh/</id>
+			<id>http://localhost:4000/jamstack/terminal-basics-git-ssh/</id>
 			<title>Git, SSH, and Terminal Basics</title>
-			<link href="https://web-work.tools/jamstack/terminal-basics-git-ssh/" rel="alternate" type="text/html" title="Git, SSH, and Terminal Basics" />
+			<link href="http://localhost:4000/jamstack/terminal-basics-git-ssh/" rel="alternate" type="text/html" title="Git, SSH, and Terminal Basics" />
 			<updated>2019-06-06T00:00:00-04:00</updated>
 
 			
@@ -1238,7 +1238,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 				</author>
 			
 			<summary>Command Line, Git, SSH, and BASH: Tips, Tricks and Resources.</summary>
-			<content type="html" xml:base="https://web-work.tools/jamstack/terminal-basics-git-ssh/">&lt;div class=&quot;row&quot;&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/terminal-basics-git-ssh/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
@@ -1297,8 +1297,8 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
     &lt;h3 id=&quot;cheat-sheets&quot;&gt;Cheat Sheets&lt;/h3&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://gist.github.com/davfre/8313299&quot; target=&quot;_blank&quot;&gt;davfre/git_cheat-sheet.md&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://education.github.com/git-cheat-sheet-education.pdf&quot; target=&quot;_blank&quot;&gt;education.github.com - GIT CHEAT SHEET&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gist.github.com/davfre/8313299&quot;&gt;davfre/git_cheat-sheet.md&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://education.github.com/git-cheat-sheet-education.pdf&quot;&gt;education.github.com - GIT CHEAT SHEET&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md&quot;&gt;Git CheetSheet&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
@@ -1311,7 +1311,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
     &lt;h3 id=&quot;writing-commits&quot;&gt;Writing Commits&lt;/h3&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://chris.beams.io/posts/git-commit/&quot; target=&quot;_blank&quot;&gt;Writing Effective Commits&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://chris.beams.io/posts/git-commit/&quot;&gt;Writing Effective Commits&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
     &lt;h3 id=&quot;signing-commits&quot;&gt;Signing Commits&lt;/h3&gt;
@@ -1333,10 +1333,10 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
     &lt;h2 id=&quot;ssh&quot;&gt;SSH&lt;/h2&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/connecting-to-github-with-ssh&quot; target=&quot;_blank&quot;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot; target=&quot;_blank&quot;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&quot; target=&quot;_blank&quot;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&quot; target=&quot;_blank&quot;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/connecting-to-github-with-ssh&quot;&gt;Connecting to GitHub with SSH&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot;&gt;Generating a new SSH key and adding it to the SSH agent&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account&quot;&gt;Adding a new SSH key to your GitHub Account&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca&quot;&gt;How to manage multiple GitHub accounts on a single machine with SSH keys&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
     &lt;h2 id=&quot;bash---shell-scripting&quot;&gt;BASH - Shell Scripting&lt;/h2&gt;
@@ -1381,9 +1381,9 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/</id>
+			<id>http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/</id>
 			<title>Migrating from Jekyll HPSTR to Hugo</title>
-			<link href="https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/" rel="alternate" type="text/html" title="Migrating from Jekyll HPSTR to Hugo" />
+			<link href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/" rel="alternate" type="text/html" title="Migrating from Jekyll HPSTR to Hugo" />
 			<updated>2019-06-01T00:00:00-04:00</updated>
 
 			
@@ -1401,7 +1401,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/">&lt;div class=&quot;row&quot;&gt;
+			<content type="html" xml:base="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
@@ -1832,9 +1832,9 @@ enableEmoji = true
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/jamstack/trying-git-branches/</id>
+			<id>http://localhost:4000/jamstack/trying-git-branches/</id>
 			<title>Testing Git Branches and Merging back the Changes</title>
-			<link href="https://web-work.tools/jamstack/trying-git-branches/" rel="alternate" type="text/html" title="Testing Git Branches and Merging back the Changes" />
+			<link href="http://localhost:4000/jamstack/trying-git-branches/" rel="alternate" type="text/html" title="Testing Git Branches and Merging back the Changes" />
 			<updated>2019-05-31T00:00:00-04:00</updated>
 
 			
@@ -1852,7 +1852,7 @@ enableEmoji = true
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://web-work.tools/jamstack/trying-git-branches/">
+			<content type="html" xml:base="http://localhost:4000/jamstack/trying-git-branches/">
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
@@ -1942,9 +1942,9 @@ git push origin master
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/info/forked-repositories/</id>
+			<id>http://localhost:4000/info/forked-repositories/</id>
 			<title>Infominer's Forked Repositores</title>
-			<link href="https://web-work.tools/info/forked-repositories/" rel="alternate" type="text/html" title="Infominer's Forked Repositores" />
+			<link href="http://localhost:4000/info/forked-repositories/" rel="alternate" type="text/html" title="Infominer's Forked Repositores" />
 			<updated>2019-05-29T00:00:00-04:00</updated>
 
 			
@@ -1962,7 +1962,7 @@ git push origin master
 				</author>
 			
 			<summary>An organized list of repositories I've forked.</summary>
-			<content type="html" xml:base="https://web-work.tools/info/forked-repositories/">&lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/info/forked-repositories/">&lt;p&gt;An organized list of my forked repositories.&lt;/p&gt;
 
 &lt;p&gt;Now that I have both forked &lt;a href=&quot;https://web-work.tools/infominer33-starred-repos/&quot;&gt;and starred&lt;/a&gt;&lt;/p&gt;
 
@@ -2055,9 +2055,9 @@ git push origin master
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/content-creation/</id>
+			<id>http://localhost:4000/content-creation/</id>
 			<title>Tools and Resources for Content Creation</title>
-			<link href="https://web-work.tools/content-creation/" rel="alternate" type="text/html" title="Tools and Resources for Content Creation" />
+			<link href="http://localhost:4000/content-creation/" rel="alternate" type="text/html" title="Tools and Resources for Content Creation" />
 			<updated>2019-05-28T00:00:00-04:00</updated>
 
 			
@@ -2075,7 +2075,7 @@ git push origin master
 				</author>
 			
 			<summary>A curated list of tools, resources and a variety of web-apps!</summary>
-			<content type="html" xml:base="https://web-work.tools/content-creation/">&lt;div class=&quot;row&quot;&gt;
+			<content type="html" xml:base="http://localhost:4000/content-creation/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
@@ -2126,8 +2126,8 @@ git push origin master
     &lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot; target=&quot;_blank&quot;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot; target=&quot;_blank&quot;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Markdown Cheet-Sheet&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
     &lt;h2 id=&quot;text&quot;&gt;Text&lt;/h2&gt;
@@ -2310,9 +2310,9 @@ Where I build webpages.&lt;/li&gt;
 		</entry>
 	
 		<entry>
-			<id>https://web-work.tools/content-creation/github-portfolio/</id>
+			<id>http://localhost:4000/content-creation/github-portfolio/</id>
 			<title>Infominer's GitHub Portfolio and HowTo</title>
-			<link href="https://web-work.tools/content-creation/github-portfolio/" rel="alternate" type="text/html" title="Infominer's GitHub Portfolio and HowTo" />
+			<link href="http://localhost:4000/content-creation/github-portfolio/" rel="alternate" type="text/html" title="Infominer's GitHub Portfolio and HowTo" />
 			<updated>2019-05-27T00:00:00-04:00</updated>
 
 			
@@ -2330,7 +2330,7 @@ Where I build webpages.&lt;/li&gt;
 				</author>
 			
 			<summary>How to make a Portfolio for your GitHub repositories with `github/personal-website`</summary>
-			<content type="html" xml:base="https://web-work.tools/content-creation/github-portfolio/">&lt;p&gt;I haven’t played with this in a while, but I suspect I need to do something in that portfolio to freshen up its view. All the same, I have the steps I took to get this far, right here:&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/content-creation/github-portfolio/">&lt;p&gt;I haven’t played with this in a while, but I suspect I need to do something in that portfolio to freshen up its view. All the same, I have the steps I took to get this far, right here:&lt;/p&gt;
 
 &lt;h2 id=&quot;step-1&quot;&gt;Step 1&lt;/h2&gt;
 

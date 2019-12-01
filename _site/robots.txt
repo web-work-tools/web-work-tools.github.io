@@ -1,1 +1,1 @@
-Sitemap: https://web-work.tools/sitemap.xml
+Sitemap: http://localhost:4000/sitemap.xml
