@@ -38,8 +38,8 @@ modified: 2019-06-15T22:22:22-23:00
 
 ## Markdown
 
-* <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a>
-* <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheet-Sheet</a>
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Markdown Cheet-Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## TOML - YAML - JSON
 

@@ -39,8 +39,8 @@ This is where I keep track of tools and information surrounding content creation
 
 ## Basics
 
-* <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a>
-* <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheet-Sheet</a>
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Markdown Cheet-Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Text 
 
