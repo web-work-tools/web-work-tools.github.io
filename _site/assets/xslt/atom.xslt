@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Atom Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="https://web-work.tools/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="https://web-work.tools/assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -38,13 +38,13 @@
 	
 	
 	
-	<link rel="canonical" href="https://web-work.tools/assets/xslt/atom.xslt">
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.">
-	<meta property="og:url" content="https://web-work.tools/assets/xslt/atom.xslt">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Web-work Tools">
@@ -57,11 +57,11 @@
 	<meta name="twitter:creator" content="infominer33">
 	<meta name="twitter:title" content="Atom Feed (Styled)">
 	<meta name="twitter:description" content="A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.">
-	<meta name="twitter:url" content="https://web-work.tools/assets/xslt/atom.xslt">
+	<meta name="twitter:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	
 	
   
-	<link type="text/plain" rel="author" href="https://web-work.tools/humans.txt">
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
 
 	
 
@@ -88,7 +88,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="https://web-work.tools" class="icon-tree"> Web-work Tools</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Web-work Tools</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -131,29 +131,29 @@
 
               <li class="divider"></li>
               <li class="has-dropdown">
-                <a  href="https://web-work.tools/info/">Info</a>
+                <a  href="http://localhost:4000/info/">Info</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/are-belong-to-us/">All your web-work.tools...</a></li>
+                      <li><a  href="http://localhost:4000/are-belong-to-us/">All your web-work.tools...</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/info/starred-repositories/">Starred GitHub Repos</a></li>
+                      <li><a  href="http://localhost:4000/info/starred-repositories/">Starred GitHub Repos</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/info/forked-repositories/">Forked GitHub Repos</a></li>
+                      <li><a  href="http://localhost:4000/info/forked-repositories/">Forked GitHub Repos</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/info/analytics/5-19/">Infolytics 5/19</a></li>
+                      <li><a  href="http://localhost:4000/info/analytics/5-19/">Infolytics 5/19</a></li>
                     
                   </ul>
 
@@ -171,19 +171,19 @@
 
               <li class="divider"></li>
               <li class="has-dropdown">
-                <a  href="https://web-work.tools/documentation/">Theme Documentation</a>
+                <a  href="http://localhost:4000/documentation/">Theme Documentation</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/design/">Templates</a></li>
+                      <li><a  href="http://localhost:4000/design/">Templates</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/headers/">Header Styles</a></li>
+                      <li><a  href="http://localhost:4000/headers/">Header Styles</a></li>
                     
                   </ul>
 
@@ -204,7 +204,7 @@
 
             
             
-              <li><a  href="https://web-work.tools/">Home</a></li>
+              <li><a  href="http://localhost:4000/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -221,24 +221,24 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://web-work.tools/content-creation/">Content Creation</a>
+                <a  href="http://localhost:4000/content-creation/">Content Creation</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/content-creation/">Tools and Info</a></li>
+                      <li><a  href="http://localhost:4000/content-creation/">Tools and Info</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/content-creation/github-portfolio/">Make a GitHub Portfolio</a></li>
+                      <li><a  href="http://localhost:4000/content-creation/github-portfolio/">Make a GitHub Portfolio</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
+                      <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
                     
                   </ul>
 
@@ -257,49 +257,49 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://web-work.tools">JamStack</a>
+                <a  href="http://localhost:4000">JamStack</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/jamstack/static-site-generators">Static Site Generators</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/static-site-generators">Static Site Generators</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/jamstack/github-pages-starter-pack/">GitHub Pages Starter Pack</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/github-pages-starter-pack/">GitHub Pages Starter Pack</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/jamstack/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/jamstack/hugo-starter-kit/">Hugo Starter Kit</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/hugo-starter-kit/">Hugo Starter Kit</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/">Jekyll HPSTR to HPSTR Hugo</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">Jekyll HPSTR to HPSTR Hugo</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/jamstack/terminal-basics-git-ssh/">Terminal Basics: Git, SSH, etc.</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/terminal-basics-git-ssh/">Terminal Basics: Git, SSH, etc.</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/jamstack/trying-git-branches/">Git Branches Basics</a></li>
+                      <li><a  href="http://localhost:4000/jamstack/trying-git-branches/">Git Branches Basics</a></li>
                     
                   </ul>
 
@@ -318,24 +318,24 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://web-work.tools">SEO</a>
+                <a  href="http://localhost:4000">SEO</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/seo/learn/">Learn</a></li>
+                      <li><a  href="http://localhost:4000/seo/learn/">Learn</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/seo/tools/">Tools</a></li>
+                      <li><a  href="http://localhost:4000/seo/tools/">Tools</a></li>
                     
 
                       
 
-                      <li><a  href="https://web-work.tools/seo/getting-started-adwords-keyword-planner/">Getting started with Keyword Planner</a></li>
+                      <li><a  href="http://localhost:4000/seo/getting-started-adwords-keyword-planner/">Getting started with Keyword Planner</a></li>
                     
                   </ul>
 
@@ -367,8 +367,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="https://web-work.tools/" title="Web-work Tools – Skyscraper Curation and Independent Web-Work">
-				<img src="https://web-work.tools/assets/img/logo.png" alt="Web-work Tools – Skyscraper Curation and Independent Web-Work">
+			<a id="logo" href="http://localhost:4000/" title="Web-work Tools – Skyscraper Curation and Independent Web-Work">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Web-work Tools – Skyscraper Curation and Independent Web-Work">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -446,7 +446,7 @@
 
             <p class="shadow-black">
               A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.
-              <a href="https://web-work.tools/info/">More ›</a>
+              <a href="http://localhost:4000/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -468,22 +468,22 @@
               
                 
                   <li >
-                    <a href="https://web-work.tools"  title=""></a>
+                    <a href="http://localhost:4000"  title=""></a>
                   </li>
               
                 
                   <li >
-                    <a href="https://web-work.tools/feed.xml"  title="Subscribe to RSS Feed">feed.xml</a>
+                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">feed.xml</a>
                   </li>
               
                 
                   <li >
-                    <a href="https://web-work.tools/atom.xml"  title="Subscribe to Atom Feed">atom.xml</a>
+                    <a href="http://localhost:4000/atom.xml"  title="Subscribe to Atom Feed">atom.xml</a>
                   </li>
               
                 
                   <li >
-                    <a href="https://web-work.tools/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
                   </li>
               
               </ul>
@@ -513,7 +513,7 @@
             
               
                 <li >
-                  <a href="https://web-work.tools"  title=""></a>
+                  <a href="http://localhost:4000"  title=""></a>
                 </li>
             
               
@@ -575,7 +575,7 @@
 		
 
 
-<script src="https://web-work.tools/assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 
