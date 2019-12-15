@@ -225,7 +225,7 @@ url = "/practical-public-key-crypto/"
 
 [[links]]
 title = "InfoMine"
-url = "http://infominer.id/"
+url = "http://infominer.xyz/"
 ```
 
 
