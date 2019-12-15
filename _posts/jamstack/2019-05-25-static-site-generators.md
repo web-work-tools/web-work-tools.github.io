@@ -61,7 +61,8 @@ I'll have a few general resources at the top and just add as I go, since I'm not
 * [staticsitegenerators.net](https://staticsitegenerators.net)
 * [https://www.staticgen.com/](https://www.staticgen.com/)
   * [I tried Hugo, Jekyll and Gatsby](https://news.ycombinator.com/item?id=17952234)
-
+* [JAMstack templates](https://templates.netlify.com)
+  > Find the perfect place to begin a new JAMstack site. Deploy a template site to Netlify with just one click. The site’s code will automatically populate as a new folder in your Git repository so you can explore, edit, and update so it works for you. All for free.
 
 ## Hugo
 
