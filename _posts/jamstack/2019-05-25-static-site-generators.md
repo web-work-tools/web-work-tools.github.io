@@ -99,30 +99,14 @@ Because MkDocs builds with python, that opens up a whole universe of tools at yo
 However, basically none of the regular jekyll plugins work with mkdocs, it's a whole universe to its own w Python.
 
 
-### Now Dev
-
-I don't even know... but it seems pretty dope.
-
-* [https://zeit.co/blog/now-dev](https://zeit.co/blog/now-dev)
-* [https://zeit.co/docs/v2/deployments/concepts/lambdas](https://zeit.co/docs/v2/deployments/concepts/lambdas)
-
-
-### Keybase
-
-![](https://imgur.com/PVUAaAu.png)
-
-Just sayin'... keybase has 250 gigs of free storage you can use to host a website...
-
-you could build gem based sites locally, and keybase will automatically sync the data.
-
 
 ## Related Posts
 
-* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/jamstack/html-css/)
 * [Content Creation](https://web-work.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://web-work.tools/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
+* [GitHub Pages Extended Resources](https://web-work.tools/jamstack/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work.tools/jamstack/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/)
+* [Command Line - Git - SSH - BASH](https://web-work.tools/jamstack/terminal-basics-git-ssh/)
 
 </div>
