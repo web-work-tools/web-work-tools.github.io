@@ -208,17 +208,10 @@ I'm keeping track of themes that catch my eye:
   > Code that'll help you kickstart a personal website that showcases your work as a software developer.
   ![](https://imgur.com/7UjPtdAl.png)
 * [polyglot.untra.io](https://polyglot.untra.io/) - multi-lingual publishing.
-
-
-### Hydejack
-
-![](https://i.imgur.com/3ZY5FI7.png)
-
-* [/hydecorp/hydejack-starter-kit](https://github.com/hydecorp/hydejack-starter-kit)
-* [/hydecorp/hydejack-starter-kit](https://github.com/qwtel/hydejack-starter-kit)
-* [Hydejack Documentation.pdf](http://nickengmann.com/Documentation.pdf)
-* [Hydejack Advanced](https://github.com/hydecorp/hydejack/blob/master/docs/advanced.md)
-
+* [hydecorp/hydejack](https://github.com/hydecorp/hydejack) 
+  - [/hydecorp/hydejack-starter-kit](https://github.com/qwtel/hydejack-starter-kit)
+  * [Hydejack Documentation.pdf](http://nickengmann.com/Documentation.pdf)
+  * [Hydejack Advanced](https://github.com/hydecorp/hydejack/blob/master/docs/advanced.md)
 
 ### Minimal Mistakes
 
