@@ -193,17 +193,19 @@ Choosing a theme is very personal to your needs, also.
 
 I'm keeping track of themes that catch my eye:
 
+* [Type on Strap](https://sylhare.github.io/Type-on-Strap/) - [Source](https://github.com/sylhare/Type-on-Strap)
+* [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll) - [Source](https://github.com/daattali/beautiful-jekyll)
+* [Feeling Responsive](http://phlow.github.io/feeling-responsive/) - [Source](https://github.com/Phlow/feeling-responsive)
+* [Just the Docs](https://pmarsceill.github.io/just-the-docs/)
+* [Documentation Theme Jekyll](https://idratherbewriting.com/documentation-theme-jekyll)
 * [projectpages.github.io/project-pages/](https://projectpages.github.io/project-pages/)
   * [project-pages/wiki](https://github.com/projectpages/project-pages/wiki)
 * [bradleytaunt/lightspeed](https://github.com/bradleytaunt/lightspeed)
-* [Just the Docs](https://pmarsceill.github.io/just-the-docs/)
 * [era.yayd.in/jekyll-bulma/](https://era.yayd.in/jekyll-bulma/)
 * [https://ndrewtl.github.io/airspace-jekyll/](https://ndrewtl.github.io/airspace-jekyll/)
   * [ndrewtl/airspace-jekyll/](https://github.com/ndrewtl/airspace-jekyll/)
-* [deanattali.com/beautiful-jekyll/](https://deanattali.com/beautiful-jekyll/)
 * [github/personal-website](https://github.com/github/personal-website)
   > Code that'll help you kickstart a personal website that showcases your work as a software developer.
-* [Documentation Theme Jekyll](https://idratherbewriting.com/documentation-theme-jekyll)
   ![](https://imgur.com/7UjPtdAl.png)
 * [polyglot.untra.io](https://polyglot.untra.io/) - multi-lingual publishing.
 
@@ -212,16 +214,11 @@ I'm keeping track of themes that catch my eye:
 
 ![](https://i.imgur.com/3ZY5FI7.png)
 
-* [/qwtel/hydejack/](https://infominer.id/qwtel/hydejack/)
-* [/qwtel/hydejack-starter-kit](https://github.com/qwtel/hydejack-starter-kit)
-* [Hydejack Print Documentation](https://hydejack.com/docs/print/)
+* [/hydecorp/hydejack-starter-kit](https://github.com/hydecorp/hydejack-starter-kit)
+* [/hydecorp/hydejack-starter-kit](https://github.com/qwtel/hydejack-starter-kit)
 * [Hydejack Documentation.pdf](http://nickengmann.com/Documentation.pdf)
-* [Hydejack Advanced](https://github.com/qwtel/hydejack/blob/master/docs/advanced.md)
+* [Hydejack Advanced](https://github.com/hydecorp/hydejack/blob/master/docs/advanced.md)
 
-
-If you don't want to think too much about web-development, try [Hydejack](https://hydejack.com). It's build with everything you need to create a beatiful responsive web-page, with plenty of options and configurations supported. It's a free version of a more robust commercial option. But it's easy to set up, and works great.
-
-The only problem is that it is not open source. So it's not 100% customizable. Then again, that keeps you from getting in and screwing things up. -->
 
 ### Minimal Mistakes
 
