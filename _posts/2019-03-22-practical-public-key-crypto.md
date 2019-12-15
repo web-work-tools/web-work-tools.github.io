@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: Using PGP and Cryptocurrency Keysignatures
 teaser: "Asymmetric Encryption: Phil Zimmerman, PGP, Bitcoin and Ethereum key-signatures, Escrow, SSL, Various Apps and Resourses."
 subheadline: >
