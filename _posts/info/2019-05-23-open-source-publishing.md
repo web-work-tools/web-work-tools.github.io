@@ -41,10 +41,6 @@ I put [performance1.csv](https://web-work.tools/images/infolytics/performance1.c
 
 From there, jekyll throws it all up into `site.data.performance1` and `site.data.performance2` so I can call it with a bit of code and generate pages with it. 
 
-Sometime I'll create a post, or [stub](https://infominer.id/webwork/tags/#stub), to begin documentation of that feature of Jekyll and grow in familiarity with it.
-
-For now I'll just share a few links here.
-
 ><img src="https://i.imgur.com/jMtd9WR.png"/>
 >
 >from: [*GitHub Pages Starter Pack - Extended Resources*](/github-pages-starter-pack/)
@@ -54,13 +50,7 @@ For now I'll just share a few links here.
 >* [Introduction to Liquid for Jekyll](https://learn.cloudcannon.com/jekyll/introduction-to-liquid/)
 >* [https://blog.webjeda.com/jekyll-liquid/](https://blog.webjeda.com/jekyll-liquid/)
 
-
-
-*pull requests welcome* ;)
-
 As you can see, it's possible to begin showing up in google pretty quickly. I started building at the beginning of the year, and I hadn't begun in earnest until you see the chart starting to pop off (around the time I submitted my sitemap to google).
-
-
 
 <figure class="full">
 	<img src="https://web-work.tools/images/infolytics/5-29-19-organic-search-infominer.png" alt="">

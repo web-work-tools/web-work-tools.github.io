@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Web-work Tools</title>
-	<updated>2019-12-01T16:45:06-05:00</updated>
+	<updated>2019-12-14T22:35:14-05:00</updated>
 
 	<subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle>
 
@@ -18,7 +18,7 @@
 				<email>infominer@protonmail.com</email>
 			
 			
-				<uri>https://infominer.id/</uri>
+				<uri>https://infominer.xyz/</uri>
 			
 		</author>
 	
@@ -45,7 +45,7 @@
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -555,7 +555,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -732,7 +732,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -1040,7 +1040,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -1233,7 +1233,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -1396,7 +1396,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -1658,7 +1658,7 @@ url = &quot;/practical-public-key-crypto/&quot;
 
 [[links]]
 title = &quot;InfoMine&quot;
-url = &quot;http://infominer.id/&quot;
+url = &quot;http://infominer.xyz/&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
     &lt;h2 id=&quot;frontmatter&quot;&gt;Frontmatter&lt;/h2&gt;
@@ -1847,7 +1847,7 @@ enableEmoji = true
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -1957,7 +1957,7 @@ git push origin master
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -2070,7 +2070,7 @@ git push origin master
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -2325,7 +2325,7 @@ Where I build webpages.&lt;/li&gt;
 						<email>infominer@protonmail.com</email>
 					
 					
-						<uri>https://infominer.id/</uri>
+						<uri>https://infominer.xyz/</uri>
 					
 				</author>
 			
@@ -2348,7 +2348,7 @@ Where I build webpages.&lt;/li&gt;
 
 &lt;h2 id=&quot;step-3&quot;&gt;Step 3&lt;/h2&gt;
 
-&lt;p&gt;If you already have a web-page, then maybe you aren’t reading this.. If you don’t, then you must name the repository the same as your name on github. So my first website’s repository name is &lt;a href=&quot;https://github.com/infominer33/infominer33.github.io&quot;&gt;infominer33.github.io&lt;/a&gt; since my github username is infominer33. Now it publishes to &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer.id&lt;/code&gt; (but also &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer33.github.io&lt;/code&gt;) because I have a custom domain, and every other repository I publish is a branch of that first domain.&lt;/p&gt;
+&lt;p&gt;If you already have a web-page, then maybe you aren’t reading this.. Either way, you must name your repository as the same as your username (or the organizations name) on github. So my first website’s repository name is &lt;a href=&quot;https://github.com/infominer33/infominer33.github.io&quot;&gt;infominer33.github.io&lt;/a&gt; since my github username is infominer33. Now it publishes to &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer.id&lt;/code&gt; (but also &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer33.github.io&lt;/code&gt;) because I have a custom domain, and every other repository I publish from my user account, rather than in an organization, is a branch of that first domain.&lt;/p&gt;
 
 &lt;p&gt;Since I already have a primary webpage, I change my repository name to &lt;code class=&quot;highlighter-rouge&quot;&gt;repo-portfolio&lt;/code&gt;. That way, it lives at:&lt;/p&gt;
 
@@ -2384,7 +2384,7 @@ projects:
 &lt;p&gt;you can also configure social media accounts.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;social_media:
-  website: https://infominer.id/
+  website: https://infominer.xyz/
   keybase: infominer
   telegram: infominer33
   twitter: infominer33

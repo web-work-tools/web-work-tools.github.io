@@ -18,13 +18,13 @@ I'm also quite interested in [data science](https://www.csbtechemporium.com/deep
 
 >I aim to create content of the highest quality - relating complex subjects in a clear and concise fashion - supplying essential details, with quality sources for further study.
 
-* [**About Me**](https://infominer.id/about)
+* [**About Me**](https://infominer.xyz/about)
 * [**Web-work.tools**](https://web-work.tools/are-belong-to-us/) - Site Directory
 * [**Github Portfolio**](https://infominer.id/repo-portfolio) - not perfectly up to date, but still neat.
 
 [![](https://imgur.com/H7Uwes5.png)](https://github.com/infominer33)
 
-## [InfoHub](https://infominer.id)
+## [InfoHub](https://infominer.xyz)
 
 This is where you can get updates most of the web-sites I'm working on.
 
