@@ -41,12 +41,14 @@ I use Ubuntu Linux, so all of my info comes from that perspective. That said, mo
 
 ## Git
 
+[Introduction to Git](https://teamtreehouse.com/library/introduction-to-git) - 186-minute Development Tools Course 
+[Create a Test Branch and Merge Back the Changes](https://web-work.tools/jamstack/trying-git-branches/) >>
+
 * [The entire Pro Git book](https://git-scm.com/book/en/v2) -written by Scott Chacon and Ben Straub
 * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
 * [Atlassian -Getting Git Right](https://www.atlassian.com/git)
 * [guides.github.com - Git Handbook](https://guides.github.com/introduction/git-handbook/)
-* [Introduction to Git](https://teamtreehouse.com/library/introduction-to-git) - 186-minute Development Tools Course 
-* [Create a Test Branch and Merge Back the Changes](https://web-work.tools/branches-git/) >>
+* [Most commonly used git tips and tricks.](http://git.io/git-tips)
 
 ### Cheat Sheets
 
@@ -67,7 +69,14 @@ I use Ubuntu Linux, so all of my info comes from that perspective. That said, mo
 * [managing-commit-signature-verification](https://help.github.com/en/articles/managing-commit-signature-verification)
 
 ### Submodules
-* [Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) - so you can pull other git repos into your project
+* [Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) - so you can pull other git repos into your project
+* [Git Submodule Tips](https://gist.github.com/ChristopherA/23ff68d549d990cc7cbbfaacdde4b2ef)
+* [Atlassian- Git Submodules](https://www.atlassian.com/git/tutorials/git-submodule)
+* [Mastering Git submodules](https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407)
+* [Git Submodules Revisited](https://dev.to/dwd/git-submodules-revisited-1p54) - [ycombinator thread](https://news.ycombinator.com/item?id=17055919)
+* [Update Git submodule to latest commit on origin](https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin/5828396#5828396)
+* [Working with Submodules](https://github.blog/2016-02-01-working-with-submodules/)
+* [Using submodules in Git - Tutorial](https://www.vogella.com/tutorials/GitSubmodules/article.html)
 
 ### Git Workflow
 * [www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
