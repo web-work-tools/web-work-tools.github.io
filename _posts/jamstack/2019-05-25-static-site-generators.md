@@ -5,9 +5,7 @@ teaser: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
 subheadline: "Configuration files, layouts and templates, and all the content you create."
 
 tags: 
-  - static site generators
-  - tools
-  - resources
+  - ssg
   - CI\CD
 categories: ['jamstack']
 
@@ -41,22 +39,14 @@ modified: 2019-06-15T11:12:13-23:00
 {% include _improve_content.html %}
 
 
-
-
-Well, now i'm looking into options besides jekyll, to expand my skills, and try out some themes that aren't available for Jekyll.
-
-I'll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.
-
-
 ## What is a Static Site Generator (SSG)?
 
 There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.
 
-I'll have a few general resources at the top and just add as I go, since I'm not ready to learn about too many of them, just yet.
+This page is where I keep track of info on the various SSG that I'm experienced with, as I begin to understand the stack surrounding them.
 
 ## General
 
-* [Using A Static Site Generator other than Jekyll](https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll)
 * [pinceladasdaweb/Static-Site-Generators](https://github.com/pinceladasdaweb/Static-Site-Generators)
 * [staticsitegenerators.net](https://staticsitegenerators.net)
 * [https://www.staticgen.com/](https://www.staticgen.com/)
@@ -64,11 +54,18 @@ I'll have a few general resources at the top and just add as I go, since I'm not
 * [JAMstack templates](https://templates.netlify.com)
   > Find the perfect place to begin a new JAMstack site. Deploy a template site to Netlify with just one click. The site’s code will automatically populate as a new folder in your Git repository so you can explore, edit, and update so it works for you. All for free.
 
+
+
+## Jekyll and GitHub Pages
+
+Jekyll is the SSG built into GitHub, covered on the following pages:
+
+* [Github Pages Starter Pack](/jamstack/github-pages-starter-pack/)
+* [Using A Static Site Generator other than Jekyll](https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll)
+
 ## Hugo
 
-These links have moved to their own page: 
-
-* [Hugo Starter Kit](/hugo-starter-kit/)
+* [Hugo Starter Kit](/jamstack/hugo-starter-kit/)
 
 ## MkDocs
 

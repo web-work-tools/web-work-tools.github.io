@@ -215,24 +215,34 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/content-creation/">Content Creation</a>
+                <a  href="http://localhost:4000">Fundamentals</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/content-creation/">Tools and Info</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/content-creation/github-portfolio/">Make a GitHub Portfolio</a></li>
+                      <li><a  href="http://localhost:4000/content-creation/">Content Creation</a></li>
                     
 
                       
 
                       <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/terminal-basics-git-ssh/">Terminal Basics: Git, SSH, etc.</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/trying-git-branches/">Getting Started with Git Branches</a></li>
                     
                   </ul>
 
@@ -273,27 +283,12 @@
 
                       
 
-                      <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
-                    
-
-                      
-
                       <li><a  href="http://localhost:4000/jamstack/hugo-starter-kit/">Hugo Starter Kit</a></li>
                     
 
                       
 
                       <li><a  href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">Jekyll HPSTR to HPSTR Hugo</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/jamstack/terminal-basics-git-ssh/">Terminal Basics: Git, SSH, etc.</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/jamstack/trying-git-branches/">Git Branches Basics</a></li>
                     
                   </ul>
 
@@ -407,12 +402,9 @@
 <ul id="markdown-toc">
   <li><a href="#what-is-a-static-site-generator-ssg" id="markdown-toc-what-is-a-static-site-generator-ssg">What is a Static Site Generator (SSG)?</a></li>
   <li><a href="#general" id="markdown-toc-general">General</a></li>
+  <li><a href="#jekyll-and-github-pages" id="markdown-toc-jekyll-and-github-pages">Jekyll and GitHub Pages</a></li>
   <li><a href="#hugo" id="markdown-toc-hugo">Hugo</a></li>
-  <li><a href="#mkdocs" id="markdown-toc-mkdocs">MkDocs</a>    <ul>
-      <li><a href="#now-dev" id="markdown-toc-now-dev">Now Dev</a></li>
-      <li><a href="#keybase" id="markdown-toc-keybase">Keybase</a></li>
-    </ul>
-  </li>
+  <li><a href="#mkdocs" id="markdown-toc-mkdocs">MkDocs</a></li>
   <li><a href="#related-posts" id="markdown-toc-related-posts">Related Posts</a></li>
 </ul>
 
@@ -434,20 +426,15 @@
 	</div>
 </div>
 
-    <p>Well, now i’m looking into options besides jekyll, to expand my skills, and try out some themes that aren’t available for Jekyll.</p>
-
-    <p>I’ll be honest, if you are new like me, getting jekyll themes to work is tricky. Many of them are not supported anymore.</p>
-
     <h2 id="what-is-a-static-site-generator-ssg">What is a Static Site Generator (SSG)?</h2>
 
     <p>There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.</p>
 
-    <p>I’ll have a few general resources at the top and just add as I go, since I’m not ready to learn about too many of them, just yet.</p>
+    <p>This page is where I keep track of info on the various SSG that I’m experienced with, as I begin to understand the stack surrounding them.</p>
 
     <h2 id="general">General</h2>
 
     <ul>
-      <li><a href="https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll">Using A Static Site Generator other than Jekyll</a></li>
       <li><a href="https://github.com/pinceladasdaweb/Static-Site-Generators">pinceladasdaweb/Static-Site-Generators</a></li>
       <li><a href="https://staticsitegenerators.net">staticsitegenerators.net</a></li>
       <li><a href="https://www.staticgen.com/">https://www.staticgen.com/</a>
@@ -455,14 +442,26 @@
           <li><a href="https://news.ycombinator.com/item?id=17952234">I tried Hugo, Jekyll and Gatsby</a></li>
         </ul>
       </li>
+      <li><a href="https://templates.netlify.com">JAMstack templates</a>
+        <blockquote>
+          <p>Find the perfect place to begin a new JAMstack site. Deploy a template site to Netlify with just one click. The site’s code will automatically populate as a new folder in your Git repository so you can explore, edit, and update so it works for you. All for free.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="jekyll-and-github-pages">Jekyll and GitHub Pages</h2>
+
+    <p>Jekyll is the SSG built into GitHub, covered on the following pages:</p>
+
+    <ul>
+      <li><a href="/jamstack/github-pages-starter-pack/">Github Pages Starter Pack</a></li>
+      <li><a href="https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll">Using A Static Site Generator other than Jekyll</a></li>
     </ul>
 
     <h2 id="hugo">Hugo</h2>
 
-    <p>These links have moved to their own page:</p>
-
     <ul>
-      <li><a href="/hugo-starter-kit/">Hugo Starter Kit</a></li>
+      <li><a href="/jamstack/hugo-starter-kit/">Hugo Starter Kit</a></li>
     </ul>
 
     <h2 id="mkdocs">MkDocs</h2>
@@ -501,32 +500,15 @@
 
     <p>However, basically none of the regular jekyll plugins work with mkdocs, it’s a whole universe to its own w Python.</p>
 
-    <h3 id="now-dev">Now Dev</h3>
-
-    <p>I don’t even know… but it seems pretty dope.</p>
-
-    <ul>
-      <li><a href="https://zeit.co/blog/now-dev">https://zeit.co/blog/now-dev</a></li>
-      <li><a href="https://zeit.co/docs/v2/deployments/concepts/lambdas">https://zeit.co/docs/v2/deployments/concepts/lambdas</a></li>
-    </ul>
-
-    <h3 id="keybase">Keybase</h3>
-
-    <p><img src="https://imgur.com/PVUAaAu.png" alt="" /></p>
-
-    <p>Just sayin’… keybase has 250 gigs of free storage you can use to host a website…</p>
-
-    <p>you could build gem based sites locally, and keybase will automatically sync the data.</p>
-
     <h2 id="related-posts">Related Posts</h2>
 
     <ul>
-      <li><a href="https://web-work.tools/learn-html-css/">Learn HTML CSS and Associated Markup Languages</a></li>
+      <li><a href="https://web-work.tools/jamstack/html-css/">Learn HTML CSS and Associated Markup Languages</a></li>
       <li><a href="https://web-work.tools/content-creation/">Content Creation</a></li>
-      <li><a href="https://web-work.tools/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
-      <li><a href="https://web-work.tools/static-site-generators/">Static Site Generators</a></li>
-      <li><a href="https://web-work.tools/migrate-jekyll-hpstr-hugo/">Migrating from Jekyll HPSTR to Hugo HPSTR theme</a></li>
-      <li><a href="https://web-work.tools/command-line-git-ssh/">Command Line - Git - SSH - BASH</a></li>
+      <li><a href="https://web-work.tools/jamstack/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
+      <li><a href="https://web-work.tools/jamstack/static-site-generators/">Static Site Generators</a></li>
+      <li><a href="https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/">Migrating from Jekyll HPSTR to Hugo HPSTR theme</a></li>
+      <li><a href="https://web-work.tools/jamstack/terminal-basics-git-ssh/">Command Line - Git - SSH - BASH</a></li>
     </ul>
 
   </div>

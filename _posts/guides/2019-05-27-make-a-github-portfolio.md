@@ -4,7 +4,7 @@ title: "Infominer's GitHub Portfolio and HowTo"
 teaser: "How to make a Portfolio for your GitHub repositories with `github/personal-website`"
 
 categories: ["Content Creation"]
-tags: ["github", "how to"]
+tags: ["Github", "Guides"]
 
 header: no
 image:

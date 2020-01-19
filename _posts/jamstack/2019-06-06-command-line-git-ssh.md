@@ -4,7 +4,7 @@ title: "Git, SSH, and Terminal Basics"
 teaser: "Command Line, Git, SSH, and BASH: Tips, Tricks and Resources."
 
 categories: ['jamstack']
-tags: [resources, command line, terminal, git, ssh, bash]
+tags: ['command line', 'git', 'ssh', 'bash']
 
 header: no
 image:

@@ -221,24 +221,34 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/content-creation/">Content Creation</a>
+                <a  href="http://localhost:4000">Fundamentals</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/content-creation/">Tools and Info</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/content-creation/github-portfolio/">Make a GitHub Portfolio</a></li>
+                      <li><a  href="http://localhost:4000/content-creation/">Content Creation</a></li>
                     
 
                       
 
                       <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/terminal-basics-git-ssh/">Terminal Basics: Git, SSH, etc.</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/jamstack/trying-git-branches/">Getting Started with Git Branches</a></li>
                     
                   </ul>
 
@@ -279,27 +289,12 @@
 
                       
 
-                      <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
-                    
-
-                      
-
                       <li><a  href="http://localhost:4000/jamstack/hugo-starter-kit/">Hugo Starter Kit</a></li>
                     
 
                       
 
                       <li><a  href="http://localhost:4000/jamstack/jekyll-hpstr-hugo-theme/">Jekyll HPSTR to HPSTR Hugo</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/jamstack/terminal-basics-git-ssh/">Terminal Basics: Git, SSH, etc.</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/jamstack/trying-git-branches/">Git Branches Basics</a></li>
                     
                   </ul>
 

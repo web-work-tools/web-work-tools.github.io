@@ -2,16 +2,19 @@
   url: "/"
   side: left
 
-- title: "Content Creation"
-  url: "/content-creation/"
+- title: "Fundamentals"
   side: left
   dropdown:
-  - title: "Tools and Info"
+  - title: Content Creation
     url: "/content-creation/"
-  - title: "Make a GitHub Portfolio"
-    url: "/content-creation/github-portfolio/"
   - title: "Exploring Twitter Data"
     url: "/content-creation/twitter-export-csv/"
+  - title: "HTML, CSS, + Markdown" 
+    url: "/jamstack/html-css/"
+  - title: "Terminal Basics: Git, SSH, etc." 
+    url: "/jamstack/terminal-basics-git-ssh/"
+  - title: "Getting Started with Git Branches" 
+    url: "/jamstack/trying-git-branches/"
     
 - title: "JamStack"
   side: left
@@ -22,16 +25,10 @@
     url: "/jamstack/github-pages-starter-pack/"
   - title: "GitHub Pages Extended Resources"
     url: "/jamstack/github-pages-extended-resources/"
-  - title: "HTML, CSS, + Markdown" 
-    url: "/jamstack/html-css/"
   - title: "Hugo Starter Kit" 
     url: "/jamstack/hugo-starter-kit/"
   - title: "Jekyll HPSTR to HPSTR Hugo" 
     url: "/jamstack/jekyll-hpstr-hugo-theme/"
-  - title: "Terminal Basics: Git, SSH, etc." 
-    url: "/jamstack/terminal-basics-git-ssh/"
-  - title: "Git Branches Basics" 
-    url: "/jamstack/trying-git-branches/"
 
 - title: SEO
   side: left
