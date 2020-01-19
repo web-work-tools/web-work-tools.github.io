@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Web-work Tools</title>
-	<updated>2020-01-19T02:56:50-05:00</updated>
+	<updated>2020-01-19T14:53:09-05:00</updated>
 
 	<subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle>
 
@@ -31,8 +31,8 @@
 	
 		<entry>
 			<id>http://localhost:4000/linux/</id>
-			<title>(Ubuntu) Linux Starter Pack with Extended Resources.</title>
-			<link href="http://localhost:4000/linux/" rel="alternate" type="text/html" title="(Ubuntu) Linux Starter Pack with Extended Resources." />
+			<title>(Ubuntu) Linux Starter Pack</title>
+			<link href="http://localhost:4000/linux/" rel="alternate" type="text/html" title="(Ubuntu) Linux Starter Pack" />
 			<updated>2019-11-08T00:00:00-05:00</updated>
 
 			
@@ -317,7 +317,7 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
 &lt;a href=&quot;http://manpages.ubuntu.com/manpages/disco/en/man7/hier.7.html&quot;&gt;hier - description of the filesystem hierarchy&lt;/a&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
 
-    &lt;p&gt;&lt;img src=&quot;http://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png&quot; alt=&quot;http://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;https://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png&quot; alt=&quot;http://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://ryanstutorials.net/linuxtutorial/navigation.php&quot;&gt;Linux Tutorial - 2. Master File System Navigation&lt;/a&gt;
@@ -326,25 +326,27 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
         &lt;/blockquote&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://help.ubuntu.com/community/LinuxFilesystemTreeOverview&quot;&gt;LinuxFilesystemTreeOverview&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/bin&lt;/code&gt; is a place for most commonly used terminal commands, like ls, mount, rm, etc.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/boot&lt;/code&gt; contains files needed to start up the system, including the Linux kernel, a RAM disk image and bootloader configuration files.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/dev&lt;/code&gt;  contains all device files, which are not regular files but instead refer to various hardware devices on the system, including hard drives.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/etc&lt;/code&gt;  contains system-global configuration files, which affect the system’s behavior for all users.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/home&lt;/code&gt; home sweet home, this is the place for users’ home directories.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/lib&lt;/code&gt;  contains very important dynamic libraries and kernel modules &lt;code class=&quot;highlighter-rouge&quot;&gt;/media&lt;/code&gt; is intended as a mount point for external devices, such as hard drives or removable media (floppies, CDs, DVDs).&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/mnt&lt;/code&gt;  is also a place for mount points, but dedicated specifically to “temporarily mounted” devices, such as network filesystems.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/opt&lt;/code&gt;  can be used to store additional software for your system, which is not handled by the package manager.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/proc&lt;/code&gt; is a virtual filesystem that provides a mechanism for kernel to send information to processes.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/root&lt;/code&gt; is the superuser’s home directory, not in &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/&lt;/code&gt; to allow for booting the system even if &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/&lt;/code&gt; is not available.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/run&lt;/code&gt;  is a tmpfs (temporary file system) available early in the boot process where ephemeral run-time data is stored. Files under this directory are removed or truncated at the beginning of the boot process. (It deprecates various legacy locations such as &lt;code class=&quot;highlighter-rouge&quot;&gt;/var/run&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;/var/lock&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;/lib/init/rw&lt;/code&gt; in otherwise non-ephemeral directory trees as well as &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/.  *&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/shm&lt;/code&gt; which are not device files.)&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/sbin&lt;/code&gt; contains important administrative commands that should generally only be employed by the superuser.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/srv&lt;/code&gt;  can contain data directories of services such as HTTP (&lt;code class=&quot;highlighter-rouge&quot;&gt;/srv/www/&lt;/code&gt;) or FTP.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/sys&lt;/code&gt;  is a virtual filesystem that can be accessed to set or obtain information about the kernel’s view of the system.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/tmp&lt;/code&gt;  is a place for temporary files used by applications.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr&lt;/code&gt;  contains the majority of user utilities and applications, and partly replicates the root directory structure, containing for instance, among others, &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/bin/&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/lib&lt;/code&gt;.&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/var&lt;/code&gt;  is dedicated to variable data, such as logs, databases, websites, and temporary spool (e-mail etc.) files that persist from one boot to the next. A notable directory it contains is /var/log where system log files are kept.&lt;/li&gt;
-        &lt;/ul&gt;
+        &lt;blockquote&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/bin&lt;/code&gt; is a place for most commonly used terminal commands, like ls, mount, rm, etc.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/boot&lt;/code&gt; contains files needed to start up the system, including the Linux kernel, a RAM disk image and bootloader configuration files.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/dev&lt;/code&gt;  contains all device files, which are not regular files but instead refer to various hardware devices on the system, including hard drives.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/etc&lt;/code&gt;  contains system-global configuration files, which affect the system’s behavior for all users.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/home&lt;/code&gt; home sweet home, this is the place for users’ home directories.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/lib&lt;/code&gt;  contains very important dynamic libraries and kernel modules &lt;code class=&quot;highlighter-rouge&quot;&gt;/media&lt;/code&gt; is intended as a mount point for external devices, such as hard drives or removable media (floppies, CDs, DVDs).&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/mnt&lt;/code&gt;  is also a place for mount points, but dedicated specifically to “temporarily mounted” devices, such as network filesystems.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/opt&lt;/code&gt;  can be used to store additional software for your system, which is not handled by the package manager.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/proc&lt;/code&gt; is a virtual filesystem that provides a mechanism for kernel to send information to processes.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/root&lt;/code&gt; is the superuser’s home directory, not in &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/&lt;/code&gt; to allow for booting the system even if &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/&lt;/code&gt; is not available.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/run&lt;/code&gt;  is a tmpfs (temporary file system) available early in the boot process where ephemeral run-time data is stored. Files under this directory are removed or truncated at the beginning of the boot process. (It deprecates various legacy locations such as &lt;code class=&quot;highlighter-rouge&quot;&gt;/var/run&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;/var/lock&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;/lib/init/rw&lt;/code&gt; in otherwise non-ephemeral directory trees as well as &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/.  &amp;gt; *&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/shm&lt;/code&gt; which are not device files.)&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/sbin&lt;/code&gt; contains important administrative commands that should generally only be employed by the superuser.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/srv&lt;/code&gt;  can contain data directories of services such as HTTP (&lt;code class=&quot;highlighter-rouge&quot;&gt;/srv/www/&lt;/code&gt;) or FTP.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/sys&lt;/code&gt;  is a virtual filesystem that can be accessed to set or obtain information about the kernel’s view of the system.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/tmp&lt;/code&gt;  is a place for temporary files used by applications.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr&lt;/code&gt;  contains the majority of user utilities and applications, and partly replicates the root directory structure, containing for instance, among others, &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/bin/&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/lib&lt;/code&gt;.&lt;/li&gt;
+            &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/var&lt;/code&gt;  is dedicated to variable data, such as logs, databases, websites, and temporary spool (e-mail etc.) files that persist from one boot to the next. A notable directory it contains is /var/log where system log files are kept.&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/blockquote&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
 

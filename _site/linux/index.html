@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>(Ubuntu) Linux Starter Pack with Extended Resources.</title>
+	<title>(Ubuntu) Linux Starter Pack</title>
 
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
@@ -37,7 +37,7 @@
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="(Ubuntu) Linux Starter Pack with Extended Resources.">
+	<meta property="og:title" content="(Ubuntu) Linux Starter Pack">
 	<meta property="og:description" content="">
 	<meta property="og:url" content="http://localhost:4000/linux/">
 	<meta property="og:locale" content="en_EN">
@@ -50,7 +50,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="infominer33">
 	<meta name="twitter:creator" content="infominer33">
-	<meta name="twitter:title" content="(Ubuntu) Linux Starter Pack with Extended Resources.">
+	<meta name="twitter:title" content="(Ubuntu) Linux Starter Pack">
 	<meta name="twitter:description" content="">
 	<meta name="twitter:url" content="http://localhost:4000/linux/">
 	<meta name="twitter:image" content="https://web-work.tools/images/linux.jpeg">
@@ -227,11 +227,6 @@
 
                       
 
-                      <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
-                    
-
-                      
-
                       <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
                     
 
@@ -243,6 +238,11 @@
                       
 
                       <li><a  href="http://localhost:4000/jamstack/trying-git-branches/">Getting Started with Git Branches</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
                     
                   </ul>
 
@@ -361,7 +361,7 @@
 	
 <div class="row t30">
 	<div class="small-12 columns">
-		<img src="https://web-work.tools/images/linux.jpeg" width="970" alt="(Ubuntu) Linux Starter Pack with Extended Resources.">
+		<img src="https://web-work.tools/images/linux.jpeg" width="970" alt="(Ubuntu) Linux Starter Pack">
 		
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
@@ -373,7 +373,7 @@
 		<article>
 			<header>
 				
-				<h1>(Ubuntu) Linux Starter Pack with Extended Resources.</h1>
+				<h1>(Ubuntu) Linux Starter Pack</h1>
 			</header>
 
 			
@@ -649,7 +649,7 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
 <a href="http://manpages.ubuntu.com/manpages/disco/en/man7/hier.7.html">hier - description of the filesystem hierarchy</a></p>
     </blockquote>
 
-    <p><img src="http://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png" alt="http://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png" /></p>
+    <p><img src="https://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png" alt="http://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png" /></p>
 
     <ul>
       <li><a href="https://ryanstutorials.net/linuxtutorial/navigation.php">Linux Tutorial - 2. Master File System Navigation</a>
@@ -658,25 +658,27 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
         </blockquote>
       </li>
       <li><a href="https://help.ubuntu.com/community/LinuxFilesystemTreeOverview">LinuxFilesystemTreeOverview</a>
-        <ul>
-          <li><code class="highlighter-rouge">/bin</code> is a place for most commonly used terminal commands, like ls, mount, rm, etc.</li>
-          <li><code class="highlighter-rouge">/boot</code> contains files needed to start up the system, including the Linux kernel, a RAM disk image and bootloader configuration files.</li>
-          <li><code class="highlighter-rouge">/dev</code>  contains all device files, which are not regular files but instead refer to various hardware devices on the system, including hard drives.</li>
-          <li><code class="highlighter-rouge">/etc</code>  contains system-global configuration files, which affect the system’s behavior for all users.</li>
-          <li><code class="highlighter-rouge">/home</code> home sweet home, this is the place for users’ home directories.</li>
-          <li><code class="highlighter-rouge">/lib</code>  contains very important dynamic libraries and kernel modules <code class="highlighter-rouge">/media</code> is intended as a mount point for external devices, such as hard drives or removable media (floppies, CDs, DVDs).</li>
-          <li><code class="highlighter-rouge">/mnt</code>  is also a place for mount points, but dedicated specifically to “temporarily mounted” devices, such as network filesystems.</li>
-          <li><code class="highlighter-rouge">/opt</code>  can be used to store additional software for your system, which is not handled by the package manager.</li>
-          <li><code class="highlighter-rouge">/proc</code> is a virtual filesystem that provides a mechanism for kernel to send information to processes.</li>
-          <li><code class="highlighter-rouge">/root</code> is the superuser’s home directory, not in <code class="highlighter-rouge">/home/</code> to allow for booting the system even if <code class="highlighter-rouge">/home/</code> is not available.</li>
-          <li><code class="highlighter-rouge">/run</code>  is a tmpfs (temporary file system) available early in the boot process where ephemeral run-time data is stored. Files under this directory are removed or truncated at the beginning of the boot process. (It deprecates various legacy locations such as <code class="highlighter-rouge">/var/run</code>, <code class="highlighter-rouge">/var/lock</code>, <code class="highlighter-rouge">/lib/init/rw</code> in otherwise non-ephemeral directory trees as well as <code class="highlighter-rouge">/dev/.  *</code> and <code class="highlighter-rouge">/dev/shm</code> which are not device files.)</li>
-          <li><code class="highlighter-rouge">/sbin</code> contains important administrative commands that should generally only be employed by the superuser.</li>
-          <li><code class="highlighter-rouge">/srv</code>  can contain data directories of services such as HTTP (<code class="highlighter-rouge">/srv/www/</code>) or FTP.</li>
-          <li><code class="highlighter-rouge">/sys</code>  is a virtual filesystem that can be accessed to set or obtain information about the kernel’s view of the system.</li>
-          <li><code class="highlighter-rouge">/tmp</code>  is a place for temporary files used by applications.</li>
-          <li><code class="highlighter-rouge">/usr</code>  contains the majority of user utilities and applications, and partly replicates the root directory structure, containing for instance, among others, <code class="highlighter-rouge">/usr/bin/</code> and <code class="highlighter-rouge">/usr/lib</code>.</li>
-          <li><code class="highlighter-rouge">/var</code>  is dedicated to variable data, such as logs, databases, websites, and temporary spool (e-mail etc.) files that persist from one boot to the next. A notable directory it contains is /var/log where system log files are kept.</li>
-        </ul>
+        <blockquote>
+          <ul>
+            <li><code class="highlighter-rouge">/bin</code> is a place for most commonly used terminal commands, like ls, mount, rm, etc.</li>
+            <li><code class="highlighter-rouge">/boot</code> contains files needed to start up the system, including the Linux kernel, a RAM disk image and bootloader configuration files.</li>
+            <li><code class="highlighter-rouge">/dev</code>  contains all device files, which are not regular files but instead refer to various hardware devices on the system, including hard drives.</li>
+            <li><code class="highlighter-rouge">/etc</code>  contains system-global configuration files, which affect the system’s behavior for all users.</li>
+            <li><code class="highlighter-rouge">/home</code> home sweet home, this is the place for users’ home directories.</li>
+            <li><code class="highlighter-rouge">/lib</code>  contains very important dynamic libraries and kernel modules <code class="highlighter-rouge">/media</code> is intended as a mount point for external devices, such as hard drives or removable media (floppies, CDs, DVDs).</li>
+            <li><code class="highlighter-rouge">/mnt</code>  is also a place for mount points, but dedicated specifically to “temporarily mounted” devices, such as network filesystems.</li>
+            <li><code class="highlighter-rouge">/opt</code>  can be used to store additional software for your system, which is not handled by the package manager.</li>
+            <li><code class="highlighter-rouge">/proc</code> is a virtual filesystem that provides a mechanism for kernel to send information to processes.</li>
+            <li><code class="highlighter-rouge">/root</code> is the superuser’s home directory, not in <code class="highlighter-rouge">/home/</code> to allow for booting the system even if <code class="highlighter-rouge">/home/</code> is not available.</li>
+            <li><code class="highlighter-rouge">/run</code>  is a tmpfs (temporary file system) available early in the boot process where ephemeral run-time data is stored. Files under this directory are removed or truncated at the beginning of the boot process. (It deprecates various legacy locations such as <code class="highlighter-rouge">/var/run</code>, <code class="highlighter-rouge">/var/lock</code>, <code class="highlighter-rouge">/lib/init/rw</code> in otherwise non-ephemeral directory trees as well as <code class="highlighter-rouge">/dev/.  &gt; *</code> and <code class="highlighter-rouge">/dev/shm</code> which are not device files.)</li>
+            <li><code class="highlighter-rouge">/sbin</code> contains important administrative commands that should generally only be employed by the superuser.</li>
+            <li><code class="highlighter-rouge">/srv</code>  can contain data directories of services such as HTTP (<code class="highlighter-rouge">/srv/www/</code>) or FTP.</li>
+            <li><code class="highlighter-rouge">/sys</code>  is a virtual filesystem that can be accessed to set or obtain information about the kernel’s view of the system.</li>
+            <li><code class="highlighter-rouge">/tmp</code>  is a place for temporary files used by applications.</li>
+            <li><code class="highlighter-rouge">/usr</code>  contains the majority of user utilities and applications, and partly replicates the root directory structure, containing for instance, among others, <code class="highlighter-rouge">/usr/bin/</code> and <code class="highlighter-rouge">/usr/lib</code>.</li>
+            <li><code class="highlighter-rouge">/var</code>  is dedicated to variable data, such as logs, databases, websites, and temporary spool (e-mail etc.) files that persist from one boot to the next. A notable directory it contains is /var/log where system log files are kept.</li>
+          </ul>
+        </blockquote>
       </li>
     </ul>
 
