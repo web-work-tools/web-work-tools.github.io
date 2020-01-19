@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "GitHub Pages-Extended Resources"
 teaser: "Publishing a Website via GitHub pages is free, and easy. Everything you need to publish in one place."
-tags: [jekyll, github-pages, resources, web-publishing]
+tags: ['jekyll', 'github pages', 'ssg']
 categories: ['jamstack']
 
 header: no
@@ -34,16 +34,6 @@ modified: 2019-06-16T15:59:13-23:00
 
 * Continued from [**Github Pages Starter Pack**](/jamstack/github-pages-starter-pack/).
 
-## Related Resources
-
-* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
-* [Content Creation](https://web-work.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://web-work.tools/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
-
-
 ## Customizations
 * [digitaldrummerj.me/categories/jekyll](https://digitaldrummerj.me/categories/jekyll/)
 * [Social Media Share Bar](https://mycyberuniverse.com/social-media-share-bar-jekyll-blog-website.html)
@@ -65,6 +55,10 @@ modified: 2019-06-16T15:59:13-23:00
   * [new feature! added comments to this *static* website](https://www.edwinwenink.xyz/posts/18-comments/)
 * [https://mademistakes.com/articles/jekyll-static-comments/](https://mademistakes.com/articles/jekyll-static-comments/)
   * [https://mademistakes.com/articles/improving-jekyll-static-comments/](https://mademistakes.com/articles/improving-jekyll-static-comments/)
+
+### Image Galleries
+
+
 
 ### Search
 
@@ -146,10 +140,6 @@ Verbose... you get the idea.
 ### Proofers
 
 * [gjtorikian/html-proofer](https://github.com/gjtorikian/html-proofer) - you got broken links bruh
-
-### Linters
-
-coming soon....
 
 ## Technical
 

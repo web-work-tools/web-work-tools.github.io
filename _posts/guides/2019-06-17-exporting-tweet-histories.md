@@ -3,9 +3,8 @@ layout: page-fullwidth
 title: "Twitter Data: Mine, Export, Explore, Publish"
 teaser: "Export your tweets to CSV, filter in a spreadsheet and publish."
 
-tags: ["How-To"]
-categories: ["Content Creation"]
-
+categories: ["content creation", "guides"]
+tags: ["twitter"]
 header: no
 image:
   title: twitter-history-export.jpg

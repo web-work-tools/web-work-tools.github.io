@@ -6,8 +6,8 @@ header: no
 image:
   title: Git_branches_fork.png
 
-categories: ['jamstack']
-tags: [hpstr, jekyll, hugo, theme, migration]
+categories: ['jamstack', 'guides']
+tags: ['git']
 
 redirect_from:
   - /branches-git/

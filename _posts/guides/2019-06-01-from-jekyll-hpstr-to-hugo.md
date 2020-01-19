@@ -2,8 +2,8 @@
 layout: page-fullwidth
 title: "Migrating from Jekyll HPSTR to Hugo"
 
-categories: ['jamstack']
-tags: [hpstr, jekyll, hugo, theme, migration]
+categories: ['jamstack', 'guides']
+tags: ['ssg', 'jekyll', 'hugo', 'github pages']
 
 header: no
 image:

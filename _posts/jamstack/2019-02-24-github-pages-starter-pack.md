@@ -4,7 +4,7 @@ title: "GitHub Pages-Starter Pack"
 teaser: "Publishing a Website via GitHub pages is free, and easy. Everything you need to get going in one place + extended resources."
 
 categories: ['jamstack']
-tags: [jekyll, github-pages, resources, web-publishing]
+tags: ['jekyll', 'ssg', 'github pages']
 
 header: no
 image: 

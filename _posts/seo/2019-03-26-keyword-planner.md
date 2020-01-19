@@ -19,6 +19,7 @@ redirect_from:
 
 ---
 
+
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
@@ -31,7 +32,9 @@ redirect_from:
 
 
 
+<div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include _improve_content.html %}
+
 
 
 This short step-by-step guide will ensure that anyone can try out keyword planner and begin learning how to use this SEO fundamental. It's especially useful if you're not shelling out for expensive keyword tools, right off the bat.
@@ -92,4 +95,4 @@ You can see that there are a lot of ways to explore this data, I'm going to sort
 
 Then I can cut out all of the keywords that are really high volume or by whatever metrics I'm looking at, and use the keywords I get from keyword planner with a number of other tools.
 
-
+</div>

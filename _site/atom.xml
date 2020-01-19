@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Web-work Tools</title>
-	<updated>2019-12-14T22:35:14-05:00</updated>
+	<updated>2020-01-19T01:13:59-05:00</updated>
 
 	<subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle>
 
@@ -588,10 +588,10 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/content/2019-06-17-exporting-tweet-histories.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/guides/2019-06-17-exporting-tweet-histories.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/content/2019-06-17-exporting-tweet-histories.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/guides/2019-06-17-exporting-tweet-histories.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -707,10 +707,12 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 </content>
 
 			
-				<category term="Content Creation" />
+				<category term="content creation" />
+			
+				<category term="guides" />
 			
 			
-				<category term="How-To" />
+				<category term="twitter" />
 			
 
 			<published>2019-06-17T00:00:00-04:00</published>
@@ -1285,13 +1287,15 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 
     &lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
 
+    &lt;p&gt;&lt;a href=&quot;https://teamtreehouse.com/library/introduction-to-git&quot;&gt;Introduction to Git&lt;/a&gt; - 186-minute Development Tools Course 
+&lt;a href=&quot;https://web-work.tools/jamstack/trying-git-branches/&quot;&gt;Create a Test Branch and Merge Back the Changes&lt;/a&gt; »&lt;/p&gt;
+
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;The entire Pro Git book&lt;/a&gt; -written by Scott Chacon and Ben Straub&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/git-tutorial/getting_started&quot;&gt;Learn Enough Git to Be Dangerous&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git&quot;&gt;Atlassian -Getting Git Right&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://guides.github.com/introduction/git-handbook/&quot;&gt;guides.github.com - Git Handbook&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://teamtreehouse.com/library/introduction-to-git&quot;&gt;Introduction to Git&lt;/a&gt; - 186-minute Development Tools Course&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://web-work.tools/branches-git/&quot;&gt;Create a Test Branch and Merge Back the Changes&lt;/a&gt; »&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://git.io/git-tips&quot;&gt;Most commonly used git tips and tricks.&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
     &lt;h3 id=&quot;cheat-sheets&quot;&gt;Cheat Sheets&lt;/h3&gt;
@@ -1322,7 +1326,14 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 
     &lt;h3 id=&quot;submodules&quot;&gt;Submodules&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Tools-Submodules&quot;&gt;Git-Tools-Submodules&lt;/a&gt; - so you can pull other git repos into your project&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Tools-Submodules&quot;&gt;Git Tools - Submodules&lt;/a&gt; - so you can pull other git repos into your project&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gist.github.com/ChristopherA/23ff68d549d990cc7cbbfaacdde4b2ef&quot;&gt;Git Submodule Tips&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/git-submodule&quot;&gt;Atlassian- Git Submodules&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407&quot;&gt;Mastering Git submodules&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dev.to/dwd/git-submodules-revisited-1p54&quot;&gt;Git Submodules Revisited&lt;/a&gt; - &lt;a href=&quot;https://news.ycombinator.com/item?id=17055919&quot;&gt;ycombinator thread&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin/5828396#5828396&quot;&gt;Update Git submodule to latest commit on origin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.blog/2016-02-01-working-with-submodules/&quot;&gt;Working with Submodules&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.vogella.com/tutorials/GitSubmodules/article.html&quot;&gt;Using submodules in Git - Tutorial&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
     &lt;h3 id=&quot;git-workflow&quot;&gt;Git Workflow&lt;/h3&gt;
@@ -1364,11 +1375,7 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
 				<category term="jamstack" />
 			
 			
-				<category term="resources" />
-			
 				<category term="command line" />
-			
-				<category term="terminal" />
 			
 				<category term="git" />
 			
@@ -1453,10 +1460,10 @@ Nutty is a Network Utility made for elementary OS&lt;/p&gt;
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-01-from-jekyll-hpstr-to-hugo.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/guides/2019-06-01-from-jekyll-hpstr-to-hugo.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-01-from-jekyll-hpstr-to-hugo.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/guides/2019-06-01-from-jekyll-hpstr-to-hugo.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -1816,16 +1823,16 @@ enableEmoji = true
 			
 				<category term="jamstack" />
 			
+				<category term="guides" />
 			
-				<category term="hpstr" />
+			
+				<category term="ssg" />
 			
 				<category term="jekyll" />
 			
 				<category term="hugo" />
 			
-				<category term="theme" />
-			
-				<category term="migration" />
+				<category term="github pages" />
 			
 
 			<published>2019-06-01T00:00:00-04:00</published>
@@ -1856,10 +1863,10 @@ enableEmoji = true
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-05-31-branches-git.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/guides/2019-05-31-branches-git.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-05-31-branches-git.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/guides/2019-05-31-branches-git.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -1926,16 +1933,10 @@ git push origin master
 			
 				<category term="jamstack" />
 			
+				<category term="guides" />
 			
-				<category term="hpstr" />
 			
-				<category term="jekyll" />
-			
-				<category term="hugo" />
-			
-				<category term="theme" />
-			
-				<category term="migration" />
+				<category term="git" />
 			
 
 			<published>2019-05-31T00:00:00-04:00</published>
@@ -2100,7 +2101,6 @@ git push origin master
   &lt;li&gt;&lt;a href=&quot;#data-visualization&quot; id=&quot;markdown-toc-data-visualization&quot;&gt;Data Visualization&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#tutes--walkthrus&quot; id=&quot;markdown-toc-tutes--walkthrus&quot;&gt;Tutes \ Walkthrus&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#assorted&quot; id=&quot;markdown-toc-assorted&quot;&gt;Assorted&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#related-posts&quot; id=&quot;markdown-toc-related-posts&quot;&gt;Related Posts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -2113,10 +2113,10 @@ git push origin master
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/content/2019-05-28-content-creation.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-05-28-content-creation.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/content/2019-05-28-content-creation.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-05-28-content-creation.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -2286,24 +2286,14 @@ Where I build webpages.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://konpa.github.io/devicon/&quot;&gt;https://konpa.github.io/devicon/&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;h2 id=&quot;related-posts&quot;&gt;Related Posts&lt;/h2&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://web-work.tools/learn-html-css/&quot;&gt;Learn HTML CSS and Associated Markup Languages&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://web-work.tools/content-creation/&quot;&gt;Content Creation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://web-work.tools/github-pages-extended-resources/&quot;&gt;GitHub Pages Extended Resources&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://web-work.tools/static-site-generators/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://web-work.tools/migrate-jekyll-hpstr-hugo/&quot;&gt;Migrating from Jekyll HPSTR to Hugo HPSTR theme&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://web-work.tools/command-line-git-ssh/&quot;&gt;Command Line - Git - SSH - BASH&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
   &lt;/div&gt;&lt;/div&gt;
 </content>
 
 			
 				<category term="Content Creation" />
 			
+				<category term="JAMStack" />
 			
-				<category term="Tools and Resource" />
 			
 
 			<published>2019-05-28T00:00:00-04:00</published>
@@ -2434,9 +2424,9 @@ topics:
 				<category term="Content Creation" />
 			
 			
-				<category term="github" />
+				<category term="Github" />
 			
-				<category term="how to" />
+				<category term="Guides" />
 			
 
 			<published>2019-05-27T00:00:00-04:00</published>
