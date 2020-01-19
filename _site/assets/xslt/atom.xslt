@@ -233,11 +233,6 @@
 
                       
 
-                      <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
-                    
-
-                      
-
                       <li><a  href="http://localhost:4000/jamstack/html-css/">HTML, CSS, + Markdown</a></li>
                     
 
@@ -249,6 +244,11 @@
                       
 
                       <li><a  href="http://localhost:4000/jamstack/trying-git-branches/">Getting Started with Git Branches</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
                     
                   </ul>
 

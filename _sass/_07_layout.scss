@@ -83,7 +83,7 @@ body.video cite { color: #fff; }
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 #masthead-no-image-header {
-    height: 200px;
+    height: 175px;
 }
 #masthead-no-image-header #logo img {
     margin-top: 60px;
@@ -249,7 +249,7 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #up-to-top {
-    padding: 100px 0 10px 0;
+    padding: 160px 0 10px 0;
 }
 #up-to-top a {
     font-size: 24px;
@@ -267,13 +267,13 @@ body.video cite { color: #fff; }
 
 #footer-content p,
 #footer-content li {
-    font-size: rem-calc(14);
-    font-weight: 600;
+    font-size: rem-calc(13);
+    font-weight: 300;
 }
 
 #footer {
-    padding-top: 15px;
-    padding-bottom: 13px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     background: $footer-bg;
     color: $footer-color;
     }
