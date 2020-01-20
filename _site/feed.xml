@@ -1,37 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-19T14:53:09-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Web-work Tools</title><subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle><author><name>infominer</name></author><entry><title type="html">(Ubuntu) Linux Starter Pack</title><link href="http://localhost:4000/linux/" rel="alternate" type="text/html" title="(Ubuntu) Linux Starter Pack" /><published>2019-11-08T00:00:00-05:00</published><updated>2019-11-08T00:00:00-05:00</updated><id>http://localhost:4000/linux</id><content type="html" xml:base="http://localhost:4000/linux/">&lt;div class=&quot;row&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-20T00:13:25-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Web-work Tools</title><subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle><author><name>infominer</name></author><entry><title type="html">RSS - Curated List</title><link href="http://localhost:4000/rss/" rel="alternate" type="text/html" title="RSS - Curated List" /><published>2020-01-19T00:00:00-05:00</published><updated>2020-01-19T00:00:00-05:00</updated><id>http://localhost:4000/rss</id><content type="html" xml:base="http://localhost:4000/rss/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#setup&quot; id=&quot;markdown-toc-setup&quot;&gt;Setup&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#boot-loaders-and-partition-tables&quot; id=&quot;markdown-toc-boot-loaders-and-partition-tables&quot;&gt;Boot Loaders and Partition Tables&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#partitions&quot; id=&quot;markdown-toc-partitions&quot;&gt;Partitions&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#install-media&quot; id=&quot;markdown-toc-install-media&quot;&gt;Install Media&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#formats&quot; id=&quot;markdown-toc-formats&quot;&gt;Formats&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#rss&quot; id=&quot;markdown-toc-rss&quot;&gt;RSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#atom&quot; id=&quot;markdown-toc-atom&quot;&gt;ATOM&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#microformats&quot; id=&quot;markdown-toc-microformats&quot;&gt;Microformats&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#json&quot; id=&quot;markdown-toc-json&quot;&gt;JSON&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#text&quot; id=&quot;markdown-toc-text&quot;&gt;Text&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#configuration&quot; id=&quot;markdown-toc-configuration&quot;&gt;Configuration&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#dotfiles&quot; id=&quot;markdown-toc-dotfiles&quot;&gt;Dotfiles&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#accounts-and-permissions&quot; id=&quot;markdown-toc-accounts-and-permissions&quot;&gt;Accounts and Permissions&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#desktop&quot; id=&quot;markdown-toc-desktop&quot;&gt;Desktop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#opml&quot; id=&quot;markdown-toc-opml&quot;&gt;OPML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#readers&quot; id=&quot;markdown-toc-readers&quot;&gt;Readers&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#self-hosted&quot; id=&quot;markdown-toc-self-hosted&quot;&gt;Self-Hosted&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#indieweb-readers&quot; id=&quot;markdown-toc-indieweb-readers&quot;&gt;Indieweb Readers&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#use&quot; id=&quot;markdown-toc-use&quot;&gt;Use&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#filesytem-navigation&quot; id=&quot;markdown-toc-filesytem-navigation&quot;&gt;Filesytem Navigation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#prevent-overheating&quot; id=&quot;markdown-toc-prevent-overheating&quot;&gt;Prevent Overheating&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#shell&quot; id=&quot;markdown-toc-shell&quot;&gt;Shell&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#scripting&quot; id=&quot;markdown-toc-scripting&quot;&gt;Scripting&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#zsh&quot; id=&quot;markdown-toc-zsh&quot;&gt;ZSH&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#encrypted-home-folders&quot; id=&quot;markdown-toc-encrypted-home-folders&quot;&gt;Encrypted Home Folders&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#feeds&quot; id=&quot;markdown-toc-feeds&quot;&gt;Feeds&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#github-feeds&quot; id=&quot;markdown-toc-github-feeds&quot;&gt;GitHub Feeds&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#networking&quot; id=&quot;markdown-toc-networking&quot;&gt;Networking&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tools&quot; id=&quot;markdown-toc-tools&quot;&gt;Tools&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#graphics&quot; id=&quot;markdown-toc-graphics&quot;&gt;Graphics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#gnu&quot; id=&quot;markdown-toc-gnu&quot;&gt;🐧-gnu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#version-management&quot; id=&quot;markdown-toc-version-management&quot;&gt;Version Management&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#editors&quot; id=&quot;markdown-toc-editors&quot;&gt;🐧-editors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#generate-feeds&quot; id=&quot;markdown-toc-generate-feeds&quot;&gt;Generate Feeds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#assorted-tools&quot; id=&quot;markdown-toc-assorted-tools&quot;&gt;Assorted Tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#resources&quot; id=&quot;markdown-toc-resources&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -43,10 +35,396 @@
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-11-08-linux.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2020-01-19-rss.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-11-08-linux.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2020-01-19-rss.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.wired.com/2010/02/rss_for_beginnners/&quot;&gt;RSS for Beginnners&lt;/a&gt; - Wired
+        &lt;blockquote&gt;
+          &lt;p&gt;Have you ever noticed those inviting orange buttons on some web pages, or spotted the odd link pitching an “RSS feed”? If you’ve ever clicked one out of curiosity, and then scratched your head at the unformatted gobbledygook in your web browser, you’ve seen an RSS file.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://rss.softwaregarden.com/aboutrss.html&quot;&gt;What is RSS?&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;RSS stands for “Really Simple Syndication”. It is a way to easily distribute a list of headlines, update notices, and sometimes content to a wide number of people. It is used by computer programs that organize those headlines and notices for easy reading.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://davidyat.es/2017/05/18/rss-nothing-better/&quot;&gt;RSS: there’s nothing better&lt;/a&gt; - Yates
+        &lt;blockquote&gt;
+          &lt;p&gt;“Yes, the technology is dated, but it remains the best at what it does and isn’t closed source or tied to some Silicon Valley company. It still works, is widely supported and does what it does better than any alternative that’s come out since. Sometimes, newer isn’t better. Sometimes the problem has already been solved. No blog or news website should be too new or too minimal to support RSS.”&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://beesbuzz.biz/blog/5896-RSS-theres-nothing-better&quot;&gt;RSS: there’s nothing better&lt;/a&gt; - BeezBuzz
+        &lt;blockquote&gt;
+          &lt;p&gt;David Yates wrote a great defense of RSS which I completely agree with.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://twitter.com/simondlr/status/1153700601307566081&quot;&gt;Simon de la Rouviere - @simondlr&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I see on my Medium stats that quite a few people read from RSS Readers.&lt;/p&gt;
+
+          &lt;p&gt;1) Didn’t know Medium offered RSS feeds.
+2) Who still uses RSS (honest question)?
+3) Is this some other syndication happening automatically?&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;formats&quot;&gt;Formats&lt;/h2&gt;
+
+    &lt;h3 id=&quot;rss&quot;&gt;RSS&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://cyber.harvard.edu/rss/rss.html&quot;&gt;RSS 2.0 Spec&lt;/a&gt;, July 2003
+        &lt;blockquote&gt;
+          &lt;p&gt;RSS is a dialect of XML. All RSS files must conform to the &lt;a href=&quot;http://www.w3.org/TR/REC-xml&quot;&gt;XML 1.0 specification&lt;/a&gt;, as published on the World Wide Web Consortium (W3C) website.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;atom&quot;&gt;ATOM&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/feed/docs/atom.html&quot;&gt;INTRODUCTION TO ATOM&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Atom is the name of an XML-based Web content and metadata syndication format, and an application-level protocol for publishing and editing Web resources belonging to periodically updated websites.&lt;/p&gt;
+
+          &lt;p&gt;All Atom feeds must be well-formed XML documents, and are identified with the application/atom+xml media type.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tools.ietf.org/html/rfc4287&quot;&gt;Atom Syndication Spec&lt;/a&gt;, December 2005
+        &lt;blockquote&gt;
+          &lt;p&gt;Atom is an XML-based document format that describes lists of related information known as “feeds”.  Feeds are composed of a number of items, known as “entries”, each with an extensible set of attached metadata.  For example, each entry has a title.&lt;/p&gt;
+
+          &lt;p&gt;The primary use case that Atom addresses is the syndication of Web content such as weblogs and news headlines to Web sites as well as directly to user agents.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;microformats&quot;&gt;Microformats&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://microformats.org/wiki/h-feed&quot;&gt;hFeed&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;h-feed is a simple, open format for publishing a stream or feed of h-entry posts, like complete posts on a home page or archive pages, or summaries or other brief lists of posts. h-feed is one of several open microformat draft standards suitable for embedding data in HTML.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://microformats.org/wiki/h-entry&quot;&gt;h-entry&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;h-entry is a simple, open format for episodic or datestamped content on the web. h-entry is often used with content intended to be syndicated, e.g. blog posts. h-entry is one of several open microformat standards suitable for embedding data in HTML.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;json&quot;&gt;JSON&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/rmlewisuk/awesome-json-feed&quot;&gt;Awesome JSON Feed&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://jsonfeed.org/&quot;&gt;jsonfeed.org&lt;/a&gt; &lt;a href=&quot;https://twitter.com/jsonfeed&quot;&gt;@jsonfeed&lt;/a&gt;) - JSON Feed Project Site
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://jsonfeed.org/version/1&quot;&gt;Spec V1 @ JSON Feed&lt;/a&gt; - Official Specifiaton Version 1.0 - in plain english (yeah!); May 2017&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://jsonfeed.org/code&quot;&gt;Code @ JSON Feed&lt;/a&gt; - JSON Feed Templates, Plugins, Parser, Scripts &amp;amp; More&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feed2json.org/&quot;&gt;feed2json&lt;/a&gt; (github: &lt;a href=&quot;https://github.com/appsattic/feed2json.org&quot;&gt;appsattic/feed2json.org&lt;/a&gt;) - convert rss or atom to json feed&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://json-feed-viewer.herokuapp.com/&quot;&gt;JSON Feed Viewer&lt;/a&gt; (&lt;a href=&quot;https://github.com/maximevaillancourt/json-feed-viewer&quot;&gt;maximevaillancourt/json-feed-viewer&lt;/a&gt;)
+        &lt;blockquote&gt;
+          &lt;p&gt;Browse through the showcased feeds, or enter a feed URL below. Now supporting RSS and Atom feeds thanks to Andrew Chilton’s feed2json.org service&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;text&quot;&gt;Text&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feedtxt.github.io/&quot;&gt;Feed.TXT&lt;/a&gt; (github: &lt;a href=&quot;https://github.com/feedtxt&quot;&gt;feedtxt&lt;/a&gt;) - Feed.TXT Project Site
+        &lt;blockquote&gt;
+          &lt;p&gt;A Feed.txt starts with a meta data block for the feed in YAML format followed by a list of items. Items start with a meta data block followed by the text using the markdown formatting conventions for structured text (headings, lists, tables, etc.) and hyperlinks. That’s it.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;opml&quot;&gt;OPML&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://dev.opml.org/spec2.html&quot;&gt;OPML 2.0&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;OPML is also the file format for an outliner application, which is why OPML files may contain information about the size, position and expansion state of the window the outline is displayed in.&lt;/p&gt;
+
+          &lt;p&gt;OPML has also become popular as a format for exchanging subscription lists between feed readers and aggregators.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://microformats.org/wiki/OPML&quot;&gt;OPML - Microformats Wiki&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;OPML was created by &lt;a href=&quot;http://radio.userland.com/&quot;&gt;UserLand&lt;/a&gt; Software to store and share outlines, hierarchical text documents where child data could be hidden or expanded.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://codebeautify.org/opmlviewer&quot;&gt;OPML Viewer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.lifewire.com/opml-file-2622105&quot;&gt;How to Open, Edit, and Convert OPML Files&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;In a typical OPML file, there’s a &lt;em&gt;&amp;lt;head&amp;gt;&lt;/em&gt; element that describes the title, owner, or some other metadata information. With an RSS feed, this is normally the article’s title. Following that is the &lt;em&gt;&amp;lt;body&amp;gt;&lt;/em&gt; tag that holds the content of what the file is describing, and the *&lt;outline&gt;* element to hold attributes or other outline sub-elements.&lt;/outline&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;readers&quot;&gt;Readers&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://theoldreader.com/&quot;&gt;The Old Reader&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feeder.co/&quot;&gt;feeder.co&lt;/a&gt; - RSS Feed Reader&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/Etuldan/spaRSS&quot;&gt;Etuldan/spaRSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.omgubuntu.co.uk/2017/05/install-feedreader-rss-reader-ubuntu&quot;&gt;Feedreader RSS on Ubuntu&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.thunderbird.net/en-US/&quot;&gt;Thunderbird&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feedly.com/&quot;&gt;Feedly&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://feedly.com/i/cortex&quot;&gt;OPML Import&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feedbin.com/&quot;&gt;Feedbin&lt;/a&gt; - A fast, simple reader that delivers a great reading experience.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://newsblur.com/&quot;&gt;NewsBlur&lt;/a&gt; - NewsBlur is a personal news reader bringing people together to talk about the world&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feedwrangler.net/welcome.html&quot;&gt;Feed Wrangler&lt;/a&gt; - a modern, sustainable RSS reader.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.inoreader.com/&quot;&gt;Inoreader&lt;/a&gt; - The content reader for power users who want to save time.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://reederapp.com/&quot;&gt;Reeder&lt;/a&gt; - A news reader for iOS with support for Feedbin, Feedly, Feed Wrangler, FeedHQ, NewsBlur, The Old Reader, Inoreader, Minimal Reader, BazQux Reader, Fever, Readability and Instapaper.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.tecmint.com/best-rss-feed-readers-for-linux/&quot;&gt;14 Best RSS Feed Readers for Linux in 2018&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;self-hosted&quot;&gt;Self-Hosted&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tt-rss.org/&quot;&gt;Tiny Tiny RSS&lt;/a&gt; - &lt;a href=&quot;https://tt-rss.org/gitlab/fox/tt-rss/wikis/home&quot;&gt;wiki&lt;/a&gt; - Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://tt-rss.org/wiki/InstallationNotes&quot;&gt;Tiny Tiny RSS – Installation Guide&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.feedafever.com/&quot;&gt;Fever&lt;/a&gt; - Fever takes the temperature of your slice of the web and shows you what’s hot.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://selfoss.aditu.de/&quot;&gt;Selfoss&lt;/a&gt; - The new multipurpose rss reader, live stream, mashup, aggregation web application&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;indieweb-readers&quot;&gt;Indieweb Readers&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet&quot;&gt;An IndieWeb reader: My new home on the internet • Aaron Parecki&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://aperture.p3k.io/&quot;&gt;aperture.p3k.io&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;You tell Aperture which feeds you want to follow, and it works behind the scenes collecting new posts. Aperture can follow Microformats, JSON Feed, Atom and RSS feeds.&lt;/p&gt;
+
+          &lt;p&gt;Aperture doesn’t have its own interface for actually reading the posts it collects. Instead, it makes the data available via &lt;a href=&quot;https://indieweb.org/Microsub&quot;&gt;an API&lt;/a&gt;, and you can use &lt;a href=&quot;https://indieweb.org/Microsub#Clients&quot;&gt;a variety of apps&lt;/a&gt; to read your feeds!&lt;/p&gt;
+
+          &lt;p&gt;Aperture provides a way to manage subscriptions and show some debugging info, but normally you won’t interact with it after you’ve set it up, you’ll use a reader.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://indieweb.org/Indigenous&quot;&gt;Indigenous for iPhone&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://indieweb.org/Indigenous_for_Android&quot;&gt;Indigenous for Android&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://indieweb.org/Together&quot;&gt;Together&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://monocle.p3k.io/&quot;&gt;Monocle&lt;/a&gt; - &lt;a href=&quot;https://indieweb.org/Monocle&quot;&gt;@indieweb.org&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Monocle doesn’t subscribe to feeds itself, instead it’s an interface on top of your own feed subscriptions. Your website may already provide this API, or you can use an external service like Aperture, or many others.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;feeds&quot;&gt;Feeds&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/mitmedialab/feed_seeker&quot;&gt;Feed Seeker&lt;/a&gt; - Find rss, atom, xml, and rdf feeds on webpages
+        &lt;blockquote&gt;
+          &lt;p&gt;A library for finding atom, rss, rdf, and xml feeds from web pages. Produced at the &lt;a href=&quot;https://mediacloud.org/&quot;&gt;mediacloud&lt;/a&gt; project. An incremental improvement over &lt;a href=&quot;https://github.com/dfm/feedfinder2&quot;&gt;feedfinder2&lt;/a&gt;, which was itself based on &lt;a href=&quot;http://www.aaronsw.com/2002/feedfinder/&quot;&gt;feedfinder&lt;/a&gt;, written by Mark Pilgrim, and maintained by Aaron Swartz until his untimely death.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds&quot;&gt;Medium&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;To access a user’s feed, add /feed/ before their username, for example: &lt;code class=&quot;highlighter-rouge&quot;&gt;medium.com/feed/@Medium&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://danielmiessler.com/blog/rss-feed-youtube-channel/&quot;&gt;How to Get an RSS Feed for a YouTube Channel&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.youtube.com/feeds/videos.xml?channel_id=UC09ay5PGgpjxX3Zkw1D0GBg&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Youtube Playlist
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.youtube.com/feeds/videos.xml?playlist_id=PLZEbTtxGezRt_BWHCIbo_30ijNnScJDPi&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://getrssfeed.com&quot;&gt;getrssfeed.com&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Paste your iTunes / SoundCloud urls and let the service retrieve the podcast public RSS feed for you&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its&quot;&gt;What other hidden or inobvious RSS feeds are available on Stack Exchange and its sites?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rss-tracker.com/index.php?lang=en&quot;&gt;RSS Tracker - Discover RSS feeds hidden in web sites&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Many web sites fail to highlight the existence of their RSS feeds and they can be difficult to find. Other sites have a large number of feeds but no easy way to subscribe to them globally.&lt;/p&gt;
+
+          &lt;p&gt;rss tracker solves this problem by finding RSS feeds on one or more sites and by providing you with a corresponding OPML file.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://petermolnar.net/rss-is-still-alive/&quot;&gt;HIDDEN AND LESS HIDDEN RSS FEEDS ON SOME MAJOR SOCIAL NETWORKS&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;RSS1 used to be THE thing to follow people all around. It has a gargantuan advantage compared to any “Follow” button on any website: it used to be platform and service independent but centralized in your chosen RSS reader. The reader crawled all the RSS feeds you were “following” from all around the internet - and that’s it. Like e-mail. And it’s also the easiest way to anonymously stalk around. Since Google phased out it’s Reader, RSS slowly started to fade out but some other services still have it - and it’s good for you.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.rsshub.app/en/&quot;&gt;RSSHub&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;RSSHub is an open source, easy to use, and extensible RSS feed aggregator, it’s capable of generating RSS feeds from pretty much everything.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=18323512&quot;&gt;Ask HN: Share your best OPML/RSS Feeds&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;github-feeds&quot;&gt;GitHub Feeds&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed&quot;&gt;Setting up an Github Commit RSS feed - Stack Overflow&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I am trying to have my github commits as an RSS feed but so far I have not managed to figure it out. I know that a private feed is available with the following syntax:&lt;/p&gt;
+
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username.atom?token=token&lt;/code&gt;&lt;/p&gt;
+
+          &lt;p&gt;But this the users activity feed. I would like a commit feed of one of my projects. Thanks in advance!&lt;/p&gt;
+
+          &lt;p&gt;Perfect, thank you!! this was the final syntax:&lt;/p&gt;
+
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username/repository_name/commits/branch_name.atom?login=login&amp;amp;token=token&lt;/code&gt;&lt;/p&gt;
+
+          &lt;p&gt;Still cant view commits on all branches though.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/9542346/atom-rss-feeds-on-github-issues&quot;&gt;Atom/RSS feeds on Github Issues? - Stack Overflow&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I just solved this issue for one of my repos and imported &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; &lt;a href=&quot;http://drupal.org/project/feeds&quot;&gt;feed&lt;/a&gt; items into my &lt;a href=&quot;http://drupal.org/&quot;&gt;drupal&lt;/a&gt; site.&lt;/p&gt;
+
+          &lt;p&gt;I had originally created a feed of only commits using the URL convention:&lt;/p&gt;
+
+          &lt;p&gt;https://github.com/ORG/PROJECT/commits/master.atom&lt;/p&gt;
+
+          &lt;p&gt;but I also wanted a feed of GitHub-Issues and updates to Issues.&lt;/p&gt;
+
+          &lt;p&gt;GitHub appears to now support an “everything” feed with the following convention:&lt;/p&gt;
+
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username.private.actor.atom?token=somehextoken&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.community/t5/How-to-use-Git-and-GitHub/RSS-feeds-for-GitHub-projects/td-p/298&quot;&gt;RSS feeds for GitHub projects - GitHub Community Forum&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/9542346/atom-rss-feeds-on-github-issues&quot;&gt;Atom/RSS feeds on Github Issues? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/imsun/gh-feed&quot;&gt;imsun/gh-feed&lt;/a&gt;: Generate RSS feed from GitHub Issues&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.edwardloveall.com/pull-feed&quot;&gt;Edward Loveall - Pull Feed&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I just launched &lt;a href=&quot;http://pullfeed.co/&quot;&gt;Pull Feed&lt;/a&gt;. It will give you a feed url for new pull requests for any particular GitHub repository. I created it to solve an itch: I wanted to keep up with particular open source projects, but GitHub only offers the ability to “Watch” a repository. Watching means you get notifications for pretty much all forms of activity; new issues, new pull requests, comments, etc. That was too much. I just wanted to know what was being proposed.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://docs.rsshub.app/en/&quot;&gt;RSSHub&lt;/a&gt; Syntax:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://rsshub.app/github/pull/user_name/repository_name/&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://rsshub.app/github/issue/user_name/repository_name/&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;generate-feeds&quot;&gt;Generate Feeds&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/feedparser/feedparser&quot;&gt;feedparser&lt;/a&gt; (&lt;a href=&quot;https://rubygems.org/gems/feedparser&quot;&gt;gem&lt;/a&gt;)
+        &lt;blockquote&gt;
+          &lt;p&gt;feedparser gem - (universal) web feed parser and normalizer (XML w/ Atom or RSS, JSON Feed, HTML w/ Microformats e.g. h-entry/h-feed or Feed.HTML, Feed.TXT w/ YAML, JSON or INI &amp;amp; Markdown, etc.)&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://simplepie.org/&quot;&gt;simplepie&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;SimplePie is a very fast and easy-to-use feed parser, written in PHP, that puts the ‘simple’ back into ‘really simple syndication’. Flexible enough to suit beginners and veterans alike, SimplePie is focused on speed, ease of use, compatibility and standards compliance.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;assorted-tools&quot;&gt;Assorted Tools&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/ttscoff/Slogger&quot;&gt;ttscoff/Slogger&lt;/a&gt; - Social logging script for Day One
+        &lt;blockquote&gt;
+          &lt;p&gt;Slogger indexes various public social services and creates Day One (&lt;a href=&quot;http://dayoneapp.com/&quot;&gt;http://dayoneapp.com/&lt;/a&gt;) journal entries or plain text Markdown files for them. It allows you to keep a personal journal that collects your online social life automatically, all in one place.&lt;/p&gt;
+        &lt;/blockquote&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://gist.github.com/rreeger/3388024&quot;&gt;RSS Feed Resource for Brett Terpstra’s Slogger&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/Downes/gRSShopper&quot;&gt;Downes/gRSShopper&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;gRSShopper is a tool that aggregates, organizes and distributes resources to support online learning&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/danielpetisme/AwesomeNewTabPage-Awesome-RSS-Widget&quot;&gt;danielpetisme/AwesomeNewTabPage-Awesome-RSS-Widget&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dev.to/giteden/prototyping-with-web-components-build-an-rss-reader-4e1h&quot;&gt;Prototyping with Web Components: Build an RSS Reader&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/efermi/awesome-rss&quot;&gt;efermi/awesome-rss&lt;/a&gt;: Puts an RSS/Atom subscribe button back in URL bar&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/feedparser/feedfilter&quot;&gt;feedfilter&lt;/a&gt; (&lt;a href=&quot;https://rubygems.org/gems/feedfilter&quot;&gt;gem&lt;/a&gt;)
+        &lt;blockquote&gt;
+          &lt;p&gt;feedfilter gem - feed filter and rules for easy (re)use&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/voidfiles/awesome-rss&quot;&gt;voidfiles/awesome-rss&lt;/a&gt; - Awesome links related to RSS, ATOM, and Syndication formats.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/feedparser/awesome-feeds&quot;&gt;feedparser/awesome-feeds&lt;/a&gt;: A collection of awesome feeds (formats, parsers, filters, readers, services &amp;amp; tools, templates ‘n’ more) - JSON Feed, RSS, Atom, HTML w/ Microformats, Feed.TXT”&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.xyz/</uri></author><category term="RSS" /><summary type="html">Table of Contents Formats RSS ATOM Microformats JSON Text OPML Readers Self-Hosted Indieweb Readers Feeds GitHub Feeds Generate Feeds Assorted Tools Resources Edit This content is open source. Help improve it. RSS for Beginnners - Wired Have you ever noticed those inviting orange buttons on some web pages, or spotted the odd link pitching an “RSS feed”? If you’ve ever clicked one out of curiosity, and then scratched your head at the unformatted gobbledygook in your web browser, you’ve seen an RSS file. What is RSS? RSS stands for “Really Simple Syndication”. It is a way to easily distribute a list of headlines, update notices, and sometimes content to a wide number of people. It is used by computer programs that organize those headlines and notices for easy reading. RSS: there’s nothing better - Yates “Yes, the technology is dated, but it remains the best at what it does and isn’t closed source or tied to some Silicon Valley company. It still works, is widely supported and does what it does better than any alternative that’s come out since. Sometimes, newer isn’t better. Sometimes the problem has already been solved. No blog or news website should be too new or too minimal to support RSS.” RSS: there’s nothing better - BeezBuzz David Yates wrote a great defense of RSS which I completely agree with. Simon de la Rouviere - @simondlr I see on my Medium stats that quite a few people read from RSS Readers. 1) Didn’t know Medium offered RSS feeds. 2) Who still uses RSS (honest question)? 3) Is this some other syndication happening automatically? Formats RSS RSS 2.0 Spec, July 2003 RSS is a dialect of XML. All RSS files must conform to the XML 1.0 specification, as published on the World Wide Web Consortium (W3C) website. ATOM INTRODUCTION TO ATOM Atom is the name of an XML-based Web content and metadata syndication format, and an application-level protocol for publishing and editing Web resources belonging to periodically updated websites. All Atom feeds must be well-formed XML documents, and are identified with the application/atom+xml media type. Atom Syndication Spec, December 2005 Atom is an XML-based document format that describes lists of related information known as “feeds”. Feeds are composed of a number of items, known as “entries”, each with an extensible set of attached metadata. For example, each entry has a title. The primary use case that Atom addresses is the syndication of Web content such as weblogs and news headlines to Web sites as well as directly to user agents. Microformats hFeed h-feed is a simple, open format for publishing a stream or feed of h-entry posts, like complete posts on a home page or archive pages, or summaries or other brief lists of posts. h-feed is one of several open microformat draft standards suitable for embedding data in HTML. h-entry h-entry is a simple, open format for episodic or datestamped content on the web. h-entry is often used with content intended to be syndicated, e.g. blog posts. h-entry is one of several open microformat standards suitable for embedding data in HTML. JSON Awesome JSON Feed jsonfeed.org @jsonfeed) - JSON Feed Project Site Spec V1 @ JSON Feed - Official Specifiaton Version 1.0 - in plain english (yeah!); May 2017 Code @ JSON Feed - JSON Feed Templates, Plugins, Parser, Scripts &amp;amp; More feed2json (github: appsattic/feed2json.org) - convert rss or atom to json feed JSON Feed Viewer (maximevaillancourt/json-feed-viewer) Browse through the showcased feeds, or enter a feed URL below. Now supporting RSS and Atom feeds thanks to Andrew Chilton’s feed2json.org service Text Feed.TXT (github: feedtxt) - Feed.TXT Project Site A Feed.txt starts with a meta data block for the feed in YAML format followed by a list of items. Items start with a meta data block followed by the text using the markdown formatting conventions for structured text (headings, lists, tables, etc.) and hyperlinks. That’s it. OPML OPML 2.0 OPML is also the file format for an outliner application, which is why OPML files may contain information about the size, position and expansion state of the window the outline is displayed in. OPML has also become popular as a format for exchanging subscription lists between feed readers and aggregators. OPML - Microformats Wiki OPML was created by UserLand Software to store and share outlines, hierarchical text documents where child data could be hidden or expanded. OPML Viewer Pandoc How to Open, Edit, and Convert OPML Files In a typical OPML file, there’s a &amp;lt;head&amp;gt; element that describes the title, owner, or some other metadata information. With an RSS feed, this is normally the article’s title. Following that is the &amp;lt;body&amp;gt; tag that holds the content of what the file is describing, and the ** element to hold attributes or other outline sub-elements. Readers The Old Reader feeder.co - RSS Feed Reader Etuldan/spaRSS Feedreader RSS on Ubuntu Thunderbird Feedly OPML Import Feedbin - A fast, simple reader that delivers a great reading experience. NewsBlur - NewsBlur is a personal news reader bringing people together to talk about the world Feed Wrangler - a modern, sustainable RSS reader. Inoreader - The content reader for power users who want to save time. Reeder - A news reader for iOS with support for Feedbin, Feedly, Feed Wrangler, FeedHQ, NewsBlur, The Old Reader, Inoreader, Minimal Reader, BazQux Reader, Fever, Readability and Instapaper. 14 Best RSS Feed Readers for Linux in 2018 Self-Hosted Tiny Tiny RSS - wiki - Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible. Tiny Tiny RSS – Installation Guide Fever - Fever takes the temperature of your slice of the web and shows you what’s hot. Selfoss - The new multipurpose rss reader, live stream, mashup, aggregation web application Indieweb Readers An IndieWeb reader: My new home on the internet • Aaron Parecki aperture.p3k.io You tell Aperture which feeds you want to follow, and it works behind the scenes collecting new posts. Aperture can follow Microformats, JSON Feed, Atom and RSS feeds. Aperture doesn’t have its own interface for actually reading the posts it collects. Instead, it makes the data available via an API, and you can use a variety of apps to read your feeds! Aperture provides a way to manage subscriptions and show some debugging info, but normally you won’t interact with it after you’ve set it up, you’ll use a reader. Indigenous for iPhone Indigenous for Android Together Monocle - @indieweb.org Monocle doesn’t subscribe to feeds itself, instead it’s an interface on top of your own feed subscriptions. Your website may already provide this API, or you can use an external service like Aperture, or many others. Feeds Feed Seeker - Find rss, atom, xml, and rdf feeds on webpages A library for finding atom, rss, rdf, and xml feeds from web pages. Produced at the mediacloud project. An incremental improvement over feedfinder2, which was itself based on feedfinder, written by Mark Pilgrim, and maintained by Aaron Swartz until his untimely death. Medium To access a user’s feed, add /feed/ before their username, for example: medium.com/feed/@Medium How to Get an RSS Feed for a YouTube Channel https://www.youtube.com/feeds/videos.xml?channel_id=UC09ay5PGgpjxX3Zkw1D0GBg Youtube Playlist https://www.youtube.com/feeds/videos.xml?playlist_id=PLZEbTtxGezRt_BWHCIbo_30ijNnScJDPi getrssfeed.com Paste your iTunes / SoundCloud urls and let the service retrieve the podcast public RSS feed for you What other hidden or inobvious RSS feeds are available on Stack Exchange and its sites? RSS Tracker - Discover RSS feeds hidden in web sites Many web sites fail to highlight the existence of their RSS feeds and they can be difficult to find. Other sites have a large number of feeds but no easy way to subscribe to them globally. rss tracker solves this problem by finding RSS feeds on one or more sites and by providing you with a corresponding OPML file. HIDDEN AND LESS HIDDEN RSS FEEDS ON SOME MAJOR SOCIAL NETWORKS RSS1 used to be THE thing to follow people all around. It has a gargantuan advantage compared to any “Follow” button on any website: it used to be platform and service independent but centralized in your chosen RSS reader. The reader crawled all the RSS feeds you were “following” from all around the internet - and that’s it. Like e-mail. And it’s also the easiest way to anonymously stalk around. Since Google phased out it’s Reader, RSS slowly started to fade out but some other services still have it - and it’s good for you. RSSHub RSSHub is an open source, easy to use, and extensible RSS feed aggregator, it’s capable of generating RSS feeds from pretty much everything. Ask HN: Share your best OPML/RSS Feeds GitHub Feeds Setting up an Github Commit RSS feed - Stack Overflow I am trying to have my github commits as an RSS feed but so far I have not managed to figure it out. I know that a private feed is available with the following syntax: https://github.com/username.atom?token=token But this the users activity feed. I would like a commit feed of one of my projects. Thanks in advance! Perfect, thank you!! this was the final syntax: https://github.com/username/repository_name/commits/branch_name.atom?login=login&amp;amp;token=token Still cant view commits on all branches though. Atom/RSS feeds on Github Issues? - Stack Overflow I just solved this issue for one of my repos and imported GitHub feed items into my drupal site. I had originally created a feed of only commits using the URL convention: https://github.com/ORG/PROJECT/commits/master.atom but I also wanted a feed of GitHub-Issues and updates to Issues. GitHub appears to now support an “everything” feed with the following convention: https://github.com/username.private.actor.atom?token=somehextoken RSS feeds for GitHub projects - GitHub Community Forum Atom/RSS feeds on Github Issues? - Stack Overflow imsun/gh-feed: Generate RSS feed from GitHub Issues Edward Loveall - Pull Feed I just launched Pull Feed. It will give you a feed url for new pull requests for any particular GitHub repository. I created it to solve an itch: I wanted to keep up with particular open source projects, but GitHub only offers the ability to “Watch” a repository. Watching means you get notifications for pretty much all forms of activity; new issues, new pull requests, comments, etc. That was too much. I just wanted to know what was being proposed. RSSHub Syntax: https://rsshub.app/github/pull/user_name/repository_name/ https://rsshub.app/github/issue/user_name/repository_name/ Generate Feeds feedparser (gem) feedparser gem - (universal) web feed parser and normalizer (XML w/ Atom or RSS, JSON Feed, HTML w/ Microformats e.g. h-entry/h-feed or Feed.HTML, Feed.TXT w/ YAML, JSON or INI &amp;amp; Markdown, etc.) simplepie SimplePie is a very fast and easy-to-use feed parser, written in PHP, that puts the ‘simple’ back into ‘really simple syndication’. Flexible enough to suit beginners and veterans alike, SimplePie is focused on speed, ease of use, compatibility and standards compliance. Assorted Tools ttscoff/Slogger - Social logging script for Day One Slogger indexes various public social services and creates Day One (http://dayoneapp.com/) journal entries or plain text Markdown files for them. It allows you to keep a personal journal that collects your online social life automatically, all in one place. RSS Feed Resource for Brett Terpstra’s Slogger Downes/gRSShopper gRSShopper is a tool that aggregates, organizes and distributes resources to support online learning danielpetisme/AwesomeNewTabPage-Awesome-RSS-Widget Prototyping with Web Components: Build an RSS Reader efermi/awesome-rss: Puts an RSS/Atom subscribe button back in URL bar feedfilter (gem) feedfilter gem - feed filter and rules for easy (re)use Resources voidfiles/awesome-rss - Awesome links related to RSS, ATOM, and Syndication formats. feedparser/awesome-feeds: A collection of awesome feeds (formats, parsers, filters, readers, services &amp;amp; tools, templates ‘n’ more) - JSON Feed, RSS, Atom, HTML w/ Microformats, Feed.TXT”</summary></entry><entry><title type="html">(Ubuntu) Linux Starter Pack</title><link href="http://localhost:4000/linux/" rel="alternate" type="text/html" title="(Ubuntu) Linux Starter Pack" /><published>2019-11-08T00:00:00-05:00</published><updated>2019-11-08T00:00:00-05:00</updated><id>http://localhost:4000/linux</id><content type="html" xml:base="http://localhost:4000/linux/">&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
+    &lt;div class=&quot;panel radius&quot;&gt;
+      &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#gnu&quot; id=&quot;markdown-toc-gnu&quot;&gt;Gnu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#distro&quot; id=&quot;markdown-toc-distro&quot;&gt;Distro&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#setup&quot; id=&quot;markdown-toc-setup&quot;&gt;Setup&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#boot-loaders-and-partition-tables&quot; id=&quot;markdown-toc-boot-loaders-and-partition-tables&quot;&gt;Boot Loaders and Partition Tables&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#partitions&quot; id=&quot;markdown-toc-partitions&quot;&gt;Partitions&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#install-media&quot; id=&quot;markdown-toc-install-media&quot;&gt;Install Media&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#configuration&quot; id=&quot;markdown-toc-configuration&quot;&gt;Configuration&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#install&quot; id=&quot;markdown-toc-install&quot;&gt;Install:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dotfiles&quot; id=&quot;markdown-toc-dotfiles&quot;&gt;Dotfiles&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#accounts-and-permissions&quot; id=&quot;markdown-toc-accounts-and-permissions&quot;&gt;Accounts and Permissions&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#desktop&quot; id=&quot;markdown-toc-desktop&quot;&gt;Desktop&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#use&quot; id=&quot;markdown-toc-use&quot;&gt;Use&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#filesytem-navigation&quot; id=&quot;markdown-toc-filesytem-navigation&quot;&gt;Filesytem Navigation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#encrypted-home-folders&quot; id=&quot;markdown-toc-encrypted-home-folders&quot;&gt;Encrypted Home Folders&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#prevent-overheating&quot; id=&quot;markdown-toc-prevent-overheating&quot;&gt;Prevent Overheating&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#shell&quot; id=&quot;markdown-toc-shell&quot;&gt;Shell&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#scripting&quot; id=&quot;markdown-toc-scripting&quot;&gt;Scripting&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#zsh&quot; id=&quot;markdown-toc-zsh&quot;&gt;ZSH&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#networking&quot; id=&quot;markdown-toc-networking&quot;&gt;Networking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tools&quot; id=&quot;markdown-toc-tools&quot;&gt;Tools&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#editors&quot; id=&quot;markdown-toc-editors&quot;&gt;Editors&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#version-management&quot; id=&quot;markdown-toc-version-management&quot;&gt;Version Management&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#graphics&quot; id=&quot;markdown-toc-graphics&quot;&gt;Graphics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!-- /.medium-4.columns --&gt;
+
+
+&lt;div class=&quot;medium-8 medium-pull-4 columns&quot;&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;small-12 columns&quot;&gt;
+	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-11-08-linux.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
+			This content is open source.
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-11-08-linux.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -57,13 +435,63 @@
 
     &lt;p&gt;At the moment, this is just a loosely organized collection of links I found useful, and leads for further exploration.&lt;/p&gt;
 
+    &lt;h2 id=&quot;gnu&quot;&gt;Gnu&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/linux-and-the-gnu-system-fem53q09&quot;&gt;Linux and the GNU System&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called “Linux”, and many of its users arenot aware that it is basically the GNU system, developed by the GNU Project.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/gnu/manifesto.html&quot;&gt;The GNU Manifesto - GNU Project - Free Software Foundation&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I consider that the Golden Rule requires that if I like a program I must share it with other people who like it. Software sellers want to divide the users and conquer them, making each user agree not to share with others. I refuse to break solidarity with other users in this way. I cannot in good conscience sign a nondisclosure agreement or a software license agreement. For years I worked within the Artificial Intelligence Lab to resist such tendencies and other inhospitalities, but eventually they had gone too far: I could not remain in an institution where such things are done for me against my will.&lt;/p&gt;
+
+          &lt;p&gt;So that I can continue to use computers without dishonor, I have decided to put together a sufficient body of free software so that I will be able to get along without any software that is not free. I have resigned from the AI Lab to deny MIT any legal excuse to prevent me from giving GNU away.(2)&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/gnu/gnu-history.html&quot;&gt;Overview of the GNU System - GNU Project - Free Software Foundation&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;The word “free” in “free software” pertains to freedom, not price. You may or may not pay a price to get GNU software. Either way, once you have the software you have four specific freedoms in using it. The freedom to run the program as you wish; the freedom to copy the program and give it away to your friends and co-workers; the freedom to change the program as you wish, by having full access to source code; the freedom to distribute an improved version and thus help build the community. (If you redistribute GNU software, you may charge a fee for the physical act of transferring a copy, or you may give away copies.)&lt;/p&gt;
+
+          &lt;p&gt;The project to develop the GNU system is called the “GNU Project”. The GNU Project was conceived in 1983 as a way of bringing back the cooperative spirit that prevailed in the computing community in earlier days—to make cooperation possible once again by removing the obstacles to cooperation imposed by the owners of proprietary software.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/gnu/why-gnu-linux.html&quot;&gt;What’s in a Name?&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;A great challenge to the future of free software comes from the tendency of the “Linux” distribution companies to add nonfree software to GNU/Linux in the name of convenience and power. All the major commercial distribution developers do this; none limits itself to free software. Most of them do not clearly identify the nonfree packages in their distributions. Many even develop nonfree software and add it to the system. Some outrageously advertise “Linux” systems that are “licensed per seat”, which give the user as much freedom as Microsoft Windows.&lt;/p&gt;
+
+          &lt;p&gt;People try to justify adding nonfree software in the name of the “popularity of Linux”—in effect, valuing popularity above freedom. Sometimes this is openly admitted. For instance, Wired Magazine said that Robert McMillan, editor of Linux Magazine, “feels that the move toward open source software should be fueled by technical, rather than political, decisions.” And Caldera’s CEO openly urged users to drop the goal of freedom and work instead for the “popularity of Linux”.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/gnu/gnu-linux-faq.html&quot;&gt;GNU/Linux FAQ by Richard Stallman&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;distro&quot;&gt;Distro&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS&quot;&gt;Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f…&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.ubuntu.com/lts/installation-guide/i386/install.en.pdf&quot;&gt;Installing Ubuntu 18.04 “Bionic Beaver” For i386&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://itsfoss.com/no-bootable-device-found-ubuntu/&quot;&gt;Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://thishosting.rocks/linux-mint-vs-ubuntu/&quot;&gt;Linux Mint vs Ubuntu: Detailed Comparison&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;If you’re looking for a new Linux distro for your desktop, then you must have stumbled upon Linux Mint and Ubuntu. They are the two most popular desktop Linux distros.&lt;/p&gt;
+
+          &lt;p&gt;Both Linux Mint and Ubuntu have several editions (flavors) to choose from, so we’ll have them in mind while doing this comparison.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/linux4noobs/comments/7vjit9/ubuntu_vs_debian_vs_mint_which_one_do_you_feel_is/&quot;&gt;Ubuntu vs. Debian vs. Mint - which one do you feel is best?&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Please keep in mind privacy, system integrity, ease of use for noobs, etc. Curious for thoughts from the community.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
     &lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS&quot;&gt;Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f…
-&lt;a href=&quot;https://help.ubuntu.com/lts/installation-guide/i386/install.en.pdf&quot;&gt;Installing Ubuntu 18.04 “Bionic Beaver” For i386&lt;/a&gt;
-&lt;a href=&quot;https://itsfoss.com/no-bootable-device-found-ubuntu/&quot;&gt;Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS&lt;/a&gt;&lt;/p&gt;
 
     &lt;h3 id=&quot;boot-loaders-and-partition-tables&quot;&gt;Boot Loaders and Partition Tables&lt;/h3&gt;
 
@@ -81,7 +509,10 @@
         &lt;/blockquote&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.linuxbabe.com/desktop-linux/legacy-bios-vs-uefi-bios&quot;&gt;Explaining UEFI Firmware for Linux Users - LinuxBabe&lt;/a&gt;
-we will focus on BIOS and UEFI. UEFI BIOS or just UEFI? BIOS is just a specific firmware for IBM compatible PC. So we should call it just UEFI.&lt;/li&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;You will see online that many people refer to it as UEFI BIOS. Strictly speaking, this is wrong, because BIOS is not a generic term for firmware. BIOS is a specific firmware for IBM compatible PC, so we should call the newer firmware UEFI.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://help.ubuntu.com/community/UEFI&quot;&gt;https://help.ubuntu.com/community/UEFI&lt;/a&gt;
         &lt;blockquote&gt;
           &lt;p&gt;The Extensible Firmware Interface (EFI) or its version 2.x variant, Unified EFI (UEFI) is a firmware type that is widespread on recent computers, especially those more recent than 2010. It is intended to replace the traditional BIOS firmware that is prevalent on earlier machines. This page provides information about installing and booting Ubuntu using UEFI, as well as about switching between UEFI mode and legacy BIOS mode using Ubuntu. Warning /!\ Most modern computers support both UEFI mode and BIOS mode.&lt;/p&gt;
@@ -143,15 +574,6 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
           &lt;p&gt;When you first create a new Ubuntu 18.04 server, there are a few configuration steps that you should take early on as part of the basic setup. This will increase the security and usability of your server and will give you a solid foundation for subseq&lt;/p&gt;
         &lt;/blockquote&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;vlc, pinta, vscode, keepassxc, git, ssh\gpg&lt;/p&gt;
-
-    &lt;p&gt;Install walpapers from old releases of ubuntu:&lt;/p&gt;
-
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers&lt;/code&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt&quot;&gt;How to install a deb file, by dpkg -i or by apt?&lt;/a&gt;
         &lt;blockquote&gt;
           &lt;p&gt;I have a deb package for installation. Shall I install by dpkg -i my.deb, or by apt? Will both handle the software dependency problem well? If by apt, how can I install from the deb by apt?&lt;/p&gt;
@@ -160,6 +582,13 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
       &lt;li&gt;&lt;a href=&quot;https://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup&quot;&gt;How to mount a new drive on startup&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://askubuntu.com/questions/339/how-can-i-install-a-package-without-root-access&quot;&gt;How can I install a package without root access?&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
+
+    &lt;h4 id=&quot;install&quot;&gt;Install:&lt;/h4&gt;
+    &lt;p&gt;vlc, pinta, vscode, keepassxc, git, ssh\gpg&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;&lt;em&gt;Install walpapers from old releases of ubuntu:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers&lt;/code&gt;&lt;/p&gt;
 
     &lt;h3 id=&quot;dotfiles&quot;&gt;Dotfiles&lt;/h3&gt;
 
@@ -298,6 +727,15 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
       &lt;/li&gt;
     &lt;/ul&gt;
 
+    &lt;h3 id=&quot;encrypted-home-folders&quot;&gt;Encrypted Home Folders&lt;/h3&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://superuser.com/questions/1300415/how-to-decrypt-a-ubuntu-16-10-encrypted-home-folder&quot;&gt;How to decrypt a Ubuntu 16.10 encrypted home folder?&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold…
+&lt;a href=&quot;https://opensourcehacker.com/2011/04/15/encrypted-folders-on-ubuntu-linux-using-ecryptfs-on-an-external-hard-drive/&quot;&gt;Encrypted folders on Ubuntu Linux using eCryptfs on an external ha…&lt;/a&gt;
+This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d…&lt;/p&gt;
+    &lt;/blockquote&gt;
+
     &lt;h3 id=&quot;prevent-overheating&quot;&gt;Prevent Overheating&lt;/h3&gt;
 
     &lt;ul&gt;
@@ -375,18 +813,6 @@ Using sed command to efficiently process text files in linux&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH&quot;&gt;robbyrussell/oh-my-zsh&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;h3 id=&quot;encrypted-home-folders&quot;&gt;Encrypted Home Folders&lt;/h3&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://superuser.com/questions/1300415/how-to-decrypt-a-ubuntu-16-10-encrypted-home-folder&quot;&gt;How to decrypt a Ubuntu 16.10 encrypted home folder?&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold…&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://opensourcehacker.com/2011/04/15/encrypted-folders-on-ubuntu-linux-using-ecryptfs-on-an-external-hard-drive/&quot;&gt;Encrypted folders on Ubuntu Linux using eCryptfs on an external ha…&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d…&lt;/p&gt;
-    &lt;/blockquote&gt;
-
     &lt;h2 id=&quot;networking&quot;&gt;Networking&lt;/h2&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html&quot;&gt;https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html&lt;/a&gt;&lt;/p&gt;
@@ -446,33 +872,7 @@ Kdenlive is an acronym for KDE Non-Linear Video Editor. It is primarily aimed at
     &lt;p&gt;&lt;a href=&quot;https://crontab.guru/&quot;&gt;crontab.guru - the cron schedule expression editor&lt;/a&gt;
 An easy to use editor for crontab schedules.&lt;/p&gt;
 
-    &lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;/h2&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Intel_graphics&quot;&gt;Intel graphics&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions&quot;&gt;https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions&lt;/a&gt;&lt;/p&gt;
-
-    &lt;h2 id=&quot;gnu&quot;&gt;🐧-gnu&lt;/h2&gt;
-
-    &lt;p&gt;GNU Project had been working since 1984&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://hackernoon.com/linux-and-the-gnu-system-fem53q09&quot;&gt;Linux and the GNU System&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;For more information see also the GNU/Linux FAQ, and Why GNU/Linux?&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.gnu.org/gnu/manifesto.html&quot;&gt;The GNU Manifesto - GNU Project - Free Software Foundation&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.gnu.org/gnu/gnu-history.html&quot;&gt;Overview of the GNU System - GNU Project - Free Software Foundation&lt;/a&gt;&lt;/p&gt;
-
-    &lt;h2 id=&quot;version-management&quot;&gt;Version Management&lt;/h2&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://rvm.io/integration/bundler&quot;&gt;https://rvm.io/integration/bundler&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://booyaa.wtf/2018/version-management-ruby-python-node-rust/&quot;&gt;Version Management for Ruby, Python, Node and Rust&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04&quot;&gt;How To Install Ruby on Rails with rbenv on Ubuntu 18.04&lt;/a&gt;&lt;/p&gt;
-
-    &lt;h2 id=&quot;editors&quot;&gt;🐧-editors&lt;/h2&gt;
+    &lt;h3 id=&quot;editors&quot;&gt;Editors&lt;/h3&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=20477793&quot;&gt;Setup VS Code for Efficient PHP Development&lt;/a&gt;&lt;/p&gt;
 
@@ -482,8 +882,22 @@ An easy to use editor for crontab schedules.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=20481512&quot;&gt;History and Effective Use of Vim&lt;/a&gt;&lt;/p&gt;
 
+    &lt;h3 id=&quot;version-management&quot;&gt;Version Management&lt;/h3&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://rvm.io/integration/bundler&quot;&gt;https://rvm.io/integration/bundler&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://booyaa.wtf/2018/version-management-ruby-python-node-rust/&quot;&gt;Version Management for Ruby, Python, Node and Rust&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04&quot;&gt;How To Install Ruby on Rails with rbenv on Ubuntu 18.04&lt;/a&gt;&lt;/p&gt;
+
+    &lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;/h2&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Intel_graphics&quot;&gt;Intel graphics&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions&quot;&gt;https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions&lt;/a&gt;&lt;/p&gt;
+
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.xyz/</uri></author><category term="linux" /><category term="ubuntu" /><summary type="html">Table of Contents Setup Boot Loaders and Partition Tables Partitions Install Media Configuration Dotfiles Accounts and Permissions Desktop Use Filesytem Navigation Prevent Overheating Shell Scripting ZSH Encrypted Home Folders Networking Tools Graphics 🐧-gnu Version Management 🐧-editors Edit This content is open source. Help improve it. I’ve found myself repeating, and having a hard time remembering all of the steps when setting up ubuntu. Over the past 3 years, I started with Mint, as a daily driver, and have moved on to Ubuntu 19.04, and 18.04 LTS. This is now where I’ll be keeping track of this info. Over time, I’ll organize this better, and add some notes for context, and mean to walk through the first steps of a few different setups. At the moment, this is just a loosely organized collection of links I found useful, and leads for further exploration. Setup Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f… Installing Ubuntu 18.04 “Bionic Beaver” For i386 Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS Boot Loaders and Partition Tables Basically all new systems use UEFI. However, if you are shopping for old laptops, or simply installing linux on some old windows machine you have laying around, then you might run into the legacy setup. The deal is how they are partitioned, MBR vs GPT, and can depend upon your BIOS. So it matters to figure out from the beginning what your system requirements are. Actually, when I first installed linux, I just hit the install button, and the installer did its magic. It was only later, I puzzled for quite some time over this matter, when trying to “properly” set up a fresh system, not just letting the installer do all the work. MBR VS GPT, which is the best choice for your computer? If the motherboard on your computer supports UEFI (Unified Extensile Firmware), you can choose GPT. If the motherboard uses legacy BIOS system, you should choose MBR. BIOS does not support GPT-partitioned volumes. Explaining UEFI Firmware for Linux Users - LinuxBabe we will focus on BIOS and UEFI. UEFI BIOS or just UEFI? BIOS is just a specific firmware for IBM compatible PC. So we should call it just UEFI. https://help.ubuntu.com/community/UEFI The Extensible Firmware Interface (EFI) or its version 2.x variant, Unified EFI (UEFI) is a firmware type that is widespread on recent computers, especially those more recent than 2010. It is intended to replace the traditional BIOS firmware that is prevalent on earlier machines. This page provides information about installing and booting Ubuntu using UEFI, as well as about switching between UEFI mode and legacy BIOS mode using Ubuntu. Warning /!\ Most modern computers support both UEFI mode and BIOS mode. How to create an EFI System Partition? help.ubuntu.com/community/Installation/UEFI-and-BIOS Legacy Bios, UEFI and SecureBoot ready Ubuntu Live image customiza… How can I reinstall GRUB to the EFI partition? rhboot/efibootmgr The rEFInd Boot Manager: Installing rEFInd Managing EFI Boot Loaders for Linux: CSM: The Good, the Bad, and the Ugly How do multiple boot loaders work on an EFI system partition https://help.ubuntu.com/community/Boot-Repair Ubuntu installer now supports ZFS on the boot partition Partitions Partitions: Planning Your Linux Installation How I am partitioning the HDD for Linux setup. Gparted - GNOME Partition Editor Causing ZFS corruption for fun, profit, and quality assurance Install Media How to verify a file using an asc signature file? As an example, this project offers an *.asc file with a PGP signature to verify the contents of the download (as opposed to a checksum, you can see the empty column): https://ossec.github.io/downlo… How to Verify a Download in Ubuntu with SHA256 Hash or GPG Key You may have often downloaded some open source software, for instance, various Linux distributions ISO. While downloading, you might also notice a link to download checksum file. What is that link for? Actually, Linux distributions distribute checksum files along with 1. How to create a bootable Linux usb stick (mac) (playlist also includes video for creating linux virtual machine) Configuration How do I configure swappiness? How to add a directory to the PATH? How To Set Up a Firewall with UFW on Ubuntu 18.04 By default, Ubuntu comes with a firewall configuration tool called UFW (Uncomplicated Firewall). UFW is a user-friendly front-end for managing iptables firewall rules and its main goal is to make managing iptables easier or as the name says uncomplicated. Ubuntu 12.10 “Turn screen off when inactive for: Never” still turn… How to install executables Things To Do After Installing Ubuntu 20 Things to do After Installing Ubuntu 18.04 and 18.10 Initial Server Setup with Ubuntu 18.04 When you first create a new Ubuntu 18.04 server, there are a few configuration steps that you should take early on as part of the basic setup. This will increase the security and usability of your server and will give you a solid foundation for subseq vlc, pinta, vscode, keepassxc, git, ssh\gpg Install walpapers from old releases of ubuntu: sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers How to install a deb file, by dpkg -i or by apt? I have a deb package for installation. Shall I install by dpkg -i my.deb, or by apt? Will both handle the software dependency problem well? If by apt, how can I install from the deb by apt? How to mount a new drive on startup How can I install a package without root access? Dotfiles Understanding Linux configuration files This article explains configuration files on a Linux system that control user permissions, system applications, daemons, services, and other administrative tasks in a multi-user, multi-tasking environment. These tasks include managing user accounts, allocating disk quotas, ma… Getting Started With Dotfiles dotfiles.github.io The Rabbithole Series, Part 1 logind.conf.5.en.html The default configuration is defined during compilation, so a configuration file is only needed when it is necessary to deviate from those defaults. By default, the configuration file in /etc/systemd/ contains commented out entries showing the defaults as a guide to the administrator. This file can be edited to create local overrides. Accounts and Permissions I was having a bit of trouble understanding how to properly set up and operate a user alongside and admin acct I guess the idea is that the administrator account is the first created automatically (in ubuntu) then create a user account. Although the default administrator requires password for sudo, since ‘root’ is actually abstracted from the ui. Though not actually root, that administrator does, have generally elevated privs otherwise. So by making a user account, you have an additional layer of security, should some application get loose, it doesn’t inherit any administrator privliges from you but……… to use sudo from the user account you must either su administrator or add the user account to your list of sudoers and if you break sudo by messing up /etc/sudoers then you can use pkexec as an alternative to sudo to fix it How to create sudo user on Ubuntu 18.04 Bionic Beaver Linux - Linu… Accessing sudo from a non-administrator profile How do I add a user to sudoers file? If you want to add another user or if your username did not install Ubuntu, then you must log in as that user who installed Ubuntu, enter sudo -i to get root prompt; and then enter this command visudo. I usually add the users I want to have sudo access. You can also add a group to have sudo access. I prefer just adding the users. I added a space in between the following, so it would format better. # User_Alias ADMINS = jsmith, mikem dbadmin ALL=(ALL) ALL You can also use this command (as root) sudo usermod -a -G sudo hduser How to allow non-superusers to mount any filesystem? Is it possible to allow some particular users (e.g. members of a group) to mount any filesystem without superuser privileges on Linux? Another question might have been “in what ways a user can har… How can I mount partitions in Thunar without password? How To Create a Sudo User on Ubuntu [Quickstart] The sudo command provides a mechanism for granting administrator privileges, ordinarily only available to the root user, to normal users. This guide will show you the easiest way to create a new user with sudo access on Ubuntu, without having to modif How can I run an application with a GUI as admin from a non-admin … I defined 2 user accounts: one with admin privilege (with sudo right) =&amp;gt; lets call it adminuser. a 2nd one without any privilege =&amp;gt; lets call it normaluser and I configure the autologin on this 2n… Removing Root Login And Other First Steps Ubuntu The Ultimate Guide to Linux Users, Groups, and Permissions Everything you need to know about Linux users, groups, and permissions. Learn about Linux users including system users and regular users, switching to the root user, adding users, removing users, the difference between sudo and su, changing permissions, changing ownership w… Understanding Linux Permissions Desktop Customize Ubuntu 18.04 GNOME With These Simple Tips How To Change The GTK, Icon Or GNOME Shell Theme In GNOME How To Make Your Ubuntu Desktop Faster Rotating screen in Ubuntu and Linux Mint Top 20 GNOME Extensions You Should Be Using Right Now You can enhance the capacity of your GNOME desktop with extensions. Here, we list the best GNOME extensions to save you the trouble of finding them on your own. Customize Ubuntu 18.04 GNOME With These Simple Tips Some basic and some interesting GNOME customization tips to get more out of your Ubuntu 18.04 desktop. Use Filesytem Navigation 4.9. /usr/local : Local hierarchy /usr/bin vs /usr/local/bin on Linux Why are there so many places to put a binary in Linux? There are at least these five: /bin/ /sbin/ /usr/bin/ /usr/local/bin/ /usr/local/sbin/ And on my office box, I do not have write permissions… HomeFolder hier - description of the filesystem hierarchy Linux Tutorial - 2. Master File System Navigation This section of the Linux tutorial introduces the basics of the Linux filesystem and commands used to move around it. Also discusses absolute and relative paths. LinuxFilesystemTreeOverview /bin is a place for most commonly used terminal commands, like ls, mount, rm, etc. /boot contains files needed to start up the system, including the Linux kernel, a RAM disk image and bootloader configuration files. /dev contains all device files, which are not regular files but instead refer to various hardware devices on the system, including hard drives. /etc contains system-global configuration files, which affect the system’s behavior for all users. /home home sweet home, this is the place for users’ home directories. /lib contains very important dynamic libraries and kernel modules /media is intended as a mount point for external devices, such as hard drives or removable media (floppies, CDs, DVDs). /mnt is also a place for mount points, but dedicated specifically to “temporarily mounted” devices, such as network filesystems. /opt can be used to store additional software for your system, which is not handled by the package manager. /proc is a virtual filesystem that provides a mechanism for kernel to send information to processes. /root is the superuser’s home directory, not in /home/ to allow for booting the system even if /home/ is not available. /run is a tmpfs (temporary file system) available early in the boot process where ephemeral run-time data is stored. Files under this directory are removed or truncated at the beginning of the boot process. (It deprecates various legacy locations such as /var/run, /var/lock, /lib/init/rw in otherwise non-ephemeral directory trees as well as /dev/. &amp;gt; * and /dev/shm which are not device files.) /sbin contains important administrative commands that should generally only be employed by the superuser. /srv can contain data directories of services such as HTTP (/srv/www/) or FTP. /sys is a virtual filesystem that can be accessed to set or obtain information about the kernel’s view of the system. /tmp is a place for temporary files used by applications. /usr contains the majority of user utilities and applications, and partly replicates the root directory structure, containing for instance, among others, /usr/bin/ and /usr/lib. /var is dedicated to variable data, such as logs, databases, websites, and temporary spool (e-mail etc.) files that persist from one boot to the next. A notable directory it contains is /var/log where system log files are kept. Prevent Overheating Ubuntu: install the meta-package linux-tools-generic Prevent Your Laptop From Overheating With Thermald And Intel P-Sta… Psensor It can monitor: the temperature of the motherboard and CPU sensors (using lm-sensors). the temperature of the NVidia GPUs (using XNVCtrl). the temperature of ATI/AMD GPU Most Effective Ways To Reduce Laptop Overheating In Linux - It’s FOSS How to control fan speed? Intel Temperature Guide Update: Oct 9, 2019 Intel Temperature Guide - by CompuTronix Preface The topic of processor temperatures can be very confusing. Conflicting opinions based on misconceptions concerning terminology, specifications and testing leaves users uncertain of how to properly check … Shell How do I restore .bashrc to its default? typing source /etc/environment will fix path for the moment, then you can replace .bashrc and .profile Processing Text with Linux Shell - Part 1 Using sed command to efficiently process text files in linux Syslog : The Complete System Administrator Guide – devconnected Complete Guide on understanding the Syslog protocol, syslog message format as well as log forwarding. Best practices included! Learn Enough Command Line to Be Dangerous - Introduction to the Unix command line. Mac (Bash) to Windows (Command Prompt) mappings The Unix Shell - Introducing the Shell Bash Beginners Guide This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don’t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world. http://www.hypexr.org/bash_tutorial.php The Bash Academy The new Windows Terminal TIL: A preceding space prevents dangerous commands from going into history Better bash history search with McFly How to Bookmark commands in Terminal Learning the shell - Lesson 3: Looking around 51 Useful Lesser Known Commands for Linux Users Why you should learn just a little Awk - An Awk tutorial by Example 10 simple Linux tips which save 50% of my time in the command line AWK command in Unix/Linux with examples - GeeksforGeeks Processing Text with Linux Shell - Part 2 dylanaraps/pure-bash-bible 15 Practical Grep Command Examples In Linux / UNIX How to Save a File in Vi / Vim Editor in Linux Scripting Shell Scripting Tutorial This tutorial is written to help people understand some of the basics of shell script programming (aka shell scripting), and hopefully to introduce some of the possibilities of simple but powerful programming available under the Bourne shell. As such, it has been written as a… How to write idempotent Bash scripts ZSH Oh My Zsh - a delightful &amp;amp; open source framework for Zsh How to Setup ZSH and Oh-my-zsh on Linux robbyrussell/oh-my-zsh Encrypted Home Folders How to decrypt a Ubuntu 16.10 encrypted home folder? I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold… Encrypted folders on Ubuntu Linux using eCryptfs on an external ha… This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d… Networking https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html How to Find What Devices are Connected to Network in Linux - It’s FOSS How to set a Static IP in Ubuntu – Ubuntu Network Confirguration How to Find What Devices are Connected to Network in Linux - It’s FOSS Setting up an ad-blocking VPN with Wireguard and Pihole https://help.ubuntu.com/community/Internet/ConnectionSharing Connect two computers with SSH in a home LAN I have two ubuntu computer shared the same wifi and desire to reach another from one’s terminal. First create an user on the second computer named “Second” and hostname “Algorithms” Then tried to Nutty Nutty is a Network Utility made for elementary OS How To Set Up a Firewall with UFW on Ubuntu 18.04 By default, Ubuntu comes with a firewall configuration tool called UFW (Uncomplicated Firewall). UFW is a user-friendly front-end for managing iptables firewall rules and its main goal is to make managing iptables easier or as the name says uncomplicated. Linux Server EtherApe EtherApe is a graphical network monitor modeled after etherman. Featuring Ethernet, IP, TCP, FDDI, Token Ring and wireless modes, it displays network activity graphically. https://twitter.com/qw5kcmv3/status/1188145406200500230?s=12 This week we discussed tunneling with SSH, so I feel it is appropriate to highlight this great book dedicated to SSH. You think you know how to use all the features of SSH, but you don’t, and Googling isn’t going to provide you this comprehensive compilation. #DailyBookDrop bryanpkc/corkscrew A tool for tunneling SSH through HTTP proxies. Contribute to bryanpkc/corkscrew development by creating an account on GitHub. Introduction to Linux Hardening Tools Some Awesome Linux Tools To Make Your Tech Life Easier My Favorite Linux Tools ‎Libre Lounge: 27: Cool Tools of Summer ‘19 on Apple Podcasts Top 15 Linux Data Recovery Tools: The Professionals’ Choice Linux data recovery tools are inseparable parts to the Linux users for preserving their data securely surpassing unexpected failure of hard disk. https://kdenlive.org/en/ Kdenlive is an acronym for KDE Non-Linear Video Editor. It is primarily aimed at the GNU/Linux platform but also works on BSD and MacOS. It is currently being ported to Windows as a GSOC project. crontab.guru - the cron schedule expression editor An easy to use editor for crontab schedules. Graphics Intel graphics https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions 🐧-gnu GNU Project had been working since 1984 Linux and the GNU System For more information see also the GNU/Linux FAQ, and Why GNU/Linux? The GNU Manifesto - GNU Project - Free Software Foundation Overview of the GNU System - GNU Project - Free Software Foundation Version Management https://rvm.io/integration/bundler Version Management for Ruby, Python, Node and Rust How To Install Ruby on Rails with rbenv on Ubuntu 18.04 🐧-editors Setup VS Code for Efficient PHP Development PacVim – PacVim is a game that teaches you vim commands “Damn! Now I have to use Vim” History and Effective Use of Vim</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22linux.jpeg%22,%20%22title%22=%3E%22linux.jpeg%22%7D" /></entry><entry><title type="html">Twitter Data: Mine, Export, Explore, Publish</title><link href="http://localhost:4000/content-creation/twitter-export-csv/" rel="alternate" type="text/html" title="Twitter Data: Mine, Export, Explore, Publish" /><published>2019-06-17T00:00:00-04:00</published><updated>2019-06-17T00:00:00-04:00</updated><id>http://localhost:4000/content-creation/exporting-tweet-histories</id><content type="html" xml:base="http://localhost:4000/content-creation/twitter-export-csv/">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.xyz/</uri></author><category term="linux" /><category term="ubuntu" /><summary type="html">Table of Contents Gnu Distro Setup Boot Loaders and Partition Tables Partitions Install Media Configuration Install: Dotfiles Accounts and Permissions Desktop Use Filesytem Navigation Encrypted Home Folders Prevent Overheating Shell Scripting ZSH Networking Tools Editors Version Management Graphics Edit This content is open source. Help improve it. I’ve found myself repeating, and having a hard time remembering all of the steps when setting up ubuntu. Over the past 3 years, I started with Mint, as a daily driver, and have moved on to Ubuntu 19.04, and 18.04 LTS. This is now where I’ll be keeping track of this info. Over time, I’ll organize this better, and add some notes for context, and mean to walk through the first steps of a few different setups. At the moment, this is just a loosely organized collection of links I found useful, and leads for further exploration. Gnu Linux and the GNU System Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called “Linux”, and many of its users arenot aware that it is basically the GNU system, developed by the GNU Project. The GNU Manifesto - GNU Project - Free Software Foundation I consider that the Golden Rule requires that if I like a program I must share it with other people who like it. Software sellers want to divide the users and conquer them, making each user agree not to share with others. I refuse to break solidarity with other users in this way. I cannot in good conscience sign a nondisclosure agreement or a software license agreement. For years I worked within the Artificial Intelligence Lab to resist such tendencies and other inhospitalities, but eventually they had gone too far: I could not remain in an institution where such things are done for me against my will. So that I can continue to use computers without dishonor, I have decided to put together a sufficient body of free software so that I will be able to get along without any software that is not free. I have resigned from the AI Lab to deny MIT any legal excuse to prevent me from giving GNU away.(2) Overview of the GNU System - GNU Project - Free Software Foundation The word “free” in “free software” pertains to freedom, not price. You may or may not pay a price to get GNU software. Either way, once you have the software you have four specific freedoms in using it. The freedom to run the program as you wish; the freedom to copy the program and give it away to your friends and co-workers; the freedom to change the program as you wish, by having full access to source code; the freedom to distribute an improved version and thus help build the community. (If you redistribute GNU software, you may charge a fee for the physical act of transferring a copy, or you may give away copies.) The project to develop the GNU system is called the “GNU Project”. The GNU Project was conceived in 1983 as a way of bringing back the cooperative spirit that prevailed in the computing community in earlier days—to make cooperation possible once again by removing the obstacles to cooperation imposed by the owners of proprietary software. What’s in a Name? A great challenge to the future of free software comes from the tendency of the “Linux” distribution companies to add nonfree software to GNU/Linux in the name of convenience and power. All the major commercial distribution developers do this; none limits itself to free software. Most of them do not clearly identify the nonfree packages in their distributions. Many even develop nonfree software and add it to the system. Some outrageously advertise “Linux” systems that are “licensed per seat”, which give the user as much freedom as Microsoft Windows. People try to justify adding nonfree software in the name of the “popularity of Linux”—in effect, valuing popularity above freedom. Sometimes this is openly admitted. For instance, Wired Magazine said that Robert McMillan, editor of Linux Magazine, “feels that the move toward open source software should be fueled by technical, rather than political, decisions.” And Caldera’s CEO openly urged users to drop the goal of freedom and work instead for the “popularity of Linux”. GNU/Linux FAQ by Richard Stallman Distro Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f… Installing Ubuntu 18.04 “Bionic Beaver” For i386 Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS Linux Mint vs Ubuntu: Detailed Comparison If you’re looking for a new Linux distro for your desktop, then you must have stumbled upon Linux Mint and Ubuntu. They are the two most popular desktop Linux distros. Both Linux Mint and Ubuntu have several editions (flavors) to choose from, so we’ll have them in mind while doing this comparison. Ubuntu vs. Debian vs. Mint - which one do you feel is best? Please keep in mind privacy, system integrity, ease of use for noobs, etc. Curious for thoughts from the community. Setup Boot Loaders and Partition Tables Basically all new systems use UEFI. However, if you are shopping for old laptops, or simply installing linux on some old windows machine you have laying around, then you might run into the legacy setup. The deal is how they are partitioned, MBR vs GPT, and can depend upon your BIOS. So it matters to figure out from the beginning what your system requirements are. Actually, when I first installed linux, I just hit the install button, and the installer did its magic. It was only later, I puzzled for quite some time over this matter, when trying to “properly” set up a fresh system, not just letting the installer do all the work. MBR VS GPT, which is the best choice for your computer? If the motherboard on your computer supports UEFI (Unified Extensile Firmware), you can choose GPT. If the motherboard uses legacy BIOS system, you should choose MBR. BIOS does not support GPT-partitioned volumes. Explaining UEFI Firmware for Linux Users - LinuxBabe You will see online that many people refer to it as UEFI BIOS. Strictly speaking, this is wrong, because BIOS is not a generic term for firmware. BIOS is a specific firmware for IBM compatible PC, so we should call the newer firmware UEFI. https://help.ubuntu.com/community/UEFI The Extensible Firmware Interface (EFI) or its version 2.x variant, Unified EFI (UEFI) is a firmware type that is widespread on recent computers, especially those more recent than 2010. It is intended to replace the traditional BIOS firmware that is prevalent on earlier machines. This page provides information about installing and booting Ubuntu using UEFI, as well as about switching between UEFI mode and legacy BIOS mode using Ubuntu. Warning /!\ Most modern computers support both UEFI mode and BIOS mode. How to create an EFI System Partition? help.ubuntu.com/community/Installation/UEFI-and-BIOS Legacy Bios, UEFI and SecureBoot ready Ubuntu Live image customiza… How can I reinstall GRUB to the EFI partition? rhboot/efibootmgr The rEFInd Boot Manager: Installing rEFInd Managing EFI Boot Loaders for Linux: CSM: The Good, the Bad, and the Ugly How do multiple boot loaders work on an EFI system partition https://help.ubuntu.com/community/Boot-Repair Ubuntu installer now supports ZFS on the boot partition Partitions Partitions: Planning Your Linux Installation How I am partitioning the HDD for Linux setup. Gparted - GNOME Partition Editor Causing ZFS corruption for fun, profit, and quality assurance Install Media How to verify a file using an asc signature file? As an example, this project offers an *.asc file with a PGP signature to verify the contents of the download (as opposed to a checksum, you can see the empty column): https://ossec.github.io/downlo… How to Verify a Download in Ubuntu with SHA256 Hash or GPG Key You may have often downloaded some open source software, for instance, various Linux distributions ISO. While downloading, you might also notice a link to download checksum file. What is that link for? Actually, Linux distributions distribute checksum files along with 1. How to create a bootable Linux usb stick (mac) (playlist also includes video for creating linux virtual machine) Configuration How do I configure swappiness? How to add a directory to the PATH? How To Set Up a Firewall with UFW on Ubuntu 18.04 By default, Ubuntu comes with a firewall configuration tool called UFW (Uncomplicated Firewall). UFW is a user-friendly front-end for managing iptables firewall rules and its main goal is to make managing iptables easier or as the name says uncomplicated. Ubuntu 12.10 “Turn screen off when inactive for: Never” still turn… How to install executables Things To Do After Installing Ubuntu 20 Things to do After Installing Ubuntu 18.04 and 18.10 Initial Server Setup with Ubuntu 18.04 When you first create a new Ubuntu 18.04 server, there are a few configuration steps that you should take early on as part of the basic setup. This will increase the security and usability of your server and will give you a solid foundation for subseq How to install a deb file, by dpkg -i or by apt? I have a deb package for installation. Shall I install by dpkg -i my.deb, or by apt? Will both handle the software dependency problem well? If by apt, how can I install from the deb by apt? How to mount a new drive on startup How can I install a package without root access? Install: vlc, pinta, vscode, keepassxc, git, ssh\gpg Install walpapers from old releases of ubuntu: sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers Dotfiles Understanding Linux configuration files This article explains configuration files on a Linux system that control user permissions, system applications, daemons, services, and other administrative tasks in a multi-user, multi-tasking environment. These tasks include managing user accounts, allocating disk quotas, ma… Getting Started With Dotfiles dotfiles.github.io The Rabbithole Series, Part 1 logind.conf.5.en.html The default configuration is defined during compilation, so a configuration file is only needed when it is necessary to deviate from those defaults. By default, the configuration file in /etc/systemd/ contains commented out entries showing the defaults as a guide to the administrator. This file can be edited to create local overrides. Accounts and Permissions I was having a bit of trouble understanding how to properly set up and operate a user alongside and admin acct I guess the idea is that the administrator account is the first created automatically (in ubuntu) then create a user account. Although the default administrator requires password for sudo, since ‘root’ is actually abstracted from the ui. Though not actually root, that administrator does, have generally elevated privs otherwise. So by making a user account, you have an additional layer of security, should some application get loose, it doesn’t inherit any administrator privliges from you but……… to use sudo from the user account you must either su administrator or add the user account to your list of sudoers and if you break sudo by messing up /etc/sudoers then you can use pkexec as an alternative to sudo to fix it How to create sudo user on Ubuntu 18.04 Bionic Beaver Linux - Linu… Accessing sudo from a non-administrator profile How do I add a user to sudoers file? If you want to add another user or if your username did not install Ubuntu, then you must log in as that user who installed Ubuntu, enter sudo -i to get root prompt; and then enter this command visudo. I usually add the users I want to have sudo access. You can also add a group to have sudo access. I prefer just adding the users. I added a space in between the following, so it would format better. # User_Alias ADMINS = jsmith, mikem dbadmin ALL=(ALL) ALL You can also use this command (as root) sudo usermod -a -G sudo hduser How to allow non-superusers to mount any filesystem? Is it possible to allow some particular users (e.g. members of a group) to mount any filesystem without superuser privileges on Linux? Another question might have been “in what ways a user can har… How can I mount partitions in Thunar without password? How To Create a Sudo User on Ubuntu [Quickstart] The sudo command provides a mechanism for granting administrator privileges, ordinarily only available to the root user, to normal users. This guide will show you the easiest way to create a new user with sudo access on Ubuntu, without having to modif How can I run an application with a GUI as admin from a non-admin … I defined 2 user accounts: one with admin privilege (with sudo right) =&amp;gt; lets call it adminuser. a 2nd one without any privilege =&amp;gt; lets call it normaluser and I configure the autologin on this 2n… Removing Root Login And Other First Steps Ubuntu The Ultimate Guide to Linux Users, Groups, and Permissions Everything you need to know about Linux users, groups, and permissions. Learn about Linux users including system users and regular users, switching to the root user, adding users, removing users, the difference between sudo and su, changing permissions, changing ownership w… Understanding Linux Permissions Desktop Customize Ubuntu 18.04 GNOME With These Simple Tips How To Change The GTK, Icon Or GNOME Shell Theme In GNOME How To Make Your Ubuntu Desktop Faster Rotating screen in Ubuntu and Linux Mint Top 20 GNOME Extensions You Should Be Using Right Now You can enhance the capacity of your GNOME desktop with extensions. Here, we list the best GNOME extensions to save you the trouble of finding them on your own. Customize Ubuntu 18.04 GNOME With These Simple Tips Some basic and some interesting GNOME customization tips to get more out of your Ubuntu 18.04 desktop. Use Filesytem Navigation 4.9. /usr/local : Local hierarchy /usr/bin vs /usr/local/bin on Linux Why are there so many places to put a binary in Linux? There are at least these five: /bin/ /sbin/ /usr/bin/ /usr/local/bin/ /usr/local/sbin/ And on my office box, I do not have write permissions… HomeFolder hier - description of the filesystem hierarchy Linux Tutorial - 2. Master File System Navigation This section of the Linux tutorial introduces the basics of the Linux filesystem and commands used to move around it. Also discusses absolute and relative paths. LinuxFilesystemTreeOverview /bin is a place for most commonly used terminal commands, like ls, mount, rm, etc. /boot contains files needed to start up the system, including the Linux kernel, a RAM disk image and bootloader configuration files. /dev contains all device files, which are not regular files but instead refer to various hardware devices on the system, including hard drives. /etc contains system-global configuration files, which affect the system’s behavior for all users. /home home sweet home, this is the place for users’ home directories. /lib contains very important dynamic libraries and kernel modules /media is intended as a mount point for external devices, such as hard drives or removable media (floppies, CDs, DVDs). /mnt is also a place for mount points, but dedicated specifically to “temporarily mounted” devices, such as network filesystems. /opt can be used to store additional software for your system, which is not handled by the package manager. /proc is a virtual filesystem that provides a mechanism for kernel to send information to processes. /root is the superuser’s home directory, not in /home/ to allow for booting the system even if /home/ is not available. /run is a tmpfs (temporary file system) available early in the boot process where ephemeral run-time data is stored. Files under this directory are removed or truncated at the beginning of the boot process. (It deprecates various legacy locations such as /var/run, /var/lock, /lib/init/rw in otherwise non-ephemeral directory trees as well as /dev/. &amp;gt; * and /dev/shm which are not device files.) /sbin contains important administrative commands that should generally only be employed by the superuser. /srv can contain data directories of services such as HTTP (/srv/www/) or FTP. /sys is a virtual filesystem that can be accessed to set or obtain information about the kernel’s view of the system. /tmp is a place for temporary files used by applications. /usr contains the majority of user utilities and applications, and partly replicates the root directory structure, containing for instance, among others, /usr/bin/ and /usr/lib. /var is dedicated to variable data, such as logs, databases, websites, and temporary spool (e-mail etc.) files that persist from one boot to the next. A notable directory it contains is /var/log where system log files are kept. Encrypted Home Folders How to decrypt a Ubuntu 16.10 encrypted home folder? I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold… Encrypted folders on Ubuntu Linux using eCryptfs on an external ha… This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d… Prevent Overheating Ubuntu: install the meta-package linux-tools-generic Prevent Your Laptop From Overheating With Thermald And Intel P-Sta… Psensor It can monitor: the temperature of the motherboard and CPU sensors (using lm-sensors). the temperature of the NVidia GPUs (using XNVCtrl). the temperature of ATI/AMD GPU Most Effective Ways To Reduce Laptop Overheating In Linux - It’s FOSS How to control fan speed? Intel Temperature Guide Update: Oct 9, 2019 Intel Temperature Guide - by CompuTronix Preface The topic of processor temperatures can be very confusing. Conflicting opinions based on misconceptions concerning terminology, specifications and testing leaves users uncertain of how to properly check … Shell How do I restore .bashrc to its default? typing source /etc/environment will fix path for the moment, then you can replace .bashrc and .profile Processing Text with Linux Shell - Part 1 Using sed command to efficiently process text files in linux Syslog : The Complete System Administrator Guide – devconnected Complete Guide on understanding the Syslog protocol, syslog message format as well as log forwarding. Best practices included! Learn Enough Command Line to Be Dangerous - Introduction to the Unix command line. Mac (Bash) to Windows (Command Prompt) mappings The Unix Shell - Introducing the Shell Bash Beginners Guide This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don’t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world. http://www.hypexr.org/bash_tutorial.php The Bash Academy The new Windows Terminal TIL: A preceding space prevents dangerous commands from going into history Better bash history search with McFly How to Bookmark commands in Terminal Learning the shell - Lesson 3: Looking around 51 Useful Lesser Known Commands for Linux Users Why you should learn just a little Awk - An Awk tutorial by Example 10 simple Linux tips which save 50% of my time in the command line AWK command in Unix/Linux with examples - GeeksforGeeks Processing Text with Linux Shell - Part 2 dylanaraps/pure-bash-bible 15 Practical Grep Command Examples In Linux / UNIX How to Save a File in Vi / Vim Editor in Linux Scripting Shell Scripting Tutorial This tutorial is written to help people understand some of the basics of shell script programming (aka shell scripting), and hopefully to introduce some of the possibilities of simple but powerful programming available under the Bourne shell. As such, it has been written as a… How to write idempotent Bash scripts ZSH Oh My Zsh - a delightful &amp;amp; open source framework for Zsh How to Setup ZSH and Oh-my-zsh on Linux robbyrussell/oh-my-zsh Networking https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html How to Find What Devices are Connected to Network in Linux - It’s FOSS How to set a Static IP in Ubuntu – Ubuntu Network Confirguration How to Find What Devices are Connected to Network in Linux - It’s FOSS Setting up an ad-blocking VPN with Wireguard and Pihole https://help.ubuntu.com/community/Internet/ConnectionSharing Connect two computers with SSH in a home LAN I have two ubuntu computer shared the same wifi and desire to reach another from one’s terminal. First create an user on the second computer named “Second” and hostname “Algorithms” Then tried to Nutty Nutty is a Network Utility made for elementary OS How To Set Up a Firewall with UFW on Ubuntu 18.04 By default, Ubuntu comes with a firewall configuration tool called UFW (Uncomplicated Firewall). UFW is a user-friendly front-end for managing iptables firewall rules and its main goal is to make managing iptables easier or as the name says uncomplicated. Linux Server EtherApe EtherApe is a graphical network monitor modeled after etherman. Featuring Ethernet, IP, TCP, FDDI, Token Ring and wireless modes, it displays network activity graphically. https://twitter.com/qw5kcmv3/status/1188145406200500230?s=12 This week we discussed tunneling with SSH, so I feel it is appropriate to highlight this great book dedicated to SSH. You think you know how to use all the features of SSH, but you don’t, and Googling isn’t going to provide you this comprehensive compilation. #DailyBookDrop bryanpkc/corkscrew A tool for tunneling SSH through HTTP proxies. Contribute to bryanpkc/corkscrew development by creating an account on GitHub. Introduction to Linux Hardening Tools Some Awesome Linux Tools To Make Your Tech Life Easier My Favorite Linux Tools ‎Libre Lounge: 27: Cool Tools of Summer ‘19 on Apple Podcasts Top 15 Linux Data Recovery Tools: The Professionals’ Choice Linux data recovery tools are inseparable parts to the Linux users for preserving their data securely surpassing unexpected failure of hard disk. https://kdenlive.org/en/ Kdenlive is an acronym for KDE Non-Linear Video Editor. It is primarily aimed at the GNU/Linux platform but also works on BSD and MacOS. It is currently being ported to Windows as a GSOC project. crontab.guru - the cron schedule expression editor An easy to use editor for crontab schedules. Editors Setup VS Code for Efficient PHP Development PacVim – PacVim is a game that teaches you vim commands “Damn! Now I have to use Vim” History and Effective Use of Vim Version Management https://rvm.io/integration/bundler Version Management for Ruby, Python, Node and Rust How To Install Ruby on Rails with rbenv on Ubuntu 18.04 Graphics Intel graphics https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22linux.jpeg%22,%20%22title%22=%3E%22linux.jpeg%22%7D" /></entry><entry><title type="html">Twitter Data: Mine, Export, Explore, Publish</title><link href="http://localhost:4000/content-creation/twitter-export-csv/" rel="alternate" type="text/html" title="Twitter Data: Mine, Export, Explore, Publish" /><published>2019-06-17T00:00:00-04:00</published><updated>2019-06-17T00:00:00-04:00</updated><id>http://localhost:4000/content-creation/exporting-tweet-histories</id><content type="html" xml:base="http://localhost:4000/content-creation/twitter-export-csv/">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
@@ -923,10 +1337,10 @@ An easy to use editor for crontab schedules.&lt;/p&gt;
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-06-command-line-git-ssh.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-06-06-command-line-git-ssh.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-06-command-line-git-ssh.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-06-06-command-line-git-ssh.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -1748,10 +2162,10 @@ git push origin master
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-05-28-content-creation.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-05-28-content-creation.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-05-28-content-creation.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-05-28-content-creation.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -1921,100 +2335,4 @@ Where I build webpages.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://konpa.github.io/devicon/&quot;&gt;https://konpa.github.io/devicon/&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
-  &lt;/div&gt;&lt;/div&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.xyz/</uri></author><summary type="html">Table of Contents Basics Text Plagiarism Editors Images Public Domain - Stock Images Converters Sizes Optimization Infographics Video Archiving Wiki Data Visualization Tutes \ Walkthrus Assorted Edit This content is open source. Help improve it. This is where I keep track of tools and information surrounding content creation. Basics Mastering Markdown Markdown Cheet-Sheet Text Text Cleaner - cleans up all kinds of text formatting when copying and pasting between applications. wordle - word cloud generator Yahoo Pipes combines feeds “into content and other magical creations”. https://www.pcjs.org - IBM PC simulation that runs in your web browser Plagiarism Copyscape - Make sure you didn’t plagiarize, even from yourself. Editors Visual Studio Code Where I build webpages. This thing has extensions for all your coding needs… It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.). Learn Enough Text Editor to Be Dangerous - Vim So, What’s a Text Editor? …an introduction for newbies HackMD - Collaborative Markdown Editor https://hackmd.io - Collaborative markdown editor (where I write everything else). Getting started Tutorial How to Create a Book YAML Metadata See also demo.codimd.org/ Images Public Domain - Stock Images nacyot/awesome-opensource-documents neutraltone/awesome-stock-resources shime/creative-commons-media idleberg/Creative-Commons-Markdown - snippets to add CC license to your work. Converters pdf2png pptx-to-pdf pdf to html coolwanglu/pdf2htmlEX Sizes Twitter-Image Sizes Header Image Sizing Guide Aspect Ratio Calculator Optimization The web loooves big old beautiful high quality images… However, my visitors probably notice the load time of huge images more than I do (though I do notice them). https://ezgif.com/optimize cross-platform tool for losslessly optimizing PNG and JPG files for web. - https://trimage.org/ command-line utility and a library for lossy compression of PNG images. The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - pngquant Infographics Canva Infographic Creator easel.ly - free create infographics Content Strategy Tool - Find inspiration for your content marketing topics Google Public Data - content research, infographics, and more. Google SERP Snippet Optimization Tool - see how your snippet may appear in search results. infogr.am - create infographics and data visualizations https://www341.lunapic.com/editor/ Piktochart - visualization generator. Video Amara - create captions for YouTube videos. Wistia - SEO-friendly video hosting. Archiving Web Archive for WayBack Machine iipc/awesome-web-archiving webapps.stackexchange.com - how-to-archive-the-whole-website httrack.com https://hostadvice.com/how-to/how-to-install-apache-mysql-php-on-an-ubuntu-18-04-vps/ https://askubuntu.com/questions/448424/unable-to-open-php-files-on-linux-platform-on-ubuntu Wiki en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia en.wikipedia.org/wiki/Help:Cheatsheet Data Visualization rendering-data-as-graphs Creating a dynamic d3 visualization from the GitHub API Visualize GitHub Code Contribution using APP Link tools-visualize-github-profile/ In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control. - Data Visualization for All - Modify and Host Code with GitHub by Jack Dougherty &amp;amp; Ilya Ilyankou Tutes \ Walkthrus How to Create an Open-Source Directory on GitHub Pages What You Can Do With Gists on Github? Assorted https://konpa.github.io/devicon/</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22content-creation.png%22%7D" /></entry><entry><title type="html">Infominer’s GitHub Portfolio and HowTo</title><link href="http://localhost:4000/content-creation/github-portfolio/" rel="alternate" type="text/html" title="Infominer's GitHub Portfolio and HowTo" /><published>2019-05-27T00:00:00-04:00</published><updated>2019-05-27T00:00:00-04:00</updated><id>http://localhost:4000/content-creation/make-a-github-portfolio</id><content type="html" xml:base="http://localhost:4000/content-creation/github-portfolio/">&lt;p&gt;I haven’t played with this in a while, but I suspect I need to do something in that portfolio to freshen up its view. All the same, I have the steps I took to get this far, right here:&lt;/p&gt;
-
-&lt;h2 id=&quot;step-1&quot;&gt;Step 1&lt;/h2&gt;
-
-&lt;p&gt;Fork this repository:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/github/personal-website&quot;&gt;github/personal-website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;step-2&quot;&gt;Step 2&lt;/h2&gt;
-
-&lt;p&gt;Go to settings and select publish from master branch:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/UAhVvRPl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step-3&quot;&gt;Step 3&lt;/h2&gt;
-
-&lt;p&gt;If you already have a web-page, then maybe you aren’t reading this.. Either way, you must name your repository as the same as your username (or the organizations name) on github. So my first website’s repository name is &lt;a href=&quot;https://github.com/infominer33/infominer33.github.io&quot;&gt;infominer33.github.io&lt;/a&gt; since my github username is infominer33. Now it publishes to &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer.id&lt;/code&gt; (but also &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer33.github.io&lt;/code&gt;) because I have a custom domain, and every other repository I publish from my user account, rather than in an organization, is a branch of that first domain.&lt;/p&gt;
-
-&lt;p&gt;Since I already have a primary webpage, I change my repository name to &lt;code class=&quot;highlighter-rouge&quot;&gt;repo-portfolio&lt;/code&gt;. That way, it lives at:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://infominer.id/repo-portfolio/&quot;&gt;infominer.id/repo-portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/yL5BaNxl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step-4&quot;&gt;Step 4&lt;/h2&gt;
-
-&lt;p&gt;On github pages, &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 12
-  exclude:
-    archived: false
-    forks: false
-    projects:
-      - pub-yes
-      - yest
-      - archive-crypto
-      - yest-the-docs
-      - bahamas-crypto
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;you can also configure social media accounts.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;social_media:
-  website: https://infominer.xyz/
-  keybase: infominer
-  telegram: infominer33
-  twitter: infominer33
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # unsplash: your_username
-  # vk: your_username
-  # youtube: your_username
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;and topics of interest:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-topics:
-  - name: Bitcoin
-    web_url: https://github.com/topics/bitcoin
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
-
-  - name: Decentralized Identity
-    web_url: https://github.com/topics/decentralized-identity
-    image_url: https://decentralized-id.com/assets/icons/didicon.png
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Cool beans, right?&lt;/p&gt;
-
-&lt;p&gt;There are also blog features, although I’m not sure I’ll blog there… who knows!?!?&lt;/p&gt;
-
-&lt;p&gt;I haven’t looked through the &lt;a href=&quot;https://github.com/github/personal-website/issues&quot;&gt;issues&lt;/a&gt;, or &lt;a href=&quot;https://github.com/github/personal-website/pulls&quot;&gt;pull-requests&lt;/a&gt; yet to see what folk are working on, or tried to tweak any of the quirks I’ve noticed..&lt;/p&gt;
-
-&lt;p&gt;If you want to learn more about GitHub Pages, check out:&lt;/p&gt;
-
-&lt;figure class=&quot;full&quot;&gt;
-	&lt;img src=&quot;https://web-work.tools/images/gh-pages-starter-pack.png&quot; alt=&quot;&quot; /&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;https://web-work.tools/jamstack/github-pages-starter-pack//&quot;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.xyz/</uri></author><category term="Github" /><category term="Guides" /><summary type="html">I haven’t played with this in a while, but I suspect I need to do something in that portfolio to freshen up its view. All the same, I have the steps I took to get this far, right here: Step 1 Fork this repository: github/personal-website Step 2 Go to settings and select publish from master branch: Step 3 If you already have a web-page, then maybe you aren’t reading this.. Either way, you must name your repository as the same as your username (or the organizations name) on github. So my first website’s repository name is infominer33.github.io since my github username is infominer33. Now it publishes to infominer.id (but also infominer33.github.io) because I have a custom domain, and every other repository I publish from my user account, rather than in an organization, is a branch of that first domain. Since I already have a primary webpage, I change my repository name to repo-portfolio. That way, it lives at: infominer.id/repo-portfolio Step 4 On github pages, _config.yml lives in the root directory of each webpage, this is where you can fine tune settings which repositories display: projects: sort_by: pushed # sort_by options: # - pushed # - stars limit: 12 exclude: archived: false forks: false projects: - pub-yes - yest - archive-crypto - yest-the-docs - bahamas-crypto you can also configure social media accounts. social_media: website: https://infominer.xyz/ keybase: infominer telegram: infominer33 twitter: infominer33 # behance: your_username # dribbble: your_username # facebook: your_username # hackerrank: your_username # instagram: your_username # linkedin: your_username # mastodon: your_username # medium: your_username # stackoverflow: your_user_id # unsplash: your_username # vk: your_username # youtube: your_username and topics of interest: topics: - name: Bitcoin web_url: https://github.com/topics/bitcoin image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png - name: Decentralized Identity web_url: https://github.com/topics/decentralized-identity image_url: https://decentralized-id.com/assets/icons/didicon.png Cool beans, right? There are also blog features, although I’m not sure I’ll blog there… who knows!?!? I haven’t looked through the issues, or pull-requests yet to see what folk are working on, or tried to tweak any of the quirks I’ve noticed.. If you want to learn more about GitHub Pages, check out: GitHub Pages - Starter Pack:Extended Resources</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22title%22=%3E%22infominer33-github-portfolio.jpeg%22,%20%22caption%22=%3E%22infominer.id/repo-portfolio%22,%20%22caption_url%22=%3E%22https://infominer.id/repo-portfolio%22%7D" /></entry></feed>
+  &lt;/div&gt;&lt;/div&gt;</content><author><name>infominer</name><email>infominer@protonmail.com</email><uri>https://infominer.xyz/</uri></author><summary type="html">Table of Contents Basics Text Plagiarism Editors Images Public Domain - Stock Images Converters Sizes Optimization Infographics Video Archiving Wiki Data Visualization Tutes \ Walkthrus Assorted Edit This content is open source. Help improve it. This is where I keep track of tools and information surrounding content creation. Basics Mastering Markdown Markdown Cheet-Sheet Text Text Cleaner - cleans up all kinds of text formatting when copying and pasting between applications. wordle - word cloud generator Yahoo Pipes combines feeds “into content and other magical creations”. https://www.pcjs.org - IBM PC simulation that runs in your web browser Plagiarism Copyscape - Make sure you didn’t plagiarize, even from yourself. Editors Visual Studio Code Where I build webpages. This thing has extensions for all your coding needs… It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.). Learn Enough Text Editor to Be Dangerous - Vim So, What’s a Text Editor? …an introduction for newbies HackMD - Collaborative Markdown Editor https://hackmd.io - Collaborative markdown editor (where I write everything else). Getting started Tutorial How to Create a Book YAML Metadata See also demo.codimd.org/ Images Public Domain - Stock Images nacyot/awesome-opensource-documents neutraltone/awesome-stock-resources shime/creative-commons-media idleberg/Creative-Commons-Markdown - snippets to add CC license to your work. Converters pdf2png pptx-to-pdf pdf to html coolwanglu/pdf2htmlEX Sizes Twitter-Image Sizes Header Image Sizing Guide Aspect Ratio Calculator Optimization The web loooves big old beautiful high quality images… However, my visitors probably notice the load time of huge images more than I do (though I do notice them). https://ezgif.com/optimize cross-platform tool for losslessly optimizing PNG and JPG files for web. - https://trimage.org/ command-line utility and a library for lossy compression of PNG images. The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - pngquant Infographics Canva Infographic Creator easel.ly - free create infographics Content Strategy Tool - Find inspiration for your content marketing topics Google Public Data - content research, infographics, and more. Google SERP Snippet Optimization Tool - see how your snippet may appear in search results. infogr.am - create infographics and data visualizations https://www341.lunapic.com/editor/ Piktochart - visualization generator. Video Amara - create captions for YouTube videos. Wistia - SEO-friendly video hosting. Archiving Web Archive for WayBack Machine iipc/awesome-web-archiving webapps.stackexchange.com - how-to-archive-the-whole-website httrack.com https://hostadvice.com/how-to/how-to-install-apache-mysql-php-on-an-ubuntu-18-04-vps/ https://askubuntu.com/questions/448424/unable-to-open-php-files-on-linux-platform-on-ubuntu Wiki en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia en.wikipedia.org/wiki/Help:Cheatsheet Data Visualization rendering-data-as-graphs Creating a dynamic d3 visualization from the GitHub API Visualize GitHub Code Contribution using APP Link tools-visualize-github-profile/ In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control. - Data Visualization for All - Modify and Host Code with GitHub by Jack Dougherty &amp;amp; Ilya Ilyankou Tutes \ Walkthrus How to Create an Open-Source Directory on GitHub Pages What You Can Do With Gists on Github? Assorted https://konpa.github.io/devicon/</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22thumb%22=%3E%22content-creation.png%22%7D" /></entry></feed>
