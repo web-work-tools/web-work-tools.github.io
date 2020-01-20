@@ -5,6 +5,7 @@
 	<id>http://localhost:4000/</id>
 	<title>Web-work Tools</title>
 	<updated>2020-01-20T00:13:25-05:00</updated>
+	<updated>2020-01-19T16:28:22-05:00</updated>
 
 	<subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle>
 
@@ -554,6 +555,7 @@
     &lt;/ul&gt;
 
     &lt;h2 id=&quot;distro&quot;&gt;Distro&lt;/h2&gt;
+<<<<<<< HEAD
 
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS&quot;&gt;Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora&lt;/a&gt;
@@ -567,6 +569,21 @@
         &lt;blockquote&gt;
           &lt;p&gt;If you’re looking for a new Linux distro for your desktop, then you must have stumbled upon Linux Mint and Ubuntu. They are the two most popular desktop Linux distros.&lt;/p&gt;
 
+=======
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS&quot;&gt;Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f…&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.ubuntu.com/lts/installation-guide/i386/install.en.pdf&quot;&gt;Installing Ubuntu 18.04 “Bionic Beaver” For i386&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://itsfoss.com/no-bootable-device-found-ubuntu/&quot;&gt;Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://thishosting.rocks/linux-mint-vs-ubuntu/&quot;&gt;Linux Mint vs Ubuntu: Detailed Comparison&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;If you’re looking for a new Linux distro for your desktop, then you must have stumbled upon Linux Mint and Ubuntu. They are the two most popular desktop Linux distros.&lt;/p&gt;
+
+>>>>>>> 478e3e55ac1108c93635660fc4e318f3e93dc844
           &lt;p&gt;Both Linux Mint and Ubuntu have several editions (flavors) to choose from, so we’ll have them in mind while doing this comparison.&lt;/p&gt;
         &lt;/blockquote&gt;
       &lt;/li&gt;
