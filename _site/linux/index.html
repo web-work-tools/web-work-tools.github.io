@@ -244,6 +244,11 @@
 
                       <li><a  href="http://localhost:4000/content-creation/twitter-export-csv/">Exploring Twitter Data</a></li>
                     
+
+                      
+
+                      <li><a  href="http://localhost:4000/linux/">Ubuntu Linux Starter Pack</a></li>
+                    
                   </ul>
 
               </li>
@@ -387,6 +392,8 @@
     <div class="panel radius">
       <p id="toc"><strong>Table of Contents</strong></p>
 <ul id="markdown-toc">
+  <li><a href="#gnu" id="markdown-toc-gnu">Gnu</a></li>
+  <li><a href="#distro" id="markdown-toc-distro">Distro</a></li>
   <li><a href="#setup" id="markdown-toc-setup">Setup</a>    <ul>
       <li><a href="#boot-loaders-and-partition-tables" id="markdown-toc-boot-loaders-and-partition-tables">Boot Loaders and Partition Tables</a></li>
       <li><a href="#partitions" id="markdown-toc-partitions">Partitions</a></li>
@@ -394,6 +401,7 @@
     </ul>
   </li>
   <li><a href="#configuration" id="markdown-toc-configuration">Configuration</a>    <ul>
+      <li><a href="#install" id="markdown-toc-install">Install:</a></li>
       <li><a href="#dotfiles" id="markdown-toc-dotfiles">Dotfiles</a></li>
       <li><a href="#accounts-and-permissions" id="markdown-toc-accounts-and-permissions">Accounts and Permissions</a></li>
       <li><a href="#desktop" id="markdown-toc-desktop">Desktop</a></li>
@@ -401,21 +409,22 @@
   </li>
   <li><a href="#use" id="markdown-toc-use">Use</a>    <ul>
       <li><a href="#filesytem-navigation" id="markdown-toc-filesytem-navigation">Filesytem Navigation</a></li>
+      <li><a href="#encrypted-home-folders" id="markdown-toc-encrypted-home-folders">Encrypted Home Folders</a></li>
       <li><a href="#prevent-overheating" id="markdown-toc-prevent-overheating">Prevent Overheating</a></li>
       <li><a href="#shell" id="markdown-toc-shell">Shell</a>        <ul>
           <li><a href="#scripting" id="markdown-toc-scripting">Scripting</a></li>
           <li><a href="#zsh" id="markdown-toc-zsh">ZSH</a></li>
         </ul>
       </li>
-      <li><a href="#encrypted-home-folders" id="markdown-toc-encrypted-home-folders">Encrypted Home Folders</a></li>
     </ul>
   </li>
   <li><a href="#networking" id="markdown-toc-networking">Networking</a></li>
-  <li><a href="#tools" id="markdown-toc-tools">Tools</a></li>
+  <li><a href="#tools" id="markdown-toc-tools">Tools</a>    <ul>
+      <li><a href="#editors" id="markdown-toc-editors">Editors</a></li>
+      <li><a href="#version-management" id="markdown-toc-version-management">Version Management</a></li>
+    </ul>
+  </li>
   <li><a href="#graphics" id="markdown-toc-graphics">Graphics</a></li>
-  <li><a href="#gnu" id="markdown-toc-gnu">🐧-gnu</a></li>
-  <li><a href="#version-management" id="markdown-toc-version-management">Version Management</a></li>
-  <li><a href="#editors" id="markdown-toc-editors">🐧-editors</a></li>
 </ul>
 
     </div>
@@ -427,10 +436,10 @@
     <div class="row">
 	<div class="small-12 columns">
 	<div class="panel radius" style="padding-bottom: 21px;">
-			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-11-08-linux.md">Edit</a>
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-11-08-linux.md">Edit</a>
 			<p style="margin-top: 3px;">
 			This content is open source.
-			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-11-08-linux.md">Help improve it</a>.</p>
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-11-08-linux.md">Help improve it</a>.</p>
 		</div>
 	</div>
 </div>
@@ -441,13 +450,63 @@
 
     <p>At the moment, this is just a loosely organized collection of links I found useful, and leads for further exploration.</p>
 
+    <h2 id="gnu">Gnu</h2>
+
+    <ul>
+      <li><a href="https://hackernoon.com/linux-and-the-gnu-system-fem53q09">Linux and the GNU System</a>
+        <blockquote>
+          <p>Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called “Linux”, and many of its users arenot aware that it is basically the GNU system, developed by the GNU Project.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.gnu.org/gnu/manifesto.html">The GNU Manifesto - GNU Project - Free Software Foundation</a>
+        <blockquote>
+          <p>I consider that the Golden Rule requires that if I like a program I must share it with other people who like it. Software sellers want to divide the users and conquer them, making each user agree not to share with others. I refuse to break solidarity with other users in this way. I cannot in good conscience sign a nondisclosure agreement or a software license agreement. For years I worked within the Artificial Intelligence Lab to resist such tendencies and other inhospitalities, but eventually they had gone too far: I could not remain in an institution where such things are done for me against my will.</p>
+
+          <p>So that I can continue to use computers without dishonor, I have decided to put together a sufficient body of free software so that I will be able to get along without any software that is not free. I have resigned from the AI Lab to deny MIT any legal excuse to prevent me from giving GNU away.(2)</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.gnu.org/gnu/gnu-history.html">Overview of the GNU System - GNU Project - Free Software Foundation</a>
+        <blockquote>
+          <p>The word “free” in “free software” pertains to freedom, not price. You may or may not pay a price to get GNU software. Either way, once you have the software you have four specific freedoms in using it. The freedom to run the program as you wish; the freedom to copy the program and give it away to your friends and co-workers; the freedom to change the program as you wish, by having full access to source code; the freedom to distribute an improved version and thus help build the community. (If you redistribute GNU software, you may charge a fee for the physical act of transferring a copy, or you may give away copies.)</p>
+
+          <p>The project to develop the GNU system is called the “GNU Project”. The GNU Project was conceived in 1983 as a way of bringing back the cooperative spirit that prevailed in the computing community in earlier days—to make cooperation possible once again by removing the obstacles to cooperation imposed by the owners of proprietary software.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.gnu.org/gnu/why-gnu-linux.html">What’s in a Name?</a>
+        <blockquote>
+          <p>A great challenge to the future of free software comes from the tendency of the “Linux” distribution companies to add nonfree software to GNU/Linux in the name of convenience and power. All the major commercial distribution developers do this; none limits itself to free software. Most of them do not clearly identify the nonfree packages in their distributions. Many even develop nonfree software and add it to the system. Some outrageously advertise “Linux” systems that are “licensed per seat”, which give the user as much freedom as Microsoft Windows.</p>
+
+          <p>People try to justify adding nonfree software in the name of the “popularity of Linux”—in effect, valuing popularity above freedom. Sometimes this is openly admitted. For instance, Wired Magazine said that Robert McMillan, editor of Linux Magazine, “feels that the move toward open source software should be fueled by technical, rather than political, decisions.” And Caldera’s CEO openly urged users to drop the goal of freedom and work instead for the “popularity of Linux”.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.gnu.org/gnu/gnu-linux-faq.html">GNU/Linux FAQ by Richard Stallman</a></li>
+    </ul>
+
+    <h2 id="distro">Distro</h2>
+
+    <ul>
+      <li><a href="https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS">Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora</a>
+        <blockquote>
+          <p>Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f…</p>
+        </blockquote>
+      </li>
+      <li><a href="https://help.ubuntu.com/lts/installation-guide/i386/install.en.pdf">Installing Ubuntu 18.04 “Bionic Beaver” For i386</a></li>
+      <li><a href="https://itsfoss.com/no-bootable-device-found-ubuntu/">Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS</a></li>
+      <li><a href="https://thishosting.rocks/linux-mint-vs-ubuntu/">Linux Mint vs Ubuntu: Detailed Comparison</a>
+        <blockquote>
+          <p>If you’re looking for a new Linux distro for your desktop, then you must have stumbled upon Linux Mint and Ubuntu. They are the two most popular desktop Linux distros.</p>
+
+          <p>Both Linux Mint and Ubuntu have several editions (flavors) to choose from, so we’ll have them in mind while doing this comparison.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.reddit.com/r/linux4noobs/comments/7vjit9/ubuntu_vs_debian_vs_mint_which_one_do_you_feel_is/">Ubuntu vs. Debian vs. Mint - which one do you feel is best?</a>
+        <blockquote>
+          <p>Please keep in mind privacy, system integrity, ease of use for noobs, etc. Curious for thoughts from the community.</p>
+        </blockquote>
+      </li>
+    </ul>
+
     <h2 id="setup">Setup</h2>
-
-    <p><a href="https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS">Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora</a></p>
-
-    <p>Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f…
-<a href="https://help.ubuntu.com/lts/installation-guide/i386/install.en.pdf">Installing Ubuntu 18.04 “Bionic Beaver” For i386</a>
-<a href="https://itsfoss.com/no-bootable-device-found-ubuntu/">Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS</a></p>
 
     <h3 id="boot-loaders-and-partition-tables">Boot Loaders and Partition Tables</h3>
 
@@ -465,7 +524,10 @@
         </blockquote>
       </li>
       <li><a href="https://www.linuxbabe.com/desktop-linux/legacy-bios-vs-uefi-bios">Explaining UEFI Firmware for Linux Users - LinuxBabe</a>
-we will focus on BIOS and UEFI. UEFI BIOS or just UEFI? BIOS is just a specific firmware for IBM compatible PC. So we should call it just UEFI.</li>
+        <blockquote>
+          <p>You will see online that many people refer to it as UEFI BIOS. Strictly speaking, this is wrong, because BIOS is not a generic term for firmware. BIOS is a specific firmware for IBM compatible PC, so we should call the newer firmware UEFI.</p>
+        </blockquote>
+      </li>
       <li><a href="https://help.ubuntu.com/community/UEFI">https://help.ubuntu.com/community/UEFI</a>
         <blockquote>
           <p>The Extensible Firmware Interface (EFI) or its version 2.x variant, Unified EFI (UEFI) is a firmware type that is widespread on recent computers, especially those more recent than 2010. It is intended to replace the traditional BIOS firmware that is prevalent on earlier machines. This page provides information about installing and booting Ubuntu using UEFI, as well as about switching between UEFI mode and legacy BIOS mode using Ubuntu. Warning /!\ Most modern computers support both UEFI mode and BIOS mode.</p>
@@ -527,15 +589,6 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
           <p>When you first create a new Ubuntu 18.04 server, there are a few configuration steps that you should take early on as part of the basic setup. This will increase the security and usability of your server and will give you a solid foundation for subseq</p>
         </blockquote>
       </li>
-    </ul>
-
-    <p>vlc, pinta, vscode, keepassxc, git, ssh\gpg</p>
-
-    <p>Install walpapers from old releases of ubuntu:</p>
-
-    <p><code class="highlighter-rouge">sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers</code></p>
-
-    <ul>
       <li><a href="https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt">How to install a deb file, by dpkg -i or by apt?</a>
         <blockquote>
           <p>I have a deb package for installation. Shall I install by dpkg -i my.deb, or by apt? Will both handle the software dependency problem well? If by apt, how can I install from the deb by apt?</p>
@@ -544,6 +597,13 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
       <li><a href="https://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup">How to mount a new drive on startup</a></li>
       <li><a href="https://askubuntu.com/questions/339/how-can-i-install-a-package-without-root-access">How can I install a package without root access?</a></li>
     </ul>
+
+    <h4 id="install">Install:</h4>
+    <p>vlc, pinta, vscode, keepassxc, git, ssh\gpg</p>
+
+    <p><strong><em>Install walpapers from old releases of ubuntu:</em></strong></p>
+
+    <p><code class="highlighter-rouge">sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers</code></p>
 
     <h3 id="dotfiles">Dotfiles</h3>
 
@@ -682,6 +742,15 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
       </li>
     </ul>
 
+    <h3 id="encrypted-home-folders">Encrypted Home Folders</h3>
+
+    <p><a href="https://superuser.com/questions/1300415/how-to-decrypt-a-ubuntu-16-10-encrypted-home-folder">How to decrypt a Ubuntu 16.10 encrypted home folder?</a></p>
+    <blockquote>
+      <p>I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold…
+<a href="https://opensourcehacker.com/2011/04/15/encrypted-folders-on-ubuntu-linux-using-ecryptfs-on-an-external-hard-drive/">Encrypted folders on Ubuntu Linux using eCryptfs on an external ha…</a>
+This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d…</p>
+    </blockquote>
+
     <h3 id="prevent-overheating">Prevent Overheating</h3>
 
     <ul>
@@ -759,18 +828,6 @@ Using sed command to efficiently process text files in linux</li>
       <li><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH">robbyrussell/oh-my-zsh</a></li>
     </ul>
 
-    <h3 id="encrypted-home-folders">Encrypted Home Folders</h3>
-
-    <p><a href="https://superuser.com/questions/1300415/how-to-decrypt-a-ubuntu-16-10-encrypted-home-folder">How to decrypt a Ubuntu 16.10 encrypted home folder?</a></p>
-    <blockquote>
-      <p>I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold…</p>
-    </blockquote>
-
-    <p><a href="https://opensourcehacker.com/2011/04/15/encrypted-folders-on-ubuntu-linux-using-ecryptfs-on-an-external-hard-drive/">Encrypted folders on Ubuntu Linux using eCryptfs on an external ha…</a></p>
-    <blockquote>
-      <p>This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d…</p>
-    </blockquote>
-
     <h2 id="networking">Networking</h2>
 
     <p><a href="https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html">https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html</a></p>
@@ -830,33 +887,7 @@ Kdenlive is an acronym for KDE Non-Linear Video Editor. It is primarily aimed at
     <p><a href="https://crontab.guru/">crontab.guru - the cron schedule expression editor</a>
 An easy to use editor for crontab schedules.</p>
 
-    <h2 id="graphics">Graphics</h2>
-
-    <p><a href="https://wiki.archlinux.org/index.php/Intel_graphics">Intel graphics</a></p>
-
-    <p><a href="https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions">https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions</a></p>
-
-    <h2 id="gnu">🐧-gnu</h2>
-
-    <p>GNU Project had been working since 1984</p>
-
-    <p><a href="https://hackernoon.com/linux-and-the-gnu-system-fem53q09">Linux and the GNU System</a></p>
-
-    <p>For more information see also the GNU/Linux FAQ, and Why GNU/Linux?</p>
-
-    <p><a href="https://www.gnu.org/gnu/manifesto.html">The GNU Manifesto - GNU Project - Free Software Foundation</a></p>
-
-    <p><a href="https://www.gnu.org/gnu/gnu-history.html">Overview of the GNU System - GNU Project - Free Software Foundation</a></p>
-
-    <h2 id="version-management">Version Management</h2>
-
-    <p><a href="https://rvm.io/integration/bundler">https://rvm.io/integration/bundler</a></p>
-
-    <p><a href="https://booyaa.wtf/2018/version-management-ruby-python-node-rust/">Version Management for Ruby, Python, Node and Rust</a></p>
-
-    <p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04">How To Install Ruby on Rails with rbenv on Ubuntu 18.04</a></p>
-
-    <h2 id="editors">🐧-editors</h2>
+    <h3 id="editors">Editors</h3>
 
     <p><a href="https://news.ycombinator.com/item?id=20477793">Setup VS Code for Efficient PHP Development</a></p>
 
@@ -865,6 +896,20 @@ An easy to use editor for crontab schedules.</p>
     <p><a href="https://dev.to/pencillr/looks-like-i-have-to-use-vim-now-3988">“Damn! Now I have to use Vim”</a></p>
 
     <p><a href="https://news.ycombinator.com/item?id=20481512">History and Effective Use of Vim</a></p>
+
+    <h3 id="version-management">Version Management</h3>
+
+    <p><a href="https://rvm.io/integration/bundler">https://rvm.io/integration/bundler</a></p>
+
+    <p><a href="https://booyaa.wtf/2018/version-management-ruby-python-node-rust/">Version Management for Ruby, Python, Node and Rust</a></p>
+
+    <p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04">How To Install Ruby on Rails with rbenv on Ubuntu 18.04</a></p>
+
+    <h2 id="graphics">Graphics</h2>
+
+    <p><a href="https://wiki.archlinux.org/index.php/Intel_graphics">Intel graphics</a></p>
+
+    <p><a href="https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions">https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions</a></p>
 
   </div>
 </div>

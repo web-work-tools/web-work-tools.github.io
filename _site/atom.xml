@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Web-work Tools</title>
-	<updated>2020-01-19T14:53:09-05:00</updated>
+	<updated>2020-01-20T00:13:25-05:00</updated>
 
 	<subtitle>A living collection of useful tools and guides, as I grind my way thru web-work fundamentals.</subtitle>
 
@@ -28,6 +28,414 @@
 
 	<generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
 
+	
+		<entry>
+			<id>http://localhost:4000/rss/</id>
+			<title>RSS - Curated List</title>
+			<link href="http://localhost:4000/rss/" rel="alternate" type="text/html" title="RSS - Curated List" />
+			<updated>2020-01-19T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>infominer</name>
+					
+					
+						<email>infominer@protonmail.com</email>
+					
+					
+						<uri>https://infominer.xyz/</uri>
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="http://localhost:4000/rss/">&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
+    &lt;div class=&quot;panel radius&quot;&gt;
+      &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#formats&quot; id=&quot;markdown-toc-formats&quot;&gt;Formats&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#rss&quot; id=&quot;markdown-toc-rss&quot;&gt;RSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#atom&quot; id=&quot;markdown-toc-atom&quot;&gt;ATOM&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#microformats&quot; id=&quot;markdown-toc-microformats&quot;&gt;Microformats&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#json&quot; id=&quot;markdown-toc-json&quot;&gt;JSON&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#text&quot; id=&quot;markdown-toc-text&quot;&gt;Text&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#opml&quot; id=&quot;markdown-toc-opml&quot;&gt;OPML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#readers&quot; id=&quot;markdown-toc-readers&quot;&gt;Readers&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#self-hosted&quot; id=&quot;markdown-toc-self-hosted&quot;&gt;Self-Hosted&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#indieweb-readers&quot; id=&quot;markdown-toc-indieweb-readers&quot;&gt;Indieweb Readers&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#feeds&quot; id=&quot;markdown-toc-feeds&quot;&gt;Feeds&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#github-feeds&quot; id=&quot;markdown-toc-github-feeds&quot;&gt;GitHub Feeds&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#generate-feeds&quot; id=&quot;markdown-toc-generate-feeds&quot;&gt;Generate Feeds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#assorted-tools&quot; id=&quot;markdown-toc-assorted-tools&quot;&gt;Assorted Tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#resources&quot; id=&quot;markdown-toc-resources&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!-- /.medium-4.columns --&gt;
+
+
+&lt;div class=&quot;medium-8 medium-pull-4 columns&quot;&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;small-12 columns&quot;&gt;
+	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2020-01-19-rss.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
+			This content is open source.
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2020-01-19-rss.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.wired.com/2010/02/rss_for_beginnners/&quot;&gt;RSS for Beginnners&lt;/a&gt; - Wired
+        &lt;blockquote&gt;
+          &lt;p&gt;Have you ever noticed those inviting orange buttons on some web pages, or spotted the odd link pitching an “RSS feed”? If you’ve ever clicked one out of curiosity, and then scratched your head at the unformatted gobbledygook in your web browser, you’ve seen an RSS file.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://rss.softwaregarden.com/aboutrss.html&quot;&gt;What is RSS?&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;RSS stands for “Really Simple Syndication”. It is a way to easily distribute a list of headlines, update notices, and sometimes content to a wide number of people. It is used by computer programs that organize those headlines and notices for easy reading.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://davidyat.es/2017/05/18/rss-nothing-better/&quot;&gt;RSS: there’s nothing better&lt;/a&gt; - Yates
+        &lt;blockquote&gt;
+          &lt;p&gt;“Yes, the technology is dated, but it remains the best at what it does and isn’t closed source or tied to some Silicon Valley company. It still works, is widely supported and does what it does better than any alternative that’s come out since. Sometimes, newer isn’t better. Sometimes the problem has already been solved. No blog or news website should be too new or too minimal to support RSS.”&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://beesbuzz.biz/blog/5896-RSS-theres-nothing-better&quot;&gt;RSS: there’s nothing better&lt;/a&gt; - BeezBuzz
+        &lt;blockquote&gt;
+          &lt;p&gt;David Yates wrote a great defense of RSS which I completely agree with.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://twitter.com/simondlr/status/1153700601307566081&quot;&gt;Simon de la Rouviere - @simondlr&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I see on my Medium stats that quite a few people read from RSS Readers.&lt;/p&gt;
+
+          &lt;p&gt;1) Didn’t know Medium offered RSS feeds.
+2) Who still uses RSS (honest question)?
+3) Is this some other syndication happening automatically?&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;formats&quot;&gt;Formats&lt;/h2&gt;
+
+    &lt;h3 id=&quot;rss&quot;&gt;RSS&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://cyber.harvard.edu/rss/rss.html&quot;&gt;RSS 2.0 Spec&lt;/a&gt;, July 2003
+        &lt;blockquote&gt;
+          &lt;p&gt;RSS is a dialect of XML. All RSS files must conform to the &lt;a href=&quot;http://www.w3.org/TR/REC-xml&quot;&gt;XML 1.0 specification&lt;/a&gt;, as published on the World Wide Web Consortium (W3C) website.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;atom&quot;&gt;ATOM&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/feed/docs/atom.html&quot;&gt;INTRODUCTION TO ATOM&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Atom is the name of an XML-based Web content and metadata syndication format, and an application-level protocol for publishing and editing Web resources belonging to periodically updated websites.&lt;/p&gt;
+
+          &lt;p&gt;All Atom feeds must be well-formed XML documents, and are identified with the application/atom+xml media type.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tools.ietf.org/html/rfc4287&quot;&gt;Atom Syndication Spec&lt;/a&gt;, December 2005
+        &lt;blockquote&gt;
+          &lt;p&gt;Atom is an XML-based document format that describes lists of related information known as “feeds”.  Feeds are composed of a number of items, known as “entries”, each with an extensible set of attached metadata.  For example, each entry has a title.&lt;/p&gt;
+
+          &lt;p&gt;The primary use case that Atom addresses is the syndication of Web content such as weblogs and news headlines to Web sites as well as directly to user agents.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;microformats&quot;&gt;Microformats&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://microformats.org/wiki/h-feed&quot;&gt;hFeed&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;h-feed is a simple, open format for publishing a stream or feed of h-entry posts, like complete posts on a home page or archive pages, or summaries or other brief lists of posts. h-feed is one of several open microformat draft standards suitable for embedding data in HTML.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://microformats.org/wiki/h-entry&quot;&gt;h-entry&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;h-entry is a simple, open format for episodic or datestamped content on the web. h-entry is often used with content intended to be syndicated, e.g. blog posts. h-entry is one of several open microformat standards suitable for embedding data in HTML.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;json&quot;&gt;JSON&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/rmlewisuk/awesome-json-feed&quot;&gt;Awesome JSON Feed&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://jsonfeed.org/&quot;&gt;jsonfeed.org&lt;/a&gt; &lt;a href=&quot;https://twitter.com/jsonfeed&quot;&gt;@jsonfeed&lt;/a&gt;) - JSON Feed Project Site
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://jsonfeed.org/version/1&quot;&gt;Spec V1 @ JSON Feed&lt;/a&gt; - Official Specifiaton Version 1.0 - in plain english (yeah!); May 2017&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://jsonfeed.org/code&quot;&gt;Code @ JSON Feed&lt;/a&gt; - JSON Feed Templates, Plugins, Parser, Scripts &amp;amp; More&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feed2json.org/&quot;&gt;feed2json&lt;/a&gt; (github: &lt;a href=&quot;https://github.com/appsattic/feed2json.org&quot;&gt;appsattic/feed2json.org&lt;/a&gt;) - convert rss or atom to json feed&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://json-feed-viewer.herokuapp.com/&quot;&gt;JSON Feed Viewer&lt;/a&gt; (&lt;a href=&quot;https://github.com/maximevaillancourt/json-feed-viewer&quot;&gt;maximevaillancourt/json-feed-viewer&lt;/a&gt;)
+        &lt;blockquote&gt;
+          &lt;p&gt;Browse through the showcased feeds, or enter a feed URL below. Now supporting RSS and Atom feeds thanks to Andrew Chilton’s feed2json.org service&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;text&quot;&gt;Text&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feedtxt.github.io/&quot;&gt;Feed.TXT&lt;/a&gt; (github: &lt;a href=&quot;https://github.com/feedtxt&quot;&gt;feedtxt&lt;/a&gt;) - Feed.TXT Project Site
+        &lt;blockquote&gt;
+          &lt;p&gt;A Feed.txt starts with a meta data block for the feed in YAML format followed by a list of items. Items start with a meta data block followed by the text using the markdown formatting conventions for structured text (headings, lists, tables, etc.) and hyperlinks. That’s it.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;opml&quot;&gt;OPML&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://dev.opml.org/spec2.html&quot;&gt;OPML 2.0&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;OPML is also the file format for an outliner application, which is why OPML files may contain information about the size, position and expansion state of the window the outline is displayed in.&lt;/p&gt;
+
+          &lt;p&gt;OPML has also become popular as a format for exchanging subscription lists between feed readers and aggregators.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://microformats.org/wiki/OPML&quot;&gt;OPML - Microformats Wiki&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;OPML was created by &lt;a href=&quot;http://radio.userland.com/&quot;&gt;UserLand&lt;/a&gt; Software to store and share outlines, hierarchical text documents where child data could be hidden or expanded.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://codebeautify.org/opmlviewer&quot;&gt;OPML Viewer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.lifewire.com/opml-file-2622105&quot;&gt;How to Open, Edit, and Convert OPML Files&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;In a typical OPML file, there’s a &lt;em&gt;&amp;lt;head&amp;gt;&lt;/em&gt; element that describes the title, owner, or some other metadata information. With an RSS feed, this is normally the article’s title. Following that is the &lt;em&gt;&amp;lt;body&amp;gt;&lt;/em&gt; tag that holds the content of what the file is describing, and the *&lt;outline&gt;* element to hold attributes or other outline sub-elements.&lt;/outline&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;readers&quot;&gt;Readers&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://theoldreader.com/&quot;&gt;The Old Reader&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feeder.co/&quot;&gt;feeder.co&lt;/a&gt; - RSS Feed Reader&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/Etuldan/spaRSS&quot;&gt;Etuldan/spaRSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.omgubuntu.co.uk/2017/05/install-feedreader-rss-reader-ubuntu&quot;&gt;Feedreader RSS on Ubuntu&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.thunderbird.net/en-US/&quot;&gt;Thunderbird&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feedly.com/&quot;&gt;Feedly&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://feedly.com/i/cortex&quot;&gt;OPML Import&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feedbin.com/&quot;&gt;Feedbin&lt;/a&gt; - A fast, simple reader that delivers a great reading experience.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://newsblur.com/&quot;&gt;NewsBlur&lt;/a&gt; - NewsBlur is a personal news reader bringing people together to talk about the world&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feedwrangler.net/welcome.html&quot;&gt;Feed Wrangler&lt;/a&gt; - a modern, sustainable RSS reader.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.inoreader.com/&quot;&gt;Inoreader&lt;/a&gt; - The content reader for power users who want to save time.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://reederapp.com/&quot;&gt;Reeder&lt;/a&gt; - A news reader for iOS with support for Feedbin, Feedly, Feed Wrangler, FeedHQ, NewsBlur, The Old Reader, Inoreader, Minimal Reader, BazQux Reader, Fever, Readability and Instapaper.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.tecmint.com/best-rss-feed-readers-for-linux/&quot;&gt;14 Best RSS Feed Readers for Linux in 2018&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;self-hosted&quot;&gt;Self-Hosted&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tt-rss.org/&quot;&gt;Tiny Tiny RSS&lt;/a&gt; - &lt;a href=&quot;https://tt-rss.org/gitlab/fox/tt-rss/wikis/home&quot;&gt;wiki&lt;/a&gt; - Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://tt-rss.org/wiki/InstallationNotes&quot;&gt;Tiny Tiny RSS – Installation Guide&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.feedafever.com/&quot;&gt;Fever&lt;/a&gt; - Fever takes the temperature of your slice of the web and shows you what’s hot.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://selfoss.aditu.de/&quot;&gt;Selfoss&lt;/a&gt; - The new multipurpose rss reader, live stream, mashup, aggregation web application&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;indieweb-readers&quot;&gt;Indieweb Readers&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet&quot;&gt;An IndieWeb reader: My new home on the internet • Aaron Parecki&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://aperture.p3k.io/&quot;&gt;aperture.p3k.io&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;You tell Aperture which feeds you want to follow, and it works behind the scenes collecting new posts. Aperture can follow Microformats, JSON Feed, Atom and RSS feeds.&lt;/p&gt;
+
+          &lt;p&gt;Aperture doesn’t have its own interface for actually reading the posts it collects. Instead, it makes the data available via &lt;a href=&quot;https://indieweb.org/Microsub&quot;&gt;an API&lt;/a&gt;, and you can use &lt;a href=&quot;https://indieweb.org/Microsub#Clients&quot;&gt;a variety of apps&lt;/a&gt; to read your feeds!&lt;/p&gt;
+
+          &lt;p&gt;Aperture provides a way to manage subscriptions and show some debugging info, but normally you won’t interact with it after you’ve set it up, you’ll use a reader.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://indieweb.org/Indigenous&quot;&gt;Indigenous for iPhone&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://indieweb.org/Indigenous_for_Android&quot;&gt;Indigenous for Android&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://indieweb.org/Together&quot;&gt;Together&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://monocle.p3k.io/&quot;&gt;Monocle&lt;/a&gt; - &lt;a href=&quot;https://indieweb.org/Monocle&quot;&gt;@indieweb.org&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Monocle doesn’t subscribe to feeds itself, instead it’s an interface on top of your own feed subscriptions. Your website may already provide this API, or you can use an external service like Aperture, or many others.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;feeds&quot;&gt;Feeds&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/mitmedialab/feed_seeker&quot;&gt;Feed Seeker&lt;/a&gt; - Find rss, atom, xml, and rdf feeds on webpages
+        &lt;blockquote&gt;
+          &lt;p&gt;A library for finding atom, rss, rdf, and xml feeds from web pages. Produced at the &lt;a href=&quot;https://mediacloud.org/&quot;&gt;mediacloud&lt;/a&gt; project. An incremental improvement over &lt;a href=&quot;https://github.com/dfm/feedfinder2&quot;&gt;feedfinder2&lt;/a&gt;, which was itself based on &lt;a href=&quot;http://www.aaronsw.com/2002/feedfinder/&quot;&gt;feedfinder&lt;/a&gt;, written by Mark Pilgrim, and maintained by Aaron Swartz until his untimely death.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds&quot;&gt;Medium&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;To access a user’s feed, add /feed/ before their username, for example: &lt;code class=&quot;highlighter-rouge&quot;&gt;medium.com/feed/@Medium&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://danielmiessler.com/blog/rss-feed-youtube-channel/&quot;&gt;How to Get an RSS Feed for a YouTube Channel&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.youtube.com/feeds/videos.xml?channel_id=UC09ay5PGgpjxX3Zkw1D0GBg&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Youtube Playlist
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.youtube.com/feeds/videos.xml?playlist_id=PLZEbTtxGezRt_BWHCIbo_30ijNnScJDPi&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://getrssfeed.com&quot;&gt;getrssfeed.com&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Paste your iTunes / SoundCloud urls and let the service retrieve the podcast public RSS feed for you&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its&quot;&gt;What other hidden or inobvious RSS feeds are available on Stack Exchange and its sites?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rss-tracker.com/index.php?lang=en&quot;&gt;RSS Tracker - Discover RSS feeds hidden in web sites&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Many web sites fail to highlight the existence of their RSS feeds and they can be difficult to find. Other sites have a large number of feeds but no easy way to subscribe to them globally.&lt;/p&gt;
+
+          &lt;p&gt;rss tracker solves this problem by finding RSS feeds on one or more sites and by providing you with a corresponding OPML file.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://petermolnar.net/rss-is-still-alive/&quot;&gt;HIDDEN AND LESS HIDDEN RSS FEEDS ON SOME MAJOR SOCIAL NETWORKS&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;RSS1 used to be THE thing to follow people all around. It has a gargantuan advantage compared to any “Follow” button on any website: it used to be platform and service independent but centralized in your chosen RSS reader. The reader crawled all the RSS feeds you were “following” from all around the internet - and that’s it. Like e-mail. And it’s also the easiest way to anonymously stalk around. Since Google phased out it’s Reader, RSS slowly started to fade out but some other services still have it - and it’s good for you.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.rsshub.app/en/&quot;&gt;RSSHub&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;RSSHub is an open source, easy to use, and extensible RSS feed aggregator, it’s capable of generating RSS feeds from pretty much everything.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=18323512&quot;&gt;Ask HN: Share your best OPML/RSS Feeds&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;github-feeds&quot;&gt;GitHub Feeds&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed&quot;&gt;Setting up an Github Commit RSS feed - Stack Overflow&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I am trying to have my github commits as an RSS feed but so far I have not managed to figure it out. I know that a private feed is available with the following syntax:&lt;/p&gt;
+
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username.atom?token=token&lt;/code&gt;&lt;/p&gt;
+
+          &lt;p&gt;But this the users activity feed. I would like a commit feed of one of my projects. Thanks in advance!&lt;/p&gt;
+
+          &lt;p&gt;Perfect, thank you!! this was the final syntax:&lt;/p&gt;
+
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username/repository_name/commits/branch_name.atom?login=login&amp;amp;token=token&lt;/code&gt;&lt;/p&gt;
+
+          &lt;p&gt;Still cant view commits on all branches though.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/9542346/atom-rss-feeds-on-github-issues&quot;&gt;Atom/RSS feeds on Github Issues? - Stack Overflow&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I just solved this issue for one of my repos and imported &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; &lt;a href=&quot;http://drupal.org/project/feeds&quot;&gt;feed&lt;/a&gt; items into my &lt;a href=&quot;http://drupal.org/&quot;&gt;drupal&lt;/a&gt; site.&lt;/p&gt;
+
+          &lt;p&gt;I had originally created a feed of only commits using the URL convention:&lt;/p&gt;
+
+          &lt;p&gt;https://github.com/ORG/PROJECT/commits/master.atom&lt;/p&gt;
+
+          &lt;p&gt;but I also wanted a feed of GitHub-Issues and updates to Issues.&lt;/p&gt;
+
+          &lt;p&gt;GitHub appears to now support an “everything” feed with the following convention:&lt;/p&gt;
+
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username.private.actor.atom?token=somehextoken&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.community/t5/How-to-use-Git-and-GitHub/RSS-feeds-for-GitHub-projects/td-p/298&quot;&gt;RSS feeds for GitHub projects - GitHub Community Forum&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/9542346/atom-rss-feeds-on-github-issues&quot;&gt;Atom/RSS feeds on Github Issues? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/imsun/gh-feed&quot;&gt;imsun/gh-feed&lt;/a&gt;: Generate RSS feed from GitHub Issues&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.edwardloveall.com/pull-feed&quot;&gt;Edward Loveall - Pull Feed&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I just launched &lt;a href=&quot;http://pullfeed.co/&quot;&gt;Pull Feed&lt;/a&gt;. It will give you a feed url for new pull requests for any particular GitHub repository. I created it to solve an itch: I wanted to keep up with particular open source projects, but GitHub only offers the ability to “Watch” a repository. Watching means you get notifications for pretty much all forms of activity; new issues, new pull requests, comments, etc. That was too much. I just wanted to know what was being proposed.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://docs.rsshub.app/en/&quot;&gt;RSSHub&lt;/a&gt; Syntax:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://rsshub.app/github/pull/user_name/repository_name/&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://rsshub.app/github/issue/user_name/repository_name/&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;generate-feeds&quot;&gt;Generate Feeds&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/feedparser/feedparser&quot;&gt;feedparser&lt;/a&gt; (&lt;a href=&quot;https://rubygems.org/gems/feedparser&quot;&gt;gem&lt;/a&gt;)
+        &lt;blockquote&gt;
+          &lt;p&gt;feedparser gem - (universal) web feed parser and normalizer (XML w/ Atom or RSS, JSON Feed, HTML w/ Microformats e.g. h-entry/h-feed or Feed.HTML, Feed.TXT w/ YAML, JSON or INI &amp;amp; Markdown, etc.)&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://simplepie.org/&quot;&gt;simplepie&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;SimplePie is a very fast and easy-to-use feed parser, written in PHP, that puts the ‘simple’ back into ‘really simple syndication’. Flexible enough to suit beginners and veterans alike, SimplePie is focused on speed, ease of use, compatibility and standards compliance.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;assorted-tools&quot;&gt;Assorted Tools&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/ttscoff/Slogger&quot;&gt;ttscoff/Slogger&lt;/a&gt; - Social logging script for Day One
+        &lt;blockquote&gt;
+          &lt;p&gt;Slogger indexes various public social services and creates Day One (&lt;a href=&quot;http://dayoneapp.com/&quot;&gt;http://dayoneapp.com/&lt;/a&gt;) journal entries or plain text Markdown files for them. It allows you to keep a personal journal that collects your online social life automatically, all in one place.&lt;/p&gt;
+        &lt;/blockquote&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://gist.github.com/rreeger/3388024&quot;&gt;RSS Feed Resource for Brett Terpstra’s Slogger&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/Downes/gRSShopper&quot;&gt;Downes/gRSShopper&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;gRSShopper is a tool that aggregates, organizes and distributes resources to support online learning&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/danielpetisme/AwesomeNewTabPage-Awesome-RSS-Widget&quot;&gt;danielpetisme/AwesomeNewTabPage-Awesome-RSS-Widget&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dev.to/giteden/prototyping-with-web-components-build-an-rss-reader-4e1h&quot;&gt;Prototyping with Web Components: Build an RSS Reader&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/efermi/awesome-rss&quot;&gt;efermi/awesome-rss&lt;/a&gt;: Puts an RSS/Atom subscribe button back in URL bar&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/feedparser/feedfilter&quot;&gt;feedfilter&lt;/a&gt; (&lt;a href=&quot;https://rubygems.org/gems/feedfilter&quot;&gt;gem&lt;/a&gt;)
+        &lt;blockquote&gt;
+          &lt;p&gt;feedfilter gem - feed filter and rules for easy (re)use&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/voidfiles/awesome-rss&quot;&gt;voidfiles/awesome-rss&lt;/a&gt; - Awesome links related to RSS, ATOM, and Syndication formats.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/feedparser/awesome-feeds&quot;&gt;feedparser/awesome-feeds&lt;/a&gt;: A collection of awesome feeds (formats, parsers, filters, readers, services &amp;amp; tools, templates ‘n’ more) - JSON Feed, RSS, Atom, HTML w/ Microformats, Feed.TXT”&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="Fundamentals" />
+			
+			
+				<category term="RSS" />
+			
+
+			<published>2020-01-19T00:00:00-05:00</published>
+		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/linux/</id>
@@ -55,6 +463,8 @@
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#gnu&quot; id=&quot;markdown-toc-gnu&quot;&gt;Gnu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#distro&quot; id=&quot;markdown-toc-distro&quot;&gt;Distro&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#setup&quot; id=&quot;markdown-toc-setup&quot;&gt;Setup&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#boot-loaders-and-partition-tables&quot; id=&quot;markdown-toc-boot-loaders-and-partition-tables&quot;&gt;Boot Loaders and Partition Tables&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#partitions&quot; id=&quot;markdown-toc-partitions&quot;&gt;Partitions&lt;/a&gt;&lt;/li&gt;
@@ -62,6 +472,7 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#configuration&quot; id=&quot;markdown-toc-configuration&quot;&gt;Configuration&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#install&quot; id=&quot;markdown-toc-install&quot;&gt;Install:&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#dotfiles&quot; id=&quot;markdown-toc-dotfiles&quot;&gt;Dotfiles&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#accounts-and-permissions&quot; id=&quot;markdown-toc-accounts-and-permissions&quot;&gt;Accounts and Permissions&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#desktop&quot; id=&quot;markdown-toc-desktop&quot;&gt;Desktop&lt;/a&gt;&lt;/li&gt;
@@ -69,21 +480,22 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#use&quot; id=&quot;markdown-toc-use&quot;&gt;Use&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#filesytem-navigation&quot; id=&quot;markdown-toc-filesytem-navigation&quot;&gt;Filesytem Navigation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#encrypted-home-folders&quot; id=&quot;markdown-toc-encrypted-home-folders&quot;&gt;Encrypted Home Folders&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#prevent-overheating&quot; id=&quot;markdown-toc-prevent-overheating&quot;&gt;Prevent Overheating&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#shell&quot; id=&quot;markdown-toc-shell&quot;&gt;Shell&lt;/a&gt;        &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#scripting&quot; id=&quot;markdown-toc-scripting&quot;&gt;Scripting&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#zsh&quot; id=&quot;markdown-toc-zsh&quot;&gt;ZSH&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#encrypted-home-folders&quot; id=&quot;markdown-toc-encrypted-home-folders&quot;&gt;Encrypted Home Folders&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#networking&quot; id=&quot;markdown-toc-networking&quot;&gt;Networking&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tools&quot; id=&quot;markdown-toc-tools&quot;&gt;Tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tools&quot; id=&quot;markdown-toc-tools&quot;&gt;Tools&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#editors&quot; id=&quot;markdown-toc-editors&quot;&gt;Editors&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#version-management&quot; id=&quot;markdown-toc-version-management&quot;&gt;Version Management&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#graphics&quot; id=&quot;markdown-toc-graphics&quot;&gt;Graphics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#gnu&quot; id=&quot;markdown-toc-gnu&quot;&gt;🐧-gnu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#version-management&quot; id=&quot;markdown-toc-version-management&quot;&gt;Version Management&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#editors&quot; id=&quot;markdown-toc-editors&quot;&gt;🐧-editors&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -95,10 +507,10 @@
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-11-08-linux.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-11-08-linux.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-11-08-linux.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-11-08-linux.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -109,13 +521,63 @@
 
     &lt;p&gt;At the moment, this is just a loosely organized collection of links I found useful, and leads for further exploration.&lt;/p&gt;
 
+    &lt;h2 id=&quot;gnu&quot;&gt;Gnu&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/linux-and-the-gnu-system-fem53q09&quot;&gt;Linux and the GNU System&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called “Linux”, and many of its users arenot aware that it is basically the GNU system, developed by the GNU Project.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/gnu/manifesto.html&quot;&gt;The GNU Manifesto - GNU Project - Free Software Foundation&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;I consider that the Golden Rule requires that if I like a program I must share it with other people who like it. Software sellers want to divide the users and conquer them, making each user agree not to share with others. I refuse to break solidarity with other users in this way. I cannot in good conscience sign a nondisclosure agreement or a software license agreement. For years I worked within the Artificial Intelligence Lab to resist such tendencies and other inhospitalities, but eventually they had gone too far: I could not remain in an institution where such things are done for me against my will.&lt;/p&gt;
+
+          &lt;p&gt;So that I can continue to use computers without dishonor, I have decided to put together a sufficient body of free software so that I will be able to get along without any software that is not free. I have resigned from the AI Lab to deny MIT any legal excuse to prevent me from giving GNU away.(2)&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/gnu/gnu-history.html&quot;&gt;Overview of the GNU System - GNU Project - Free Software Foundation&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;The word “free” in “free software” pertains to freedom, not price. You may or may not pay a price to get GNU software. Either way, once you have the software you have four specific freedoms in using it. The freedom to run the program as you wish; the freedom to copy the program and give it away to your friends and co-workers; the freedom to change the program as you wish, by having full access to source code; the freedom to distribute an improved version and thus help build the community. (If you redistribute GNU software, you may charge a fee for the physical act of transferring a copy, or you may give away copies.)&lt;/p&gt;
+
+          &lt;p&gt;The project to develop the GNU system is called the “GNU Project”. The GNU Project was conceived in 1983 as a way of bringing back the cooperative spirit that prevailed in the computing community in earlier days—to make cooperation possible once again by removing the obstacles to cooperation imposed by the owners of proprietary software.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/gnu/why-gnu-linux.html&quot;&gt;What’s in a Name?&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;A great challenge to the future of free software comes from the tendency of the “Linux” distribution companies to add nonfree software to GNU/Linux in the name of convenience and power. All the major commercial distribution developers do this; none limits itself to free software. Most of them do not clearly identify the nonfree packages in their distributions. Many even develop nonfree software and add it to the system. Some outrageously advertise “Linux” systems that are “licensed per seat”, which give the user as much freedom as Microsoft Windows.&lt;/p&gt;
+
+          &lt;p&gt;People try to justify adding nonfree software in the name of the “popularity of Linux”—in effect, valuing popularity above freedom. Sometimes this is openly admitted. For instance, Wired Magazine said that Robert McMillan, editor of Linux Magazine, “feels that the move toward open source software should be fueled by technical, rather than political, decisions.” And Caldera’s CEO openly urged users to drop the goal of freedom and work instead for the “popularity of Linux”.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/gnu/gnu-linux-faq.html&quot;&gt;GNU/Linux FAQ by Richard Stallman&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;distro&quot;&gt;Distro&lt;/h2&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS&quot;&gt;Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f…&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.ubuntu.com/lts/installation-guide/i386/install.en.pdf&quot;&gt;Installing Ubuntu 18.04 “Bionic Beaver” For i386&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://itsfoss.com/no-bootable-device-found-ubuntu/&quot;&gt;Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://thishosting.rocks/linux-mint-vs-ubuntu/&quot;&gt;Linux Mint vs Ubuntu: Detailed Comparison&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;If you’re looking for a new Linux distro for your desktop, then you must have stumbled upon Linux Mint and Ubuntu. They are the two most popular desktop Linux distros.&lt;/p&gt;
+
+          &lt;p&gt;Both Linux Mint and Ubuntu have several editions (flavors) to choose from, so we’ll have them in mind while doing this comparison.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/linux4noobs/comments/7vjit9/ubuntu_vs_debian_vs_mint_which_one_do_you_feel_is/&quot;&gt;Ubuntu vs. Debian vs. Mint - which one do you feel is best?&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Please keep in mind privacy, system integrity, ease of use for noobs, etc. Curious for thoughts from the community.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
     &lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS&quot;&gt;Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f…
-&lt;a href=&quot;https://help.ubuntu.com/lts/installation-guide/i386/install.en.pdf&quot;&gt;Installing Ubuntu 18.04 “Bionic Beaver” For i386&lt;/a&gt;
-&lt;a href=&quot;https://itsfoss.com/no-bootable-device-found-ubuntu/&quot;&gt;Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS&lt;/a&gt;&lt;/p&gt;
 
     &lt;h3 id=&quot;boot-loaders-and-partition-tables&quot;&gt;Boot Loaders and Partition Tables&lt;/h3&gt;
 
@@ -133,7 +595,10 @@
         &lt;/blockquote&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.linuxbabe.com/desktop-linux/legacy-bios-vs-uefi-bios&quot;&gt;Explaining UEFI Firmware for Linux Users - LinuxBabe&lt;/a&gt;
-we will focus on BIOS and UEFI. UEFI BIOS or just UEFI? BIOS is just a specific firmware for IBM compatible PC. So we should call it just UEFI.&lt;/li&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;You will see online that many people refer to it as UEFI BIOS. Strictly speaking, this is wrong, because BIOS is not a generic term for firmware. BIOS is a specific firmware for IBM compatible PC, so we should call the newer firmware UEFI.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://help.ubuntu.com/community/UEFI&quot;&gt;https://help.ubuntu.com/community/UEFI&lt;/a&gt;
         &lt;blockquote&gt;
           &lt;p&gt;The Extensible Firmware Interface (EFI) or its version 2.x variant, Unified EFI (UEFI) is a firmware type that is widespread on recent computers, especially those more recent than 2010. It is intended to replace the traditional BIOS firmware that is prevalent on earlier machines. This page provides information about installing and booting Ubuntu using UEFI, as well as about switching between UEFI mode and legacy BIOS mode using Ubuntu. Warning /!\ Most modern computers support both UEFI mode and BIOS mode.&lt;/p&gt;
@@ -195,15 +660,6 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
           &lt;p&gt;When you first create a new Ubuntu 18.04 server, there are a few configuration steps that you should take early on as part of the basic setup. This will increase the security and usability of your server and will give you a solid foundation for subseq&lt;/p&gt;
         &lt;/blockquote&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;vlc, pinta, vscode, keepassxc, git, ssh\gpg&lt;/p&gt;
-
-    &lt;p&gt;Install walpapers from old releases of ubuntu:&lt;/p&gt;
-
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers&lt;/code&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt&quot;&gt;How to install a deb file, by dpkg -i or by apt?&lt;/a&gt;
         &lt;blockquote&gt;
           &lt;p&gt;I have a deb package for installation. Shall I install by dpkg -i my.deb, or by apt? Will both handle the software dependency problem well? If by apt, how can I install from the deb by apt?&lt;/p&gt;
@@ -212,6 +668,13 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
       &lt;li&gt;&lt;a href=&quot;https://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup&quot;&gt;How to mount a new drive on startup&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://askubuntu.com/questions/339/how-can-i-install-a-package-without-root-access&quot;&gt;How can I install a package without root access?&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
+
+    &lt;h4 id=&quot;install&quot;&gt;Install:&lt;/h4&gt;
+    &lt;p&gt;vlc, pinta, vscode, keepassxc, git, ssh\gpg&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;&lt;em&gt;Install walpapers from old releases of ubuntu:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers&lt;/code&gt;&lt;/p&gt;
 
     &lt;h3 id=&quot;dotfiles&quot;&gt;Dotfiles&lt;/h3&gt;
 
@@ -350,6 +813,15 @@ As an example, this project offers an *.asc file with a PGP signature to verify 
       &lt;/li&gt;
     &lt;/ul&gt;
 
+    &lt;h3 id=&quot;encrypted-home-folders&quot;&gt;Encrypted Home Folders&lt;/h3&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://superuser.com/questions/1300415/how-to-decrypt-a-ubuntu-16-10-encrypted-home-folder&quot;&gt;How to decrypt a Ubuntu 16.10 encrypted home folder?&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold…
+&lt;a href=&quot;https://opensourcehacker.com/2011/04/15/encrypted-folders-on-ubuntu-linux-using-ecryptfs-on-an-external-hard-drive/&quot;&gt;Encrypted folders on Ubuntu Linux using eCryptfs on an external ha…&lt;/a&gt;
+This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d…&lt;/p&gt;
+    &lt;/blockquote&gt;
+
     &lt;h3 id=&quot;prevent-overheating&quot;&gt;Prevent Overheating&lt;/h3&gt;
 
     &lt;ul&gt;
@@ -427,18 +899,6 @@ Using sed command to efficiently process text files in linux&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH&quot;&gt;robbyrussell/oh-my-zsh&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;h3 id=&quot;encrypted-home-folders&quot;&gt;Encrypted Home Folders&lt;/h3&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://superuser.com/questions/1300415/how-to-decrypt-a-ubuntu-16-10-encrypted-home-folder&quot;&gt;How to decrypt a Ubuntu 16.10 encrypted home folder?&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold…&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://opensourcehacker.com/2011/04/15/encrypted-folders-on-ubuntu-linux-using-ecryptfs-on-an-external-hard-drive/&quot;&gt;Encrypted folders on Ubuntu Linux using eCryptfs on an external ha…&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d…&lt;/p&gt;
-    &lt;/blockquote&gt;
-
     &lt;h2 id=&quot;networking&quot;&gt;Networking&lt;/h2&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html&quot;&gt;https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html&lt;/a&gt;&lt;/p&gt;
@@ -498,33 +958,7 @@ Kdenlive is an acronym for KDE Non-Linear Video Editor. It is primarily aimed at
     &lt;p&gt;&lt;a href=&quot;https://crontab.guru/&quot;&gt;crontab.guru - the cron schedule expression editor&lt;/a&gt;
 An easy to use editor for crontab schedules.&lt;/p&gt;
 
-    &lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;/h2&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Intel_graphics&quot;&gt;Intel graphics&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions&quot;&gt;https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions&lt;/a&gt;&lt;/p&gt;
-
-    &lt;h2 id=&quot;gnu&quot;&gt;🐧-gnu&lt;/h2&gt;
-
-    &lt;p&gt;GNU Project had been working since 1984&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://hackernoon.com/linux-and-the-gnu-system-fem53q09&quot;&gt;Linux and the GNU System&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;For more information see also the GNU/Linux FAQ, and Why GNU/Linux?&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.gnu.org/gnu/manifesto.html&quot;&gt;The GNU Manifesto - GNU Project - Free Software Foundation&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.gnu.org/gnu/gnu-history.html&quot;&gt;Overview of the GNU System - GNU Project - Free Software Foundation&lt;/a&gt;&lt;/p&gt;
-
-    &lt;h2 id=&quot;version-management&quot;&gt;Version Management&lt;/h2&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://rvm.io/integration/bundler&quot;&gt;https://rvm.io/integration/bundler&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://booyaa.wtf/2018/version-management-ruby-python-node-rust/&quot;&gt;Version Management for Ruby, Python, Node and Rust&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04&quot;&gt;How To Install Ruby on Rails with rbenv on Ubuntu 18.04&lt;/a&gt;&lt;/p&gt;
-
-    &lt;h2 id=&quot;editors&quot;&gt;🐧-editors&lt;/h2&gt;
+    &lt;h3 id=&quot;editors&quot;&gt;Editors&lt;/h3&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=20477793&quot;&gt;Setup VS Code for Efficient PHP Development&lt;/a&gt;&lt;/p&gt;
 
@@ -533,6 +967,20 @@ An easy to use editor for crontab schedules.&lt;/p&gt;
     &lt;p&gt;&lt;a href=&quot;https://dev.to/pencillr/looks-like-i-have-to-use-vim-now-3988&quot;&gt;“Damn! Now I have to use Vim”&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=20481512&quot;&gt;History and Effective Use of Vim&lt;/a&gt;&lt;/p&gt;
+
+    &lt;h3 id=&quot;version-management&quot;&gt;Version Management&lt;/h3&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://rvm.io/integration/bundler&quot;&gt;https://rvm.io/integration/bundler&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://booyaa.wtf/2018/version-management-ruby-python-node-rust/&quot;&gt;Version Management for Ruby, Python, Node and Rust&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04&quot;&gt;How To Install Ruby on Rails with rbenv on Ubuntu 18.04&lt;/a&gt;&lt;/p&gt;
+
+    &lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;/h2&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Intel_graphics&quot;&gt;Intel graphics&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions&quot;&gt;https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions&lt;/a&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1278,10 +1726,10 @@ An easy to use editor for crontab schedules.&lt;/p&gt;
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-06-command-line-git-ssh.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-06-06-command-line-git-ssh.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-06-command-line-git-ssh.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-06-06-command-line-git-ssh.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -2122,10 +2570,10 @@ git push origin master
     &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;small-12 columns&quot;&gt;
 	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
-			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-05-28-content-creation.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-05-28-content-creation.md&quot;&gt;Edit&lt;/a&gt;
 			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
 			This content is open source.
-			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/2019-05-28-content-creation.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+			&lt;a href=&quot;https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-05-28-content-creation.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -2306,139 +2754,6 @@ Where I build webpages.&lt;/li&gt;
 			
 
 			<published>2019-05-28T00:00:00-04:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000/content-creation/github-portfolio/</id>
-			<title>Infominer's GitHub Portfolio and HowTo</title>
-			<link href="http://localhost:4000/content-creation/github-portfolio/" rel="alternate" type="text/html" title="Infominer's GitHub Portfolio and HowTo" />
-			<updated>2019-05-27T00:00:00-04:00</updated>
-
-			
-				
-				<author>
-					
-						<name>infominer</name>
-					
-					
-						<email>infominer@protonmail.com</email>
-					
-					
-						<uri>https://infominer.xyz/</uri>
-					
-				</author>
-			
-			<summary>How to make a Portfolio for your GitHub repositories with `github/personal-website`</summary>
-			<content type="html" xml:base="http://localhost:4000/content-creation/github-portfolio/">&lt;p&gt;I haven’t played with this in a while, but I suspect I need to do something in that portfolio to freshen up its view. All the same, I have the steps I took to get this far, right here:&lt;/p&gt;
-
-&lt;h2 id=&quot;step-1&quot;&gt;Step 1&lt;/h2&gt;
-
-&lt;p&gt;Fork this repository:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/github/personal-website&quot;&gt;github/personal-website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;step-2&quot;&gt;Step 2&lt;/h2&gt;
-
-&lt;p&gt;Go to settings and select publish from master branch:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/UAhVvRPl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step-3&quot;&gt;Step 3&lt;/h2&gt;
-
-&lt;p&gt;If you already have a web-page, then maybe you aren’t reading this.. Either way, you must name your repository as the same as your username (or the organizations name) on github. So my first website’s repository name is &lt;a href=&quot;https://github.com/infominer33/infominer33.github.io&quot;&gt;infominer33.github.io&lt;/a&gt; since my github username is infominer33. Now it publishes to &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer.id&lt;/code&gt; (but also &lt;code class=&quot;highlighter-rouge&quot;&gt;infominer33.github.io&lt;/code&gt;) because I have a custom domain, and every other repository I publish from my user account, rather than in an organization, is a branch of that first domain.&lt;/p&gt;
-
-&lt;p&gt;Since I already have a primary webpage, I change my repository name to &lt;code class=&quot;highlighter-rouge&quot;&gt;repo-portfolio&lt;/code&gt;. That way, it lives at:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://infominer.id/repo-portfolio/&quot;&gt;infominer.id/repo-portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/yL5BaNxl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step-4&quot;&gt;Step 4&lt;/h2&gt;
-
-&lt;p&gt;On github pages, &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 12
-  exclude:
-    archived: false
-    forks: false
-    projects:
-      - pub-yes
-      - yest
-      - archive-crypto
-      - yest-the-docs
-      - bahamas-crypto
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;you can also configure social media accounts.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;social_media:
-  website: https://infominer.xyz/
-  keybase: infominer
-  telegram: infominer33
-  twitter: infominer33
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # unsplash: your_username
-  # vk: your_username
-  # youtube: your_username
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;and topics of interest:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-topics:
-  - name: Bitcoin
-    web_url: https://github.com/topics/bitcoin
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
-
-  - name: Decentralized Identity
-    web_url: https://github.com/topics/decentralized-identity
-    image_url: https://decentralized-id.com/assets/icons/didicon.png
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Cool beans, right?&lt;/p&gt;
-
-&lt;p&gt;There are also blog features, although I’m not sure I’ll blog there… who knows!?!?&lt;/p&gt;
-
-&lt;p&gt;I haven’t looked through the &lt;a href=&quot;https://github.com/github/personal-website/issues&quot;&gt;issues&lt;/a&gt;, or &lt;a href=&quot;https://github.com/github/personal-website/pulls&quot;&gt;pull-requests&lt;/a&gt; yet to see what folk are working on, or tried to tweak any of the quirks I’ve noticed..&lt;/p&gt;
-
-&lt;p&gt;If you want to learn more about GitHub Pages, check out:&lt;/p&gt;
-
-&lt;figure class=&quot;full&quot;&gt;
-	&lt;img src=&quot;https://web-work.tools/images/gh-pages-starter-pack.png&quot; alt=&quot;&quot; /&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;https://web-work.tools/jamstack/github-pages-starter-pack//&quot;&gt;&lt;b&gt;GitHub Pages - Starter Pack:Extended Resources&lt;/b&gt;&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</content>
-
-			
-				<category term="Content Creation" />
-			
-			
-				<category term="Github" />
-			
-				<category term="Guides" />
-			
-
-			<published>2019-05-27T00:00:00-04:00</published>
 		</entry>
 	
 </feed>

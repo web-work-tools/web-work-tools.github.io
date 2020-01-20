@@ -198,7 +198,7 @@ ul, ol {
     padding: 0;
 }
 li {
-    margin-left: 0;
+    margin-left: 0;    
 }
 
 .no-bullet {
@@ -236,10 +236,10 @@ article dl dd   { line-height: 1.6; margin-bottom: rem-calc(12); margin-left: re
 blockquote {
     font-style: italic;
     position: relative;
-    margin: 0em 1em 0em 0;
+    margin: 0em 1em 0.5em 0;
     padding-left: 1em;
     padding-right: 1em;
-    color:  $grey-11;
+    color:  $grey-14;
     font-style: italic;
     border-left: 0.25em solid $primary-color;
   
