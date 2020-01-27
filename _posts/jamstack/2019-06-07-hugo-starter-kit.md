@@ -3,8 +3,8 @@ layout: page-fullwidth
 title: "Hugo Starter Kit"
 teaser: "Tutorials, Themes, Sortcodes and More!"
 
-categories: ['jamstack']
-tags: [resources, hugo, static site generators, webpub]
+categories: ['JAMStack']
+tags: ['Hugo']
 
 header: no
 image:
