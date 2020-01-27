@@ -3,8 +3,8 @@ layout: page-fullwidth
 title: "GitHub Pages-Starter Pack"
 teaser: "Publishing a Website via GitHub pages is free, and easy. Everything you need to get going in one place + extended resources."
 
-categories: ['jamstack']
-tags: ['jekyll', 'ssg', 'github pages']
+categories: ['JAMStack']
+tags: ['Jekyll', 'GitHub Pages','GitHub']
 
 header: no
 image: 
@@ -92,8 +92,6 @@ Those basic github themes are mostly for developers who want a page to put up fo
 Gem files are ruby packages that contain all of the files necessary for building your site, and keep your repository directory un-cluttered. Then, if you want to change a file that's in the gem, you just create the directory and pur the file where it goes, and configure as you wish. 
 
 * [planetjekyll/awesome-jekyll-themes](https://github.com/planetjekyll/awesome-jekyll-themes)
-
-You can use any gem based theme that you want. However, *GitHub* won't build those for you.
 
 You must build them locally, and tell jekyll to build to the `docs` directory, which you may have noticed as an option in your repository settings, and github will publish that directory. However, for user or organization pages, you can only publish from the master directory.
 
@@ -303,3 +301,4 @@ Namecheap supports BTC purchases, so I'm including their github how-to here. If 
 * [Using Custom Domain for Github Pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a)
 * [namecheap.com - how-do-i-link-my-domain-to-github-pages](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages)
 
+</div>

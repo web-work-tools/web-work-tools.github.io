@@ -4,10 +4,7 @@ title: "Static Site Generators"
 teaser: "Resources on Static Site Generators(SSG) - Beyond Jekyll."
 subheadline: "Configuration files, layouts and templates, and all the content you create."
 
-tags: 
-  - ssg
-  - CI\CD
-categories: ['jamstack']
+categories: ['JAMStack']
 
 header:
   image_fullwidth: "devopedia-static-site-generators.jpg"

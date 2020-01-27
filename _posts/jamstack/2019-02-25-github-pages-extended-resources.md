@@ -2,8 +2,8 @@
 layout: page-fullwidth
 title: "GitHub Pages-Extended Resources"
 teaser: "Publishing a Website via GitHub pages is free, and easy. Everything you need to publish in one place."
-tags: ['jekyll', 'github pages', 'ssg']
-categories: ['jamstack']
+tags: ['Jekyll', 'GitHub Pages', 'GitHub']
+categories: ['JAMStack']
 
 header: no
 

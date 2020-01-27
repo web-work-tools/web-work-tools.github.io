@@ -3,8 +3,8 @@ layout: page-fullwidth
 title: "The Markup languages that get transformed into a website."
 teaser: "Structure and Style, at a Glance: HTML, CSS, YAML, TOML, JSON, Kramdown."
 
-categories: ['jamstack']
-tags: [resources, html, css, meta-tags, kramdown, katex, toml, yaml, json, fundamentals]
+categories: ['JAMStack']
+tags: [HTML', css, meta-tags, kramdown, katex, toml, yaml, json, fundamentals]
 
 header: no
 image:
