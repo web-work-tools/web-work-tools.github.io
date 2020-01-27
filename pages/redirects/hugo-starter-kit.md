@@ -1,8 +1,8 @@
 ---
 layout: redirect
 sitemap: false
-permalink: /practical-crypto/
-redirect_to:  /practical-public-key-crypto/
+permalink: /hugo-starter-kit/
+redirect_to:  /jamstack/hugo-starter-kit/
 
 # Idea and Code by: http://codingtips.kanishkkunal.in/about/
 ---

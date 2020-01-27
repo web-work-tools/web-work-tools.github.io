@@ -12,8 +12,6 @@ image:
   caption: "infominer.id/repo-portfolio"
   caption_url: "https://infominer.id/repo-portfolio"
 
-redirect_from: 
- # - /make-a-github-portfolio/
 permalink: /content-creation/github-portfolio/
 modified: 2019-05-28T13:15:59-23:00
 ---

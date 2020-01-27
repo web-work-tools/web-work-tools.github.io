@@ -11,9 +11,6 @@ image:
   title: "command-line.png"
 
 date: 2019-06-06
-redirect_from:
-  - /command-line-git-ssh/
-  - /jamstack/terminal-basics-git-ssh/
 permalink: /command-line-fundamentals/
 
 ---

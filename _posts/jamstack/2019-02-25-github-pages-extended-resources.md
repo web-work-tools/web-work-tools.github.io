@@ -11,8 +11,6 @@ image:
   title: "github-pages-extended-resources.png"
   thumb: "github.png"
 
-redirect_from: 
-  - /github-pages-extended-resources/
 permalink: /jamstack/github-pages-extended-resources/
 modified: 2019-06-16T15:59:13-23:00
 ---

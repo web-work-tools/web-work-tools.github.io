@@ -11,8 +11,6 @@ image:
   title: "HTML5_APIs_and_related_technologies_taxonomy.png"
   caption: Sergey Mavrody
 
-redirect_from:
-  - /learn-html-css/
 permalink: /jamstack/html-css/
 modified: 2019-06-15T22:22:22-23:00
 

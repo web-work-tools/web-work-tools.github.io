@@ -12,8 +12,6 @@ image:
   #og_image: content-thumb.png
 
 permalink: /content-creation/
-redirect_from: 
-  - /content/creation/
 modified: 2019-11-17T13:33:33-23:00
 
 ---
