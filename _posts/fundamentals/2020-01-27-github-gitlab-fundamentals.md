@@ -14,7 +14,7 @@ image:
 
 date: 2020-01-27
 permalink: /github-gitlab-starter-pack/
-
+published: false
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
