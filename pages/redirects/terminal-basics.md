@@ -6,5 +6,3 @@ redirect_to:  /jamstack/terminal-basics-git-ssh/
 
 # Idea and Code by: http://codingtips.kanishkkunal.in/about/
 ---
-permalink: /jamstack/terminal-basics-git-ssh/
-redirect_to: /command-line-fundamentals/

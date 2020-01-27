@@ -15,8 +15,6 @@ image:
   thumb: "devopedia-static-site-generators.jpg"
 
 permalink: /jamstack/static-site-generators/
-redirect_from:
-  - /static-site-generators/
 modified: 2019-06-15T11:12:13-23:00
 ---
 

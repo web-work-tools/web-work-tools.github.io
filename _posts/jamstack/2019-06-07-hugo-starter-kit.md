@@ -10,9 +10,6 @@ header: no
 image:
   title: "hugo-starter-kit.png"
 
-redirect_from:
-  - /hugo-starter-kit
-  - /hugo-starter-kit/
 permalink: /jamstack/hugo-starter-kit/
 modified: 2019-06-15T22:22:22-23:00
 ---
