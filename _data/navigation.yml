@@ -15,6 +15,8 @@
     url: "/content-creation/twitter-export-csv/"
   - title: "Ubuntu Linux Starter Pack" 
     url: "/linux/"
+  - title: "RSS Info"
+    url: '/rss/'
     
 - title: "JamStack"
   side: left
