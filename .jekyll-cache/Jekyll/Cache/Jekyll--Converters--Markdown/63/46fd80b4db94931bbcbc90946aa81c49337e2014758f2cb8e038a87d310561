@@ -1,0 +1,32 @@
+I"+<p><em>Silence is beautiful.</em> Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: <em>Feeling Responsive</em> got you covered. Just say <em>no</em> like this:
+<!--more--></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>header: no
+</code></pre></div></div>
+
+<h3 class="t60" id="all-header-styles">All Header-Styles</h3>
+
+<ul class="side-nav">
+
+  
+
+    
+      <li><a href="http://localhost:4000/design/no-header/">Headers With Style &middot; <strong>No Header</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/no-header-but-image/">Headers With Style &middot; <strong>No Header but Article Image</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-with-text/">Headers With Style &middot; <strong>Header With Text</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-logo-only/">Headers With Style &middot; <strong>Header With Logo Only</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-image-color/">Headers With Style &middot; <strong>Header Image With Background Color</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-full-width-image/">Headers With Style &middot; <strong>Header with a Full-Width-Image</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-image-pattern/">Headers With Style &middot; <strong>Header Image With Pattern</strong></a></li>
+    
+
+  
+</ul>
+
+:ET

@@ -1,0 +1,50 @@
+I"�<div class="pull-left"><img src="https://web-work.tools/images/infolytics/record-monthly.png" /></div>
+
+<p>Shows what can be done in a short period of time.  I didn’t start building any of this till the beginning of this year.</p>
+
+<p>It’s true that it’s a ton of work to do what <em>I</em> do, but you could use this concept for just one topic instead of 100 and build a valuable resource in a few days!</p>
+
+<p>I will publish monthly stats, though it won’t always be the same, and if you have any requests, pop up in the issues.</p>
+
+<p>Soon, I’ll have comments enabled, and that will be great.</p>
+
+<h2 id="how-to-present-csv">How to present CSV?</h2>
+
+<p>Because of multiple columns and long urls, it’s difficult to display this informaiton in text form. It’s easier for me to transform the pdf\csv into png. Then it can be displayed just fine on any screen.</p>
+
+<p>To get a high-quality image, I used <a href="http://convert-my-image.com/">convert-my-image.com</a>.</p>
+
+<h2 id="generating-pages-from-data-using-liquid">Generating Pages from Data using Liquid</h2>
+
+<p>I put <a href="https://web-work.tools/images/infolytics/performance1.csv">performance1.csv</a> and <a href="https://web-work.tools/images/infolytics/performance1.csv">performance2.csv</a> into the /images directory (you can <a href="https://github.com/web-work-tools/web-work.tools.github.io/tree/master/images/infolytics">check out on github</a>)</p>
+
+<p>From there, jekyll throws it all up into <code class="language-plaintext highlighter-rouge">site.data.performance1</code> and <code class="language-plaintext highlighter-rouge">site.data.performance2</code> so I can call it with a bit of code and generate pages with it.</p>
+
+<blockquote>
+  <p><img src="https://i.imgur.com/jMtd9WR.png" /></p>
+
+  <p>from: <a href="/github-pages-starter-pack/"><em>GitHub Pages Starter Pack - Extended Resources</em></a></p>
+
+  <ul>
+    <li><a href="http://shopify.github.io/liquid/tags/control-flow/">shopify.github.io/liquid/tags/control-flow/</a></li>
+    <li><a href="https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/">Jekyll Variables and Liquid Template Tags-Cheatsheet</a></li>
+    <li><a href="https://learn.cloudcannon.com/jekyll/introduction-to-liquid/">Introduction to Liquid for Jekyll</a></li>
+    <li><a href="https://blog.webjeda.com/jekyll-liquid/">https://blog.webjeda.com/jekyll-liquid/</a></li>
+  </ul>
+</blockquote>
+
+<p>As you can see, it’s possible to begin showing up in google pretty quickly. I started building at the beginning of the year, and I hadn’t begun in earnest until you see the chart starting to pop off (around the time I submitted my sitemap to google).</p>
+
+<figure class="full">
+	<img src="https://web-work.tools/images/infolytics/5-29-19-organic-search-infominer.png" alt="" />
+	<figcaption></figcaption>
+</figure>
+<figure class="full">
+	<img src="https://imgur.com/nT7Estp.png" alt="" />
+	<figcaption></figcaption>
+</figure>
+<figure class="full">
+	<img src="https://web-work.tools/images/infolytics/5-24-19-organic-search-infominer.png" alt="" />
+	<figcaption><a href="https://web-work.tools/images/infolytics/infominer-id-Performance-2019-05-24.csv">infominer-id-Performance-2019-05-24.csv</a></figcaption>
+</figure>
+:ET

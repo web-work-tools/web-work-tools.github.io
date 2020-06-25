@@ -1,0 +1,5 @@
+I"Ë<p>If you want to use Disqus-Comments with <em>Feeling Responsive</em>, just open <code class="language-plaintext highlighter-rouge">config.yml</code> and add your <code class="language-plaintext highlighter-rouge">disqus_shortname</code>. <a href="https://disqus.com/websites/">More on how to use Disqus â€º</a>
+<!--more--></p>
+
+<p>By default comments are turned off. You can customize the default behaviour in <code class="language-plaintext highlighter-rouge">config.yml</code>. To <strong>turn on comments</strong> just add <code class="language-plaintext highlighter-rouge">comments: true</code> to front matter using the page layout <code class="language-plaintext highlighter-rouge">layout: page</code>.</p>
+:ET

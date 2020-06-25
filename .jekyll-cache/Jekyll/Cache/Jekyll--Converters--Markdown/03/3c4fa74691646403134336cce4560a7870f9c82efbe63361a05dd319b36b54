@@ -1,0 +1,18 @@
+I"ë<ul>
+    
+    <li><a href="http://localhost:4000/design/no-header/">No Header</a></li>
+    
+    <li><a href="http://localhost:4000/design/no-header-but-image/">No Header but Article Image</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-with-text/">Header With Text</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-logo-only/">Header With Logo Only</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-image-color/">Header Image With Background Color</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-full-width-image/">Header with a Full-Width-Image</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-image-pattern/">Header Image With Pattern</a></li>
+    
+</ul>
+:ET

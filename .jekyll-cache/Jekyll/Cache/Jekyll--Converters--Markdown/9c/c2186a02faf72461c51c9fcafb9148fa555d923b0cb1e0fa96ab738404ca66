@@ -1,0 +1,119 @@
+I"<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#what-is-a-static-site-generator-ssg" id="markdown-toc-what-is-a-static-site-generator-ssg">What is a Static Site Generator (SSG)?</a></li>
+  <li><a href="#general" id="markdown-toc-general">General</a></li>
+  <li><a href="#jekyll-and-github-pages" id="markdown-toc-jekyll-and-github-pages">Jekyll and GitHub Pages</a></li>
+  <li><a href="#hugo" id="markdown-toc-hugo">Hugo</a></li>
+  <li><a href="#mkdocs" id="markdown-toc-mkdocs">MkDocs</a></li>
+  <li><a href="#related-posts" id="markdown-toc-related-posts">Related Posts</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-05-25-static-site-generators.md">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-05-25-static-site-generators.md">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <h2 id="what-is-a-static-site-generator-ssg">What is a Static Site Generator (SSG)?</h2>
+
+    <p>There are some configuration files, layouts and templates, and all of the content you create. So.. the trick is to find something that runs nicely on your system and that you can figure out how to operate.</p>
+
+    <p>This page is where I keep track of info on the various SSG that I’m experienced with, as I begin to understand the stack surrounding them.</p>
+
+    <h2 id="general">General</h2>
+
+    <ul>
+      <li><a href="https://github.com/pinceladasdaweb/Static-Site-Generators">pinceladasdaweb/Static-Site-Generators</a></li>
+      <li><a href="https://staticsitegenerators.net">staticsitegenerators.net</a></li>
+      <li><a href="https://www.staticgen.com/">https://www.staticgen.com/</a>
+        <ul>
+          <li><a href="https://news.ycombinator.com/item?id=17952234">I tried Hugo, Jekyll and Gatsby</a></li>
+        </ul>
+      </li>
+      <li><a href="https://templates.netlify.com">JAMstack templates</a>
+        <blockquote>
+          <p>Find the perfect place to begin a new JAMstack site. Deploy a template site to Netlify with just one click. The site’s code will automatically populate as a new folder in your Git repository so you can explore, edit, and update so it works for you. All for free.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="jekyll-and-github-pages">Jekyll and GitHub Pages</h2>
+
+    <p>Jekyll is the SSG built into GitHub, covered on the following pages:</p>
+
+    <ul>
+      <li><a href="/jamstack/github-pages-starter-pack/">Github Pages Starter Pack</a></li>
+      <li><a href="https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll">Using A Static Site Generator other than Jekyll</a></li>
+    </ul>
+
+    <h2 id="hugo">Hugo</h2>
+
+    <ul>
+      <li><a href="/jamstack/hugo-starter-kit/">Hugo Starter Kit</a></li>
+    </ul>
+
+    <h2 id="mkdocs">MkDocs</h2>
+
+    <p>MkDocs has built in search, and in some ways simpler than publishing w jekyll.</p>
+
+    <p>For example, you don’t need to put frontmatter into every single document.. it will just create a website from markdown files and autogenerate toc based on directory structure.</p>
+
+    <p>MkDocs really caught my eye when I saw it running at <a href="https://docs.ethhub.io/">EthHub</a></p>
+
+    <p><img src="https://i.imgur.com/c7Ik39r.png" alt="" /></p>
+
+    <ul>
+      <li><a href="https://www.mkdocs.org/">https://www.mkdocs.org/</a></li>
+      <li><a href="https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins">/mkdocs/mkdocs/wiki/MkDocs-Plugins</a></li>
+      <li><a href="https://yakworks.github.io/mkdocs-material-components/cheat-sheet/">MkDocs Material Components - Cheat Sheet</a></li>
+      <li><a href="https://mkdocs.readthedocs.io">mkdocs.readthedocs.io</a></li>
+      <li><a href="https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins">mkdocs/mkdocs/wiki/MkDocs-Plugins</a></li>
+      <li><a href="https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin">mkdocs-awesome-pages-plugin</a></li>
+      <li><a href="https://www.wheelodex.org/entry-points/mkdocs.plugins/">mkdocs.plugins/</a></li>
+      <li><a href="https://blogs.pjjk.net/phil/metadata-for-markdown-mkdocs/">metadata-for-markdown-mkdocs/</a></li>
+      <li><a href="https://gristlabs.github.io/mkdocs-windmill/#">https://gristlabs.github.io/mkdocs-windmill/</a>
+        <ul>
+          <li><a href="https://github.com/gristlabs/mkdocs-windmill">gristlabs/mkdocs-windmill</a></li>
+        </ul>
+      </li>
+      <li><a href="https://python-markdown.github.io/extensions/">https://python-markdown.github.io/extensions/</a>
+        <ul>
+          <li><a href="https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions">Python-Markdown/markdown/wiki/Third-Party-Extensions</a></li>
+        </ul>
+      </li>
+      <li><a href="https://python-markdown.github.io/extensions/smarty/">https://python-markdown.github.io/extensions/smarty/</a></li>
+    </ul>
+
+    <p>Because MkDocs builds with python, that opens up a whole universe of tools at your disposal. The python markdown extensions are a prime example.</p>
+
+    <p>However, basically none of the regular jekyll plugins work with mkdocs, it’s a whole universe to its own w Python.</p>
+
+    <h2 id="related-posts">Related Posts</h2>
+
+    <ul>
+      <li><a href="https://web-work.tools/jamstack/html-css/">Learn HTML CSS and Associated Markup Languages</a></li>
+      <li><a href="https://web-work.tools/content-creation/">Content Creation</a></li>
+      <li><a href="https://web-work.tools/jamstack/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
+      <li><a href="https://web-work.tools/jamstack/static-site-generators/">Static Site Generators</a></li>
+      <li><a href="https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/">Migrating from Jekyll HPSTR to Hugo HPSTR theme</a></li>
+      <li><a href="https://web-work.tools/jamstack/terminal-basics-git-ssh/">Command Line - Git - SSH - BASH</a></li>
+    </ul>
+
+  </div>
+</div>
+:ET

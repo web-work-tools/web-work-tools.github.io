@@ -1,0 +1,509 @@
+I"c�<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#gnu" id="markdown-toc-gnu">Gnu</a></li>
+  <li><a href="#distro" id="markdown-toc-distro">Distro</a></li>
+  <li><a href="#setup" id="markdown-toc-setup">Setup</a>    <ul>
+      <li><a href="#boot-loaders-and-partition-tables" id="markdown-toc-boot-loaders-and-partition-tables">Boot Loaders and Partition Tables</a></li>
+      <li><a href="#partitions" id="markdown-toc-partitions">Partitions</a></li>
+      <li><a href="#install-media" id="markdown-toc-install-media">Install Media</a></li>
+    </ul>
+  </li>
+  <li><a href="#configuration" id="markdown-toc-configuration">Configuration</a>    <ul>
+      <li><a href="#install" id="markdown-toc-install">Install:</a></li>
+      <li><a href="#dotfiles" id="markdown-toc-dotfiles">Dotfiles</a></li>
+      <li><a href="#accounts-and-permissions" id="markdown-toc-accounts-and-permissions">Accounts and Permissions</a></li>
+      <li><a href="#desktop" id="markdown-toc-desktop">Desktop</a></li>
+    </ul>
+  </li>
+  <li><a href="#use" id="markdown-toc-use">Use</a>    <ul>
+      <li><a href="#filesytem-navigation" id="markdown-toc-filesytem-navigation">Filesytem Navigation</a></li>
+      <li><a href="#encrypted-home-folders" id="markdown-toc-encrypted-home-folders">Encrypted Home Folders</a></li>
+      <li><a href="#prevent-overheating" id="markdown-toc-prevent-overheating">Prevent Overheating</a></li>
+      <li><a href="#shell" id="markdown-toc-shell">Shell</a>        <ul>
+          <li><a href="#scripting" id="markdown-toc-scripting">Scripting</a></li>
+          <li><a href="#zsh" id="markdown-toc-zsh">ZSH</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#networking" id="markdown-toc-networking">Networking</a></li>
+  <li><a href="#tools" id="markdown-toc-tools">Tools</a>    <ul>
+      <li><a href="#editors" id="markdown-toc-editors">Editors</a></li>
+      <li><a href="#version-management" id="markdown-toc-version-management">Version Management</a></li>
+    </ul>
+  </li>
+  <li><a href="#graphics" id="markdown-toc-graphics">Graphics</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-11-08-linux.md">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-11-08-linux.md">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <p>I’ve found myself repeating, and having a hard time remembering all of the steps when setting up ubuntu. Over the past 3 years, I started with Mint, as a daily driver, and have moved on to Ubuntu 19.04, and 18.04 LTS.</p>
+
+    <p>This is now where I’ll be keeping track of this info. Over time, I’ll organize this better, and add some notes for context, and mean to walk through the first steps of a few different setups.</p>
+
+    <p>At the moment, this is just a loosely organized collection of links I found useful, and leads for further exploration.</p>
+
+    <h2 id="gnu">Gnu</h2>
+
+    <ul>
+      <li><a href="https://hackernoon.com/linux-and-the-gnu-system-fem53q09">Linux and the GNU System</a>
+        <blockquote>
+          <p>Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called “Linux”, and many of its users arenot aware that it is basically the GNU system, developed by the GNU Project.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.gnu.org/gnu/manifesto.html">The GNU Manifesto - GNU Project - Free Software Foundation</a>
+        <blockquote>
+          <p>I consider that the Golden Rule requires that if I like a program I must share it with other people who like it. Software sellers want to divide the users and conquer them, making each user agree not to share with others. I refuse to break solidarity with other users in this way. I cannot in good conscience sign a nondisclosure agreement or a software license agreement. For years I worked within the Artificial Intelligence Lab to resist such tendencies and other inhospitalities, but eventually they had gone too far: I could not remain in an institution where such things are done for me against my will.</p>
+
+          <p>So that I can continue to use computers without dishonor, I have decided to put together a sufficient body of free software so that I will be able to get along without any software that is not free. I have resigned from the AI Lab to deny MIT any legal excuse to prevent me from giving GNU away.(2)</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.gnu.org/gnu/gnu-history.html">Overview of the GNU System - GNU Project - Free Software Foundation</a>
+        <blockquote>
+          <p>The word “free” in “free software” pertains to freedom, not price. You may or may not pay a price to get GNU software. Either way, once you have the software you have four specific freedoms in using it. The freedom to run the program as you wish; the freedom to copy the program and give it away to your friends and co-workers; the freedom to change the program as you wish, by having full access to source code; the freedom to distribute an improved version and thus help build the community. (If you redistribute GNU software, you may charge a fee for the physical act of transferring a copy, or you may give away copies.)</p>
+
+          <p>The project to develop the GNU system is called the “GNU Project”. The GNU Project was conceived in 1983 as a way of bringing back the cooperative spirit that prevailed in the computing community in earlier days—to make cooperation possible once again by removing the obstacles to cooperation imposed by the owners of proprietary software.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.gnu.org/gnu/why-gnu-linux.html">What’s in a Name?</a>
+        <blockquote>
+          <p>A great challenge to the future of free software comes from the tendency of the “Linux” distribution companies to add nonfree software to GNU/Linux in the name of convenience and power. All the major commercial distribution developers do this; none limits itself to free software. Most of them do not clearly identify the nonfree packages in their distributions. Many even develop nonfree software and add it to the system. Some outrageously advertise “Linux” systems that are “licensed per seat”, which give the user as much freedom as Microsoft Windows.</p>
+
+          <p>People try to justify adding nonfree software in the name of the “popularity of Linux”—in effect, valuing popularity above freedom. Sometimes this is openly admitted. For instance, Wired Magazine said that Robert McMillan, editor of Linux Magazine, “feels that the move toward open source software should be fueled by technical, rather than political, decisions.” And Caldera’s CEO openly urged users to drop the goal of freedom and work instead for the “popularity of Linux”.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.gnu.org/gnu/gnu-linux-faq.html">GNU/Linux FAQ by Richard Stallman</a></li>
+    </ul>
+
+    <h2 id="distro">Distro</h2>
+
+    <ul>
+      <li><a href="https://www.quora.com/Is-Ubuntu-19-04-worth-upgrading-to-from-18-04-LTS">Is Ubuntu 19.04 worth upgrading to from 18.04 LTS? - Quora</a>
+        <blockquote>
+          <p>Thanks for the A2A. No, it’s not. And it’s not recommended either. First of all, Ubuntu likes to play around a lot. For example, 18.10 uses Wayland. Also, Ubuntu likes to delete your manually installed packages upon upgrade (see my other answers f…</p>
+        </blockquote>
+      </li>
+      <li><a href="https://help.ubuntu.com/lts/installation-guide/i386/install.en.pdf">Installing Ubuntu 18.04 “Bionic Beaver” For i386</a></li>
+      <li><a href="https://itsfoss.com/no-bootable-device-found-ubuntu/">Fix No Bootable Device Found Error After Installing Ubuntu - It’s FOSS</a></li>
+      <li><a href="https://thishosting.rocks/linux-mint-vs-ubuntu/">Linux Mint vs Ubuntu: Detailed Comparison</a>
+        <blockquote>
+          <p>If you’re looking for a new Linux distro for your desktop, then you must have stumbled upon Linux Mint and Ubuntu. They are the two most popular desktop Linux distros.</p>
+
+          <p>Both Linux Mint and Ubuntu have several editions (flavors) to choose from, so we’ll have them in mind while doing this comparison.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.reddit.com/r/linux4noobs/comments/7vjit9/ubuntu_vs_debian_vs_mint_which_one_do_you_feel_is/">Ubuntu vs. Debian vs. Mint - which one do you feel is best?</a>
+        <blockquote>
+          <p>Please keep in mind privacy, system integrity, ease of use for noobs, etc. Curious for thoughts from the community.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="setup">Setup</h2>
+
+    <h3 id="boot-loaders-and-partition-tables">Boot Loaders and Partition Tables</h3>
+
+    <p>Basically all new systems use UEFI. However, if you are shopping for old laptops, or simply installing linux on some old windows machine you have laying around, then you might run into the legacy setup. The deal is how they are partitioned, MBR vs GPT, and can depend upon your BIOS. So it matters to figure out from the beginning what your system requirements are.</p>
+
+    <p>Actually, when I first installed linux, I just hit the install button, and the installer did its magic. It was only later, I puzzled for quite some time over this matter, when trying to “properly” set up a fresh system, not just letting the installer do all the work.</p>
+
+    <ul>
+      <li><a href="https://www.diskgenius.com/how-to/mbr-vs-gpt.php">MBR VS GPT, which is the best choice for your computer?</a>
+        <blockquote>
+          <ol>
+            <li>If the motherboard on your computer supports UEFI (Unified Extensile Firmware), you can choose GPT.</li>
+            <li>If the motherboard uses legacy BIOS system, you should choose MBR. BIOS does not support GPT-partitioned volumes.</li>
+          </ol>
+        </blockquote>
+      </li>
+      <li><a href="https://www.linuxbabe.com/desktop-linux/legacy-bios-vs-uefi-bios">Explaining UEFI Firmware for Linux Users - LinuxBabe</a>
+        <blockquote>
+          <p>You will see online that many people refer to it as UEFI BIOS. Strictly speaking, this is wrong, because BIOS is not a generic term for firmware. BIOS is a specific firmware for IBM compatible PC, so we should call the newer firmware UEFI.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://help.ubuntu.com/community/UEFI">https://help.ubuntu.com/community/UEFI</a>
+        <blockquote>
+          <p>The Extensible Firmware Interface (EFI) or its version 2.x variant, Unified EFI (UEFI) is a firmware type that is widespread on recent computers, especially those more recent than 2010. It is intended to replace the traditional BIOS firmware that is prevalent on earlier machines. This page provides information about installing and booting Ubuntu using UEFI, as well as about switching between UEFI mode and legacy BIOS mode using Ubuntu. Warning /!\ Most modern computers support both UEFI mode and BIOS mode.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://superuser.com/questions/764799/how-to-create-an-efi-system-partition">How to create an EFI System Partition?</a></li>
+      <li><a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS">help.ubuntu.com/community/Installation/UEFI-and-BIOS</a></li>
+      <li><a href="https://linuxconfig.org/legacy-bios-uefi-and-secureboot-ready-ubuntu-live-image-customization">Legacy Bios, UEFI and SecureBoot ready Ubuntu Live image customiza…</a></li>
+      <li><a href="https://askubuntu.com/questions/831216/how-can-i-reinstall-grub-to-the-efi-partition">How can I reinstall GRUB to the EFI partition?</a></li>
+      <li><a href="https://github.com/rhboot/efibootmgr">rhboot/efibootmgr</a>
+        <ul>
+          <li><a href="http://www.rodsbooks.com/refind/installing.html">The rEFInd Boot Manager: Installing rEFInd</a></li>
+        </ul>
+      </li>
+      <li><a href="http://www.rodsbooks.com/efi-bootloaders/csm-good-bad-ugly.html">Managing EFI Boot Loaders for Linux: CSM: The Good, the Bad, and the Ugly</a></li>
+      <li><a href="https://unix.stackexchange.com/questions/160500/how-do-multiple-boot-loaders-work-on-an-efi-system-partition">How do multiple boot loaders work on an EFI system partition</a></li>
+      <li><a href="https://help.ubuntu.com/community/Boot-Repair">https://help.ubuntu.com/community/Boot-Repair</a></li>
+      <li><a href="https://news.ycombinator.com/item?id=21179231">Ubuntu installer now supports ZFS on the boot partition</a></li>
+    </ul>
+
+    <h3 id="partitions">Partitions</h3>
+
+    <ul>
+      <li><a href="http://www.control-escape.com/linux/lx-partition.html">Partitions: Planning Your Linux Installation</a></li>
+      <li><a href="https://dev.to/johnfound/how-i-am-partitioning-the-hdd-for-linux-setup-o7m">How I am partitioning the HDD for Linux setup.</a></li>
+      <li><a href="https://gparted.org/download.php">Gparted - GNOME Partition Editor</a></li>
+      <li><a href="https://news.ycombinator.com/item?id=21175004">Causing ZFS corruption for fun, profit, and quality assurance</a></li>
+    </ul>
+
+    <h3 id="install-media">Install Media</h3>
+
+    <ul>
+      <li><a href="https://serverfault.com/questions/896228/how-to-verify-a-file-using-an-asc-signature-file">How to verify a file using an asc signature file?</a>
+As an example, this project offers an *.asc file with a PGP signature to verify the contents of the download (as opposed to a checksum, you can see the empty column): <a href="https://ossec.github.io/downlo">https://ossec.github.io/downlo</a>…</li>
+      <li><a href="https://vitux.com/how-to-verify-download-in-ubuntu-with-sha256-hash-gpg-key/">How to Verify a Download in Ubuntu with SHA256 Hash or GPG Key</a>
+        <blockquote>
+          <p>You may have often downloaded some open source software, for instance, various Linux distributions ISO. While downloading, you might also notice a link to download checksum file. What is that link for? Actually, Linux distributions distribute checksum files along with</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=0Zq_JdExHkE&amp;list=PLmoQ11MXEmagwLs0NtjadkyVwc-CFfr4h">1. How to create a bootable Linux usb stick (mac)</a> (playlist also includes video for creating linux virtual machine)</li>
+    </ul>
+
+    <h2 id="configuration">Configuration</h2>
+
+    <p><a href="https://askubuntu.com/questions/103915/how-do-i-configure-swappiness">How do I configure swappiness?</a>
+<a href="https://askubuntu.com/questions/60218/how-to-add-a-directory-to-the-path">How to add a directory to the PATH?</a>
+<a href="https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-ubuntu-18-04/">How To Set Up a Firewall with UFW on Ubuntu 18.04</a></p>
+    <blockquote>
+      <p>By default, Ubuntu comes with a firewall configuration tool called UFW (Uncomplicated Firewall). UFW is a user-friendly front-end for managing iptables firewall rules and its main goal is to make managing iptables easier or as the name says uncomplicated.
+<a href="https://askubuntu.com/questions/216783/ubuntu-12-10-turn-screen-off-when-inactive-for-never-still-turns-off">Ubuntu 12.10 “Turn screen off when inactive for: Never” still turn…</a>
+<a href="https://unix.stackexchange.com/questions/264562/how-to-install-executables">How to install executables</a></p>
+    </blockquote>
+
+    <ul>
+      <li><a href="https://fosspost.org/tutorials/things-to-do-after-installing-ubuntu">Things To Do After Installing Ubuntu</a></li>
+      <li><a href="https://itsfoss.com/things-to-do-after-installing-ubuntu-18-04/">20 Things to do After Installing Ubuntu 18.04 and 18.10</a></li>
+      <li><a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04">Initial Server Setup with Ubuntu 18.04</a>
+        <blockquote>
+          <p>When you first create a new Ubuntu 18.04 server, there are a few configuration steps that you should take early on as part of the basic setup. This will increase the security and usability of your server and will give you a solid foundation for subseq</p>
+        </blockquote>
+      </li>
+      <li><a href="https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt">How to install a deb file, by dpkg -i or by apt?</a>
+        <blockquote>
+          <p>I have a deb package for installation. Shall I install by dpkg -i my.deb, or by apt? Will both handle the software dependency problem well? If by apt, how can I install from the deb by apt?</p>
+        </blockquote>
+      </li>
+      <li><a href="https://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup">How to mount a new drive on startup</a></li>
+      <li><a href="https://askubuntu.com/questions/339/how-can-i-install-a-package-without-root-access">How can I install a package without root access?</a></li>
+    </ul>
+
+    <h4 id="install">Install:</h4>
+    <p>vlc, pinta, vscode, keepassxc, git, ssh\gpg</p>
+
+    <p><strong><em>Install walpapers from old releases of ubuntu:</em></strong></p>
+
+    <p><code class="language-plaintext highlighter-rouge">sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers</code></p>
+
+    <h3 id="dotfiles">Dotfiles</h3>
+
+    <ul>
+      <li><a href="https://developer.ibm.com/articles/l-config/">Understanding Linux configuration files</a>
+        <blockquote>
+          <p>This article explains configuration files on a Linux system that control user permissions, system applications, daemons, services, and other administrative tasks in a multi-user, multi-tasking environment. These tasks include managing user accounts, allocating disk quotas, ma…</p>
+        </blockquote>
+      </li>
+      <li><a href="https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789">Getting Started With Dotfiles</a></li>
+      <li><a href="http://dotfiles.github.io/">dotfiles.github.io</a></li>
+      <li><a href="https://rsapkf.netlify.com/blog/the-rabbithole-series-part-1">The Rabbithole Series, Part 1</a></li>
+      <li><a href="https://manpages.debian.org/stretch/systemd/logind.conf.5.en.html">logind.conf.5.en.html</a>
+        <blockquote>
+          <p>The default configuration is defined during compilation, so a configuration file is only needed when it is necessary to deviate from those defaults. By default, the configuration file in /etc/systemd/ contains commented out entries showing the defaults as a guide to the administrator. This file can be edited to create local overrides.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h3 id="accounts-and-permissions">Accounts and Permissions</h3>
+
+    <p>I was having a bit of trouble understanding how to properly set up and operate a user alongside and admin acct</p>
+
+    <p>I guess the idea is that the administrator account is the first created automatically (in ubuntu) then create a user account. Although the default administrator requires password for sudo, since ‘root’ is actually abstracted from the ui. Though not actually root, that administrator does, have generally elevated privs otherwise. So by making a user account, you have an additional layer of security, should some application get loose, it doesn’t inherit any administrator privliges from you</p>
+
+    <p>but……… to use sudo from the user account</p>
+
+    <p>you must either su administrator or add the user account to your list of sudoers</p>
+
+    <p>and if you break sudo by messing up /etc/sudoers then you can use pkexec as an alternative to sudo to fix it</p>
+
+    <ul>
+      <li><a href="https://linuxconfig.org/how-to-create-sudo-user-on-ubuntu-18-04-bionic-beaver-linux">How to create sudo user on Ubuntu 18.04 Bionic Beaver Linux - Linu…</a></li>
+      <li><a href="https://askubuntu.com/questions/368516/accessing-sudo-from-a-non-administrator-profile">Accessing sudo from a non-administrator profile</a></li>
+      <li><a href="https://askubuntu.com/a/296270">How do I add a user to sudoers file?</a>
+        <blockquote>
+          <p>If you want to add another user or if your username did not install Ubuntu, then you must log in as that user who installed Ubuntu, enter sudo -i to get root prompt; and then enter this command visudo.</p>
+
+          <p>I usually add the users I want to have sudo access. You can also add a group to have sudo access. I prefer just adding the users. I added a space in between the following, so it would format better.</p>
+
+          <p><code class="language-plaintext highlighter-rouge"># User_Alias ADMINS = jsmith, mikem</code></p>
+
+          <p><code class="language-plaintext highlighter-rouge">dbadmin ALL=(ALL) ALL</code></p>
+
+          <p>You can also use this command (as root)</p>
+
+          <p><code class="language-plaintext highlighter-rouge">sudo usermod -a -G sudo hduser</code></p>
+        </blockquote>
+      </li>
+      <li><a href="https://unix.stackexchange.com/questions/96625/how-to-allow-non-superusers-to-mount-any-filesystem">How to allow non-superusers to mount any filesystem?</a>
+        <blockquote>
+          <p>Is it possible to allow some particular users (e.g. members of a group) to mount any filesystem without superuser privileges on Linux? Another question might have been “in what ways a user can har…</p>
+        </blockquote>
+      </li>
+      <li><a href="https://askubuntu.com/questions/1129416/how-can-i-mount-partitions-in-thunar-without-password">How can I mount partitions in Thunar without password?</a></li>
+      <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart">How To Create a Sudo User on Ubuntu [Quickstart]</a>
+        <blockquote>
+          <p>The sudo command provides a mechanism for granting administrator privileges, ordinarily only available to the root user, to normal users. This guide will show you the easiest way to create a new user with sudo access on Ubuntu, without having to modif</p>
+        </blockquote>
+      </li>
+      <li><a href="https://askubuntu.com/questions/164819/how-can-i-run-an-application-with-a-gui-as-admin-from-a-non-admin-user-session">How can I run an application with a GUI as admin from a non-admin …</a>
+        <blockquote>
+          <p>I defined 2 user accounts: one with admin privilege (with sudo right) =&gt; lets call it adminuser. a 2nd one without any privilege =&gt; lets call it normaluser and I configure the autologin on this 2n…</p>
+        </blockquote>
+      </li>
+      <li><a href="https://dev.to/davidemily/removing-root-login-and-other-first-steps-ubuntu-54le">Removing Root Login And Other First Steps Ubuntu</a></li>
+      <li><a href="https://www.stackchief.com/tutorials/Linux%20Users,%20Groups,%20and%20Permissions">The Ultimate Guide to Linux Users, Groups, and Permissions</a>
+        <blockquote>
+          <p>Everything you need to know about Linux users, groups, and permissions. Learn about Linux users including system users and regular users, switching to the root user, adding users, removing users, the difference between sudo and su, changing permissions, changing ownership w…</p>
+        </blockquote>
+      </li>
+      <li><a href="https://dev.to/k_penguin_sato/understanding-linux-permissions-397e">Understanding Linux Permissions</a></li>
+    </ul>
+
+    <h3 id="desktop">Desktop</h3>
+
+    <ul>
+      <li><a href="https://itsfoss.com/gnome-tricks-ubuntu/">Customize Ubuntu 18.04 GNOME With These Simple Tips</a></li>
+      <li><a href="https://www.linuxuprising.com/2018/04/how-to-change-gtk-icon-or-gnome-shell.html">How To Change The GTK, Icon Or GNOME Shell Theme In GNOME</a></li>
+      <li><a href="https://dev.to/prahladyeri/how-to-trim-your-ubuntu-installation-of-extra-fat-and-make-it-faster-58ib">How To Make Your Ubuntu Desktop Faster</a></li>
+      <li><a href="https://www.faqforge.com/linux/rotating-screen-in-ubuntu-and-linux-mint/">Rotating screen in Ubuntu and Linux Mint</a></li>
+      <li><a href="https://itsfoss.com/best-gnome-extensions/">Top 20 GNOME Extensions You Should Be Using Right Now</a>
+        <blockquote>
+          <p>You can enhance the capacity of your GNOME desktop with extensions. Here, we list the best GNOME extensions to save you the trouble of finding them on your own.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://itsfoss.com/gnome-tricks-ubuntu/">Customize Ubuntu 18.04 GNOME With These Simple Tips</a>
+        <blockquote>
+          <p>Some basic and some interesting GNOME customization tips to get more out of your Ubuntu 18.04 desktop.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="use">Use</h2>
+
+    <h3 id="filesytem-navigation">Filesytem Navigation</h3>
+
+    <p><a href="https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch04s09.html">4.9. /usr/local : Local hierarchy</a>
+<a href="https://unix.stackexchange.com/questions/8656/usr-bin-vs-usr-local-bin-on-linux">/usr/bin vs /usr/local/bin on Linux</a></p>
+    <blockquote>
+      <p>Why are there so many places to put a binary in Linux? There are at least these five: /bin/ /sbin/ /usr/bin/ /usr/local/bin/ /usr/local/sbin/ And on my office box, I do not have write permissions…
+<a href="https://help.ubuntu.com/community/HomeFolder">HomeFolder</a>
+<a href="http://manpages.ubuntu.com/manpages/disco/en/man7/hier.7.html">hier - description of the filesystem hierarchy</a></p>
+    </blockquote>
+
+    <p><a href="http://blog.danyll.com/linux-directory-map/"><img src="/images/blog.danyll.com_linux-directory-map.png" alt="http://blog.danyll.com/content/images/2015/04/linux_directory_map_hd.png" /></a></p>
+
+    <ul>
+      <li><a href="https://ryanstutorials.net/linuxtutorial/navigation.php">Linux Tutorial - 2. Master File System Navigation</a>
+        <blockquote>
+          <p>This section of the Linux tutorial introduces the basics of the Linux filesystem and commands used to move around it. Also discusses absolute and relative paths.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://help.ubuntu.com/community/LinuxFilesystemTreeOverview">LinuxFilesystemTreeOverview</a>
+        <blockquote>
+          <ul>
+            <li><code class="language-plaintext highlighter-rouge">/bin</code> is a place for most commonly used terminal commands, like ls, mount, rm, etc.</li>
+            <li><code class="language-plaintext highlighter-rouge">/boot</code> contains files needed to start up the system, including the Linux kernel, a RAM disk image and bootloader configuration files.</li>
+            <li><code class="language-plaintext highlighter-rouge">/dev</code>  contains all device files, which are not regular files but instead refer to various hardware devices on the system, including hard drives.</li>
+            <li><code class="language-plaintext highlighter-rouge">/etc</code>  contains system-global configuration files, which affect the system’s behavior for all users.</li>
+            <li><code class="language-plaintext highlighter-rouge">/home</code> home sweet home, this is the place for users’ home directories.</li>
+            <li><code class="language-plaintext highlighter-rouge">/lib</code>  contains very important dynamic libraries and kernel modules <code class="language-plaintext highlighter-rouge">/media</code> is intended as a mount point for external devices, such as hard drives or removable media (floppies, CDs, DVDs).</li>
+            <li><code class="language-plaintext highlighter-rouge">/mnt</code>  is also a place for mount points, but dedicated specifically to “temporarily mounted” devices, such as network filesystems.</li>
+            <li><code class="language-plaintext highlighter-rouge">/opt</code>  can be used to store additional software for your system, which is not handled by the package manager.</li>
+            <li><code class="language-plaintext highlighter-rouge">/proc</code> is a virtual filesystem that provides a mechanism for kernel to send information to processes.</li>
+            <li><code class="language-plaintext highlighter-rouge">/root</code> is the superuser’s home directory, not in <code class="language-plaintext highlighter-rouge">/home/</code> to allow for booting the system even if <code class="language-plaintext highlighter-rouge">/home/</code> is not available.</li>
+            <li><code class="language-plaintext highlighter-rouge">/run</code>  is a tmpfs (temporary file system) available early in the boot process where ephemeral run-time data is stored. Files under this directory are removed or truncated at the beginning of the boot process. (It deprecates various legacy locations such as <code class="language-plaintext highlighter-rouge">/var/run</code>, <code class="language-plaintext highlighter-rouge">/var/lock</code>, <code class="language-plaintext highlighter-rouge">/lib/init/rw</code> in otherwise non-ephemeral directory trees as well as <code class="language-plaintext highlighter-rouge">/dev/.  &gt; *</code> and <code class="language-plaintext highlighter-rouge">/dev/shm</code> which are not device files.)</li>
+            <li><code class="language-plaintext highlighter-rouge">/sbin</code> contains important administrative commands that should generally only be employed by the superuser.</li>
+            <li><code class="language-plaintext highlighter-rouge">/srv</code>  can contain data directories of services such as HTTP (<code class="language-plaintext highlighter-rouge">/srv/www/</code>) or FTP.</li>
+            <li><code class="language-plaintext highlighter-rouge">/sys</code>  is a virtual filesystem that can be accessed to set or obtain information about the kernel’s view of the system.</li>
+            <li><code class="language-plaintext highlighter-rouge">/tmp</code>  is a place for temporary files used by applications.</li>
+            <li><code class="language-plaintext highlighter-rouge">/usr</code>  contains the majority of user utilities and applications, and partly replicates the root directory structure, containing for instance, among others, <code class="language-plaintext highlighter-rouge">/usr/bin/</code> and <code class="language-plaintext highlighter-rouge">/usr/lib</code>.</li>
+            <li><code class="language-plaintext highlighter-rouge">/var</code>  is dedicated to variable data, such as logs, databases, websites, and temporary spool (e-mail etc.) files that persist from one boot to the next. A notable directory it contains is /var/log where system log files are kept.</li>
+          </ul>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h3 id="encrypted-home-folders">Encrypted Home Folders</h3>
+
+    <p><a href="https://superuser.com/questions/1300415/how-to-decrypt-a-ubuntu-16-10-encrypted-home-folder">How to decrypt a Ubuntu 16.10 encrypted home folder?</a></p>
+    <blockquote>
+      <p>I have a defunct Ubuntu 16.10 installation* on a separate hard drive. There are files on that drive, in my home directory, that I need access to, but are encrypted using Ubuntu’s “encrypt home fold…
+<a href="https://opensourcehacker.com/2011/04/15/encrypted-folders-on-ubuntu-linux-using-ecryptfs-on-an-external-hard-drive/">Encrypted folders on Ubuntu Linux using eCryptfs on an external ha…</a>
+This blog post continues my Ubuntu encryption tools testing. Previously there was an example for losetup. However, with the latest Ubuntus eCryptfs is recommended instead. eCrypfs makes one directory in a file-system crypted. Since it does not work on a partition level, you d…</p>
+    </blockquote>
+
+    <h3 id="prevent-overheating">Prevent Overheating</h3>
+
+    <ul>
+      <li><a href="https://linrunner.de/en/tlp/docs/tlp-faq.html">Ubuntu: install the meta-package linux-tools-generic</a></li>
+      <li><a href="http://www.webupd8.org/2014/04/prevent-your-laptop-from-overheating.html">Prevent Your Laptop From Overheating With Thermald And Intel P-Sta…</a></li>
+      <li><a href="https://gitlab.com/jeanfi/psensor">Psensor</a>
+        <blockquote>
+          <p>It can monitor: the temperature of the motherboard and CPU sensors (using lm-sensors). the temperature of the NVidia GPUs (using XNVCtrl). the temperature of ATI/AMD GPU</p>
+        </blockquote>
+      </li>
+      <li><a href="https://itsfoss.com/reduce-overheating-laptops-linux/">Most Effective Ways To Reduce Laptop Overheating In Linux - It’s FOSS</a></li>
+      <li><a href="https://askubuntu.com/questions/22108/how-to-control-fan-speed">How to control fan speed?</a></li>
+      <li><a href="https://forums.tomshardware.com/threads/intel-temperature-guide.1488337/">Intel Temperature Guide</a>
+        <blockquote>
+          <p>Update: Oct 9, 2019 Intel Temperature Guide - by CompuTronix Preface The topic of processor temperatures can be very confusing. Conflicting opinions based on misconceptions concerning terminology, specifications and testing leaves users uncertain of how to properly check …</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h3 id="shell">Shell</h3>
+
+    <ul>
+      <li><a href="https://askubuntu.com/questions/404424/how-do-i-restore-bashrc-to-its-default">How do I restore .bashrc to its default?</a>
+        <blockquote>
+          <p>typing source /etc/environment will fix path for the moment, then you can replace <code class="language-plaintext highlighter-rouge">.bashrc</code> and <code class="language-plaintext highlighter-rouge">.profile</code></p>
+        </blockquote>
+      </li>
+      <li><a href="https://dev.to/shamilchoudhury/processing-text-with-linux-shell---part-1-4ajd">Processing Text with Linux Shell - Part 1</a>
+Using sed command to efficiently process text files in linux</li>
+      <li><a href="https://devconnected.com/syslog-the-complete-system-administrator-guide/">Syslog : The Complete System Administrator Guide – devconnected</a>
+        <blockquote>
+          <p>Complete Guide on understanding the Syslog protocol, syslog message format as well as log forwarding. Best practices included!</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.learnenough.com/command-line-tutorial/basics">Learn Enough Command Line to Be Dangerous</a> - Introduction to the Unix command line.</li>
+      <li><a href="https://zwbetz.com/mac-to-windows-command-line-mappings/">Mac (Bash) to Windows (Command Prompt) mappings</a></li>
+      <li><a href="https://github.com/mnyrop/swc-materials/blob/master/bash.md">The Unix Shell - Introducing the Shell</a></li>
+      <li><a href="https://www.tldp.org/LDP/Bash-Beginners-Guide/html/intro_01.html">Bash Beginners Guide</a>
+        <blockquote>
+          <p>This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don’t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world.</p>
+        </blockquote>
+      </li>
+      <li><a href="http://www.hypexr.org/bash_tutorial.php">http://www.hypexr.org/bash_tutorial.php</a></li>
+      <li><a href="https://www.bash.academy/">The Bash Academy</a></li>
+      <li><a href="https://dev.to/nickymeuleman/the-new-windows-terminal-271j">The new Windows Terminal</a></li>
+      <li><a href="https://dev.to/stefanjudis/til-a-preceding-space-prevents-dangerous-commands-from-going-into-history-5e02">TIL: A preceding space prevents dangerous commands from going into history</a></li>
+      <li><a href="https://dev.to/hamatti/better-bash-history-search-with-mcfly-3kck">Better bash history search with McFly</a></li>
+      <li><a href="https://dev.to/thamaraiselvam/how-to-bookmark-commands-in-terminal-2igo">How to Bookmark commands in Terminal</a></li>
+      <li><a href="http://linuxcommand.org/lc3_lts0030.php">Learning the shell - Lesson 3: Looking around</a></li>
+      <li><a href="https://www.tecmint.com/51-useful-lesser-known-commands-for-linux-users/">51 Useful Lesser Known Commands for Linux Users</a></li>
+      <li><a href="https://gregable.com/2010/09/why-you-should-know-just-little-awk.html">Why you should learn just a little Awk - An Awk tutorial by Example</a></li>
+      <li><a href="https://dev.to/javinpaul/10-simple-linux-tips-which-save-50-of-my-time-in-the-command-line-4moo">10 simple Linux tips which save 50% of my time in the command line</a></li>
+      <li><a href="https://www.geeksforgeeks.org/awk-command-unixlinux-examples/">AWK command in Unix/Linux with examples - GeeksforGeeks</a></li>
+      <li><a href="https://dev.to/shamilchoudhury/processing-text-with-linux-shell---part-2--ogo">Processing Text with Linux Shell - Part 2</a></li>
+      <li><a href="https://github.com/dylanaraps/pure-bash-bible">dylanaraps/pure-bash-bible</a></li>
+      <li><a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples">15 Practical Grep Command Examples In Linux / UNIX</a></li>
+      <li><a href="https://www.tecmint.com/save-file-in-vi-vim-editor-in-linux/">How to Save a File in Vi / Vim Editor in Linux</a></li>
+    </ul>
+
+    <h4 id="scripting">Scripting</h4>
+
+    <ul>
+      <li><a href="https://www.shellscript.sh/">Shell Scripting Tutorial</a>
+        <blockquote>
+          <p>This tutorial is written to help people understand some of the basics of shell script programming (aka shell scripting), and hopefully to introduce some of the possibilities of simple but powerful programming available under the Bourne shell. As such, it has been written as a…</p>
+        </blockquote>
+      </li>
+      <li><a href="https://arslan.io/2019/07/03/how-to-write-idempotent-bash-scripts/">How to write idempotent Bash scripts</a></li>
+    </ul>
+
+    <h4 id="zsh">ZSH</h4>
+    <ul>
+      <li><a href="https://ohmyz.sh/">Oh My Zsh - a delightful &amp; open source framework for Zsh</a></li>
+      <li><a href="https://www.howtoforge.com/tutorial/how-to-setup-zsh-and-oh-my-zsh-on-linux/">How to Setup ZSH and Oh-my-zsh on Linux</a></li>
+      <li><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH">robbyrussell/oh-my-zsh</a></li>
+    </ul>
+
+    <h2 id="networking">Networking</h2>
+
+    <ul>
+      <li><a href="https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html">https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO-2.html</a></li>
+      <li><a href="http://www.sudo-juice.com/how-to-set-a-static-ip-in-ubuntu-network-confirguration/">How to set a Static IP in Ubuntu – Ubuntu Network Confirguration</a></li>
+      <li><a href="https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/">How to Find What Devices are Connected to Network in Linux - It’s FOSS</a>
+<a href="https://drexl.me/guides/wireguard-pihole-vpn-setup.html">Setting up an ad-blocking VPN with Wireguard and Pihole</a></li>
+      <li><a href="https://help.ubuntu.com/community/Internet/ConnectionSharing">https://help.ubuntu.com/community/Internet/ConnectionSharing</a></li>
+      <li><a href="https://askubuntu.com/questions/1107987/connect-two-computers-with-ssh-in-a-home-lan">Connect two computers with SSH in a home LAN</a></li>
+      <li>I have two ubuntu computer shared the same wifi and desire to reach another from one’s terminal. First create an user on the second computer named “Second” and hostname “Algorithms” Then tried to</li>
+      <li><a href="https://babluboy.github.io/nutty/">Nutty</a>
+Nutty is a Network Utility made for elementary OS</li>
+      <li><a href="https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-ubuntu-18-04/">How To Set Up a Firewall with UFW on Ubuntu 18.04</a></li>
+      <li>By default, Ubuntu comes with a firewall configuration tool called UFW (Uncomplicated Firewall). UFW is a user-friendly front-end for managing iptables firewall rules and its main goal is to make managing iptables easier or as the name says uncomplicated.</li>
+      <li><a href="http://researchhubs.com/post/computing/linux-basic/index.html">Linux Server</a></li>
+      <li><a href="https://sourceforge.net/projects/etherape/">EtherApe</a></li>
+      <li>EtherApe is a graphical network monitor modeled after etherman. Featuring Ethernet, IP, TCP, FDDI, Token Ring and wireless modes, it displays network activity graphically.</li>
+      <li><a href="https://twitter.com/qw5kcmv3/status/1188145406200500230?s=12">https://twitter.com/qw5kcmv3/status/1188145406200500230?s=12</a>
+        <blockquote>
+          <p>This week we discussed tunneling with SSH, so I feel it is appropriate to highlight this great book dedicated to SSH. You think you know how to use all the features of SSH, but you don’t, and Googling isn’t going to provide you this comprehensive compilation. #DailyBookDrop</p>
+        </blockquote>
+      </li>
+      <li><a href="https://github.com/bryanpkc/corkscrew">bryanpkc/corkscrew</a></li>
+      <li>A tool for tunneling SSH through HTTP proxies. Contribute to bryanpkc/corkscrew development by creating an account on GitHub.</li>
+      <li><a href="https://dev.to/terceranexus6/introduction-to-linux-hardening-5aj1">Introduction to Linux Hardening</a></li>
+    </ul>
+
+    <h2 id="tools">Tools</h2>
+
+    <ul>
+      <li><a href="https://dev.to/prahladyeri/some-awesome-linux-tools-to-make-your-tech-life-easier-4h3p">Some Awesome Linux Tools To Make Your Tech Life Easier</a></li>
+      <li><a href="https://dev.to/antjanus/my-favorite-linux-tools-12be">My Favorite Linux Tools</a></li>
+      <li><a href="https://podcasts.apple.com/us/podcast/libre-lounge/id1466213478?i=1000450489684">‎Libre Lounge: 27: Cool Tools of Summer ‘19 on Apple Podcasts</a></li>
+      <li><a href="https://www.ubuntupit.com/top-15-linux-data-recovery-tools-the-professionals-choice/">Top 15 Linux Data Recovery Tools: The Professionals’ Choice</a>
+Linux data recovery tools are inseparable parts to the Linux users for preserving their data securely surpassing unexpected failure of hard disk.</li>
+      <li><a href="https://kdenlive.org/en/">https://kdenlive.org/en/</a>
+Kdenlive is an acronym for KDE Non-Linear Video Editor. It is primarily aimed at the GNU/Linux platform but also works on BSD and MacOS. It is currently being ported to Windows as a GSOC project.</li>
+      <li><a href="https://crontab.guru/">crontab.guru - the cron schedule expression editor</a>
+An easy to use editor for crontab schedules.</li>
+    </ul>
+
+    <h3 id="editors">Editors</h3>
+
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=20477793">Setup VS Code for Efficient PHP Development</a></li>
+      <li><a href="https://news.ycombinator.com/item?id=20785952">PacVim – PacVim is a game that teaches you vim commands</a></li>
+      <li><a href="https://dev.to/pencillr/looks-like-i-have-to-use-vim-now-3988">“Damn! Now I have to use Vim”</a></li>
+      <li><a href="https://news.ycombinator.com/item?id=20481512">History and Effective Use of Vim</a></li>
+    </ul>
+
+    <h3 id="version-management">Version Management</h3>
+
+    <ul>
+      <li><a href="https://rvm.io/integration/bundler">https://rvm.io/integration/bundler</a></li>
+      <li><a href="https://booyaa.wtf/2018/version-management-ruby-python-node-rust/">Version Management for Ruby, Python, Node and Rust</a></li>
+      <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04">How To Install Ruby on Rails with rbenv on Ubuntu 18.04</a></li>
+    </ul>
+
+    <h2 id="graphics">Graphics</h2>
+
+    <ul>
+      <li><a href="https://wiki.archlinux.org/index.php/Intel_graphics">Intel graphics</a></li>
+      <li><a href="https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions">https://wiki.archlinux.org/index.php/Xrandr#Adding_undetected_resolutions</a></li>
+    </ul>
+
+  </div>
+</div>
+:ET

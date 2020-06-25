@@ -1,0 +1,16 @@
+I"�<ol>
+  <li>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and work it through, it’s well documented</li>
+  <li>Add your own <code class="language-plaintext highlighter-rouge">logo.png</code> to <code class="language-plaintext highlighter-rouge">/assets/img/</code>.</li>
+  <li>Open <code class="language-plaintext highlighter-rouge">_data/socialmedia.yml</code> and add your own social media links.</li>
+  <li>Open <code class="language-plaintext highlighter-rouge">_data/navigation.yml</code> and customize your navigation.</li>
+  <li>Open <code class="language-plaintext highlighter-rouge">_data/language.yml</code> and translate the theme if necessary.</li>
+  <li>Open <code class="language-plaintext highlighter-rouge">_data/services.yml</code> and customize links in the footer.</li>
+  <li>Open <code class="language-plaintext highlighter-rouge">_data/network.yml</code> and customize links in the footer.</li>
+  <li>Open <code class="language-plaintext highlighter-rouge">_data/authors.yml</code> and edit author information and set default author in <code class="language-plaintext highlighter-rouge">config.yml</code>.</li>
+  <li><a href="http://localhost:4000/documentation/">Read the documentation</a> to check out all features of <em>Feeling Responsive</em>.</li>
+  <li>Make it yours and add your own content.</li>
+</ol>
+
+<p><a class="radius button small" href="http://localhost:4000/documentation/">Check out the documentation for all the tricks ›</a></p>
+
+:ET

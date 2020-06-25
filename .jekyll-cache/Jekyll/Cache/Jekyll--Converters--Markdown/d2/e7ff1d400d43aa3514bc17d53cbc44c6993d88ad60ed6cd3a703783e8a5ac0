@@ -1,0 +1,89 @@
+I"�<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#set-up-free-google-ads-account" id="markdown-toc-set-up-free-google-ads-account">Set up Free Google Ads Account</a></li>
+  <li><a href="#start-using-keyword-planner" id="markdown-toc-start-using-keyword-planner">Start Using Keyword Planner</a>    <ul>
+      <li><a href="#download-and-explore-data" id="markdown-toc-download-and-explore-data">Download and Explore Data</a></li>
+    </ul>
+  </li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/seo/2019-03-26-keyword-planner.md">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/seo/2019-03-26-keyword-planner.md">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <p>This short step-by-step guide will ensure that anyone can try out keyword planner and begin learning how to use this SEO fundamental. It’s especially useful if you’re not shelling out for expensive keyword tools, right off the bat.</p>
+
+    <p>You don’t need to worry about it immediately, however, you’ll find that many guides have adwords keyword planner as one of the tools to use. This is the really basic instructions for getting started, so anyone should be able to!</p>
+
+    <h2 id="set-up-free-google-ads-account">Set up Free Google Ads Account</h2>
+
+    <p><img src="https://i.imgur.com/F2FyM0A.png" alt="" /></p>
+
+    <p>go to <a href="https://ads.google.com">ads.google.com</a> and click start now at the top right corner and choose a gmail account to use.</p>
+
+    <p><img src="https://i.imgur.com/n0AsI6I.png" alt="" /></p>
+
+    <p>Click “Experienced with Google Ads” at the bottom.</p>
+
+    <p><img src="https://i.imgur.com/ST8jiVY.png" alt="" /></p>
+
+    <p>Click create an account without a campaign.</p>
+
+    <p><img src="https://i.imgur.com/FDzdZOo.png" alt="" /></p>
+
+    <p>Click Submit.</p>
+
+    <p>OK! Now you have an account w google ads.</p>
+
+    <p><img src="https://i.imgur.com/MLu3Nx5.png" alt="" /></p>
+
+    <p>You have to click “explore your account” to proceed.</p>
+
+    <h2 id="start-using-keyword-planner">Start Using Keyword Planner</h2>
+
+    <p><img src="https://i.imgur.com/BPGKUAu.png" alt="" /></p>
+
+    <p>In the top right corner, click the little wrench for tools, and then select “Keyword Planner” on the left of the screen.</p>
+
+    <p><img src="https://i.imgur.com/9HBzgoa.png" alt="" /></p>
+
+    <p>Click Find New Keywords and then you’re good to go!</p>
+
+    <p>We’re going to enter 10 Seed Keywords, those are different ways someone might search for your business, or a business like it. If you don’t get enough keyword ideas then leave the web-site blank.</p>
+
+    <p><img src="https://i.imgur.com/gYfaH1e.png" alt="" /></p>
+
+    <h3 id="download-and-explore-data">Download and Explore Data</h3>
+
+    <p><img src="https://i.imgur.com/VC9Mc7x.png" alt="" /></p>
+
+    <p>Google comes up with keywords, based on your seed keywords. Ideally you want google to come up with a lot of them. We’ll get to that later.</p>
+
+    <p>Go to the top right corner and download the keywords and keyword planner will give you a csv file that we’re going to open up in a spreadsheet program.</p>
+
+    <p><img src="https://i.imgur.com/acoH1WP.png" alt="" /></p>
+
+    <p>You can see that there are a lot of ways to explore this data, I’m going to sort it by volume.</p>
+
+    <p>Then I can cut out all of the keywords that are really high volume or by whatever metrics I’m looking at, and use the keywords I get from keyword planner with a number of other tools.</p>
+
+  </div>
+</div>
+:ET

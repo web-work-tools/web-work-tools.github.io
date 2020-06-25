@@ -1,0 +1,271 @@
+I"
+?<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#official-resources" id="markdown-toc-official-resources">Official Resources</a></li>
+  <li><a href="#publishing-websites-via-hugo" id="markdown-toc-publishing-websites-via-hugo">Publishing Websites Via Hugo</a></li>
+  <li><a href="#using-different-versions-of-hugo" id="markdown-toc-using-different-versions-of-hugo">Using different versions of Hugo:</a>    <ul>
+      <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
+      <li><a href="#hugo-variables-and-templating" id="markdown-toc-hugo-variables-and-templating">Hugo Variables and Templating</a></li>
+    </ul>
+  </li>
+  <li><a href="#internal-templates" id="markdown-toc-internal-templates">Internal Templates</a>    <ul>
+      <li><a href="#twitter-cards" id="markdown-toc-twitter-cards">Twitter Cards</a></li>
+    </ul>
+  </li>
+  <li><a href="#hugo-shortcodes" id="markdown-toc-hugo-shortcodes">Hugo Shortcodes</a></li>
+  <li><a href="#themes" id="markdown-toc-themes">Themes</a>    <ul>
+      <li><a href="#academic" id="markdown-toc-academic">Academic</a></li>
+      <li><a href="#learn" id="markdown-toc-learn">Learn</a></li>
+    </ul>
+  </li>
+  <li><a href="#related-posts" id="markdown-toc-related-posts">Related Posts</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-07-hugo-starter-kit.md">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-07-hugo-starter-kit.md">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <ul>
+      <li><a href="https://www.thenewdynamic.org/article/2017-10-03-interview-hugo-lead-developer/">Interview with Bjørn Erik Pedersen, Hugo lead developer</a></li>
+    </ul>
+
+    <h2 id="official-resources">Official Resources</h2>
+
+    <ul>
+      <li><a href="https://gohugo.io/getting-started/quick-start/">Quickstart</a></li>
+      <li><a href="https://gohugo.io">GoHugo</a></li>
+      <li><a href="https://gohugo.io/documentation/">Documentation</a></li>
+      <li><a href="https://discourse.gohugo.io">Forum</a></li>
+      <li>https://gohugo.io/tools/starter-kits/</li>
+      <li><a href="https://golang.org/">Golang</a> - the language HUGO is built with
+        <ul>
+          <li><a href="https://golang.org/pkg/text/template/">Golang Templates</a></li>
+        </ul>
+      </li>
+      <li><a href="https://gohugo.io/getting-started/configuration/">Configure</a> - all the cool config.toml settings you never knew!</li>
+      <li><a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting</a></li>
+      <li><a href="https://gohugo.io/content-management/page-bundles/">Page Bundles</a></li>
+      <li><a href="https://gohugo.io/content-management/urls/#permalink-configuration-values">Permalink Configuration Values:</a></li>
+    </ul>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Permalinks]
+  # | :year        | the 4-digit year                           |
+  # | :month       | the 2-digit month                          |
+  # | :monthname   | the name of the month                      |
+  # | :day         | the 2-digit day                            |
+  # | :weekday     | the 1-digit day of the week (Sunday = 0)   |
+  # | :weekdayname | the name of the day of the week            |
+  # | :yearday     | the 1- to 3-digit day of the year          |
+  # | :section     | the content's section                      |
+  # | :sections    | the content's sections hierarchy           |
+  # | :title       | the content's title                        |
+  # | :slug        | the content's slug (or title, if no slug)  |
+  # | :filename    | the content's filename (without extension) |
+
+  # Examples
+  posts = "/:filename/"
+  # post = "/:year/:month/:title/"
+  notes = "/notes/:filename/"
+</code></pre></div>    </div>
+
+    <h2 id="publishing-websites-via-hugo">Publishing Websites Via Hugo</h2>
+
+    <ul>
+      <li><a href="https://github.com/budparr/awesome-hugo/">budparr/awesome-hugo</a></li>
+      <li><a href="https://zwbetz.com/make-a-hugo-blog-from-scratch/">Make A Hugo Blog from Scratch</a></li>
+      <li><a href="https://blog.carlmjohnson.net/post/2017/hugo-asset-pipeline/">Hugo Asset Pipeline</a></li>
+      <li><a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/">Hosting Hugo on Netlify - Insanely Fast Deploys</a></li>
+    </ul>
+
+    <h2 id="using-different-versions-of-hugo">Using different versions of Hugo:</h2>
+
+    <ul>
+      <li><a href="https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/">Netlify Plus Hugo .20 and beyond</a>
+        <blockquote>
+          <p>Until yesterday, if you wanted to use a new version of Hugo on Netlify, you had two options. The first one was to wait for us to install it on our build servers and work around name collisions. Although it was not complicated, you can see by reading this blog post, it’s not very sustainable. The second option was to add the version of the Hugo binary you wanted to use to your repository. Since Hugo is a static binary, this is a very convenient solution if you want to manage it yourself.</p>
+
+          <p>Starting today, if you want to use a specific new version of Hugo on Netlify, you only need to set the environment variable HUGO_VERSION with the version number you want to use. If it’s a valid release number, we’ll install it for you and use that version. You don’t have to wait for us, or manage binaries yourself. For example, if you want to use Hugo 0.20 right now, you can go to your site’s settings (Build and Deploy, Build Environment Variables section) and set HUGO_VERSION to 0.20 in your environment.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <p>Basically, if you use netlify it will build with whatever version you tell it to. Otherwise you need to install specific versions locally. You can just drop the binary of the version you need in the root of that projects repository.</p>
+
+    <h3 id="tutorials">Tutorials</h3>
+
+    <ul>
+      <li><a href="https://zwbetz.com/tags/hugo/">zwbetz.com - hugo</a></li>
+      <li><a href="https://willschenk.com/tags/hugo/">willschenk.com - hugo</a></li>
+      <li><a href="https://regisphilibert.com/tags/hugo/">https://regisphilibert.com/tags/hugo/</a></li>
+      <li><a href="https://kodify.net/hugo-static-site-tutorials/">Hugo Static Site Tutorials</a></li>
+      <li><a href="https://discourse.gohugo.io/t/undocumented-asset-pipelines-starter-kits-and-boilerplates/8423">Undocumented asset pipelines, Starter-Kits and Boilerplates</a></li>
+    </ul>
+
+    <p><img src="https://imgur.com/udN9Kcs.png" alt="" /></p>
+
+    <ul>
+      <li><a href="https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3">Hugo Video Turorials</a>
+        <blockquote>
+          <p>This course covers the basics of using Hugo - Static Site Generator. Work your way through the videos and we’ll teach you everything you need to know to create a professional and scalable website or blog!</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h3 id="hugo-variables-and-templating">Hugo Variables and Templating</h3>
+
+    <ul>
+      <li><a href="https://gohugo.io/variables/site/">Site Variables</a></li>
+      <li><a href="https://gohugo.io/variables/page/">Page Variables</a></li>
+    </ul>
+
+    <h2 id="internal-templates">Internal Templates</h2>
+
+    <p>Hugo ships with a group of boilerplate templates that cover the most common use cases for static websites.</p>
+
+    <ul>
+      <li><a href="https://gohugo.io/templates/internal/#the-internal-templates">The Internal Templates</a></li>
+    </ul>
+
+    <h3 id="twitter-cards">Twitter Cards</h3>
+
+    <ul>
+      <li><a href="https://gohugo.io/templates/internal/#configure-twitter-cards">Internal Templates: Twitter Cards</a></li>
+    </ul>
+
+    <p>I guess the creators of hugo don’t use twitter much… since I couldn’t get interal includes to work. Or probably I am borked.. anyways.</p>
+
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    
+    <span class="c">&lt;!-- Twitter Cards--&gt;</span>
+    <span class="c">&lt;!-- Twitter summary card with large image must be at least 280x150px --&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:card"</span> <span class="na">content=</span><span class="s">"summary_large_image"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:image:src"</span> <span class="na">content=</span><span class="s">"{{ with .Params.images }}{{ . }}{{ else }}{{ .Site.Params.images }}{{ end }}"</span><span class="nt">/&gt;</span>
+    <span class="c">&lt;!-- Twitter Card data --&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:title"</span> <span class="na">content=</span><span class="s">"{{ .Title }}"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:description"</span> <span class="na">content=</span><span class="s">"{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"</span><span class="nt">/&gt;</span>
+    {{ with .Site.Social.twitter }}<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:site"</span> <span class="na">content=</span><span class="s">"@{{ . }}"</span><span class="nt">/&gt;</span>{{ end }}
+    {{ with .Site.Social.twitter_domain }}<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"twitter:domain"</span> <span class="na">content=</span><span class="s">"{{ . }}"</span><span class="nt">/&gt;</span>{{ end }}
+    
+</code></pre></div>    </div>
+
+    <p>I still use their params, but coocked up my own based from theirs and something I had in my head.</p>
+
+    <p>You can verify this works at <a href="https://web-work.tools/indieweb">web-work.tools/indieweb</a>:</p>
+
+    <p><img src="https://imgur.com/CGtUwEI.png" alt="" /></p>
+
+    <p>Now I just have to design a header image that fits with twitter dimensions, or set it up to look for an og:image, incase I use a thinner banner image.</p>
+
+    <p><strong>Params for config.toml</strong></p>
+
+    <div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[params]</span>
+  <span class="py">description</span> <span class="p">=</span> <span class="s">"Text about my cool site"</span>
+  <span class="py">images</span> <span class="p">=</span> <span class="nn">["site-feature-image.jpg"]</span>
+</code></pre></div>    </div>
+
+    <p><strong>Front Matter Post Variables</strong></p>
+
+    <div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="py">description</span> <span class="p">=</span> <span class="s">"Text about this post"</span>
+<span class="py">images</span> <span class="p">=</span> <span class="nn">["post-cover.png"]</span>
+<span class="py">title</span> <span class="p">=</span> <span class="s">"Post title"</span>
+</code></pre></div>    </div>
+
+    <h2 id="hugo-shortcodes">Hugo Shortcodes</h2>
+
+    <ul>
+      <li><a href="https://gohugo.io/content-management/shortcodes/">Content Management - Shortcodes</a></li>
+      <li><a href="https://github.com/parsiya/Hugo-Shortcodes">parsiya/Hugo-Shortcodes</a></li>
+      <li><a href="https://geekthis.net/post/hugo-shortcode-pack/">Hugo Shortcode Pack</a> &lt;-has pdf support via third party.</li>
+    </ul>
+
+    <h2 id="themes">Themes</h2>
+
+    <ul>
+      <li><a href="https://github.com/search?q=hugo+theme">github.com/search?q=hugo+theme</a></li>
+      <li><a href="https://themes.gohugo.io/">themes.gohugo.io</a></li>
+      <li><a href="https://web-work.tools/migrate-jekyll-hpstr-hugo/">Migrating From Jekyll HPSTR theme to Hugo HPSTR theme</a>
+        <ul>
+          <li><a href="https://github.com/mikeymop/minimal-mistakes-hugo/">mikeymop/minimal-mistakes-hugo/</a> - I see there is also a minimal mistakes hugo theme, so I’ll have to try that sometime :)</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 id="academic">Academic</h3>
+
+    <p>If you are somewhat familiar with Jekyll already, you may want to jumping right in with Academic Pages. It’s not exactly simple, but its versatile.</p>
+
+    <p><img src="https://imgur.com/JpASy3c.png" alt="" /></p>
+
+    <p>I tried <a href="https://github.com/search?q=hugo+theme">github.com/search?q=hugo+theme</a>, and found that Academic has a toooon of stars. More even than the repository for all of hugos themes in one place !!!</p>
+
+    <p><img src="https://imgur.com/25btYyt.png" alt="" /></p>
+
+    <p>There is a one click fork\deploy with GitHub\GitLab Pages and Netlify.</p>
+
+    <p>Seriously just click a button, it creates the repo and publishes it for you.</p>
+
+    <ul>
+      <li><a href="https://sourcethemes.com/academic/docs/install/">Academic Install</a>
+        <blockquote>
+          <p>You can choose from one of the following four methods to install:</p>
+          <ul>
+            <li>one-click install using your web browser (recommended)</li>
+            <li>install on your computer using Git with the Command Prompt/Terminal app</li>
+            <li>install on your computer by downloading the ZIP files</li>
+            <li>install on your computer with RStudio</li>
+          </ul>
+        </blockquote>
+      </li>
+      <li><a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">Writing content with Markdown, LaTeX, and Shortcodes</a></li>
+      <li><a href="https://sourcethemes.com/academic/docs/page-builder/">Getting Started With the Page Builder</a> - Learn Academic’s widget system.</li>
+      <li><a href="https://lmyint.github.io/post/hugo-academic-tips/">Academic Tips</a></li>
+      <li><a href="https://sourcethemes.com/academic/docs/jupyter/">Display Jupyter Notebooks with Academic</a></li>
+      <li><a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-course-or-documentation">Creating a Course or Documentation</a></li>
+      <li><a href="https://sourcethemes.com/academic/docs/migrate-from-jekyll/">Academic - Migrate From Jekyll</a></li>
+    </ul>
+
+    <h3 id="learn">Learn</h3>
+
+    <p><img src="https://imgur.com/mZfWUqyl.png" alt="" /></p>
+
+    <p>Another documentation theme, I think a bit simpler than Academic.</p>
+
+    <ul>
+      <li><a href="https://github.com/matcornic/hugo-theme-learn">matcornic/hugo-theme-learn</a>
+        <ul>
+          <li><a href="https://learn.netlify.com/en/">learn.netlify.com</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="related-posts">Related Posts</h2>
+
+    <p>All this started a few months ago when I began creating an <a href="https://github.com/DIDecentralized">awesome list</a> on github, then got into publishing via GitHub Pages.</p>
+
+    <ul>
+      <li><a href="https://web-work.tools/jamstack/github-pages-starter-pack//">GitHub Pages Starter Pack</a></li>
+      <li><a href="https://web-work.tools/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
+      <li><a href="https://web-work.tools/static-site-generators">Static Site Generators</a> (just a start)</li>
+      <li><a href="https://web-work.tools/migrate-jekyll-hpstr-hugo/">Migrating From Jekyll HPSTR theme to Hugo HPSTR theme</a></li>
+      <li><a href="https://web-work.tools/command-line-git-ssh/">Command Line - Git - SSH - BASH</a></li>
+    </ul>
+
+  </div>
+</div>
+:ET

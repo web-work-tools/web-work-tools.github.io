@@ -1,0 +1,191 @@
+I"�9<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#origin-and-history" id="markdown-toc-origin-and-history">Origin and History</a></li>
+  <li><a href="#getting-started-with-git-fundamentals" id="markdown-toc-getting-started-with-git-fundamentals">Getting Started with Git Fundamentals</a>    <ul>
+      <li><a href="#cheat-sheets" id="markdown-toc-cheat-sheets">Cheat Sheets</a></li>
+      <li><a href="#create-test-branch--merge-changes" id="markdown-toc-create-test-branch--merge-changes">Create Test Branch + Merge Changes</a></li>
+      <li><a href="#submodules" id="markdown-toc-submodules">Submodules</a></li>
+    </ul>
+  </li>
+  <li><a href="#resources" id="markdown-toc-resources">Resources</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2020-01-26-git-starter-pack.md/#excerpt">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2020-01-26-git-starter-pack.md/#excerpt">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <h2 id="origin-and-history">Origin and History</h2>
+
+    <ul>
+      <li><a href="https://www.linuxjournal.com/content/git-origin-story">A Git Origin Story</a>
+        <blockquote>
+          <p>A look at Linux kernel developers’ various revision control solutions through the years, Linus Torvalds’ decision to use BitKeeper and the controversy that followed, and how Git came to be created.</p>
+
+          <p>Originally, Linus Torvalds used no revision control at all. Kernel contributors would post their patches to the Usenet group, and later to the mailing list, and Linus would apply them to his own source tree. Eventually, Linus would put out a new release of the whole tree, with no division between any of the patches. The only way to examine the history of his process was as a giant diff between two full releases.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.linuxfoundation.org/blog/2015/04/10-years-of-git-an-interview-with-git-creator-linus-torvalds/">10 Years of Git: An Interview with Git Creator Linus Torvalds</a>
+        <blockquote>
+          <p>Torvalds: I really never wanted to do source control management at all and felt that it was just about the least interesting thing in the computing world (with the possible exception of databases ;^), and I hated all SCM’s with a passion. But then BitKeeper came along and really changed the way I viewed source control. BK got most things right and having a local copy of the repository and distributed merging was a big deal. The big thing about distributed source control is that it makes one of the main issues with SCM’s go away – the politics around “who can make changes.” BK showed that you can avoid that by just giving everybody their own source repository. But BK had its own problems, too; there were a few technical choices that caused problems (renames were painful), but the biggest downside was the fact that since it wasn’t open source, there was a lot of people who didn’t want to use it. So while we ended up having several core maintainers use BK – it was free to use for open source projects – it never got ubiquitous. So it helped kernel development, but there were still pain points.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.atlassian.com/git/articles/10-years-of-git">10 Years of Git - Atlassian</a> - timeline
+        <blockquote>
+          <p>10 years ago Linus Torvalds started writing code for a new distributed version control system on a Sunday and only a mere few days later, the world was given the gift of Git. Git has helped teams big and small work faster while becoming more distributed and has left its mark with cheap local branching, easier code review, flexible work flows and so much more. Over the last decade Git has seen exponential growth and has become the most popular version control system today. Take a walk down memory lane to see how Git has evolved over the years and join us in celebrating the history of Git.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.wired.com/2012/05/torvalds-github/">Linus Torvalds Invented Git, But He Pulls No Patches With GitHub</a>
+        <blockquote>
+          <p>Linus Torvalds keeps a copy of his Linux kernel project on GitHub, the wildly popular code-hosting website. But there’s a caveat. If you try to send him a patch or a bug-fix via GitHub, he’ll tell you to take a hike.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://hackaday.com/2017/05/11/history-of-git/">History of Git</a>
+        <blockquote>
+          <p>Git is one of those tools that is so simple to use, that you often don’t learn a lot of nuance to it. You wind up cloning a repository from the Internet and that’s about it. If you make changes, maybe you track them and if you are really polite you might create a pull request to give back to the project. But there’s a lot more you can do. For example, did you know that Git can track collaborative Word documents? Or manage your startup files across multiple Linux boxes?</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="getting-started-with-git-fundamentals">Getting Started with Git Fundamentals</h2>
+
+    <ul>
+      <li><a href="https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/">How to undo (almost) anything with Git</a>
+        <blockquote>
+          <p>One of the most useful features of any version control system is the ability to “undo” your mistakes. In Git, “undo” can mean many slightly different things.</p>
+
+          <p>When you make a new commit, Git stores a snapshot of your repository at that specific moment in time; later, you can use Git to go back to an earlier version of your project.</p>
+        </blockquote>
+      </li>
+      <li><a href="http://git.io/git-tips">Most commonly used git tips and tricks.</a></li>
+      <li><a href="https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes">Working with Remotes</a>
+        <blockquote>
+          <p>To be able to collaborate on any Git project, you need to know how to manage your remote repositories. Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either read-only or read/write for you.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://chris.beams.io/posts/git-commit/">Writing Effective Commits</a>
+        <blockquote>
+          <p>If you haven’t given much thought to what makes a great Git commit message, it may be the case that you haven’t spent much time using git log and related tools.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://help.github.com/en/articles/managing-commit-signature-verification">managing-commit-signature-verification</a>
+        <blockquote>
+          <p>You can sign your work locally using GPG or S/MIME. GitHub will verify these signatures so other people will know that your commits come from a trusted source. GitHub will automatically sign commits you make using the GitHub web interface.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p>Outside of GitHub and its imitators, most contributors to a project don’t have a published version of their repository online at all, skipping that step and saving some time. - <a href="https://drewdevault.com/2019/05/24/What-is-a-fork.html">What is a Fork?</a></p>
+    </blockquote>
+
+    <h3 id="cheat-sheets">Cheat Sheets</h3>
+
+    <ul>
+      <li><a href="https://gist.github.com/davfre/8313299">davfre/git_cheat-sheet.md</a>
+        <blockquote>
+          <p><code class="language-plaintext highlighter-rouge">git status</code> list which (unstaged) files have changed
+<code class="language-plaintext highlighter-rouge">git diff</code> list (unstaged) changes to files
+<code class="language-plaintext highlighter-rouge">git log</code> list recent commits</p>
+        </blockquote>
+      </li>
+      <li><a href="https://education.github.com/git-cheat-sheet-education.pdf">education.github.com - GIT CHEAT SHEET</a></li>
+      <li><a href="https://github.com/jonathancross/jc-docs/blob/master/Git-CheatSheet.md">Git CheetSheet</a>
+        <blockquote>
+          <p>Git can be challenging to learn and often makes the easy complicated in its attempt to make the complicated easy. This is a collection of notes, aliases, shortcuts and explanations that help me to survive.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add --update # stages only the files which are already tracked and not new
+git commit --amend     # Change previous commit message and / or add staged files.
+git show --name-status # Show diff of previous commit
+git log --stat # Show latest changes committed
+git checkout [BRANCH NAME] # To switch to a particular branch
+git checkout -b [BRANCH NAME] # To CREATE a new branch
+git remote set-url origin git@github.com:jonathancross/pics.jonathancross.com.git # Allow git push via ssh without password
+git remote -v  # Show the remotes that are configured: https://help.github.com/articles/fork-a-repo/
+</code></pre></div>    </div>
+
+    <h3 id="create-test-branch--merge-changes">Create Test Branch + Merge Changes</h3>
+
+    <p>This is a little walkthru I made for myself when <a href="/jamstack/jekyll-hpstr-hugo-theme/">trying out a Hugo theme</a> for this website. I made a test branch for the new theme, and merged the changes merged the changes to master, once I had it running.</p>
+
+    <ul>
+      <li><a href="https://git-scm.com/book/id/v2/Git-Branching-Basic-Branching-and-Merging">Git Branching and Merging</a></li>
+    </ul>
+
+    <p>Use the command <code class="language-plaintext highlighter-rouge">git checkout -b</code> will allow you to create a local branch for testing.</p>
+
+    <p>I called the new branch <code class="language-plaintext highlighter-rouge">test-hugo</code>:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">git checkout -b test-hugo</code></p>
+
+    <p><code class="language-plaintext highlighter-rouge">git checkout -b</code> creates a duplicate of your repository isolated from your working project, so you can test out and break things without effecting your working product.</p>
+
+    <ul>
+      <li><a href="https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master">Merging changes back to the master branch</a></li>
+    </ul>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout master
+git pull origin master
+git merge test
+git push origin master
+</code></pre></div>    </div>
+
+    <h3 id="submodules">Submodules</h3>
+    <ul>
+      <li><a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git Tools - Submodules</a> - so you can pull other git repos into your project</li>
+      <li><a href="https://gist.github.com/ChristopherA/23ff68d549d990cc7cbbfaacdde4b2ef">Git Submodule Tips</a></li>
+      <li><a href="https://www.atlassian.com/git/tutorials/git-submodule">Atlassian- Git Submodules</a></li>
+      <li><a href="https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407">Mastering Git submodules</a></li>
+      <li><a href="https://dev.to/dwd/git-submodules-revisited-1p54">Git Submodules Revisited</a> - <a href="https://news.ycombinator.com/item?id=17055919">ycombinator thread</a></li>
+      <li><a href="https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin/5828396#5828396">Update Git submodule to latest commit on origin</a></li>
+      <li><a href="https://github.blog/2016-02-01-working-with-submodules/">Working with Submodules</a></li>
+      <li><a href="https://www.vogella.com/tutorials/GitSubmodules/article.html">Using submodules in Git - Tutorial</a></li>
+      <li><a href="https://medium.com/walkme-engineering/how-to-merge-a-git-submodule-into-its-main-repository-d83a215a319c">How To: Merge a Git submodule into its main repository</a></li>
+      <li><a href="https://blog.debiania.in.ua/posts/2017-07-06-pulling-submodule-s-history-into-the-main-repository.html">Pulling submodule’s history into the main repository — Debiania</a>
+        <blockquote>
+          <p>If you ever decide to somehow fold a Git submodule into the main repository, you’ll definitely end up reading <a href="https://stackoverflow.com/questions/1759587/un-submodule-a-git-submodule/">this Stack Overflow answer</a> on or <a href="http://x3ro.de/2013/09/01/Integrating-a-submodule-into-the-parent-repository.html">that blog post by Lucas Jenß</a>. But for whatever reason, both of these limit themselves to actions that don’t modify history. Yet if this restriction is lifted, a few more possibilities will emerge.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="resources">Resources</h2>
+
+    <p><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow Workflow</a></p>
+    <blockquote>
+      <p>Gitflow Workflow is a Git workflow design that was first published and made popular by Vincent Driessen at nvie. The Gitflow Workflow defines a strict branching model designed around the project release. This provides a robust framework for managing larger projects.</p>
+    </blockquote>
+
+    <p><a href="https://git-annex.branchable.com/">git-annex</a></p>
+    <blockquote>
+      <p>git-annex allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.</p>
+    </blockquote>
+
+    <ul>
+      <li><a href="https://git-scm.com/book/en/v2">The entire Pro Git book</a> -written by Scott Chacon and Ben Straub</li>
+      <li><a href="https://www.learnenough.com/git-tutorial/getting_started">Learn Enough Git to Be Dangerous</a></li>
+      <li><a href="https://www.atlassian.com/git">Atlassian -Getting Git Right</a></li>
+      <li><a href="https://guides.github.com/introduction/git-handbook/">guides.github.com - Git Handbook</a></li>
+    </ul>
+
+  </div>
+</div>
+:ET

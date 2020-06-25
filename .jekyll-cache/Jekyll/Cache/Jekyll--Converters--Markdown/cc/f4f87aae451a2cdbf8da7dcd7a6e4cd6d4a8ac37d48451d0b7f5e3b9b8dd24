@@ -1,0 +1,41 @@
+I"Ä<p>Itâ€™s so easy to do. Just define in front matter an image and a background color. Instead of a color you can also use a pattern image. Have a look at the <a href="http://localhost:4000/design/header-image-pattern/">example with a background pattern</a>.
+<!--more--></p>
+
+<h2 id="front-matter-code">Front Matter Code</h2>
+
+<div class="alert-box alert "><p>WARNING: To make this work the value of <code class="language-plaintext highlighter-rouge">background-color</code> must be inbetween quotes.</p>
+</div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>header:
+    image: "header_unsplash_2-970x.jpg"
+    background-color: "#fabb00"
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+</code></pre></div></div>
+
+<h3 class="t60" id="all-header-styles">All Header-Styles</h3>
+
+<ul class="side-nav">
+
+  
+
+    
+      <li><a href="http://localhost:4000/design/no-header/">Headers With Style &middot; <strong>No Header</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/no-header-but-image/">Headers With Style &middot; <strong>No Header but Article Image</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-with-text/">Headers With Style &middot; <strong>Header With Text</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-logo-only/">Headers With Style &middot; <strong>Header With Logo Only</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-image-color/">Headers With Style &middot; <strong>Header Image With Background Color</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-full-width-image/">Headers With Style &middot; <strong>Header with a Full-Width-Image</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/header-image-pattern/">Headers With Style &middot; <strong>Header Image With Pattern</strong></a></li>
+    
+
+  
+</ul>
+
+:ET

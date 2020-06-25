@@ -1,0 +1,143 @@
+I"_<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#markdown" id="markdown-toc-markdown">Markdown</a></li>
+  <li><a href="#toml---yaml---json" id="markdown-toc-toml---yaml---json">TOML - YAML - JSON</a></li>
+  <li><a href="#html" id="markdown-toc-html">HTML</a>    <ul>
+      <li><a href="#color" id="markdown-toc-color">Color</a></li>
+      <li><a href="#unicode" id="markdown-toc-unicode">Unicode</a></li>
+      <li><a href="#meta-tags" id="markdown-toc-meta-tags">Meta Tags</a></li>
+    </ul>
+  </li>
+  <li><a href="#css" id="markdown-toc-css">CSS</a>    <ul>
+      <li><a href="#bootstrap" id="markdown-toc-bootstrap">Bootstrap</a></li>
+    </ul>
+  </li>
+  <li><a href="#related-markup-and-interpreters" id="markdown-toc-related-markup-and-interpreters">Related Markup and Interpreters</a></li>
+  <li><a href="#kramdown" id="markdown-toc-kramdown">Kramdown</a></li>
+  <li><a href="#related-posts" id="markdown-toc-related-posts">Related Posts</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-06-learn-html-css.md">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/jamstack/2019-06-06-learn-html-css.md">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <p><a href="http://commons.wikimedia.org/wiki/File:HTML5_APIs_and_related_technologies_taxonomy_and_status.svg"><em>header image source</em></a></p>
+
+    <ul>
+      <li>[The_web_standards_model_-<em>HTML_CSS_and_JavaScript](https://www.w3.org/wiki/The_web_standards_model</em>-_HTML_CSS_and_JavaScript)</li>
+    </ul>
+
+    <h2 id="markdown">Markdown</h2>
+
+    <ul>
+      <li><a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a></li>
+      <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheet-Sheet</a></li>
+    </ul>
+
+    <h2 id="toml---yaml---json">TOML - YAML - JSON</h2>
+
+    <p>Just this for now, will get deeper with structured data, later on.</p>
+
+    <ul>
+      <li><a href="https://github.com/toml-lang/toml">github.com/toml-lang/toml</a></li>
+      <li><a href="http://yaml.org/">yaml.org</a></li>
+      <li><a href="https://www.json.org/">json.org</a></li>
+    </ul>
+
+    <h2 id="html">HTML</h2>
+
+    <ul>
+      <li><a href="https://htmldog.com/guides/html/beginner/">htmldog.com - HTML5 Beginner Tutorials</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn">Learn web development - developer.mozilla.org</a></li>
+      <li><a href="https://www.learnenough.com/html-tutorial">Learn Enough HTML to be Dangerous</a></li>
+    </ul>
+
+    <h3 id="color">Color</h3>
+
+    <ul>
+      <li><a href="https://htmlcolorcodes.com/color-chart/">HTML Color Chart</a></li>
+      <li><a href="http://paletton.com/">Paletton</a></li>
+      <li><a href="https://www.colorhexa.com/">Color Hexa</a></li>
+      <li><a href="http://clrs.cc/">Colors</a></li>
+      <li><a href="https://material.io/tools/color/#!/?view.left=0&amp;view.right=0&amp;primary.color=455A64">Color Tool</a></li>
+    </ul>
+
+    <h3 id="unicode">Unicode</h3>
+
+    <ul>
+      <li><a href="https://unicode-table.com/en/#miscellaneous-symbols-and-pictographs">Miscellaneous-Symbols-and-Pictographs</a></li>
+    </ul>
+
+    <h3 id="meta-tags">Meta Tags</h3>
+
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML">The Head - Metadata in HTML</a></li>
+      <li><a href="https://metatags.io">https://metatags.io</a></li>
+      <li><a href="https://www.heymeta.com/">https://www.heymeta.com/</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0">Viewport and Media Queries</a></li>
+    </ul>
+
+    <h2 id="css">CSS</h2>
+
+    <ul>
+      <li><a href="https://dbushell.com/2016/03/04/css-only-responsive-tables/">rtable</a></li>
+      <li><a href="https://htmldog.com/guides/css/">htmldog.com - CSS Beginner-Advanced Tutorials</a></li>
+      <li><a href="https://www.learnenough.com/css-and-layout-tutorial">Learn Enough CSS and Layout to be Dangerous</a></li>
+    </ul>
+
+    <h3 id="bootstrap">Bootstrap</h3>
+
+    <p>Bootstrap is a small responsive css framework that minimizes the effort required to deal with all that by hand. You could use it when building from the ground up, or with a simple theme that doesn’t have much styling… just starting to learn about this.</p>
+
+    <ul>
+      <li><a href="https://getbootstrap.com">Boostrap</a></li>
+      <li><a href="https://www.ostraining.com/blog/webdesign/introduction-to-bootstrap-for-absolute-beginner/">Introduction to Bootstrap for Absolute Beginners</a></li>
+      <li><a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/#starter-template">Boostrap Starter Template</a></li>
+    </ul>
+
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WpzT-pTImyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+    <h2 id="related-markup-and-interpreters">Related Markup and Interpreters</h2>
+
+    <ul>
+      <li><a href="https://khan.github.io/KaTeX/">katex</a></li>
+    </ul>
+
+    <h2 id="kramdown">Kramdown</h2>
+
+    <ul>
+      <li><a href="https://kramdown.gettalong.org/">kramdown.gettalong.org</a></li>
+      <li><a href="https://kramdown.gettalong.org/syntax.html">Kramdown - Syntax</a></li>
+      <li><a href="https://kramdown.gettalong.org/quickref.html">Kramdown - QuickRef Guide</a></li>
+    </ul>
+
+    <h2 id="related-posts">Related Posts</h2>
+
+    <ul>
+      <li><a href="https://web-work.tools/learn-html-css/">Learn HTML CSS and Associated Markup Languages</a></li>
+      <li><a href="https://web-work.tools/content-creation/">Content Creation</a></li>
+      <li><a href="https://web-work.tools/github-pages-extended-resources/">GitHub Pages Extended Resources</a></li>
+      <li><a href="https://web-work.tools/static-site-generators/">Static Site Generators</a></li>
+      <li><a href="https://web-work.tools/migrate-jekyll-hpstr-hugo/">Migrating from Jekyll HPSTR to Hugo HPSTR theme</a></li>
+      <li><a href="https://web-work.tools/command-line-git-ssh/">Command Line - Git - SSH - BASH</a></li>
+    </ul>
+
+  </div>
+</div>
+:ET

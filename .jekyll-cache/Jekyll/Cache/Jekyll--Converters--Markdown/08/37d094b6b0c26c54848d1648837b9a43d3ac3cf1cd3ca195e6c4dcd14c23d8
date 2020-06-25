@@ -1,0 +1,376 @@
+I"�]<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#formats" id="markdown-toc-formats">Formats</a>    <ul>
+      <li><a href="#rss" id="markdown-toc-rss">RSS</a></li>
+      <li><a href="#atom" id="markdown-toc-atom">ATOM</a></li>
+      <li><a href="#microformats" id="markdown-toc-microformats">Microformats</a></li>
+      <li><a href="#json" id="markdown-toc-json">JSON</a></li>
+      <li><a href="#text" id="markdown-toc-text">Text</a></li>
+    </ul>
+  </li>
+  <li><a href="#opml" id="markdown-toc-opml">OPML</a></li>
+  <li><a href="#readers" id="markdown-toc-readers">Readers</a>    <ul>
+      <li><a href="#self-hosted" id="markdown-toc-self-hosted">Self-Hosted</a></li>
+      <li><a href="#indieweb-readers" id="markdown-toc-indieweb-readers">Indieweb Readers</a></li>
+    </ul>
+  </li>
+  <li><a href="#feeds" id="markdown-toc-feeds">Feeds</a>    <ul>
+      <li><a href="#github-feeds" id="markdown-toc-github-feeds">GitHub Feeds</a></li>
+    </ul>
+  </li>
+  <li><a href="#generate-feeds" id="markdown-toc-generate-feeds">Generate Feeds</a></li>
+  <li><a href="#assorted-tools" id="markdown-toc-assorted-tools">Assorted Tools</a></li>
+  <li><a href="#resources" id="markdown-toc-resources">Resources</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2020-01-19-rss.md/#excerpt">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2020-01-19-rss.md/#excerpt">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <ul>
+      <li><a href="https://www.wired.com/2010/02/rss_for_beginnners/">RSS for Beginnners</a> - Wired
+        <blockquote>
+          <p>Have you ever noticed those inviting orange buttons on some web pages, or spotted the odd link pitching an “RSS feed”? If you’ve ever clicked one out of curiosity, and then scratched your head at the unformatted gobbledygook in your web browser, you’ve seen an RSS file.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://rss.softwaregarden.com/aboutrss.html">What is RSS?</a>
+        <blockquote>
+          <p>RSS stands for “Really Simple Syndication”. It is a way to easily distribute a list of headlines, update notices, and sometimes content to a wide number of people. It is used by computer programs that organize those headlines and notices for easy reading.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://davidyat.es/2017/05/18/rss-nothing-better/">RSS: there’s nothing better</a> - Yates
+        <blockquote>
+          <p>“Yes, the technology is dated, but it remains the best at what it does and isn’t closed source or tied to some Silicon Valley company. It still works, is widely supported and does what it does better than any alternative that’s come out since. Sometimes, newer isn’t better. Sometimes the problem has already been solved. No blog or news website should be too new or too minimal to support RSS.”</p>
+        </blockquote>
+      </li>
+      <li><a href="https://beesbuzz.biz/blog/5896-RSS-theres-nothing-better">RSS: there’s nothing better</a> - BeezBuzz
+        <blockquote>
+          <p>David Yates wrote a great defense of RSS which I completely agree with.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://twitter.com/simondlr/status/1153700601307566081">Simon de la Rouviere - @simondlr</a>
+        <blockquote>
+          <p>I see on my Medium stats that quite a few people read from RSS Readers.</p>
+
+          <p>1) Didn’t know Medium offered RSS feeds.
+2) Who still uses RSS (honest question)?
+3) Is this some other syndication happening automatically?</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="formats">Formats</h2>
+
+    <h3 id="rss">RSS</h3>
+    <ul>
+      <li><a href="http://cyber.harvard.edu/rss/rss.html">RSS 2.0 Spec</a>, July 2003
+        <blockquote>
+          <p>RSS is a dialect of XML. All RSS files must conform to the <a href="http://www.w3.org/TR/REC-xml">XML 1.0 specification</a>, as published on the World Wide Web Consortium (W3C) website.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h3 id="atom">ATOM</h3>
+    <ul>
+      <li><a href="https://validator.w3.org/feed/docs/atom.html">INTRODUCTION TO ATOM</a>
+        <blockquote>
+          <p>Atom is the name of an XML-based Web content and metadata syndication format, and an application-level protocol for publishing and editing Web resources belonging to periodically updated websites.</p>
+
+          <p>All Atom feeds must be well-formed XML documents, and are identified with the application/atom+xml media type.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://tools.ietf.org/html/rfc4287">Atom Syndication Spec</a>, December 2005
+        <blockquote>
+          <p>Atom is an XML-based document format that describes lists of related information known as “feeds”.  Feeds are composed of a number of items, known as “entries”, each with an extensible set of attached metadata.  For example, each entry has a title.</p>
+
+          <p>The primary use case that Atom addresses is the syndication of Web content such as weblogs and news headlines to Web sites as well as directly to user agents.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h3 id="microformats">Microformats</h3>
+    <ul>
+      <li><a href="http://microformats.org/wiki/h-feed">hFeed</a>
+        <blockquote>
+          <p>h-feed is a simple, open format for publishing a stream or feed of h-entry posts, like complete posts on a home page or archive pages, or summaries or other brief lists of posts. h-feed is one of several open microformat draft standards suitable for embedding data in HTML.</p>
+        </blockquote>
+      </li>
+      <li><a href="http://microformats.org/wiki/h-entry">h-entry</a>
+        <blockquote>
+          <p>h-entry is a simple, open format for episodic or datestamped content on the web. h-entry is often used with content intended to be syndicated, e.g. blog posts. h-entry is one of several open microformat standards suitable for embedding data in HTML.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h3 id="json">JSON</h3>
+
+    <ul>
+      <li><a href="https://github.com/rmlewisuk/awesome-json-feed">Awesome JSON Feed</a></li>
+      <li><a href="https://jsonfeed.org/">jsonfeed.org</a> <a href="https://twitter.com/jsonfeed">@jsonfeed</a>) - JSON Feed Project Site
+        <ul>
+          <li><a href="https://jsonfeed.org/version/1">Spec V1 @ JSON Feed</a> - Official Specifiaton Version 1.0 - in plain english (yeah!); May 2017</li>
+          <li><a href="https://jsonfeed.org/code">Code @ JSON Feed</a> - JSON Feed Templates, Plugins, Parser, Scripts &amp; More</li>
+        </ul>
+      </li>
+      <li><a href="https://feed2json.org/">feed2json</a> (github: <a href="https://github.com/appsattic/feed2json.org">appsattic/feed2json.org</a>) - convert rss or atom to json feed</li>
+      <li><a href="https://json-feed-viewer.herokuapp.com/">JSON Feed Viewer</a> (<a href="https://github.com/maximevaillancourt/json-feed-viewer">maximevaillancourt/json-feed-viewer</a>)
+        <blockquote>
+          <p>Browse through the showcased feeds, or enter a feed URL below. Now supporting RSS and Atom feeds thanks to Andrew Chilton’s feed2json.org service</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h3 id="text">Text</h3>
+
+    <ul>
+      <li><a href="https://feedtxt.github.io/">Feed.TXT</a> (github: <a href="https://github.com/feedtxt">feedtxt</a>) - Feed.TXT Project Site
+        <blockquote>
+          <p>A Feed.txt starts with a meta data block for the feed in YAML format followed by a list of items. Items start with a meta data block followed by the text using the markdown formatting conventions for structured text (headings, lists, tables, etc.) and hyperlinks. That’s it.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="opml">OPML</h2>
+
+    <ul>
+      <li><a href="http://dev.opml.org/spec2.html">OPML 2.0</a>
+        <blockquote>
+          <p>OPML is also the file format for an outliner application, which is why OPML files may contain information about the size, position and expansion state of the window the outline is displayed in.</p>
+
+          <p>OPML has also become popular as a format for exchanging subscription lists between feed readers and aggregators.</p>
+        </blockquote>
+      </li>
+      <li><a href="http://microformats.org/wiki/OPML">OPML - Microformats Wiki</a>
+        <blockquote>
+          <p>OPML was created by <a href="http://radio.userland.com/">UserLand</a> Software to store and share outlines, hierarchical text documents where child data could be hidden or expanded.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://codebeautify.org/opmlviewer">OPML Viewer</a></li>
+      <li><a href="https://pandoc.org/">Pandoc</a></li>
+      <li><a href="https://www.lifewire.com/opml-file-2622105">How to Open, Edit, and Convert OPML Files</a>
+        <blockquote>
+          <p>In a typical OPML file, there’s a <em>&lt;head&gt;</em> element that describes the title, owner, or some other metadata information. With an RSS feed, this is normally the article’s title. Following that is the <em>&lt;body&gt;</em> tag that holds the content of what the file is describing, and the *<outline>* element to hold attributes or other outline sub-elements.</outline></p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="readers">Readers</h2>
+
+    <ul>
+      <li><a href="https://theoldreader.com/">The Old Reader</a></li>
+      <li><a href="https://feeder.co/">feeder.co</a> - RSS Feed Reader</li>
+      <li><a href="https://github.com/Etuldan/spaRSS">Etuldan/spaRSS</a></li>
+      <li><a href="https://www.omgubuntu.co.uk/2017/05/install-feedreader-rss-reader-ubuntu">Feedreader RSS on Ubuntu</a></li>
+      <li><a href="https://www.thunderbird.net/en-US/">Thunderbird</a></li>
+      <li><a href="https://feedly.com/">Feedly</a>
+        <ul>
+          <li><a href="https://feedly.com/i/cortex">OPML Import</a></li>
+        </ul>
+      </li>
+      <li><a href="https://feedbin.com/">Feedbin</a> - A fast, simple reader that delivers a great reading experience.</li>
+      <li><a href="https://newsblur.com/">NewsBlur</a> - NewsBlur is a personal news reader bringing people together to talk about the world</li>
+      <li><a href="https://feedwrangler.net/welcome.html">Feed Wrangler</a> - a modern, sustainable RSS reader.</li>
+      <li><a href="http://www.inoreader.com/">Inoreader</a> - The content reader for power users who want to save time.</li>
+      <li><a href="http://reederapp.com/">Reeder</a> - A news reader for iOS with support for Feedbin, Feedly, Feed Wrangler, FeedHQ, NewsBlur, The Old Reader, Inoreader, Minimal Reader, BazQux Reader, Fever, Readability and Instapaper.</li>
+      <li><a href="https://www.tecmint.com/best-rss-feed-readers-for-linux/">14 Best RSS Feed Readers for Linux in 2018</a></li>
+    </ul>
+
+    <h3 id="self-hosted">Self-Hosted</h3>
+
+    <ul>
+      <li><a href="https://tt-rss.org/">Tiny Tiny RSS</a> - <a href="https://tt-rss.org/gitlab/fox/tt-rss/wikis/home">wiki</a> - Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
+        <ul>
+          <li><a href="https://tt-rss.org/wiki/InstallationNotes">Tiny Tiny RSS – Installation Guide</a></li>
+        </ul>
+      </li>
+      <li><a href="http://www.feedafever.com/">Fever</a> - Fever takes the temperature of your slice of the web and shows you what’s hot.</li>
+      <li><a href="https://selfoss.aditu.de/">Selfoss</a> - The new multipurpose rss reader, live stream, mashup, aggregation web application</li>
+    </ul>
+
+    <h3 id="indieweb-readers">Indieweb Readers</h3>
+
+    <ul>
+      <li><a href="https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet">An IndieWeb reader: My new home on the internet • Aaron Parecki</a></li>
+      <li><a href="https://aperture.p3k.io/">aperture.p3k.io</a>
+        <blockquote>
+          <p>You tell Aperture which feeds you want to follow, and it works behind the scenes collecting new posts. Aperture can follow Microformats, JSON Feed, Atom and RSS feeds.</p>
+
+          <p>Aperture doesn’t have its own interface for actually reading the posts it collects. Instead, it makes the data available via <a href="https://indieweb.org/Microsub">an API</a>, and you can use <a href="https://indieweb.org/Microsub#Clients">a variety of apps</a> to read your feeds!</p>
+
+          <p>Aperture provides a way to manage subscriptions and show some debugging info, but normally you won’t interact with it after you’ve set it up, you’ll use a reader.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://indieweb.org/Indigenous">Indigenous for iPhone</a></li>
+      <li><a href="https://indieweb.org/Indigenous_for_Android">Indigenous for Android</a></li>
+      <li><a href="https://indieweb.org/Together">Together</a></li>
+      <li><a href="https://monocle.p3k.io/">Monocle</a> - <a href="https://indieweb.org/Monocle">@indieweb.org</a>
+        <blockquote>
+          <p>Monocle doesn’t subscribe to feeds itself, instead it’s an interface on top of your own feed subscriptions. Your website may already provide this API, or you can use an external service like Aperture, or many others.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="feeds">Feeds</h2>
+
+    <ul>
+      <li><a href="https://github.com/mitmedialab/feed_seeker">Feed Seeker</a> - Find rss, atom, xml, and rdf feeds on webpages
+        <blockquote>
+          <p>A library for finding atom, rss, rdf, and xml feeds from web pages. Produced at the <a href="https://mediacloud.org/">mediacloud</a> project. An incremental improvement over <a href="https://github.com/dfm/feedfinder2">feedfinder2</a>, which was itself based on <a href="http://www.aaronsw.com/2002/feedfinder/">feedfinder</a>, written by Mark Pilgrim, and maintained by Aaron Swartz until his untimely death.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds">Medium</a>
+        <blockquote>
+          <p>To access a user’s feed, add /feed/ before their username, for example: <code class="language-plaintext highlighter-rouge">medium.com/feed/@Medium</code></p>
+        </blockquote>
+      </li>
+      <li><a href="https://danielmiessler.com/blog/rss-feed-youtube-channel/">How to Get an RSS Feed for a YouTube Channel</a>
+        <blockquote>
+          <p><code class="language-plaintext highlighter-rouge">https://www.youtube.com/feeds/videos.xml?channel_id=UC09ay5PGgpjxX3Zkw1D0GBg</code></p>
+        </blockquote>
+      </li>
+      <li>Youtube Playlist
+        <blockquote>
+          <p><code class="language-plaintext highlighter-rouge">https://www.youtube.com/feeds/videos.xml?playlist_id=PLZEbTtxGezRt_BWHCIbo_30ijNnScJDPi</code></p>
+        </blockquote>
+      </li>
+      <li><a href="http://getrssfeed.com">getrssfeed.com</a>
+        <blockquote>
+          <p>Paste your iTunes / SoundCloud urls and let the service retrieve the podcast public RSS feed for you</p>
+        </blockquote>
+      </li>
+      <li><a href="https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its">What other hidden or inobvious RSS feeds are available on Stack Exchange and its sites?</a></li>
+      <li><a href="http://rss-tracker.com/index.php?lang=en">RSS Tracker - Discover RSS feeds hidden in web sites</a>
+        <blockquote>
+          <p>Many web sites fail to highlight the existence of their RSS feeds and they can be difficult to find. Other sites have a large number of feeds but no easy way to subscribe to them globally.</p>
+
+          <p>rss tracker solves this problem by finding RSS feeds on one or more sites and by providing you with a corresponding OPML file.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://petermolnar.net/rss-is-still-alive/">HIDDEN AND LESS HIDDEN RSS FEEDS ON SOME MAJOR SOCIAL NETWORKS</a>
+        <blockquote>
+          <p>RSS1 used to be THE thing to follow people all around. It has a gargantuan advantage compared to any “Follow” button on any website: it used to be platform and service independent but centralized in your chosen RSS reader. The reader crawled all the RSS feeds you were “following” from all around the internet - and that’s it. Like e-mail. And it’s also the easiest way to anonymously stalk around. Since Google phased out it’s Reader, RSS slowly started to fade out but some other services still have it - and it’s good for you.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://docs.rsshub.app/en/">RSSHub</a>
+        <blockquote>
+          <p>RSSHub is an open source, easy to use, and extensible RSS feed aggregator, it’s capable of generating RSS feeds from pretty much everything.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://news.ycombinator.com/item?id=18323512">Ask HN: Share your best OPML/RSS Feeds</a></li>
+    </ul>
+
+    <h3 id="github-feeds">GitHub Feeds</h3>
+
+    <ul>
+      <li><a href="https://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed">Setting up an Github Commit RSS feed - Stack Overflow</a>
+        <blockquote>
+          <p>I am trying to have my github commits as an RSS feed but so far I have not managed to figure it out. I know that a private feed is available with the following syntax:</p>
+
+          <p><code class="language-plaintext highlighter-rouge">https://github.com/username.atom?token=token</code></p>
+
+          <p>But this the users activity feed. I would like a commit feed of one of my projects. Thanks in advance!</p>
+
+          <p>Perfect, thank you!! this was the final syntax:</p>
+
+          <p><code class="language-plaintext highlighter-rouge">https://github.com/username/repository_name/commits/branch_name.atom?login=login&amp;token=token</code></p>
+
+          <p>Still cant view commits on all branches though.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://stackoverflow.com/questions/9542346/atom-rss-feeds-on-github-issues">Atom/RSS feeds on Github Issues? - Stack Overflow</a>
+        <blockquote>
+          <p>I just solved this issue for one of my repos and imported <a href="https://github.com/">GitHub</a> <a href="http://drupal.org/project/feeds">feed</a> items into my <a href="http://drupal.org/">drupal</a> site.</p>
+
+          <p>I had originally created a feed of only commits using the URL convention:</p>
+
+          <p>https://github.com/ORG/PROJECT/commits/master.atom</p>
+
+          <p>but I also wanted a feed of GitHub-Issues and updates to Issues.</p>
+
+          <p>GitHub appears to now support an “everything” feed with the following convention:</p>
+
+          <p><code class="language-plaintext highlighter-rouge">https://github.com/username.private.actor.atom?token=somehextoken</code></p>
+        </blockquote>
+      </li>
+      <li><a href="https://github.community/t5/How-to-use-Git-and-GitHub/RSS-feeds-for-GitHub-projects/td-p/298">RSS feeds for GitHub projects - GitHub Community Forum</a></li>
+      <li><a href="https://stackoverflow.com/questions/9542346/atom-rss-feeds-on-github-issues">Atom/RSS feeds on Github Issues? - Stack Overflow</a></li>
+      <li><a href="https://github.com/imsun/gh-feed">imsun/gh-feed</a>: Generate RSS feed from GitHub Issues</li>
+      <li><a href="https://blog.edwardloveall.com/pull-feed">Edward Loveall - Pull Feed</a>
+        <blockquote>
+          <p>I just launched <a href="http://pullfeed.co/">Pull Feed</a>. It will give you a feed url for new pull requests for any particular GitHub repository. I created it to solve an itch: I wanted to keep up with particular open source projects, but GitHub only offers the ability to “Watch” a repository. Watching means you get notifications for pretty much all forms of activity; new issues, new pull requests, comments, etc. That was too much. I just wanted to know what was being proposed.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <p><a href="https://docs.rsshub.app/en/">RSSHub</a> Syntax:</p>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">https://rsshub.app/github/pull/user_name/repository_name/</code></li>
+      <li><code class="language-plaintext highlighter-rouge">https://rsshub.app/github/issue/user_name/repository_name/</code></li>
+    </ul>
+
+    <h2 id="generate-feeds">Generate Feeds</h2>
+
+    <ul>
+      <li><a href="https://github.com/feedparser/feedparser">feedparser</a> (<a href="https://rubygems.org/gems/feedparser">gem</a>)
+        <blockquote>
+          <p>feedparser gem - (universal) web feed parser and normalizer (XML w/ Atom or RSS, JSON Feed, HTML w/ Microformats e.g. h-entry/h-feed or Feed.HTML, Feed.TXT w/ YAML, JSON or INI &amp; Markdown, etc.)</p>
+        </blockquote>
+      </li>
+      <li><a href="http://simplepie.org/">simplepie</a>
+        <blockquote>
+          <p>SimplePie is a very fast and easy-to-use feed parser, written in PHP, that puts the ‘simple’ back into ‘really simple syndication’. Flexible enough to suit beginners and veterans alike, SimplePie is focused on speed, ease of use, compatibility and standards compliance.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="assorted-tools">Assorted Tools</h2>
+
+    <ul>
+      <li><a href="https://github.com/ttscoff/Slogger">ttscoff/Slogger</a> - Social logging script for Day One
+        <blockquote>
+          <p>Slogger indexes various public social services and creates Day One (<a href="http://dayoneapp.com/">http://dayoneapp.com/</a>) journal entries or plain text Markdown files for them. It allows you to keep a personal journal that collects your online social life automatically, all in one place.</p>
+        </blockquote>
+        <ul>
+          <li><a href="https://gist.github.com/rreeger/3388024">RSS Feed Resource for Brett Terpstra’s Slogger</a></li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/Downes/gRSShopper">Downes/gRSShopper</a>
+        <blockquote>
+          <p>gRSShopper is a tool that aggregates, organizes and distributes resources to support online learning</p>
+        </blockquote>
+      </li>
+      <li><a href="https://github.com/danielpetisme/AwesomeNewTabPage-Awesome-RSS-Widget">danielpetisme/AwesomeNewTabPage-Awesome-RSS-Widget</a></li>
+      <li><a href="https://dev.to/giteden/prototyping-with-web-components-build-an-rss-reader-4e1h">Prototyping with Web Components: Build an RSS Reader</a></li>
+      <li><a href="https://github.com/efermi/awesome-rss">efermi/awesome-rss</a>: Puts an RSS/Atom subscribe button back in URL bar</li>
+      <li><a href="https://github.com/feedparser/feedfilter">feedfilter</a> (<a href="https://rubygems.org/gems/feedfilter">gem</a>)
+        <blockquote>
+          <p>feedfilter gem - feed filter and rules for easy (re)use</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <h2 id="resources">Resources</h2>
+    <ul>
+      <li><a href="https://github.com/voidfiles/awesome-rss">voidfiles/awesome-rss</a> - Awesome links related to RSS, ATOM, and Syndication formats.</li>
+      <li><a href="https://github.com/feedparser/awesome-feeds">feedparser/awesome-feeds</a>: A collection of awesome feeds (formats, parsers, filters, readers, services &amp; tools, templates ‘n’ more) - JSON Feed, RSS, Atom, HTML w/ Microformats, Feed.TXT”</li>
+    </ul>
+
+  </div>
+</div>
+:ET

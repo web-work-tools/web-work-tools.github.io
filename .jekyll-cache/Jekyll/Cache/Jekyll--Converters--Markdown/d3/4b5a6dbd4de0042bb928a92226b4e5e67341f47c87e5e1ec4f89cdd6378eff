@@ -1,0 +1,30 @@
+I"�	<p><a href="http://mediaelementjs.com/">mediaelement.js</a> is like magic. It’s browser and device support is perfect. To activate the video or audio player just set the following variable in front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mediaplayer: true
+</code></pre></div></div>
+
+<p>To use the player just use some HTML5-magic like…</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;audio</span> <span class="na">src=</span><span class="s">"http://path-to-file.com/music.mp3"</span> <span class="na">type=</span><span class="s">"audio/mp3"</span> <span class="na">controls=</span><span class="s">"controls"</span><span class="nt">&gt;&lt;/audio&gt;</span></code></pre></figure>
+
+<p>All possible functions and how to use <em>mediaelement.js</em> is well-documented on the <a href="http://mediaelementjs.com/">players website</a>.</p>
+
+<h2 id="music-from-all-around-the-world">»Music From All Around The World«</h2>
+
+<p><a href="https://archive.org/details/music_from_all_around_the_world">»Music From All Around The World«</a> is a compilation curated by Jeannette Corneille and Moritz “mo.” Sauer for <a href="http://phlow-magazine.com/">Phlow-Magazine.com</a>. Cover <a href="http://mediaelementjs.com/">Artwork designed by Jeannette Corneille</a>. All tracks were released under a <a href="http://jcorneille.de/">creative commons licence</a>.</p>
+
+<h3 id="b-ju---philly-run">B-Ju - »Philly Run«</h3>
+
+<audio src="http://archive.org/download/music_from_all_around_the_world/13._music_from_all_around_the_world_-_b-ju_-_philly_run.mp3" type="audio/mp3" controls="controls"></audio>
+
+<h3 id="comfort-fit---freeze-the-cut">Comfort Fit - »Freeze The Cut«</h3>
+
+<audio src="http://archive.org/download/music_from_all_around_the_world/05._music_from_all_around_the_world_-_comfort_fit_-_freeze_the_cut_opolopos_emotional_draft_remix.mp3" type="audio/mp3" controls="controls"></audio>
+
+<h3 id="the-black-atlantic---dandelion">The Black Atlantic - »Dandelion«</h3>
+
+<audio src="http://archive.org/download/music_from_all_around_the_world/02._music_from_all_around_the_world_-_the_black_atlantic_-_dandelion.mp3" type="audio/mp3" controls="controls"></audio>
+
+<p class="t30 button radius"><a href="https://archive.org/details/music_from_all_around_the_world">Download Compilation ›</a></p>
+
+:ET

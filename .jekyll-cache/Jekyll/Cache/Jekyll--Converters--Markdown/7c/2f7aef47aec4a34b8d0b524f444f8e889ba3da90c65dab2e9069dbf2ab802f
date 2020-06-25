@@ -1,0 +1,145 @@
+I"(<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#export-tweets-to-csv" id="markdown-toc-export-tweets-to-csv">Export Tweets to CSV</a>    <ul>
+      <li><a href="#resources" id="markdown-toc-resources">Resources</a></li>
+      <li><a href="#twitter-related-gists" id="markdown-toc-twitter-related-gists">Twitter Related Gists</a></li>
+      <li><a href="#twitter-github-repos" id="markdown-toc-twitter-github-repos">Twitter GitHub Repos</a></li>
+      <li><a href="#cross-posting" id="markdown-toc-cross-posting">Cross-posting</a></li>
+      <li><a href="#bots---code" id="markdown-toc-bots---code">Bots - Code</a></li>
+      <li><a href="#clean-feed" id="markdown-toc-clean-feed">Clean Feed</a></li>
+      <li><a href="#nerd-stuff" id="markdown-toc-nerd-stuff">Nerd Stuff</a></li>
+      <li><a href="#data" id="markdown-toc-data">Data</a></li>
+      <li><a href="#templates" id="markdown-toc-templates">Templates</a></li>
+    </ul>
+  </li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/guides/2019-06-17-exporting-tweet-histories.md">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/guides/2019-06-17-exporting-tweet-histories.md">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <p>At the start of 2018, I began retweeting all the most valuable information I found on twitter, as part of a learning process. Then, I would periodically scroll back and manually paste the links into the channels of a discord server, organized by category.</p>
+
+    <p>The problem with that, is if you are scrolling through your history, it has to load, and it’s easy to miss that particualr tweet where I know I left off.</p>
+
+    <p>Once I gave up scrolling my twitter history manually, I used a share button integration with discord, to directly send a given link to the proper channel.</p>
+
+    <p>Now I’m taking a break from twitter, transitioning from discord to spreadsheets, and in the process of consolidating a few years of link collecting on a variety of subjects. I have a lot to organize between 4 twitter accounts, a dozen discord servers where I organized links on different subjects, and a variety of other sources….</p>
+
+    <p><strong>What do?</strong></p>
+
+    <h1 id="export-tweets-to-csv">Export Tweets to CSV</h1>
+
+    <p>So, this is the hard part. Finding a <em>free</em> app that will get as many tweets as you need.</p>
+
+    <p>For now, I know <a href="https://www.vicinitas.io/free-tools/download-user-tweets">vicinitas.io</a> allows you to download up to 3200 tweets to csv, which was enough for me.</p>
+
+    <p>In the future, this page will fill with everything related to exporting and publishing content from twitter.</p>
+
+    <p>From there, I threw the CSV in Libre Office Calc (an ok free version of Excell). I was able to filter the 3200 tweets to include only those related to identity.</p>
+
+    <p>I am going to share more about how, exactly, I make the content from csv. In the meantime:</p>
+
+    <h2 id="resources">Resources</h2>
+
+    <p class="notice">This is a game changer! While searching for resources to add in this post, I found <a href="https://github.com/rob-murray/jekyll-twitter-plugin">rob-murray/jekyll-twitter-plugin</a>!!!</p>
+
+    <ul>
+      <li><a href="https://github.com/twitterdev/tweet-updates">twitterdev/tweet-updates</a> - This repository contains information about the updates to Tweet formats for attachments and simplified replies. -<a href="https://developer.twitter.com/en/docs/tweets/tweet-updates.html">developer.twitter.com - tweet updates</a></li>
+      <li><a href="https://github.com/hridaydutta123/awesome-twitter-tools">hridaydutta123/awesome-twitter-tools</a></li>
+    </ul>
+
+    <h2 id="twitter-related-gists">Twitter Related Gists</h2>
+    <ul>
+      <li><a href="https://gist.github.com/yanofsky/5436496">yanofsky/tweet_dumper.py</a> - A script to download all of a user’s tweets into a csv</li>
+      <li><a href="https://gist.github.com/arikfr/58e491e0cdbe36a9e48c">arikfr/export_lists.py</a> - Simple script to export Twitter lists to CSV]</li>
+      <li><a href="https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c">vickyqian/twitter crawler.txt</a> - A Python script to download all the tweets of a hashtag into a csv</li>
+    </ul>
+
+    <h2 id="twitter-github-repos">Twitter GitHub Repos</h2>
+
+    <ul>
+      <li><a href="https://github.com/kennethreitz/twitter-scraper">kennethreitz/twitter-scraper</a> - Scrape the Twitter Frontend API without authentication.</li>
+      <li><a href="https://rtweet.info">rtweet.info</a></li>
+      <li><a href="https://github.com/mkearney/rtweet">mkearney/rtweet</a> - bird R client for interacting with Twitter’s [stream and REST] APIs</li>
+      <li><a href="https://github.com/mkearney/rtweet-workshop">mkearney/rtweet-workshop</a></li>
+      <li><a href="">hrbrmstr/21-recipes</a> - An R/rtweet edition of <a href="https://rud.is/books/21-recipes/">Matthew A. Russell’s Python Twitter Recipes Book</a></li>
+      <li><a href="https://github.com/twintproject/twint">twintproject/twint</a> - An advanced Twitter scraping &amp; OSINT tool written in Python that doesn’t use Twitter’s API, allowing you to scrape a user’s followers, following, Tweets and more while evading most API limitations.</li>
+      <li><a href="https://github.com/taspinar/twitterscraper">taspinar/twitterscraper</a> - Scrape Twitter for Tweets</li>
+      <li><a href="https://github.com/AdrienGuille/TweetStreamer">AdrienGuille/TweetStreamer</a> - A command line tool for collecting tweets via Twitter’s public streaming API</li>
+      <li><a href="https://github.com/DocNow/twarc">DocNow/twarc</a> - A command line tool (and Python library) for archiving Twitter JSON</li>
+      <li><a href="https://github.com/Jefferson-Henrique/GetOldTweets-python">Jefferson-Henrique/GetOldTweets-python</a> - A project written in Python to get old tweets, it bypass some limitations of Twitter Official API.</li>
+      <li><a href="https://github.com/jennybc/scream">jennybc/scream</a> - Get replies and quotes of a tweet</li>
+      <li><a href="https://github.com/snovvcrash/tweetlord">snovvcrash/tweetlord</a> - bird Twitter profile dumper (downloader) with authorization swapping</li>
+      <li><a href="https://github.com/Datamine/Archive-Tweets">Datamine/Archive-Tweets</a> - Archive and Delete Liked and Posted Tweets</li>
+    </ul>
+
+    <h2 id="cross-posting">Cross-posting</h2>
+    <ul>
+      <li><a href="https://github.com/renatolond/mastodon-twitter-poster">renatolond/mastodon-twitter-poster</a> - Crossposter to post statuses between Mastodon and Twitter</li>
+    </ul>
+
+    <h2 id="bots---code">Bots - Code</h2>
+
+    <ul>
+      <li><a href="https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot">freeCodeCamp/100DaysOfCode-twitter-bot</a> - Twitter bot for #100DaysOfCode <a href="https://twitter.com/_100DaysOfCode">@_100DaysOfCode</a></li>
+      <li><a href="https://github.com/bonzanini">bonzanini/Book-SocialMediaMiningPython</a> - Companion code for the book “Mastering Social Media Mining with Python</li>
+      <li><a href="https://github.com/botwiki/botwiki.org">botwiki/botwiki.org</a> - Tutorials, articles, datasets and other resources for creating useful, interesting, artistic and friendly online bots.</li>
+      <li><a href="https://github.com/huginn/huginn">huginn/huginn</a> - Create agents that monitor and act on your behalf. Your agents are standing by!</li>
+    </ul>
+
+    <h2 id="clean-feed">Clean Feed</h2>
+
+    <ul>
+      <li><a href="https://github.com/MikeMcQuaid/TwitterDelete">MikeMcQuaid/TwitterDelete</a> - Delete your old, unpopular tweets.</li>
+    </ul>
+
+    <h2 id="nerd-stuff">Nerd Stuff</h2>
+
+    <ul>
+      <li><a href="https://github.com/mattdodge/Tweet-2-RSS">mattdodge/Tweet-2-RSS</a></li>
+      <li><a href="https://github.com/vzqzac/twgitbot">vzqzac/twgitbot</a> - A node.js bot that checks a github repo changes and tweets it to your Twitter account</li>
+      <li><a href="">Kikobeats/fetch-timeline-cli</a> - Fetch Twitter user’s timeline from your terminal zap.
+        <ul>
+          <li><a href="https://kikobeats.github.io/fetch-timeline-cli/">kikobeats.github.io/fetch-timeline-cli/</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="data">Data</h2>
+
+    <ul>
+      <li><a href="https://github.com/tylerpearson/twitter-most-followed-scripts">tylerpearson/twitter-most-followed-scripts</a> - Scripts to find the most commonly followed Twitter accounts by a group of people <a href="http://tmf.tylerp.me">tmf.tylerp.me</a>
+        <ul>
+          <li><a href="https://github.com/tylerpearson/twitter-most-followed-site">tylerpearson/twitter-most-followed-site</a></li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/tylerpearson/twitter-bio-analyzer-script">tylerpearson/twitter-bio-analyzer-script</a></li>
+      <li><a href="https://github.com/justinlittman/twitter-scraper">justinlittman/twitter-scraper</a> - A tool for scraping tweet ids from the Twitter website.</li>
+      <li><a href="https://github.com/geofurb/Ornitholog">geofurb/Ornitholog</a> - Open-source Twitter collection and archiving tool for tracking specific topics and collecting bulk data.</li>
+      <li><a href="https://github.com/motazsaad/tweets-collector">motazsaad/tweets-collector</a> - Collect tweets (tweets corpus) using Twitter API. Collection can be based on hashtags, keywords, geographical location</li>
+    </ul>
+
+    <h2 id="templates">Templates</h2>
+
+    <ul>
+      <li><a href="https://github.com/HoussemDellai/social-media-templates">HoussemDellai/social-media-templates</a> - Provides templates for using Twitter, Youtube, Instagram, Flickr, Foursquare and Eventbrite API with Xamarin Forms.</li>
+    </ul>
+  </div></div>
+:ET

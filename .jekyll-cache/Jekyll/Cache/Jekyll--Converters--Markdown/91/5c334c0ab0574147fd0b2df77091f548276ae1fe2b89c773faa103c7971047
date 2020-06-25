@@ -1,0 +1,212 @@
+I"--<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#basics" id="markdown-toc-basics">Basics</a></li>
+  <li><a href="#text" id="markdown-toc-text">Text</a>    <ul>
+      <li><a href="#plagiarism" id="markdown-toc-plagiarism">Plagiarism</a></li>
+    </ul>
+  </li>
+  <li><a href="#editors" id="markdown-toc-editors">Editors</a></li>
+  <li><a href="#images" id="markdown-toc-images">Images</a>    <ul>
+      <li><a href="#public-domain---stock-images" id="markdown-toc-public-domain---stock-images">Public Domain - Stock Images</a></li>
+      <li><a href="#converters" id="markdown-toc-converters">Converters</a></li>
+      <li><a href="#sizes" id="markdown-toc-sizes">Sizes</a></li>
+      <li><a href="#optimization" id="markdown-toc-optimization">Optimization</a></li>
+      <li><a href="#infographics" id="markdown-toc-infographics">Infographics</a></li>
+    </ul>
+  </li>
+  <li><a href="#video" id="markdown-toc-video">Video</a></li>
+  <li><a href="#archiving" id="markdown-toc-archiving">Archiving</a></li>
+  <li><a href="#wiki" id="markdown-toc-wiki">Wiki</a></li>
+  <li><a href="#data-visualization" id="markdown-toc-data-visualization">Data Visualization</a></li>
+  <li><a href="#tutes--walkthrus" id="markdown-toc-tutes--walkthrus">Tutes \ Walkthrus</a></li>
+  <li><a href="#assorted" id="markdown-toc-assorted">Assorted</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-05-28-content-creation.md/#excerpt">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-05-28-content-creation.md/#excerpt">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <p>This is where I keep track of tools and information surrounding content creation.</p>
+
+    <h2 id="basics">Basics</h2>
+
+    <ul>
+      <li><a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a></li>
+      <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheet-Sheet</a></li>
+    </ul>
+
+    <h2 id="text">Text</h2>
+
+    <ul>
+      <li><a href="http://www.textcleanr.com/">Text Cleaner</a> - cleans up all kinds of text formatting when copying and pasting between applications.</li>
+      <li><a href="http://www.wordle.net/">wordle</a> - word cloud generator</li>
+      <li><a href="http://pipes.yahoo.com/pipes/">Yahoo Pipes</a>
+combines feeds “into content and other magical creations”.</li>
+      <li><a href="https://www.pcjs.org">https://www.pcjs.org</a> - IBM PC simulation that runs in your web browser</li>
+    </ul>
+
+    <h3 id="plagiarism">Plagiarism</h3>
+
+    <ul>
+      <li><a href="http://www.copyscape.com/">Copyscape</a> - Make sure you didn’t plagiarize, even from yourself.</li>
+    </ul>
+
+    <h2 id="editors">Editors</h2>
+
+    <p><img src="https://web-work.tools/images/content-creation.png" alt="" /></p>
+    <ul>
+      <li><a href="https://code.visualstudio.com/">Visual Studio Code</a>
+Where I build webpages.</li>
+    </ul>
+
+    <p>This thing has extensions for all your coding needs… It is cross-platform, has seamless git integration, and all kind of great features for working with gh-pages repositories (search and replace, etc.).</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wpmppqh3E9o" frameborder="0" allow="encrypted-media" allowfullscreen=""></iframe>
+
+    <ul>
+      <li><a href="https://www.learnenough.com/text-editor-tutorial/vim">Learn Enough Text Editor to Be Dangerous</a> - Vim</li>
+      <li><a href="https://rick.cogley.info/post/text-editor-introduction/">So, What’s a Text Editor? …an introduction for newbies</a></li>
+    </ul>
+
+    <p><strong>HackMD - Collaborative Markdown Editor</strong></p>
+
+    <ul>
+      <li><a href="https://hackmd.io">https://hackmd.io</a> - Collaborative markdown editor (where I write everything else).
+        <ul>
+          <li><a href="https://hackmd.io/getting-started">Getting started</a></li>
+          <li><a href="https://hackmd.io/c/tutorials/%2Fs%2Ftutorials">Tutorial</a></li>
+          <li><a href="https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book">How to Create a Book</a></li>
+          <li><a href="https://hackmd.io/c/tutorials-tw/%2Fs%2Fyaml-metadata">YAML Metadata</a></li>
+        </ul>
+      </li>
+      <li>See also <a href="https://demo.codimd.org/">demo.codimd.org/</a></li>
+    </ul>
+
+    <h2 id="images">Images</h2>
+
+    <h3 id="public-domain---stock-images">Public Domain - Stock Images</h3>
+
+    <ul>
+      <li><a href="https://github.com/nacyot/awesome-opensource-documents">nacyot/awesome-opensource-documents</a></li>
+      <li><a href="https://github.com/neutraltone/awesome-stock-resources">neutraltone/awesome-stock-resources</a></li>
+      <li><a href="https://github.com/shime/creative-commons-media">shime/creative-commons-media</a></li>
+      <li><a href="https://github.com/idleberg/Creative-Commons-Markdown">idleberg/Creative-Commons-Markdown</a> - snippets to add CC license to your work.</li>
+    </ul>
+
+    <h3 id="converters">Converters</h3>
+
+    <ul>
+      <li><a href="https://pdf2png.com/">pdf2png</a></li>
+      <li><a href="https://online2pdf.com/convert-pptx-to-pdf">pptx-to-pdf</a></li>
+      <li><a href="https://convertio.co/pdf-html/">pdf to html</a></li>
+      <li><a href="https://github.com/coolwanglu/pdf2htmlEX">coolwanglu/pdf2htmlEX</a></li>
+    </ul>
+
+    <h3 id="sizes">Sizes</h3>
+
+    <ul>
+      <li><a href="https://louisem.com/217438/twitter-image-size">Twitter-Image Sizes</a></li>
+      <li><a href="https://www.lauraleeflores.com/blog/header-image-sizing-guide">Header Image Sizing Guide</a></li>
+      <li><a href="https://andrew.hedges.name/experiments/aspect_ratio/">Aspect Ratio Calculator</a></li>
+    </ul>
+
+    <h3 id="optimization">Optimization</h3>
+
+    <p>The web <em>loooves</em> big old beautiful high quality images… However, my visitors probably notice the load time of huge images more than I do (though I do notice them).</p>
+
+    <ul>
+      <li><a href="https://ezgif.com/optimize">https://ezgif.com/optimize</a></li>
+    </ul>
+
+    <blockquote>
+      <p>cross-platform tool for losslessly optimizing PNG and JPG files for web. - <a href="https://trimage.org/">https://trimage.org/</a></p>
+    </blockquote>
+
+    <blockquote>
+      <p>command-line utility and a library for lossy compression of PNG images.</p>
+
+      <p>The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all web browsers and operating systems. - <a href="https://pngquant.org/">pngquant</a></p>
+    </blockquote>
+
+    <h3 id="infographics">Infographics</h3>
+
+    <ul>
+      <li><a href="https://www.canva.com/create/infographics/">Canva Infographic Creator</a></li>
+      <li><a href="http://www.easel.ly/">easel.ly</a> - free create infographics</li>
+      <li><a href="https://builtvisible.com/content-strategy-helper/">Content Strategy Tool</a> - Find inspiration for your content marketing topics</li>
+      <li><a href="http://www.google.com/publicdata/directory">Google Public Data</a> - content research, infographics, and more.</li>
+      <li><a href="http://www.seomofo.com/snippet-optimizer.html">Google SERP Snippet Optimization Tool</a> - see how your snippet may appear in search results.</li>
+      <li><a href="https://infogr.am/">infogr.am</a> - create infographics and data visualizations</li>
+      <li><a href="https://www341.lunapic.com/editor/">https://www341.lunapic.com/editor/</a></li>
+      <li><a href="http://piktochart.com/">Piktochart</a> - visualization generator.</li>
+    </ul>
+
+    <h2 id="video">Video</h2>
+    <ul>
+      <li><a href="http://amara.org/en/">Amara</a> - create captions for YouTube videos.</li>
+      <li><a href="http://wistia.com/">Wistia</a> - SEO-friendly video hosting.</li>
+    </ul>
+
+    <h2 id="archiving">Archiving</h2>
+
+    <ul>
+      <li><a href="https://chrome.google.com/webstore/detail/web-archive-for-wayback-m/ppokigfjbmhncgkabghdgpiafjdpllke">Web Archive for WayBack Machine</a></li>
+      <li><a href="https://github.com/iipc/awesome-web-archiving">iipc/awesome-web-archiving</a></li>
+      <li><a href="https://webapps.stackexchange.com/questions/115369/how-to-archive-the-whole-website">webapps.stackexchange.com - how-to-archive-the-whole-website</a></li>
+      <li><a href="http://www.httrack.com">httrack.com</a></li>
+      <li>https://hostadvice.com/how-to/how-to-install-apache-mysql-php-on-an-ubuntu-18-04-vps/</li>
+      <li>https://askubuntu.com/questions/448424/unable-to-open-php-files-on-linux-platform-on-ubuntu</li>
+    </ul>
+
+    <h2 id="wiki">Wiki</h2>
+
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia">en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Help:Cheatsheet">en.wikipedia.org/wiki/Help:Cheatsheet</a></li>
+    </ul>
+
+    <h2 id="data-visualization">Data Visualization</h2>
+
+    <ul>
+      <li><a href="https://developer.github.com/v3/guides/rendering-data-as-graphs/">rendering-data-as-graphs</a></li>
+      <li><a href="https://www.benlcollins.com/javascript/creating-a-dynamic-d3-visualization-from-the-github-api/">Creating a dynamic d3 visualization from the GitHub API</a></li>
+      <li><a href="https://www.targetprocess.com/blog/visualize-github-code-contribution-using-app-link/">Visualize GitHub Code Contribution using APP Link</a></li>
+      <li><a href="https://livablesoftware.com/tools-visualize-github-profile/">tools-visualize-github-profile/</a></li>
+    </ul>
+
+    <blockquote>
+      <p>In the first half of this book, we explored free web services that offer easy drag-and-drop tools to create interactive charts and maps, such as Google Sheets, Google My Maps, BatchGeo, Carto, and Tableau Public. But these web services have limited options for designing and customizing your visualizations, and also make you dependent on their web servers to host your work. In this second half of the book, we’ll explore how to copy, edit, and host code templates, meaning pre-written software instructions to create visualizations. With templates, no prior coding skills are necessary. You will learn how to make simple edits to insert your data, customize its appearance, and display it on the web on a site you control. - <a href="https://datavizforall.org/github.html">Data Visualization for All - Modify and Host Code with GitHub</a> by Jack Dougherty &amp; Ilya Ilyankou</p>
+    </blockquote>
+
+    <h2 id="tutes--walkthrus">Tutes \ Walkthrus</h2>
+
+    <ul>
+      <li><a href="https://webdesign.tutsplus.com/tutorials/how-to-create-an-open-source-directory-on-github-pages--cms-26225">How to Create an Open-Source Directory on GitHub Pages</a></li>
+      <li><a href="https://www.labnol.org/internet/github-gist-tutorial/28499/">What You Can Do With Gists on Github?</a></li>
+    </ul>
+
+    <h2 id="assorted">Assorted</h2>
+
+    <ul>
+      <li><a href="https://konpa.github.io/devicon/">https://konpa.github.io/devicon/</a></li>
+    </ul>
+
+  </div></div>
+:ET

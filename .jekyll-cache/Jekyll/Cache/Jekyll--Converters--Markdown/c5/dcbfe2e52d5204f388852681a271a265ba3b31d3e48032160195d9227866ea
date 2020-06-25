@@ -1,0 +1,79 @@
+I"�<h2 class="t30" id="ideas-and-possible-new-features">Ideas and possible new features</h2>
+
+<ul>
+  <li>Get rid of Backstretch.js and solve it with pure CSS</li>
+  <li><a href="https://css-tricks.com/custom-scrollbars-in-webkit/">Custom Scrollbar</a></li>
+  <li>Layout/Template for category-archives</li>
+  <li>Layout/Template for collections</li>
+  <li>Layout/Template for Landingpage</li>
+  <li>Clean bare-bones version of <em>Feeling Responsive</em></li>
+  <li>Even better responsive typography</li>
+  <li>Google AdSense ads</li>
+  <li>More post-formats for blogging like special post formats for links, audio, tweets,…</li>
+  <li>Make a video-sitemap.xml</li>
+</ul>
+
+<h2 id="done">Done</h2>
+
+<ul>
+  <li><a href="https://support.google.com/webmasters/answer/2413309?hl=en"><s>Add schema.org Markup for Videos</s></a></li>
+  <li><a href="http://jekyllthemes.org/themes/feeling-responsive/"><s>Submit <em>Feeling Responsive</em> to jekyllthemes.org</s></a></li>
+  <li>
+    <s>Use `style` in front matter to inject css-styles into `<head>&lt;/s&gt;
+</head></s>
+  </li>
+  <li>
+    <s>Add include to loop through collections</s>
+  </li>
+  <li>
+    <s>Now with optional caption for header</s>
+  </li>
+  <li><a href="http://humanstxt.org/"><s>Refined humans.txt</s></a></li>
+  <li><a href="https://www.youtube.com/embed/3b5zCFSmVvU"><s>Produce an introduction video to showcase *Feeling Responsive*</s></a></li>
+  <li><a href="http://localhost:4000/headers/"><s>Additional header with text</s></a></li>
+  <li>
+    <s>Added Google Analtics support</s>
+  </li>
+  <li><a href="http://codingtips.kanishkkunal.in/redirects-jekyll-github-pages/"><s>Add redirection layout by KanishkKanishk</s></a></li>
+  <li>
+    <s>Convert Foundation Sass to use native Jekyll Sass support</s>
+  </li>
+  <li>
+    <s>Optimize HTML and use Schema.org-Attributes › http://schema.org/Article</s>
+  </li>
+  <li>
+    <s>Disqus comments</s>
+  </li>
+  <li>
+    <s>Rework `list-entries.html` › now language ready</s>
+  </li>
+  <li><a href="https://help.github.com/articles/custom-404-pages/"><s>Create custom 404.html-webpage</s></a></li>
+  <li>
+    <s>Add simple search box with Google</s>
+  </li>
+  <li>
+    <s>Alternative non-landscape header</s>
+  </li>
+  <li>
+    <s>Patterns for header</s>
+  </li>
+  <li>
+    <s>Clean up color scheme and highlighting colors</s>
+  </li>
+  <li>
+    <s>Make theme translation ready</s>
+  </li>
+  <li><a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages/_drafts"><s>Add draft-templates for new pages/posts</s></a></li>
+  <li><a href="http://localhost:4000/getting-started/"><s>Step-by-Step-Guide to customize *Feeling Responsive*</s></a></li>
+  <li><a href="http://localhost:4000/design/video/"><s>Video-Post-Format to feature videos in a huge way</s></a></li>
+  <li>
+    <s>Title and captions for images</s>
+  </li>
+  <li>
+    <s>SEO › Add metadescription to header.html and front matter</s>
+  </li>
+  <li><a href="https://gist.github.com/pathawks/1406355"><s>Adding Open Graph for Jekyll</s></a></li>
+  <li><a href="http://localhost:4000/design/gallery/"><s>Gallery Post Example</s></a></li>
+  <li><a href="http://jekyllrb.com/docs/pagination/"><s>Adding pagination</s></a></li>
+</ul>
+:ET

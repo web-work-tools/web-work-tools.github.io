@@ -1,0 +1,106 @@
+I"�<p>You just need to choose a template like the <a href="http://localhost:4000/design/page/"><code class="language-plaintext highlighter-rouge">page</code></a>- or <a href="http://localhost:4000/design/page-fullwidth/"><code class="language-plaintext highlighter-rouge">page-fullwidth</code></a>-template and then just use <code class="language-plaintext highlighter-rouge">{% include gallery %}</code>.
+<!--more--></p>
+
+<div>
+	<ul class="clearing-thumbs small-block-grid-4" data-clearing="">
+		
+		
+		
+		
+		<li><a href="https://web-work.tools/images/gallery-example-1.jpg"><img data-caption="Great images by Unsplash.com" src="https://web-work.tools/images/gallery-example-1-thumb.jpg" alt="Great images by Unsplash.com" /></a></li>
+		
+		
+		
+		
+		<li><a href="https://web-work.tools/images/gallery-example-2.jpg"><img data-caption="Great images by Unsplash.com" src="https://web-work.tools/images/gallery-example-2-thumb.jpg" alt="Great images by Unsplash.com" /></a></li>
+		
+		
+		
+		
+		<li><a href="https://web-work.tools/images/gallery-example-3.jpg"><img data-caption="Great images by Unsplash.com" src="https://web-work.tools/images/gallery-example-3-thumb.jpg" alt="Great images by Unsplash.com" /></a></li>
+		
+		
+		
+		
+		<li><a href="https://web-work.tools/images/gallery-example-4.jpg"><img data-caption="Great images by Unsplash.com" src="https://web-work.tools/images/gallery-example-4-thumb.jpg" alt="Great images by Unsplash.com" /></a></li>
+		
+		
+		
+		
+		<li><a href="https://web-work.tools/images/gallery-example-5.jpg"><img data-caption="Great images by Unsplash.com" src="https://web-work.tools/images/gallery-example-5-thumb.jpg" alt="Great images by Unsplash.com" /></a></li>
+		
+		
+		
+		
+		<li><a href="https://web-work.tools/images/gallery-example-6.jpg"><img data-caption="Great images by Unsplash.com" src="https://web-work.tools/images/gallery-example-6-thumb.jpg" alt="Great images by Unsplash.com" /></a></li>
+		
+		
+		
+		
+		<li><a href="https://web-work.tools/images/gallery-example-7.jpg"><img data-caption="Great images by Unsplash.com" src="https://web-work.tools/images/gallery-example-7-thumb.jpg" alt="Great images by Unsplash.com" /></a></li>
+		
+		
+		
+		
+		<li><a href="https://web-work.tools/images/gallery-example-8.jpg"><img data-caption="Great images by Unsplash.com" src="https://web-work.tools/images/gallery-example-8-thumb.jpg" alt="Great images by Unsplash.com" /></a></li>
+		
+	</ul>
+</div>
+
+<h2 id="how-to-embed-a-gallery">How to embed a gallery</h2>
+
+<p><code class="language-plaintext highlighter-rouge">{% include gallery %}</code> lets you easily embed a gallery into your post. To use the gallery-include…</p>
+
+<h3 id="step-1">Step 1</h3>
+
+<ol>
+  <li>Make two images: a thumbnail and a big image.</li>
+  <li>Name the thumbnail <em>gallery-image-thumb.jpg</em> and…</li>
+  <li>…name the big <em>gallery-image.jpg</em>.</li>
+  <li>Place them in the <em>images</em>-folder.</li>
+</ol>
+
+<h3 id="step-2">Step 2</h3>
+
+<p>Define the big version in frontmatter,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gallery:
+    - image_url: gallery-image.jpg
+</code></pre></div></div>
+
+<p>If you like captions, give each image a caption:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gallery:
+    - image_url: gallery-image.jpg
+       caption: Starting Page with huge One Logo
+</code></pre></div></div>
+
+<h3 id="step-3">Step 3</h3>
+
+<p>Add the include whereever you want in your content with <code class="language-plaintext highlighter-rouge">{% include gallery %}</code>.</p>
+
+<div class="alert-box info "><p>Have a look at this example-entry. And have a look into the images-folder. :)</p>
+</div>
+
+<h2 class="t60" id="other-post-formats">Other Post Formats</h2>
+
+<ul class="side-nav">
+
+  
+
+    
+      <li><a href="http://localhost:4000/design/gallery/">Templates &middot; <strong>Responsive Galleries with Foundation</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/video/">Templates &middot; <strong>Video Template</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/post-right-sidebar/">Templates &middot; <strong>Page/Post Right Sidebar</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/page/">Templates &middot; <strong>The Post/Page Template</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/post-left-sidebar/">Templates &middot; <strong>Page/Post With Left Sidebar</strong></a></li>
+    
+
+  
+</ul>
+
+:ET

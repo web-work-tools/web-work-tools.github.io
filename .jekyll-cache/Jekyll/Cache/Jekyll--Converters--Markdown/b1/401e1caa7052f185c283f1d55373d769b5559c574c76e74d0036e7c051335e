@@ -1,0 +1,65 @@
+I"K<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#ssh" id="markdown-toc-ssh">SSH</a></li>
+  <li><a href="#bash---shell-scripting" id="markdown-toc-bash---shell-scripting">BASH - Shell Scripting</a></li>
+  <li><a href="#sources" id="markdown-toc-sources">Sources</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <div class="row">
+	<div class="small-12 columns">
+	<div class="panel radius" style="padding-bottom: 21px;">
+			<a class="button left r15 tiny radius" href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-06-06-command-line-git-ssh.md/#excerpt">Edit</a>
+			<p style="margin-top: 3px;">
+			This content is open source.
+			<a href="https://github.com/web-work-tools/web-work-tools.github.io/edit/master/_posts/fundamentals/2019-06-06-command-line-git-ssh.md/#excerpt">Help improve it</a>.</p>
+		</div>
+	</div>
+</div>
+
+    <p>I use Ubuntu Linux, so all of my info comes from that perspective. That said, most of it translates pretty simply, and much (most?) of this information is platform independent.</p>
+
+    <ul>
+      <li><a href="https://www.learnenough.com/command-line-tutorial/basics">Learn Enough Command Line to Be Dangerous</a> - Introduction to the Unix command line.</li>
+      <li><a href="https://zwbetz.com/mac-to-windows-command-line-mappings/">Mac to Windows Command Line Mappings</a></li>
+      <li><a href="https://github.com/mnyrop/swc-materials/">reusable materials for bash/git/python bootcamps</a></li>
+    </ul>
+
+    <h2 id="ssh">SSH</h2>
+
+    <ul>
+      <li><a href="https://help.github.com/en/articles/connecting-to-github-with-ssh">Connecting to GitHub with SSH</a></li>
+      <li><a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generating a new SSH key and adding it to the SSH agent</a></li>
+      <li><a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account">Adding a new SSH key to your GitHub Account</a></li>
+      <li><a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca">How to manage multiple GitHub accounts on a single machine with SSH keys</a></li>
+    </ul>
+
+    <h2 id="bash---shell-scripting">BASH - Shell Scripting</h2>
+
+    <ul>
+      <li><a href="https://www.tldp.org/LDP/Bash-Beginners-Guide/html/intro_01.html">Bash Guide for Beginners</a>
+        <blockquote>
+          <p>This is a practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples. I partly wrote it because I don’t get excited with stripped down and over-simplified examples written by people who know what they are talking about, showing some really cool Bash feature so much out of its context that you cannot ever use it in practical circumstances. You can read that sort of stuff after finishing this book, which contains exercises and examples that will help you survive in the real world.</p>
+        </blockquote>
+      </li>
+      <li><a href="https://www.shellscript.sh/">https://www.shellscript.sh/</a></li>
+      <li>http://www.hypexr.org/bash_tutorial.php</li>
+      <li>https://www.bash.academy/</li>
+    </ul>
+
+    <h2 id="sources">Sources</h2>
+
+    <p>Header image: <a href="http://www.pcjs.org/devices/pcx86/machine/5170/ega/2048kb/rev3/vt100/">IBM PC AT (8Mhz), 2Mb RAM, 20Mb Hard Disk (Formatted), 128Kb EGA, Enhanced Color Display</a></p>
+
+  </div>
+</div>
+:ET

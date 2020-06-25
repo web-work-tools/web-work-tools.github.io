@@ -1,0 +1,99 @@
+I"�<p>I haven’t played with this in a while, but I suspect I need to do something in that portfolio to freshen up its view. All the same, I have the steps I took to get this far, right here:</p>
+
+<h2 id="step-1">Step 1</h2>
+
+<p>Fork this repository:</p>
+
+<ul>
+  <li><a href="https://github.com/github/personal-website">github/personal-website</a></li>
+</ul>
+
+<h2 id="step-2">Step 2</h2>
+
+<p>Go to settings and select publish from master branch:</p>
+
+<p><img src="https://imgur.com/UAhVvRPl.png" alt="" /></p>
+
+<h2 id="step-3">Step 3</h2>
+
+<p>If you already have a web-page, then maybe you aren’t reading this.. Either way, you must name your repository as the same as your username (or the organizations name) on github. So my first website’s repository name is <a href="https://github.com/infominer33/infominer33.github.io">infominer33.github.io</a> since my github username is infominer33. Now it publishes to <code class="language-plaintext highlighter-rouge">infominer.id</code> (but also <code class="language-plaintext highlighter-rouge">infominer33.github.io</code>) because I have a custom domain, and every other repository I publish from my user account, rather than in an organization, is a branch of that first domain.</p>
+
+<p>Since I already have a primary webpage, I change my repository name to <code class="language-plaintext highlighter-rouge">repo-portfolio</code>. That way, it lives at:</p>
+
+<ul>
+  <li><a href="https://infominer.id/repo-portfolio/">infominer.id/repo-portfolio</a></li>
+</ul>
+
+<p><img src="https://imgur.com/yL5BaNxl.png" alt="" /></p>
+
+<h2 id="step-4">Step 4</h2>
+
+<p>On github pages, <code class="language-plaintext highlighter-rouge">_config.yml</code> lives in the root directory of each webpage, this is where you can fine tune settings which repositories display:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 12
+  exclude:
+    archived: false
+    forks: false
+    projects:
+      - pub-yes
+      - yest
+      - archive-crypto
+      - yest-the-docs
+      - bahamas-crypto
+
+</code></pre></div></div>
+
+<p>you can also configure social media accounts.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>social_media:
+  website: https://infominer.xyz/
+  keybase: infominer
+  telegram: infominer33
+  twitter: infominer33
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # unsplash: your_username
+  # vk: your_username
+  # youtube: your_username
+</code></pre></div></div>
+<p>and topics of interest:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+topics:
+  - name: Bitcoin
+    web_url: https://github.com/topics/bitcoin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bitcoin/bitcoin.png
+
+  - name: Decentralized Identity
+    web_url: https://github.com/topics/decentralized-identity
+    image_url: https://decentralized-id.com/assets/icons/didicon.png
+
+</code></pre></div></div>
+
+<p>Cool beans, right?</p>
+
+<p>There are also blog features, although I’m not sure I’ll blog there… who knows!?!?</p>
+
+<p>I haven’t looked through the <a href="https://github.com/github/personal-website/issues">issues</a>, or <a href="https://github.com/github/personal-website/pulls">pull-requests</a> yet to see what folk are working on, or tried to tweak any of the quirks I’ve noticed..</p>
+
+<p>If you want to learn more about GitHub Pages, check out:</p>
+
+<figure class="full">
+	<img src="https://web-work.tools/images/gh-pages-starter-pack.png" alt="" />
+	<figcaption><a href="https://web-work.tools/jamstack/github-pages-starter-pack//"><b>GitHub Pages - Starter Pack:Extended Resources</b></a></figcaption>
+</figure>
+
+:ET

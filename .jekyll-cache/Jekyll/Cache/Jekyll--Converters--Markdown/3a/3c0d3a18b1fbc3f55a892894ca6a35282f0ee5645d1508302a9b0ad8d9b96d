@@ -1,0 +1,33 @@
+I"�<p><em>Feeling Responsive</em> shows metadata by default. The default behaviour can be changed via <code class="language-plaintext highlighter-rouge">config.yml</code>. To show metadata at the end of a page/post just add the following to front matter:
+<!--more--></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>show_meta: true
+</code></pre></div></div>
+
+<p>If you don’t want to show metadata, it’s simple again:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>show_meta: false
+</code></pre></div></div>
+
+<h2 class="t60" id="other-post-formats">Other Post Formats</h2>
+
+<ul class="side-nav">
+
+  
+
+    
+      <li><a href="http://localhost:4000/design/gallery/">Templates &middot; <strong>Responsive Galleries with Foundation</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/video/">Templates &middot; <strong>Video Template</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/post-right-sidebar/">Templates &middot; <strong>Page/Post Right Sidebar</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/page/">Templates &middot; <strong>The Post/Page Template</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/post-left-sidebar/">Templates &middot; <strong>Page/Post With Left Sidebar</strong></a></li>
+    
+
+  
+</ul>
+
+:ET
