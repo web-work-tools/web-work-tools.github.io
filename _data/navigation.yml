@@ -25,8 +25,6 @@
     url: "/jamstack/static-site-generators"
   - title: "GitHub Pages Starter Pack"
     url: "/jamstack/github-pages-starter-pack/"
-  - title: "GitHub Pages Extended Resources"
-    url: "/jamstack/github-pages-extended-resources/"
   - title: "Hugo Starter Kit" 
     url: "/jamstack/hugo-starter-kit/"
   - title: "Jekyll HPSTR to HPSTR Hugo" 
