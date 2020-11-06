@@ -14,7 +14,7 @@ image:
   thumb: "github.png"
 
 permalink: /jamstack/github-pages-starter-pack/
-modified: 2019-11-17T15:59:13-23:00
+modified: 2020-11-06T15:59:13-23:00
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
@@ -26,20 +26,18 @@ modified: 2019-11-17T15:59:13-23:00
 </div>
 </div><!-- /.medium-4.columns -->
 
-
-
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include _improve_content.html %}
 
-I'm just a newb that created this resource to help myself. Github makes it easy to get started web-publishing. With the click of a button, you can have a web-page live, requiring only markdown skills (that anyone can learn on the go).
+I started collecting links in a text file, back when I first started to use GitHub pages. There were many resources available on how to use jekyll, but not so many on how to use GitHub pages.
 
-Each feature you want to enable requires a little more learning, and GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer. 
+Github makes it easy to get started web-publishing. With the click of a button, you can have a simple web-page live, requiring only [markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) skills, that anyone can learn on the go.
+
+I started out clicking on GitHub's GUI, and each new feature I wanted to enable required a little more learning, and GitHub Pages is set up so that if you decide to, you can gradually progress from content creator to web-developer. 
 
 If you don’t want to think about web-development, and simply want your markdown files to look beautiful once published, github pages can help you do that too.
 
-The number of technical subjects I've begun to learn is incredible!
-
-Thanks to github and it's dedicated community of open-source creators.
+The number of technical subjects I've begun to learn is incredible, thanks to GitHub and it's dedicated community of open-source creators.
 
 ## Getting Started
 
@@ -51,25 +49,24 @@ All you really need to do is select a branch and it will begin publishing your r
 
 The first repository for your web-page must be named like so: `username.github.io`. For example, the repository for my personal page is called `infominer33.github.io`.  Simply create a new repository, and if your github username is `@awesomesauce` then you would create a new directory named `awesomesauce.github.io`.
 
-Every other repository you own can also be made into its own web-page, that will published off of your user page, with the same name following your domain. So if you have a repository called, `/Dynomite` and you go into settings select pages to publish from the master branch, then that page will be found at `https://awesomesauce.github.io/Dynomite`.
+Every other repository you own can also be made into its own web-page, that will published off of your user page, with the same name following your domain. So if you have a repository called, `/Dynamite` and you go into settings select pages to publish from the master branch, then that page will be found at `https://awesomesauce.github.io/Dynamite`.
 
-so [github.com/didecentral/didecentral.github.io](https://github.com/didecentral/didecentral.github.io) is published at [decentralized-id.com](https://decentralized-id.com), because I have a custom domain. But it can still be found at, [infominer33.github.io/DIDecentralized](https://decentralized-id.com).
+So [github.com/didecentral/didecentral.github.io](https://github.com/didecentral/didecentral.github.io) is published at [decentralized-id.com](https://decentralized-id.com), because I have a custom domain. But it can still be found at, [infominer33.github.io/DIDecentralized](https://decentralized-id.com).
 
 * [Github Pages Community Forum](https://github.community/t5/GitHub-Pages/bd-p/pages)
 * [https://pages.github.com/versions/](https://pages.github.com/versions/) - These plugins can be used via gh-pages.
 * [Configuring a Publishing Source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 * [help.github.com - User, Organization, and Project Pages](https://help.github.com/en/articles/user-organization-and-project-pages)
-* [http://ragupappu.com/2015/04/22/setup-website-using-github-pages-and-jekyll/](http://ragupappu.com/2015/04/22/setup-website-using-github-pages-and-jekyll/)
 * [Setting up You GitHub Pages Site Locally with Jekyll](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll)
-  * [-- Local development with GitHub Pages](https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-3-Local-development-with/ba-p/2292)
+  * [Local development with GitHub Pages](https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-3-Local-development-with/ba-p/2292)
 * [Getting started with GitHub Pages: Part 4 -- Customizing your Pages site](https://github.community/t5/Support-Protips/Getting-started-with-GitHub-Pages-Part-4-Customizing-your-Pages/ba-p/4058)
 * [Clearing Up Confusion around Baseurl](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
 
 ### GitHub Supported
 
-Those basic github themes are mostly for developers who want a page to put up for a software project, or anyone who just wants a basic blog to get started. This way, you could get started writing blogs immediately, and learn the basics. Later, it's easy to bring those old posts to a new theme.
+Those basic github themes are mostly for developers who want a page to put up for a software project, or anyone who just wants a basic blog to get started. This way, you could get started writing blogs immediately, and begin learning the basics of how jekyll sites are configured. Later, it's easy to bring any content you created to a new theme.
 
-[GitHub Pages Supports](https://pages.github.com/themes/) the following gem themes:
+GitHub Pages has [the following themes](https://pages.github.com/themes/) built in, you can begin learning with a few clicks:
 
 * [Architect](https://github.com/pages-themes/architect)
 * [Cayman](https://github.com/pages-themes/cayman)
@@ -85,17 +82,22 @@ Those basic github themes are mostly for developers who want a page to put up fo
 * [Tactile](https://github.com/pages-themes/tactile)
 * [Time machine](https://github.com/pages-themes/time-machine)
 
-
-
 ### Gem Based Themes
 
-Gem files are ruby packages that contain all of the files necessary for building your site, and keep your repository directory un-cluttered. Then, if you want to change a file that's in the gem, you just create the directory and pur the file where it goes, and configure as you wish. 
+Gem files are ruby packages that contain all of the files necessary for building your site, allowing you to keep your repository un-cluttered, and keeps your site up to date, when the gems developer makes updates. 
 
+If you want to change a file that's in the gem, you just create the directory and put the file where it goes, to configure as you wish. 
+
+* [Using Jekyll gem-based themes on Github Pages](https://4brunu.github.io/blog/2017/01/29/using-jekyll-gem-based-themes-on-github-pages)
 * [planetjekyll/awesome-jekyll-themes](https://github.com/planetjekyll/awesome-jekyll-themes)
 
-You must build them locally, and tell jekyll to build to the `docs` directory, which you may have noticed as an option in your repository settings, and github will publish that directory. However, for user or organization pages, you can only publish from the master directory.
+Until [GitHub Actions](https://github.com/marketplace/actions/jekyll-actions) were introduced, you needed to [Install jekyll](https://jekyllrb.com/docs/installation/) and build them locally, to the `docs` directory, which you may have noticed as an option in your repository settings, or if you build to `_site` you can publish from master. 
 
-So this will only work for projects other than your homepage, or your organizations homepage.
+For user or organization pages, you can only publish from the master directory. So, this will only work for projects other than your homepage, or your organizations homepage. 
+
+There's also using the [gh-pages](https://gist.github.com/chrisjacob/1086274/382ef1ccc22b57b9b1f0e3a362b39e806b9ba04c) branch, but that's getting a little more technical.
+
+### Configure Jekyll
 
 Simply add the following line to your `_config.yml`
 
@@ -103,7 +105,7 @@ Simply add the following line to your `_config.yml`
 destination: docs
 ```
 
-Then add the gem and the source, also add any plugins you are using, such as in this example:
+Then add the gem and the source, also add any plugins you are using:
 
 ```
 source 'https://rubygems.org'
@@ -178,6 +180,7 @@ I'll say now, if you are new to web-development, best to start off trying out a 
 
 Once installed, I cloned those repos locally so its easier to see how everything works. Then, if I want to configure a file that's not in my repository, I have a copy nearby. You can grab the `_layouts/default.html`, put it in your repo, and get a feel for how configuring that template shapes your entire site. But then you configure individual pages, and categories, perhaphs, to display differently. 
 
+* [github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
 * [planetjekyll/awesome-jekyll-themes](https://github.com/planetjekyll/awesome-jekyll-themes) (gem-based)
 * [themes.jekyllrc.org](http://themes.jekyllrc.org/)
 * [Jekyll Theme Showcase](http://talk.jekyllrb.com/t/jekyll-theme-showcase-share-your-jekyll-themes/1382)
@@ -295,10 +298,164 @@ Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps
 
 ### Domains
 
-Namecheap supports BTC purchases, so I'm including their github how-to here. If you know of other crypto-friendly domain providers, lmk in the issues.
-
-* [https://help.github.com/en/articles/using-a-custom-domain-with-github-pages](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages)
+* [Configuring a custom domain for your GitHub Pages site](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages)
 * [Using Custom Domain for Github Pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a)
-* [namecheap.com - how-do-i-link-my-domain-to-github-pages](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages)
+* [namecheap.com - How do I link my domain to GitHub Pages](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages)
+
+
+## Customizations
+* [digitaldrummerj.me/categories/jekyll](https://digitaldrummerj.me/categories/jekyll/)
+* [Social Media Share Bar](https://mycyberuniverse.com/social-media-share-bar-jekyll-blog-website.html)
+* [Validating Links and Images](https://digitaldrummerj.me/jekyll-validating-links-and-images/)
+* [longqian.me/](http://longqian.me/) -Metamask Donation Button.
+* [https://superdevresources.com/share-buttons-jekyll/](https://superdevresources.com/share-buttons-jekyll/)
+* [Embed files from a github repository onto your page.](http://gist-it.appspot.com/)
+* [Redirecting GitHub Pages after a repository move](https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7)
+* [hacking-routing-component-jekyll/](https://www.sitepoint.com/hacking-routing-component-jekyll/)
+* [How-to-build-a-lowtech-website](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)
+* [Multiple Authors for the Same Post](https://github.com/mmistakes/minimal-mistakes/issues/1341#issuecomment-505660670)
+* [Setup GitHub Pages "gh-pages" branch and "master" branch as subfolders of a parent project folder ("grandmaster").](https://gist.github.com/chrisjacob/833223)
+
+### Comments
+* [Github Issues for Blog Comments](http://artsy.github.io/blog/2017/07/15/Comments-are-on/)
+* [A repo you can use to work-around GH issue comment request limmits.](https://github.com/orta/gh-commentify)
+* [Various ways you can add comments to your static site](https://darekkay.com/blog/static-site-comments/)
+* [Add comments to your jekyll powered blog](https://github.com/damieng/jekyll-blog-comments)
+* [Setting up Staticman Server](https://www.flyinggrizzly.net/2017/12/setting-up-staticman-server/)
+  * [new feature! added comments to this *static* website](https://www.edwinwenink.xyz/posts/18-comments/)
+* [https://mademistakes.com/articles/jekyll-static-comments/](https://mademistakes.com/articles/jekyll-static-comments/)
+  * [https://mademistakes.com/articles/improving-jekyll-static-comments/](https://mademistakes.com/articles/improving-jekyll-static-comments/)
+
+### Image Galleries
+
+
+
+### Search
+
+* [Elasticsearch for Jekyll](https://blog.omc.io/elasticsearch-for-jekyll-part-1-ab456ac7c093)
+* [Adding Custom Google Search](https://digitaldrummerj.me/blogging-on-github-part-7-adding-a-custom-google-search/)
+* [github.com/algolia/jekyll-algolia](https://github.com/algolia/jekyll-algolia)
+* [community.algolia.com/jekyll-algolia/blog.html](https://community.algolia.com/jekyll-algolia/blog.html)
+* [https://www.algolia.com/doc/](https://www.algolia.com/doc/)
+
+
+
+## SEO
+
+* [Use Jekyll like a pro: Improving SEO](https://codeburst.io/use-jekyll-like-a-pro-improving-seo-c8cfb81781b7)
+
+### Jekyll-SEO-Tag
+
+* [Search Engine Optimization for Github Pages - help.github.com](https://help.github.com/en/articles/search-engine-optimization-for-github-pages)
+* [/jekyll/jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+* [/pmarsceill/jekyll-seo-gem](https://github.com/pmarsceill/jekyll-seo-gem)
+* [Override default jekyll-seo-tag template](https://github.com/meedan/meedan.code/commit/a9ad6e794fffd35035aa7e5bfb1200a34fe0e479)
+* [Tips to Optimize Jekyll SEO](https://blog.webjeda.com/optimize-jekyll-seo/)
+* [blog.webjeda.com/optimize-jekyll-seo/#6-open-graph-and-twitter-cards-in-jekyll](https://blog.webjeda.com/optimize-jekyll-seo/#6-open-graph-and-twitter-cards-in-jekyll)
+
+
+### Open Graph - Favicons and More
+
+* [Open Graph Tags, Twitter Cards, Rich Pins](https://warfareplugins.com/open-graph-tags-twitter-cards-rich-pins/)
+* [A basic tutorial on "How to get the most out of embeds?" for a discord-friendly website!](https://www.reddit.com/r/discordapp/comments/82p8i6/a_basic_tutorial_on_how_to_get_the_most_out_of/) (supports og values)
+  * [discordapp.com/developers/docs/resources/channel#embed-limits](https://discordapp.com/developers/docs/resources/channel#embed-limits)
+* [https://iframely.com/debug](https://iframely.com/debug)
+* [realfavicongenerator.net](https://realfavicongenerator.net) 
+  > The strict minimum for the master picture is 70x70. Your picture is 225x225, which is ok. However, it is recommended to use a picture of at least 260x260. If you still want to use your picture, some of the derivated favicons will not be generated, such as the high resolution tile for Windows 8 / IE 11.
+* [ogp.me](http://ogp.me) - Open Graph Webpage (really good resource for Facebook and beyond. great links at bottom.)
+* [developers.google.com - Breadcrumbs](https://developers.google.com/search/docs/data-types/breadcrumb)
+  ![](https://i.imgur.com/TWbbVhn.png)
+* [Googles guide to enhancing your site's metadata](https://developers.google.com/search/docs/guides/enhance-site)
+
+
+
+### Twitter
+
+* [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+* [About Cards - developer.twitter.com](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
+* [https://github.com/jekyll/jekyll-mentions/](https://github.com/jekyll/jekyll-mentions/)
+
+
+## Build Local - Bug Testing
+
+Buidling your site locally is the best way to figure out why it's not publishing correctly via GitHub.
+
+You must set up your gemfile specifically for each theme.
+
+* [Install bundler](https://bundler.io/)
+
+then prepare bundler for your project:
+
+     bundle update
+
+     bundle install
+
+Build gives an error message if the build fails
+
+     bundle exec jekyll build
+
+Serve builds and "serves" a local browsable copy
+
+     bundle exec jekyll serve
+
+Trace gives details on errors (but won't always show your problem)
+
+     bundle exec jekyll build --trace
+
+Verbose... you get the idea.
+
+     bundle exec jekyll build --verbose
+
+
+### Proofers
+
+* [gjtorikian/html-proofer](https://github.com/gjtorikian/html-proofer) - you got broken links bruh
+
+## Technical
+
+
+### Liquid
+
+<img src="https://i.imgur.com/jMtd9WR.png"/>
+
+* [shopify.github.io/liquid/tags/control-flow/](http://shopify.github.io/liquid/tags/control-flow/)
+* [Jekyll Variables and Liquid Template Tags-Cheatsheet](https://simpleit.rocks/ruby/jekyll/templates/jekyll-variables-and-liquid-template-tags-cheatsheet/)
+* [Introduction to Liquid for Jekyll](https://learn.cloudcannon.com/jekyll/introduction-to-liquid/)
+* [https://blog.webjeda.com/jekyll-liquid/](https://blog.webjeda.com/jekyll-liquid/)
+
+### Data
+
+* [Data Files - jekyllrb](https://jekyllrb.com/docs/datafiles/)
+* [Accessing static files in Jekyll](https://mademistakes.com/notes/static-files/)
+* [ashmaroli/jekyll-data](https://github.com/ashmaroli/jekyll-data)
+* [How to easily use Airtable Data in Jekyll](https://community.airtable.com/t/how-to-easily-use-airtable-data-in-jekyll/3925)
+* [mnyrop/pagemaster](https://github.com/mnyrop/pagemaster)
+* [WAX - Reuse](https://minicomp.github.io/wax/reuse/)
+  > Wax is inspired by FAIR data principles, and as such strives to make its collections findable, accessible, interoperable and reusable.
+  > 
+  > The demo site comes with a specific _include called interactive_metadata_table to help you make pages like this one complete with interactive DataTables and downloadable CSVs of collection metadata.
+  * [Wax - Annotate](http://marii.info/annotate/)
+* [Display Jupyter Notebooks with Jekyll](https://www.linode.com/docs/applications/project-management/jupyter-notebook-on-jekyll/)
+* [Managing data with Jekyll](https://www.chenhuijing.com/blog/managing-data-with-jekyll/)
+* [18F/jekyll-get](https://github.com/18F/jekyll-get)
+* [HOW I CREATED A SIMPLE DBMS USING GITHUB, JEKYLL, PROSE AND HEROKU](http://fabian-kostadinov.github.io/2015/02/04/how-i-created-a-simple-dbms-using-github-jekyll-prose-and-heroku/)
+* [Google Sheet To Github Website Lesson](https://contrafabulists-lessons.github.io/google-sheet-to-github-website/)
+
+### JSON
+
+* [A JSON content feed for Jekyll](https://natelandau.com/a-json-feed-for-jekyll/)
+* [Counting and JSON output in Jekyll](http://www.cagrimmett.com/til/2016/05/20/json-output-in-jekyll.html)
+* [Jekyll — Convert Full YAML Front-matter to XML/JSON](https://stackoverflow.com/questions/16889512/jekyll-convert-full-yaml-front-matter-to-xml-json)
+* [Inlining JSON in a Jekyll Liquid Template](https://mrcoles.com/inlining-json-jekyll-liquid-template/)
+* [Jekyll JSON API](https://www.techiediaries.com/how-to-use-jekyll-like-a-pro-output-data-as-json/)
+* [JSON Feed Viewer](https://json-feed-viewer.herokuapp.com/feed/?url=https%3A%2F%2Fndarville.com%2Ffeed.json)
+
+
+### Automation
+
+* [alternativeto.net/software/heroku/?license=free](https://alternativeto.net/software/heroku/?license=free)
+* [integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll](https://www.enigma.com/blog/integrating-autogenerated-content-into-your-documentation-site-using-swagger-and-jekyll)
+* [benbalter/jekyllbot](https://github.com/benbalter/jekyllbot) - Listens for GitHub post-recieve service hooks messages, runs jekyll, and pushes the results back to GitHub. 
+* [automate-github-pages-ifttt-glitch.html](https://webrender.net/2017/11/23/automate-github-pages-ifttt-glitch.html)
 
 </div>
