@@ -469,7 +469,7 @@ Essentially, if you're just editing files on github, you should just add those l
 * [OpenApi Toolbox Api Evangelist - Docs](http://openapi.toolbox.apievangelist.com/documentation/)
 * [kinlane/OpenAPI-Specification](https://github.com/kinlane/OpenAPI-Specification)
 
-## Automation
+### Automation
 
 You can use GitHub actions or other CI to build your site automatically when you push to the repository and\or on a schedule. There are many other possibilities for creating content automatically based on web-events, and using staticman for forms that do more than just comments.
 
