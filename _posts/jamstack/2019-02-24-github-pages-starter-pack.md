@@ -9,8 +9,6 @@ tags: ['Jekyll', 'GitHub Pages','GitHub']
 header: no
 image: 
   title: "gh-pages-starter-pack.png"
-  caption: "Extended Resources"
-  caption_url: /jamstack/github-pages-extended-resources/
   thumb: "github.png"
 
 permalink: /jamstack/github-pages-starter-pack/
@@ -197,7 +195,7 @@ Here are some themes that have caught my eye, and I know they work.
   * [Hydejack Documentation.pdf](http://nickengmann.com/Documentation.pdf)
   * [Hydejack Advanced](https://github.com/hydecorp/hydejack/blob/master/docs/advanced.md)
 
-#### Themes by [@mmistakes](https://github.com/mmistakes):
+#### Other [@mmistakes](https://github.com/mmistakes) Themes
 
 * [So Simple Theme](https://mmistakes.github.io/so-simple-theme/) - [Source](https://github.com/mmistakes/so-simple-theme)
 * [Basically Basic](https://mmistakes.github.io/jekyll-theme-basically-basic/) - [source](https://github.com/mmistakes/jekyll-theme-basically-basic) - [with algolia](https://github.com/mmistakes/jekyll-theme-basically-basic-algolia-search)
