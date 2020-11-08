@@ -122,7 +122,7 @@ GitHub Pages has [the following themes](https://pages.github.com/themes/) built 
 
 After you've learned the ropes, it's easy to bring any content you created to a new theme.
 
-#### ¡!Create an index.md¡!
+#### Create an index.md
 
 Although pages will build an index.html from your readme.md, pages will not behave as expected if you try to do any configuration or additional optimization with only readme.md.
 
@@ -269,7 +269,7 @@ Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps
 * [Various ways you can add comments to your static site](https://darekkay.com/blog/static-site-comments/)
 * [Add comments to your jekyll powered blog](https://github.com/damieng/jekyll-blog-comments)
 * [Setting up Staticman Server](https://www.flyinggrizzly.net/2017/12/setting-up-staticman-server/)
-  * [new feature! added comments to this *static* website](https://www.edwinwenink.xyz/posts/18-comments/)
+* [new feature! added comments to this *static* website](https://www.edwinwenink.xyz/posts/18-comments/)
 * [Going static part 2: static comments](https://mademistakes.com/articles/jekyll-static-comments/)
   * [Improving static comments with Jekyll & Staticman](https://mademistakes.com/articles/improving-jekyll-static-comments/)
 
@@ -323,11 +323,13 @@ Until [GitHub Actions](https://github.com/marketplace/actions/jekyll-actions) we
 
 For user or organization pages, you can only publish from the master directory. So, this will only work for projects other than your homepage, or your organizations homepage. 
 
-Although that's consistant with everything I've read, in practice I've found that after forking minimal mistakes, and setting up the gemfile, it will build the site for me. So I think having the entire project in my master, not relying on the gem, jekyll will build the site from master. (see `decentralized-id/decentralized-id.github.io`'s: ['_config.yml'](https://github.com/Decentralized-ID/decentralized-id.github.io/blob/master/_config.yml)) and [`gemfile`](https://github.com/Decentralized-ID/decentralized-id.github.io/blob/master/_config.yml) for reference) 
+Although that's consistant with everything I've read, in practice I've found that after forking minimal mistakes, and setting up the gemfile, it will build the site for me. I think the idea is that once the site is completely built, with a `gemfile` and a `gemfile.lock`, then GitHub Pages uses jekyll to build any updates when you change it's content\html\css\includes\layouts. 
+
+(see `decentralized-id/decentralized-id.github.io`'s: ['_config.yml'](https://github.com/Decentralized-ID/decentralized-id.github.io/blob/master/_config.yml)) and [`gemfile`](https://github.com/Decentralized-ID/decentralized-id.github.io/blob/master/_config.yml) for reference) 
 
 There's also using the [gh-pages](https://gist.github.com/chrisjacob/1086274/382ef1ccc22b57b9b1f0e3a362b39e806b9ba04c) branch, but that's getting a little more technical.
 
-Until you've set up a few different sites, and figure out the ins and outs, it will take some tinkering to figure it out.
+Until you've set up a few different sites, and figure out the ins and outs, each new site takes some tinkering to get working.
 
 ### Build with Jekyll Locally
 
