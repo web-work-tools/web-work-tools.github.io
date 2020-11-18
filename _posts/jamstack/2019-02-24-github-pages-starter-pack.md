@@ -49,6 +49,10 @@ In your repository settings you'll find various options of where to publish your
 
 Whichever of those options you choose, you can drop an index.html in the root of whatever location you chose in the above settings, and that site will be published.
 
+If you have other posts or pages, you can assign one of them the root permalink, in the frontmatter, and in this case you do not need index.html
+
+Example: `permalink: /`
+
 ### Repository Naming Conventions
 
 The first repository for your web-page must be named like so: `username.github.io`. For example, the repository for my personal page is called `infominer33.github.io`.  Simply create a new repository, and if your github username is `@awesomesauce` then you would create a new directory named `awesomesauce.github.io`.
