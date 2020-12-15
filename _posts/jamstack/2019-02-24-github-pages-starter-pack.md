@@ -49,7 +49,7 @@ In your repository settings you'll find various options of where to publish your
 
 Whichever of those options you choose, you can drop an index.html in the root of whatever location you chose in the above settings, and that site will be published.
 
-If you have other posts or pages, you can assign one of them the root permalink, in the frontmatter, and in this case you do not need index.html
+If you have other posts or pages, you can assign one of them the root permalink, in its frontmatter, and in this case you do not need index.html
 
 Example: `permalink: /`
 
