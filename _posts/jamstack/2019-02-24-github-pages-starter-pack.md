@@ -268,6 +268,7 @@ Use `redirect_to: https://external.url` to send visitors somewhere else (perhaps
 * [benbalter/jekyll-style-guide](https://github.com/benbalter/jekyll-style-guide)
 
 ### Comments
+* [Static Site Comments: A Jamstack How-To](https://snipcart.com/blog/jamstack-static-site-comments)
 * [Github Issues for Blog Comments](http://artsy.github.io/blog/2017/07/15/Comments-are-on/)
 * [A repo you can use to work-around GH issue comment request limmits.](https://github.com/orta/gh-commentify)
 * [Various ways you can add comments to your static site](https://darekkay.com/blog/static-site-comments/)
