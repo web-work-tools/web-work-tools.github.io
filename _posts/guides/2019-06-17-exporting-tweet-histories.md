@@ -132,6 +132,8 @@ For now this is just a collection of links from my research trying to figure out
 * [Datamine/Archive-Tweets](https://github.com/Datamine/Archive-Tweets) - Archive and Delete Liked and Posted Tweets
 * [The Best Twitter Search Tricks - Digital Inspiration](https://www.labnol.org/internet/twitter-search-tricks/13693/)
   > The [Twitter Archiver](https://www.labnol.org/internet/save-twitter-hashtag-tweets/6505/) and the [Twitter Bots](https://www.labnol.org/internet/write-twitter-bot/27902/) app fire each time a new tweet is found that match your search query. You can write simple search queries (like `#Oscars`) or more complex query (like `obama min_retweets:10 filter:news`) that uses one or more Twitter’s advanced search operators.
+* [ExportData.io - Download Historical Tweets](https://www.exportdata.io/download-tweets)
+* [igorbrigadir/twitter-advanced-search](https://github.com/igorbrigadir/twitter-advanced-search) - extensive guide about advanced search operators on Twitter.
 
 ## Re-Publishing Twitter Content
 
