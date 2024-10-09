@@ -17,7 +17,7 @@ modified: 2019-06-16T13:15:59-23:00
 
     "Public key encryption: supporting secure transactions online since 1991!!"
 
-![](https://web-work.tools/images/pgp-og.png)
+![](https://web-work-tools.github.io/images/pgp-og.png)
 
 
 I created this resource while researching the following article:
@@ -25,7 +25,7 @@ I created this resource while researching the following article:
 * [freelanceforcoins.com/**Business with Crypto 101—Escrow and Key Signatures**](https://freelanceforcoins.com/article/6-escrow) -infominer
   >This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.
 
-[![](https://web-work.tools/images/Cover50.png)](https://web-work.tools/images/gnu-gpg-thumb.png)
+[![](https://web-work-tools.github.io/images/Cover50.png)](https://web-work-tools.github.io/images/gnu-gpg-thumb.png)
 
 ## Phil Zimmerman
 * [Why I Wrote PGP -Part of the Original 1991 PGP User's Guide](https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)

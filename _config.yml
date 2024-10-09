@@ -24,7 +24,7 @@ author: infominer
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://web-work.tools'
+url: 'https://web-work-tools.github.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -37,7 +37,7 @@ improve_content: https://github.com/web-work-tools/web-work-tools.github.io/edit
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://web-work.tools/images/'
+urlimg: 'https://web-work-tools.github.io/images/'
 
 
 # Logo size is 600x80 pixels
@@ -166,7 +166,7 @@ defaults:
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           'https://web-work.tools/images/web-work-tools.png'
+og_image:                           'https://web-work-tools.github.io/images/web-work-tools.png'
 og_locale:                          'en_EN'
 og_type:                            'website'
 

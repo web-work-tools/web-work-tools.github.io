@@ -204,8 +204,8 @@ Be sure to change `title:` to `title =` and so forth.
 
 ```
 [[links]]
-title = "web-work.tools"
-url = "/web-work.tools/"
+title = "web-work-tools.github.io"
+url = "/web-work-tools.github.io/"
 
 [[links]]
 title = "Services"
@@ -283,9 +283,9 @@ This is the final stretch, and we should be good to go
 
 ```
 
-baseurl = "https://web-work.tools"
+baseurl = "https://web-work-tools.github.io"
 languageCode = "en-gb"
-title = "web-work.tools: Independent Web-Work and Skyscraper Publishing."
+title = "web-work-tools.github.io: Independent Web-Work and Skyscraper Publishing."
 theme = "hpstr"
 pluralizelisttitles = false
 PygmentsCodeFences = true
@@ -351,7 +351,7 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 
 * [web.archive.org - Installing Hugo - Dec, 2017](http://web.archive.org/web/20171209165059/http://gohugo.io/getting-started/installing)
 * [web.archive.org - Using Hugo - Dec,2017](http://web.archive.org/web/20171211175036/http://gohugo.io/getting-started/usage)
-* [Creating a Test Branch and Merging changes back to Master](https://web-work.tools/posts/branches-git/)
+* [Creating a Test Branch and Merging changes back to Master](https://web-work-tools.github.io/posts/branches-git/)
 * [Goodbye Jekyll - Hello Hugo](https://www.jvt.me/posts/2019/01/04/goodbye-jekyll-hello-hugo/)
 
 ## Other Hugo Themes
@@ -363,9 +363,9 @@ I've switched over to the Indieweb Hugo Theme, Indigo, a testament to how easy i
 
 ## Related Posts
 
-* [Hugo Starter Kit](https://web-work.tools/hugo-starter-kit/)
-* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
-* [Content Creation](https://web-work.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://web-work.tools/static-site-generators/)
-* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
+* [Hugo Starter Kit](https://web-work-tools.github.io/hugo-starter-kit/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work-tools.github.io/learn-html-css/)
+* [Content Creation](https://web-work-tools.github.io/content-creation/)
+* [GitHub Pages Extended Resources](https://web-work-tools.github.io/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work-tools.github.io/static-site-generators/)
+* [Command Line - Git - SSH - BASH](https://web-work-tools.github.io/command-line-git-ssh/)

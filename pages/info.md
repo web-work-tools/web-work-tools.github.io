@@ -19,7 +19,7 @@ I'm also quite interested in [data science](https://www.csbtechemporium.com/deep
 >I aim to create content of the highest quality - relating complex subjects in a clear and concise fashion - supplying essential details, with quality sources for further study.
 
 * [**About Me**](https://infominer.xyz/about)
-* [**Web-work.tools**](https://web-work.tools/are-belong-to-us/) - Site Directory
+* [**web-work-tools.github.io**](https://web-work-tools.github.io/are-belong-to-us/) - Site Directory
 * [**Github Portfolio**](https://infominer.id/repo-portfolio) - not perfectly up to date, but still neat.
 
 [![](https://imgur.com/H7Uwes5.png)](https://github.com/infominer33)
@@ -28,11 +28,11 @@ I'm also quite interested in [data science](https://www.csbtechemporium.com/deep
 
 This is where you can get updates most of the web-sites I'm working on.
 
-## [Web-work.tools](https://Web-work.tools)
+## [web-work-tools.github.io](https://web-work-tools.github.io)
 
 Resources for Linux Newbs, Web publishing, Content Creation and more!
 
-### [Indieweb](https://web-work.tools/indieweb)
+### [Indieweb](https://web-work-tools.github.io/indieweb)
 
 Take back control over your content.
 

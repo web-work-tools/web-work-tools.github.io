@@ -94,11 +94,11 @@ However, basically none of the regular jekyll plugins work with mkdocs, it's a w
 
 ## Related Posts
 
-* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/jamstack/html-css/)
-* [Content Creation](https://web-work.tools/content-creation/)
-* [GitHub Pages Extended Resources](https://web-work.tools/jamstack/github-pages-extended-resources/)
-* [Static Site Generators](https://web-work.tools/jamstack/static-site-generators/)
-* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/)
-* [Command Line - Git - SSH - BASH](https://web-work.tools/jamstack/terminal-basics-git-ssh/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work-tools.github.io/jamstack/html-css/)
+* [Content Creation](https://web-work-tools.github.io/content-creation/)
+* [GitHub Pages Extended Resources](https://web-work-tools.github.io/jamstack/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work-tools.github.io/jamstack/static-site-generators/)
+* [Migrating from Jekyll HPSTR to Hugo HPSTR theme](https://web-work-tools.github.io/jamstack/jekyll-hpstr-hugo-theme/)
+* [Command Line - Git - SSH - BASH](https://web-work-tools.github.io/jamstack/terminal-basics-git-ssh/)
 
 </div>

@@ -39,7 +39,7 @@ The number of technical subjects I've begun to learn is incredible, thanks to Gi
 
 ## Getting Started
 
-Before you start using Jekyll or any other [static site generators](https://web-work.tools/jamstack/static-site-generators/), it's helpful to understand how GitHub pages works.
+Before you start using Jekyll or any other [static site generators](https://web-work-tools.github.io/jamstack/static-site-generators/), it's helpful to understand how GitHub pages works.
 
 ![](https://user-images.githubusercontent.com/44134283/98421763-15ce8900-2058-11eb-93fe-969403fb4fee.png)
 
@@ -85,7 +85,7 @@ You can install 'classic themes' simply by copying (or forking) their repository
 
 What separates 'classic themes' from jekyll themes is a configuration file called `_config.yml`. This lets jekyll know how to build your site, and it lets github know it can be built. 
 
-![](https://web-work.tools/images/gh-jekyll.png)
+![](https://web-work-tools.github.io/images/gh-jekyll.png)
 
 * [Jekyll README](https://github.com/jekyll/jekyll/blob/master/README.markdown)
 * [Jekyll Configuration options](https://jekyllrb.com/docs/configuration/options/)
@@ -173,7 +173,7 @@ Minimal Mistakes is forkable to create a working site, and its a gem-based theme
 * [Minimal Mistakes - Post Archive with Feature Rows](https://mmistakes.github.io/minimal-mistakes/post-archive-feature-rows/) [[source]](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/post-archive-feature-rows.html)
 * [minimal-mistakes/markup-syntax-highlighting/](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/)
 
-I have my own demo site with lots of detailed instructions on how I set them up, you can check out here: [web-work.tools/minimal-mistakes/](https://web-work.tools/minimal-mistakes/)
+I have my own demo site with lots of detailed instructions on how I set them up, you can check out here: [web-work-tools.github.io/minimal-mistakes/](https://web-work-tools.github.io/minimal-mistakes/)
 
 ### Other Jekyll Themes I Like
 
@@ -490,7 +490,7 @@ You can use GitHub actions or other CI to build your site automatically when you
 
 This is beyond the scope of a GitHub pages post, but I can't help but adding a few links to indieweb. If you are publishing a personal blog, independent from an enterprise, then you are part of the indieweb.
 
-<a href="https://web-work.tools/indieweb/" class="btn btn-success">web-work.tools/indieweb/</a>
+<a href="https://web-work-tools.github.io/indieweb/" class="btn btn-success">web-work-tools.github.io/indieweb/</a>
 
 * [indieweb.org](https://indieweb.org)
 * [Micropub](https://indieweb.org/Micropub)

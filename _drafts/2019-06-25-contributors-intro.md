@@ -46,7 +46,7 @@ Pull requests welcome.
 Here are links to the organizations, on GitHub and a few of the websites in active development.
 
 * [DIDecentral](https://github.com/DIDecentral)
-* [Web-work.tools](https://github.com/web-work-tools/)
+* [web-work-tools.github.io](https://github.com/web-work-tools/)
   * [Indieweb](https://github.com/web-work-tools/indieweb)
 * [Bitcoin Nerds](https://github.com/bitcoin-nerds)
   * [Bitcoin History](https://github.com/bitcoin-nerds/history)
@@ -89,7 +89,7 @@ I would love it if you shared.
 
 ## @ mention on twitter
 
-You can simply @ mention @didecentral, @sourcecrypto @LCT-curator and any other accounts we've created for a particular niche, on twitter. Soon, each organization within the InfoHub will have it's own Twitter account, and the history of each of those accounts will be preserved and republished on their respective websites in keeping with [indieweb](https://web-work.tools/indieweb/) principles.
+You can simply @ mention @didecentral, @sourcecrypto @LCT-curator and any other accounts we've created for a particular niche, on twitter. Soon, each organization within the InfoHub will have it's own Twitter account, and the history of each of those accounts will be preserved and republished on their respective websites in keeping with [indieweb](https://web-work-tools.github.io/indieweb/) principles.
 
 ## Contributing Via Discord
 

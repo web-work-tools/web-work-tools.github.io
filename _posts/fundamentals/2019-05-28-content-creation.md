@@ -52,7 +52,7 @@ combines feeds "into content and other magical creations".
 
 ## Editors
 
-![](https://web-work.tools/images/content-creation.png)
+![](https://web-work-tools.github.io/images/content-creation.png)
 * [Visual Studio Code](https://code.visualstudio.com/)
 Where I build webpages.
 

@@ -7,8 +7,8 @@ header: no
 image:
    title: "webwork-tools.png"
    thumb: "power-words.png"
-   caption: "web-work.tools"
-   caption_url: http://web-work.tools/
+   caption: "web-work-tools.github.io"
+   caption_url: http://web-work-tools.github.io/
 modified: 2019-06-15T15:59:13-23:00
 ---
 
@@ -24,38 +24,38 @@ For now, it's a high-level (and out of date) index of content I've created, inde
 
 ## Site Index
 
-* [Practical PGP, Escrow and Cryptocurrency Keysignatures](https://web-work.tools/practical-public-key-crypto/)
-* [Infominer's Starred Repositories](https://web-work.tools/infominer33-starred-repos/)
-* [Infominer's Forked Repositories](https://web-work.tools/infominer33-forked-repositories/)
+* [Practical PGP, Escrow and Cryptocurrency Keysignatures](https://web-work-tools.github.io/practical-public-key-crypto/)
+* [Infominer's Starred Repositories](https://web-work-tools.github.io/infominer33-starred-repos/)
+* [Infominer's Forked Repositories](https://web-work-tools.github.io/infominer33-forked-repositories/)
 
 ### WebPub
 
-* [GitHub Pages Starter Pack](https://web-work.tools/jamstack/github-pages-starter-pack//)
-* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://web-work.tools/static-site-generators/)
-* [Hugo Starter Kit](https://web-work.tools/hugo-starter-kit/)
-* [Make a Github Portfolio](https://web-work.tools/make-a-github-portfolio/)
-* [Open Source Publishing](https://web-work.tools/open-source-publishing/)
-* [Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
-* [Creating a Test Branch and Merging back the Changes](https://web-work.tools/branches-git/)
-* [Content Creation](https://web-work.tools/content-creation/)
-* [Learn HTML CSS and Associated Markup Languages](https://web-work.tools/learn-html-css/)
-* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
+* [GitHub Pages Starter Pack](https://web-work-tools.github.io/jamstack/github-pages-starter-pack//)
+* [GitHub Pages Extended Resources](https://web-work-tools.github.io/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work-tools.github.io/static-site-generators/)
+* [Hugo Starter Kit](https://web-work-tools.github.io/hugo-starter-kit/)
+* [Make a Github Portfolio](https://web-work-tools.github.io/make-a-github-portfolio/)
+* [Open Source Publishing](https://web-work-tools.github.io/open-source-publishing/)
+* [Migrate from Jekyll-HPSTR to HPSTR-Hugo Theme](https://web-work-tools.github.io/migrate-jekyll-hpstr-hugo/)
+* [Creating a Test Branch and Merging back the Changes](https://web-work-tools.github.io/branches-git/)
+* [Content Creation](https://web-work-tools.github.io/content-creation/)
+* [Learn HTML CSS and Associated Markup Languages](https://web-work-tools.github.io/learn-html-css/)
+* [Command Line - Git - SSH - BASH](https://web-work-tools.github.io/command-line-git-ssh/)
 
 ### IndieWeb
 
-* [IndieWeb Resources](https://web-work.tools/indieweb/resources/)
-* [IndieWeb GitHub Repositories](https://web-work.tools/indieweb/github-repos/)
-* [FreeNode IRC #indieweb-dev on IIW RWoT and DID's](https://web-work.tools/indieweb/indieweb-dev-on-did/)
-* [Indigo Authors - Indiweb Features](https://web-work.tools/indieweb/indigo-authors/)
+* [IndieWeb Resources](https://web-work-tools.github.io/indieweb/resources/)
+* [IndieWeb GitHub Repositories](https://web-work-tools.github.io/indieweb/github-repos/)
+* [FreeNode IRC #indieweb-dev on IIW RWoT and DID's](https://web-work-tools.github.io/indieweb/indieweb-dev-on-did/)
+* [Indigo Authors - Indiweb Features](https://web-work-tools.github.io/indieweb/indigo-authors/)
 
 ### SEO
 
-* [Learn-SEO](https://web-work.tools/learn-seo/)
-* [Getting Started with Adwords Keyword Planner](https://web-work.tools/getting-started-adwords-keyword-planner/)
-* [100s of free SEO Tools](https://web-work.tools/seo-tools/)
+* [Learn-SEO](https://web-work-tools.github.io/learn-seo/)
+* [Getting Started with Adwords Keyword Planner](https://web-work-tools.github.io/getting-started-adwords-keyword-planner/)
+* [100s of free SEO Tools](https://web-work-tools.github.io/seo-tools/)
 
-![](https://web-work.tools/images/power-words.png)
+![](https://web-work-tools.github.io/images/power-words.png)
 
 
 ## Off-Site Resources

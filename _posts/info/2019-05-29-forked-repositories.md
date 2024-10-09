@@ -23,7 +23,7 @@ modified: 2019-05-29T22:22:22-23:00
 
 An organized list of my forked repositories.
 
-Now that I have both forked [and starred](https://web-work.tools/infominer33-starred-repos/)
+Now that I have both forked [and starred](https://web-work-tools.github.io/infominer33-starred-repos/)
 
 ## WebPub
 

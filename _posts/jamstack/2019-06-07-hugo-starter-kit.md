@@ -130,7 +130,7 @@ I guess the creators of hugo don't use twitter much... since I couldn't get inte
 
 I still use their params, but coocked up my own based from theirs and something I had in my head.
 
-You can verify this works at [web-work.tools/indieweb](https://web-work.tools/indieweb):
+You can verify this works at [web-work-tools.github.io/indieweb](https://web-work-tools.github.io/indieweb):
 
 ![](https://imgur.com/CGtUwEI.png)
 
@@ -162,7 +162,7 @@ title = "Post title"
 
 * [github.com/search?q=hugo+theme](https://github.com/search?q=hugo+theme)
 * [themes.gohugo.io](https://themes.gohugo.io/)
-* [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
+* [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://web-work-tools.github.io/migrate-jekyll-hpstr-hugo/)
   * [mikeymop/minimal-mistakes-hugo/](https://github.com/mikeymop/minimal-mistakes-hugo/) - I see there is also a minimal mistakes hugo theme, so I'll have to try that sometime :)
 
 ### Academic
@@ -205,10 +205,10 @@ Another documentation theme, I think a bit simpler than Academic.
 
 All this started a few months ago when I began creating an [awesome list](https://github.com/DIDecentralized) on github, then got into publishing via GitHub Pages.
 
-* [GitHub Pages Starter Pack](https://web-work.tools/jamstack/github-pages-starter-pack//)
-* [GitHub Pages Extended Resources](https://web-work.tools/github-pages-extended-resources/)
-* [Static Site Generators](https://web-work.tools/static-site-generators) (just a start)
-* [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://web-work.tools/migrate-jekyll-hpstr-hugo/)
-* [Command Line - Git - SSH - BASH](https://web-work.tools/command-line-git-ssh/)
+* [GitHub Pages Starter Pack](https://web-work-tools.github.io/jamstack/github-pages-starter-pack//)
+* [GitHub Pages Extended Resources](https://web-work-tools.github.io/github-pages-extended-resources/)
+* [Static Site Generators](https://web-work-tools.github.io/static-site-generators) (just a start)
+* [Migrating From Jekyll HPSTR theme to Hugo HPSTR theme](https://web-work-tools.github.io/migrate-jekyll-hpstr-hugo/)
+* [Command Line - Git - SSH - BASH](https://web-work-tools.github.io/command-line-git-ssh/)
 
 </div>

@@ -12,14 +12,14 @@ modified: 2019-05-30T13:15:59-23:00
 header:
   image_fullwidth: "infolytics/infominer-id-all-pages-20190417-20190524.jpg"
   caption: "(PDF)"
-  caption_url: "https://github.com/web-work-tools/web-work.tools.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf"
+  caption_url: "https://github.com/web-work-tools/web-work-tools.github.io.github.io/blob/master/images/infolytics/Analytics-All-Web-Site-Data-Pages-20190417-20190524.pdf"
 
 image:
   thumb: "infolytics/5-25-19-organic-search-infominer.png"
 toc: false
 ---
 
-<div class="pull-left"><img src="https://web-work.tools/images/infolytics/record-monthly.png"/></div>
+<div class="pull-left"><img src="https://web-work-tools.github.io/images/infolytics/record-monthly.png"/></div>
 
 Shows what can be done in a short period of time.  I didn't start building any of this till the beginning of this year. 
 
@@ -37,7 +37,7 @@ To get a high-quality image, I used [convert-my-image.com](http://convert-my-ima
 
 ## Generating Pages from Data using Liquid
 
-I put [performance1.csv](https://web-work.tools/images/infolytics/performance1.csv) and [performance2.csv](https://web-work.tools/images/infolytics/performance1.csv) into the /images directory (you can [check out on github](https://github.com/web-work-tools/web-work.tools.github.io/tree/master/images/infolytics))
+I put [performance1.csv](https://web-work-tools.github.io/images/infolytics/performance1.csv) and [performance2.csv](https://web-work-tools.github.io/images/infolytics/performance1.csv) into the /images directory (you can [check out on github](https://github.com/web-work-tools/web-work-tools.github.io.github.io/tree/master/images/infolytics))
 
 From there, jekyll throws it all up into `site.data.performance1` and `site.data.performance2` so I can call it with a bit of code and generate pages with it. 
 
@@ -53,7 +53,7 @@ From there, jekyll throws it all up into `site.data.performance1` and `site.data
 As you can see, it's possible to begin showing up in google pretty quickly. I started building at the beginning of the year, and I hadn't begun in earnest until you see the chart starting to pop off (around the time I submitted my sitemap to google).
 
 <figure class="full">
-	<img src="https://web-work.tools/images/infolytics/5-29-19-organic-search-infominer.png" alt="">
+	<img src="https://web-work-tools.github.io/images/infolytics/5-29-19-organic-search-infominer.png" alt="">
 	<figcaption></figcaption>
 </figure>
 <figure class="full">
@@ -61,6 +61,6 @@ As you can see, it's possible to begin showing up in google pretty quickly. I st
 	<figcaption></figcaption>
 </figure>
 <figure class="full">
-	<img src="https://web-work.tools/images/infolytics/5-24-19-organic-search-infominer.png" alt="">
-	<figcaption><a href="https://web-work.tools/images/infolytics/infominer-id-Performance-2019-05-24.csv">infominer-id-Performance-2019-05-24.csv</a></figcaption>
+	<img src="https://web-work-tools.github.io/images/infolytics/5-24-19-organic-search-infominer.png" alt="">
+	<figcaption><a href="https://web-work-tools.github.io/images/infolytics/infominer-id-Performance-2019-05-24.csv">infominer-id-Performance-2019-05-24.csv</a></figcaption>
 </figure>

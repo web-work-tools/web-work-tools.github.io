@@ -37,7 +37,7 @@ Since I've created four GitHub organizations for these public-domain educational
 
 Each site is set up a little different, and will have its own version of this post, eventually.
 
-[GitHub Pages Starter Pack: Minimal Mistakes](https://web-work.tools/github-pages-starter-pack/#minimal-mistakes){: .btn .btn--info .align-center}
+[GitHub Pages Starter Pack: Minimal Mistakes](https://web-work-tools.github.io/github-pages-starter-pack/#minimal-mistakes){: .btn .btn--info .align-center}
 
 If you peruse the resource linked above, you'll find there are a number of integrations and potential use-cases that I've yet to explore, practically speaking.
 
@@ -660,19 +660,19 @@ feature_row:
     url: "https://sourcecrypto.pub/blog/thecryptoconomy-podcast-deep-dive/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: "https://web-work.tools/images/github-pages.jpeg"
+  - image_path: "https://web-work-tools.github.io/images/github-pages.jpeg"
     alt: "GHPages Starter Pack"
     title: "GitHub Pages Starter Pack"
     excerpt: "Publishing a Website via GitHub pages is free, and easy. Everything you need to get going in one place + extended resources."
-    url: "https://web-work.tools/github-pages-starter-pack/"
+    url: "https://web-work-tools.github.io/github-pages-starter-pack/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: "https://web-work.tools/images/pgp-og.png"
+  - image_path: "https://web-work-tools.github.io/images/pgp-og.png"
     alt: "cypherpunk essentials"
     title: "Using PGP, Escrow, and Cryptocurrency Keysignatures"
     excerpt: "Asymmetric Encryption: Phil Zimmerman, PGP, Bitcoin and Ethereum key-signatures, Escrow, SSL, Various Apps and Resourses."
-    url: "https://web-work.tools/practical-public-key-crypto/"
+    url: "https://web-work-tools.github.io/practical-public-key-crypto/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: "https://sourcecrypto.pub/rare-digital-art/img/Salvador-Pepe-rare-Pepe-auction-1-13-18.jpeg"
@@ -682,11 +682,11 @@ feature_row2:
     url: "https://sourcecrypto.pub/bitcoin-history/rare-pepe/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: "https://web-work.tools/images/content-creation.png"
+  - image_path: "https://web-work-tools.github.io/images/content-creation.png"
     alt: "Resources for Content Creation"
     title: "Resources for Content Creation"
     excerpt: "All kinda tools for images and editing and handy stuff to assist with content creation."
-    url: "https://web-work.tools/content-creation/"
+    url: "https://web-work-tools.github.io/content-creation/"
     btn_label: "Read More"
 btn_class: "btn--primary"
 ```
@@ -745,7 +745,7 @@ I modified this to include the 'Edit this page' button, and some cryptocurrency 
   <p><img src="https://infominer.id/assets/img/1pLr.gif"/></p>
   <h4>SUPPORT THE CAUSE</h4>
     <p>Feel free to <a href="mailto:infominer@protonmail.com">contact me</a>!</p>
-    <p>Especially if you're interested in <a href="https://web-work.tools/services/#iso-clients-who-want-bitcoin-related-content">bitcoin related content</a> and/or research!</p>
+    <p>Especially if you're interested in <a href="https://web-work-tools.github.io/services/#iso-clients-who-want-bitcoin-related-content">bitcoin related content</a> and/or research!</p>
     <!-- Beginning of tippin.me Button -->
     <p><div id="tippin-button" data-dest="infominer33"></div>
     <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script></p>
